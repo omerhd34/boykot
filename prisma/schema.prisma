@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  slug        String   @unique
+  iconKey     String
+  description String?
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  brands      Brand[]
+
+  @@index([order])
+}
+
+model Brand {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  name          String
+  slug          String   @unique
+  description   String
+  country       String
+  website       String?
+  img           String?
+  isBoycotted   Boolean  @default(false)
+  boycottReason String?
+  categoryId    String   @db.ObjectId
+  category      Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
