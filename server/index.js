@@ -30,7 +30,7 @@ app.get("/api/categories", async (_req, res) => {
             description: true,
             country: true,
             website: true,
-            isBoycotted: true,
+            isBoycotted: "boykot",
             boycottReason: true,
           },
         },

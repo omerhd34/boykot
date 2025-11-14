@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { getBrandBySlugs } from "@/lib/categories.js";
 import {
   IoArrowBack,
-  IoGlobeOutline,
   IoLocationOutline,
   IoShieldCheckmarkOutline,
   IoWarningOutline,
@@ -14,6 +13,7 @@ import {
   IoAppsOutline,
   IoInformationCircleOutline,
   IoBusinessOutline,
+  IoAlertCircleOutline,
 } from "react-icons/io5";
 
 export const runtime = "nodejs";
@@ -45,6 +45,33 @@ export default async function BrandDetailPage({ params }) {
   if (!brand) {
     notFound();
   }
+
+  // UPDATED: Badge renkleri ve iconları
+  const getBadgeStyles = (status) => {
+    switch (status) {
+      case "boykot":
+        return {
+          bg: "bg-linear-to-r from-red-500 to-red-600",
+          icon: IoWarningOutline,
+          label: "Boykot",
+        };
+      case "onerilmiyor":
+        return {
+          bg: "bg-linear-to-r from-amber-500 to-amber-600",
+          icon: IoAlertCircleOutline,
+          label: "Önerilmiyor",
+        };
+      default:
+        return {
+          bg: "bg-linear-to-r from-emerald-500 to-emerald-600",
+          icon: IoShieldCheckmarkOutline,
+          label: "Boykot Edilmiyor",
+        };
+    }
+  };
+
+  const statusBadge = getBadgeStyles(brand.isBoycotted);
+  const StatusIcon = statusBadge.icon;
 
   return (
     <section className="bg-white py-16">
@@ -81,17 +108,13 @@ export default async function BrandDetailPage({ params }) {
 
         <header className="space-y-4">
           <div className="flex flex-wrap items-center gap-3">
-            {brand.isBoycotted ? (
-              <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-red-500 to-red-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
-                <IoWarningOutline className="h-4 w-4" />
-                Boykot
-              </div>
-            ) : (
-              <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-emerald-500 to-emerald-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
-                <IoShieldCheckmarkOutline className="h-4 w-4" />
-                Boykot Edilmiyor
-              </div>
-            )}
+            {/* UPDATED: Dinamik badge */}
+            <div
+              className={`inline-flex items-center gap-2 rounded-full ${statusBadge.bg} px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm`}
+            >
+              <StatusIcon className="h-4 w-4" />
+              {statusBadge.label}
+            </div>
             {brand.subCategory && (
               <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-purple-500 to-purple-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
                 <IoAppsOutline className="h-4 w-4" />
@@ -129,14 +152,38 @@ export default async function BrandDetailPage({ params }) {
               </div>
             )}
             {brand.boycottReason && (
-              <div className="space-y-3 rounded-2xl border-2 border-red-200 bg-red-50 px-6 py-5 shadow-sm">
+              <div
+                className={`space-y-3 rounded-2xl border-2 px-6 py-5 shadow-sm ${
+                  brand.isBoycotted === "boykot"
+                    ? "border-red-200 bg-red-50"
+                    : "border-amber-200 bg-amber-50"
+                }`}
+              >
                 <div className="flex items-center gap-2">
-                  <IoWarningOutline className="h-5 w-5 text-red-600" />
-                  <h2 className="text-sm font-bold uppercase tracking-wide text-red-600">
-                    Boykot Gerekçesi
+                  {brand.isBoycotted === "boykot" ? (
+                    <IoWarningOutline className="h-5 w-5 text-red-600" />
+                  ) : (
+                    <IoAlertCircleOutline className="h-5 w-5 text-amber-600" />
+                  )}
+                  <h2
+                    className={`text-sm font-bold uppercase tracking-wide ${
+                      brand.isBoycotted === "boykot"
+                        ? "text-red-600"
+                        : "text-amber-600"
+                    }`}
+                  >
+                    {brand.isBoycotted === "boykot"
+                      ? "Boykot Gerekçesi"
+                      : "Neden Önerilmiyor?"}
                   </h2>
                 </div>
-                <p className="text-sm leading-relaxed text-red-700">
+                <p
+                  className={`text-sm leading-relaxed ${
+                    brand.isBoycotted === "boykot"
+                      ? "text-red-700"
+                      : "text-amber-700"
+                  }`}
+                >
                   {brand.boycottReason}
                 </p>
               </div>
@@ -152,10 +199,15 @@ export default async function BrandDetailPage({ params }) {
               <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
                 <dt className="text-sm font-semibold text-slate-700">Durum</dt>
                 <dd className="flex items-center gap-2 text-sm font-medium text-slate-900">
-                  {brand.isBoycotted ? (
+                  {brand.isBoycotted === "boykot" ? (
                     <>
                       <IoCloseCircleOutline className="h-5 w-5 text-red-600" />
                       <span>Boykot</span>
+                    </>
+                  ) : brand.isBoycotted === "onerilmiyor" ? (
+                    <>
+                      <IoAlertCircleOutline className="h-5 w-5 text-amber-600" />
+                      <span>Önerilmiyor</span>
                     </>
                   ) : (
                     <>
@@ -235,7 +287,8 @@ export default async function BrandDetailPage({ params }) {
                 </div>
               )}
             </dl>
-            {brand.isBoycotted &&
+            {(brand.isBoycotted === "boykot" ||
+              brand.isBoycotted === "onerilmiyor") &&
               brand.alternativeProducts &&
               brand.alternativeProducts.length > 0 && (
                 <div className="mt-6 space-y-4 border-t border-orange-200 pt-6">
@@ -320,10 +373,15 @@ export default async function BrandDetailPage({ params }) {
                           {subBrand.name}
                         </h4>
                         <div className="mt-1">
-                          {subBrand.isBoycotted ? (
+                          {subBrand.isBoycotted === "boykot" ? (
                             <span className="inline-flex items-center gap-1 rounded-full bg-red-100 px-2 py-0.5 text-xs font-medium text-red-700">
                               <IoWarningOutline className="h-3 w-3" />
                               Boykot
+                            </span>
+                          ) : subBrand.isBoycotted === "onerilmiyor" ? (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                              <IoAlertCircleOutline className="h-3 w-3" />
+                              Önerilmiyor
                             </span>
                           ) : (
                             <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">

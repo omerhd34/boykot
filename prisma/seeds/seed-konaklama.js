@@ -12,7 +12,7 @@ const konaklamaCategory = {
       Airbnb, internet üzerinden çalışan bir pazar yeri olarak faaliyet gösterir ve dünya genelinde 220'den fazla ülkede milyonlarca kayıtlı kullanıcıya sahiptir. Platform, rezervasyon, ödeme ve kullanıcı yorumları gibi süreçleri dijital olarak yönetir. Şirket, geleneksel otel sektörüne alternatif olarak "paylaşımlı ekonomi" modelini yaygınlaştırmasıyla bilinir ve sürekli olarak deneyim ve hizmet çeşitliliğini artırmaya odaklanır.`,
       country: "Amerika Birleşik Devletleri",
       img: "/airbnb.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `İşgal Altındaki Filistin Topraklarında Ilan Verilmesine Izin Veren Airbnb, Bu Tür Ilanlardan 200'ünü Kaldıracağını Duyurduktan Sonra, Kararından Dönerek İsrail'in Işgaline Bilerek Suç Ortaklığı Yaptığını Göstermiştir. Airbnb, İsrail'in Ve Gayrimeşru Siyonist Yerleşimcilerin Batı Şeria'da Işgal Ettiği Evlerin Listelenmesine Ve Kiralanmasına Izin Vermektedir. 2018 Yılında Yaptığı Açıklamada Airbnb, Gayrimeşru şekilde El Koyulmuş Evleri Sisteminden Kaldıracağını Duyurmuşsa Da Bir Dizi Davanın Ardından Bu Evlerin Sistemden Kaldırılamayacağını, Fakat Işgal Edilen Bu Evlerden Elde Edilen Gelirlerin Bağışlanacağını Açıklamıştır. Faaliyetleri Ile Dolaylı Olarak İsrail Işgaline Meşruiyet Kazandırmak Airbnb'yi Boykot Etmeyi Gerektirmektedir. Ayrıca Saldırılardan Dolayı Hamas'ı Kınamaktadır.`,
     },
     {
@@ -20,7 +20,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -28,7 +28,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -36,7 +36,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -44,7 +44,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -52,7 +52,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -60,7 +60,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -68,7 +68,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -76,7 +76,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -84,7 +84,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -92,7 +92,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -100,7 +100,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -108,7 +108,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -116,7 +116,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -124,7 +124,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -132,7 +132,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -140,7 +140,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -148,7 +148,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -156,7 +156,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -164,7 +164,7 @@ const konaklamaCategory = {
       slug: "",
       description: ``,
       country: "",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
   ],

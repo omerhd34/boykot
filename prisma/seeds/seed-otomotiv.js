@@ -21,7 +21,7 @@ Alfa Romeo markası, herhangi bir boykot listesinde yer almamaktadır. İsrail'e
       country: "İtalya",
       website: "https://www.alfaromeo.com/",
       img: "/alfa-romeo.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Anadolu Isuzu",
@@ -43,7 +43,7 @@ Anadolu Isuzu, Türkiye merkezli üretim yapan ve Türk-Japon ortaklığında fa
       country: "Türkiye",
       website: "https://anadoluisuzu.com.tr/",
       img: "/anadolu-isuzu.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Aston Martin",
@@ -63,7 +63,7 @@ Aston Martin markası, herhangi bir boykot listesinde yer almamaktadır. İngili
       country: "Birleşik Krallık",
       website: "https://www.astonmartin.com/en",
       img: "/aston-martin.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Baojun",
@@ -81,7 +81,7 @@ Baojun'un ürün yelpazesi oldukça geniştir ve binek otomobiller, kompakt SUV'
       country: "Çin",
       website: "https://www.sgmw.com.cn/en/baojun",
       img: "/baojun.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Baojun markası, Çin menşeli SAIC-GM-Wuling Automobile (SGMW) ortaklığına ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Baojun markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -106,7 +106,7 @@ BMW modelleri, güçlü motorları, hassas sürüş dinamikleri, lüks iç mekan
       country: "Almanya",
       website: "https://www.bmw.com.tr/tr/index.html",
       img: "/bmw.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "BMW markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Bu nedenle BMW ürünlerinin satın alınması önerilmemektedir.",
       alternative_products: ["togg", "toyota", "honda", "lexus", "mazda"],
@@ -129,7 +129,7 @@ Marka, sürdürülebilirlik konusunda da adımlar atmakta ve Mini Electric ile t
           country: "Birleşik Krallık",
           website: "https://www.mini.com.tr/tr_TR/home.html",
           img: "/mini.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Mini markası, BMW Grubu'nun sahibi olduğu bir markadır. BMW markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. BMW'nin bu tutumu nedeniyle, BMW Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Mini markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -152,7 +152,7 @@ Rolls-Royce, sadece bir otomobil üreticisi değil, aynı zamanda bir yaşam tar
           country: "Birleşik Krallık",
           website: "https://www.rolls-roycemotorcars.com/en_GB/home.html",
           img: "/rolls-royce.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Rolls-Royce markası, BMW Grubu'nun sahibi olduğu bir yan kuruluştur ve 1998 yılından bu yana BMW bünyesinde faaliyet göstermektedir. BMW markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. BMW'nin bu tutumu nedeniyle, BMW Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Rolls-Royce markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -181,7 +181,7 @@ Alpina'nın mevcut model yelpazesi, BMW'nin çeşitli modellerinin Alpina versiy
           country: "Almanya",
           website: "https://www.alpina-automobiles.com/en/",
           img: "/alpina.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Alpina markası, 2022 yılından itibaren tamamen BMW Grubu'nun sahibi olduğu bir yan kuruluştur. BMW markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. BMW'nin bu tutumu nedeniyle, BMW Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Alpina markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: ["togg", "toyota", "honda", "lexus", "mazda"],
@@ -206,7 +206,7 @@ Buick, General Motors'un premium marka stratejisinin bir parçasıdır ve Chevro
       country: "Amerika Birleşik Devletleri",
       website: "https://www.buick.com/",
       img: "/buick.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Buick markası, General Motors (GM) şirketine ait bir markadır. General Motors'un İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, GM bünyesindeki tüm markalar boykot kapsamına alınmıştır. General Motors'un İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, General Motors'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Buick markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -231,7 +231,7 @@ BYD'nin teknoloji odaklı yaklaşımı, araçlarında gelişmiş otonom sürüş
       country: "Çin",
       website: "https://www.byd.com/",
       img: "/byd-auto.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "BYD Auto markası, Çin menşeli BYD Company Limited şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. BYD Auto markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -252,7 +252,7 @@ Cadillac araçları, güçlü motorları, lüks iç mekanları, gelişmiş tekno
       country: "Amerika Birleşik Devletleri",
       website: "https://www.cadillac.com/",
       img: "/cadillac.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Cadillac markası, General Motors (GM) şirketine ait bir markadır. General Motors'un İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, GM bünyesindeki tüm markalar boykot kapsamına alınmıştır. General Motors'un İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, General Motors'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Cadillac markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -281,7 +281,7 @@ Marka, Çin içi pazarında güçlü bir konuma sahip olmakla birlikte, uluslara
       country: "Çin",
       website: "https://www.globalchangan.com/",
       img: "/changan.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Changan markası, Çin menşeli Changan Automobile Group şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Changan markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -304,7 +304,7 @@ Marka, uluslararası genişleme stratejisi kapsamında birçok ülkede üretim t
       country: "Çin",
       website: "https://chery.com/",
       img: "/chery.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Chery markası, Çin menşeli Chery Automobile Co., Ltd. şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Chery markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -327,7 +327,7 @@ Chevrolet, güvenilirlik, dayanıklılık ve değer odaklı yaklaşımıyla tan�
       country: "Amerika Birleşik Devletleri",
       website: "https://www.chevrolet.com/",
       img: "/chevrolet.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Chrysler",
@@ -347,7 +347,7 @@ Marka, konfor, lüks ve teknoloji odaklı yaklaşımıyla bilinmektedir. Chrysle
       country: "Amerika Birleşik Devletleri",
       website: "https://www.chrysler.com/",
       img: "/chrysler.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Chrysler markası, Stellantis grubunun bir parçasıdır. Stellantis, 2021 yılında Fiat Chrysler Automobiles (FCA) ve PSA Group'un birleşmesiyle oluşmuştur. Stellantis'in ve önceki yapısı FCA'nın İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, Stellantis bünyesindeki tüm markalar boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Stellantis'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Chrysler markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -370,7 +370,7 @@ Citroën, tasarım dili ve konfor odaklı yaklaşımıyla dikkat çekmektedir. M
       country: "Fransa",
       website: "https://www.citroen.com.tr/",
       img: "/citroen.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Dacia",
@@ -386,7 +386,7 @@ Dacia, Renault'nun teknolojisi ve platformlarını kullanarak maliyet avantajı 
       country: "Romanya",
       website: "https://www.dacia.com.tr/",
       img: "/dacia.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "DS Automobiles",
@@ -402,7 +402,7 @@ DS Automobiles, özellikle iç mekan tasarımı ve lüks detaylarla dikkat çekm
       country: "Fransa",
       website: "https://www.dsautomobiles.com.tr/",
       img: "/ds-automobiles.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Dodge",
@@ -418,7 +418,7 @@ Marka, "Never Lift" (Asla Vazgeçme) sloganıyla performans ve güç odaklı bir
       country: "Amerika Birleşik Devletleri",
       website: "https://www.dodge.com/",
       img: "/dodge.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Dodge markası, Stellantis grubunun bir parçasıdır. Stellantis, 2021 yılında Fiat Chrysler Automobiles (FCA) ve PSA Group'un birleşmesiyle oluşmuştur. Stellantis'in ve önceki yapısı FCA'nın İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, Stellantis bünyesindeki tüm markalar boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Stellantis'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Dodge markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -437,7 +437,7 @@ Dongfeng'in ürün yelpazesi oldukça geniştir ve Dongfeng Aeolus, Dongfeng Fen
       country: "Çin",
       website: "https://www.dongfeng-global.com/",
       img: "/dongfeng.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Dongfeng markası, Çin menşeli Dongfeng Motor Corporation şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Dongfeng markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -456,7 +456,7 @@ FAW'in ürün yelpazesi oldukça geniştir ve Besturn, Jiefang (ticari araçlar)
       country: "Çin",
       website: "https://www.faw.com/",
       img: "/faw-group.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "FAW Group markası, Çin menşeli First Automobile Works (FAW) şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. FAW Group markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -477,7 +477,7 @@ Ferrari, sadece bir otomobil üreticisi değil, aynı zamanda bir yaşam tarzı 
       country: "İtalya",
       website: "https://www.ferrari.com/en-TR",
       img: "/ferrari.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Fiat",
@@ -493,7 +493,7 @@ Türkiye'de Fiat, Tofaş ortaklığıyla üretim yapmaktadır. Tofaş, 1968'de F
       country: "İtalya",
       website: "https://www.fiat.com.tr/",
       img: "/fiat.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Ford Motor Company",
@@ -511,7 +511,7 @@ Marka, güvenilirlik, dayanıklılık ve değer odaklı yaklaşımıyla tanınma
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ford.com/",
       img: "/ford-motor-company.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Ford Motor Company markası, İsrail ile ticari ilişkileri ve İsrail pazarındaki faaliyetleri nedeniyle boykot kapsamına alınmıştır. Ford'un İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Şirketin İsrail ile olan ticari bağlantıları ve bu ülkedeki faaliyetleri nedeniyle, Ford Motor Company'nin ürünlerinin satın alınması önerilmemektedir. Ford markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -530,7 +530,7 @@ GAC'in ürün yelpazesi oldukça geniştir ve Trumpchi serisi SUV'lar, sedanlar 
       country: "Çin",
       website: "https://www.gac.com.cn/",
       img: "/gac-guangzhou-automobile.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "GAC markası, Çin menşeli Guangzhou Automobile Group (GAC Group) şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. GAC markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -551,7 +551,7 @@ Geely'nin uluslararası genişlemesi de dikkat çekicidir. Şirket, birçok ülk
       country: "Çin",
       website: "https://global.geely.com/",
       img: "/geely.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Geely markası, Çin menşeli Geely Holding Group şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Geely markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -572,7 +572,7 @@ Elektrikli araç teknolojilerinde de aktif olarak yatırım yapan GWM, Ora marka
       country: "Çin",
       website: "https://www.gwm-global.com/",
       img: "/great-wall-motors.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Great Wall Motors markası, Çin menşeli Great Wall Motor Company Limited şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Great Wall Motors markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -593,7 +593,7 @@ GMC, elektrikli araç teknolojisine geçiş konusunda da adımlar atmaktadır ve
       country: "Amerika Birleşik Devletleri",
       website: "https://www.gmc.com/",
       img: "/gmc.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "GMC markası, General Motors (GM) şirketine ait bir markadır. General Motors'un İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, GM bünyesindeki tüm markalar boykot kapsamına alınmıştır. General Motors'un İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, General Motors'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. GMC markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -612,7 +612,7 @@ Haval, küresel pazarlarda güçlü bir varlık göstermektedir ve Türkiye paza
       country: "Çin",
       website: "https://www.gwm-global.com/brands/haval/haval-global.html",
       img: "/haval.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Haval markası, Çin menşeli Great Wall Motors (GWM) şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Haval markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -633,7 +633,7 @@ Marka, Çin içi pazarında güçlü bir konuma sahip olmakla birlikte, uluslara
       country: "Çin",
       website: "https://www.hongqi-auto.com/",
       img: "/hongqi.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Hongqi markası, Çin menşeli FAW Group şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Hongqi markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -655,7 +655,7 @@ Marka, Çin içi pazarında güçlü bir konuma sahip olmakla birlikte, uluslara
       country: "Japonya",
       website: "https://www.honda.com.tr/",
       img: "/honda.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       subBrands: [
         {
           name: "Acura",
@@ -671,7 +671,7 @@ Marka, Çin içi pazarında güçlü bir konuma sahip olmakla birlikte, uluslara
           country: "Japonya",
           website: "https://www.acura.com/",
           img: "/otomotiv.png",
-          isBoycotted: false,
+          isBoycotted: "boykot-degil",
         },
       ],
     },
@@ -685,7 +685,7 @@ Marka, Çin içi pazarında güçlü bir konuma sahip olmakla birlikte, uluslara
       country: "Çin",
       website: "https://www.netaauto.cc/",
       img: "/hozon-auto.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Hozon Auto markası, Çin menşeli Hozon New Energy Automobile Co., Ltd. şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Hozon Auto markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -700,7 +700,7 @@ Marka, Çin içi pazarında güçlü bir konuma sahip olmakla birlikte, uluslara
       country: "Çin",
       website: "https://www.human-horizons.com/",
       img: "/human-horizons.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Human Horizons markası, Çin menşeli Human Horizons şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Human Horizons markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -721,7 +721,7 @@ Hyundai, dünya çapında birçok ülkede üretim tesisleri bulundurmaktadır ve
       country: "Güney Kore",
       website: "https://www.hyundai.com/tr/tr",
       img: "/hyundai.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Hyundai markası, Hyundai Heavy Industries ve Hyundai Motor Company'nin bir parçasıdır. Hyundai'nin ağır makineleri ve inşaat ekipmanları, İsrail'in Kudüs'teki Filistin mahallelerinin yıkılmasında kullanıldığı ve bu mahallelere İsrail işgalinden ticari olarak fayda sağlandığı iddiaları nedeniyle boykot kapsamına alınmıştır. Şirketin İsrail'deki faaliyetleri ve İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı desteği nedeniyle, Hyundai Motor Company'nin ürünlerinin satın alınması önerilmemektedir. Hyundai markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -742,7 +742,7 @@ Marka, müşteri deneyimine de büyük önem vermektedir. Genesis, "Genesis at H
           country: "Güney Kore",
           website: "https://www.genesis.com/worldwide/en/main.html",
           img: "/genesis.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Genesis markası, Hyundai Motor Company'nin bir markasıdır. Hyundai'nin ağır makineleri ve inşaat ekipmanları, İsrail'in Kudüs'teki Filistin mahallelerinin yıkılmasında kullanıldığı ve bu mahallelere İsrail işgalinden ticari olarak fayda sağlandığı iddiaları nedeniyle boykot kapsamına alınmıştır. Şirketin İsrail'deki faaliyetleri ve İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı desteği nedeniyle, Hyundai Motor Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Genesis markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -769,7 +769,7 @@ Kia, dünya çapında birçok ülkede üretim tesisleri bulundurmaktadır ve yer
           country: "Güney Kore",
           website: "https://www.kia.com/tr/anasayfa.html",
           img: "/kia.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Kia markası, Hyundai Motor Group'un bir parçasıdır ve Hyundai Motor Company ile aynı grup içinde yer almaktadır. Hyundai'nin ağır makineleri ve inşaat ekipmanları, İsrail'in Kudüs'teki Filistin mahallelerinin yıkılmasında kullanıldığı ve bu mahallelere İsrail işgalinden ticari olarak fayda sağlandığı iddiaları nedeniyle Hyundai Motor Group boykot kapsamına alınmıştır. Şirketin İsrail'deki faaliyetleri ve İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı desteği nedeniyle, Hyundai Motor Group bünyesindeki tüm markalar boykot kapsamına alınmıştır. Kia markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -790,7 +790,7 @@ Jaguar, otomotiv tarihinde birçok ikonik modele imza atmıştır. E-Type, XJ ve
       country: "Birleşik Krallık",
       website: "https://www.jaguar.com.tr/",
       img: "/jaguar.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Jeep",
@@ -806,7 +806,7 @@ Jeep, "Go Anywhere, Do Anything" (Her Yere Git, Her Şeyi Yap) sloganıyla macer
       country: "Amerika Birleşik Devletleri",
       website: "https://www.jeep.com.tr/",
       img: "/jeep.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Karsan",
@@ -822,7 +822,7 @@ Karsan'ın ürün yelpazesi, şehir içi ve şehirlerarası otobüsler, minibüs
       country: "Türkiye",
       website: "https://www.karsan.com.tr/",
       img: "/karsan.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Koenigsegg",
@@ -838,7 +838,7 @@ Koenigsegg'in modelleri arasında Agera, Regera, Jesko ve Gemera gibi hiper otom
       country: "İsveç",
       website: "https://www.koenigsegg.com/home",
       img: "/koenigsegg.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Lancia",
@@ -854,7 +854,7 @@ Lancia, otomotiv tarihinde birçok önemli yeniliğe imza atmıştır. Marka, ö
       country: "İtalya",
       website: "https://www.lancia.com/",
       img: "/lancia.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Land Rover",
@@ -870,7 +870,7 @@ Land Rover, "Above and Beyond" (Ötesinde) sloganıyla macera ve lüksü birleş
       country: "Birleşik Krallık",
       website: "https://www.landrover.com.tr/",
       img: "/land-rover.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Leapmotor",
@@ -886,7 +886,7 @@ Leapmotor, kompakt elektrikli araçlar ve SUV'lar üretmektedir. Markanın popü
       country: "Çin",
       website: "https://leapmotortr.com/",
       img: "/leapmotor.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Leapmotor markası, Çin menşeli Zhejiang Leapmotor Technology Co., Ltd. şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Leapmotor markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -905,7 +905,7 @@ Li Auto'nun EREV teknolojisi, elektrikli motorun yanı sıra küçük bir benzin
       country: "Çin",
       website: "https://www.lixiang.com/en",
       img: "/li-auto.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Li Auto markası, Çin menşeli Li Auto Inc. şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Li Auto markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -924,7 +924,7 @@ Lincoln, "Quiet Flight" (Sessiz Uçuş) sloganıyla lüks ve konfor odaklı bir 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.lincoln.com/",
       img: "/lincoln.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Lincoln markası, Ford Motor Company'nin sahibi olduğu bir lüks otomobil markasıdır. Ford Motor Company'nin İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, Ford bünyesindeki tüm markalar boykot kapsamına alınmıştır. Ford'un İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Ford Motor Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Lincoln markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -949,7 +949,7 @@ Lotus, Formula 1 tarihinde de önemli başarılar elde etmiştir ve bu motor spo
       country: "Birleşik Krallık",
       website: "https://www.lotuscars.com/en",
       img: "/lotus.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Lucid Motors",
@@ -965,7 +965,7 @@ Lucid Air, markanın flagship lüks elektrikli sedan modelidir ve ileri teknoloj
       country: "Amerika Birleşik Devletleri",
       website: "https://lucidmotors.com/",
       img: "/lucid-motors.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Lucid Motors markası, İsrail ile ticari ilişkileri ve İsrail pazarındaki faaliyetleri nedeniyle boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Lucid Motors'un İsrail ile olan ticari bağlantıları ve bu ülkedeki faaliyetleri nedeniyle, şirketin ürünlerinin satın alınması önerilmemektedir. Lucid Motors markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "rivian", "toyota", "honda", "nissan"],
@@ -984,7 +984,7 @@ Marka, abonelik tabanlı satış modeli ve dijital deneyim odaklı yaklaşımıy
       country: "Çin",
       website: "https://www.lynkco-turkiye.com/",
       img: "/lynk-co.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Lynk & Co markası, Çin menşeli Geely Holding Group ve Volvo Car Corporation ortak girişimine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Lynk & Co markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1003,7 +1003,7 @@ Mazda'nın "Zoom-Zoom" felsefesi, markanın sürüş keyfine verdiği önemi yan
       country: "Japonya",
       website: "https://www.mazda.com.tr/",
       img: "/mazda.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Maxus",
@@ -1019,7 +1019,7 @@ Maxus, elektrikli kamyonetler, MPV'ler ve SUV'lar üretmektedir. Markanın popü
       country: "Çin",
       website: "https://www.maxus-turkiye.com/tr/",
       img: "/maxus.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Maxus markası, Çin menşeli SAIC Motor Corporation Limited şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Maxus markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1038,7 +1038,7 @@ Marka, karbon fiber teknolojisi, aerodinamik tasarım ve hafif yapı konusunda �
       country: "Birleşik Krallık",
       website: "https://www.mclaren.com/",
       img: "/mclaren.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Mercedes-Benz",
@@ -1054,7 +1054,7 @@ Mercedes-Benz, otomotiv tarihinde birçok önemli yeniliğe imza atmıştır. Ma
       country: "Almanya",
       website: "https://www.mercedes-benz.com.tr/",
       img: "/mercedes-benz.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Mercedes-Benz markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Mercedes-Benz'in bu tutumu nedeniyle, Mercedes Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Mercedes-Benz markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -1080,7 +1080,7 @@ Marka, özellikle elektrikli araç teknolojisine büyük yatırımlar yapmakta v
       country: "Çin",
       website: "https://www.mg-turkey.com/tr/",
       img: "/mg.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "MG markası, Çin menşeli SAIC Motor Corporation Limited şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. MG markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1099,7 +1099,7 @@ Marka, el yapımı ve özelleştirilmiş üretim konusunda uzmanlaşmıştır ve
       country: "Japonya",
       website: "https://www.mitsuoka-motor.com/global/",
       img: "/mitsuoka.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Mitsubishi",
@@ -1115,7 +1115,7 @@ Mitsubishi, özellikle dört tekerlekten çekiş sistemleri ve off-road kabiliye
       country: "Japonya",
       website: "https://www.mitsubishi-motors.com.tr/",
       img: "/mitsubishi.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Mitsubishi Motors markası, İsrail ile ticari ilişkileri ve İsrail pazarındaki faaliyetleri nedeniyle boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Mitsubishi Motors'un İsrail ile olan ticari bağlantıları ve bu ülkedeki faaliyetleri nedeniyle, şirketin ürünlerinin satın alınması önerilmemektedir. Mitsubishi Motors markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1134,7 +1134,7 @@ Marka, sürdürülebilir pil teknolojisi, otonom sürüş özellikleri ve dijita
       country: "Çin",
       website: "https://www.nio.com/",
       img: "/nio.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "NIO markası, Çin menşeli NIO Inc. şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. NIO markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "rivian", "toyota", "honda", "nissan"],
@@ -1153,7 +1153,7 @@ Nissan, elektrikli araç teknolojisinde öncü konumdadır ve Leaf modeli, düny
       country: "Japonya",
       website: "https://www.nissan.com.tr/",
       img: "/nissan.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       subBrands: [
         {
           name: "Infiniti",
@@ -1169,7 +1169,7 @@ Infiniti, özellikle güçlü motorları, lüks iç mekanları ve gelişmiş tek
           country: "Japonya",
           website: "https://www.infiniti.com/",
           img: "/infiniti.png",
-          isBoycotted: false,
+          isBoycotted: "boykot-degil",
         },
       ],
     },
@@ -1187,7 +1187,7 @@ Marka, Avrupa pazarında güçlü bir konuma sahiptir ve özellikle Almanya, Fra
       country: "Almanya",
       website: "https://www.opel.com.tr/",
       img: "/opel.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Ora",
@@ -1203,7 +1203,7 @@ Marka, retro-modern tasarımları ve dijital deneyim odaklı yaklaşımıyla dik
       country: "Çin",
       website: "https://www.ora-europe.com/en",
       img: "/ora.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Ora markası, Çin menşeli Great Wall Motors (GWM) şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Ora markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1222,7 +1222,7 @@ Otokar'ın sivil araç ürün yelpazesi, Kent serisi otobüsleri (şehir içi ve
       country: "Türkiye",
       website: "https://www.otokar.com.tr/",
       img: "/otokar.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Pagani",
@@ -1238,7 +1238,7 @@ Marka, otomotiv sanatının zirvesini temsil etmektedir ve her model, müşteril
       country: "İtalya",
       website: "https://www.pagani.com/",
       img: "/pagani.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Pagani markası, İsrail ile ticari ilişkileri ve İsrail pazarındaki faaliyetleri nedeniyle boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Pagani'nin İsrail ile olan ticari bağlantıları ve bu ülkedeki faaliyetleri nedeniyle, şirketin ürünlerinin satın alınması önerilmemektedir. Pagani markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -1263,7 +1263,7 @@ Marka, Avrupa pazarında güçlü bir konuma sahiptir ve özellikle Fransa, İta
       country: "Fransa",
       website: "https://www.peugeot.com.tr/",
       img: "/peugeot.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Ram",
@@ -1279,7 +1279,7 @@ Marka, Amerika pazarında en çok satan pick-up'lardan biridir ve özellikle pro
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ramtrucks.com/",
       img: "/ram.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Ram markası, Stellantis grubunun bir parçasıdır. Stellantis, 2021 yılında Fiat Chrysler Automobiles (FCA) ve PSA Group'un birleşmesiyle oluşmuştur. Stellantis'in ve önceki yapısı FCA'nın İsrail ile ticari ilişkileri, İsrail pazarındaki faaliyetleri ve İsrail'e verdiği destekler nedeniyle, Stellantis bünyesindeki tüm markalar boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Stellantis'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Ram markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1298,7 +1298,7 @@ Renault, elektrikli araç teknolojisinde öncü konumdadır ve Zoe modeli, Avrup
       country: "Fransa",
       website: "https://www.renault.com.tr/",
       img: "/renault.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Renault markası, İsrail ile ticari ilişkileri ve İsrail pazarındaki faaliyetleri nedeniyle boykot kapsamına alınmıştır. Şirketin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Renault'un İsrail ile olan ticari bağlantıları ve bu ülkedeki faaliyetleri nedeniyle, şirketin ürünlerinin satın alınması önerilmemektedir. Renault markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1317,7 +1317,7 @@ Amazon ile ortaklığı bulunmakta ve Rivian, Amazon için elektrikli teslimat a
       country: "Amerika Birleşik Devletleri",
       website: "https://rivian.com/",
       img: "/rivian.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Roewe",
@@ -1334,7 +1334,7 @@ Marka, orta segment araçlar ve elektrikli araçlar konusunda aktiftir ve özell
       website:
         "https://www.saicmotor.com/english/latest_news/roewe/index.shtml",
       img: "/roewe.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Roewe markası, Çin menşeli SAIC Motor Corporation Limited şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Roewe markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1353,7 +1353,7 @@ SAIC Motor, özellikle elektrikli araç teknolojisine büyük yatırımlar yapma
       country: "Çin",
       website: "https://www.saicmotor.com/",
       img: "/saic-motor.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "SAIC Motor markası, Çin menşeli SAIC Motor Corporation Limited şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. SAIC Motor markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1372,7 +1372,7 @@ Seres, Huawei ile ortaklık yaparak Aito markası altında akıllı elektrikli a
       country: "Çin",
       website: "https://en.seres.cn/",
       img: "/seres-automobile.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Seres Automobile markası, Çin menşeli Seres (eski adıyla SF Motors) şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Seres Automobile markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1391,7 +1391,7 @@ Smart araçları, kompakt boyutları, yakıt verimliliği ve şehir içi kullan�
       country: "Almanya",
       website: "https://www.smart.com/tr/",
       img: "/smart.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Smart markası, Mercedes-Benz ve Geely Holding'in ortak girişimi olarak faaliyet göstermektedir. Mercedes-Benz markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Mercedes-Benz'in bu tutumu nedeniyle, Mercedes Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Smart markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1409,7 +1409,7 @@ KG Mobility'nin popüler modelleri arasında Korando (kompakt SUV), Tivoli (subk
 Şirket, özellikle SUV segmentinde uzmanlaşmıştır ve güçlü motorları, geniş iç mekanları ve dayanıklı yapılarıyla dikkat çekmektedir. KG Mobility, ayrıca elektrikli araç teknolojisine geçiş konusunda da adımlar atmaktadır ve gelecekte elektrikli modeller sunmayı planlamaktadır.`,
       country: "Güney Kore",
       img: "/ssangyong-kgm.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Subaru",
@@ -1425,7 +1425,7 @@ Subaru, özellikle güvenlik konusunda öncü konumdadır ve EyeSight sürücü 
       country: "Japonya",
       website: "https://www.subaru.com.tr/",
       img: "/subaru.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Suzuki",
@@ -1441,7 +1441,7 @@ Marka, küçük boyutlu ve yakıt tasarruflu araçlarıyla tanınmaktadır ve ö
       country: "Japonya",
       website: "https://www.suzuki.com.tr/",
       img: "/suzuki.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Tesla",
@@ -1457,7 +1457,7 @@ Marka, otonom sürüş teknolojisi ve sürdürülebilir enerji çözümleriyle t
       country: "Amerika Birleşik Devletleri",
       website: "https://www.tesla.com/tr_tr",
       img: "/tesla.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Tesla markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. Şirket, İsrail'deki saldırılar sonrasında İsrail'deki tüm Tesla araçlarının şarj istasyonlarını ücretsiz hale getirmiş ve bu şekilde İsrail'e açık bir destek göstermiştir. Tesla'nın bu tutumu, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tesla'nın ürünlerinin satın alınması önerilmemektedir. Tesla markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "rivian", "toyota", "honda", "nissan"],
@@ -1476,7 +1476,7 @@ Tofaş, Türkiye'nin en büyük otomotiv üreticilerinden biridir ve yerli üret
       country: "Türkiye",
       website: "https://www.tofas.com.tr/",
       img: "/tofas.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Togg",
@@ -1492,7 +1492,7 @@ Marka, Türkiye'de yerli üretim ve teknoloji geliştirme odaklıdır ve ülkeni
       country: "Türkiye",
       website: "https://www.togg.com.tr/",
       img: "/togg.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Toyota",
@@ -1508,7 +1508,7 @@ Toyota, hibrit teknolojisinde öncü konumdadır ve Prius modeli, hibrit otomobi
       country: "Japonya",
       website: "https://www.toyota.com.tr/",
       img: "/toyota.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       subBrands: [
         {
           name: "Lexus",
@@ -1524,7 +1524,7 @@ Marka, sessiz kabin, mükemmel işçilik ve ileri teknoloji özellikleriyle dikk
           country: "Japonya",
           website: "https://www.lexus.com.tr/",
           img: "/lexus.png",
-          isBoycotted: false,
+          isBoycotted: "boykot-degil",
         },
         {
           name: "Daihatsu",
@@ -1540,7 +1540,7 @@ Marka, sessiz kabin, mükemmel işçilik ve ileri teknoloji özellikleriyle dikk
           country: "Japonya",
           website: "https://www.daihatsu.com/",
           img: "/daihatsu.png",
-          isBoycotted: false,
+          isBoycotted: "boykot-degil",
         },
       ],
     },
@@ -1558,7 +1558,7 @@ Volkswagen, elektrikli araç teknolojisine geçiş konusunda önemli adımlar at
       country: "Almanya",
       website: "https://www.vw.com.tr/",
       img: "/volkswagen.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Volkswagen markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1577,7 +1577,7 @@ Audi, özellikle teknoloji ve inovasyon konusunda öncü konumdadır ve Virtual 
           country: "Almanya",
           website: "https://www.audi.com.tr/tr/",
           img: "/audi.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Audi markası, Volkswagen Grubu'nun sahibi olduğu bir markadır. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Audi markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1596,7 +1596,7 @@ Porsche, özellikle motor sporları alanında büyük başarılar elde etmiştir
           country: "Almanya",
           website: "https://www.porsche.com.tr/",
           img: "/porsche.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Porsche markası, Volkswagen Grubu'nun sahibi olduğu bir markadır. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Porsche markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -1622,7 +1622,7 @@ Marka, geniş iç hacim, pratiklik ve uygun fiyat-performans oranıyla tanınmak
           country: "Çekya",
           website: "https://www.skoda.com.tr/",
           img: "/skoda.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Skoda markası, Volkswagen Grubu'nun sahibi olduğu bir markadır. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Skoda markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -1648,7 +1648,7 @@ SEAT, özellikle genç tüketicilere yönelik tasarımları ve sportif karakteri
           country: "İspanya",
           website: "https://www.seat.com.tr/",
           img: "/seat.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "SEAT markası, Volkswagen Grubu'nun sahibi olduğu bir markadır. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. SEAT markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -1674,7 +1674,7 @@ Her Bugatti aracı, el yapımı işçilik, en yüksek kalitede malzemeler ve mü
           country: "Fransa",
           website: "https://www.bugatti.com/",
           img: "/bugatti.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Bugatti markası, Volkswagen Grubu'nun sahibi olduğu bir markadır ve 1998 yılından bu yana Volkswagen bünyesinde faaliyet göstermektedir. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Bugatti markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -1700,7 +1700,7 @@ Boğa figürü logosu ve makas kapıları markanın ayırt edici özelliklerinde
           country: "İtalya",
           website: "https://www.lamborghini.com/en-en",
           img: "/lamborghini.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Lamborghini markası, Volkswagen Grubu'nun sahibi olduğu bir markadır ve 1998 yılından bu yana Volkswagen bünyesinde faaliyet göstermektedir. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Lamborghini markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -1726,7 +1726,7 @@ Bentley'nin mevcut model yelpazesi, Continental GT (grand tourer), Flying Spur (
           country: "Birleşik Krallık",
           website: "https://www.bentleymotors.com/",
           img: "/bentley.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Bentley markası, Volkswagen Grubu'nun sahibi olduğu bir markadır ve 1998 yılından bu yana Volkswagen bünyesinde faaliyet göstermektedir. Volkswagen markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Volkswagen'in bu tutumu nedeniyle, Volkswagen Grubu bünyesindeki tüm markalar boykot kapsamına alınmıştır. Bentley markası da bu kapsamda boykot listesinde yer almaktadır.",
           alternative_products: [
@@ -1754,7 +1754,7 @@ Marka, güvenlik teknolojileri, İskandinav tasarım ve sürdürülebilirlik oda
       country: "İsveç",
       website: "https://www.volvocars.com/tr/",
       img: "/volvo.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Volvo markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. Volvo'nun ürettiği iş makineleri ve araçlar İsrail'de kullanılmakta ve şirketin İsrail'de yatırımları bulunmaktadır. Volvo'nun İsrail'deki faaliyetleri ve yatırımları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Volvo'nun ürünlerinin satın alınması önerilmemektedir. Volvo markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1773,7 +1773,7 @@ Marka, ileri teknoloji, yapay zeka entegrasyonu ve uygun fiyat stratejisiyle dik
       country: "Çin",
       website: "https://www.xiaomiev.com/",
       img: "/xiaomi-auto.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Xiaomi Auto markası, Çin menşeli Xiaomi Corporation şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Xiaomi Auto markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "rivian", "toyota", "honda", "nissan"],
@@ -1792,7 +1792,7 @@ XPeng, elektrikli sedanlar ve SUV'lar üretmektedir. Markanın popüler modeller
       country: "Çin",
       website: "https://www.xpeng.com/",
       img: "/xpeng.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "XPeng markası, Çin menşeli XPeng Motors şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. XPeng markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "rivian", "toyota", "honda", "nissan"],
@@ -1811,7 +1811,7 @@ Marka, hızlı şarj teknolojisi, yüksek performans ve lüks özellikleriyle di
       country: "Çin",
       website: "https://www.zeekrlife.com/global/",
       img: "/zeekr.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Zeekr markası, Çin menşeli Geely Holding Group şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. Zeekr markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "rivian", "toyota", "honda", "nissan"],
@@ -1830,7 +1830,7 @@ Marka, lüks donanım, gelişmiş teknoloji ve güvenlik özellikleriyle dikkat 
       country: "Çin",
       website: "https://www.gwm-eu.com/eu/en/wey05",
       img: "/wey.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "WEY markası, Çin menşeli Great Wall Motors (GWM) şirketine ait bir markadır. Çin hükümetinin Doğu Türkistan (Sincan Uygur Özerk Bölgesi) bölgesinde uyguladığı politikalar ve bu bölgede yaşanan insan hakları ihlalleri nedeniyle, Çin'e ait tüm global markalar boykot kapsamına alınmıştır. Çin hükümetinin bölgede uyguladığı gözaltı kampları, zorla çalıştırma, kültürel asimilasyon politikaları ve diğer insan hakları ihlalleri nedeniyle, Çin menşeli şirketlerin ürünlerinin satın alınması önerilmemektedir. WEY markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1850,7 +1850,7 @@ Otokoc, özellikle uzun dönem ve kısa dönem araç kiralama çözümleri ile b
       country: "Türkiye",
       website: "",
       img: "/otokoc.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Otokoc markası, Koç Holding'in otomotiv markasıdır ve Koç Holding bünyesinde faaliyet göstermektedir. Koç Holding'in İsrail ile olan ilişkileri ve destekleri nedeniyle, Koç Holding'e bağlı tüm şirketler ve markalar boykot kapsamına alınmıştır. Koç Holding'in İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Koç Holding'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Otokoc markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
@@ -1870,7 +1870,7 @@ Trident (üç çatallı mızrak) logosu markanın sembolüdür ve Maserati'nin d
       country: "İtalya",
       website: "https://www.maserati.com/tr/tr",
       img: "/maserati.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
   ],
 };

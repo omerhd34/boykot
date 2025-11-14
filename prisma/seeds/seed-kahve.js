@@ -300,7 +300,7 @@ Ancak, Kahve Dünyası markası, Altınmarka Grubu'na bağlı yerli bir marka ol
       country: "Türkiye",
       website: "https://www.kahvedunyasi.com/",
       img: "/kahve-dunyasi.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Kahve Dünyası markası, Altınmarka Grubu'na bağlı yerli bir marka olmasına rağmen, İsrail ile ilişkilendirilen Hamursuz Bayramı kutlaması ve İsrail politikalarına dair destek algısı nedeniyle boykot kapsamına alınmıştır. Altınmarka Grubu'nun İsrail ile olan ilişkileri ve bu kutlamalara verdiği destek, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Kahve Dünyası'nın ürünlerinin satın alınması önerilmemektedir. Kahve Dünyası markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -330,7 +330,7 @@ Ancak, Jacobs markası, Mondelez International çatısı altında faaliyet göst
       country: "Almanya",
       website: "https://www.jacobscoffee.com.tr/",
       img: "/jacobs.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Jacobs markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Jacobs markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -479,7 +479,7 @@ Ancak, Nescafé markası, Nestle çatısı altında faaliyet gösteren global bi
       country: "İsviçre",
       website: "https://www.nescafe.com/tr",
       img: "/nescafe.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Nescafé markası, Nestle çatısı altında faaliyet gösteren global bir kahve markasıdır. Nestle'nin İsrail'deki yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Nescafé markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -510,7 +510,7 @@ Dolce Gusto, dünya çapında milyonlarca tüketiciye ulaşmaktadır. Marka, öz
 Ancak, Dolce Gusto markası, Nestle çatısı altında üretilen kapsül kahve markasıdır ve ana şirketin İsrail'deki yatırımları ve iş birlikleri sebebiyle boykot edilmektedir. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Dolce Gusto ürünlerinin satın alınması önerilmemektedir.`,
       country: "İsviçre",
       img: "/dolce_gusto.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Dolce Gusto markası, Nestle çatısı altında üretilen bir kapsül kahve markasıdır. Nestle'nin İsrail'deki yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Dolce Gusto markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
@@ -573,7 +573,7 @@ Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'd
       country: "Amerika Birleşik Devletleri",
       website: "https://www.cariboucoffee.com.tr/",
       img: "/caribou.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Caribou Coffee markası, JAB Holdings tarafından yönetilen bir kahve zinciridir. JAB Holdings'in İsrail'deki projelere verdiği destek iddiaları ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Caribou Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [

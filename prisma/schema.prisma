@@ -17,7 +17,6 @@ model Category {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   brands      Brand[]
-  // Yeni alan: Alt kategoriler
   subCategories String[] @default([])
 
   @@index([order])
@@ -31,18 +30,16 @@ model Brand {
   country            String
   website            String?
   img                String?
-  isBoycotted        Boolean  @default(false)
+  isBoycotted        String   @default("boykot-degil")
   boycottReason      String?
-  alternativeProducts String[] @default([])
+  alternativeProducts  String[] @default([])
   foundedYear        Int?
   founder            String?
   owner              String?
   categoryId         String   @db.ObjectId
   category           Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
-  // Yeni alan: Markanın ait olduğu alt kategori
   subCategory        String?
 
-  // Alt marka ilişkisi
   parentBrandId      String?  @db.ObjectId
   parentBrand        Brand?   @relation("BrandSubBrands", fields: [parentBrandId], references: [id], onDelete: NoAction, onUpdate: NoAction)
   subBrands          Brand[]  @relation("BrandSubBrands")

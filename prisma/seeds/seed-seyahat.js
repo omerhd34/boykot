@@ -23,7 +23,7 @@ Tüm araçlar her kiralama öncesi güvenlik kontrollerinden geçirilir ve kapsa
       country: "Türkiye",
       website: "https://www.budget.com.tr/",
       img: "/budget.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, BOYKOT listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir.
 
 Budget Türkiye, Koç Holding'e ait Otokoç Otomotiv Ticaret ve Sanayi A.Ş. tarafından işletilmektedir. Koç Holding'in İsrail ile olan bağlantıları ve iş birlikleri nedeniyle Budget boykot listesindedir. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,

@@ -11,7 +11,7 @@ const kisiselBakimCategory = {
       description: "Cilt ve kişisel bakım ürünleri markası.",
       country: "Birleşik Krallık",
       img: "/dove.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
   ],
 };

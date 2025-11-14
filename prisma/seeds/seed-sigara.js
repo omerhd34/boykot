@@ -13,7 +13,7 @@ const sigaraCategory = {
       website: "",
       img: "/sigara.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -26,7 +26,7 @@ const sigaraCategory = {
       website: "",
       img: "/camel.png",
 
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: ``,
     },
     {
@@ -38,7 +38,7 @@ const sigaraCategory = {
       website: "https://www.parliament.com",
       img: "/parliament.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Philip Morris International, İsrail’e yönelik destekleri ve İsrail’e ait sahipleri sebebiyle boykot listemizdedir.`,
     },
     {
@@ -50,7 +50,7 @@ const sigaraCategory = {
       website: "",
       img: "/marlboro.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
     {
@@ -63,7 +63,7 @@ const sigaraCategory = {
       website: "",
       img: "/philip-morris.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `PMI’ın İsrail ile olan bu büyük ölçekli ticari ilişkisi nedeniyle şirketin boykot edilmesi gerektiği düşünülmüştür.`,
     },
     {
@@ -77,7 +77,7 @@ const sigaraCategory = {
       website: "",
       img: "/philip-morris-grup.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `PMI’ın İsrail ile olan bu büyük ölçekli ticari ilişkisi nedeniyle şirketin boykot edilmesi gerektiği düşünülmüştür.`,
     },
     {
@@ -89,7 +89,7 @@ const sigaraCategory = {
       website: "",
       img: "/muratti.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `British American Tobacco, İsrail’e yönelik destekleri ve İsrail’e ait sahipleri sebebiyle boykot listemizdedir.`,
     },
     {
@@ -100,7 +100,7 @@ const sigaraCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "",
       img: "/lark.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Philip Morris International, İsrail’e yönelik destekleri ve İsrail’e ait sahipleri sebebiyle boykot listemizdedir.`,
     },
     {
@@ -111,7 +111,7 @@ const sigaraCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "",
       img: "/l-m.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Liggett Group, Vector Group’un yan şirketidir. Vector Group’un en büyük hissedarı %12’lik pay ile BlackRock’tır. Amerikan Dostlar Hizmet Komitesi (AFSC) tarafından hazırlanan bir rapora göre BlackRock, İsrail’in askeri işgali, yerleşimlerin genişletilmesi ve Gazze kuşatması ile doğrudan veya dolaylı olarak ilgisi olan 58 şirkete 33 milyar doların üzerinde yatırım yapmıştır.`,
     },
     {
@@ -122,7 +122,7 @@ const sigaraCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "",
       img: "/lark-bond-street.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Philip Morris USA'nın İsrail ile olan bu büyük ölçekli ticari ilişkisi nedeniyle markanın boykot edilmesi gerektiği düşünülmüştür.`,
     },
     {
@@ -133,7 +133,7 @@ const sigaraCategory = {
       country: "Britanya",
       website: "",
       img: "/capriholdings.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `...`,
     },
     {
@@ -145,7 +145,7 @@ const sigaraCategory = {
       website: "",
       img: "/chesterfield.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `PMI’ın İsrail ile olan bu büyük ölçekli ticari ilişkisi nedeniyle şirketin boykot edilmesi gerektiği düşünülmüştür.`,
     },
     {
@@ -157,7 +157,7 @@ const sigaraCategory = {
       website: "",
       img: "/virginia-slims.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `PMI’ın İsrail ile olan bu büyük ölçekli ticari ilişkisi nedeniyle şirketin boykot edilmesi gerektiği düşünülmüştür.`,
     },
     {
@@ -167,7 +167,7 @@ const sigaraCategory = {
       country: "",
       img: "/winston.png",
 
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: ``,
     },
   ],

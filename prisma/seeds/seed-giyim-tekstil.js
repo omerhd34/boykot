@@ -26,7 +26,7 @@ EDITED, Güney Afrika, Avustralya, Çin, Rusya, İtalya, Almanya, Güney Kore, B
       country: "İngiltere",
       website: "https://www.edited.com/",
       img: "/edited.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `EDITED markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Markanın İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, EDITED ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -46,7 +46,7 @@ Adidas, dünya genelinde binlerce mağazası ve online satış kanalları aracı
       country: "Almanya",
       website: "https://www.adidas.com.tr/tr",
       img: "/adidas.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Adidas markası, İsrail'e destek verdiği ve İsrailli şirketlerle ortaklık kurduğu için boykot kapsamına alınmıştır. Adidas, giyim ürünlerinin küresel üreticisi ve pazarlamacısı olan Delta Galil Industries, Ltd. (DELT/Tel Aviv Menkul Kıymetler Borsası) ile ortaklık kurmuştur. Delta Galil Industries, merkezi Tel Aviv'de bulunan ve dünya çapında fabrikaları bulunan bir İsrail tekstil firmasıdır. Bu ortaklık, İsrail ekonomisine destek sağlamaktadır.
 
 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Adidas Underwear, Delta Galil Industries, Ltd. (DELT/Tel Aviv Borsası) ile ortaklık kurmuştur. Delta Galil Industries, merkezi Tel Aviv'de bulunan ve dünya çapında fabrikaları olan İsrailli bir tekstil firmasıdır.
@@ -70,7 +70,7 @@ Adidas Group, bugün dünya çapında binlerce çalışanı ve milyonlarca müş
       country: "Almanya",
       website: "https://www.adidas-group.com/en/",
       img: "/adidas-group.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Adidas Group (Adidas AG), İsrail'e destek verdiği ve İsrailli şirketlerle ortaklık kurduğu için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır.
 
 Adidas Underwear, Delta Galil Industries, Ltd. (DELT/Tel Aviv Borsası) ile ortaklık kurmuştur. Delta Galil Industries, merkezi Tel Aviv'de bulunan ve dünya çapında fabrikaları olan İsrailli bir tekstil firmasıdır. Bu ortaklık, İsrail ekonomisine destek sağlamaktadır ve Filistin'e yönelik politikaları desteklemektedir.
@@ -94,7 +94,7 @@ ASICS, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımla
       country: "Japonya",
       website: "https://www.asics.com.tr/",
       img: "/asics.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `ASICS markası, İsrail'e yapılan teknoloji yatırımı nedeniyle boykot kapsamına alınmıştır. Seevix (İsrail menşeli bir marka) ile ASICS Spor Bilimleri Enstitüsü, SVX örümcek ipeği teknolojisini kullanan yenilikçi spor ekipmanlarını birlikte geliştirmek üzere iş birliği yapmıştır. Bu işbirliği, İsrail ekonomisine destek sağlamaktadır ve Filistin'e yönelik politikaları desteklemektedir.
 
 İsrail'e yapılan teknoloji yatırımları ve işbirliği anlaşmaları, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, ASICS ürünlerinin satın alınması önerilmemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan ASICS, boykot listesinde yer almaktadır.`,
@@ -116,7 +116,7 @@ American Eagle, dünya genelinde hem fiziksel mağazalar hem de online satış k
       country: "Amerika Birleşik Devletleri",
       website: "https://www.americaneagle.com/",
       img: "/american-eagle-outfitters.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `American Eagle Outfitters markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Marka, New York Times meydanında bulunan reklam panosuna İsrail bayrağını koyarak İsrail'e olan desteğini açıkça göstermiştir. Bu eylem, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir.
 
 İsrail'e verilen bu açık destek, Filistin halkının haklarını ihlal eden politikaları desteklemektedir. Bu nedenle, American Eagle Outfitters ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan American Eagle Outfitters, boykot listesinde yer almaktadır.`,
@@ -138,7 +138,7 @@ Banana Republic, dünya genelinde hem fiziksel mağazalar hem de online satış 
       country: "Amerika Birleşik Devletleri",
       website: "https://bananarepublic.gap.com/",
       img: "/Banana-Republic.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Banana Republic markası, Gap Inc. bünyesinde faaliyet göstermektedir ve Gap Inc.'in İsrail'e destek verdiği bilinmektedir. Gap Inc., İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapmaktadır. Bu nedenle, Banana Republic ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Banana Republic, boykot listesinde yer almaktadır.`,
     },
     {
@@ -158,7 +158,7 @@ Calvin Klein, dünya genelinde hem fiziksel mağazalar hem de online satış kan
       country: "Amerika Birleşik Devletleri",
       website: "https://www.calvinklein.com.tr",
       img: "/calvin-klein.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Calvin Klein markası, PVH Corp. bünyesinde faaliyet göstermektedir ve PVH Corp.'un İsrail'e destek verdiği bilinmektedir. Markanın sahibi olan üst firma açık olarak İsrail yardım kuruluşlarına bağış yaptığını açıklamıştır. Ek olarak şirketin en büyük hissedarları olan Blackrock, Vanguard, Fidelity gibi yatırım şirketleri Yahudi/Siyonist sermayesi kökenlidir.
 
 Bu yatırım şirketleri, İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlere yatırım yapmaktadır. Bu nedenle, Calvin Klein ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Calvin Klein, boykot listesinde yer almaktadır.`,
@@ -179,7 +179,7 @@ Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımla
       country: "Amerika Birleşik Devletleri",
       website: "https://www.cat.com/tr",
       img: "/cat.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Caterpillar markası, uzun yıllardır İsrail'in Filistin'deki zulmüne imal ettiği araçlar ile destek çıkmaktadır. Birçok Filistinli'nin evi, Amerikan ordusu tarafından hediye edilen Caterpillar buldozerleri ile yıkılmıştır. Bu buldozerler, Filistin topraklarındaki yasadışı yerleşimlerin inşası ve Filistinlilerin evlerinin yıkılması için kullanılmıştır.
 
 Caterpillar Vakfı, İsrail'e 24 Ekim 2023'te 2 milyon dolar yardımında bulunmuştur. Bu yardım, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Halka açık bir şirket olsa da çoğunluğu Yahudi/Siyonist yatırım şirketlerinin elindedir. CAT marka botlar da aynı firmaya aittir ve bu ürünlerin satın alınması önerilmemektedir.
@@ -201,7 +201,7 @@ Celine, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Fransa",
       website: "https://www.celine.com",
       img: "/celine.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Celine markası, İsrailli şirketlere yapılan yatırımlar nedeniyle boykot çağrılarına maruz kalmaktadır. Celine'in bağlı olduğu LVMH grubunun başkanı ve CEO'su Bernard Arnault, İsrail merkezli bir siber güvenlik firması olan Wiz'e önemli bir yatırım yapmıştır. Bu yatırım, Arnault'nun girişim yatırım kolu Aglaé Ventures aracılığıyla gerçekleştirilmiş olup, İsrail'in işgal altındaki Filistin topraklarındaki faaliyetlerine ekonomik destek sağladığı gerekçesiyle eleştirilmektedir.
 
 Arnault'nun İsrail ile olan bu finansal bağı, Celine gibi LVMH çatısı altındaki markaların boykot edilmesi için bir sebep olarak görülmektedir. Özellikle insan hakları savunucuları ve Filistin yanlısı gruplar, bu tür yatırımları destekleyen markaları boykot ederek, İsrail'in Filistin'e yönelik politikalarına karşı durmayı amaçlamaktadır. Celine markası da, bu bağlamda boykot listelerine eklenen markalardan biri haline gelmiştir.
@@ -225,7 +225,7 @@ Chanel, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Fransa",
       website: "https://www.chanel.com/tr",
       img: "/chanel.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Chanel markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. İsrail'e yönelik saldırıyı kınayan ancak Gazze'ye yönelik saldırılara sessiz kalan Alain Wertheimer ve Gerard Wertheimer, Chanel adına da 4 milyon dolar vaadinde bulunmuştur. Bu bağış, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 Aralarında Chanel ve Ralph Lauren markalarının da bulunduğu tekstil firmaları 17 Ekim 2023'te İsrail'e olan desteklerini açıklamışlardır. Bu açıklama, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir.
@@ -249,7 +249,7 @@ Champion, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Amerika Birleşik Devletleri",
       website: "https://www.champion.com.tr",
       img: "/champion.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Champion markası, çatı kuruluşu olan Sara Lee'nin birçok sektörde hizmet veren köklü bir Yahudi şirketi olması nedeniyle boykot kapsamına alınmıştır. Şirketin konu ile alakalı açık bir beyanı bulunmasa da hem bir Yahudi medya sayfasında tüm Yahudilerin desteklemesi gereken markalar arasında bulunuyor hem de birçok farklı boykot listesinde adı geçiyor.
 
 Sara Lee, İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapmaktadır. Bu nedenle, Champion ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Champion, boykot listesinde yer almaktadır.`,
@@ -271,7 +271,7 @@ Columbia, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Amerika Birleşik Devletleri",
       website: "https://www.columbia.com.tr/",
       img: "/columbia.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Columbia markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Columbia'nın İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Columbia ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -291,7 +291,7 @@ Converse, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Amerika Birleşik Devletleri",
       website: "https://www.converse.com.tr/",
       img: "/converse.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Converse markası, Nike'ın alt kuruluşudur ve Nike'ın İsrail'e destek verdiği bilinmektedir. Nike'ın CEO'su Hamas'ı terör örgütü olarak tanımlamıştır. Ayrıca şirketin en büyük hissedarları arasında Blackrock gibi yatırım şirketleri yer almaktadır ve bu şirketler Yahudi/Siyonist sermayesi kökenlidir.
 
 Bu yatırım şirketleri, İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlere yatırım yapmaktadır. Bu nedenle, Converse ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Converse, boykot listesinde yer almaktadır.`,
@@ -313,7 +313,7 @@ Crocs, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "Amerika Birleşik Devletleri",
       website: "https://crocs.com.tr/",
       img: "/crocs.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Crocs markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Crocs markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -333,7 +333,7 @@ Coach, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "Amerika Birleşik Devletleri",
       website: "https://uk.coach.com/",
       img: "/coach.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Coach markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Coach markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -353,7 +353,7 @@ Decathlon, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Fransa",
       website: "https://www.decathlon.com.tr/",
       img: "/decathlon.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Decathlon markası, LGBTI'ye destek veren açıklamaları nedeniyle boykot kapsamına alınmıştır. Fransız spor ürünleri zinciri Decathlon'un LGBTI'ye destek veren açıklamaları tepkiyle karşılandı. Her tür ayrımcılığa karşı olduklarını belirten bir açıklama yapan marka, geçtiğimiz yıl Müslüman sporcular için ürettiği ancak Fransa'daki kamuoyundaki baskı nedeniyle satışa sunamadığı sporcu başörtüsünü hatırlatan vatandaşlar nezdinde #decathlonboykot tagi ile kampanya başlattı.
 
 Boykot çağrısı kısa sürede Türkiye gündeminde ilk sıralara tırmandı. Bu nedenle, Decathlon ürünlerinin satın alınması önerilmemektedir. LGBTI'ye destek veren ve Müslüman sporculara yönelik ayrımcılık yapan Decathlon, boykot listesinde yer almaktadır.`,
@@ -375,7 +375,7 @@ Dior, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Fransa",
       website: "https://tr.dior.com/",
       img: "/dior.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Dior markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. İsrail'in Gazze katliamı için "Kariyerim bitse bile Filistin'i desteklemekten asla vazgeçmeyeceğim" diye tepki gösteren ünlü manken Bella Hadid, İsrail destekçileri tarafından hedefe kondu. Dior, marka yüzü olan Bella Hadid yerine yeni reklam kampanyasında İsrailli manken'i tercih etti.
 
 Bu tercih, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir. Filistin'e destek veren bir mankeni görevden alıp yerine İsrailli bir mankeni tercih etmek, İsrail'e verilen desteği açıkça göstermektedir. Bu nedenle, Dior ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Dior, boykot listesinde yer almaktadır.`,
@@ -397,7 +397,7 @@ Diesel fragrances, L'Oréal ile ortaklık halinde üretilmekte ve dünya genelin
       country: "İtalya",
       website: "https://global.diesel.com/man/perfumes/",
       img: "/diesel.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Diesel fragrances markası, "İsrail'in sıcak dostu" olan L'Oréal'in ortaklığıdır ve bu nedenle boykot kapsamına alınmıştır. L'Oréal, Arap Birliği'ne İsrail ile olacak yardımcı olacak bir mektup gönderdikten sonra, İsrail ile ilişkilerini geliştirmek, ağır yatırımlarla ve hatta işgal altındaki Filistin'de bir fabrika işletmeden önce 1,4 milyon dolar para cezası ödemiş ve özür dilemiştir.
 
 L'Oréal'in İsrail ile olan bu ilişkisi, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. İşgal altındaki Filistin'de fabrika işletmek, uluslararası hukuka aykırıdır ve Filistin halkının haklarını ihlal etmektedir. Bu nedenle, Diesel fragrances ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Diesel fragrances, boykot listesinde yer almaktadır.`,
@@ -419,7 +419,7 @@ Ecco, modern tasarım anlayışı ve kaliteli ürünleriyle, genç ve yetişkin 
       country: "Danimarka",
       website: "https://tr.ecco.com/",
       img: "/ecco.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Ecco markası, Danimarka merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Ecco markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -439,7 +439,7 @@ Fendi, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "İtalya",
       website: "https://www.fendi.com/tr-en/",
       img: "/fendi.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Fendi markası, LVMH grubu bünyesinde faaliyet göstermektedir ve LVMH'nin sahibi Bernard Arnault, İsrail şirketlerine yüz milyonlarca yatırım yapmaktadır. Bu yatırımlar, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 Louis Vuitton, alt markalarının çoğunda Filistin'e destek veren çalışanlarını işten çıkarıp yerine ünlü modeller ile sözleşme fesih etme yoluna gitmiştir. Fransız sermayesine sahip bu şirketin kasıtlı karşıt propaganda yürütmesi sebebiyle, alt markaları da boykot kapsamına girmektedir.
@@ -463,7 +463,7 @@ Fila, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "İtalya",
       website: "https://www.fila.com/",
       img: "/fila.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Fila markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Fila, 2019'dan beri bir İsrailli futbol kulübü olan Maccabi Tel Aviv FC'nin teknik sponsorludur. Bu sponsorluk, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 Maccabi Tel Aviv FC, İsrail'in en büyük futbol kulüplerinden biridir ve İsrail futbol federasyonunun bir parçasıdır. Bu federasyon, İsrail'in Filistin topraklarındaki yasadışı yerleşimlerde bulunan futbol takımlarını da bünyesinde barındırmaktadır. Bu nedenle, Fila ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Fila, boykot listesinde yer almaktadır.`,
@@ -485,7 +485,7 @@ Fenerium, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanal
       country: "Türkiye",
       website: "https://fenerium.com/",
       img: "/fenerium.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Fenerium markası, Fenerbahçe Spor Kulübü'nün resmi satış mağazasıdır ve Adidas ile sponsorluk anlaşması yapmıştır. Bu nedenle Adidas markalı Fenerium ürünleri boykot kapsamındadır. Adidas, İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapmaktadır.
 
 Adidas sponsorluklu spor ürünleri boykot edilmesi tavsiye edilmektedir. Bu nedenle, Adidas markalı Fenerium ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Fenerium'un Adidas markalı ürünleri, boykot listesinde yer almaktadır.`,
@@ -507,7 +507,7 @@ Gap, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları a
       country: "Amerika Birleşik Devletleri",
       website: "https://gap.com.tr/",
       img: "/gap.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Gap markası, şirketin kurucusu Donald Fisher'ın Yahudi bir ailede doğmuş olması nedeniyle boykot kapsamına alınmıştır. Gap Inc., İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapmaktadır.
 
 Bu nedenle, Gap ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Gap, boykot listesinde yer almaktadır.`,
@@ -529,7 +529,7 @@ Geox, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "İtalya",
       website: "https://www.geox.com/int/",
       img: "/geox.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Geox markası, İtalya merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Geox markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -549,7 +549,7 @@ Givenchy, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Fransa",
       website: "https://www.givenchy.com/",
       img: "/givenchy.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Givenchy markası, LVMH grubu bünyesinde faaliyet göstermektedir ve LVMH'nin sahibi Bernard Arnault, İsrailli şirketlere yüz milyonlarca dolarlık yatırım yapmaktadır. Bu yatırımlar, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 Grup firması Tiffany, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle, İsrail'e 75 milyon dolarlık bir bağışta bulunmuştur. Bu bağış, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Givenchy ürünlerinin satın alınması önerilmemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Givenchy, boykot listesinde yer almaktadır.`,
@@ -571,7 +571,7 @@ GS Store, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanal
       country: "Türkiye",
       website: "https://www.gsstore.org/",
       img: "/gsstore.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `GS Store markası, Galatasaray Spor Kulübü'nün resmi satış mağazasıdır ve Puma ile sponsorluk anlaşması yapmıştır. Bu nedenle Puma markalı GS Store ürünleri boykot kapsamındadır. Puma, İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapmaktadır.
 
 Puma sponsorluklu spor ürünleri boykot edilmesi tavsiye edilmektedir. Bu nedenle, Puma markalı GS Store ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan GS Store'un Puma markalı ürünleri, boykot listesinde yer almaktadır.`,
@@ -593,7 +593,7 @@ Giorgio Armani, dünya genelinde hem fiziksel mağazalar hem de online satış k
       country: "İtalya",
       website: "https://www.armani.com/en-wx",
       img: "/armani.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Giorgio Armani markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Giorgio Armani Beauty, "İsrail'in sıcak bir dostu" olan L'Oréal ile ortaktır. Arap Birliği'ne boykota yardımcı olacak bilgiler içeren bir mektup gönderdikten sonra 1.4 milyon dolar ceza ödeyip özür dileyen L'Oréal, İsrail ile yeni bir ilişki kurmuş, büyük yatırımlar yapmış ve hatta işgal altındaki Filistin'de bir fabrika işletmiştir.
 
 L'Oréal'in İsrail ile olan bu ilişkisi, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. İşgal altındaki Filistin'de fabrika işletmek, uluslararası hukuka aykırıdır ve Filistin halkının haklarını ihlal etmektedir. Bu nedenle, Giorgio Armani ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Giorgio Armani, boykot listesinde yer almaktadır.`,
@@ -615,7 +615,7 @@ Gottex, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "İsrail",
       website: "https://www.gottex-swimwear.com/",
       img: "/gottex.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Gottex markası, İsrail merkezli bir markadır ve İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. İsrail'in Filistin topraklarındaki yasadışı yerleşimleri ve işgal politikaları, uluslararası hukuka aykırıdır ve Filistin halkının haklarını ihlal etmektedir.
 
 Bu nedenle, Gottex ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Gottex, boykot listesinde yer almaktadır.`,
@@ -637,7 +637,7 @@ Gucci, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "İtalya",
       website: "https://www.gucci.com/tr/en_gb/",
       img: "/gucci.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Gucci markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Gucci'nin İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Gucci ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -658,7 +658,7 @@ Guess, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "Amerika Birleşik Devletleri",
       website: "https://www.guess.eu/tr-tr/home",
       img: "/guess.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Guess markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Guess'in İsrail ile doğrudan bir bağı bulunmadığı için markanın resmi veya genel bir boykot kapsamında olduğu söylenemez. Bu nedenle, Guess markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -678,7 +678,7 @@ H&M, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları a
       country: "İsveç",
       website: "https://www2.hm.com/tr_tr/index.html",
       img: "/h-m.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `H&M markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. H&M, İsrail'de mağazalar açarak İsrail'in Filistin topraklarını askeri işgalini teşvik ediyor ve meşrulaştırıyor. Ayrıca H&M, 2010'un başında kendisini İsrail pazarına entegre ederek, İsrail'in 2009'da Gazze'ye yönelik saldırgan saldırısı sırasında işlenen savaş suçları ve devam eden yasadışı sömürgeci genişlemesine göz yummuştur.
 
 Uluslararası hukuka göre, işgal altındaki bir bölgede İsrail kolonileri ve sömürge altyapıları kurmak yasa dışıdır. Bu, Dördüncü Cenevre Sözleşmesi'nde (mad. 49, s. 6) ve bir nüfusun işgal altındaki bölgelere nakledilmesinin bir savaş suçu olarak kabul eden Uluslararası Ceza Mahkemesi'nin Roma Tüzüğü'nde belirtilmiştir. H&M'in Kudüs'teki Malcha alışveriş merkezindeki konumu açıktır, yeni Yahudi kolonilerinin inşası için yavaş yavaş Filistin nüfusunun yerinden edildiği bir yerleşim bölgesidir. Dolayısıyla H&M, İsrail ekonomisini ve yerleşim birimlerini güçlendirerek hiçe sayarak işgalin destekçisi hâline gelmiştir.
@@ -702,7 +702,7 @@ Hugo Boss, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Almanya",
       website: "https://www.hugoboss.com/tr/en/home",
       img: "/hugo-boss.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Hugo Boss markası, Almanya'nın Filistin meselesindeki duruşundan ötürü boykot kapsamına alınmıştır. Almanya, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Hugo Boss ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Hugo Boss, boykot listesinde yer almaktadır.`,
     },
     {
@@ -722,7 +722,7 @@ Honigman, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "İsrail",
       website: "https://www.honigman.com/",
       img: "/honigman.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Honigman markası, İsrail merkezli bir markadır ve İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Tekstil alanında üretim yapan İsrailli bir moda şirketidir. İsrail'in Filistin topraklarındaki yasadışı yerleşimleri ve işgal politikaları, uluslararası hukuka aykırıdır ve Filistin halkının haklarını ihlal etmektedir.
 
 Bu nedenle, Honigman ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Honigman, boykot listesinde yer almaktadır.`,
@@ -742,7 +742,7 @@ Imannoor, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanal
       country: "Türkiye",
       website: "https://www.imannoor.com/",
       img: "/imannoor.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Imannoor tesettür giyim ve eşarp markası, bünyesinde birçok holding bulunduran ve asıl işi çelik ticareti olan Türkiye'nin önde gelen Çolakoğlu Metalurjiye aittir. Firmanın İsrail'den aldığı İsrail Standartlar Enstitüsü (SII) belgesi de mevcuttur. Özellikle 2022 yılından itibaren de İsrail'le olan ticaret bağlarını güçlendiren firma hala İsrail'le ticari olarak iş birliği içerisindedir.
 
 Bu ticari ilişki, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Imannoor, boykot listesinde yer almaktadır. Bu nedenle, Imannoor ürünlerinin satın alınması önerilmemektedir.`,
@@ -764,7 +764,7 @@ Lacoste, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Fransa",
       website: "https://www.lacoste.com.tr/",
       img: "/lacoste.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Lacoste markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Filistinli sanatçıyı sansürleyen Lacoste'un sahibi İsrail ve Siyonist davaların büyük bağışçısıdır. Bu bağışlar, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 Bu nedenle, Lacoste ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Lacoste, boykot listesinde yer almaktadır.`,
@@ -786,7 +786,7 @@ Levi's, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Amerika Birleşik Devletleri",
       website: "https://www.levis.com.tr/",
       img: "/levis.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Levi's markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Levi's, 9 Ekim 2023'te kendi websitesinden İsrail yanlısı bir paylaşım yapmıştı ama 19 Kasım 2023 itibariyle sitesindeki paylaşımı kaldırdı. Fakat 2022 yılındaki açıklamasında şu şekilde: "Amerika Birleşik Devletleri'nde son zamanlarda antisemitizmin yükselişi tehlikeli ve derinden rahatsız edicidir. Levi Strauss & Co. olarak, antiseminizmin tüm biçimlerini açıkça kınıyor ve reddediyoruz ve Yahudi cemaatinin ve iş arkadaşlarımızın aralıksız maruz kalan herhangi bir saldırısının yanında duruyoruz."
 
 Bu açıklama, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir. Bu nedenle, Levi's ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Levi's, boykot listesinde yer almaktadır.`,
@@ -808,7 +808,7 @@ Louis Vuitton, dünya genelinde hem fiziksel mağazalar hem de online satış ka
       country: "Fransa",
       website: "https://us.louisvuitton.com/eng-us/homepage",
       img: "/louis-Vuitton.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Louis Vuitton markası, LVMH grubu bünyesinde faaliyet göstermektedir ve LVMH'nin sahibi Bernard Arnault, İsrailli şirketlere yüz milyonlarca dolarlık yatırım yapmaktadır. Bu yatırımlar, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 LVMH Grup, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle, İsrail'e 75 milyon dolarlık bir bağışta bulunmuştur. Bu bağış, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Louis Vuitton ürünlerinin satın alınması önerilmemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Louis Vuitton, boykot listesinde yer almaktadır.`,
@@ -830,7 +830,7 @@ Linens, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.linens.com.tr/",
       img: "/linens.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Linens markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Linens'in İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Linens ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -850,7 +850,7 @@ LVMH, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Fransa",
       website: "https://www.lvmh.com/en",
       img: "/lvmh.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `LVMH (Moët Hennessy Louis Vuitton) markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. LVMH'nin sahibi Bernard Arnault, İsrailli şirketlere yüz milyonlarca dolarlık yatırım yapmaktadır. Bu yatırımlar, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 LVMH Grup, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle, İsrail'e 75 milyon dolarlık bir bağışta bulunmuştur. Bu bağış, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, LVMH ürünlerinin satın alınması önerilmemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan LVMH, boykot listesinde yer almaktadır.`,
@@ -872,7 +872,7 @@ Le Petit 100, Türkiye genelinde hem fiziksel mağazalar hem de online satış k
       country: "Türkiye",
       website: "https://lepetit100.com/",
       img: "/le-petit.avif",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Le Petit 100 markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. İsrail'e yönelik terör saldırılarından dolayı üzüntü duyduklarını, antisemitizme karşı olduklarını ve insani yardıma destek olmak için 2 milyon dolar bağışladıklarını belirtmişlerdir. İletişimlerinde, 9 Ekim 2023 tarihinde İsrail'e destek veren, vermeyen üniversitelerin kendi üniversitelerinin kendi web sitesinden bir çalışma yürütmeye başladığından bahsetmişlerdir.
 
 Siyonist destek veren bazı markaların kaynakça linklerini paylaşmışlardır. Johnson&Johnson firmasının İsrail'e mail atarak desteğini belirttiği ve mailde antisemitizme dair suçlamaları reddederek, Hamas'ın terörist faaliyetlerini kınadıklarını belirttiği bilinmektedir. Bu nedenle, Le Petit 100 ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Le Petit 100, boykot listesinde yer almaktadır.`,
@@ -893,7 +893,7 @@ Mango, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "İspanya",
       website: "https://shop.mango.com/tr/tr/",
       img: "/mango.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Mango markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Mango İsrail sayfasının paylaşımında; Gazze çevresindeki yerleşim yerlerindeki İsraillilere yönelik bir yardım seferberliğinden bahsediliyor. İsrail Devleti'nin zor zamanlarında bile, İsrail halkının ve kurtarma ekiplerinin Gazze şeridi sakinlerine destek olduğunun altı çiziliyor.
 
 Yaklaşık 200 büyük şirketin katılımıyla oluşturulan iş forumu, milyonlarca NIS bağışladı. Bağışların, bağımsızlık ve özgürlük sağlamak isteyenlerin isteklerine ve ihtiyaçlarına göre harcanacak. Yardım, her aileye kişi başı 1.000 NIS değerinde yüklenebilir dijital kartlar şeklinde dağıtılmaya başlandı. Bu yardım, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
@@ -917,7 +917,7 @@ Massimo Dutti, dünya genelinde hem fiziksel mağazalar hem de online satış ka
       country: "İspanya",
       website: "https://www.massimodutti.com/tr/",
       img: "/massimo-dutti.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Massimo Dutti markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Massimo Dutti, İspanya merkezli giyim ve aksesuar şirketidir. Şirket 1991 yılında Zara'nın sahibi olduğu Inditex Grubu tarafından tamamen satın alındı. Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğraflarda enkaz ve cansız beden maketleri yer almaktadır.
 
 Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiyle ZARA boykot listesinde olduğu için Massimo Dutti de boykot listemizdedir. Bu nedenle, Massimo Dutti ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Massimo Dutti, boykot listesinde yer almaktadır.`,
@@ -939,7 +939,7 @@ Merrell, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Amerika Birleşik Devletleri",
       website: "https://www.merrell.com/US/en/home",
       img: "/merrell.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Merrell markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Merrell'in üst düzey yöneticisi Jessica Adler, LinkedIn'de yayınladığı bir gönderide markanın İsrail'e aktif destek verdiğini açıkça ifade etmiştir. Adler, İsrail'in işgal bölgelerine askeri elbise ayakkabı, giyisi ve askeri bot yardımı yapmak için kampanya yürüttüklerini duyurmuştur.
 
 Askeri Destek: Merrell, İsrail ordusu için "taktik bot ve askeri malzeme" bağışında bulunmaktadır. Arama Kurtarma Yardımları: Merrell, işgal altındaki bölgelerden "tahliye edilen" İsraillilere kışlık giysi ve spor ekipmanları temin etmektedir. Kurumsal İşbirliği: Merrell'in ana şirketi Wolverine Worldwide, bu yardımları organize eden ABD merkezli Friends of Yashar Lachayal Inc. adlı İsrail yanlısı vakıfla resmi ortaklık yapmıştır.
@@ -963,7 +963,7 @@ Marks & Spencer, dünya genelinde hem fiziksel mağazalar hem de online satış 
       country: "İngiltere",
       website: "https://www.marksandspencer.com.tr/",
       img: "/Marks-Spencer.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Marks & Spencer markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Marks & Spencer kuruluşundan bu yana Siyonizm yanlısı bir kuruluş olmuş, yönetimin çeşitli üyeleri Siyonist devleti desteklediklerini açıkça beyan etmişlerdir. Marks & Spencer 100 yılı aşkın bir süredir İsrail ile İngiltere arasındaki en büyük ticari kanal olmuştur.
 
 Ancak son zamanlarda, 'siyasi' bağları ve amaçları olduğu konusunda kamuoyu önünde mesafe koymuşlardır. İsrail'i destekleyen son açıklamaların 2000 yılı civarında olduğu için, yönetimlerinin İsrail'i ne kadar desteklediğini söylemek zor. Ancak geçmişteki bu bağlar ve destekler, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
@@ -987,7 +987,7 @@ Nautica, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Amerika Birleşik Devletleri",
       website: "https://www.nautica.com/",
       img: "/nautica.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Nautica markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Nautica markası Amerika merkezli bir firma olmakla beraber Sparc Grubuna aittir. Sparc grubu ise Authentic Brands Group firmalarından birisidir. Authentic Brands Group bünyesinde bir çok ünlü isim ve markayı bulundurur. Bunların içerisinde Reebok (Adidas) gibi İsrail desteği olan markalarda mevcuttur.
 
 Bu bağlantılar, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Nautica ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Nautica, boykot listesinde yer almaktadır.`,
@@ -1009,7 +1009,7 @@ New Balance, dünya genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Amerika Birleşik Devletleri",
       website: "https://www.newbalance.com.tr/",
       img: "/new-balance.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `New Balance markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. New Balance Athletics, Inc., Boston, Massachusetts merkezli bir Amerikan şirketidir ve kökenleri 1906'ya dayanmaktadır. Şirketin Birleşik Devletleri'nde üretim yaparak yerel ekonomilere katkıda bulunmasının yanı sıra, İsrail'deki tesislerini kapatmayacağını ve hükümetine sponsorluk yapmaya devam edeceğini açıklamıştır.
 
 Bu açıklama, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir. İsrail'deki tesislerini kapatmayacağını ve hükümetine sponsorluk yapmaya devam edeceğini açıklaması, İsrail'e verilen desteği açıkça göstermektedir. Bu nedenle, New Balance ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan New Balance, boykot listesinde yer almaktadır.`,
@@ -1031,7 +1031,7 @@ Nike, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.nike.com/tr",
       img: "/nike.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Nike markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Blackrock hissedarları arasında yer alması, şirketin CEO'sunun Hamas'ı terör örgütü olarak tanımlaması sebebiyle boykottur. Blackrock gibi yatırım şirketleri, İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlere yatırım yapmaktadır.
 
 Şirketin CEO'sunun Hamas'ı terör örgütü olarak tanımlaması, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir. Bu nedenle, Nike ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Nike, boykot listesinde yer almaktadır.`,
@@ -1053,7 +1053,7 @@ Naot, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "İsrail",
       website: "https://www.naot.com/",
       img: "/naot.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Naot markası, İsrail merkezli bir markadır ve İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Naot Shoes, ekonomik olarak İsrail'in Filistin topraklarındaki işgali ile sıkı bir şekilde bağlantılıdır. Naot Shoes'un bir fabrika mağazası, Batı Şeria'da, Kudüs ile Hebron arasında yer alan işgal altındaki Filistin topraklarında bulunan yasa dışı Gush Etzion kolonisi içinde bulunmaktadır.
 
 Gush Etzion bölüğü, yaklaşık 70,000 Yahudi İsrailli yerleşimciye ev sahipliği yapan 22 yerleşimden oluşmaktadır. Bu yerleşimlerin bir kısmı 1920'lerden 1940'lara kadar, kısmen Yemenli Yahudileri destekleyen kuruluşların öncüsü olmak üzere Filistinlilerden satın alınan araziler üzerine kuruldu. Ancak, ilk Arap-İsrail savaşından sonra, bu toplulukların çoğu İsrail askeri sürecinde 450 bin Luk, Gush Etzion bölüğünün doğu yerleşim yerlerine, Filistinlilere 1947 BM Bölünme Planı uyarınca tahsis edilen arazide yasa dışı bir şekilde kurulmuştur.
@@ -1076,7 +1076,7 @@ Next, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "İngiltere",
       website: "https://www.next.co.uk/",
       img: "/next.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Next markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Next'in İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Next ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1095,7 +1095,7 @@ Puma, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Almanya",
       website: "https://tr.puma.com",
       img: "/puma.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Puma markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Küresel bir spor giyim markası olan Puma, uluslararası hukukun ve insan haklarının ihlal edilmesine ortak oluyor. Puma, İsrail'in işgal altında Filistin topraklarında bulunan futbol takımlarının da dahil olduğu İsrail Futbol Federasyonu'nun (IFA) ve basketbol Maccabi'nin ana sponsorudur.
 
 Ayrıca Puma'nın İsrail'deki mevcut veya geçmişteki lisanslı distribütörlerinin yasadışı yerleşim yerlerinde de çalışmaları bulunmaktadır. İşgalci İsrail'in askeri kuvvetleri, bu yerleşim yerlerinde yer açılması için aralarında çocukların da bulunduğu Filistinli aileleri evlerinden sürüyor. Bu yerleşimler ve yaptırımlar, uluslararası hukuka göre savaş suçu sayılıyor.
@@ -1118,7 +1118,7 @@ Pull and Bear, dünya genelinde hem fiziksel mağazalar hem de online satış ka
       country: "İspanya",
       website: "https://www.pullandbear.com/",
       img: "/pull-bear.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Pull and Bear markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Pull&Bear moda zinciri Zara'nın sahibi olduğu Inditex Grup tarafından başlatılan pazar segmentasyonunun bir sonucu olarak doğmuştur. Inditex grubunda Zara ile beraber; Massimo Dutti, Pull and Bear, Oysho, Uterqüe, Stradivarius, Zara Home ve Bershka markaları da yer almaktadır.
 
 Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğraflarda enkaz ve cansız beden maketleri yer almaktadır. Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiyle ZARA boykot listesinde olduğu için Pull and Bear de boykot listemizdedir. Bu nedenle, Pull and Bear ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Pull and Bear, boykot listesinde yer almaktadır.`,
@@ -1139,7 +1139,7 @@ Pierre Cardin, dünya genelinde hem fiziksel mağazalar hem de online satış ka
       country: "Fransa",
       website: "https://www.pierrecardin.com.tr/",
       img: "/pierre-cardin.webp",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Pierre Cardin markası, Fransa merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Markanın boykotunu gerektirecek bir sebep bulunamamıştır. Bu nedenle, Pierre Cardin markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1158,7 +1158,7 @@ Pierre Cardin Home, Türkiye genelinde hem fiziksel mağazalar hem de online sat
       country: "Fransa",
       website: "https://www.pierrecardinhome.com.tr/",
       img: "/pierre-cardin.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Pierre Cardin Home markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Pierre Cardin Home, Zorlu Holding A.Ş.'nin sahip olduğu ev tekstili firmasıdır. Zorlu Holding boykot olduğundan dolayı Pierre Cardin Home da boykot listesinde bulunmaktadır.
 
 Zorlu Holding'in İsrail'e destek verdiği bilinmektedir. Bu nedenle, Pierre Cardin Home ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Pierre Cardin Home, boykot listesinde yer almaktadır.`,
@@ -1179,7 +1179,7 @@ Polo, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Amerika Birleşik Devletleri",
       website: "https://tr.uspoloassn.com/",
       img: "/polo.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Polo markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Polo markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1198,7 +1198,7 @@ Prada, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "İtalya",
       website: "https://www.prada.com/tr",
       img: "/prada.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Prada markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Prada, L'Oréal ile yaptığı işbirliklerinden dolayı ve L'Oréal'in İsrail'i açıkça desteklemesinden ötürü boykot listemizdedir.
 
 L'Oréal, "İsrail'in sıcak dostu" olarak bilinmektedir. Arap Birliği'ne İsrail ile olacak yardımcı olacak bir mektup gönderdikten sonra, İsrail ile ilişkilerini geliştirmek, ağır yatırımlarla ve hatta işgal altındaki Filistin'de bir fabrika işletmeden önce 1,4 milyon dolar para cezası ödemiş ve özür dilemiştir. L'Oréal'in İsrail ile olan bu ilişkisi, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
@@ -1221,7 +1221,7 @@ Reebok, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Amerika Birleşik Devletleri",
       website: "https://www.reebok.com.tr/",
       img: "/reebok.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Reebok markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Reebok'un eski sahibi Adidas, 17 Ekim 2023'te 100'den fazla Alman şirketi, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren markalar arasında bulunmaktadır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer aldı.
 
 Adidas Underwear, Delta Galil Industries, Ltd. (DELT/Tel Aviv Borsası) ile ortaklık kurdu. Delta Galil Industries, merkezi Tel Aviv'de bulunan ve dünya çapında fabrikaları olan İsrailli bir tekstil firmasıdır. Bu ortaklık, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
@@ -1244,7 +1244,7 @@ Ralph Lauren, dünya genelinde hem fiziksel mağazalar hem de online satış kan
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ralphlauren.com/",
       img: "/Ralph-Lauren.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Ralph Lauren markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Aralarında Ralph Lauren markasının da bulunduğu birçok tekstil firması 17 Ekim 2023'te İsrail'e olan desteklerini açıklamışlardır. Bu açıklama, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir.
 
 Bu nedenle, Ralph Lauren ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Ralph Lauren, boykot listesinde yer almaktadır.`,
@@ -1265,7 +1265,7 @@ Skechers, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Amerika Birleşik Devletleri",
       website: "https://www.skechers.com.tr/",
       img: "/skechers.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Skechers markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Skechers'in İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Skechers ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1284,7 +1284,7 @@ SuperStep, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Türkiye",
       website: "https://www.superstep.com.tr/",
       img: "/superStep.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `SuperStep markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, SuperStep markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1302,7 +1302,7 @@ Source Sandals, sadece sandalet değil, aynı zamanda outdoor ayakkabı ve akses
 Source Sandals, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, outdoor ve doğa sporları tutkunları arasında popülerdir.`,
       country: "İsrail",
       img: "/source-sandals.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Source Sandals markası, İsrail merkezli bir markadır ve İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Source Sandals, İsrail ordusuna ürün sağlamaktadır. Bu durum, İsrail'in Filistin topraklarındaki yasadışı yerleşimleri ve işgal politikalarını desteklemektedir.
 
 İsrail'in Filistin topraklarındaki yasadışı yerleşimleri ve işgal politikaları, uluslararası hukuka aykırıdır ve Filistin halkının haklarını ihlal etmektedir. Bu nedenle, Source Sandals ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Source Sandals, boykot listesinde yer almaktadır.`,
@@ -1323,7 +1323,7 @@ Salomon, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Fransa",
       website: "https://www.salomon.com/tr",
       img: "/salomon.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Salomon markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Salomon'un İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Salomon ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1342,7 +1342,7 @@ Stradivarius, dünya genelinde hem fiziksel mağazalar hem de online satış kan
       country: "İspanya",
       website: "https://www.stradivarius.com/tr",
       img: "/stradivarius.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Stradivarius markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Stradivarius, İspanyol moda devi Inditex Grubuna ait bir markadır. Inditex Grubu, aynı zamanda Zara, Bershka, Massimo Dutti ve Pull&Bear gibi popüler markaların da sahibidir.
 
 Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğraflarda enkaz ve cansız beden maketleri yer almaktadır. Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiyle ZARA boykot listesinde olduğu için Stradivarius de boykot listemizdedir. Bu nedenle, Stradivarius ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Stradivarius, boykot listesinde yer almaktadır.`,
@@ -1363,7 +1363,7 @@ Tommy Hilfiger, dünya genelinde hem fiziksel mağazalar hem de online satış k
       country: "Amerika Birleşik Devletleri",
       website: "https://tr.tommy.com",
       img: "/tommy-hilfiger.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Tommy Hilfiger markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Thomas Jacob Hilfiger'in kurduğu, PVH Corp. altında yer alan moda ve giyim firmasıdır. PVH Corp., İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapmaktadır.
 
 PVH Corp.'un İsrail'e destek verdiği bilinmektedir. Bu nedenle, Tommy Hilfiger ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Tommy Hilfiger, boykot listesinde yer almaktadır.`,
@@ -1384,7 +1384,7 @@ The North Face, dünya genelinde hem fiziksel mağazalar hem de online satış k
       country: "Amerika Birleşik Devletleri",
       website: "https://www.thenorthface.com.tr/",
       img: "/TheNorthFace.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `The North Face markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. The North Face markasının sahibi, Amerikan giyim ve aksesuar şirketi VF Corporation'dır. VF Corporation, birçok markayı bünyesinde barındıran ve çeşitli giyim kategorilerinde faaliyet gösteren bir şirkettir. The North Face, 2000 yılında VF Corporation tarafından satın alınmıştır.
 
 VF Corporation, dünya çapında birçok ünlü markayı bünyesinde bulundurarak küresel bir giyim ve ayakkabı şirketi olarak faaliyet göstermektedir. Vans'ın ana şirketi olan VF Corporation, 1997 yılında İsrailli bir özel şirket olarak kurulan bir yan kuruluş olan VF Israel (Apparel) Ltd.'nin de sahibidir. Bu durum, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
@@ -1407,7 +1407,7 @@ Timberland, dünya genelinde hem fiziksel mağazalar hem de online satış kanal
       country: "Amerika Birleşik Devletleri",
       website: "https://www.timberland.com.tr/",
       img: "/timberland.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Timberland markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Timberland markasının sahibi, VF Corporation adlı bir Amerikan şirketidir. VF Corporation, dünyanın en büyük giyim ve ayakkabı üreticilerinden biridir ve Timberland dışında, The North Face, Vans, Lee, Wrangler gibi birçok markayı da bünyesinde barındırmaktadır.
 
 VF Corporation, 1997 yılında İsrailli bir özel şirket olarak kurulan bir yan kuruluş olan VF Israel (Apparel) Ltd.'nin de sahibidir. Bu durum, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Timberland ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Timberland, boykot listesinde yer almaktadır.`,
@@ -1428,7 +1428,7 @@ Taç, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Türkiye",
       website: "https://www.tac.com.tr/",
       img: "/tac.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Taç markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Zorlu Holding A.Ş.'nin sahip olduğu ev tekstili firmasıdır. Zorlu Enerji Grubu'nun İsrail'de 3 santrali olup, biri Zorlu Enerji Grubu'nun yüzde 42.15 oranında ortak olduğu Ramat Negev Kojenerasyon Santrali. Diğeri Ashdod Kojenerasyon Grubun birlikte sahip oldukları Dorad Enerji Doğalgaz Çevrim Santrali.
 
 Zorlu Holding İsrail elektriğinin önemli bir kısmını karşılamasının yanı sıra, doğrudan İsrail ordusunun enerji ihtiyacını karşılayan Dorad Enerji Grubunun da %25 oranında ortağına sahip olmakla beraber, Dorad Energy Ağustos 2024 itibari ile İsrail ordusu IDF ile sözleşme yenilemiştir. Bu durum, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
@@ -1451,7 +1451,7 @@ Tory Burch, dünya genelinde hem fiziksel mağazalar hem de online satış kanal
       country: "Amerika Birleşik Devletleri",
       website: "https://www.toryburch.com/",
       img: "/tory-burch.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Tory Burch markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Tory Burch Vogue moda silsilesinde boy gösteren, modacı Tory Burch'un ürünlerini pazarladığı özel bir moda markasıdır. Vogue şirketi İtalyan Luxottica şirketi bünyesindedir ve belirtilen linkte desteklerine dair haber bulunmaktadır.
 
 Luxottica şirketinin İsrail'e destek verdiği bilinmektedir. Bu nedenle, Tory Burch ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Tory Burch, boykot listesinde yer almaktadır.`,
@@ -1472,7 +1472,7 @@ Tiffany & Co., dünya genelinde hem fiziksel mağazalar hem de online satış ka
       country: "Amerika Birleşik Devletleri",
       website: "https://www.tiffany.com.tr/",
       img: "/tiffany-and-co.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Tiffany & Co. markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Tiffany & Co. şirketi 1837 yılında Charles Lewis Tiffany ve John B. Young tarafından kurulmuş bir Amerikan lüks mücevher ve özel ürün perakendecisidir. Tiffany & Co.'nun ana şirketi LVMH'nin sahibi Bernard Arnault, İsrailli şirketlere yüz milyonlarca dolar yatırım yapmaktadır.
 
 Tiffany, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle, İsrail'e 75 milyon dolarlık bir bağışta bulunmuştur. Bu bağış, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Tiffany & Co. ürünlerinin satın alınması önerilmemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Tiffany & Co., boykot listesinde yer almaktadır.`,
@@ -1493,7 +1493,7 @@ Under Armour, dünya genelinde hem fiziksel mağazalar hem de online satış kan
       country: "Amerika Birleşik Devletleri",
       website: "https://www.underarmour.com/",
       img: "/under_armour.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Under Armour markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Under Armour'un İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Under Armour ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1512,7 +1512,7 @@ Vans, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.vans.com.tr/",
       img: "/vans.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Vans markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Vans'ın ana şirketi VF Corporation'dır. VF Corporation, 1997 yılında İsrailli bir özel şirket olarak kurulan bir yan kuruluş olan VF Israel (Apparel) Ltd.'nin de sahibidir. Bu durum, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
 
 Bu nedenle, Vans ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Vans, boykot listesinde yer almaktadır.`,
@@ -1533,7 +1533,7 @@ Versace, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "İtalya",
       website: "https://www.versace.com/tr/",
       img: "/Versace.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Versace markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. İtalyan lüks moda markası Versace, 2018 yılında 1,83 milyar Euro (yaklaşık 2,1 milyar dolar) karşılığında Amerikan markası Michael Kors tarafından satın alındı. Satış sonrasında Michael Kors, holding yapısını değiştirdi ve adını Capri Holdings olarak değiştirdi.
 
 Capri Holdings'in İsrail'e destek verdiği bilinmektedir. Bu nedenle, Versace ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Versace, boykot listesinde yer almaktadır.`,
@@ -1554,7 +1554,7 @@ Dockers, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Amerika Birleşik Devletleri",
       website: "https://www.dockers.com.tr/",
       img: "/dockers.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Dockers markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Dockers markası, ana şirketi Levi Strauss & Co.'nun belirli politikaları ve uygulamaları nedeniyle boykot çağrıları almıştır. Levi Strauss & Co.'ya yönelik boykot çağrıları şu nedenlerle yapılmıştır: Levi Strauss & Co.'nun İsrail'deki faaliyetleri ve bu ülkedeki mağazaları, özellikle Filistin'e destek veren gruplar tarafından eleştirilmiş ve boykot çağrılarına neden olmuştur.
 
 Bu gruplar, Levi Strauss'un İsrail'deki varlığını ve ekonomik katkısını, İsrail'in Filistin topraklarındaki politikalarıyla ilişkilendirmiştir. Bu nedenle, Dockers ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Dockers, boykot listesinde yer almaktadır.`,
@@ -1575,7 +1575,7 @@ Karaca, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.karaca.com.tr/",
       img: "/karaca.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Karaca markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Karaca markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1594,7 +1594,7 @@ Deichmann, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Almanya",
       website: "https://www.deichmann.com.tr/",
       img: "/deichmann.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Deichmann markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Deichmann'ın İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Deichmann ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1613,7 +1613,7 @@ Jack & Jones, dünya genelinde hem fiziksel mağazalar hem de online satış kan
       country: "Danimarka",
       website: "https://www.jackjones.com.tr/",
       img: "/jack-jones.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Jack & Jones markası, Danimarka merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Jack & Jones markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1632,7 +1632,7 @@ Flo, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "Türkiye",
       website: "https://www.flo.com.tr/",
       img: "/flo.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Flo markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Flo markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1651,7 +1651,7 @@ Defacto, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Türkiye",
       website: "https://www.defacto.com.tr/",
       img: "/defacto.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Defacto markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Defacto markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1670,7 +1670,7 @@ Vakko, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Türkiye",
       website: "https://www.vakko.com/",
       img: "/vakko.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Vakko markası, geçmişte yaşanan bazı olaylar ve sahiplerinin açıklamaları nedeniyle eleştirilmiştir ve saflarını ortaya koymuşlardır. Tartışmalı Ürünler: Yıllar önce Vakko, keten-yün karışımı bir ceket satışa çıkardı. Bu ürün, Yahudi dini kurallarına uygun olmadığı gerekçesiyle Yahudi cemaati tarafından tepkiyle karşılandı. Cemaat, "Cemaatimizden birisi nasıl böyle bir günah işler" diyerek protesto etti.
 
 Sahiplerinin Açıklamaları: Vakko'nun sahibi Cem Hakko'nun yaptığı bazı açıklamalar da tepki çekmiştir. Hakko, "Bizi azınlık olarak görenler bu ülkedeki patronların kim olduğunu öğrenecektir. Amerika ne derse o olur. Biz bu ülkede Museviler olarak patronuz. Siz işçisiniz. Vakko olarak da hepinizi biz giydiriyoruz; bayıla bayıla giyiniyorsunuz" demiştir.
@@ -1693,7 +1693,7 @@ Lescon, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.lescon.com.tr/",
       img: "/lescon.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Lescon markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Lescon markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1712,7 +1712,7 @@ Gant, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.gant.com.tr/",
       img: "/gant.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Gant markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Gant'ın İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Gant ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1731,7 +1731,7 @@ Camper, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "İspanya",
       website: "https://www.camper.com.tr/",
       img: "/camper.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Camper markası, İspanya merkezli bir markadır ve LGBT destekçisi olduğundan boykot listesindedir. Camper'ın LGBT'ye destek verdiği bilinmektedir. Bu nedenle, Camper ürünlerinin satın alınması önerilmemektedir.`,
     },
     {
@@ -1750,7 +1750,7 @@ Greyder, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Türkiye",
       website: "https://www.greyder.com.tr/",
       img: "/greyder.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Greyder markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Greyder markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1769,7 +1769,7 @@ Manuka, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.manuka.com.tr/",
       img: "/manuka.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Manuka markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Manuka markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1788,7 +1788,7 @@ Avva, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Türkiye",
       website: "https://www.avva.com.tr/",
       img: "/avva.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Avva markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Avva markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1807,7 +1807,7 @@ Tudors, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.tudors.com.tr/",
       img: "/tudors.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Tudors markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Tudors markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1826,7 +1826,7 @@ Armine, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.armine.com.tr/",
       img: "/armine.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Armine markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Armine markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1845,7 +1845,7 @@ Oysho, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "İspanya",
       website: "https://www.oysho.com/tr/",
       img: "/oysho.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Oysho markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Oysho, Inditex Grubu bünyesinde yer alan bir markadır. Inditex Grubu'nda Oysho, Uterqüe, Stradivarius, Zara Home ve Bershka markaları da yer almaktadır. Bu markaların tamamı boykot listemizdedir.
 
 Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğraflarda enkaz ve cansız beden maketleri yer almaktadır. Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiyle ZARA boykot listesinde olduğu için Oysho de boykot listemizdedir. Bu nedenle, Oysho ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Oysho, boykot listesinde yer almaktadır.`,
@@ -1866,7 +1866,7 @@ Nine West, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ninewest.com/",
       img: "/nine-west.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Nine West markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Nine West markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1885,7 +1885,7 @@ Lefties, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "İspanya",
       website: "https://www.lefties.com/tr/",
       img: "/lefties.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Lefties markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Lefties, Inditex Grubu bünyesinde yer alan bir markadır. Inditex Grubu'nda Zara, Bershka, Massimo Dutti, Pull and Bear, Oysho, Uterqüe, Stradivarius ve Zara Home gibi markalar da yer almaktadır.
 
 Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğraflarda enkaz ve cansız beden maketleri yer almaktadır. Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiyle ZARA boykot listesinde olduğu için Lefties de boykot listemizdedir. Bu nedenle, Lefties ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Lefties, boykot listesinde yer almaktadır.`,
@@ -1906,7 +1906,7 @@ Dagi, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Türkiye",
       website: "https://www.dagi.com.tr/",
       img: "/dagi.webp",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Dagi markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Dagi markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1925,7 +1925,7 @@ Sleepy, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.sleepy.com.tr/",
       img: "/sleepy.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Sleepy markası, Türkiye merkezli bir firmadır ve Mehmet Ali Eroslu tarafından kurulmuştur. Temizlik ve kişisel bakım ürünleri üretmektedir. Yerli bir markadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Sleepy markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1944,7 +1944,7 @@ Madame Coco, Türkiye genelinde hem fiziksel mağazalar hem de online satış ka
       country: "Türkiye",
       website: "https://www.madamecoco.com/",
       img: "/Madame-Coco.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Ev Tekstili Mağazası Madame Coco, İsrail Ordusuna bedava yiyecek dağıtan Burger King ile iş birliği yapmıştır. Bu iş birliği, İsrail'e destek veren bir şirketle ortaklık kurması nedeniyle boykot kapsamına alınmıştır. Bu nedenle, Madame Coco ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Madame Coco, boykot listesinde yer almaktadır.`,
     },
     {
@@ -1963,7 +1963,7 @@ Hummel, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Türkiye",
       website: "https://www.hummel.com.tr/",
       img: "/hummel.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Hummel markası, Danimarka merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Hummel markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -1983,7 +1983,7 @@ Jump, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Türkiye",
       website: "https://www.jump.com.tr/",
       img: "/jump.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Genmar İç Ve Dış Ticaret A.Ş. (Jump Markası), Simanto Nahmias, Ren Nahmias ve Mark Nahmias tarafından sahiplenilmektedir. Nahmias ailesi Yahudi kökenli olduğu için, bu marka bazı boykot listelerinde yer almaktadır. Bu nedenle, Jump ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Jump, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2002,7 +2002,7 @@ Cacharel, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Fransa",
       website: "https://www.cacharel.com/",
       img: "/cacharel.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Cacharel, L'Oréal Paris Company'nin markalarındandır. L'Oréal'in %34,70'i Francoise Bettencourt Meyers ve Yahudi ailesine aittir. L'Oréal Paris Company ve alt markaları İsrail askerlerine kişisel bakım kitleri göndermektedir. Aynı zamanda İsrail'de bulunan nükleer, kimyasal ve biyolojik silahların geliştirildiği Weizmann Enstitüsü'ne $100.000 bağışta bulunarak, İsrail işgaline açık destek sağlamıştır. 1994 yılında L'Oréal Paris, İsrail'deki Interbeauty'nin yüzde 30 hissesini satın alarak, o günden bu yana İsrail'i Orta Doğu'daki ticaret merkezi haline getirmiştir. Bu nedenle, Cacharel ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Cacharel, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2021,7 +2021,7 @@ Damat, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Türkiye",
       website: "https://www.damat.com.tr/",
       img: "/damat.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Damat markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Damat markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2040,7 +2040,7 @@ Marc'o Polo, dünya genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Almanya",
       website: "https://www.marc-o-polo.com/",
       img: "/marco-polo.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Marc'o Polo, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2059,7 +2059,7 @@ Elle, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Fransa",
       website: "https://www.elle.com/",
       img: "/elle.webp",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Elle markası, Fransa merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Elle markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2078,7 +2078,7 @@ Gezer, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Türkiye",
       website: "https://www.gezer.com.tr/",
       img: "/gezer.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Gezer markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Gezer markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2097,7 +2097,7 @@ Gezer, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Türkiye",
       website: "https://www.orenbayan.com/",
       img: "/oren-bayan.gif",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Ören Bayan markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Ören Bayan markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2116,7 +2116,7 @@ Abdullah Kiğılı, Türkiye genelinde hem fiziksel mağazalar hem de online sat
       country: "Türkiye",
       website: "https://www.kigili.com.tr/",
       img: "/abdullah-kigili.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Abdullah Kiğılı markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Abdullah Kiğılı markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2135,7 +2135,7 @@ Kiğılı, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Türkiye",
       website: "https://www.kigili.com.tr/",
       img: "/kigili.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Kiğılı markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Kiğılı markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2154,7 +2154,7 @@ Altınyıldız, Türkiye genelinde hem fiziksel mağazalar hem de online satış
       country: "Türkiye",
       website: "https://www.altinyildiz.com.tr/",
       img: "/altınyildiz.webp",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Altınyıldız markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Altınyıldız markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2173,7 +2173,7 @@ Kanz, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Almanya",
       website: "https://www.kanz.de/",
       img: "/kanz.webp",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Kanz markası, Almanya merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Kanz markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2192,7 +2192,7 @@ Eastpak, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Amerika Birleşik Devletleri",
       website: "https://www.eastpak.com/",
       img: "/eastpak.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Eastpak, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2211,7 +2211,7 @@ Ted Baker, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "İngiltere",
       website: "https://www.tedbaker.com/",
       img: "/ted-baker.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Ted Baker, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2230,7 +2230,7 @@ Conde Nast, dünya genelinde hem fiziksel dergiler hem de online dijital içerik
       country: "Amerika Birleşik Devletleri",
       website: "https://www.condenast.com/",
       img: "/condenast.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Conde Nast şirketi Advance Publications'ın alt kuruluşu olup dünyanın en büyük basın yayın kuruluşlarından birisidir. Kendi altında da VOGUE, Vanity Fair, The New Yorker gibi dergiler başta gelmek üzere, Conde Nast Traveller gibi kuruluşlar bulundurmaktadır. VOGUE Dergisi İsrail'e ve Siyonizme olan desteği mevcuttur. Filistinli model Bella Hadid'in Filistin destek açıklamalarından dolayı sözleşmesini fesh etmişlerdir. Bu nedenle, Conde Nast ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Conde Nast, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2249,7 +2249,7 @@ Süvari, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Türkiye",
       website: "https://www.suvari.com.tr/",
       img: "/suvari.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Süvari markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Süvari markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2268,7 +2268,7 @@ ADL, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "Türkiye",
       website: "https://www.adl.com.tr/",
       img: "/adil.svg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `ADL markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, ADL markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2287,7 +2287,7 @@ DKNY, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.dkny.com/",
       img: "/dkny.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `DKNY'nin ana şirketi LVMH'nin sahibi Bernard Arnault, İsrail şirketlerine yüz milyonlarca yatırım yapıyor. Bundan dolayı boykot listesindedir. Bu nedenle, DKNY ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan DKNY, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2306,7 +2306,7 @@ B&G Store, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Türkiye",
       website: "https://www.bgstore.com.tr/",
       img: "/b-g-store.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `B&G Store markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, B&G Store markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2325,7 +2325,7 @@ Zalando, Avrupa genelinde online satış kanalları aracılığıyla müşterile
       country: "Almanya",
       website: "https://www.zalando.com/",
       img: "/zalando.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Zalando, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2344,7 +2344,7 @@ Authentic Brands Group, dünya genelinde hem fiziksel mağazalar hem de online s
       country: "Amerika Birleşik Devletleri",
       website: "https://www.authenticbrands.com/",
       img: "/abg.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Authentic Brands Group LLC (ABG), New York City merkezli marka yönetimi şirketidir. Holdingler arasında çeşitli giyim, atletizm ve eğlence markaları yer alır ve bunlar için lisans vermek ve satış yapmak üzere diğer şirketlerle ortaktır. Bu nedenle, Authentic Brands Group ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Authentic Brands Group, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2363,7 +2363,7 @@ Delta Galil, dünya genelinde hem fiziksel mağazalar hem de online satış kana
       country: "İsrail",
       website: "https://www.deltagalil.com/",
       img: "/delta-galil.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Delta Galil, İsrail merkezli bir şirkettir ve İsrail'e destek verdiği için boykot kapsamına alınmıştır. Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Delta Galil, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2382,7 +2382,7 @@ ASOS, dünya genelinde online satış kanalları aracılığıyla müşterilerin
       country: "İngiltere",
       website: "https://www.asos.com/tr",
       img: "/asos.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan ASOS, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2401,7 +2401,7 @@ Levidor, Türkiye genelinde hem fiziksel bayilikler hem de online satış kanall
       country: "Türkiye",
       website: "https://www.levidor.com.tr/",
       img: "/levidor.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Levidor markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Levidor markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2420,7 +2420,7 @@ Ay-Yıldız, Türkiye genelinde hem fiziksel mağazalar hem de online satış ka
       country: "Türkiye",
       website: "https://www.ayyildiz.com.tr/",
       img: "/ayyildiz.jpg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Ay-Yıldız markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Ay-Yıldız markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2439,7 +2439,7 @@ Egoiste, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Fransa",
       website: "https://www.egoiste-studio.de/en",
       img: "/egoiste.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Aralarında Chanel ve Ralph Lauren markalarının da bulunduğu tekstil firmaları 17 Ekim 2023'te İsrail'e olan desteklerini açıklamışlardır. Bu nedenle, Egoiste ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Egoiste, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2458,7 +2458,7 @@ Valeron, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Türkiye",
       website: "https://www.valeron.com.tr/",
       img: "/valeron.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Valeron, Türkiye'nin en köklü ve deneyimli kuruluşlarından Zorlu Holding'e bağlı Zorlu Tekstil Grubu'nun bilinen en özgün uluslararası markalarından biridir. Zorlu Holding'in boykot olması sebebiyle Valeron markası boykot listemizdedir. Bu nedenle, Valeron ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Valeron, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2477,7 +2477,7 @@ Spiellers, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "İngiltere",
       website: "https://www.spiellers.com.tr/",
       img: "/spiellers.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Mars Inc firmasına ait un değirmencilik faaliyetlerinde bulunan, fırın işleten, evcil hayvan maması ve at yemi satan bir İngiliz şirketidir. Amerikan toplumuna asimile olma çabalarına rağmen Mars ailesi her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur. Üst kuruluşu olan Mars Inc'in sitesinde İsrail ordusuna olan sosyal desteği açıkça paylaşılmaktadır. Bu nedenle, Spiellers ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Spiellers, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2496,7 +2496,7 @@ Aydın Örme, Türkiye genelinde hem fiziksel mağazalar hem de online satış k
       country: "Türkiye",
       website: "https://www.aydinorme.com.tr/",
       img: "/aydin-orme.jpeg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Aydın Örme, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2515,7 +2515,7 @@ LOFT, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
       country: "Türkiye",
       website: "https://www.loft.com.tr/",
       img: "/loft.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `LOFT, incelediğimiz diğer markalar gibi yerli bir markadır ve sahibi de Türk bir şirkettir (Eroğlu Holding). İsrail'e destek verdiğine veya ticari bir bağı olduğuna dair hiçbir kanıt bulunamamıştır. Bu sebeple boykot edilen bir marka değildir. Bu nedenle, LOFT markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2534,7 +2534,7 @@ NAKO İplik, Türkiye genelinde hem fiziksel bayilikler hem de online satış ka
       country: "Türkiye",
       website: "https://www.nako.com.tr/",
       img: "/nako.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `NAKO İplik markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, NAKO İplik markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2553,7 +2553,7 @@ Armağan Giyim, Türkiye genelinde hem fiziksel mağazalar hem de online satış
       country: "Türkiye",
       website: "https://www.armagangiyim.com/",
       img: "/armagan.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Armağan Giyim markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Armağan Giyim markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2572,7 +2572,7 @@ Lufian, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.lufian.com/",
       img: "/lufian.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Lufian markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Lufian markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2591,7 +2591,7 @@ Bonprix, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Almanya",
       website: "https://www.bonprix.com/",
       img: "/bonprix.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Bonprix, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2610,7 +2610,7 @@ About You, Avrupa genelinde online satış kanalları aracılığıyla müşteri
       country: "Almanya",
       website: "https://www.aboutyou.com.tr/",
       img: "/about-you.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan About You, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2629,7 +2629,7 @@ Ackermann, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Türkiye",
       website: "https://www.ackermann.com.tr/",
       img: "/ackermann.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Ackermann, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2648,7 +2648,7 @@ Limango, Avrupa genelinde online satış kanalları aracılığıyla müşterile
       country: "Almanya",
       website: "https://www.limango.de/",
       img: "/limango.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Limango, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2667,7 +2667,7 @@ Lavinse, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Türkiye",
       website: "https://www.lavinse.com/",
       img: "/lavinse.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Lavinse markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Lavinse markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2686,7 +2686,7 @@ Lavinse, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Türkiye",
       website: "https://www.suhedea.com.tr/",
       img: "/suheda-esarp.jpeg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Şüheda Eşarp markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Şüheda Eşarp markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2705,7 +2705,7 @@ Victoria's Secret, dünya genelinde hem fiziksel mağazalar hem de online satı�
       country: "Amerika Birleşik Devletleri",
       website: "https://www.victoriassecret.com/",
       img: "/victoria-secret.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Victoria's Secret'ın ana şirketi olan L Brands'in sahibi Les Wexner, İsrail'in sadık bir müttefiki ve çocuk kaçakçılığından hüküm giymiş Jeffrey Epstein'in uzun süredir iş ortağıdır. Bu nedenle, Victoria's Secret ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Victoria's Secret, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2724,7 +2724,7 @@ Zara, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "İspanya",
       website: "https://www.zara.com/tr",
       img: "/zara.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğraflarda enkaz ve cansız beden maketleri yer almaktadır. Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiyle Zara boykot listemize eklenmiştir. Bu nedenle, Zara ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Zara, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2743,7 +2743,7 @@ Mavi, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       country: "Türkiye",
       website: "https://www.mavi.com/",
       img: "/mavi.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Mavi markası, LGBT desteği nedeniyle boykot listesinde yer almaktadır. Bu nedenle, Mavi ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Mavi, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2762,7 +2762,7 @@ Penti, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Türkiye",
       website: "https://www.penti.com/",
       img: "/penti.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Penti, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2781,7 +2781,7 @@ Lascana, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Almanya",
       website: "https://www.lascana.de/",
       img: "/lascana.jpeg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Lascana, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2800,7 +2800,7 @@ Sakura Baby, Türkiye genelinde hem fiziksel mağazalar hem de online satış ka
       country: "Türkiye",
       website: "https://www.sakurababy.com.tr/",
       img: "/sakura.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Sakura Baby markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Sakura Baby markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -2819,7 +2819,7 @@ Sheego AG, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanall
       country: "Almanya",
       website: "https://www.sheego.de/",
       img: "/sheego.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Sheego AG, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2838,7 +2838,7 @@ Helline, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Fransa",
       website: "https://www.helline.fr/",
       img: "/helline.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Helline, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2857,7 +2857,7 @@ FGH, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları
       country: "Türkiye",
       website: "https://www.fgh.com.tr/",
       img: "/fgh.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan FGH, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2876,7 +2876,7 @@ Li-Ning, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Çin",
       website: "https://en.lining.com/",
       img: "/lining.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Doğu Türkistan'da yaşananlar sebebi ile Çin'e ait global markaların tamamı boykot listemizdedir. Bu nedenle, Li-Ning ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Li-Ning, boykot listesinde yer almaktadır.`,
     },
     {
@@ -2895,7 +2895,7 @@ Your Look For Less, Avrupa genelinde online satış kanalları aracılığıyla 
       country: "Birleşik Krallık",
       website: "https://www.your-look-for-less.nl/",
       img: "/ylfl.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Your Look For Less, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2914,7 +2914,7 @@ Swimwear365, Avrupa genelinde online satış kanalları aracılığıyla müşte
       country: "Birleşik Krallık",
       website: "https://www.swimwear365.co.uk/",
       img: "/s365.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Swimwear365, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2933,7 +2933,7 @@ Chaussea, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Fransa",
       website: "https://www.chaussea.com/",
       img: "/chaussea.jpg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Chaussea, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2952,7 +2952,7 @@ GAU#5, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Türkiye",
       website: "https://www.gau5.com/",
       img: "/gau5.webp",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan GAU#5, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2971,7 +2971,7 @@ Wolford, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
       country: "Avusturya",
       website: "https://www.wolford.com/",
       img: "/wolford.svg",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Wolford, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -2990,7 +2990,7 @@ Moda Vilona, Avrupa genelinde hem fiziksel mağazalar hem de online satış kana
       country: "Fransa",
       website: "https://www.modavilona.fr/",
       img: "/moda-vilona.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Moda Vilona, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
     },
     {
@@ -3009,7 +3009,7 @@ Hotiç, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.hotic.com.tr/",
       img: "/hotic.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Hotiç markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Hotiç markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
@@ -3028,7 +3028,7 @@ Bosideng, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Çin",
       website: "https://www.bosideng.com/",
       img: "/bosideng.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Doğu Türkistan'da yaşananlar sebebi ile Çin'e ait global markaların tamamı boykot listemizdedir. Bu nedenle, Bosideng ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Bosideng, boykot listesinde yer almaktadır.`,
     },
     {
@@ -3048,7 +3048,7 @@ Akmoda, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
       country: "Türkiye",
       website: "https://www.akmoda.com.tr/",
       img: "/akmoda.jpeg",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
       boycottReason: `Akmoda markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Akmoda markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
   ],

@@ -50,11 +50,25 @@ async function main() {
           continue;
         }
 
-        // isBoycotted değerini boolean'a çevir
-        const isBoycotted =
+        // UPDATED: isBoycotted değerini string'e çevir
+        let boycottStatus = "boykot-degil"; // varsayılan
+
+        if (
           brand.isBoycotted === true ||
           brand.isBoycotted === "true" ||
-          brand.isBoycotted === 1;
+          brand.isBoycotted === 1
+        ) {
+          boycottStatus = "boykot";
+        } else if (
+          brand.isBoycotted === false ||
+          brand.isBoycotted === "false" ||
+          brand.isBoycotted === 0
+        ) {
+          boycottStatus = "boykot-degil";
+        } else if (typeof brand.isBoycotted === "string") {
+          // Eğer zaten string olarak geliyorsa direkt kullan
+          boycottStatus = brand.isBoycotted;
+        }
 
         if (!existingSlugs.has(brand.slug)) {
           try {
@@ -69,7 +83,7 @@ async function main() {
             const createdBrand = await prisma.brand.create({
               data: {
                 ...brandData,
-                isBoycotted: isBoycotted,
+                isBoycotted: boycottStatus,
                 alternativeProducts: alternative_products || [],
                 categoryId: category.id,
                 subCategory: ctgry || null,
@@ -93,11 +107,24 @@ async function main() {
                   continue;
                 }
 
-                // isBoycotted değerini boolean'a çevir
-                const subIsBoycotted =
+                // UPDATED: Alt marka için de isBoycotted'i string'e çevir
+                let subBoycottStatus = "boykot-degil";
+
+                if (
                   subBrand.isBoycotted === true ||
                   subBrand.isBoycotted === "true" ||
-                  subBrand.isBoycotted === 1;
+                  subBrand.isBoycotted === 1
+                ) {
+                  subBoycottStatus = "boykot";
+                } else if (
+                  subBrand.isBoycotted === false ||
+                  subBrand.isBoycotted === "false" ||
+                  subBrand.isBoycotted === 0
+                ) {
+                  subBoycottStatus = "boykot-degil";
+                } else if (typeof subBrand.isBoycotted === "string") {
+                  subBoycottStatus = subBrand.isBoycotted;
+                }
 
                 if (!existingSlugs.has(subBrand.slug)) {
                   try {
@@ -110,7 +137,7 @@ async function main() {
                     await prisma.brand.create({
                       data: {
                         ...subBrandData,
-                        isBoycotted: subIsBoycotted,
+                        isBoycotted: subBoycottStatus,
                         alternativeProducts: alternative_products || [],
                         categoryId: category.id,
                         parentBrandId: createdBrand.id,

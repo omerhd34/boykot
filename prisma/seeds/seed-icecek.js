@@ -23,7 +23,7 @@ Vio markası, Ürdün menşeli olup, İsrail'e destek veya Çin menşeli olmakla
       country: "Ürdün",
       website: "https://viodrinks.com/",
       img: "/vio.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Sırma",
@@ -43,7 +43,7 @@ Sırma Su, farklı hacimlerde pet şişe ve damacana seçenekleriyle tüketicile
       country: "Türkiye & Fransa",
       website: "https://www.sirma.com.tr",
       img: "/sirma.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Sırma Su markasının boykot edilmesinin temel nedeni, markanın ana ortağı olan Fransız gıda devi Danone'nin İsrail ile olan ticari ve finansal bağlantılarıdır. Danone, İsrail'in en büyük gıda işletmelerinden biri olan Strauss Group'un süt ürünleri üreten alt şirketi Strauss Dairies ile işbirliği içerisindedir ve şirkette %20'lik hisse sahibidir.
 
 Strauss Group, İsrail'in en büyük gıda şirketlerinden biri olarak, gayrimeşru İsrail yerleşimlerinde üretim yapmakta ve İsrail ekonomisine ciddi katkılar sağlamaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir. Danone'nin bu şirketle ortaklık yapması, İsrail'in işgal politikalarına dolaylı olarak destek sağlaması anlamına gelmektedir.
@@ -82,7 +82,7 @@ Marka, farklı hacimlerde pet şişe ve damacana seçenekleriyle tüketicilere s
       country: "Türkiye & Fransa",
       website: "https://www.hayatsu.com.tr/",
       img: "/hayat.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Hayat Su markasının boykot edilmesinin temel nedeni, markanın sahibi olan Fransız gıda devi Danone'nin İsrail ile olan ticari ve finansal bağlantılarıdır. Danone, İsrail'in en büyük gıda işletmelerinden biri olan Strauss Group'un süt ürünleri üreten alt şirketi Strauss Dairies ile işbirliği içerisindedir ve şirkette %20'lik hisse sahibidir.
 
 Strauss Group, İsrail'in en büyük gıda şirketlerinden biri olarak, gayrimeşru İsrail yerleşimlerinde üretim yapmakta ve İsrail ekonomisine ciddi katkılar sağlamaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir. Danone'nin bu şirketle ortaklık yapması, İsrail'in işgal politikalarına dolaylı olarak destek sağlaması anlamına gelmektedir.
@@ -121,7 +121,7 @@ Akmina, Türkiye genelinde marketler, süpermarketler ve çeşitli satış nokta
       country: "Türkiye & Fransa",
       website: "",
       img: "/akmina.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Akmina Maden Suyu markasının boykot edilmesinin temel nedeni, markanın sahibi olan Fransız gıda devi Danone'nin İsrail ile olan ticari ve finansal bağlantılarıdır. Danone, İsrail'in en büyük gıda işletmelerinden biri olan Strauss Group'un süt ürünleri üreten alt şirketi Strauss Dairies ile işbirliği içerisindedir ve şirkette %20'lik hisse sahibidir.
 
 Strauss Group, İsrail'in en büyük gıda şirketlerinden biri olarak, gayrimeşru İsrail yerleşimlerinde üretim yapmakta ve İsrail ekonomisine ciddi katkılar sağlamaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir. Danone'nin bu şirketle ortaklık yapması, İsrail'in işgal politikalarına dolaylı olarak destek sağlaması anlamına gelmektedir.
@@ -147,7 +147,7 @@ Volvic, sürdürülebilirlik konusunda da önemli adımlar atmaktadır. Marka, �
       country: "Fransa",
       website: "https://www.volvic.com/",
       img: "/volvic.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Volvic markasının boykot edilmesinin en önemli nedeni, ana şirketi Danone'nin İsrail ile olan ticari ve finansal bağlantılarıdır. Danone, İsrail'in en büyük gıda işletmelerinden biri olan Strauss Group'un süt ürünleri üreten alt şirketi Strauss Dairies ile işbirliği içerisindedir ve şirkette %20'lik hisse sahibidir.
 
 Strauss Group, İsrail'in en büyük gıda şirketlerinden biri olarak, gayrimeşru İsrail yerleşimlerinde üretim yapmakta ve İsrail ekonomisine ciddi katkılar sağlamaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir. Danone'nin bu şirketle ortaklık yapması, İsrail'in işgal politikalarına dolaylı olarak destek sağlaması anlamına gelmektedir.
@@ -181,7 +181,7 @@ Evian, özellikle sağlık bilincine sahip tüketiciler ve lüks yaşam tarzın�
       country: "Fransa",
       website: "https://www.evian.com/en_us",
       img: "/",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Evian'ın boykot edilmesinin temel nedeni, markanın sahibi olan Danone şirketinin İsrail ile olan ticari ve finansal bağlantılarıdır. Danone'nin bu bağlantıları şunlardır:
 
 1. Strauss Group Ortaklığı: Danone, İsrail'in en büyük gıda işletmelerinden Strauss Group'un süt ürünleri üreten alt şirketi Strauss Dairies ile iş birliği içerisindedir ve şirkette %20'lik hisse sahibidir. Strauss Group'un aynı zamanda İsrail askeri birimlerine destek ve malzeme tedariki sağladığı belirtilmektedir.
@@ -216,7 +216,7 @@ Marka, özellikle ev tipi kullanımda tercih edilmekte ve Türkiye genelinde yay
       country: "Türkiye",
       website: "https://abantsu.com.tr/",
       img: "/abant.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Kaya Holding'e ait Abant Su, İsrailli şarkıcı Linet'i Ramazan Bayramı'nın ilk gününde sahneye davet etmesi gerekçesiyle boykot listesine alınmıştır. Sosyal medya platformu BoykotDedektifi, markanın boykot kapsamına dahil edildiğini duyurmuştur.
 
 Boykotun gerekçesi, Abant Su'nun sahibi Burhanettin Kaya'nın otellerinde, İsrail vatandaşı ve İsrail için askerlik yapmış olan Linet'in, Hamas'ı 'terörist' olarak tanımlamasıyla bilinen bir sanatçıyı, Müslümanlar için özel olan Ramazan Bayramı'nın ilk gününde konser vermesi olarak gösterilmektedir. Bu durum, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından büyük tepkiyle karşılanmıştır.
@@ -252,7 +252,7 @@ Ayran Su, özellikle ev tipi kullanımda tercih edilmekte ve Türkiye'nin yerli 
       country: "Türkiye",
       website: "https://ayransu.com.tr/",
       img: "/ayransu.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Sırmakeş",
@@ -270,7 +270,7 @@ Sırmakeş, özellikle İstanbul bölgesinde tercih edilmekte ve Türkiye'nin ye
       country: "Türkiye",
       website: "https://sirmakes.com.tr/ ",
       img: "/sirmakeş.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Hamidiye",
@@ -290,7 +290,7 @@ Hamidiye Su, tarihi geçmişi ve kaliteli üretimiyle Türkiye su pazarında ön
       country: "Türkiye",
       website: "https://hamidiye.istanbul/",
       img: "/hamidiye.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Beysu",
@@ -308,7 +308,7 @@ Beysu, özellikle Konya ve çevresinde tercih edilmekte ve Türkiye'nin yerli su
       country: "Türkiye",
       website: "https://beysu.com.tr/",
       img: "/beysu.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Sultan",
@@ -324,7 +324,7 @@ Sultan Su, özellikle maden suyu segmentinde güçlü bir konuma sahiptir ve tü
       country: "Türkiye",
       website: "https://sultanicecek.com.tr/tr",
       img: "/sultan.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Saka",
@@ -340,7 +340,7 @@ Saka Su, özellikle maden suyu segmentinde güçlü bir konuma sahiptir ve tüke
       country: "Türkiye & Japonya",
       website: "https://www.sakasu.com.tr/ ",
       img: "/saka.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Buzdağı",
@@ -355,7 +355,7 @@ Buzdağı Su, özellikle yüksek kalsiyum içeriğiyle öne çıkmakta ve sağl�
       country: "Türkiye",
       website: "https://www.buzdagisu.com.tr/",
       img: "/buzdagi.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Kızılay",
@@ -373,7 +373,7 @@ Kızılay Maden Suyu, özellikle sosyal sorumluluk ve kalite odaklı yaklaşım�
       country: "Türkiye",
       website: "https://www.kizilayicecek.com.tr/",
       img: "/kizilay.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Özkaynak",
@@ -388,7 +388,7 @@ Kızılay Maden Suyu, özellikle sosyal sorumluluk ve kalite odaklı yaklaşım�
       country: "Türkiye",
       website: "https://www.ozkaynak.com/",
       img: "/ozkaynak.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Dost",
@@ -406,7 +406,7 @@ Dost markası, özellikle BİM müşterileri arasında popülerlik kazanmaktadı
       country: "Fransa & Türkiye",
       website: "https://www.bim.com.tr ",
       img: "/dost.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Dost markasının boykot edilmesinin temel nedeni, markanın üretimini yapan Groupe Lactalis'in İsrail ile olan ticari ilişkileridir. Dost Süt'ün üretici firması bölgelere göre farklılık gösterebilmektedir. 
 
 Bazı bölgelerde üretimi Ak Gıda tarafından yapılmaktadır ve bu nedenle bazı tüketiciler tarafından boykot edilmektedir. Ak Gıda, 2015 yılından bu yana Fransız şirketi Groupe Lactalis'e aittir ve bu şirketin İsrail ile olan ticari bağları nedeniyle boykot listelerinde yer almaktadır.
@@ -432,7 +432,7 @@ Satın almadan önce ambalajın arka kısmındaki üretici bilgilerini kontrol e
       country: "Fransa & Türkiye",
       website: "https://www.icim.com.tr/",
       img: "/icim.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `İçim markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in ticari faaliyetleri ve İsrail ile ilişkilendirilen yatırımlarıdır.
 
 Boykot çağrılarının temel nedenleri:
@@ -458,7 +458,7 @@ Sütaş, Türkiye genelinde marketler, süpermarketler ve çeşitli satış nokt
       country: "Türkiye",
       website: "https://www.sutas.com.tr/",
       img: "/sutas.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Pınar",
@@ -476,7 +476,7 @@ Pınar, Türkiye genelinde marketler, süpermarketler ve çeşitli satış nokta
       country: "Türkiye",
       website: "https://www.pinar.com.tr/default.aspx ",
       img: "/pinar.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Redbull",
@@ -494,7 +494,7 @@ Marka, özellikle genç tüketiciler ve aktif yaşam tarzına sahip bireyler ara
       country: "Avusturya",
       website: "https://www.redbull.com/tr-tr/",
       img: "/redbull.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Red Bull'un boykot edilmesinin temel nedeni, markanın İsrail pazarında aktif şekilde faaliyet göstermesidir. Red Bull, Avusturya merkezli bir enerji içeceği markası olmasına rağmen, İsrail pazarında güçlü bir varlığa sahiptir.
 
 Markanın İsrail'deki varlığı, resmi Instagram hesapları üzerinden İsrailli tüketicilerle süregelen etkileşimler, ürün tanıtımları, etkinlikler ve sponsorluklar aracılığıyla açıkça görülmektedir. Bu dijital faaliyetler, Red Bull'un ülkedeki operasyonlarının sürdüğünü ve markanın İsrail'e olan bağlılığını göstermektedir.
@@ -520,7 +520,7 @@ Didi ile ilgili olarak uluslararası veya siyasi bir boykot çağrısı bulunmam
       country: "Türkiye",
       website: "https://www.caykur.gov.tr/Pages/Detay/UrunDetay.aspx?ItemId=5",
       img: "/didi.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Juss",
@@ -538,7 +538,7 @@ Juss, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktala
       country: "Türkiye",
       website: "https://juss.com.tr/",
       img: "/juss.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Dimes",
@@ -556,7 +556,7 @@ Dimes ile ilgili olarak uluslararası veya siyasi bir boykot çağrısı bulunma
       country: "Türkiye",
       website: "https://www.dimes.com.tr/",
       img: "/dimes.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Uludağ",
@@ -574,7 +574,7 @@ Uludağ, Türkiye genelinde marketler, süpermarketler ve çeşitli satış nokt
       country: "Türkiye",
       website: "https://www.uludagicecek.com.tr/ ",
       img: "/uludag.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Doğuş",
@@ -592,7 +592,7 @@ Doğuş Çay ile ilgili olarak uluslararası veya siyasi bir boykot çağrısı 
       country: "Türkiye",
       website: "https://www.doguscay.com.tr/ ",
       img: "/dogus.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Tamek",
@@ -610,7 +610,7 @@ Tamek, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktal
       country: "Türkiye",
       website: "https://www.tamek.com.tr/ ",
       img: "/tamek.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Cola Turka",
@@ -627,7 +627,7 @@ Japon şirketi DyDo Drinco hakkında herhangi bir destek veya olumsuz açıklama
       website:
         "https://www.dydodrinco.com.tr/en/our-brandsr/cola-turka-icecek.html",
       img: "/cola-turka.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Çamlıca",
@@ -643,7 +643,7 @@ Boykot listelerinde yer almamasının temel nedeni, markanın haklarının sahib
       country: "Japonya",
       website: "https://www.dydodrinco.com.tr/tr/markalarimiz/camlica.html",
       img: "/camlica.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Ofçay",
@@ -661,7 +661,7 @@ Ofçay, Türkiye genelinde marketler, süpermarketler ve çeşitli satış nokta
       country: "Türkiye",
       website: "https://ofcay.com/",
       img: "/ofcay.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Çaykur",
@@ -679,7 +679,7 @@ Marka, siyah çay, yeşil çay ve aromalı çay çeşitleriyle tanınır ve Tür
       country: "Türkiye",
       website: "https://www.caykur.gov.tr/AnaSayfa.aspx",
       img: "/caykur.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Meysu",
@@ -697,7 +697,7 @@ Meysu, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktal
       country: "Türkiye",
       website: "https://www.meysu.com.tr/",
       img: "/meysu.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Beypazarı",
@@ -715,7 +715,7 @@ Beypazarı, Türkiye genelinde marketler, süpermarketler ve çeşitli satış n
       country: "Türkiye",
       website: "https://beypazarimadensuyu.com.tr/",
       img: "/beypazari.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Teatone",
@@ -733,7 +733,7 @@ Teatone, Türkiye genelindeki BİM mağazalarında yaygın olarak bulunmaktadır
       country: "Türkiye",
       website: "https://www.teatone.com.tr/",
       img: "/teatone.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Sarıkız",
@@ -751,7 +751,7 @@ Sarıkız, Türkiye genelinde marketler, süpermarketler ve çeşitli satış no
       country: "Türkiye",
       website: "https://www.sarikiz.com.tr/",
       img: "/sarikiz.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Ceysu",
@@ -769,7 +769,7 @@ Ceysu, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktal
       country: "Türkiye",
       website: "https://www.ceysu.com.tr/",
       img: "/ceysu.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Lucy",
@@ -786,7 +786,7 @@ Jucy, tamamen Türkiye odaklı bir perakende zinciri markasıdır ve küresel ç
 Jucy, Türkiye genelindeki BİM mağazalarında yaygın olarak bulunmaktadır. Marka, kalite ve uygun fiyat odaklı üretim anlayışıyla Türkiye meyve suyu pazarında önemli bir konuma sahiptir.`,
       country: "Türkiye",
       img: "/lucy.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Nazo",
@@ -804,7 +804,7 @@ Nazo, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktala
       country: "Türkiye",
       website: "https://www.nazligida.com.tr/index.php ",
       img: "/nazo.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Diriliş",
@@ -822,7 +822,7 @@ Diriliş, Türkiye genelinde marketler, süpermarketler ve çeşitli satış nok
       country: "Türkiye",
       website: "https://www.diriliscola.com/",
       img: "/dirilis.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Zafer Gazoz",
@@ -840,7 +840,7 @@ Zafer Gazoz, Türkiye genelinde marketler, süpermarketler ve çeşitli satış 
       country: "Türkiye",
       website: "https://www.zafergazoz.com.tr/",
       img: "/zafer-gazoz.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Fruit Pocket",
@@ -858,7 +858,7 @@ Fruit Pocket, Türkiye genelinde marketler, süpermarketler ve çeşitli satış
       country: "Türkiye",
       website: "https://fruitpocket.com.tr/",
       img: "/fruit-pocket.png",
-      isBoycotted: false,
+      isBoycotted: "boykot-degil",
     },
     {
       name: "Lipton",
@@ -876,7 +876,7 @@ Lipton, bugün dünya çapında 150'den fazla ülkede satılmakta ve günlük ol
       country: "İngiltere",
       website: "https://www.lipton.com.tr/",
       img: "/lipton.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Lipton'un boykot edilmesinin temel nedeni, markanın ana ortağı olan PepsiCo'nun İsrail ile olan ticari ilişkileridir. Lipton'un doğrudan İsrail'i desteklediğine dair resmi bir açıklama bulunmamaktadır. Ancak Lipton'un ana ortağı olan PepsiCo, İsrail merkezli bazı şirketlerle ticari ilişkiler yürütmektedir:
 
 1. SodaStream: PepsiCo, İsrail merkezli SodaStream'i 3,2 milyar dolara satın almıştır. SodaStream, İsrail'in yasadışı yerleşim bölgelerinde açtığı fabrikalar nedeniyle uzun süredir tartışma konusu olmaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir.
@@ -897,7 +897,7 @@ Bu ticari ilişkiler nedeniyle, birçok tüketici Lipton'u dolaylı olarak İsra
       country: "Almanya",
       website: "https://www.capri-sun.com/tr/",
       img: "/caprisun.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Kraft Heinz şirketi birleşmeden önce İsrail'de ürün gamı genişletme çalışması yapmıştır. Ancak 2010'dan beri İsrail'deki operasyonlarıyla ilgili net bir bilgi yok. Birçok uluslararası boykot listesinde şirketin adını görsek de şirketin İsrail'de üretim faaliyeti yaptığı veya Yahudi fonları tarafından desteklendiğine dair bir kanıta ulaşamadık.
       Şirketin en büyük hissedarı Berkshire olduğundan boykot listemizedir. Kraft Heinz şirketi Türkiye'de de 100 milyon dolarlık üretim yatırımı olan bir şirkettir.`,
       alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
@@ -913,7 +913,7 @@ Bu ticari ilişkiler nedeniyle, birçok tüketici Lipton'u dolaylı olarak İsra
       country: "Amerika Birleşik Devletleri",
       website: "https://drpepper.store/",
       img: "/pepper.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Günümüzde ABD'de Keurig Dr Pepper tarafından üretilip dağıtılan Dr Pepper, bazı çevreler tarafından, sahipleri Reimann ailesinin Alfred Landecker Vakfı aracılığıyla İsrail'e destek sağlaması nedeniyle boykot edilmektedir.`,
       alternative_products: [
         "cola-turka",
@@ -939,7 +939,7 @@ Marka, sadece ürün üretimiyle sınırlı kalmayıp, sürdürülebilirlik proj
       country: "İsviçre",
       website: "https://www.nescafe.com/tr",
       img: "/nescafe.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Nescafé'ye yönelik boykot çağrısı, aslında ana şirketi olan Nestlé'nin faaliyetlerine odaklanmaktadır. Nestlé, İsrail'deki gıda üretiminin yaklaşık üçte ikisini kontrol eden Osem adlı bir iştirakin sahibidir. Daha da önemlisi, bu iştirakin Gazze'nin hemen yanı başında üretim tesisleri bulunmaktadır.
 
 Nestlé'nin İsrail ekonomisi ve endüstrisi içinde bu denli stratejik ve köklü bir role sahip olması, hem kendisinin hem de markası Nescafé'nin boykot edilmesi talebinin temel nedenini oluşturmaktadır. Osem, İsrail'in en büyük gıda şirketlerinden biri olarak, İsrail ekonomisine ciddi katkılar sağlamaktadır. Bu durum, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından büyük tepkiyle karşılanmaktadır.
@@ -958,7 +958,7 @@ Nestlé'nin Gazze'nin hemen yanı başında üretim tesisleri bulundurması, şi
       country: "Almanya & İsviçre &",
       website: "https://www.nestle.com.au/en/brands/caro",
       img: "/caro.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu markanın boykot edilmesinin temel nedeni, sahibi olan Nestlé şirketinin İsrail ile olan ticari bağlantıları ve yatırımlarıdır. Caro, ana şirketi Nestlé'nin politikaları ve eylemleri yüzünden boykot edilmektedir.
       Boykot çağrılarının temel nedenleri:
       1.	İsrail'deki Fabrika ve AR-GE: Nestlé'nin 1995 yılından bu yana İsrail'de teknoloji ve Ar-Ge yatırımları bulunmaktadır. Örneğin, Nestlé'nin 2002 yılında İsrail'in Sderot kentinde bir fabrika açtığı bilinmektedir.
@@ -976,7 +976,7 @@ Nestlé'nin Gazze'nin hemen yanı başında üretim tesisleri bulundurması, şi
       country: "Türkiye & İsviçre",
       website: "https://www.erikli.com.tr/",
       img: "/erikli.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Nestlé, merkezi İsviçre'de bulunan ve dünya genelinde faaliyet gösteren dev bir gıda ve içecek şirketidir. Şirketin İsrail'de de yatırımları bulunmaktadır. Özellikle Osem Investments isimli gıda şirketine sahip olması nedeniyle bazı tüketiciler Nestlé ürünlerini boykot etmeyi tercih etmektedir.
       Bazı sivil toplum kuruluşları ve boykot platformları, Nestlé ürünlerini boykot listesine eklemiştir. Bu listelerde yer alan ürünler arasında Erikli Su da bulunmaktadır. Ancak bu tamamen bireysel bir tercih meselesidir.`,
       alternative_products: [
@@ -1002,7 +1002,7 @@ Nestlé'nin Gazze'nin hemen yanı başında üretim tesisleri bulundurması, şi
       country: "İsviçre",
       website: "https://www.nestlepurelife.com/tr/tr-tr",
       img: "/nestle-pure-life.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Nestlé Pure Life markasının sahibi olan Nestlé, İsrail merkezli Osem şirketinin kontrol hissesine sahiptir. Osem, işgal altındaki Filistin'de faaliyet gösteren bir gıda üreticisidir ve Nestlé, Osem'in %53,8'ine sahip bir İsviçreli çok uluslu yiyecek ve içecek şirketidir. Ayrıca Nestlé'nin, Gazze Şeridi'ne yaklaşık 2 km uzaklıktaki Sderot yerleşiminde bir Araştırma ve Geliştirme Merkezi bulunmaktadır. Bu bağlantılar nedeniyle, bazı çevreler Nestlé Pure Life ve Nestlé ürünlerini boykot etmektedir.`,
       alternative_products: [
         "hamidiye",
@@ -1027,7 +1027,7 @@ Nestlé'nin Gazze'nin hemen yanı başında üretim tesisleri bulundurması, şi
       country: "Fransa & İsviçre",
       website: "https://www.perrier.com/",
       img: "/perrier.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Perrier markasının sahibi Nestlé, İsrail merkezli Osem şirketinin kontrol hissesine sahiptir. Osem, işgal altındaki Filistin'de faaliyet gösteren bir İsrailli gıda üreticisidir. Nestlé, Osem'in %53,8'ine sahip olan İsviçreli çok uluslu bir yiyecek ve içecek şirketidir. Ayrıca Nestlé'nin, Gazze Şeridi'ne yaklaşık 2 km uzaklıktaki Sderot yerleşiminde bir Araştırma ve Geliştirme Merkezi bulunmaktadır. Bu bağlantılar nedeniyle, Perrier'i boykot etmektedir.`,
       alternative_products: [
         "kizilay",
@@ -1053,7 +1053,7 @@ PepsiCo, gazlı içecekler, meyve suları, spor ve enerji içecekleri, atıştı
       country: "Amerika Birleşik Devletleri",
       website: "https://www.pepsico.com/",
       img: "/pepsico-company.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `PepsiCo'nun boykot edilmesinin temel nedeni, şirketin İsrail ile olan güçlü ticari ve ekonomik bağlarıdır. PepsiCo, İsrail merkezli SodaStream markasının tamamını 3,2 milyar dolara satın almış ve Sabra markasının %50 hissesine sahiptir.
 
 SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadışı işgale olanak sağlamaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir. Bu fabrikalarda çalışmak zorunda kalan Filistinliler, ciddi ayrımcılığa maruz kaldıklarını ve kendilerine "köle gibi" davranıldığını ifade etmektedir.
@@ -1081,7 +1081,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://www.pepsi.com.tr/",
           img: "/pepsi.jpg",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1095,7 +1095,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://stingenergy.com/",
           img: "/sting.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1109,7 +1109,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://www.7up.com/en",
           img: "/7up.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1123,7 +1123,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "İspanya & ABD",
           website: "https://www.pepsi.ps/products/mirinda",
           img: "/yedigun.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1137,7 +1137,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://www.mountaindew.com/products",
           img: "/mountain-dew.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1150,7 +1150,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           description: `Punica, 1977 yılında Dettmeyer GmbH tarafından yaratılan ve Alman karbonatlı meşrubat olarak satılan bir markadır. Marka, yıllar içinde farklı şirketlerin eline geçmiştir; 1984'te Procter & Gamble tarafından, 2005'te ise PepsiCo tarafından satın alınmıştır. Marka, 2021 yılı Ağustos ayına kadar PepsiCo'ya ait kalmıştır.`,
           country: "Almanya & ABD",
           img: "/punica.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1164,7 +1164,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Türkiye & ABD",
           website: "https://www.fruko.com.tr/",
           img: "/fruko.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1178,7 +1178,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://www.rockstarenergy.com/",
           img: "/rockstar.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1192,7 +1192,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://tropicana.com.tr/",
           img: "/tropicana.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1206,7 +1206,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           country: "Amerika Birleşik Devletleri",
           website: "https://kevita.com/",
           img: "/kevita.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1221,7 +1221,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
           website:
             "https://design.pepsico.com/design-dialogue/schwip-schwap-gets-modern-redesign",
           img: "/schwip-schwap.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "PepsiCo'nun alt markası olduğu için boykot edilmektedir.",
         },
@@ -1237,7 +1237,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Almanya",
       website: "https://www.eduscho.com/tr/tr",
       img: "/eduscho.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Eduscho markası, sahibi olduğu Tchibo markasıyla birlikte boykot çağrılarıyla karşı karşıyadır. Bu çağrıların temel nedeni, Tchibo'nun ana sahiplerinden olan Herz Ailesi'nin dolaylı yollardan İsrail'i desteklediği iddiasıdır.
       Özellikle Herz Ailesi'nin sahip olduğu bir diğer büyük şirket olan Beiersdorf'un İsrail yanlısı açıklamaları, Eduscho ve bağlı olduğu Tchibo grubunu bu bağlamda eleştirilerin ve boykot hedeflerinin odağı haline getirmiştir. Tüketiciler, bu ticari bağlantılar nedeniyle Eduscho ürünlerini boykot ederek tepkilerini göstermektedirler.`,
       alternative_products: ["dogus", "ofcay", "caykur"],
@@ -1253,7 +1253,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "",
       img: "/tang.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Tang'ın boykot edilmesinin temel nedeni, markanın çatı kuruluşu olan Mondelēz International şirketinin İsrail ile olan ticari ve ekonomik ilişkileridir. Mondelēz, İsrail'deki gıda girişimlerine yatırımlar yaparak buradaki ekonomik ilişkilerini hem operasyonel hem de Ar-Ge (Araştırma ve Geliştirme) yatırımlarıyla pekiştirmektedir.
       Mondelēz'in, özellikle İsrail'de The Kitchen Hub ve Torr isimli iki gıda girişimine yatırım yapması, bu boykot çağrılarına neden olmuştur. Hatta bahsedilen girişimleri kuran kişiler arasında Mondelēz'in eski çalışanlarının bulunması da, şirketin İsrail ekonomisine olan yakınlığını gösteren faktörlerdendir. Tüketiciler, Mondelēz International'ın bu yatırımları nedeniyle Tang markasını boykot listelerine dahil etmektedir.`,
       alternative_products: ["nazo", "juss", "dimes"],
@@ -1272,7 +1272,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "ABD & Hollanda",
       website: "https://www.lorespresso.com/en_gb",
       img: "/lor.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `L'Or markası, boykot listelerine dahil edilmiş ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Boykotun temelinde, markanın ait olduğu çatı kuruluşun ve hissedarların siyasi veya ticari duruşlarına yönelik olumsuz açıklamalar ya da destekler olduğu iddiaları yer almaktadır.
       L'Or'un sahibi olan JDE Peet's NV ve onun büyük hissedarları Mondelēz International ve JAB Holding Company gibi uluslararası şirketlerin, özellikle Mondelēz'in İsrail'deki ticari yatırımları (Jacobs markasının boykot nedeni de bu bağlantıydı), L'Or'un da boykot hedefi haline gelmesine neden olmuştur. Bu nedenle, marka "boykot hususunda güvenilir olarak kabul edilmemekte" ve tüketicilerin tepkilerini göstermek için boykot edilmektedir.`,
       alternative_products: ["dogus", "ofcay", "caykur"],
@@ -1288,7 +1288,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.senseo.us/",
       img: "/senseos.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Senseo's markasının boykot edilme nedeni, markanın ait olduğu JDE Peet's NV grubunun sahiplik yapısı ve ticari ilişkileridir.
       Markanın azınlık hissedarı olan Mondelēz International şirketinin, İsrail'deki gıda girişimlerine yaptığı yatırımlar nedeniyle boykot ediliyor olması, onun hissedarı olduğu Senseo's markasını da dolaylı olarak boykot hedefine sürüklemektedir. Bu durumdan dolayı marka, boykot listelerine dahil edilmiş ve tüketicilerin boykotu gerektiren olumsuz açıklamalar veya destekler söz konusudur. Tüketicilere, Mondelēz International'ın ticari bağlantıları sebebiyle bu markayı tercih etmemeleri önerilmektedir.`,
       alternative_products: ["dogus", "ofcay", "caykur"],
@@ -1304,7 +1304,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Avusturya & Avrupa ",
       website: "https://www.rauch.cc/",
       img: "/rauch.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Rauch markası, boykot listelerine dahil edilmiş ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Boykotun temelinde, markanın ticari duruşu, sahiplik yapısı veya uluslararası ilişkileri üzerinden İsrail'e destek sağladığına yönelik olumsuz açıklamalar ya da iddialar yer almaktadır.
       Bu iddialar nedeniyle Rauch, "Boykot Hususunda" güvenilir bir marka olarak kabul edilmemekte ve tüketicilere, bu tür desteklerle ilişkilendirilen markalardan kaçınmaları tavsiye edilmektedir.`,
       alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
@@ -1320,7 +1320,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Bulgaristan",
       website: "https://bluenergydrink.com/",
       img: "/blu-energy-drink.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Blue Energy Drink markası, boykot listelerine dahil edilmiş olup, tüketiciler tarafından tercih edilmemesi önerilmektedir. Boykotun temelinde, markanın ticari duruşu, sahiplik yapısı veya uluslararası ilişkileri üzerinden İsrail'e destek sağladığına yönelik olumsuz açıklamalar ya da iddialar yer almaktadır.
       Bu iddialar nedeniyle marka, "Boykot Hususunda" güvenilir bir marka olarak kabul edilmemekte ve tüketicilere, boykot edilmesini gerektiren durumlar söz konusu olduğu için bu markadan kaçınmaları tavsiye edilmektedir.`,
       alternative_products: ["dirilis"],
@@ -1339,7 +1339,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://themaxwell.house/",
       img: "/maxwell.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Maxwell House, Kuzey Amerika dışında JDE Peet's'e, Kuzey Amerika'da ise Kraft Heinz'e ait olduğu için, her iki çatı şirketin ticari bağlantıları nedeniyle boykot listelerinde yer almaktadır.
       Boykot çağrılarının temel nedenleri:
       1.	JDE Peet's Bağlantısı: Dünyanın geri kalanında sahibi olan JDE Peet's NV'nin hisseleri, İsrail'deki gıda girişimlerine yatırım yapan Mondelez International'a (%22,9) ve ticari bağları olduğu iddia edilen JAB Holding Company S.à r.l.'ye (%60,5) aittir.
@@ -1364,7 +1364,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://rccolainternational.com/ ",
       img: "/rc-cola.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `RC Cola'nın boykot edilmesinin nedeni, markanın sahibi olan Amerika merkezli büyük şirket Keurig Dr Pepper'ın (KDP) ve uluslararası distribütörü Cott Corporation'ın (şimdiki adıyla Cott Corporation/Keurig Dr Pepper) ticari faaliyetleri ile ilişkilendirilmesidir.
       Boykot çağrılarının temel nedeni:
           •	Keurig Dr Pepper Bağlantısı: RC Cola'nın ana şirketi olan Keurig Dr Pepper'ın (KDP), İsrail ile doğrudan veya dolaylı ticari ve ekonomik bağları olduğu iddia edilmektedir. Boykot listeleri, KDP'nin küresel bir içecek devi olması ve ticari politikaları nedeniyle markanın tercih edilmemesi yönünde çağrı yapmaktadır.
@@ -1395,7 +1395,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "İtalya",
       website: "https://orangina.co.uk/",
       img: "/orangina.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu markanın boykot edilmesinin temel nedeni, ana şirketi olan Suntory Holdings'in uluslararası dağıtım ağında İsrail'e ait bir distribütörün bulunmasıdır.
       Boykot çağrılarının temel nedenleri:
           •	İsrail Distribütörü: Orangina'nın sahibi Suntory Holdings, Asya bölgesindeki distribütörleri arasında İsrail merkezli FM Global MediChem Ltd'ye yer vermektedir.
@@ -1413,7 +1413,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Almanya",
       website: "https://www.spezi.com/",
       img: "/spezi.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Spezi'nin boykot listelerinde yer almasının gerekçesi, markanın ana lisans sahiplerinden biri olan Paulaner Brauerei Gruppe'nin ticari ve hissedarlık yapısından kaynaklandığı iddia edilmektedir.
       Boykot çağrılarının temel nedenleri: 
           •	Ticari Bağlantılar: Spezi, her ne kadar yerel bir marka olarak görünse de, bazı boykot kaynakları markanın lisans ve dağıtım ağının, İsrail ile ticari bağları olduğu iddia edilen küresel şirketlerle dolaylı yoldan ilişkili olabileceği gerekçesiyle boykot edilmesi çağrısı yapmaktadır.
@@ -1437,7 +1437,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Hollanda",
       website: "https://www.pickwicktea.com/",
       img: "/pickwick.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Pickwick markasının boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Pickwick'in ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail ekonomisi ile güçlü bağlarını pekiştirmiştir.
@@ -1456,7 +1456,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Birleşik Krallık",
       website: "https://www.kenco.co.uk/",
       img: "/kenco.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Kenco Coffee'nin boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Kenco'nun ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail eko-nomisi ile güçlü bağlarını pekiştirmiştir.
@@ -1480,7 +1480,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Almanya",
       website: "https://www.eckes-granini.com/",
       img: "/eckes.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Eckes-Granini Group'un boykot edilmesinin temel nedeni, İsrail ile olan ticari ve ekonomik bağlantılarıdır.
       Boykot çağrılarının temel nedenleri:
           1.	İsrail'deki Operasyonlar: Eckes-Granini, 2010 yılında meyve suyu şirketi Gan Shmuel Group ile bir ortaklık kurarak Granini markasının İsrail'de dağıtımına başlamıştır. Gan Shmuel Group, İsrail'in en büyük meyve suyu ve doğal ürünler üreticilerinden biridir.
@@ -1497,7 +1497,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       description: `Flötzinger Cola Mix, kola ve portakallı meşrubatın karışımından oluşan gazlı bir içecektir. Ürün, kofeinli portakallı gazoz ile kola içermekte olup, %3 oranında meyve içeriğine sahiptir. Bu tür Cola Mix içecekler, özellikle Almanya gibi bazı Avrupa ülkelerinde yaygın olarak tüketilmektedir. Flötzinger markası, bölgesel veya yerel bir üreticiye ait olsa da, küresel boykot hareketleri kapsamında incelenmektedir`,
       country: "Avrupa",
       img: "/cola-mix.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Flötzinger markasının boykot edilmesinin temel nedeni, bazı boykot hareketlerinin markayı destekleyen veya ona tedarik sağlayan şirketlerin ticari bağlantıları üzerinden boykot listelerine dahil etmesidir.
       Boykot çağrılarının temel nedenleri:
           •	Dolaylı Ticari Bağlantılar: Flötzinger'in yerel bir üretici olmasına rağmen, üretim, dolum veya dağıtım aşamalarında kullanılan hammaddelerin ve hizmetlerin, İsrail ile ticari ilişkileri olduğu iddia edilen küresel şirketler tarafından sağlanması nedeniyle hedef alındığı iddia edilmektedir.
@@ -1522,7 +1522,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Almanya & Hollanda",
       website: "https://www.jacobscoffee.com.tr/",
       img: "/jde-jacobs.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Jacobs'un boykot edilmesinin temel nedeni, markanın ait olduğu çatı kuruluş olan Mondelēz International şirketinin İsrail ile olan ticari ve finansal ilişkileridir. Mondelēz International, Jacobs'un alt markasıdır ve İsrail'deki gıda sektörüne önemli yatırımlar yapmıştır.
       Boykot çağrılarına yol açan Mondelēz yatırımları şunlardır:
           1.	İsrail'deki Girişimler: Mondelēz, İsrail'de faaliyet gösteren The Kitchen Hub ve Torr isimli iki gıda girişimine yatırımda bulunmuştur.
@@ -1545,7 +1545,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Brezilya & Hollanda",
       website: "https://www.pilao.com.br/",
       img: "/pilao.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Pilão, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ticari faaliyetleri nedeniyle boykot edilmektedir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Pilão'nun ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir.
@@ -1564,7 +1564,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "ABD & Hollanda",
       website: "https://www.jdepeets.com/",
       img: "/peets.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Peet's Coffee'nin boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ticari faaliyetleridir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Peet's Coffee'nin ana şirketi olan JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir.
@@ -1584,7 +1584,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Hollanda",
       website: "https://www.moccona.com.au/",
       img: "/moccona.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Moccona'nın boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ticari faaliyetleridir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Moccona'nın ana şirketi olan JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir.
@@ -1604,7 +1604,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://www.stumptowncoffee.com/",
       img: "/stumptown.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu markanın boykot edilmesinin temel nedeni, ana şirketi olan JAB Holding Company S.à r.l.'nin ticari ve hissedarlık bağlantılarıdır.
       Boykot çağrılarının temel nedenleri:
           1.	JAB Holding Bağlantısı: Stumptown Coffee, Lüksemburg merkezli JAB Holding Company S.à r.l.'nin sahibi olduğu markalar arasındadır.
@@ -1622,7 +1622,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       Ürün yelpazesi, kahve kapsülleri (K-Cup Pods) ve klasik kahve harmanları (Signature Blend) gibi birçok çeşidi içerir.`,
       country: "İsveç & Hollanda",
       img: "/gevalia.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Gevalia'nın boykot edilmesinin temel nedeni, ana şirketi olan JDE Peet's NV'nin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Gevalia'nın ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerine yatırım yaptığı ve ekonomik ilişkilerini pekiştirdiği için boykot edilmektedir.
@@ -1640,7 +1640,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Hollanda",
       website: "https://www.jacobsdouweegberts.com/",
       img: "/douwe-egberts.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Douwe Egberts'in boykot edilmesinin temel nedeni, ana şirketi olan JDE Peet's NV'nin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
       Boykot çağrılarının temel nedenleri:
           1.	Mondelez Hissedarlığı: Douwe Egberts'in ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerine yatırım yaptığı ve ekonomik ilişkilerini pekiştirdiği için boykot edilmektedir.
@@ -1660,7 +1660,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://boxdh2o.co.uk/",
       img: "/boxd-water.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Boxd Water markası, genel olarak İsrail ile ticari bağı olan küresel markaların boykot listelerinde yer almamaktadır. Ancak marka, bazı çevresel veya siyasi eleştirilere maruz kalmıştır.
           •	Küresel Boykot Listelerinde Durumu: Boxd Water, The Coca-Cola Company veya PepsiCo gibi İsrail'de doğrudan faaliyeti veya önemli yatırımı olan küresel holdinglere ait değildir. Bu nedenle, ana akım İsrail-Filistin çatışmasıyla ilgili boykot çağrılarının birincil hedefi değildir.
           •	"Yeşil Yıkama" Eleştirisi: Marka, yerel aktivist çevreler tarafından "yeşil yıkama" (greenwashing) yapmakla eleştirilmiştir. Eleştirmenler, suyun ticarileştirilmesini ve suyun kartonda dahi olsa nakliyesi için harcanan enerjiyi sorgulamakta ve musluk suyu kullanımını desteklemektedir.
@@ -1690,7 +1690,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Almanya",
       website: "",
       img: "/onko.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Onko Kaffee markası, bağlı olduğu ana şirket nedeniyle boykot listesinde yer alıyor!
       Onko Kaffee'nin boykot edilmesinin temel nedeni, markanın sahibi olan JDE Peet's N.V. holdinginin hissedarlık yapısında yer alan ve İsrail ile ticari bağları olduğu iddia edilen küresel gruplardır.
       Boykot çağrılarının temel nedenleri:
@@ -1711,7 +1711,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://reignbodyfuel.com/en-us/",
       img: "/reign.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Reign'in boykot edilmesinin temel nedeni, markanın sahibi olan Monster Beverage Corporation'ın ticari yapısında yer alan ve İsrail ile ticari ve ekonomik bağları güçlü olan küresel holdinglerdir.
           •	Coca-Cola Bağlantısı: Monster Beverage Corporation'ın en büyük azınlık hissedarı The Coca-Cola Company'dir. Coca-Cola, 2015 yılında Monster'a önemli bir yatırım yaparak şirketin yaklaşık %16.7'lik hissesini satın almıştır.
           •	Coca-Cola'nın İsrail Faaliyetleri: Boykot hareketleri, Coca-Cola'nın Monster'ın büyük hissedarı olmasını gerekçe göstererek, Coca-Cola'nın İsrail'de yasa dışı kabul edilen Atarot yerleşim yerinde bir fabrika işletmesi gibi nedenlerle boykot edilmesini savunmaktadır. Reign, Monster'a bağlı bir marka olduğu için, dolaylı yoldan bu kurumsal yapı ve ticari ilişkiler nedeniyle boykot çağrılarının hedefi haline gelmektedir.
@@ -1729,7 +1729,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "İsviçre",
       website: "https://www.cremesso.com/en/coffee",
       img: "/cremesso.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Cremesso markası, İsrail ile ticari ve ekonomik bağları olduğu iddia edilen küresel şirketlerin listelerinde yer almamaktadır, ancak ana şirketinin dolaylı bağları incelenmektedir.
       Cremesso'nun doğrudan bir boykot gerekçesi (İsrail'de fabrika, büyük yatırım veya siyasi destek beyanı gibi) bulunmamaktadır. Markanın sahibi Delica AG, küresel boykot listelerinin hedefi olan The Coca-Cola Company, PepsiCo veya Nestle gibi holdinglere ait değildir.
       Ancak bazı boykot kaynakları, Delica AG'nin ait olduğu Migros Group'un, global tedarik zincirleri ve uluslararası ticari faaliyetleri nedeniyle İsrail ile dolaylı ticari bağlarının olabileceği ihtimalini sorgulamaktadır. Bu sorgulamalar, genellikle yerel düzeyde alternatif arayan tüketiciler arasında geçerli olabilmektedir.
@@ -1747,7 +1747,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Amerika Birleşik Devletleri",
       website: "https://rccolainternational.com/products/rad-rain",
       img: "/rad-rain.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Rad Rain Energy markası hakkında, mevcut kaynaklarda herhangi bir küresel boykot listesinde yer aldığına veya İsrail/Filistin, Rusya veya benzeri bir siyasi/sosyal konuyla doğrudan ilişkilendirildiğine dair kesin bir bilgi bulunmamaktadır.
       Markanın herhangi bir boykotun hedefi olup olmadığı, ancak marka sahibi şirketin kimliği ve ticari faaliyetleri belirlendiğinde netleştirilebilir. Eğer bu marka, daha önceki sorularda bahsedilen The Coca-Cola Company, PepsiCo veya Monster Beverage Corporation gibi küresel holdinglerden birine ait bir alt marka ise, ana şirketin boykot gerekçeleri dolaylı olarak bu markayı da etkileyebilir.
       Özetle, Rad Rain Energy hakkında kesin bir boykot gerekçesi sunulabilmesi için, markanın sahibi olan şirketin kimliği ve küresel ticari duruşu hakkında daha fazla bilgiye ihtiyaç vardır.`,
@@ -1764,7 +1764,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "İsviçre",
       website: "https://www.henniez.ch/fr-ch",
       img: "/henniez.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Henniez'in boykot edilmesinin temel nedeni, markanın sahibi olan global gıda ve içecek devi Nestlé'nin uluslararası operasyonları ve ticari duruşudur. Nestlé, uzun yıllardır devam eden boykot çağrılarının hedefi olan, dünyanın en büyük gıda şirketlerinden biridir.
       Boykot çağrılarının temel dayanağı, Nestlé'nin İsrail'de önemli yatırımları ve ticari faaliyetleri bulunmasıdır. Nestlé, İsrail'deki gıda teknolojisi şirketlerine yatırım yapmakta ve ülkede üretim tesisleri bulundurmaktadır. Bu ticari ilişkiler, boykot hareketleri tarafından İsrail ekonomisine doğrudan destek olarak algılanmakta ve Nestlé ürünlerinin (dolayısıyla Henniez de dahil olmak üzere tüm alt markalarının) tüketilmemesi yönünde çağrılara yol açmaktadır.
       Ayrıca, Henniez markasının kendisi de İsviçre'de tartışmalara konu olmuştur. Nestlé'nin Vaud kantonundaki Henniez tesislerinde, yasal düzenlemelere aykırı olarak maden suyunda yasaklı filtreleme yöntemleri kullandığını ve yetersiz koruma önlemleri aldığını itiraf etmesi, tüketiciler tarafından "bir aldatmaca" olarak nitelendirilmiş ve markanın güvenilirliğini zedelemiştir.
@@ -1788,7 +1788,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Kuzey Afrika & Orta Doğu",
       website: "https://www.alfajarwater.org/",
       img: "/al-fajr.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu nedenle marka, boykot açısından güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir.`,
       alternative_products: [
         "hamidiye",
@@ -1814,7 +1814,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Çin & Avustralya",
       website: "https://lactalis.com.au/481/",
       img: "/breaka.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason:
         "Doğu Türkistan'da yaşananlar sebebiyle Çin'e ait global markaların tamamı boykot listesindedir. Baojun, Çin menşeli bir marka olduğu için boykot kapsamına alınmıştır.",
       alternative_products: ["sutas", "pinar", "vio"],
@@ -1830,7 +1830,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Rusya",
       website: "https://curtistea.com/",
       img: "/curtis.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu nedenle marka, boykot açısından güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir.`,
       alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
     },
@@ -1845,7 +1845,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       country: "Fransa & ABD",
       website: "https://www.nakedsmoothie.com",
       img: "/el-primero.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu nedenle marka, boykot açısından güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir.`,
       alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
     },
@@ -1865,7 +1865,7 @@ Coca-Cola Company, bugün gazlı içecekler, meyve suları, spor ve enerji içec
       country: "Amerika Birleşik Devletleri",
       website: "https://www.coca-colacompany.com/",
       img: "/coca-cola-company.png",
-      isBoycotted: true,
+      isBoycotted: "boykot",
       boycottReason: `Coca-Cola Company'nin boykot edilmesinin temel nedeni, şirketin İsrail ile olan güçlü ticari ve ekonomik bağlarıdır. Coca-Cola Company, Berkshire Hathaway Holding'in portföyünde yer alan küresel olarak en çok satılan asitli içecek markasıdır.
 
 Coca-Cola Company'nin, çalıntı Filistin toprakları üzerine inşa edilmiş yasadışı bir İsrail yerleşimi olan Atarot'ta fabrikası bulunmaktadır. Bu gibi yasadışı İsrail yerleşimlerinin inşa edilebilmesi için Filistinli topluluklar zorla yerlerinden edilmektedir. Bu yerleşimler uluslararası hukuka göre yasadışıdır ve Filistin topraklarının işgali anlamına gelmektedir.
@@ -1896,7 +1896,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/tr/tr",
           img: "/coca-cola.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason: `Coca-Cola markası, boykot listelerinin en üst sıralarında yer almaktadır! 
           Coca-Cola'nın boykot edilmesinin temel ve en yaygın bilinen nedeni, İsrail ile olan güçlü ticari ve ekonomik bağlarıdır.
           •	Ekonomik Yatırım ve Faaliyetler: The Coca-Cola Company, İsrail'de 1968 yılından beri faaliyet göstermekte ve ülkenin ekonomisine önemli katkılarda bulunmaktadır. Şirket, İsrail'deki Coca-Cola Israel (The Central Bottling Com-pany) aracılığıyla üretim, dağıtım ve satış yapmaktadır.
@@ -1921,7 +1921,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/tr/tr/brands/cappy",
           img: "/cappy.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -1943,7 +1943,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "İsviçre & ABD",
           website: "https://www.coca-cola.com/tr/tr/brands/schweppes ",
           img: "/schweppes.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -1964,7 +1964,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & Almanya",
           website: "https://www.coca-cola.com/tr/tr/brands/fanta",
           img: "/fanta.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -1985,7 +1985,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/tr/tr/brands/sprite",
           img: "/sprite.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2008,7 +2008,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Türkiye & ABD",
           website: "https://www.coca-cola.com/tr/tr/brands/damla",
           img: "/damla-su.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2030,7 +2030,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/minute-maid",
           img: "/minute-maid.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
@@ -2045,7 +2045,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/tr/tr/brands/fusetea",
           img: "/fusetea.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["dirilis", "uludag"],
@@ -2061,7 +2061,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/tr/tr/brands/powerade",
           img: "/powerade.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["dirilis"],
@@ -2077,7 +2077,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.monsterenergy.com/tr-tr/",
           img: "/monster-energy.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["dirilis"],
@@ -2092,7 +2092,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/ma/fr/brands/hawai",
           img: "/hawai-tropical.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2113,7 +2113,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           Mezzo Mix, Amerikalı çok uluslu şirket The Coca-Cola Company'nin bir ürünüdür. Resmi olarak yalnızca Almanya, İsviçre ve Avusturya'da satılmakta ve üretilmektedir.`,
           country: "ABD & Almanya & İsviçre & Avusturya",
           img: "/mezzo-mix.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2136,7 +2136,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/be/fr/brands/tropico",
           img: "/tropico.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2158,7 +2158,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & Orta Doğu & Kuzey Afrika",
           website: "https://www.coca-cola.com/xf/en/brands/arwa ",
           img: "/arwa.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2186,7 +2186,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & İtalya",
           website: "https://www.coca-cola.com/it/it/brands/Lurisia",
           img: "/lurisia.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2213,7 +2213,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & İsviçre",
           website: "https://www.coca-cola.com/ch/de/brands/valser",
           img: "/valser-water.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2241,7 +2241,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & İtaly",
           website: "https://www.coca-cola.com/it/it/brands/lilia",
           img: "/lilia.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2272,7 +2272,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/smartwater",
           img: "/glaceau-smartwater.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2300,7 +2300,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & Almanya",
           website: "https://www.coca-cola.com/de/de/brands/apollinaris",
           img: "/apollinaris.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2328,7 +2328,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & Belçika",
           website: "https://www.coca-cola.com/be/fr/brands/chaudfontaine",
           img: "/chaudfontaine.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2355,7 +2355,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & Avusturya",
           website: "https://www.coca-cola.com/at/de/brands/romerquelle",
           img: "/romerquelle.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2383,7 +2383,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/mv/en/brands/bonaqua ",
           img: "/bonaqua.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2417,7 +2417,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/in/en/brands/kinley",
           img: "/kinley.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2444,7 +2444,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/vitaminwater",
           img: "/vitamin-water.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["sutas", "pinar", "vio"],
@@ -2460,7 +2460,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/cz/cs/brands/adez ",
           img: "/adez.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
@@ -2477,7 +2477,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/in/en/brands/honesttea",
           img: "/honest.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
@@ -2493,7 +2493,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.innocentdrinks.co.uk/",
           img: "/innocent.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
         },
@@ -2507,7 +2507,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/tr/tr/brands/burn",
           img: "/burn.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["juss", "uludag"],
@@ -2522,7 +2522,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Türkiye & ABD",
           website: "https://www.dogadan.com.tr/",
           img: "/dogadan.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
@@ -2537,7 +2537,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "ABD & Japonya",
           website: "https://www.coca-cola.com/jp/ja/brands/aquarius",
           img: "/aquarius.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["dirilis", "uludag"],
@@ -2552,7 +2552,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/dasani",
           img: "/dasani.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2578,7 +2578,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "İngiltere & ABD",
           website: "https://www.costa.co.uk/",
           img: "/costa-coffee.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["dogus", "ofcay", "caykur"],
@@ -2593,7 +2593,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Türkiye & ABD",
           website: "https://www.coca-cola.com/tr/tr",
           img: "/ayran-turka.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: ["sutas", "pinar", "vio"],
@@ -2608,7 +2608,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/simply",
           img: "/simply.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2629,7 +2629,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/barqs",
           img: "/barqs.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2650,7 +2650,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/fresca",
           img: "/fresca.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2671,7 +2671,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/mello-yello",
           img: "/mello-yello.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2692,7 +2692,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/us/en/brands/pibb-xtra",
           img: "/pibb-xtra.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2713,7 +2713,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://zico.com/",
           img: "/zico.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2739,7 +2739,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Güney Afrika & ABD",
           website: "https://www.appletiser.com/",
           img: "/appletiser.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2760,7 +2760,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Suudi Arabistan & ABD",
           website: "https://www.coca-cola.com/mea/en/brands/rani",
           img: "/rani.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2781,7 +2781,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Meksika & ABD",
           website: "https://www.coca-cola.com/mx/es/brands/del-valle",
           img: "/del-valle.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2802,7 +2802,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Hindistan & ABD",
           website: "https://www.coca-cola.com/in/en/brands/thums-up",
           img: "/thums-up.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2823,7 +2823,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Peru & ABD",
           website: "https://www.coca-cola.com/pe/es/brands/inca-kola",
           img: "/inca-kola.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2844,7 +2844,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Hindistan & ABD",
           website: "https://www.coca-cola.com/in/en/brands/limca",
           img: "/limca.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
@@ -2866,7 +2866,7 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
           country: "Amerika Birleşik Devletleri",
           website: "https://www.coca-cola.com/nz/en/brands/lift",
           img: "/lift.png",
-          isBoycotted: true,
+          isBoycotted: "boykot",
           boycottReason:
             "Coca-Cola'nın alt markası olduğu için boykot edilmektedir.",
           alternative_products: [
