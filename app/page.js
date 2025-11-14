@@ -81,7 +81,7 @@ export default async function Home() {
   const companyCount = await prisma.brand.count();
 
   const STATS = [
-    { value: `${companyCount}+`, label: "Listelenmiş şirket" },
+    { value: `${companyCount}`, label: "Listelenmiş şirket" },
     { value: "12K", label: "Topluluk destekçisi" },
   ];
 

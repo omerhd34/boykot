@@ -92,6 +92,12 @@ export default async function BrandDetailPage({ params }) {
                 Boykot Edilmiyor
               </div>
             )}
+            {brand.subCategory && (
+              <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-purple-500 to-purple-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
+                <IoAppsOutline className="h-4 w-4" />
+                {brand.subCategory}
+              </div>
+            )}
             {brand.parentBrand && (
               <Link
                 href={`/kategoriler/${brand.parentBrand.categorySlug}/${brand.parentBrand.slug}`}
@@ -196,6 +202,16 @@ export default async function BrandDetailPage({ params }) {
                   </dt>
                   <dd className="text-sm font-medium text-slate-900">
                     {brand.owner}
+                  </dd>
+                </div>
+              )}
+              {brand.subCategory && (
+                <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
+                  <dt className="text-sm font-semibold text-slate-700">
+                    Kategori
+                  </dt>
+                  <dd className="text-sm font-medium text-slate-900">
+                    {brand.subCategory}
                   </dd>
                 </div>
               )}

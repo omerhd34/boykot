@@ -79,7 +79,6 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   }
  }, [filterFromUrl]);
 
- // Dropdown dışına tıklandığında kapat
  useEffect(() => {
   function handleClickOutside(event) {
    if (countryDropdownRef.current && !countryDropdownRef.current.contains(event.target)) {
@@ -98,7 +97,6 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   }
  }, [isCountryDropdownOpen, isSubCategoryDropdownOpen]);
 
- // Seçili ülke bilgisini al
  const selectedCountry = useMemo(() => {
   return availableCountries.find((c) => c.id === activeCountryFilter) || availableCountries[0];
  }, [availableCountries, activeCountryFilter]);
@@ -109,49 +107,78 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
  }, [availableSubCategories, activeSubCategoryFilter]);
 
  const filterCounts = useMemo(() => {
-  // Önce boykot filtresine göre markaları filtrele
-  let baseBrands = brands;
-  if (activeFilter === "boycott") {
-   baseBrands = brands.filter((brand) => brand.isBoycotted);
-  } else if (activeFilter === "alternatif") {
-   baseBrands = brands.filter((brand) => !brand.isBoycotted);
+  let filteredForBoycottButtons = brands;
+
+  if (activeCountryFilter !== "all") {
+   filteredForBoycottButtons = filteredForBoycottButtons.filter(
+    (brand) => brand.country === activeCountryFilter
+   );
   }
 
-  const boycottCount = brands.filter((brand) => brand.isBoycotted).length;
-  const alternativeCount = brands.filter((brand) => !brand.isBoycotted).length;
+  if (activeSubCategoryFilter !== "all") {
+   filteredForBoycottButtons = filteredForBoycottButtons.filter(
+    (brand) => brand.subCategory === activeSubCategoryFilter
+   );
+  }
 
-  // Her ülke için sayıları hesapla (aktif boykot filtresine göre)
+  const allCount = filteredForBoycottButtons.length;
+  const boycottCount = filteredForBoycottButtons.filter((brand) => brand.isBoycotted).length;
+  const alternativeCount = filteredForBoycottButtons.filter((brand) => !brand.isBoycotted).length;
+
   const countryCounts = {};
   availableCountries.forEach((country) => {
+   let countryBrands = brands;
+
+   if (activeSubCategoryFilter !== "all") {
+    countryBrands = countryBrands.filter((brand) => brand.subCategory === activeSubCategoryFilter);
+   }
+
+   if (activeFilter === "boycott") {
+    countryBrands = countryBrands.filter((brand) => brand.isBoycotted);
+   } else if (activeFilter === "alternatif") {
+    countryBrands = countryBrands.filter((brand) => !brand.isBoycotted);
+   }
+
    if (country.id === "all") {
-    countryCounts[country.id] = baseBrands.length;
+    countryCounts[country.id] = countryBrands.length;
    } else {
-    countryCounts[country.id] = baseBrands.filter(
+    countryCounts[country.id] = countryBrands.filter(
      (brand) => brand.country === country.id
     ).length;
    }
   });
 
-  // Her alt kategori için sayıları hesapla
   const subCategoryCounts = {};
   availableSubCategories.forEach((subCat) => {
+   let subCatBrands = brands;
+
+   if (activeCountryFilter !== "all") {
+    subCatBrands = subCatBrands.filter((brand) => brand.country === activeCountryFilter);
+   }
+
+   if (activeFilter === "boycott") {
+    subCatBrands = subCatBrands.filter((brand) => brand.isBoycotted);
+   } else if (activeFilter === "alternatif") {
+    subCatBrands = subCatBrands.filter((brand) => !brand.isBoycotted);
+   }
+
    if (subCat.id === "all") {
-    subCategoryCounts[subCat.id] = baseBrands.length;
+    subCategoryCounts[subCat.id] = subCatBrands.length;
    } else {
-    subCategoryCounts[subCat.id] = baseBrands.filter(
+    subCategoryCounts[subCat.id] = subCatBrands.filter(
      (brand) => brand.subCategory === subCat.id
     ).length;
    }
   });
 
   return {
-   all: brands.length,
+   all: allCount,
    boycott: boycottCount,
    alternatif: alternativeCount,
    ...countryCounts,
    ...subCategoryCounts,
   };
- }, [brands, activeFilter, availableCountries, availableSubCategories]);
+ }, [brands, activeFilter, activeCountryFilter, activeSubCategoryFilter, availableCountries, availableSubCategories]);
 
  return (
   <div className="space-y-6">

@@ -244,7 +244,6 @@ export default function Header({ categories = [] }) {
   return undefined;
  }, [resultsOpen]);
 
- // Cleanup timeout on unmount
  useEffect(() => {
   return () => {
    if (searchTimeoutRef.current) {

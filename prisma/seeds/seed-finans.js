@@ -1,4 +1,4 @@
-//? Açıklama yaz !
+//! FİLTRELEMEYİ DÜZELT.
 const finansCategory = {
   order: 11,
   name: "Finans",
@@ -6,47 +6,56 @@ const finansCategory = {
   iconKey: "creditcard",
   description: "Bankacılık ve finansal hizmet markaları.",
   ctgry: [
-    "Özel sermayeli	Mevduat Bankası",
-    "Ödeme Sistemi",
-    "Kurum",
-    "Kamu İdari Birimi",
-    "Kripto Para",
-    "Özel Sermayeli	Katılım Bankası",
-    "Kamu Sermayeli	Katılım Bankası",
-    "Yabancı sermayeli	Mevduat Bankası",
-    "Tasarruf Mevduatı Sigorta Fonu",
+    "Kurum", // 23
+    "Ödeme Sistemi", // 4
+    "Kripto Para", // 2
+    "Kamu İdari Birimi", // 1
+    "Tasarruf Mevduatı Sigorta Fonu", // 1
+
+    "Kamu Sermayeli	Mevduat Bankası", // 3
+    "Özel Sermayeli Mevduat Bankası", // 9
+    "Yabancı Sermayeli Mevduat Bankası", // 21
+
+    "Kamu Sermayeli Katılım Bankası", // 4
+    "Özel Sermayeli Katılım Bankası", // 7
+
+    "Kamu Sermayeli Kalkınma ve Yatırım Bankası", // 4
+    "Özel Sermayeli Kalkınma ve Yatırım Bankası", // 8
+    "Yabancı Sermayeli Kalkınma ve Yatırım Bankası", // 3
   ],
   brands: [
     {
       name: "Yapı Kredi",
-      ctgry: "Özel sermayeli	Mevduat Bankası",
-      slug: "yapikredi",
+      slug: "yapi-kredi",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1944,
       founder: "Kazım Taşkent",
-      owner: "Koç Finansal Hizmetler & Koç Holding",
+      owner:
+        "Koç Finansal Hizmetler (%40,95), Koç Holding (%20,22), Halka açık (%38,83)",
       description: `Yapı ve Kredi Bankası veya kısaca Yapı Kredi, 9 Eylül 1944 tarihinde İstanbul'da Kazım Taşkent tarafından kurulan Türkiye'nin perakende bankacılık odaklı ilk ulusal çaplı özel bankasıdır. Banka, Türk finans sektöründe önemli bir yere sahiptir ve uzun yıllardır faaliyet göstermektedir.
 
 2023 yıl sonu itibarıyla Yapı Kredi'nin 780 şubesi ve 15.000'den fazla çalışanı bulunmaktadır. Banka, 2023 yılı itibarıyla 1,9 trilyon TL toplam aktif büyüklüğü ile Türkiye'nin en büyük dördüncü özel bankası konumundadır. 2023 yılında bankanın geliri 132,4 milyar TL, net kârı ise 68,01 milyar TL olarak gerçekleşmiştir.
+       
+Koç Grubunun bankadaki doğrudan ve dolaylı toplam sahiplik oranı %67,97'dir. Bankanın halka açık olan hisseleri Borsa İstanbul'da (BİST) YKBNK sembolü ile işlem görmektedir.
 
-Yapı Kredi'nin sahiplik yapısı şu şekildedir:
-  • Koç Finansal Hizmetler: %40,95
-  • Koç Holding: %20,22
-  • Halka açık: %38,83
-
-Koç Grubunun bankadaki doğrudan ve dolaylı toplam sahiplik oranı %67,97'dir. Bankanın halka açık olan hisseleri Borsa İstanbul'da (BİST) YKBNK sembolü ile işlem görmektedir.`,
+Yapı Kredi, Koç Grubu bünyesinde faaliyet gösteren Özel Sermayeli Mevduat Bankası statüsündedir ve herhangi bir boykot listesinde yer almamaktadır. Ancak, bankacılık tercihlerinizde milli ekonomiye daha fazla katkı sağlamayı hedefliyorsanız, Özel Sermayeli Mevduat Bankaları yerine, kaynakları yurt içinde tutmayı önceliklendiren Ziraat Bankası, Halkbank ve Vakıfbank gibi Kamu Sermayeli Mevduat Bankaları'nı tercih etmeniz bir yaklaşım olarak önerilebilir. Vicdani ve ekonomik sorumluluklarınız doğrultusunda bu tercihi yapmanız tavsiye edilmektedir.`,
       country: "Türkiye",
       website: "https://www.yapikredi.com.tr/",
-      img: "/yapikredi.png",
+      img: "/yapi-kredi.png",
       isBoycotted: true,
-      boycottReason: `Yapı Kredi Bankası'nın %67,97'si Koç Grubu'na aittir. Koç Holding'in İsrail ile olan bağlantıları ve iş birlikleri nedeniyle banka boykot listesindedir.
+      boycottReason: `Yapı Kredi Bankası, Koç Holding bünyesinde faaliyet gösteren bir finansal kuruluştur. Koç Holding, İsrail ile yakın ticari ilişkileri ve iş birlikleri nedeniyle boykot listelerinde yer almaktadır.
 
-Bu marka, BOYKOT listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir.
-
-Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
+Koç Grubu'nun İsrail ile olan bağlantıları ve destekleri göz önünde bulundurulduğunda, Yapı Kredi Bankası da dolaylı olarak boykot kapsamına girmektedir. Bankanın %67,97'lik doğrudan ve dolaylı toplam sahipliği Koç Grubu'na aittir.
+     
+Alternatif olarak, Ziraat Bankası, Halkbank ve Vakıfbank gibi kamu bankalarını tercih etmeniz önerilmektedir. Devlet bankaları, milli ve yerli sermaye ile işletildiği için öncelikli tercih edilmelidir.
+     
+Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankalarını değerlendirmeniz ve vicdani tercihlerinizi bu doğrultuda yapmanız tavsiye edilmektedir. Bu şekilde milli ekonomimize daha fazla katkı sağlayabilir ve vicdani sorumluluğunuzu yerine getirebilirsiniz.`,
+      alternative_products: ["ziraat", "halkbank", "vakifbank"],
     },
+
     {
       name: "TEB(Türk Ekonomi Bankası)",
-      ctgry: "Özel sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       slug: "teb",
       foundedYear: 1927,
       founder: "Kocaeli Ticaret Odası",
@@ -100,6 +109,7 @@ Mastercard, kendi altyapısını kullanan kartlardan komisyon almaktadır ve her
         {
           name: "Maestro",
           slug: "maestro",
+          ctgry: "Ödeme Sistemi",
           foundedYear: 1991,
           founder: "Mastercard",
           owner: "Mastercard Inc.",
@@ -121,6 +131,7 @@ Mastercard, kendi altyapısını kullanan kartlardan komisyon almaktadır ve her
         {
           name: "Masterpass",
           slug: "masterpass",
+          ctgry: "Ödeme Sistemi",
           foundedYear: 2002,
           founder: "Mastercard",
           owner: "Mastercard Inc.",
@@ -293,7 +304,7 @@ Binance'in Gazzeli sivillerin varlıklarına el koyması ve bu varlıkları İsr
     {
       name: "Bank Of America",
       slug: "bank-of-america",
-      ctgry: "",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1904,
       founder: "Amadeo Giannini",
       owner: "Halka Açık Şirket",
@@ -317,7 +328,7 @@ ABD merkezli bir banka olarak, Bank of America İsrail'e destek veren küresel f
         {
           name: "Merrill Lynch(ML)",
           slug: "merrill-lynch",
-          ctgry: "Yabancı Sermayeli	Kalkınma ve Yatırım Bankası",
+          ctgry: "Yabancı Sermayeli Kalkınma ve Yatırım Bankası",
           foundedYear: 1914,
           founder: "Charles E. Merrill ve Edmund C. Lynch",
           owner: "Bank of America",
@@ -333,7 +344,7 @@ ABD merkezli bir banka olarak, Bank of America İsrail'e destek veren küresel f
     {
       name: "Bloomberg",
       slug: "bloomberg",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1981,
       founder:
         "Michael Bloomberg, Thomas Secunda, Duncan MacMillan, Charles Zegar",
@@ -356,7 +367,7 @@ Bloomberg L.P., finansal veri ve haber hizmetleri sağlayan bir şirket olarak, 
     {
       name: "Deloitte",
       slug: "deloitte",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1845,
       founder: "William Welch Deloitte",
       owner: "Ortaklık Yapısı",
@@ -380,7 +391,7 @@ Deloitte'nin bu açıklaması, şirketin İsrail'e açık desteğini göstermekt
     {
       name: "Deutsche Bank",
       slug: "deutsche-bank",
-      ctgry: "Yabancı sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1870,
       founder: "Adelbert Delbrück",
       owner: "Halka Açık Şirket",
@@ -404,7 +415,7 @@ Bu süreçte Deutsche Bank, Yahudi karşıtlığına karşı ortak bir kampanyay
     {
       name: "McKinsey & Company",
       slug: "mckinsey",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1926,
       founder: "James O. McKinsey",
       owner: "Ortaklık Yapısı",
@@ -426,7 +437,7 @@ McKinsey'nin bu açıklaması, şirketin İsrail'e açık desteğini göstermekt
     {
       name: "Citibank",
       slug: "citibank",
-      ctgry: "Yabancı sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1812,
       founder: "Samuel Osgood",
       owner: "Citigroup",
@@ -448,7 +459,7 @@ Ek olarak Citibank, İsrail'in Gazze'de hastane bombalamasını sosyal medyadan 
     {
       name: "Goldman Sachs",
       slug: "goldman-sachs",
-      ctgry: "",
+      ctgry: "Yabancı Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1869,
       founder: "Marcus Goldman, Samuel Sachs",
       owner: "Halka Açık Şirket",
@@ -470,9 +481,9 @@ Solomon, açıklamasında şu ifadeleri kullanmıştır: "Ortadoğu'daki dinamik
 Goldman Sachs'ın bu açıklaması, şirketin İsrail'e açık desteğini göstermektedir. Şirket, Filistin halkının haklarını görmezden gelerek İsrail'in yanında yer almaktadır. Bu nedenle Goldman Sachs boykot listesindedir.`,
     },
     {
-      name: "BCG",
+      name: "Boston Consulting Group (BCG)",
       slug: "bcg",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1963,
       founder: "Bruce Henderson",
       owner: "Ortaklık Yapısı",
@@ -494,7 +505,7 @@ BCG, Filistin halkının haklarını görmezden gelerek İsrail'in yanında yer 
     {
       name: "Blackstone Group",
       slug: "blackstone-group",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1985,
       founder: "Peter G. Peterson, Stephen A. Schwarzman",
       owner: "Halka Açık Şirket",
@@ -562,7 +573,7 @@ Bu taahhüdün sadece antisemitizme karşı gelmek için imzalanmış olma ihtim
     {
       name: "UBS",
       slug: "ubs",
-      ctgry: "Yabancı sermayeli Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1998,
       founder: "Union Bank of Switzerland, Swiss Bank Corporation",
       owner: "Halka Açık Şirket",
@@ -956,7 +967,7 @@ Wüstenrot, Wüstenrot & Württembergische AG'nin bir parçasıdır ve İsrail'e
     },
     {
       name: "Ziraat Bankası",
-      slug: "ziraat-bank",
+      slug: "ziraat",
       ctgry: "Kamu Sermayeli	Mevduat Bankası",
       foundedYear: 1863,
       founder: "Midhat Paşa",
@@ -979,7 +990,7 @@ Ziraat Bankası, Türkiye'nin finansal altyapısının önemli bir parçasıdır
     {
       name: "Akbank",
       slug: "akbank",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1948,
       founder:
         "Hacı Ömer Sabancı, Nuri Has, Nuh Naci Yazgan, Mustafa Özgür, Ahmet ve Bekir Sapmaz, Seyit Tekin",
@@ -1007,7 +1018,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Fibabanka",
       slug: "fibabank",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1991,
       founder:
         "Manufacturers Hanover Trust Company (Chemical Bank olarak 1992'de birleşti)",
@@ -1032,7 +1043,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Şekerbank",
       slug: "sekerbank",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1953,
       founder: "Pancar Kooperatifleri Bankası",
       owner: "Özel Sektör",
@@ -1055,7 +1066,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Türkiye İş Bankası",
       slug: "isbank",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1924,
       founder: "Mustafa Kemal Atatürk",
       owner:
@@ -1081,7 +1092,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Türk Ticaret Bankası(Türkbank & TTB)",
       slug: "ttb",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1913,
       founder: "Adapazarı İslam Ticaret Bankası",
       owner: "Türkiye İhracatçılar Meclisi (2023'ten itibaren)",
@@ -1106,7 +1117,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Turkish Bank",
       slug: "turkish-bank",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1982,
       founder: "Türk Bankası Ltd.",
       owner:
@@ -1168,7 +1179,7 @@ Haziran 2024 itibarıyla VakıfBank'ın yurt içinde 946 ve yurt dışında 4 ol
     {
       name: "Anadolubank",
       slug: "anadolubank",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
+      ctgry: "Özel Sermayeli Mevduat Bankası",
       foundedYear: 1961,
       founder: "Buğday Bankası A.Ş. ve Türk Ekspres A.Ş.",
       owner:
@@ -1194,37 +1205,9 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
       alternative_products: ["ziraat", "halkbank", "vakifbank"],
     },
     {
-      name: "Yapı Kredi",
-      slug: "yapi-kredi",
-      ctgry: "Özel Sermayeli	Mevduat Bankası",
-      foundedYear: 1944,
-      founder: "Kazım Taşkent",
-      owner:
-        "Koç Finansal Hizmetler (%40,95), Koç Holding (%20,22), Halka açık (%38,83)",
-      description: `Yapı ve Kredi Bankası veya kısaca Yapı Kredi, 9 Eylül 1944 tarihinde İstanbul'da Kazım Taşkent tarafından kurulan Türkiye'nin perakende bankacılık odaklı ilk ulusal çaplı özel bankasıdır.
-
-2023 yıl sonu itibarıyla 780 şubesi, 15.000'den fazla çalışanı bulunmaktadır. Yapı Kredi 2023 yılı itibarıyla 1,9 trilyon TL toplam aktif büyüklüğü ile Türkiye'nin en büyük dördüncü özel bankası konumundadır.
-        
-Yapı ve Kredi Bankası Türkiye'nin perakende bankacılık odaklı ilk ulusal çaplı özel sermayeli bankası olarak 9 Eylül 1944 tarihinde Kazım Taşkent tarafından kurulmuştur. 2005 yılında bağlı bulunduğu Çukurova Holding'in TMSF'ye olan borçları nedeniyle holding tarafından %51'lik hissesi Koç Holding bünyesindeki Koç Finansal Hizmetler'e satılmıştır. 2006 yılında Koç Holding bünyesinde yer alan Koçbank ile birleşmiştir.
-        
-Banka'nın %20,22 oranındaki hissesi Koç Holding AŞ'ye ait olup, %40,95 oranındaki hissesi, hisselerinin %100'ü Koç Grubu'na ait olan Koç Finansal Hizmetler'e (KFS) aittir. Koç Grubunun bankadaki doğrudan ve dolaylı toplam sahiplik oranı %67,97'dir. %32,03 oranındaki pay ise halka açıktır. Bankanın halka açık olan hisseleri Borsa İstanbul'da işlem görmektedir. 2023'te Koç Holding, Yapı Kredi'deki yüzde 6,8'lik payını 6,8 milyar liraya sattığını duyurdu.`,
-      country: "Türkiye",
-      website: "https://www.yapikredi.com.tr/",
-      img: "/yapi-kredi.png",
-      isBoycotted: true,
-      boycottReason: `Yapı Kredi Bankası, Koç Holding bünyesinde faaliyet gösteren bir finansal kuruluştur. Koç Holding, İsrail ile yakın ticari ilişkileri ve iş birlikleri nedeniyle boykot listelerinde yer almaktadır.
-
-Koç Grubu'nun İsrail ile olan bağlantıları ve destekleri göz önünde bulundurulduğunda, Yapı Kredi Bankası da dolaylı olarak boykot kapsamına girmektedir. Bankanın %67,97'lik doğrudan ve dolaylı toplam sahipliği Koç Grubu'na aittir.
-      
-Alternatif olarak, Ziraat Bankası, Halkbank ve Vakıfbank gibi kamu bankalarını tercih etmeniz önerilmektedir. Devlet bankaları, milli ve yerli sermaye ile işletildiği için öncelikli tercih edilmelidir.
-      
-Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankalarını değerlendirmeniz ve vicdani tercihlerinizi bu doğrultuda yapmanız tavsiye edilmektedir. Bu şekilde milli ekonomimize daha fazla katkı sağlayabilir ve vicdani sorumluluğunuzu yerine getirebilirsiniz.`,
-      alternative_products: ["ziraat", "halkbank", "vakifbank"],
-    },
-    {
       name: "Alternatif Bank",
       slug: "alternatif-bank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1991,
       founder: "Doğan Grubu",
       owner: "Katar Ticaret Bankası",
@@ -1247,7 +1230,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Arap Türk Bankası",
       slug: "arap-turk-bankasi",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1977,
       founder: "Libya Merkez Bankası, Türkiye ve Orta Doğu ülkeleri",
       owner:
@@ -1275,7 +1258,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Burgan Bank",
       slug: "burgan-bank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1989,
       founder: "Tekfenbank",
       owner: "Eurobank (%99,26) - Kuveyt merkezli",
@@ -1300,7 +1283,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "DenizBank",
       slug: "denizbank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1938,
       founder: "Türkiye Denizciler Bankası",
       owner: "Emirates NBD",
@@ -1327,7 +1310,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Garanti BBVA",
       slug: "garanti-bbva",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1946,
       founder: "Bilinmiyor",
       owner: "BBVA (%85,97), Halka açık (%14,03)",
@@ -1356,7 +1339,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "ICBC Turkey Bank",
       slug: "icbc-turkey-bank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 2015,
       founder: "Tekstilbank",
       owner: "ICBC (%92,8), Tekstilbank",
@@ -1381,7 +1364,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Odeabank",
       slug: "odeabank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 2012,
       founder: "Bank Audi",
       owner: "Bank Audi",
@@ -1404,7 +1387,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "QNB Finansbank",
       slug: "qnb-finansbank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1987,
       founder: "Hüsnü Özyeğin",
       owner: "QNB Grup (%99,88), Halka açık (%0,12)",
@@ -1433,7 +1416,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "T-Bank",
       slug: "t-bank",
-      ctgry: "Yabancı Sermayeli	Mevduat Bankası",
+      ctgry: "Yabancı Sermayeli Mevduat Bankası",
       foundedYear: 1985,
       founder: "Bank of Bahrain and Kuwait",
       owner: "Papara Elektronik Para A.Ş",
@@ -1460,7 +1443,7 @@ Eğer bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle devlet bankal
     {
       name: "Ziraat Katılım",
       slug: "ziraat-katilim",
-      ctgry: "Kamu Sermayeli	Katılım Bankası",
+      ctgry: "Kamu Sermayeli Katılım Bankası",
       foundedYear: 2015,
       founder: "T.C. Hazinesi",
       owner: "Ziraat Katılım Bankası A.Ş. (Kamu Bankası)",
@@ -1482,7 +1465,7 @@ Banka, Türkiye genelinde "Katılım bankası" olarak finansal hizmetler sunmakt
     {
       name: "Vakıf Katılım Bankası",
       slug: "vakif-katilim",
-      ctgry: "Kamu Sermayeli	Katılım Bankası",
+      ctgry: "Kamu Sermayeli Katılım Bankası",
       foundedYear: 2016,
       founder: "Vakıflar Genel Müdürlüğü",
       owner:
@@ -1499,7 +1482,7 @@ Banka, "Ortak geçmiş, ortak gelecek" sloganıyla Ümraniye, İstanbul, Türkiy
     {
       name: "Emlak Katılım Bankası",
       slug: "emlak-katilim",
-      ctgry: "Kamu Sermayeli	Katılım Bankası",
+      ctgry: "Kamu Sermayeli Katılım Bankası",
       foundedYear: 2019,
       founder:
         "Türkiye Emlak Bankası (1988), Emlak Katılım Bankası olarak 2019",
@@ -1570,7 +1553,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Dünya Katılım",
       slug: "dunya-katilim",
-      ctgry: "Özel Sermayeli	Katılım Bankası",
+      ctgry: "Özel Sermayeli Katılım Bankası",
       foundedYear: 1984,
       founder: "Kemal Uzan",
       owner: "AHL Ahlatcı Finansal Yönetim A.Ş.",
@@ -1584,7 +1567,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Hayat Finans",
       slug: "hayat-finans",
-      ctgry: "Özel Sermayeli	Katılım Bankası",
+      ctgry: "Özel Sermayeli Katılım Bankası",
       foundedYear: 1937,
       founder: "Hayat Holding",
       owner: "Hayat Holding",
@@ -1598,7 +1581,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "İhlas Finans",
       slug: "ihlas-finans",
-      ctgry: "Özel Sermayeli	Katılım Bankası",
+      ctgry: "Özel Sermayeli Katılım Bankası",
       foundedYear: 1995,
       founder: "Enver Ören",
       owner: "İhlas Holding",
@@ -1612,7 +1595,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Kuveyt Türk",
       slug: "kuveyt-turk",
-      ctgry: "Özel Sermayeli	Katılım Bankası",
+      ctgry: "Özel Sermayeli Katılım Bankası",
       foundedYear: 1989,
       founder: "Özel Finans Kurumu",
       owner:
@@ -1627,7 +1610,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Türkiye Finans Katılım Bankası",
       slug: "turkiye-finans-katilim-bankasi",
-      ctgry: "Özel Sermayeli	Katılım Bankası",
+      ctgry: "Özel Sermayeli Katılım Bankası",
       foundedYear: 2005,
       founder: "Anadolu Finans Kurumu ve Faisal Finans Kurumu",
       owner:
@@ -1642,7 +1625,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Tom Bank",
       slug: "tom-bank",
-      ctgry: "Özel Sermayeli	Katılım Bankası",
+      ctgry: "Özel Sermayeli Katılım Bankası",
       foundedYear: 2023,
       founder: "",
       owner: " ",
@@ -1656,7 +1639,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "İller Bankası",
       slug: "iller-bankasi",
-      ctgry: "Kamu Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Kamu Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1933,
       founder: "Mustafa Kemal Atatürk",
       owner: "İl Özel İdareleri ve Belediyeler",
@@ -1668,7 +1651,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Türk Eximbank (İhracat Kredi Bankası)",
       slug: "turk-eximbank",
-      ctgry: "Kamu Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Kamu Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1987,
       founder: "Türkiye Cumhuriyeti",
       owner: "Türkiye Cumhuriyeti",
@@ -1680,7 +1663,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Türkiye Kalkınma Bankası",
       slug: "turkiye-kalinma-bankasi",
-      ctgry: "Kamu Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Kamu Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1975,
       founder: "Sanayi ve Teknoloji Bakanlığı",
       owner: "Hazine ve Maliye Bakanlığı",
@@ -1692,7 +1675,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Takasbank",
       slug: "takasbank",
-      ctgry: "Kamu Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Kamu Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1991,
       founder: "İstanbul Menkul Kıymetler Borsası (Borsa İstanbul A.Ş.)",
       owner:
@@ -1705,7 +1688,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Aktif Bank",
       slug: "aktif-bank",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1999,
       founder: "Çalık Holding A.Ş.",
       owner: "Çalık Holding A.Ş.",
@@ -1719,7 +1702,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "D Yatırım Bankası",
       slug: "dy-bank",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 2021,
       founder: "Doğan Holding",
       owner: "Doğan Holding",
@@ -1733,7 +1716,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Diler Yatırım Bankası",
       slug: "diler-yatirim-bankasi",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1998,
       founder: "Diler Şirketler Grubu",
       owner: "Diler Şirketler Grubu",
@@ -1747,7 +1730,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Golden Global Bank",
       slug: "golden-global-bank",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 2020,
       founder: "Bankacılık Düzenleme ve Denetleme Kurumu(BDDK)",
       owner: "Bankacılık Düzenleme ve Denetleme Kurumu(BDDK)",
@@ -1761,7 +1744,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "GSD Yatırım Bankası",
       slug: "gsd-yatirim-bankasi",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1998,
       founder: "GSD Holding",
       owner: "GSD Holding",
@@ -1775,7 +1758,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Nurol Yatırım Bankası",
       slug: "nurol",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1999,
       founder: "Nurol Holding",
       owner: "Nurol Holding A.Ş.	(%96,33), Diğer(%3,67)",
@@ -1789,7 +1772,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Türkiye Sınai Kalkınma Bankası",
       slug: "tskb",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 1950,
       founder:
         "Dünya Bankası, Türkiye Cumhuriyeti merkez Bankası(TCMB) ve Türk ticari bankaları",
@@ -1805,7 +1788,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Bankpozitif",
       slug: "bankpozitif",
-      ctgry: "Özel Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Özel Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 2002,
       founder: "Doğrudan kurulan bir banka değildir. Açıklamayı okuyunuz.",
       owner: "Bankacılık Düzenleme ve Denetleme Kurumu(BDDK)",
@@ -1816,11 +1799,10 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
       isBoycotted: true,
       boycottReason: ``,
     },
-
     {
       name: "PASHA Bankası",
       slug: "pasha",
-      ctgry: "Yabancı Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Yabancı Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 2007,
       founder: "PASHA Holding",
       owner: "PASHA Holding",
@@ -1834,7 +1816,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Standard Chartered Yatırım Bankası Türk",
       slug: "standard-chartered",
-      ctgry: "Yabancı Sermayeli	Kalkınma ve Yatırım Bankası",
+      ctgry: "Yabancı Sermayeli Kalkınma ve Yatırım Bankası",
       foundedYear: 2012,
       founder: "Standard Chartered",
       owner: "Standard Chartered",
