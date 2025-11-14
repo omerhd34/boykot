@@ -12,13 +12,16 @@ const FILTERS = [
  { id: "alternatif", label: "Boykot Değil" },
 ];
 
-export default function CategoryBrandList({ brands = [], showBoycottReason = false }) {
+export default function CategoryBrandList({ brands = [], subCategories = [], showBoycottReason = false }) {
  const searchParams = useSearchParams();
  const filterFromUrl = searchParams.get("filter");
  const [activeFilter, setActiveFilter] = useState(filterFromUrl || "all");
  const [activeCountryFilter, setActiveCountryFilter] = useState("all");
+ const [activeSubCategoryFilter, setActiveSubCategoryFilter] = useState("all");
  const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
- const dropdownRef = useRef(null);
+ const [isSubCategoryDropdownOpen, setIsSubCategoryDropdownOpen] = useState(false);
+ const countryDropdownRef = useRef(null);
+ const subCategoryDropdownRef = useRef(null);
 
  // Tüm benzersiz ülkeleri çıkar ve sırala
  const availableCountries = useMemo(() => {
@@ -33,6 +36,18 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
    ...countries.map((country) => ({ id: country, label: country })),
   ];
  }, [brands]);
+
+ // Alt kategorileri hazırla
+ const availableSubCategories = useMemo(() => {
+  if (!subCategories || subCategories.length === 0) {
+   return [{ id: "all", label: "Tümü" }];
+  }
+
+  return [
+   { id: "all", label: "Tümü" },
+   ...subCategories.map((subCat) => ({ id: subCat, label: subCat })),
+  ];
+ }, [subCategories]);
 
  const filteredBrands = useMemo(() => {
   let filtered = brands;
@@ -49,8 +64,13 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
    filtered = filtered.filter((brand) => brand.country === activeCountryFilter);
   }
 
+  // Alt kategoriye göre filtreleme
+  if (activeSubCategoryFilter !== "all") {
+   filtered = filtered.filter((brand) => brand.subCategory === activeSubCategoryFilter);
+  }
+
   return filtered;
- }, [brands, activeFilter, activeCountryFilter]);
+ }, [brands, activeFilter, activeCountryFilter, activeSubCategoryFilter]);
 
  // URL'den gelen filtreyi uygula
  useEffect(() => {
@@ -62,23 +82,31 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
  // Dropdown dışına tıklandığında kapat
  useEffect(() => {
   function handleClickOutside(event) {
-   if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+   if (countryDropdownRef.current && !countryDropdownRef.current.contains(event.target)) {
     setIsCountryDropdownOpen(false);
+   }
+   if (subCategoryDropdownRef.current && !subCategoryDropdownRef.current.contains(event.target)) {
+    setIsSubCategoryDropdownOpen(false);
    }
   }
 
-  if (isCountryDropdownOpen) {
+  if (isCountryDropdownOpen || isSubCategoryDropdownOpen) {
    document.addEventListener("mousedown", handleClickOutside);
    return () => {
     document.removeEventListener("mousedown", handleClickOutside);
    };
   }
- }, [isCountryDropdownOpen]);
+ }, [isCountryDropdownOpen, isSubCategoryDropdownOpen]);
 
  // Seçili ülke bilgisini al
  const selectedCountry = useMemo(() => {
   return availableCountries.find((c) => c.id === activeCountryFilter) || availableCountries[0];
  }, [availableCountries, activeCountryFilter]);
+
+ // Seçili alt kategori bilgisini al
+ const selectedSubCategory = useMemo(() => {
+  return availableSubCategories.find((c) => c.id === activeSubCategoryFilter) || availableSubCategories[0];
+ }, [availableSubCategories, activeSubCategoryFilter]);
 
  const filterCounts = useMemo(() => {
   // Önce boykot filtresine göre markaları filtrele
@@ -104,13 +132,26 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
    }
   });
 
+  // Her alt kategori için sayıları hesapla
+  const subCategoryCounts = {};
+  availableSubCategories.forEach((subCat) => {
+   if (subCat.id === "all") {
+    subCategoryCounts[subCat.id] = baseBrands.length;
+   } else {
+    subCategoryCounts[subCat.id] = baseBrands.filter(
+     (brand) => brand.subCategory === subCat.id
+    ).length;
+   }
+  });
+
   return {
    all: brands.length,
    boycott: boycottCount,
    alternatif: alternativeCount,
    ...countryCounts,
+   ...subCategoryCounts,
   };
- }, [brands, activeFilter, availableCountries]);
+ }, [brands, activeFilter, availableCountries, availableSubCategories]);
 
  return (
   <div className="space-y-6">
@@ -137,10 +178,69 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
       );
      })}
     </div>
+
+    {/* Alt Kategori Dropdown */}
+    {availableSubCategories.length > 1 && (
+     <div className={`relative inline-flex rounded-full border p-1 transition ${activeSubCategoryFilter !== "all"
+      ? "border-purple-500 bg-purple-500"
+      : "border-slate-200 bg-slate-50"
+      }`} ref={subCategoryDropdownRef}>
+      <button
+       type="button"
+       onClick={() => setIsSubCategoryDropdownOpen(!isSubCategoryDropdownOpen)}
+       className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition ${activeSubCategoryFilter !== "all"
+        ? "bg-transparent text-white"
+        : "bg-transparent text-slate-600 hover:bg-white"
+        }`}
+      >
+       <span>Alt Kategoriler</span>
+       {activeSubCategoryFilter !== "all" && (
+        <span className="text-xs opacity-90">
+         ({selectedSubCategory.label})
+        </span>
+       )}
+       <IoChevronDown
+        className={`h-4 w-4 transition-transform ${isSubCategoryDropdownOpen ? "rotate-180" : ""
+         }`}
+       />
+      </button>
+      {isSubCategoryDropdownOpen && (
+       <div className="absolute left-0 top-full z-50 mt-1 max-h-64 w-64 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-lg">
+        {availableSubCategories.map((subCat) => {
+         const isActive = activeSubCategoryFilter === subCat.id;
+         const count = filterCounts[subCat.id] || 0;
+         return (
+          <button
+           key={subCat.id}
+           type="button"
+           onClick={() => {
+            setActiveSubCategoryFilter(subCat.id);
+            setIsSubCategoryDropdownOpen(false);
+           }}
+           className={`w-full px-4 py-2.5 text-left text-xs font-semibold transition first:rounded-t-xl last:rounded-b-xl ${isActive
+            ? "bg-purple-50 text-purple-600"
+            : "text-slate-600 hover:bg-slate-50"
+            }`}
+          >
+           <span className="flex items-center justify-between">
+            <span>{subCat.label}</span>
+            <span className={`text-xs ${isActive ? "text-purple-600" : "text-slate-400"}`}>
+             {count}
+            </span>
+           </span>
+          </button>
+         );
+        })}
+       </div>
+      )}
+     </div>
+    )}
+
+    {/* Ülke Dropdown */}
     <div className={`relative inline-flex rounded-full border p-1 transition ${activeCountryFilter !== "all"
      ? "border-orange-500 bg-orange-500"
      : "border-slate-200 bg-slate-50"
-     }`} ref={dropdownRef}>
+     }`} ref={countryDropdownRef}>
      <button
       type="button"
       onClick={() => setIsCountryDropdownOpen(!isCountryDropdownOpen)}
@@ -247,9 +347,21 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
           )}
          </span>
         </div>
-        <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-         {brand.country ?? "Menşei bilgisi güncelleniyor"}
-        </p>
+        <div className="flex flex-wrap items-center gap-2">
+         {brand.country && (
+          <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
+           {brand.country}
+          </p>
+         )}
+         {brand.subCategory && (
+          <>
+           <span className="text-slate-300">•</span>
+           <p className="text-xs font-medium uppercase tracking-wide text-purple-600">
+            {brand.subCategory}
+           </p>
+          </>
+         )}
+        </div>
         {brand.description && (
          <p className="line-clamp-3 whitespace-pre-line text-sm leading-relaxed text-slate-600">
           {brand.description}

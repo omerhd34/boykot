@@ -56,8 +56,15 @@ export default async function CategoryDetailPage({ params }) {
           )}
         </header>
 
-        <Suspense fallback={<div className="text-center text-slate-600">Yükleniyor...</div>}>
-          <CategoryBrandList brands={category.brands} />
+        <Suspense
+          fallback={
+            <div className="text-center text-slate-600">Yükleniyor...</div>
+          }
+        >
+          <CategoryBrandList
+            brands={category.brands}
+            subCategories={category.subCategories || []}
+          />
         </Suspense>
       </div>
     </section>

@@ -4,6 +4,7 @@ const oyunCategory = {
   slug: "oyun",
   iconKey: "gamepad-2",
   description: "Video oyunları ve donanım sağlayıcıları.",
+  ctgry: ["Oyun Platformu", "Oyun Çözümü", "Oyun Stüdyosu", "Oyun"],
   brands: [
     {
       name: "Steam",
@@ -12,7 +13,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://store.steampowered.com/",
       img: "/oyun.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Valve ABD merkezlidir; boykot kriterlerimiz uyarınca ABD merkezli platformları desteklemiyoruz.`,
     },
@@ -23,7 +24,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://store.epicgames.com/",
       img: "/epic-games.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Epic Games ABD merkezli bir şirkettir; ABD bağlantısı nedeniyle boykot listemize dahildir.`,
     },
@@ -34,7 +35,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.xbox.com/",
       img: "/xbox-game.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Xbox, Microsoft'un ABD merkezli oyun markasıdır; ABD bağlantısı sebebiyle boykottadır.`,
     },
@@ -45,7 +46,7 @@ const oyunCategory = {
       country: "Polonya",
       website: "https://www.gog.com/",
       img: "/gog.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: false,
       boycottReason: `ABD veya İsrail bağlantısı bulunmadığından boykot uygulanmıyor.`,
     },
@@ -56,7 +57,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ea.com/ea-app",
       img: "/origin.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Electronic Arts ABD merkezlidir; bu nedenle platformu boykot listemize ekliyoruz.`,
     },
@@ -67,7 +68,7 @@ const oyunCategory = {
       country: "Fransa",
       website: "https://ubisoftconnect.com/",
       img: "/ubisoft-connect.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: false,
       boycottReason: `Merkezi Fransa'dadır ve ABD/İsrail bağlantısı yoktur; boykot uygulanmaz.`,
     },
@@ -78,7 +79,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.blizzard.com/",
       img: "/battle-net.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Blizzard Entertainment ABD merkezlidir; ABD bağlantısı nedeniyle boykot kapsamındadır.`,
     },
@@ -89,7 +90,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.microsoft.com/store/apps",
       img: "/microsoft-store-xbox-app.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Microsoft ABD merkezli bir teknoloji şirketidir; ABD bağlantısı sebebiyle boykot edilir.`,
     },
@@ -100,7 +101,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://itch.io/",
       img: "/itch-io.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Platform ABD merkezlidir; ABD bağlantısı sebebiyle boykot listemizde yer alır.`,
     },
@@ -111,7 +112,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.humblebundle.com/",
       img: "/humble-bundle.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Humble Bundle ABD merkezlidir; ABD bağlantısı nedeniyle boykot kapsamındadır.`,
     },
@@ -122,7 +123,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://gaming.amazon.com/",
       img: "/amazon-games-prime-gaming.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Amazon ABD merkezlidir ve İsrail ile ticari ilişkileri vardır; bu nedenle boykot edilir.`,
     },
@@ -133,7 +134,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://socialclub.rockstargames.com/rockstar-games-launcher",
       img: "/rockstar-games-launcher.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Rockstar Games, ABD merkezli Take-Two çatısı altındadır; ABD bağlantısı nedeniyle boykot edilir.`,
     },
@@ -144,7 +145,7 @@ const oyunCategory = {
       country: "Güney Kore",
       website: "https://na.battlegrounds.pubg.com/",
       img: "/pubg.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Doğu Türkistan'da Yaşananlar Sebebi Ile Çin'e Ait Global Markaların Tamamı BOYKOT Listemizdedir.`,
     },
@@ -155,7 +156,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ea.com/games/fifa",
       img: "/fifa.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `FIFA serisini geliştiren EA Sports, ABD merkezli Electronic Arts'a aittir; bu nedenle boykot listemizdedir.`,
     },
@@ -166,7 +167,7 @@ const oyunCategory = {
       country: "Birleşik Krallık (Rockstar North)",
       website: "https://www.rockstargames.com/",
       img: "/gta.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Serinin geliştiricisi Birleşik Krallık merkezli olsa da marka ABD merkezli Take-Two Interactive/Rockstar Games'e aittir; ABD bağlantısı sebebiyle boykot edilir.`,
     },
@@ -177,8 +178,8 @@ const oyunCategory = {
       country: "İsveç / Amerika Birleşik Devletleri",
       website: "https://www.minecraft.net/",
       img: "/minecraft.png",
-
       isBoycotted: true,
+      ctgry: "Oyun",
       boycottReason: `Oyun Mojang tarafından İsveç'te geliştirilse de stüdyo 2014'ten beri ABD merkezli Microsoft'a aittir; bu sahiplik nedeniyle boykot kapsamındadır.`,
     },
     {
@@ -188,7 +189,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.counter-strike.net/",
       img: "/counter-strike.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Counter-Strike'ın sahibi Valve ABD merkezlidir; ABD bağlantısı nedeniyle boykot edilir.`,
     },
@@ -199,7 +200,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.leagueoflegends.com/",
       img: "/league-of-legends.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Riot Games'in ana merkezi ABD'dedir; ABD bağlantısı sebebiyle boykot kapsamındadır.`,
     },
@@ -210,7 +211,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.fortnite.com/",
       img: "/fortnite.png",
-
+      ctgry: "Oyun Stüdyosu",
       isBoycotted: true,
       boycottReason: `Epic Games ABD merkezlidir; bu nedenle Fortnite markası boykot listemize girer.`,
     },
@@ -221,7 +222,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.callofduty.com/",
       img: "/call-of-duty.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Activision Blizzard ABD merkezlidir; ABD bağlantısı nedeniyle boykot kapsamındadır.`,
     },
@@ -232,7 +233,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://playvalorant.com/",
       img: "/valorant.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Riot Games'in ABD merkezli olması nedeniyle Valorant boykot listemizde yer alır.`,
     },
@@ -243,7 +244,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://overwatch.blizzard.com/",
       img: "/overwatch.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Blizzard Entertainment ABD merkezli olduğundan Overwatch boykot kapsamındadır.`,
     },
@@ -254,7 +255,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://worldofwarcraft.blizzard.com/",
       img: "/world-of-warcraft.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `Blizzard Entertainment ABD merkezlidir; ABD bağlantısı nedeniyle boykot edilir.`,
     },
@@ -265,7 +266,7 @@ const oyunCategory = {
       country: "Kıbrıs",
       website: "https://worldoftanks.com/",
       img: "/world-of-tanks.png",
-
+      ctgry: "Oyun",
       isBoycotted: false,
       boycottReason: `Wargaming'in merkez üssü Kıbrıs'tadır; ABD veya İsrail bağlantısı bulunmaz.`,
     },
@@ -276,7 +277,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.roblox.com/",
       img: "/roblox.png",
-
+      ctgry: "Oyun Platformu",
       isBoycotted: true,
       boycottReason: `Roblox Corporation ABD merkezlidir; ABD bağlantısı nedeniyle boykot edilir.`,
     },
@@ -287,7 +288,7 @@ const oyunCategory = {
       country: "Birleşik Krallık",
       website: "https://www.footballmanager.com/",
       img: "/football-manager.png",
-
+      ctgry: "Oyun",
       isBoycotted: false,
       boycottReason: `Yapımın sahibi Sports Interactive Birleşik Krallık merkezlidir; ABD/İsrail bağlantısı yoktur.`,
     },
@@ -298,7 +299,7 @@ const oyunCategory = {
       country: "Amerika Birleşik Devletleri",
       website: "https://www.ea.com/games/ea-sports-fc",
       img: "/ea-sports-fc.png",
-
+      ctgry: "Oyun",
       isBoycotted: true,
       boycottReason: `EA Sports, ABD merkezli Electronic Arts'ın markasıdır; ABD bağlantısı nedeniyle boykottadır.`,
     },

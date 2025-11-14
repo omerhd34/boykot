@@ -4,7 +4,8 @@ const elektronikCategory = {
   slug: "elektronik",
   iconKey: "plug",
   description: "Elektronik bileşen ve cihaz üreticileri.",
-  brands: []
+  ctgry: [],
+  brands: [],
 };
 
 export default elektronikCategory;

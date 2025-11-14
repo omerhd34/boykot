@@ -19,6 +19,8 @@ async function main() {
 
     const createdCategories = [];
     for (const category of categorySeed) {
+      const subCategories = category.ctgry || [];
+
       const createdCategory = await prisma.category.create({
         data: {
           name: category.name,
@@ -26,6 +28,7 @@ async function main() {
           iconKey: category.iconKey,
           description: category.description,
           order: category.order,
+          subCategories: subCategories,
         },
       });
       createdCategories.push({
@@ -59,6 +62,7 @@ async function main() {
               subBrands,
               alternative_products,
               isBoycotted: _,
+              ctgry,
               ...brandData
             } = brand;
 
@@ -68,6 +72,7 @@ async function main() {
                 isBoycotted: isBoycotted,
                 alternativeProducts: alternative_products || [],
                 categoryId: category.id,
+                subCategory: ctgry || null,
               },
             });
             existingSlugs.add(brand.slug);
@@ -99,6 +104,7 @@ async function main() {
                     const {
                       alternative_products,
                       isBoycotted: _,
+                      ctgry,
                       ...subBrandData
                     } = subBrand;
                     await prisma.brand.create({
@@ -108,6 +114,7 @@ async function main() {
                         alternativeProducts: alternative_products || [],
                         categoryId: category.id,
                         parentBrandId: createdBrand.id,
+                        subCategory: ctgry || null,
                       },
                     });
                     existingSlugs.add(subBrand.slug);

@@ -4,7 +4,8 @@ const enerjiCategory = {
   slug: "enerji",
   iconKey: "bolt",
   description: "Enerji üreticileri ve dağıtım şirketleri.",
-  brands: []
+  ctgry: [],
+  brands: [],
 };
 
 export default enerjiCategory;

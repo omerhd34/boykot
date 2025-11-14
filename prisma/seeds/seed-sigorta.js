@@ -8,11 +8,11 @@ const sigortaCategory = {
     {
       name: "Sompo Japan Sigorta",
       slug: "sompo-japan-sigorta",
+      ctgry: "Hayat Sigortası",
       description: ``,
       country: "Japonya",
       website: "https://www.somposigorta.com.tr/",
       img: "/sigorta.png",
-
       isBoycotted: true,
       boycottReason: ``,
     },

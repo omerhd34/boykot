@@ -1,9 +1,21 @@
+//? Açıklama yaz !
 const finansCategory = {
   order: 11,
   name: "Finans",
   slug: "finans",
   iconKey: "creditcard",
   description: "Bankacılık ve finansal hizmet markaları.",
+  ctgry: [
+    "Özel sermayeli	Mevduat Bankası",
+    "Ödeme Sistemi",
+    "Kurum",
+    "Kamu İdari Birimi",
+    "Kripto Para",
+    "Özel Sermayeli	Katılım Bankası",
+    "Kamu Sermayeli	Katılım Bankası",
+    "Yabancı sermayeli	Mevduat Bankası",
+    "Tasarruf Mevduatı Sigorta Fonu",
+  ],
   brands: [
     {
       name: "Yapı Kredi",
@@ -506,6 +518,7 @@ Blackstone Group, İsrail'e açık finansal destek sağlayan bir yatırım şirk
     {
       name: "Wells Fargo",
       slug: "wells-fargo",
+      ctgry: "Yabancı sermayeli	Mevduat Bankası",
       foundedYear: 1852,
       founder: "Henry Wells, William Fargo",
       owner: "Halka Açık Şirket",
@@ -527,7 +540,7 @@ Tom Nides, İsrail ile yakın bağlantıları olan bir diplomat ve iş insanıd�
     {
       name: "KPMG",
       slug: "kpmg",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1987,
       founder: "William Barclay Peat, James Marwick",
       owner: "Ortaklık Yapısı (Kooperatif)",
@@ -549,7 +562,7 @@ Bu taahhüdün sadece antisemitizme karşı gelmek için imzalanmış olma ihtim
     {
       name: "UBS",
       slug: "ubs",
-      ctgry: "",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 1998,
       founder: "Union Bank of Switzerland, Swiss Bank Corporation",
       owner: "Halka Açık Şirket",
@@ -571,7 +584,7 @@ Mart 2014'te ABD Federal Mevduat Sigorta Kurumu (FDIC), UBS'in de aralarında bu
     {
       name: "Baupost Group",
       slug: "baupost-group",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1982,
       founder:
         "William Poorvu, Howard Stevenson, Jordan Baruch, Isaac Auerbach",
@@ -594,7 +607,7 @@ Baupost Group'un İsrail'e destek veren küresel finansal sistemin bir parçası
     {
       name: "Citadel LLC",
       slug: "citadel-llc",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1990,
       founder: "Kenneth Griffin",
       owner: "Kenneth Griffin (%85)",
@@ -616,7 +629,7 @@ Citadel LLC CEO'su Kenneth Griffin'in İsrail'in Filistin'e yönelik politikalar
     {
       name: "Caretrust Reit",
       slug: "caretrust-reit",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 2014,
       founder: "The Ensign Group'tan ayrıldı",
       owner: "Halka Açık Şirket",
@@ -636,7 +649,7 @@ CareTrust, bireysel operatörün gayrimenkul değeri için ne kadar önemli oldu
     {
       name: "JPMorgan Chase",
       slug: "jpmorgan-chase",
-      ctgry: "",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 2000,
       founder: "John Pierpont Morgan",
       owner: "Halka Açık Şirket",
@@ -660,7 +673,7 @@ JPMorgan Chase CEO'su Jamie Dimon'in İsrail'e açık desteğini göstermesi ve 
     {
       name: "Jefferies",
       slug: "jefferies",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1962,
       founder: "Bilinmiyor",
       owner: "Jefferies Financial Group",
@@ -684,7 +697,7 @@ Ayrıca Jefferies'in CEO'su olan Richard B. Handler, Instagram hesabından İsra
     {
       name: "Cascade",
       slug: "cascade",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1995,
       founder: "Michael Larson",
       owner: "Bill Gates",
@@ -706,7 +719,7 @@ Ayrıca Microsoft'un en büyük hissedarları arasında Blackrock ve Vanguard gi
     {
       name: "Endeavor",
       slug: "endeavor",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1997,
       founder: "Linda Rottenberg, Peter Kellner",
       owner: "Kâr Amacı Gütmeyen Organizasyon",
@@ -730,7 +743,7 @@ Endeavor'un İsrail'e destek veren küresel finansal sistemin bir parçası olma
     {
       name: "Chapman",
       slug: "chapman",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1913,
       founder: "Theodore S. Chapman, Henry Cutler",
       owner: "Ortaklık Yapısı",
@@ -752,7 +765,7 @@ Chapman And Cutler'in İsrail'e açık desteğini göstermesi ve Filistin halkı
     {
       name: "Companion Fund",
       slug: "companion-fund",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 2018,
       founder: "Mars, Incorporated, Digitalis Ventures",
       owner: "Mars, Incorporated, Digitalis Ventures",
@@ -774,7 +787,7 @@ Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulu
     {
       name: "Zorlu Faktoring",
       slug: "zorlu-faktoring",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 2012,
       founder: "Zorlu Holding",
       owner: "Arsan Tekstil (%92)",
@@ -820,7 +833,7 @@ Alternatif olarak, Ziraat Bankası, Halkbank ve Vakıfbank gibi kamu bankaların
     {
       name: "BayernLB",
       slug: "bayernlb",
-      ctgry: "",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 1972,
       founder: "Bavyera Eyaleti",
       owner: "Bavyera Özgür Devleti (%75), Sparkassenverband Bayern (%25)",
@@ -846,7 +859,7 @@ BayernLB, İsrail'e destek veren bir finansal hizmetler şirketidir. Şirketin �
     {
       name: "Aareal",
       slug: "aareal",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1922,
       founder: "Preußische Landespfandbriefanstalt",
       owner: "Atlantik BidCo GmbH",
@@ -872,7 +885,7 @@ Aareal Bank, İsrail'e destek veren bir finansal hizmetler şirketidir. Şirketi
     {
       name: "W&W Gruppe",
       slug: "ww-gruppe",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1999,
       founder: "Wüstenrot, Württembergische",
       owner: "Wüstenrot Vakfı (Çoğunluk Hissesi)",
@@ -896,7 +909,7 @@ W&W Gruppe, İsrail'e destek veren bir finansal hizmetler şirketidir. Şirketin
     {
       name: "Hanseatic Bank",
       slug: "hanseatic-bank",
-      ctgry: "",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 1969,
       founder: "Otto Versand",
       owner: "Otto Group",
@@ -920,7 +933,7 @@ Hanseatic Bank, Otto Group'un bir parçasıdır ve İsrail'e destek veren bir fi
     {
       name: "Wüstenrot",
       slug: "wuestenrot",
-      ctgry: "",
+      ctgry: "Kurum",
       foundedYear: 1968,
       founder: "Wüstenrot & Württembergische AG",
       owner: "Wüstenrot & Württembergische AG",
@@ -1850,7 +1863,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Bank Mellat",
       slug: "mellat-bank",
-      ctgry: "Şube Açan Yabancı Banka",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 1980,
       founder:
         "Banka, Tehran, Dariush, Pars, Etebarat Taavoni & Tozie, Iran & Arab, Bein-al-melalie-Iran, Omran, Bimeh Iran, Tejarat Khareji Iran ve Farhangian bankalarının birleşmesiyle kuruldu.",
@@ -1866,12 +1879,12 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Habib Bank",
       slug: "habib-bank",
-      ctgry: "Şube Açan Yabancı Banka",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 1983,
       founder: "Habib Bank Limited",
       owner: "Habib Bank Limited",
       description: ``,
-      country: "Türkiye & Pakistan",
+      country: "Pakistan",
       website: "https://www.hbl.com.tr/",
       img: "/habib-bank.png",
       isBoycotted: true,
@@ -1880,7 +1893,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Intesa Sanpaolo",
       slug: "intesa-sanpaolo",
-      ctgry: "Şube Açan Yabancı Banka",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 2007,
       founder: "Banca Intesa ve Sanpaolo IMI",
       owner:
@@ -1895,7 +1908,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "JPMorgan Chase",
       slug: "jpmorgan-chase",
-      ctgry: "Şube Açan Yabancı Banka",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 2000,
       founder: "John Pierpont Morgan",
       owner: "Vanguard Group & BlackRock & State Street Corporation & Diğer",
@@ -1909,7 +1922,7 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Société Générale",
       slug: "societe-generale",
-      ctgry: "Şube Açan Yabancı Banka",
+      ctgry: "Yabancı sermayeli Mevduat Bankası",
       foundedYear: 1864,
       founder:
         "Fransa İmparatoru III. Napoléon'un Fermanı ile bir grup sanayici ve finansör tarafından kurulmuştur.",
@@ -1988,9 +2001,8 @@ Eğer faizsiz bankacılık hizmetlerine ihtiyaç duyuyorsanız, öncelikle kamu 
     {
       name: "Banka ve Kambiyo Genel Müdürlüğü",
       slug: "banka-ve-kambiyo-genel-mudurlugu",
-      ctgry: "Kamu İdari Birimi (Hazine ve Maliye Bakanlığı Bağlı Kuruluşu)",
-      foundedYear:
-        "Kurumun Yapılanması gereği net bir yıl belirtilemez. Hazine bünyesinde fonksiyonel olarak mevcuttur.",
+      ctgry: "Kamu İdari Birimi",
+      foundedYear: null,
       founder: "Türkiye Cumhuriyeti Devleti",
       owner: "T.C. Hazine ve Maliye Bakanlığı",
       description: ``,

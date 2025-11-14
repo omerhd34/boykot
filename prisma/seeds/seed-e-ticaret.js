@@ -4,6 +4,7 @@ const eTicaretCategory = {
   slug: "e-ticaret",
   iconKey: "store",
   description: "Çevrim içi perakende ve pazar yeri platformları.",
+  ctgry: [],
   brands: [],
 };
 
