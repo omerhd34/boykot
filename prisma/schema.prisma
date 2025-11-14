@@ -22,17 +22,27 @@ model Category {
 }
 
 model Brand {
-  id            String   @id @default(auto()) @map("_id") @db.ObjectId
-  name          String
-  slug          String   @unique
-  description   String
-  country       String
-  website       String?
-  img           String?
-  isBoycotted   Boolean  @default(false)
-  boycottReason String?
-  categoryId    String   @db.ObjectId
-  category      Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
+  id                 String   @id @default(auto()) @map("_id") @db.ObjectId
+  name               String
+  slug               String   @unique
+  description        String
+  country            String
+  website            String?
+  img                String?
+  isBoycotted        Boolean  @default(false)
+  boycottReason      String?
+  alternativeProducts String[] @default([])
+  foundedYear        Int?
+  founder            String?
+  owner              String?
+  categoryId         String   @db.ObjectId
+  category           Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  // Alt marka ilişkisi
+  parentBrandId      String?  @db.ObjectId
+  parentBrand        Brand?   @relation("BrandSubBrands", fields: [parentBrandId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  subBrands          Brand[]  @relation("BrandSubBrands")
+  
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
 }

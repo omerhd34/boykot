@@ -8,6 +8,12 @@ import {
   IoLocationOutline,
   IoShieldCheckmarkOutline,
   IoWarningOutline,
+  IoArrowForwardOutline,
+  IoCloseCircleOutline,
+  IoCheckmarkCircleOutline,
+  IoAppsOutline,
+  IoInformationCircleOutline,
+  IoBusinessOutline,
 } from "react-icons/io5";
 
 export const runtime = "nodejs";
@@ -74,17 +80,28 @@ export default async function BrandDetailPage({ params }) {
         )}
 
         <header className="space-y-4">
-          {brand.isBoycotted ? (
-            <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-red-500 to-red-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
-              <IoWarningOutline className="h-4 w-4" />
-              Boykot
-            </div>
-          ) : (
-            <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-emerald-500 to-emerald-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
-              <IoShieldCheckmarkOutline className="h-4 w-4" />
-              Alternatif
-            </div>
-          )}
+          <div className="flex flex-wrap items-center gap-3">
+            {brand.isBoycotted ? (
+              <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-red-500 to-red-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
+                <IoWarningOutline className="h-4 w-4" />
+                Boykot
+              </div>
+            ) : (
+              <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-emerald-500 to-emerald-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
+                <IoShieldCheckmarkOutline className="h-4 w-4" />
+                Boykot Edilmiyor
+              </div>
+            )}
+            {brand.parentBrand && (
+              <Link
+                href={`/kategoriler/${brand.parentBrand.categorySlug}/${brand.parentBrand.slug}`}
+                className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-slate-500 to-slate-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm transition hover:from-slate-600 hover:to-slate-700"
+              >
+                <IoBusinessOutline className="h-4 w-4" />
+                Sahibi: {brand.parentBrand.name}
+              </Link>
+            )}
+          </div>
           <h1 className="text-3xl font-semibold text-slate-900 md:text-4xl lg:text-5xl">
             {brand.name}
           </h1>
@@ -100,7 +117,7 @@ export default async function BrandDetailPage({ params }) {
           <article className="space-y-6">
             {brand.description && (
               <div className="rounded-2xl border border-slate-200 bg-slate-50/30 px-6 py-5">
-                <p className="text-base leading-relaxed text-slate-700">
+                <p className="whitespace-pre-wrap text-base leading-relaxed text-slate-700">
                   {brand.description}
                 </p>
               </div>
@@ -122,16 +139,24 @@ export default async function BrandDetailPage({ params }) {
 
           <aside className="space-y-6 rounded-2xl border-2 border-orange-200 bg-linear-to-br from-orange-50 to-amber-50 p-6 shadow-sm">
             <h2 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
-              <IoShieldCheckmarkOutline className="h-5 w-5 text-orange-600" />
+              <IoInformationCircleOutline className="h-5 w-5 text-orange-600" />
               Marka Bilgileri
             </h2>
             <dl className="space-y-4">
               <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
                 <dt className="text-sm font-semibold text-slate-700">Durum</dt>
-                <dd className="text-sm font-medium text-slate-900">
-                  {brand.isBoycotted
-                    ? "🚫 Boykot Ediliyor"
-                    : "✅ Alternatif Öneri"}
+                <dd className="flex items-center gap-2 text-sm font-medium text-slate-900">
+                  {brand.isBoycotted ? (
+                    <>
+                      <IoCloseCircleOutline className="h-5 w-5 text-red-600" />
+                      <span>Boykot</span>
+                    </>
+                  ) : (
+                    <>
+                      <IoCheckmarkCircleOutline className="h-5 w-5 text-emerald-600" />
+                      <span>Boykot Değil</span>
+                    </>
+                  )}
                 </dd>
               </div>
               {brand.country && (
@@ -144,17 +169,158 @@ export default async function BrandDetailPage({ params }) {
                   </dd>
                 </div>
               )}
+              {brand.foundedYear && (
+                <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
+                  <dt className="text-sm font-semibold text-slate-700">
+                    Kuruluş Yılı
+                  </dt>
+                  <dd className="text-sm font-medium text-slate-900">
+                    {brand.foundedYear}
+                  </dd>
+                </div>
+              )}
+              {brand.founder && (
+                <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
+                  <dt className="text-sm font-semibold text-slate-700">
+                    Kurucu
+                  </dt>
+                  <dd className="text-sm font-medium text-slate-900">
+                    {brand.founder}
+                  </dd>
+                </div>
+              )}
+              {brand.owner && (
+                <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
+                  <dt className="text-sm font-semibold text-slate-700">
+                    Sahibi
+                  </dt>
+                  <dd className="text-sm font-medium text-slate-900">
+                    {brand.owner}
+                  </dd>
+                </div>
+              )}
+              {brand.website && (
+                <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
+                  <dt className="text-sm font-semibold text-slate-700">
+                    Web Sitesi
+                  </dt>
+                  <dd className="text-sm font-medium text-slate-900">
+                    <a
+                      href={brand.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-orange-600 hover:text-orange-700 hover:underline"
+                    >
+                      {brand.website
+                        .replace(/^https?:\/\//, "")
+                        .replace(/\/$/, "")}
+                    </a>
+                  </dd>
+                </div>
+              )}
             </dl>
-            {brand.website && (
-              <Link
-                href={brand.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-linear-to-r from-orange-500 to-orange-600 px-6 py-3 text-sm font-bold text-white shadow-md transition hover:shadow-lg hover:from-orange-600 hover:to-orange-700"
-              >
-                <IoGlobeOutline className="h-5 w-5" />
-                Resmi Siteyi Ziyaret Et
-              </Link>
+            {brand.isBoycotted &&
+              brand.alternativeProducts &&
+              brand.alternativeProducts.length > 0 && (
+                <div className="mt-6 space-y-4 border-t border-orange-200 pt-6">
+                  <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
+                    <IoShieldCheckmarkOutline className="h-5 w-5 text-orange-600" />
+                    Alternatif Ürünler
+                  </h3>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {brand.alternativeProducts.slice(0, 5).map((altBrand) => (
+                      <Link
+                        key={altBrand.id}
+                        href={`/kategoriler/${altBrand.categorySlug}/${altBrand.slug}`}
+                        className="group flex items-center gap-3 rounded-lg border-2 border-emerald-200 bg-emerald-50/50 px-4 py-3 shadow-sm transition hover:border-emerald-400 hover:bg-emerald-100/70 hover:shadow-md"
+                      >
+                        {altBrand.img && (
+                          <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-lg bg-white">
+                            <Image
+                              src={altBrand.img}
+                              alt={altBrand.name}
+                              fill
+                              className="object-contain p-1"
+                              sizes="48px"
+                            />
+                          </div>
+                        )}
+                        <div className="min-w-0 flex-1">
+                          <h4 className="text-sm font-semibold text-slate-900 group-hover:text-emerald-700">
+                            {altBrand.name}
+                          </h4>
+                          {altBrand.country && (
+                            <p className="text-xs text-slate-500">
+                              {altBrand.country}
+                            </p>
+                          )}
+                        </div>
+                        <IoArrowForwardOutline className="h-4 w-4 shrink-0 text-emerald-600 transition group-hover:translate-x-1" />
+                      </Link>
+                    ))}
+                    <Link
+                      href={`/kategoriler/${brand.category.slug}?filter=alternatif`}
+                      className="group flex items-center justify-center gap-3 rounded-lg border-2 border-dashed border-emerald-300 bg-emerald-50/30 px-4 py-3 shadow-sm transition hover:border-emerald-400 hover:bg-emerald-100/50 hover:shadow-md"
+                    >
+                      <div className="min-w-0 flex-1 text-center">
+                        <h4 className="text-sm font-semibold text-emerald-700 group-hover:text-emerald-800">
+                          Diğer
+                        </h4>
+                        <p className="text-xs text-emerald-600">
+                          Tüm alternatifleri gör
+                        </p>
+                      </div>
+                      <IoArrowForwardOutline className="h-4 w-4 shrink-0 text-emerald-600 transition group-hover:translate-x-1" />
+                    </Link>
+                  </div>
+                </div>
+              )}
+            {brand.subBrands && brand.subBrands.length > 0 && (
+              <div className="mt-6 space-y-4 border-t border-orange-200 pt-6">
+                <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
+                  <IoAppsOutline className="h-5 w-5 text-orange-600" />
+                  Alt Markalar
+                </h3>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {brand.subBrands.map((subBrand) => (
+                    <Link
+                      key={subBrand.id}
+                      href={`/kategoriler/${brand.category.slug}/${subBrand.slug}`}
+                      className="group relative flex flex-col items-center gap-2 overflow-hidden rounded-lg border-2 border-slate-200 bg-white p-3 shadow-sm transition hover:border-orange-400 hover:shadow-md"
+                    >
+                      {subBrand.img && (
+                        <div className="relative h-16 w-16 overflow-hidden rounded-lg">
+                          <Image
+                            src={subBrand.img}
+                            alt={subBrand.name}
+                            fill
+                            className="object-contain"
+                            sizes="64px"
+                          />
+                        </div>
+                      )}
+                      <div className="text-center">
+                        <h4 className="text-xs font-semibold text-slate-900 group-hover:text-orange-600">
+                          {subBrand.name}
+                        </h4>
+                        <div className="mt-1">
+                          {subBrand.isBoycotted ? (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-red-100 px-2 py-0.5 text-xs font-medium text-red-700">
+                              <IoWarningOutline className="h-3 w-3" />
+                              Boykot
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                              <IoShieldCheckmarkOutline className="h-3 w-3" />
+                              Boykot Değil
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             )}
           </aside>
         </div>

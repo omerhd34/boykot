@@ -2,36 +2,115 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
+import { IoChevronDown } from "react-icons/io5";
 
 const FILTERS = [
  { id: "all", label: "Tümü" },
  { id: "boycott", label: "Boykot" },
- { id: "alternative", label: "Boykot Değil" },
+ { id: "alternatif", label: "Boykot Değil" },
 ];
 
 export default function CategoryBrandList({ brands = [], showBoycottReason = false }) {
- const [activeFilter, setActiveFilter] = useState("all");
+ const searchParams = useSearchParams();
+ const filterFromUrl = searchParams.get("filter");
+ const [activeFilter, setActiveFilter] = useState(filterFromUrl || "all");
+ const [activeCountryFilter, setActiveCountryFilter] = useState("all");
+ const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
+ const dropdownRef = useRef(null);
+
+ // Tüm benzersiz ülkeleri çıkar ve sırala
+ const availableCountries = useMemo(() => {
+  const countries = brands
+   .map((brand) => brand.country)
+   .filter((country) => country && country.trim() !== "")
+   .filter((country, index, self) => self.indexOf(country) === index)
+   .sort();
+
+  return [
+   { id: "all", label: "Tümü" },
+   ...countries.map((country) => ({ id: country, label: country })),
+  ];
+ }, [brands]);
 
  const filteredBrands = useMemo(() => {
+  let filtered = brands;
+
+  // Boykot durumuna göre filtreleme
   if (activeFilter === "boycott") {
-   return brands.filter((brand) => brand.isBoycotted);
+   filtered = filtered.filter((brand) => brand.isBoycotted);
+  } else if (activeFilter === "alternatif") {
+   filtered = filtered.filter((brand) => !brand.isBoycotted);
   }
-  if (activeFilter === "alternative") {
-   return brands.filter((brand) => !brand.isBoycotted);
+
+  // Ülkeye göre filtreleme
+  if (activeCountryFilter !== "all") {
+   filtered = filtered.filter((brand) => brand.country === activeCountryFilter);
   }
-  return brands;
- }, [brands, activeFilter]);
+
+  return filtered;
+ }, [brands, activeFilter, activeCountryFilter]);
+
+ // URL'den gelen filtreyi uygula
+ useEffect(() => {
+  if (filterFromUrl && FILTERS.some((f) => f.id === filterFromUrl)) {
+   setActiveFilter(filterFromUrl);
+  }
+ }, [filterFromUrl]);
+
+ // Dropdown dışına tıklandığında kapat
+ useEffect(() => {
+  function handleClickOutside(event) {
+   if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+    setIsCountryDropdownOpen(false);
+   }
+  }
+
+  if (isCountryDropdownOpen) {
+   document.addEventListener("mousedown", handleClickOutside);
+   return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
+   };
+  }
+ }, [isCountryDropdownOpen]);
+
+ // Seçili ülke bilgisini al
+ const selectedCountry = useMemo(() => {
+  return availableCountries.find((c) => c.id === activeCountryFilter) || availableCountries[0];
+ }, [availableCountries, activeCountryFilter]);
 
  const filterCounts = useMemo(() => {
+  // Önce boykot filtresine göre markaları filtrele
+  let baseBrands = brands;
+  if (activeFilter === "boycott") {
+   baseBrands = brands.filter((brand) => brand.isBoycotted);
+  } else if (activeFilter === "alternatif") {
+   baseBrands = brands.filter((brand) => !brand.isBoycotted);
+  }
+
   const boycottCount = brands.filter((brand) => brand.isBoycotted).length;
   const alternativeCount = brands.filter((brand) => !brand.isBoycotted).length;
+
+  // Her ülke için sayıları hesapla (aktif boykot filtresine göre)
+  const countryCounts = {};
+  availableCountries.forEach((country) => {
+   if (country.id === "all") {
+    countryCounts[country.id] = baseBrands.length;
+   } else {
+    countryCounts[country.id] = baseBrands.filter(
+     (brand) => brand.country === country.id
+    ).length;
+   }
+  });
+
   return {
    all: brands.length,
    boycott: boycottCount,
-   alternative: alternativeCount,
+   alternatif: alternativeCount,
+   ...countryCounts,
   };
- }, [brands]);
+ }, [brands, activeFilter, availableCountries]);
 
  return (
   <div className="space-y-6">
@@ -57,6 +136,59 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
        </button>
       );
      })}
+    </div>
+    <div className={`relative inline-flex rounded-full border p-1 transition ${activeCountryFilter !== "all"
+     ? "border-orange-500 bg-orange-500"
+     : "border-slate-200 bg-slate-50"
+     }`} ref={dropdownRef}>
+     <button
+      type="button"
+      onClick={() => setIsCountryDropdownOpen(!isCountryDropdownOpen)}
+      className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition ${activeCountryFilter !== "all"
+       ? "bg-transparent text-white"
+       : "bg-transparent text-slate-600 hover:bg-white"
+       }`}
+     >
+      <span>Ülkeler</span>
+      {activeCountryFilter !== "all" && (
+       <span className="text-xs opacity-90">
+        ({selectedCountry.label})
+       </span>
+      )}
+      <IoChevronDown
+       className={`h-4 w-4 transition-transform ${isCountryDropdownOpen ? "rotate-180" : ""
+        }`}
+      />
+     </button>
+     {isCountryDropdownOpen && (
+      <div className="absolute left-0 top-full z-50 mt-1 max-h-64 w-64 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-lg">
+       {availableCountries.map((country) => {
+        const isActive = activeCountryFilter === country.id;
+        const count = filterCounts[country.id] || 0;
+        return (
+         <button
+          key={country.id}
+          type="button"
+          onClick={() => {
+           setActiveCountryFilter(country.id);
+           setIsCountryDropdownOpen(false);
+          }}
+          className={`w-full px-4 py-2.5 text-left text-xs font-semibold transition first:rounded-t-xl last:rounded-b-xl ${isActive
+           ? "bg-orange-50 text-orange-600"
+           : "text-slate-600 hover:bg-slate-50"
+           }`}
+         >
+          <span className="flex items-center justify-between">
+           <span>{country.label}</span>
+           <span className={`text-xs ${isActive ? "text-orange-600" : "text-slate-400"}`}>
+            {count}
+           </span>
+          </span>
+         </button>
+        );
+       })}
+      </div>
+     )}
     </div>
    </div>
 
@@ -119,7 +251,7 @@ export default function CategoryBrandList({ brands = [], showBoycottReason = fal
          {brand.country ?? "Menşei bilgisi güncelleniyor"}
         </p>
         {brand.description && (
-         <p className="line-clamp-3 text-sm leading-relaxed text-slate-600">
+         <p className="line-clamp-3 whitespace-pre-line text-sm leading-relaxed text-slate-600">
           {brand.description}
          </p>
         )}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { getCategoryBySlug } from "@/lib/categories.js";
 import CategoryBrandList from "@/components/CategoryBrandList.jsx";
 import { IoArrowBack } from "react-icons/io5";
@@ -55,7 +56,9 @@ export default async function CategoryDetailPage({ params }) {
           )}
         </header>
 
-        <CategoryBrandList brands={category.brands} />
+        <Suspense fallback={<div className="text-center text-slate-600">Yükleniyor...</div>}>
+          <CategoryBrandList brands={category.brands} />
+        </Suspense>
       </div>
     </section>
   );

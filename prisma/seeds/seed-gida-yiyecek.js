@@ -4,19 +4,7 @@ const gidaYiyecekCategory = {
   slug: "gida-yiyecek",
   iconKey: "utensils-crossed",
   description: "Fast food zincirleri ve paketli gıda markaları.",
-  brands: [
-    {
-      name: "McDonald's",
-      slug: "mc-donalds",
-      description: "Dünya genelinde faaliyet gösteren fast food zinciri.",
-      country: "ABD",
-      website: "https://www.mcdonalds.com",
-      img: "/mc-donalds.png",
-      isBoycotted: true,
-      boycottReason:
-        "Tedarik zincirinde çevresel etkiler ve işçi hakları eleştirileri.",
-    },
-  ],
+  brands: [],
 };
 
 export default gidaYiyecekCategory;

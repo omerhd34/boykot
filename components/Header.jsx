@@ -29,6 +29,7 @@ export default function Header({ categories = [] }) {
  const dropdownButtonRef = useRef(null);
  const dropdownMenuRef = useRef(null);
  const searchContainerRef = useRef(null);
+ const searchTimeoutRef = useRef(null);
 
  const topCategories = useMemo(() => categories.slice(0, 6), [categories]);
  const groupedCategories = useMemo(() => {
@@ -72,6 +73,11 @@ export default function Header({ categories = [] }) {
 
   if (!query) {
    return;
+  }
+
+  // Önceki timeout'u iptal et
+  if (searchTimeoutRef.current) {
+   clearTimeout(searchTimeoutRef.current);
   }
 
   setIsSearching(true);
@@ -139,11 +145,80 @@ export default function Header({ categories = [] }) {
  }
 
  function handleSearchChange(event) {
-  setSearchTerm(event.target.value);
+  const value = event.target.value;
+  setSearchTerm(value);
   if (searchError) {
    setSearchError("");
   }
-  setResultsOpen(event.target.value.trim().length >= 2);
+
+  // Önceki timeout'u temizle
+  if (searchTimeoutRef.current) {
+   clearTimeout(searchTimeoutRef.current);
+  }
+
+  const trimmedValue = value.trim();
+
+  // Eğer boşsa sonuçları kapat
+  if (!trimmedValue) {
+   setResultsOpen(false);
+   setSearchResults({ brands: [], categories: [] });
+   return;
+  }
+
+  // Minimum 2 karakter kontrolü
+  if (trimmedValue.length < 2) {
+   setResultsOpen(false);
+   setSearchResults({ brands: [], categories: [] });
+   return;
+  }
+
+  // Debounce ile arama yap (500ms bekle)
+  searchTimeoutRef.current = setTimeout(async () => {
+   await performSearch(trimmedValue);
+  }, 500);
+ }
+
+ async function performSearch(query) {
+  if (!query || query.length < 2) {
+   return;
+  }
+
+  setIsSearching(true);
+  setSearchError("");
+
+  try {
+   const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`, {
+    cache: "no-store",
+   });
+
+   if (!response.ok) {
+    throw new Error("Arama başarısız.");
+   }
+
+   const data = await response.json();
+
+   if (data.error) {
+    throw new Error(data.error);
+   }
+
+   if (!data.brands?.length && !data.categories?.length) {
+    setSearchError("Sonuç bulunamadı. Lütfen başka bir ifadeyle deneyin.");
+    setResultsOpen(false);
+    setSearchResults({ brands: [], categories: [] });
+    return;
+   }
+
+   setSearchResults({
+    brands: data.brands ?? [],
+    categories: data.categories ?? [],
+   });
+   setResultsOpen(true);
+  } catch (error) {
+   console.error("[Header] Arama hatası:", error);
+   setSearchError("Arama sırasında bir sorun oluştu. Lütfen tekrar deneyin.");
+  } finally {
+   setIsSearching(false);
+  }
  }
 
  function handleResultClick(url) {
@@ -169,6 +244,15 @@ export default function Header({ categories = [] }) {
   return undefined;
  }, [resultsOpen]);
 
+ // Cleanup timeout on unmount
+ useEffect(() => {
+  return () => {
+   if (searchTimeoutRef.current) {
+    clearTimeout(searchTimeoutRef.current);
+   }
+  };
+ }, []);
+
  const AYET = {
   reference: "Maide Suresi, 2. Ayet",
   text: "Allah, iman edenleri, kendilerine haksızlık yapanlara karşı güçsüz kalmamaları için, birbirinize yardımlaşmanızı emreder.",
@@ -184,11 +268,11 @@ export default function Header({ categories = [] }) {
    <div className="border-b border-orange-100 bg-linear-to-r from-orange-50/70 via-white to-slate-50/60">
     <div className="container flex flex-col items-center gap-1 py-3 text-center text-xs text-slate-600 sm:text-sm">
      <span className="font-medium text-orange-600 md:max-w-6xl">
-      {AYET.reference}   |   {AYET.text}
+      <span className="font-bold">{AYET.reference}</span>  |   {AYET.text}
      </span>
      <span className="text-slate-600 md:max-w-3xl">
       <span className="font-medium">
-       {HADIS.reference}   |   {HADIS.text}
+       <span className="font-bold">{HADIS.reference}</span>  |   {HADIS.text}
       </span>
      </span>
     </div>

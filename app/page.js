@@ -10,11 +10,7 @@ import {
   FiTrendingUp,
   FiUsers,
 } from "react-icons/fi";
-
-const STATS = [
-  { value: "500+", label: "Listelenmiş şirket" },
-  { value: "12K", label: "Topluluk destekçisi" },
-];
+import prisma from "../lib/prisma.js";
 
 const VALUES = [
   {
@@ -81,13 +77,14 @@ const STEPS = [
   },
 ];
 
-const CTA_BENEFITS = [
-  "Haftalık gelişmeleri özetleyen boykot bülteni",
-  "Alternatif ürün ve hizmet rehberleri",
-  "Topluluk forumlarında deneyim paylaşma imkânı",
-];
+export default async function Home() {
+  const companyCount = await prisma.brand.count();
 
-export default function Home() {
+  const STATS = [
+    { value: `${companyCount}+`, label: "Listelenmiş şirket" },
+    { value: "12K", label: "Topluluk destekçisi" },
+  ];
+
   return (
     <>
       <section className="relative overflow-hidden bg-linear-to-br from-orange-50 via-white to-white pb-24 pt-16">
