@@ -314,7 +314,6 @@ Crocs, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       website: "https://crocs.com.tr/",
       img: "/crocs.png",
       isBoycotted: "boykot-degil",
-      boycottReason: `Crocs markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Crocs markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Coach",
@@ -334,7 +333,6 @@ Coach, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       website: "https://uk.coach.com/",
       img: "/coach.png",
       isBoycotted: "boykot-degil",
-      boycottReason: `Coach markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Coach markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Decathlon",
@@ -420,7 +418,6 @@ Ecco, modern tasarım anlayışı ve kaliteli ürünleriyle, genç ve yetişkin 
       website: "https://tr.ecco.com/",
       img: "/ecco.png",
       isBoycotted: "boykot-degil",
-      boycottReason: `Ecco markası, Danimarka merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Ecco markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Fendi",
@@ -530,7 +527,6 @@ Geox, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       website: "https://www.geox.com/int/",
       img: "/geox.png",
       isBoycotted: "boykot-degil",
-      boycottReason: `Geox markası, İtalya merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Geox markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Givenchy",
@@ -659,7 +655,6 @@ Guess, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
       website: "https://www.guess.eu/tr-tr/home",
       img: "/guess.jpg",
       isBoycotted: "boykot-degil",
-      boycottReason: `Guess markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Guess'in İsrail ile doğrudan bir bağı bulunmadığı için markanın resmi veya genel bir boykot kapsamında olduğu söylenemez. Bu nedenle, Guess markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "H&M",
@@ -1140,7 +1135,6 @@ Pierre Cardin, dünya genelinde hem fiziksel mağazalar hem de online satış ka
       website: "https://www.pierrecardin.com.tr/",
       img: "/pierre-cardin.webp",
       isBoycotted: "boykot-degil",
-      boycottReason: `Pierre Cardin markası, Fransa merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Markanın boykotunu gerektirecek bir sebep bulunamamıştır. Bu nedenle, Pierre Cardin markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Pierre Cardin Home",
@@ -1180,7 +1174,6 @@ Polo, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       website: "https://tr.uspoloassn.com/",
       img: "/polo.png",
       isBoycotted: "boykot-degil",
-      boycottReason: `Polo markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Polo markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Prada",
@@ -1614,7 +1607,6 @@ Jack & Jones, dünya genelinde hem fiziksel mağazalar hem de online satış kan
       website: "https://www.jackjones.com.tr/",
       img: "/jack-jones.jpg",
       isBoycotted: "boykot-degil",
-      boycottReason: `Jack & Jones markası, Danimarka merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Jack & Jones markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Flo",
@@ -1867,7 +1859,6 @@ Nine West, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
       website: "https://www.ninewest.com/",
       img: "/nine-west.jpg",
       isBoycotted: "boykot-degil",
-      boycottReason: `Nine West markası, Amerika merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Nine West markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Lefties",
@@ -2060,7 +2051,6 @@ Elle, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       website: "https://www.elle.com/",
       img: "/elle.webp",
       isBoycotted: "boykot-degil",
-      boycottReason: `Elle markası, Fransa merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Elle markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Gezer",
@@ -2174,7 +2164,6 @@ Kanz, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
       website: "https://www.kanz.de/",
       img: "/kanz.webp",
       isBoycotted: "boykot-degil",
-      boycottReason: `Kanz markası, Almanya merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Kanz markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
     },
     {
       name: "Eastpak",

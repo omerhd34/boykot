@@ -46,7 +46,6 @@ export default async function BrandDetailPage({ params }) {
     notFound();
   }
 
-  // UPDATED: Badge renkleri ve iconları
   const getBadgeStyles = (status) => {
     switch (status) {
       case "boykot":
@@ -177,15 +176,33 @@ export default async function BrandDetailPage({ params }) {
                       : "Neden Önerilmiyor?"}
                   </h2>
                 </div>
-                <p
-                  className={`text-sm leading-relaxed ${
+                <div
+                  className={`text-sm leading-relaxed whitespace-pre-wrap ${
                     brand.isBoycotted === "boykot"
                       ? "text-red-700"
                       : "text-amber-700"
                   }`}
-                >
-                  {brand.boycottReason}
-                </p>
+                  dangerouslySetInnerHTML={{
+                    __html: brand.boycottReason
+                      .replace(/\n/g, "<br />")
+                      .replace(
+                        /<a href="([^"]+)"[^>]*>([^<]+)<\/a>/g,
+                        (match, url, text) => {
+                          if (
+                            match.includes("display: inline-block") ||
+                            match.includes("background-color")
+                          ) {
+                            return match;
+                          }
+                          const color =
+                            brand.isBoycotted === "boykot"
+                              ? "#991b1b"
+                              : "#92400e";
+                          return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="font-weight: bold; text-decoration: underline; color: ${color};" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">${text}</a>`;
+                        }
+                      ),
+                  }}
+                />
               </div>
             )}
           </article>
@@ -287,17 +304,15 @@ export default async function BrandDetailPage({ params }) {
                 </div>
               )}
             </dl>
-            {(brand.isBoycotted === "boykot" ||
-              brand.isBoycotted === "onerilmiyor") &&
-              brand.alternativeProducts &&
-              brand.alternativeProducts.length > 0 && (
+            {brand.alternative_products &&
+              brand.alternative_products.length > 0 && (
                 <div className="mt-6 space-y-4 border-t border-orange-200 pt-6">
                   <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
                     <IoShieldCheckmarkOutline className="h-5 w-5 text-orange-600" />
                     Alternatif Ürünler
                   </h3>
                   <div className="grid gap-3 sm:grid-cols-2">
-                    {brand.alternativeProducts.slice(0, 5).map((altBrand) => (
+                    {brand.alternative_products.slice(0, 5).map((altBrand) => (
                       <Link
                         key={altBrand.id}
                         href={`/kategoriler/${altBrand.categorySlug}/${altBrand.slug}`}

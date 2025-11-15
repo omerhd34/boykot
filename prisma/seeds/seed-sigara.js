@@ -12,7 +12,6 @@ const sigaraCategory = {
       country: "",
       website: "",
       img: "/sigara.png",
-
       isBoycotted: "boykot",
       boycottReason: ``,
     },

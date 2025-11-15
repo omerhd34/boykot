@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getCategoryOverview } from "@/lib/categories.js";
+import { FaArrowRight } from "react-icons/fa";
 
 export const metadata = {
   title: "Boykot Listeleri | Boykot Rehberi",
@@ -60,7 +61,7 @@ export default async function CategoriesPage() {
                     className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-4 py-2 text-xs font-semibold text-white transition hover:bg-orange-600"
                   >
                     Kategoriyi incele
-                    <span aria-hidden>→</span>
+                    <FaArrowRight aria-hidden />
                   </Link>
                 </div>
               </article>

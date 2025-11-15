@@ -23,9 +23,7 @@ import hurmaCategory from "./seed-hurma.js";
 import kirtasiyeCategory from "./seed-kirtasiye.js";
 import mobilyaBeyazEsyaCategory from "./seed-mobilya-beyaz-esya.js";
 import eTicaretCategory from "./seed-e-ticaret.js";
-import elektronikCategory from "./seed-elektronik.js";
 import insaatCategory from "./seed-insaat.js";
-import isCategory from "./seed-is.js";
 import luksCategory from "./seed-luks.js";
 import evUrunleriCategory from "./seed-ev-urunleri.js";
 import oyunCategory from "./seed-oyun.js";
@@ -59,9 +57,7 @@ const categorySeed = [
   kirtasiyeCategory,
   mobilyaBeyazEsyaCategory,
   eTicaretCategory,
-  elektronikCategory,
   insaatCategory,
-  isCategory,
   luksCategory,
   evUrunleriCategory,
   oyunCategory,

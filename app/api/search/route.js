@@ -75,6 +75,7 @@ export async function GET(request) {
       name: brand.name,
       slug: brand.slug,
       img: brand.img,
+      isBoycotted: brand.isBoycotted,
       category: {
         id: brand.category.id,
         name: brand.category.name,

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
+import PropTypes from "prop-types";
 import {
  FiMenu,
  FiX,
@@ -281,10 +282,7 @@ export default function Header({ categories = [] }) {
      href="/"
      className="flex items-center gap-3 text-lg font-semibold text-slate-900 md:text-xl"
     >
-     <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-orange-500/10 text-orange-600">
-      BR
-     </span>
-     Boykot Rehberi
+     <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-orange-500/10 text-orange-600">BR</span>Boykot Rehberi
     </Link>
 
     <nav className="hidden items-center gap-6 text-sm font-medium text-slate-600 lg:flex">
@@ -332,29 +330,40 @@ export default function Header({ categories = [] }) {
             Markalar
            </p>
            <ul className="mt-2 space-y-2">
-            {searchResults.brands.map((brand) => (
-             <li key={brand.id}>
-              <button
-               type="button"
-               onClick={() =>
-                handleResultClick(
-                 `/kategoriler/${brand.category.slug}/${brand.slug}`
-                )
-               }
-               className="flex w-full items-start justify-between gap-3 rounded-xl px-3 py-2 text-left text-sm text-slate-600 transition hover:bg-orange-50"
-              >
-               <span>
-                <span className="block font-semibold text-slate-900">
-                 {brand.name}
+            {searchResults.brands.map((brand) => {
+             const getBackgroundColor = () => {
+              if (brand.isBoycotted === "boykot") {
+               return "bg-red-50 hover:bg-red-100";
+              } else if (brand.isBoycotted === "onerilmiyor") {
+               return "bg-orange-50 hover:bg-orange-100";
+              } else {
+               return "bg-green-50 hover:bg-green-100";
+              }
+             };
+             return (
+              <li key={brand.id}>
+               <button
+                type="button"
+                onClick={() =>
+                 handleResultClick(
+                  `/kategoriler/${brand.category.slug}/${brand.slug}`
+                 )
+                }
+                className={`flex w-full items-start justify-between gap-3 rounded-xl px-3 py-2 text-left text-sm text-slate-600 transition ${getBackgroundColor()}`}
+               >
+                <span>
+                 <span className="block font-semibold text-slate-900">
+                  {brand.name}
+                 </span>
+                 <span className="text-xs text-slate-500">
+                  {brand.category.name}
+                 </span>
                 </span>
-                <span className="text-xs text-slate-500">
-                 {brand.category.name}
-                </span>
-               </span>
-               <FiArrowUpRight size={16} className="text-orange-500" aria-hidden />
-              </button>
-             </li>
-            ))}
+                <FiArrowUpRight size={16} className="text-orange-500" aria-hidden />
+               </button>
+              </li>
+             );
+            })}
            </ul>
           </div>
          )}
@@ -411,7 +420,7 @@ export default function Header({ categories = [] }) {
        >
         <div className="grid gap-4 md:grid-cols-2">
          {groupedCategories.map((group, groupIndex) => (
-          <div key={groupIndex} className="grid gap-2">
+          <div key={group.map((category) => category.id).join('-')} className="grid gap-2">
            {group.map((category) => (
             <Link
              key={category.id}
@@ -505,6 +514,10 @@ export default function Header({ categories = [] }) {
   </header>
  );
 }
+
+Header.propTypes = {
+ categories: PropTypes.array,
+};
 
 function chunk(array, size) {
  const result = [];

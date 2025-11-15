@@ -50,7 +50,6 @@ async function main() {
           continue;
         }
 
-        // UPDATED: isBoycotted değerini string'e çevir
         let boycottStatus = "boykot-degil"; // varsayılan
 
         if (
@@ -84,7 +83,7 @@ async function main() {
               data: {
                 ...brandData,
                 isBoycotted: boycottStatus,
-                alternativeProducts: alternative_products || [],
+                alternative_products: alternative_products || [],
                 categoryId: category.id,
                 subCategory: ctgry || null,
               },
@@ -107,7 +106,6 @@ async function main() {
                   continue;
                 }
 
-                // UPDATED: Alt marka için de isBoycotted'i string'e çevir
                 let subBoycottStatus = "boykot-degil";
 
                 if (
@@ -138,7 +136,7 @@ async function main() {
                       data: {
                         ...subBrandData,
                         isBoycotted: subBoycottStatus,
-                        alternativeProducts: alternative_products || [],
+                        alternative_products: alternative_products || [],
                         categoryId: category.id,
                         parentBrandId: createdBrand.id,
                         subCategory: ctgry || null,

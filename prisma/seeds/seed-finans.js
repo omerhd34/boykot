@@ -1148,7 +1148,7 @@ Atatürk, 1924 yılının Temmuz ayında "halkın doğrudan itibar ve itimadınd
 Kuruluşundan itibaren bankacılığın yanı sıra ülkenin ihtiyaç duyduğu alanlarda yatırımlara da girişen İş Bankası, şeker, cam, dokuma, maden, liman ve kömür sektörlerinde yer almıştır. 2023'te 2,5 trilyon Türk lirası aktif büyüklüğe ulaşan banka, The Banker dergisinin açıkladığı sıralamaya göre ana sermaye bazında dünyanın en büyük 181. bankasıdır.
 
 Aralık 2021 itibarıyla 21'i yurt dışında olmak üzere 1.195 şube, 6.476 bankamatik ve 22 bini aşkın personeli bulunan İş Bankası'nın ayrıca Almanya'da İşbank AG, Gürcistan'da İşbank Georgia AŞ ve Rusya'da İşbank AŞ adıyla üç iştiraki vardır.`,
-      country: "",
+      country: "Türkiye",
       website: "https://www.isbank.com.tr/",
       img: "/isbank.png",
       isBoycotted: "onerilmiyor",

@@ -22,6 +22,7 @@ Alfa Romeo markası, herhangi bir boykot listesinde yer almamaktadır. İsrail'e
       website: "https://www.alfaromeo.com/",
       img: "/alfa-romeo.png",
       isBoycotted: "boykot-degil",
+      alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
     },
     {
       name: "Anadolu Isuzu",
@@ -44,6 +45,7 @@ Anadolu Isuzu, Türkiye merkezli üretim yapan ve Türk-Japon ortaklığında fa
       website: "https://anadoluisuzu.com.tr/",
       img: "/anadolu-isuzu.png",
       isBoycotted: "boykot-degil",
+      alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
     },
     {
       name: "Aston Martin",
@@ -64,6 +66,7 @@ Aston Martin markası, herhangi bir boykot listesinde yer almamaktadır. İngili
       website: "https://www.astonmartin.com/en",
       img: "/aston-martin.png",
       isBoycotted: "boykot-degil",
+      alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
     },
     {
       name: "Baojun",
@@ -109,7 +112,7 @@ BMW modelleri, güçlü motorları, hassas sürüş dinamikleri, lüks iç mekan
       isBoycotted: "boykot",
       boycottReason:
         "BMW markası, İsrail'e destek veren şirketler arasında yer aldığı için boykot kapsamına alınmıştır. 17 Ekim 2023'te 100'den fazla Alman şirketiyle birlikte, İsrailli işgalcilerle topraklarını savunan Filistin vatandaşlarının temsilcisi Hamas arasındaki savaşta Hamas'ın direnişini terörist saldırı olarak nitelendiren bir açıklamaya imza atmıştır. Bu süreçte Yahudi karşıtlığına karşı ortak bir kampanyayla Axel Springer medyasında yer almıştır. Bu nedenle BMW ürünlerinin satın alınması önerilmemektedir.",
-      alternative_products: ["togg", "toyota", "honda", "lexus", "mazda"],
+      alternative_products: ["togg", "toyota", "honda", "nissan", "mazda"],
       subBrands: [
         {
           name: "Mini",

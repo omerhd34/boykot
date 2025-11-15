@@ -61,7 +61,74 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   ];
  }, [subCategories]);
 
- // Tüm filtrelerin birbiriyle bağlantılı olduğundan emin ol
+ // Yardımcı fonksiyonlar
+ const calculateStatusCounts = (brands, activeCountryFilter, activeSubCategoryFilter) => {
+  let brandsForStatusCount = brands;
+  if (activeCountryFilter !== "all") {
+   brandsForStatusCount = brandsForStatusCount.filter(b => b.country === activeCountryFilter);
+  }
+  if (activeSubCategoryFilter !== "all") {
+   brandsForStatusCount = brandsForStatusCount.filter(b => b.subCategory === activeSubCategoryFilter);
+  }
+  return {
+   all: brandsForStatusCount.length,
+   boycott: brandsForStatusCount.filter(b => b.isBoycotted === "boykot").length,
+   alternatif: brandsForStatusCount.filter(b => b.isBoycotted === "boykot-degil").length,
+   onerilmiyor: brandsForStatusCount.filter(b => b.isBoycotted === "onerilmiyor").length,
+  };
+ };
+
+ const calculateCountryCounts = (brands, activeFilter, activeSubCategoryFilter, availableCountries) => {
+  let brandsForCountryCount = brands;
+  if (activeFilter !== "all") {
+   if (activeFilter === "boycott") {
+    brandsForCountryCount = brandsForCountryCount.filter(b => b.isBoycotted === "boykot");
+   } else if (activeFilter === "alternatif") {
+    brandsForCountryCount = brandsForCountryCount.filter(b => b.isBoycotted === "boykot-degil");
+   } else if (activeFilter === "onerilmiyor") {
+    brandsForCountryCount = brandsForCountryCount.filter(b => b.isBoycotted === "onerilmiyor");
+   }
+  }
+  if (activeSubCategoryFilter !== "all") {
+   brandsForCountryCount = brandsForCountryCount.filter(b => b.subCategory === activeSubCategoryFilter);
+  }
+  const countryCounts = {};
+  for (const country of availableCountries) {
+   if (country.id === "all") {
+    countryCounts[country.id] = brandsForCountryCount.length;
+   } else {
+    countryCounts[country.id] = brandsForCountryCount.filter(b => b.country === country.id).length;
+   }
+  }
+  return countryCounts;
+ };
+
+ const calculateSubCategoryCounts = (brands, activeFilter, activeCountryFilter, availableSubCategories) => {
+  let brandsForSubCategoryCount = brands;
+  if (activeFilter !== "all") {
+   if (activeFilter === "boycott") {
+    brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.isBoycotted === "boykot");
+   } else if (activeFilter === "alternatif") {
+    brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.isBoycotted === "boykot-degil");
+   } else if (activeFilter === "onerilmiyor") {
+    brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.isBoycotted === "onerilmiyor");
+   }
+  }
+  if (activeCountryFilter !== "all") {
+   brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.country === activeCountryFilter);
+  }
+  const subCategoryCounts = {};
+  for (const subCat of availableSubCategories) {
+   if (subCat.id === "all") {
+    subCategoryCounts[subCat.id] = brandsForSubCategoryCount.length;
+   } else {
+    subCategoryCounts[subCat.id] = brandsForSubCategoryCount.filter(b => b.subCategory === subCat.id).length;
+   }
+  }
+  return subCategoryCounts;
+ };
+
+
  const filteredBrands = useMemo(() => {
   let filtered = brands;
 
@@ -112,6 +179,18 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   }
  }, [isCountryDropdownOpen, isSubCategoryDropdownOpen]);
 
+ // Önerilmiyor filtresi aktifken sayı 0 olursa filtreyi sıfırla
+ useEffect(() => {
+  if (activeFilter === "onerilmiyor") {
+   const onerilmiyorCount = calculateStatusCounts(brands, activeCountryFilter, activeSubCategoryFilter).onerilmiyor;
+   if (onerilmiyorCount === 0) {
+    const params = new URLSearchParams(searchParams);
+    params.delete("filter");
+    router.push(`${pathname}?${params.toString()}`, { scroll: false });
+   }
+  }
+ }, [brands, activeCountryFilter, activeSubCategoryFilter, activeFilter, searchParams, router, pathname]);
+
  const selectedCountry = useMemo(() => {
   return availableCountries.find((c) => c.id === activeCountryFilter) || availableCountries[0];
  }, [availableCountries, activeCountryFilter]);
@@ -120,74 +199,11 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   return availableSubCategories.find((c) => c.id === activeSubCategoryFilter) || availableSubCategories[0];
  }, [availableSubCategories, activeSubCategoryFilter]);
 
- const { statusCounts, countryCounts, subCategoryCounts } = useMemo(() => {
-  // 1. Durum Filtreleri Sayımları (Tümü, Boykot, Boykot Değil...)
-  // BU SAYIMLAR, AKTİF OLAN ÜLKE VE ALT KATEGORİ FİLTRELERİNE GÖRE HESAPLANIR.
-  let brandsForStatusCount = brands;
-  if (activeCountryFilter !== "all") {
-   brandsForStatusCount = brandsForStatusCount.filter(b => b.country === activeCountryFilter);
-  }
-  if (activeSubCategoryFilter !== "all") {
-   brandsForStatusCount = brandsForStatusCount.filter(b => b.subCategory === activeSubCategoryFilter);
-  }
-  const statusCounts = {
-   all: brandsForStatusCount.length,
-   boycott: brandsForStatusCount.filter(b => b.isBoycotted === "boykot").length,
-   alternatif: brandsForStatusCount.filter(b => b.isBoycotted === "boykot-degil").length,
-   onerilmiyor: brandsForStatusCount.filter(b => b.isBoycotted === "onerilmiyor").length,
-  };
-
-  // 2. Ülke Filtreleri Sayımları (Tümü, Türkiye, Almanya...)
-  // BU SAYIMLAR, AKTİF OLAN DURUM VE ALT KATEGORİ FİLTRELERİNE GÖRE HESAPLANIR.
-  let brandsForCountryCount = brands;
-  if (activeFilter !== "all") {
-   if (activeFilter === "boycott") {
-    brandsForCountryCount = brandsForCountryCount.filter(b => b.isBoycotted === "boykot");
-   } else if (activeFilter === "alternatif") {
-    brandsForCountryCount = brandsForCountryCount.filter(b => b.isBoycotted === "boykot-degil");
-   } else if (activeFilter === "onerilmiyor") {
-    brandsForCountryCount = brandsForCountryCount.filter(b => b.isBoycotted === "onerilmiyor");
-   }
-  }
-  if (activeSubCategoryFilter !== "all") {
-   brandsForCountryCount = brandsForCountryCount.filter(b => b.subCategory === activeSubCategoryFilter);
-  }
-  const countryCounts = {};
-  for (const country of availableCountries) {
-   if (country.id === "all") {
-    countryCounts[country.id] = brandsForCountryCount.length;
-   } else {
-    countryCounts[country.id] = brandsForCountryCount.filter(b => b.country === country.id).length;
-   }
-  }
-
-  // 3. Alt Kategori Filtreleri Sayımları (Tümü, Kurum...)
-  // BU SAYIMLAR, AKTİF OLAN DURUM VE ÜLKE FİLTRELERİNE GÖRE HESAPLANIR.
-  let brandsForSubCategoryCount = brands;
-  if (activeFilter !== "all") {
-   if (activeFilter === "boycott") {
-    brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.isBoycotted === "boykot");
-   } else if (activeFilter === "alternatif") {
-    brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.isBoycotted === "boykot-degil");
-   } else if (activeFilter === "onerilmiyor") {
-    brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.isBoycotted === "onerilmiyor");
-   }
-  }
-  if (activeCountryFilter !== "all") {
-   brandsForSubCategoryCount = brandsForSubCategoryCount.filter(b => b.country === activeCountryFilter);
-  }
-  const subCategoryCounts = {};
-  for (const subCat of availableSubCategories) {
-   if (subCat.id === "all") {
-    subCategoryCounts[subCat.id] = brandsForSubCategoryCount.length;
-   } else {
-    subCategoryCounts[subCat.id] = brandsForSubCategoryCount.filter(b => b.subCategory === subCat.id).length;
-   }
-  }
-
-  return { statusCounts, countryCounts, subCategoryCounts };
-
- }, [brands, activeFilter, activeCountryFilter, activeSubCategoryFilter, availableCountries, availableSubCategories]);
+ const { statusCounts, countryCounts, subCategoryCounts } = useMemo(() => ({
+  statusCounts: calculateStatusCounts(brands, activeCountryFilter, activeSubCategoryFilter),
+  countryCounts: calculateCountryCounts(brands, activeFilter, activeSubCategoryFilter, availableCountries),
+  subCategoryCounts: calculateSubCategoryCounts(brands, activeFilter, activeCountryFilter, availableSubCategories),
+ }), [brands, activeFilter, activeCountryFilter, activeSubCategoryFilter, availableCountries, availableSubCategories]);
 
  return (
   <div className="space-y-6">
@@ -196,7 +212,14 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
      Listeyi filtrele
     </span>
     <div className="inline-flex gap-2 rounded-full border border-slate-200 bg-slate-50 p-1">
-     {FILTERS.map((filter) => {
+     {FILTERS.filter((filter) => {
+      // Önerilmiyor filtresini sayı 0 ise gizle
+      if (filter.id === "onerilmiyor") {
+       const count = statusCounts[filter.id] || 0;
+       return count > 0;
+      }
+      return true;
+     }).map((filter) => {
       const isActive = activeFilter === filter.id;
       const count = statusCounts[filter.id] || 0;
       return (
@@ -216,16 +239,16 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
     </div>
 
     {availableSubCategories.length > 1 && (
-     <div className={`relative inline-flex rounded-full border p-1 transition ${activeSubCategoryFilter !== "all"
-      ? "border-purple-500 bg-purple-500"
-      : "border-slate-200 bg-slate-50"
+     <div className={`relative inline-flex rounded-full border p-1 transition ${activeSubCategoryFilter === "all"
+      ? "border-slate-200 bg-slate-50"
+      : "border-purple-500 bg-purple-500"
       }`} ref={subCategoryDropdownRef}>
       <button
        type="button"
        onClick={() => setIsSubCategoryDropdownOpen(!isSubCategoryDropdownOpen)}
-       className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition ${activeSubCategoryFilter !== "all"
-        ? "bg-transparent text-white"
-        : "bg-transparent text-slate-600 hover:bg-white"
+       className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition ${activeSubCategoryFilter === "all"
+        ? "bg-transparent text-slate-600 hover:bg-white"
+        : "bg-transparent text-white"
         }`}
       >
        <span>Alt Kategoriler</span>
@@ -243,6 +266,13 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
        <div className="absolute left-0 top-full z-50 mt-1 max-h-64 w-64 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-lg">
         {availableSubCategories
          .filter((subCat) => (subCategoryCounts[subCat.id] || 0) > 0 || subCat.id === "all")
+         .sort((a, b) => {
+          if (a.id === "all") return -1;
+          if (b.id === "all") return 1;
+          const countA = subCategoryCounts[a.id] || 0;
+          const countB = subCategoryCounts[b.id] || 0;
+          return countB - countA;
+         })
          .map((subCat) => {
           const isActive = activeSubCategoryFilter === subCat.id;
           const count = subCategoryCounts[subCat.id] || 0;
@@ -273,16 +303,16 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
      </div>
     )}
 
-    <div className={`relative inline-flex rounded-full border p-1 transition ${activeCountryFilter !== "all"
-     ? "border-orange-500 bg-orange-500"
-     : "border-slate-200 bg-slate-50"
+    <div className={`relative inline-flex rounded-full border p-1 transition ${activeCountryFilter === "all"
+     ? "border-slate-200 bg-slate-50"
+     : "border-orange-500 bg-orange-500"
      }`} ref={countryDropdownRef}>
      <button
       type="button"
       onClick={() => setIsCountryDropdownOpen(!isCountryDropdownOpen)}
-      className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition ${activeCountryFilter !== "all"
-       ? "bg-transparent text-white"
-       : "bg-transparent text-slate-600 hover:bg-white"
+      className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold transition ${activeCountryFilter === "all"
+       ? "bg-transparent text-slate-600 hover:bg-white"
+       : "bg-transparent text-white"
        }`}
      >
       <span>Ülkeler</span>
@@ -300,6 +330,15 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
       <div className="absolute left-0 top-full z-50 mt-1 max-h-64 w-64 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-lg">
        {availableCountries
         .filter((country) => (countryCounts[country.id] || 0) > 0 || country.id === "all")
+
+        .sort((a, b) => {
+         if (a.id === "all") return -1;
+         if (b.id === "all") return 1;
+         const countA = countryCounts[a.id] || 0;
+         const countB = countryCounts[b.id] || 0;
+         return countB - countA;
+        })
+
         .map((country) => {
          const isActive = activeCountryFilter === country.id;
          const count = countryCounts[country.id] || 0;
@@ -364,31 +403,50 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
          >
           {brand.name}
          </Link>
-         <span
-          className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-wide shadow-sm ${brand.isBoycotted === "boykot"
-           ? "bg-linear-to-r from-red-500 to-red-600 text-white"
-           : brand.isBoycotted === "onerilmiyor"
-            ? "bg-linear-to-r from-amber-500 to-amber-600 text-white"
-            : "bg-linear-to-r from-emerald-500 to-emerald-600 text-white"
-           }`}
-         >
-          {brand.isBoycotted === "boykot" ? (
-           <>
-            <IoCloseCircle className="h-4 w-4" />
-            <span>Boykot</span>
-           </>
-          ) : brand.isBoycotted === "onerilmiyor" ? (
-           <>
-            <IoWarning className="h-4 w-4" />
-            <span>Önerilmiyor</span>
-           </>
-          ) : (
-           <>
-            <IoCheckmarkCircle className="h-4 w-4" />
-            <span>Boykot Değil</span>
-           </>
-          )}
-         </span>
+         {
+          (() => {
+           let bgColorClass;
+           if (brand.isBoycotted === "boykot") {
+            bgColorClass = "bg-linear-to-r from-red-500 to-red-600 text-white";
+           } else if (brand.isBoycotted === "onerilmiyor") {
+            bgColorClass = "bg-linear-to-r from-amber-500 to-amber-600 text-white";
+           } else {
+            bgColorClass = "bg-linear-to-r from-emerald-500 to-emerald-600 text-white";
+           }
+           return (
+            <span
+             className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-wide shadow-sm ${bgColorClass}`}
+            >
+             {
+              (() => {
+               if (brand.isBoycotted === "boykot") {
+                return (
+                 <>
+                  <IoCloseCircle className="h-4 w-4" />
+                  <span>Boykot</span>
+                 </>
+                );
+               } else if (brand.isBoycotted === "onerilmiyor") {
+                return (
+                 <>
+                  <IoWarning className="h-4 w-4" />
+                  <span>Önerilmiyor</span>
+                 </>
+                );
+               } else {
+                return (
+                 <>
+                  <IoCheckmarkCircle className="h-4 w-4" />
+                  <span>Boykot Değil</span>
+                 </>
+                );
+               }
+              })()
+             }
+            </span>
+           );
+          })()
+         }
         </div>
         <div className="flex flex-wrap items-center gap-2">
          {brand.country && (

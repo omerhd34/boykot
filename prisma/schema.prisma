@@ -32,7 +32,7 @@ model Brand {
   img                String?
   isBoycotted        String   @default("boykot-degil")
   boycottReason      String?
-  alternativeProducts  String[] @default([])
+  alternative_products  String[] @default([])
   foundedYear        Int?
   founder            String?
   owner              String?

@@ -4,7 +4,7 @@ const mobilyaBeyazEsyaCategory = {
   slug: "mobilya-beyaz-esya",
   iconKey: "armchair",
   description: "Mobilya ve ev elektroniği markaları.",
-  brands: []
+  brands: [],
 };
 
 export default mobilyaBeyazEsyaCategory;

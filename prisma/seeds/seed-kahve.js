@@ -1,3 +1,4 @@
+//! BELKİ İLERDE YAZILAR DEĞİŞEBİLİR.
 const kahveCategory = {
   order: 1,
   name: "Kahve",
@@ -20,6 +21,16 @@ Marka, tamamen Türk sermayesi ile faaliyet göstermektedir. A101 Yeni Mağazac�
 Cafex markası, herhangi bir boykot listesinde yer almamaktadır. İsrail bağlantısı bulunmayan marka, tamamen yerli sermaye ile faaliyet göstermekte ve Türkiye'nin yerli kahve markaları arasında yer almaktadır. Marka, A101 müşterilerine kaliteli ve uygun fiyatlı kahve seçenekleri sunarak Türk kahve pazarında önemli bir konuma sahiptir.`,
       country: "Türkiye",
       img: "/cafex.svg",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Kahve Diyarı",
@@ -39,6 +50,16 @@ Kahve Diyarı, tamamen yerli sermaye ile faaliyet gösteren Türk menşeli bir m
       country: "Türkiye",
       website: "https://kahvediyari.com/",
       img: "/kahve-diyari.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Mahmood",
@@ -62,6 +83,15 @@ Mahmood Coffee, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren
       country: "Türkiye",
       website: "https://www.mahmoodcoffee.com/tr/ana-sayfa",
       img: "/mahmood.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Moliendo",
@@ -83,6 +113,16 @@ Moliendo Finest Coffee, boykot dışıdır. Tamamen yerli sermaye ile faaliyet g
       country: "Türkiye",
       website: "https://www.moliendocoffee.com/",
       img: "/moliendo.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Obsesso",
@@ -104,6 +144,16 @@ Obsesso, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren marka,
       country: "Türkiye",
       website: "https://www.obsesso.com.tr/",
       img: "/obsesso.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Gold Cup",
@@ -121,6 +171,15 @@ Gold Cup markası hakkında boykot listelerine alınmasını gerektirecek olumsu
       country: "Türkiye",
       img: "/gold-cup.png",
       website: "https://www.goldcupdrink.com/",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Artukbey",
@@ -140,6 +199,16 @@ Marka, boykot dışıdır. Tamamen yerli ve geleneksel bir ürün olan Artuklu B
       country: "Türkiye",
       website: "https://www.artukbey.com/",
       img: "/artukbey.webp",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Espressolab",
@@ -161,6 +230,15 @@ Espressolab, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren ma
       country: "Türkiye",
       website: "https://espressolab.com/tr",
       img: "/espresso-lab.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Osso",
@@ -179,6 +257,16 @@ Marka, uygun fiyatlı ve kaliteli kahve ürünleri sunmayı hedeflemektedir. Oss
 Osso, kahve kategorisinde boykot listelerinde yer almayan yerli markalar arasındadır. Tamamen yerli sermaye ile faaliyet gösteren marka, Türkiye'nin yerli kahve üreticileri arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır. Marka, boykot dışıdır ve tüketiciler tarafından güvenle tercih edilebilir.`,
       country: "Türkiye",
       img: "/osso.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Misswell",
@@ -197,6 +285,16 @@ Marka, özellikle genç ve girişimci ruhlu tüketicilere hitap etmektedir. Miss
 Misswell, boykot dışıdır. Yerli üretime odaklanan platform, Türkiye'nin yerli girişimcilerini desteklemekte ve İsrail bağlantısı bulunmamaktadır. Marka, yerli üretimin gelişmesine katkıda bulunmakta ve Türkiye'nin ekonomik bağımsızlığına destek sağlamaktadır.`,
       country: "Türkiye",
       img: "/misswell.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Kurukahveci Mehmet Efendi Mahdumları",
@@ -218,6 +316,15 @@ Marka, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren ve Türk
       country: "Türkiye",
       website: "https://www.mehmetefendi.com/",
       img: "/Kurukahveci_Mehmet_Efendi.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+      ],
     },
     {
       name: "Gloria Jean's",
@@ -239,6 +346,15 @@ Gloria Jean's Coffees, boykot dışıdır. Markanın İsrail menşeli olduğuna 
       country: "Türkiye",
       website: "https://gloriajeans.com.tr/",
       img: "/gloria-jeans.webp",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Caffè Nero",
@@ -254,12 +370,21 @@ Zincir, dünya çapında binlerce şubeye sahiptir ve özellikle Avrupa, Orta Do
 
 Caffè Nero, geniş bir menü sunmaktadır. Marka, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de müşterilerine kapsamlı bir deneyim sağlamaktadır.
 
-Marka, kalite ve tutarlılığa büyük önem vermektedir. Caffè Nero, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
-
-Caffè Nero, İsrail'de bir faaliyeti bulunmayan marka olarak boykot listelerinde yer almamaktadır. Marka, Türkiye pazarında da aktif olarak faaliyet göstermekte ve tüketiciler tarafından güvenle tercih edilebilir.`,
+Marka, kalite ve tutarlılığa büyük önem vermektedir. Caffè Nero, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.`,
       country: "Birleşik Krallık",
       website: "https://www.caffenero.com/tr",
       img: "/caffe-nero.png",
+      isBoycotted: "onerilmiyor",
+      boycottReason:
+        "Caffè Nero, yabancı ülke menşeli bir marka olduğu için önerilmemektedir. Türk kahve markalarını tercih etmek, yerel ekonomiyi desteklemek ve milli değerleri korumak açısından önemlidir.",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Kocatepe",
@@ -281,6 +406,15 @@ Kocatepe, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren ve T�
       country: "Türkiye",
       website: "https://www.kocatepekahveevi.com.tr/",
       img: "/kocatepe.png",
+      isBoycotted: "boykot-degil",
+      alternative_products: [
+        "espressolab",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
     },
     {
       name: "Kahve Dünyası",
@@ -304,10 +438,13 @@ Ancak, Kahve Dünyası markası, Altınmarka Grubu'na bağlı yerli bir marka ol
       boycottReason:
         "Kahve Dünyası markası, Altınmarka Grubu'na bağlı yerli bir marka olmasına rağmen, İsrail ile ilişkilendirilen Hamursuz Bayramı kutlaması ve İsrail politikalarına dair destek algısı nedeniyle boykot kapsamına alınmıştır. Altınmarka Grubu'nun İsrail ile olan ilişkileri ve bu kutlamalara verdiği destek, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Kahve Dünyası'nın ürünlerinin satın alınması önerilmemektedir. Kahve Dünyası markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
-        "kocatepe",
         "espressolab",
+        "kocatepe",
         "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -334,10 +471,13 @@ Ancak, Jacobs markası, Mondelez International çatısı altında faaliyet göst
       boycottReason:
         "Jacobs markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Jacobs markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
         "mahmood",
+        "gold-cup",
         "kurukahveci-mehmet-efendi",
-        "moliendo",
-        "artukbey",
       ],
     },
     {
@@ -360,14 +500,17 @@ Ancak, Starbucks markası, küresel operasyonları süresince İsrail'e yönelik
       country: "Amerika Birleşik Devletleri",
       website: "https://www.starbucks.com.tr/",
       img: "/starbucks.jpg",
+      isBoycotted: "boykot",
       boycottReason:
         "Starbucks markası, küresel operasyonları süresince İsrail'e yönelik destek açıklamaları ve İsrail yanlısı yardımlarla anılmaktadır. Şirketin İsrail'deki faaliyetleri, İsrail'e verdiği destekler ve sendikalaşma sürecindeki açıklamaları nedeniyle boykot kapsamına alınmıştır. Starbucks'ın İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Starbucks'ın ürünlerinin satın alınması önerilmemektedir. Starbucks markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
         "espressolab",
         "kocatepe",
         "gloria-jeans",
         "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -390,13 +533,17 @@ Ancak, Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İ
       country: "Almanya",
       website: "https://www.tchibo.com.tr/",
       img: "/tchibo.png",
+      isBoycotted: "boykot",
       boycottReason:
         "Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları ve faaliyetleri nedeniyle boykot kapsamına alınmıştır. Herz ailesinin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo'nun ürünlerinin satın alınması önerilmemektedir. Tchibo markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "moliendo",
-        "kurukahveci-mehmet-efendi",
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
         "mahmood",
-        "artukbey",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -417,13 +564,17 @@ Yıldız Holding, Türkiye'nin en büyük holdinglerinden biridir ve birçok sek
       country: "Türkiye",
       website: "https://www.cafecrown.com/",
       img: "/cafe-crown.webp",
+      isBoycotted: "boykot",
       boycottReason:
         "Cafe Crown markası, Yıldız Holding bünyesinde faaliyet gösteren bir markadır. Yıldız Holding'in İsrail'deki yatırımları ve iş ortaklıkları nedeniyle, Yıldız Holding'e bağlı tüm şirketler ve markalar boykot kapsamına alınmıştır. Yıldız Holding'in İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Yıldız Holding'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Cafe Crown markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
-        "kocatepe",
         "espressolab",
+        "kocatepe",
         "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -446,15 +597,19 @@ Nespresso, dünya çapında milyonlarca tüketiciye ulaşmaktadır. Marka, özel
 
 Ancak, Nespresso markası, Nestle grubuna aittir ve Nestle'nin İsrail'deki Ar-Ge merkezleri ve iş birliği yaptığı yatırımlar nedeniyle marka boykot çağrılarında anılmaktadır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nespresso ürünlerinin satın alınması önerilmemektedir.`,
       country: "İsviçre",
+      isBoycotted: "boykot",
       website: "https://www.nespresso.com/tr/tr",
       img: "/nespresso.png",
       boycottReason:
         "Nespresso markası, Nestle grubuna ait bir markadır. Nestle'nin İsrail'deki Ar-Ge merkezleri, yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Nespresso markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "moliendo",
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
         "kurukahveci-mehmet-efendi",
-        "artukbey",
-        "osso",
       ],
     },
     {
@@ -483,10 +638,13 @@ Ancak, Nescafé markası, Nestle çatısı altında faaliyet gösteren global bi
       boycottReason:
         "Nescafé markası, Nestle çatısı altında faaliyet gösteren global bir kahve markasıdır. Nestle'nin İsrail'deki yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Nescafé markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
         "mahmood",
-        "kurukahveci-mehmet-efendi",
-        "moliendo",
         "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -514,10 +672,13 @@ Ancak, Dolce Gusto markası, Nestle çatısı altında üretilen kapsül kahve m
       boycottReason:
         "Dolce Gusto markası, Nestle çatısı altında üretilen bir kapsül kahve markasıdır. Nestle'nin İsrail'deki yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Dolce Gusto markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "moliendo",
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
         "kurukahveci-mehmet-efendi",
-        "artukbey",
-        "osso",
       ],
     },
     {
@@ -542,13 +703,17 @@ Ancak, Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet göstermekt
       country: "Birleşik Krallık",
       website: "https://www.costa.co.uk/",
       img: "/costa-coffee.jpg",
+      isBoycotted: "boykot",
       boycottReason:
         "Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola'nın İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola'ya ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Costa Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
         "espressolab",
         "kocatepe",
+        "gloria-jeans",
         "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -577,10 +742,13 @@ Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'd
       boycottReason:
         "Caribou Coffee markası, JAB Holdings tarafından yönetilen bir kahve zinciridir. JAB Holdings'in İsrail'deki projelere verdiği destek iddiaları ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Caribou Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
         "espressolab",
         "kocatepe",
         "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -601,13 +769,17 @@ Ancak, Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünl
       country: "İtalya",
       website: "https://illy.barista.com.tr/",
       img: "/illy.png",
+      isBoycotted: "boykot",
       boycottReason:
         "Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünlerinin İsrail tesislerinde üretilip pazarlanması nedeniyle boykot kapsamına alınmıştır. Illy'nin Coca-Cola ile olan iş birliği ve İsrail'deki üretim/pazarlama faaliyetleri, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Coca-Cola'nın İsrail'deki yatırımları ve İsrail'e verdiği destekler de bu boykotun nedenleri arasındadır. Bu nedenle, Illy'nin ürünlerinin satın alınması önerilmemektedir. Illy markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "moliendo",
-        "kurukahveci-mehmet-efendi",
-        "artukbey",
         "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -630,13 +802,17 @@ Ancak, Pret A Manger markası, JAB Holdings'e aittir ve şirketin sahipleri Reim
       country: "Birleşik Krallık",
       website: "https://www.pret.com/en-US",
       img: "/pret.png",
+      isBoycotted: "boykot",
       boycottReason:
         "Pret A Manger markası, JAB Holdings'e ait bir markadır. JAB Holdings'in sahipleri Reimann ailesinin siyonist yatırımlarla anılması ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. Reimann ailesinin İsrail'deki yatırımları ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Pret A Manger markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
         "espressolab",
         "kocatepe",
         "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -661,13 +837,17 @@ Ancak, Tassimo markası, Jacobs Douwe Egberts çatısı altında faaliyet göste
       country: "Almanya",
       website: "https://www.tassimo.com/",
       img: "/tassimo.webp",
+      isBoycotted: "boykot",
       boycottReason:
         "Tassimo markası, Jacobs Douwe Egberts (JDE) çatısı altında faaliyet gösteren bir kapsül kahve markasıdır. Jacobs Douwe Egberts'in İsrail ile ikili ticari ilişkileri ve İsrail'e verdiği destekler nedeniyle, JDE bünyesindeki tüm markalar boykot kapsamına alınmıştır. JDE'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Jacobs Douwe Egberts'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Tassimo markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "moliendo",
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
         "kurukahveci-mehmet-efendi",
-        "artukbey",
-        "osso",
       ],
     },
     {
@@ -690,13 +870,17 @@ Yıldız Holding'in İsrail'deki yatırımları ve iş ortaklıkları, İsrail'i
       country: "Türkiye",
       website: "https://venado.com.tr/",
       img: "/venado.png",
+      isBoycotted: "boykot",
       boycottReason:
         "Venado Coffee markası, Yıldız Holding bünyesinde faaliyet gösteren bir markadır. Yıldız Holding yönetiminin İsrail'e dair övgüleri ve iş birliği iddiaları nedeniyle, Yıldız Holding'e bağlı tüm şirketler ve markalar boykot kapsamına alınmıştır. Yıldız Holding'in İsrail'deki yatırımları, iş ortaklıkları ve yönetimin İsrail'e dair açıklamaları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Yıldız Holding'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Venado Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
         "espressolab",
         "kocatepe",
-        "moliendo",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -719,13 +903,17 @@ Ancak, Coffy markası, Pizza Restoranları A.Ş.'ye bağlıdır ve şirket hisse
       country: "Türkiye",
       website: "https://coffy.com.tr/",
       img: "/coffy.jpeg",
+      isBoycotted: "boykot",
       boycottReason:
         "Coffy markası, Domino's Pizza Türkiye operasyonlarını yürüten Pizza Restoranları A.Ş. bünyesinde faaliyet gösteren bir kahve zinciridir. Pizza Restoranları A.Ş.'nin hisselerinin İsrail destekçisi kuruluşlara ait olduğu iddiaları nedeniyle, şirket bünyesindeki tüm markalar boykot kapsamına alınmıştır. Domino's Pizza Türkiye hisselerinin İsrail destekçileriyle ilişkilendirilmesi, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Pizza Restoranları A.Ş.'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Coffy markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "kahve-diyari",
         "espressolab",
         "kocatepe",
         "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -750,13 +938,17 @@ Ancak, Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen
       country: "İtalya",
       website: "https://www.lavazza.com/en",
       img: "/Lavazza.png",
+      isBoycotted: "boykot",
       boycottReason:
         "Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen destek ve İsrail yatırımları nedeniyle boykot kapsamına alınmıştır. Lavazza'nın İsrail'deki faaliyetleri, spor kulüplerine verdiği destekler ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Lavazza'nın ürünlerinin satın alınması önerilmemektedir. Lavazza markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "moliendo",
-        "kurukahveci-mehmet-efendi",
-        "artukbey",
         "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
       ],
     },
     {
@@ -778,10 +970,14 @@ BİM, Türkiye'nin en büyük perakende zincirlerinden biridir ve binlerce mağa
 Ancak, VIP Kahve markası, BİM marketlerinde satılan özel bir ürün olması nedeniyle BİM'e yönelik boykot çağrıları kapsamında marka da boykot edilen ürünler arasına eklenmiştir. BİM'e yönelik boykot çağrıları, şirketin çeşitli nedenlerle eleştirilmesi sonucunda ortaya çıkmıştır. Bu nedenle, VIP Kahve ürünlerinin satın alınması önerilmemektedir.`,
       country: "Türkiye",
       img: "/vip.png",
+      isBoycotted: "boykot",
       boycottReason:
         "VIP Kahve markası, BİM (Birleşik Mağazalar A.Ş.) marketlerinde satılan özel marka (private label) bir kahve ürünüdür. BİM'e yönelik boykot çağrıları kapsamında, BİM'in özel marka ürünleri de boykot kapsamına alınmıştır. BİM'e yönelik boykot çağrıları, şirketin çeşitli nedenlerle eleştirilmesi sonucunda ortaya çıkmıştır. Bu nedenle, BİM'in özel marka ürünlerinin satın alınması önerilmemektedir. VIP Kahve markası da bu kapsamda boykot listesinde yer almaktadır.",
       alternative_products: [
-        "cafex",
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
         "mahmood",
         "gold-cup",
         "kurukahveci-mehmet-efendi",
