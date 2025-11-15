@@ -4,7 +4,7 @@ const sporCategory = {
   slug: "spor",
   iconKey: "dumbbell",
   description: "Spor ekipmanları ve spor kıyafeti markaları.",
-  brands: []
+  brands: [],
 };
 
 export default sporCategory;

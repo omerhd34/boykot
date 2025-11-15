@@ -4,7 +4,6 @@ const eTicaretCategory = {
   slug: "e-ticaret",
   iconKey: "store",
   description: "Çevrim içi perakende ve pazar yeri platformları.",
-  ctgry: [],
   brands: [
     {
       name: "Trendyol",
@@ -58,8 +57,8 @@ Doğu Türkistan'da yaşanan zulüm, vicdani sorumluluğu olan herkesi harekete 
       slug: "getir",
       foundedYear: 2015,
       ctgry: "E-ticaret",
-      founder: "Nazım Salur ve Serkan Borançılı ve Tuncay Tüte",
-      owner: "Bilinmiyor", //! Araştır
+      founder: "Nazım Salur ve Serkan Borançılı ve Tuncay Tütek",
+      owner: "Nazım Salur ve Serkan Borançılı ve Tuncay Tütke",
       country: "Türkiye",
       alternative_products: ["hepsiburada", "media-markt"],
       img: "/getir.png",
@@ -174,7 +173,7 @@ Gazze ve Filistin'de yaşanan insan hakları sorunlarına gösterilen hassasiyet
       foundedYear: 2005,
       ctgry: "E-ticaret",
       founder: "Rob Kalin, Haim Schoppik Ve Chris Maguire",
-      owner: "", //!araştır.
+      owner: "Halka açık",
       country: "Amerika Birleşik Devletleri",
       alternative_products: ["hepsiburada", "media-markt"],
       img: "/etsy.png",
@@ -197,7 +196,7 @@ Etsy'nin Amerika Birleşik Devletleri'ne ait olması, şirketin bu ülkenin poli
       foundedYear: 2004,
       ctgry: "E-ticaret",
       founder: "Tobias Lütke ve Daniel Weinand ve Scott Lake",
-      owner: "", //! yaz.
+      owner: "Halka açık",
       country: "Kanada",
       alternative_products: ["hepsiburada", "media-markt"],
       img: "/shopify.png",
@@ -220,7 +219,7 @@ Boykot çağrıları kısa sürede dünya genelinde yankı bulmuştur. Shopify'�
       foundedYear: 2007,
       ctgry: "E-ticaret",
       founder: "Jian He",
-      owner: "", //! yaz
+      owner: "Bilinmiyor",
       country: "Singapur & Çin",
       alternative_products: ["hepsiburada", "media-markt"],
       img: "/lightlnthebox.png",
@@ -554,30 +553,213 @@ Grattan, Freemans Grattan Holdings (FGH) çatısı altında Otto Grubu’nun bir
     },
     {
       name: "Halal Dünya Marketleri",
-      slug: "",
-      foundedYear: 222,
+      slug: "halal-dunya-marketleri",
+      foundedYear: null,
       ctgry: "E-ticaret",
-      founder: "",
-      owner: "",
-      country: "",
+      founder: "GİMDES",
+      owner: "GİMDES",
+      country: "Türkiye",
       alternative_products: ["hepsiburada"],
-      img: "/.jpg",
+      img: "/halal.jpg",
+      isBoycotted: "boykot-degil",
+      website: "https://helaldunyamarketleri.com/",
+      description: `Halal Dünya Marketleri (HDM), dünyada ve Türkiye'de GİMDES tarafından sertifikalanmış ürünlerin satıldığı marketler zinciridir. Kâr amaçlı olmayan, GİMDES'in projesi ve kontrolünde olan bir topluluk projesidir. İsim hakkı GİMDES'e ait olan bu marketler, GİMDES tarafından kurulup işletilmemektedir. HDM, dünyada ve Türkiye'de öncü bir proje olarak, Kur'an-ı Kerim'deki "helal ve tayyib" tüketim emrine uygun olarak GİMDES sertifikalı ürünlerin satışını yapmaktadır.
+
+HDM marketlerinde ağırlıklı olarak gıda ürünleri olmakla birlikte; kişisel bakım, kozmetik, giyim, içecek ve meşrubatlar, süt ürünleri, kahvaltılıklar, atıştırmalıklar ve ev eşyaları da yer almaktadır. Türkiye genelinde 40'tan fazla şubesi bulunan Halal Dünya Marketleri, fiziksel şubelerin ulaşamadığı müşterilere hizmet vermek amacıyla www.helaldunyamarketleri.com adresinde online market hizmeti de sunmaktadır.
+
+GİMDES, uzmanlar tarafından şekerlerin en zararlısı olduğu belirtilen kanserojen nişasta bazlı şeker (mısır şurubu, glikoz-früktoz şurubu) içeren ürünlere onay vermemektedir. Bunun dışında domuz içerikli ürünler, böcek kanı olan ürünler, GDO'lu ürünler gibi ürünlere de onay vermemektedir. Halal Dünya Marketleri, yalnızca GİMDES tarafından sertifikalanmış helal ürünleri sunmaktadır.`,
+    },
+    {
+      name: "Bipa",
+      slug: "bipa",
+      foundedYear: 1980,
+      ctgry: "E-ticaret",
+      founder: "Bilinmiyor",
+      owner: "Otto Group",
+      country: "Avusturya",
+      alternative_products: ["hepsiburada"],
+      img: "/bipa.jpg",
       isBoycotted: "onerilmiyor",
-      website: "",
-      description: ``,
-      boycottReason: ``,
+      website: "https://www.bipa.at/",
+      description: `Bipa, 1980 yılında Avusturya'da kurulan bir drogerie ve kozmetik perakende zinciridir. Şirket, kozmetik, kişisel bakım ürünleri, parfüm, sağlık ürünleri ve günlük ihtiyaç malzemeleri satan bir e-ticaret ve perakende platformudur. Bipa, Avusturya genelinde yaygın bir mağaza ağına sahiptir ve online alışveriş hizmeti de sunmaktadır.
+
+Bipa, Otto Group çatısı altında faaliyet göstermekte olup, kozmetik ve kişisel bakım ürünlerinde geniş bir ürün yelpazesi sunmaktadır. Platform, hem fiziksel mağazalar hem de çevrimiçi kanallar aracılığıyla müşterilerine hizmet vermektedir.`,
+      boycottReason: `Bipa, tamamen yabancı sermayeli ve Avusturya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Dosenbach",
+      slug: "dosenbach",
+      foundedYear: 1913,
+      ctgry: "E-ticaret",
+      founder: "Heinrich Deichmann",
+      owner: "Deichmann SE",
+      country: "İsviçre",
+      alternative_products: ["hepsiburada"],
+      img: "/dosenbach.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.deichmann.com/tr-tr/",
+      description: `Dosenbach, 1913 yılında kurulan ve İsviçre'de faaliyet gösteren bir ayakkabı perakende zinciridir. Dosenbach, Deichmann SE'nin bir parçası olarak İsviçre pazarında ayakkabı, çanta ve aksesuar ürünleri satan bir e-ticaret ve perakende platformudur. Şirket, İsviçre genelinde yaygın bir mağaza ağına sahiptir ve online alışveriş hizmeti de sunmaktadır.
+
+Dosenbach, Deichmann SE çatısı altında faaliyet göstermekte olup, erkek, kadın ve çocuk ayakkabıları, çantalar ve aksesuarlar gibi geniş bir ürün yelpazesi sunmaktadır. Platform, hem fiziksel mağazalar hem de çevrimiçi kanallar aracılığıyla müşterilerine hizmet vermektedir.`,
+      boycottReason: `Dosenbach, tamamen yabancı sermayeli ve İsviçre merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Manufactum",
+      slug: "manufactum",
+      foundedYear: 1988,
+      ctgry: "E-ticaret",
+      founder: "Thomas Hoof",
+      owner: "Otto Group",
+      country: "Almanya",
+      alternative_products: ["hepsiburada"],
+      img: "/manufactum.png",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.manufactum.com/",
+      description: `Manufactum GmbH & Co. KG, 1988 yılında Thomas Hoof tarafından Almanya'nın Waltrop kentinde kurulan bir perakende şirketidir. Şirket, geleneksel yöntemler ve malzemelerle üretilen ev ve bahçe eşyalarına odaklanan bir e-ticaret ve perakende platformudur. Manufactum, Almanya'da dokuz büyük mağazaya sahiptir ve online mağazası Almanya, Avusturya, İsviçre ve Birleşik Krallık'a hizmet vermektedir.
+
+Şirket, ev ve bahçe eşyaları, aletler, giyim, ayakkabı, mobilya, güzellik ürünleri, elektronik ürünler, kozmetik, bilgisayarlar, bisikletler, gıda, kitaplar, yatak ve banyo aksesuarları gibi geniş bir ürün yelpazesi sunmaktadır. Manufactum katalogları, Almanya'da belirli bir müşteri kitlesi arasında kült statüsüne sahiptir ve ürün açıklamaları detaylı, bazen ironik ve çok iyi Almanca ile yazılmaktadır.
+
+2008 yılında Manufactum, Otto GmbH'nin tamamına sahip olduğu bir yan kuruluş olan Heine Versand tarafından satın alınmıştır. 2007 yılı itibarıyla şirketin yaklaşık 400 çalışanı bulunmaktaydı ve yıllık cirosu 75 milyon avroya ulaşmıştı. Manufactum grubu ayrıca "Manufactum brot&butter" (çeşitli Alman şehirlerinde kendi mağazaları olan marketler), "Gutes aus Klöstern" (manastır ürünleri markası), "Gasthaus Lohnhalle" (restoran) ve "Magazin" (Stuttgart, Bonn ve Münih'te mağazaları olan tasarım mobilya markası) gibi markaları da bünyesinde barındırmaktadır.`,
+      boycottReason: `Manufactum, tamamen yabancı sermayeli ve Almanya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Quelle",
+      slug: "quelle",
+      foundedYear: 1930,
+      ctgry: "E-ticaret",
+      founder: "Gustav Schickedanz",
+      owner: "Otto Group",
+      country: "Almanya",
+      alternative_products: ["hepsiburada"],
+      img: "/quelle.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.quelle.de/",
+      description: `Quelle, 1930 yılında Gustav Schickedanz tarafından Almanya'da kurulan köklü bir katalog perakende ve e-ticaret şirketidir. Şirket, moda, ev eşyaları, elektronik, mobilya, kozmetik ve günlük ihtiyaç ürünleri gibi geniş bir ürün yelpazesi sunan bir perakende platformudur. Quelle, Almanya'da uzun yıllar katalog satışları ile tanınmış ve daha sonra dijital dönüşümle birlikte online e-ticaret platformuna da evrilmiştir. 2009 yılında iflas eden şirket, ardından Otto Group tarafından satın alınmıştır.
+
+Quelle, Otto Group çatısı altında faaliyet göstermekte olup, hem katalog hem de çevrimiçi kanallar aracılığıyla müşterilerine hizmet vermektedir. Şirket, moda, ev dekorasyonu, teknoloji ve yaşam kategorilerinde geniş bir ürün seçenekleri sunarak müşterilerine kapsamlı bir alışveriş deneyimi sağlamaktadır.`,
+      boycottReason: `Quelle, tamamen yabancı sermayeli ve Almanya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Galeria Kaufhof",
+      slug: "galeria-kaufhof",
+      foundedYear: 1879,
+      ctgry: "E-ticaret",
+      founder: "Leonhard Tietz",
+      owner: "Metro Group",
+      country: "Almanya",
+      alternative_products: ["hepsiburada"],
+      img: "/galeria-kaufhof.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "http://galeria.de/",
+      description: `Galeria Kaufhof (Kaufhof Warenhaus AG), 1879 yılında Leonhard Tietz tarafından Almanya'nın Stralsund kentinde küçük bir butik olarak kurulan köklü bir büyük mağaza zinciridir. Şirket, sabit fiyatlar ve iade politikası sayesinde hızla popülerlik kazanmıştır. 1885 yılında Wuppertal'da bir mağaza açılmış, 1891 yılında ise Köln'ün "Hohe Straße" bölgesinde ilk giyim ve alışveriş mağazası faaliyete geçmiştir.
+
+1905 yılında şirket, Leonhard Tietz AG adıyla anonim şirket statüsüne geçmiş ve hisse senedi çıkarmıştır. 1933 yılında Yahudi olan Leonhard Tietz, Nazi Partisi'nin şirkete el koymasını önlemek için şirket adını Westdeutsche Kaufhof AG olarak değiştirmiş ve ailesiyle birlikte Almanya'dan kaçmıştır. Şirket, Almanya'da büyümeye devam etmiş ve 1977 yılında 9.940 milyar DM ciroya ulaşmıştır.
+
+1996 yılında Kaufhof, Metro Cash & Carry ile birleşerek Metro Group'un bir parçası haline gelmiştir. 25 Mart 2019 tarihinde Galeria Kaufhof, Karstadt ile birleşerek Galeria Karstadt Kaufhof'u oluşturmuş ve yeni bir logo ile galeria.de web sitelerini başlatmıştır. Şirketin merkezi Köln, Almanya'da bulunmaktadır. 2006 yılı itibarıyla şirketin öz sermayesi 3.609 milyar Euro ve çalışan sayısı 25.000'dir.`,
+      boycottReason: `Galeria Kaufhof, tamamen yabancı sermayeli ve Almanya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Witt Gruppe",
+      slug: "witt-gruppe",
+      foundedYear: 1907,
+      ctgry: "E-ticaret",
+      founder: "Josef Witt",
+      owner: "Otto Group",
+      country: "Almanya",
+      alternative_products: ["hepsiburada"],
+      img: "/witt.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.witt-weiden.de/",
+      description: `Witt Weiden, 1907 yılında Josef Witt tarafından kurulan ve Almanya'nın Weiden kentinde merkezi bulunan bir perakende şirketidir. Şirket, giyim ve ev tekstili ürünleri konusunda uzmanlaşmış olup, Almanya'da katalog işinde öncü bir şirket olarak kabul edilmektedir. Günümüzde Witt Weiden, Otto Group'un bir parçası olarak faaliyet göstermektedir.
+
+Şirketin ürün yelpazesi genel olarak kadın giyimi, erkek giyimi, iç çamaşırı, büyük beden giyim, ev tekstili ve aksesuar ürünlerini içermektedir. Witt Weiden, Almanya'nın yanı sıra diğer Avrupa ülkelerinde de faaliyet göstermektedir. Şirket, ürünlerini katalog, online mağaza ve doğrudan satış gibi çeşitli kanallar aracılığıyla sunmaktadır.
+
+Witt Weiden, kaliteli ürünleri ve müşteri hizmetleri ile tanınmaktadır. Şirket, özellikle yaşlı müşterilerin ihtiyaçlarına uygun konforlu, pratik ve şık giyim seçenekleri sunma konusunda uzmanlaşmıştır. Witt Weiden, Avrupa pazarında uzun yıllardır yerleşik bir marka olarak varlığını sürdürmektedir. 2006 yılı itibarıyla şirketin geliri 666 milyon Euro ve çalışan sayısı 2.500'dür.`,
+      boycottReason: `Witt Gruppe, tamamen yabancı sermayeli ve Almanya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Jelmoli",
+      slug: "jelmoli",
+      foundedYear: 1833,
+      ctgry: "E-ticaret",
+      founder: "Johann Peter Jelmoli",
+      owner: "Swiss Prime Site",
+      country: "İsviçre",
+      alternative_products: ["hepsiburada"],
+      img: "/jelmoli.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.jelmoli-shop.ch/",
+      description: `Jelmoli, 1833 yılında İtalya doğumlu tüccar Johann Peter Jelmoli tarafından İsviçre'nin Zürih kentinde kurulan ve İsviçre'nin en eski ve en büyük büyük mağazası olan bir perakende şirketidir. Jelmoli, kayınpederinin kurduğu Schipfe'deki Limmat nehri üzerinde bulunan tanınmış tekstil şirketi Ciolina Brothers'ı yönetmek için İsviçre'ye kalıcı olarak yerleşen Johann Peter Jelmoli tarafından başlatılmıştır.
+
+Jelmoli, pazarlık yapılmayan sabit fiyat kavramını tanıtarak perakende sektöründe öncü olmuştur. 1834 yılında katalog satış işine başlamış ve büyük başarı elde etmiştir. 1837'de Münsterbrücke yakınındaki daha büyük bir binaya taşınmış, 1849'da ise Ciolina ailesinden ayrılarak Jelmoli & Comp. adıyla faaliyet göstermeye başlamıştır. 1896 yılında aile işletmesi anonim şirkete dönüştürülmüş ve yeni mağaza inşaatı için sermaye artırılmıştır.
+
+1898 yılında Paris'teki büyük mağazalardan esinlenerek cam bir saray şeklinde tasarlanan yeni genel merkez 72 çalışanla tamamlanmıştır. 1903'te Art Nouveau tarzında ilk cam saray örneği tamamlanmış, 1931-1938, 1947 ve 1958-1961 yıllarında büyük genişlemelerle kapalı avlulu bir cam saraya dönüşmüştür. 1952'de yönetim yeniden yapılandırılmış ve bir mağaza zinciri oluşturulmuştur. 1954'te Oerlikon'da ilk mağaza açılmış, ardından İsviçre genelinde en az 50 Jelmoli mağazası daha açılmıştır.
+
+1988 yılında Jelmoli Grubu zirveye ulaşmıştır: 231 şube, 5.200 çalışan ve 1.471 milyon İsviçre Frangı brüt ciro. Ancak 1990'larda sektör genelinde düşen satışlar ve karlar nedeniyle 1995-1996 yıllarında perakende işinden büyük ölçüde çekilmiş, Zürih'teki Glass Palace hariç tüm mağazalarını kapatmıştır. 1997'den bu yana "Markalar Evi" sloganıyla mağaza içinde mağaza galerisi olarak faaliyet göstermiştir. 2009 yılında Swiss Prime Site (SPS) tarafından satın alınmıştır. Şubat 2023'te SPS, Jelmoli binasını yenileme kararı almış ve bu karar mağazanın tamamen kapanmasına yol açmıştır. Mağaza, 190. yıldönümünden sonra 28 Şubat 2025 tarihinde perakende faaliyetlerini resmen sonlandırmıştır.`,
+      boycottReason: `Jelmoli, tamamen yabancı sermayeli ve İsviçre merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "Baur Gruppe",
+      slug: "baur-gruppe",
+      foundedYear: 1925,
+      ctgry: "E-ticaret",
+      founder: "Friedrich Baur",
+      owner: "Otto Group (%49) ve Friedrich Baur Foundation (%51)",
+      country: "Almanya",
+      alternative_products: ["hepsiburada"],
+      img: "/baur.png",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.baur.de/",
+      description: `Baur Versand (GmbH & Co. KG), 1925 yılında eğitimli bir ayakkabı tüccarı olan Friedrich Baur tarafından Almanya'nın Burgkunstadt, Yukarı Franken kentinde kurulan bir katalog satış şirketidir. Şirket, başlangıçta Almanya'nın ilk ayakkabı katalog şirketi olarak faaliyet göstermiştir. O dönemde Burgkunstadt, ayakkabı endüstrisinin merkezi konumundaydı.
+
+Baur Versand, Almanya'da grup siparişlerini tanıtan ilk şirket olmuştur; bu sistemde bir müşteri diğerleri için dağıtımı yönetmekteydi. 1935 yılında Baur, taksit ödemeleri ve sekiz günlük iade politikasını tanıtmıştır. Şirket daha sonra ürün yelpazesini tekstil ve hırdavat ürünlerine genişleterek Almanya'nın en büyük katalog satış şirketlerinden biri haline gelmiştir.
+
+Çocuksuz Friedrich Baur'ın ölümünden sonra şirket, 1965 yılında Friedrich Baur Foundation'a devredilmiştir. 1977 yılında Altenkunstadt'ta "dokunabileceğiniz katalog" olarak tanımlanan fiziksel bir Baur mağazası açılmış, ancak 2012 yılında kapatılmış ve iki yıl sonra yıkılmıştır. 1997 yılından bu yana Baur Versand, küresel olarak faaliyet gösteren Otto Group'un bir parçasıdır. Otto Group, Baur Versand GmbH & Co. KG hisselerinin %49'unu satın almış ve operasyonel yönetimi devralmıştır, Friedrich Baur Foundation ise %51 hisseye sahiptir.
+
+1999 yılında Baur, baur.de online mağazasını başlatarak e-ticaret dönemine girmiştir. Yeni binyılda Baur Versand, ticaret ve hizmetlere odaklanan çeşitlendirilmiş bir şirketler grubu olan Baur Group'a dönüşmüştür. 2019/20 mali yılı itibarıyla şirketin satış hacmi 848 milyon Euro ve çalışan sayısı yaklaşık 4.320'dir.`,
+      boycottReason: `Baur Gruppe, tamamen yabancı sermayeli ve Almanya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "PAGRO",
+      slug: "pagro",
+      foundedYear: 1967,
+      ctgry: "E-ticaret",
+      founder: "Bilinmiyor",
+      owner: "MTH Retail Group",
+      country: "Avusturya",
+      alternative_products: ["hepsiburada"],
+      img: "/pagro.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.pagro.at/",
+      description: `PAGRO, 1967 yılında Avusturya'da kurulan ve tamamen Avusturya menşeli bir perakende ve e-ticaret şirketidir. Şirket, MTH Retail Group'a bağlı olarak faaliyet göstermektedir. PAGRO, yaklaşık 760 çalışanı ve Avusturya genelinde 150'den fazla şubesi ile hizmet vermektedir.
+
+Şirket, kağıt, okul, ofis, yaratıcı projeler, hediyeler, ev ihtiyaçları ve yaratıcı şekerleme ürünleri için kapsamlı bir ürün yelpazesi sunmaktadır. PAGRO'nun ürün yelpazesinin büyük bir kısmı www.pagro.at web sitesi üzerinden online olarak sipariş edilebilmektedir. Siparişler, müşterinin tercih ettiği şubeden teslim alınabilir veya belirtilen adrese teslim edilebilir.
+
+PAGRO, çevresel sürdürülebilirlik konusunda da aktif bir rol oynamaktadır. 2007 yılından bu yana şirket, Avusturya Federal İklim Eylemi, Çevre, Enerji, Mobilite, İnovasyon ve Teknoloji Bakanlığı'nın (BMK) bir girişimi olan "Smart Shopping" programına katılmaktadır. Platform, hem fiziksel mağazalar hem de çevrimiçi kanallar aracılığıyla müşterilerine hizmet vermektedir.`,
+      boycottReason: `PAGRO, tamamen yabancı sermayeli ve Avusturya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
+    },
+    {
+      name: "OTTO Group",
+      slug: "otto",
+      foundedYear: 1949,
+      ctgry: "E-ticaret",
+      founder: "Werner Otto",
+      owner: "Michael Otto Vakfı",
+      country: "Almanya",
+      alternative_products: ["hepsiburada"],
+      img: "/otto.jpg",
+      isBoycotted: "onerilmiyor",
+      website: "https://www.otto-group.com/",
+      description: `OTTO Group, 1949 yılında Werner Otto tarafından Almanya'nın Hamburg kentinde kurulan ve dünyanın en büyük e-ticaret ve perakende gruplarından biri olan bir holding şirketidir. Grup, başlangıçta katalog satış işiyle başlamış ve zamanla küresel bir e-ticaret devine dönüşmüştür.
+
+OTTO Group, dünya genelinde 30'dan fazla ülkede faaliyet göstermekte ve e-ticaret, perakende, finansal hizmetler ve lojistik gibi çeşitli sektörlerde hizmet vermektedir. Grup bünyesinde Baur Versand, Frankonia, Bipa, Manufactum, Quelle, Witt Gruppe, Grattan, Freemans, Look Again ve empiriecom gibi birçok marka bulunmaktadır.
+
+OTTO Group, özellikle Avrupa pazarında güçlü bir konuma sahiptir ve Almanya'nın en büyük e-ticaret şirketlerinden biridir. Grup, hem B2C (işletmeden tüketiciye) hem de B2B (işletmeden işletmeye) e-ticaret modellerinde faaliyet göstermektedir. OTTO Group, sürdürülebilirlik ve dijital dönüşüm konularında da öncü bir rol oynamaktadır.
+
+Grup, geniş bir ürün yelpazesi sunmakta ve moda, ev eşyaları, elektronik, mobilya, kozmetik ve günlük ihtiyaç ürünleri gibi çeşitli kategorilerde hizmet vermektedir. OTTO Group, hem online platformlar hem de fiziksel mağazalar aracılığıyla müşterilerine ulaşmaktadır.`,
+      boycottReason: `OTTO Group, tamamen yabancı sermayeli ve Almanya merkezli bir e‑ticaret / perakende şirketidir. Yerli perakende ve e‑ticaret markalarını desteklemeyi öncelikli tutan kullanıcılar açısından önerilmeyen platformlar arasında değerlendirilmektedir.`,
     },
   ],
 };
 
 export default eTicaretCategory;
-
-//! https://boykotdedektifi.org/b/halal-dunya-marketleri-2498 bu trendyol gibi bir site.
-
-//! Süpermarket değil
-//! https://boykotdedektifi.org/b/otto-group-1692  ve https://boykotdedektifi.org/b/bipa-1152 ve
-//! https://boykotdedektifi.org/b/dosenbach-1293 ve https://boykotdedektifi.org/b/diskont-tank-1286
-//! https://boykotdedektifi.org/b/diskont-tank-1286 ve https://boykotdedektifi.org/b/manufactum-1649
-//! https://boykotdedektifi.org/b/quelle-1771 ve https://boykotdedektifi.org/b/kaufhof-1494
-//! https://boykotdedektifi.org/b/witt-gruppe-1993 ve https://boykotdedektifi.org/b/jelmoli-1490
-//! https://boykotdedektifi.org/b/baurgruppe-1188 ve https://boykotdedektifi.org/b/pagro-1703

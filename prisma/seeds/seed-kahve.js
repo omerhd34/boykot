@@ -983,6 +983,33 @@ Ancak, VIP Kahve markası, BİM marketlerinde satılan özel bir ürün olması 
         "kurukahveci-mehmet-efendi",
       ],
     },
+    {
+      name: "Gua Coffee",
+      slug: "gua-coffee",
+      foundedYear: 2021,
+      founder: "Bilinmiyor",
+      owner: "Bilinmiyor",
+      description: `Gua Coffee, 2021 yılında Türkiye'de kurulan modern bir kahve markasıdır. Marka, kaliteli kahve çekirdekleri ve özel harmanları ile Türkiye kahve pazarında yerini almıştır. Gua Coffee, hem online platform hem de fiziksel satış noktaları aracılığıyla müşterilerine hizmet vermektedir.
+
+Marka, çeşitli kahve türleri ve harmanları sunarak farklı zevklere hitap etmektedir. Gua Coffee, modern kahve kültürünü Türkiye'ye getirmeyi hedefleyen genç bir marka olarak öne çıkmaktadır. Marka, özellikle specialty coffee (özel kahve) segmentinde faaliyet göstermekte ve kaliteli kahve deneyimi sunmayı amaçlamaktadır.
+
+Gua Coffee, Türkiye merkezli bir marka olarak yerli kahve üretimini desteklemekte ve Türk kahve kültürüne modern bir yaklaşım getirmektedir. Marka, hem geleneksel Türk kahvesi hem de modern espresso bazlı içecekler sunarak geniş bir müşteri kitlesine hitap etmektedir.
+
+Marka, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren Gua Coffee, Türkiye'nin yerli kahve markaları arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır.`,
+      country: "Türkiye",
+      img: "/gua.png",
+      isBoycotted: "boykot-degil",
+      website: "https://guacoffeecompany.com/",
+      alternative_products: [
+        "espressolab",
+        "kocatepe",
+        "gloria-jeans",
+        "caffe-nero",
+        "mahmood",
+        "gold-cup",
+        "kurukahveci-mehmet-efendi",
+      ],
+    },
   ],
 };
 

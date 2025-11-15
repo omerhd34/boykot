@@ -4,7 +4,23 @@ const evUrunleriCategory = {
   slug: "ev-urunleri",
   iconKey: "home",
   description: "Ev dekorasyonu ve yaşam ürünleri markaları.",
+  ctgry: ["Ev Ürünleri", "Elektrikli Ev Aletleri", "Beyaz Eşya"],
   brands: [
+    {
+      name: "Dyson",
+      slug: "dyson",
+      foundedYear: 2008,
+      ctgry: "Ev Ürünleri",
+      founder: "",
+      owner: "",
+      country: "",
+      alternative_products: [],
+      img: "/.png",
+      isBoycotted: "boykot",
+      website: "https://www.dyson.com.tr/",
+      description: ``,
+      boycottReason: ``,
+    },
     {
       name: "Koçtaş",
       slug: "",
