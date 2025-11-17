@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { getCategoryBySlug } from "@/lib/categories.js";
 import CategoryBrandList from "@/components/CategoryBrandList.jsx";
-import { IoArrowBack } from "react-icons/io5";
+import { IoArrowBack, IoInformationCircle } from "react-icons/io5";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -55,6 +55,36 @@ export default async function CategoryDetailPage({ params }) {
             </p>
           )}
         </header>
+
+        {category.slug === "ilac-sirketi" && (
+          <div className="rounded-lg border border-blue-200 bg-blue-50/50 p-4 my-5 -mt-5">
+            <div className="flex items-start gap-3">
+              <IoInformationCircle className="h-5 w-5 shrink-0 text-blue-600 mt-0.5" />
+              <div className="flex-1 space-y-1">
+                <p className="text-sm font-medium text-blue-900">
+                  Önemli Bilgi
+                </p>
+                <p className="text-sm leading-relaxed text-blue-800">
+                  Eğer ilaçlarınız doktor tarafından reçeteli olarak yazıldıysa,
+                  boykot durumuna bakılmaksızın doktorunuzun önerdiği ilaçları
+                  kullanmaya devam etmeniz önemlidir. Reçeteli ilaçlarda
+                  boykotun önemi yoktur ve sağlığınız her şeyden önce gelir.
+                </p>
+                <p className="text-sm leading-relaxed text-blue-800">
+                  Reçetesiz ilaç satın alırken, ilacın üretici firmasını ve
+                  markasını mutlaka kontrol ediniz. Bu sayfada yer alan boykot
+                  listesini inceleyerek, satın almayı planladığınız ilacın
+                  üretici firma ve markasının boykot durumunu araştırınız. Eğer
+                  ilacın üreticisi boykot listesinde yer alıyorsa, aynı etken
+                  maddeye sahip alternatif markaları tercih edebilirsiniz.
+                  Sağlığınız kadar, bilinçli tüketim alışkanlıklarınız da
+                  önemlidir. Satın alma kararınızı vermeden önce mutlaka bu
+                  bilgileri göz önünde bulundurunuz.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         <Suspense
           fallback={

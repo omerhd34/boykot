@@ -33,6 +33,7 @@ model Brand {
   isBoycotted        String   @default("boykot-degil")
   boycottReason      String?
   alternative_products  String[] @default([])
+  pill_category         String[] @default([])
   foundedYear        Int?
   founder            String?
   owner              String?

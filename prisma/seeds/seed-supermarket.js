@@ -1204,7 +1204,6 @@ Et ve fırın bölümlerindeki ürünler kendi tesislerinde üretilmektedir. Et 
         "sec-market",
         "tespo",
         "kim-market",
-        "mopas",
         "onur-market",
       ],
       img: "/ozkuruslar.jpeg",
@@ -1217,6 +1216,35 @@ Et ve fırın bölümlerindeki ürünler kendi tesislerinde üretilmektedir. Et 
 Özkuruşlar, temel müşteri memnuniyetinin yanı sıra ileri düzey müşteri memnuniyetini her zaman ön planda tutmuş, kaliteden ödün vermeden uygun fiyatlarla müşterilerine hizmet vermiştir. Bu yaklaşım ve tutumu sayesinde Özkuruşlar Gıda San. Tic. A.Ş., vazgeçilmez ve sağlam bir müşteri portföyüne sahiptir.
 
 Şirketin sloganı "Kaliteyi takip edin, bize ulaşacaksınız" olup, müşteri memnuniyeti şirket için büyük önem taşımaktadır. Bu çerçevede Özkuruşlar, etik değerlerinden ödün vermeden müşteri memnuniyeti odaklı sağlam adımlarla büyümeye devam edecektir.`,
+    },
+    {
+      name: "Çağrı Market",
+      slug: "cagri-market",
+      foundedYear: 1980,
+      ctgry: "Süpermarket",
+      founder: "Bilinmiyor",
+      owner: "Mustafa Kara",
+      country: "Türkiye",
+      alternative_products: [
+        "tarim-kredi-kooperatif-marketleri",
+        "cagri",
+        "mopas",
+        "ozkuruslar",
+        "sec-market",
+        "tespo",
+        "kim-market",
+        "onur-market",
+      ],
+      img: "/cagri.jpeg",
+      isBoycotted: "boykot-degil",
+      website: "https://cagri.com/",
+      description: `Çağrı Market, Türkiye merkezli bir süpermarket zinciridir. Türk sermayeli bir şirket olarak faaliyet gösteren Çağrı Market, Türkiye genelinde şubeleri bulunan market zinciri olarak müşterilerine hizmet vermektedir.
+
+Çağrı Market, gıda ürünleri, temizlik malzemeleri, kişisel bakım ürünleri ve diğer tüketici ihtiyaçlarını karşılayan geniş bir ürün yelpazesi sunmaktadır. Market zinciri, müşterilerine kaliteli ürünleri uygun fiyatlarla ulaştırmayı hedeflemektedir.
+
+Türkiye'nin çeşitli bölgelerinde şubeleri bulunan Çağrı Market, yerel tüketicilere hizmet vererek bölgesel perakende sektöründe önemli bir yer edinmiştir. Şirket, müşteri memnuniyetini ön planda tutarak faaliyetlerini sürdürmektedir.
+
+Çağrı Market, Türk sermayeli bir şirket olarak yerli üretimi desteklemekte ve yerli markalara öncelik vermektedir. Bu yaklaşımıyla hem tüketiciler hem de yerli üreticiler için değer yaratmaya çalışmaktadır. Market zinciri, sürdürülebilir büyüme stratejisiyle hem mevcut müşterilerine hizmet vermeye hem de yeni bölgelerde faaliyet göstermeye devam etmektedir.`,
     },
   ],
 };

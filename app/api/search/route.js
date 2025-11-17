@@ -38,7 +38,9 @@ export async function GET(request) {
 
     const normalizedSlug = slugify(query);
 
-    const [brands, categories] = await Promise.all([
+    const queryLower = query.toLowerCase();
+
+    const [brands, categories, allBrandsWithPills] = await Promise.all([
       prisma.brand.findMany({
         where: {
           OR: [
@@ -68,9 +70,45 @@ export async function GET(request) {
         orderBy: { order: "asc" },
         take: 10,
       }),
+      // pill_category içinde arama yap - tüm ilaç şirketlerini çek ve JavaScript'te filtrele
+      prisma.brand.findMany({
+        where: {
+          category: { slug: "ilac-sirketi" },
+          pill_category: { isEmpty: false },
+        },
+        include: {
+          category: {
+            select: {
+              id: true,
+              name: true,
+              slug: true,
+            },
+          },
+        },
+        orderBy: [{ name: "asc" }, { createdAt: "desc" }],
+      }),
     ]);
 
-    const serializedBrands = brands.map((brand) => ({
+    // pill_category içinde query'yi içeren brand'leri bul
+    const pillBrands = allBrandsWithPills.filter((brand) => {
+      if (!brand.pill_category || brand.pill_category.length === 0) {
+        return false;
+      }
+      // pill_category array'inde query'yi içeren bir eleman var mı?
+      return brand.pill_category.some((pill) => {
+        const pillLower = pill.toLowerCase();
+        // "İlaç Adı (Kullanım)" formatından sadece ilaç adını al
+        const pillName = pillLower.split("(")[0].trim();
+        return pillName.includes(queryLower) || pillLower.includes(queryLower);
+      });
+    });
+
+    // pill_category'de bulunan brand'leri mevcut brand listesine ekle (duplicate'leri önle)
+    const brandIds = new Set(brands.map((b) => b.id));
+    const uniquePillBrands = pillBrands.filter((b) => !brandIds.has(b.id));
+    const allBrands = [...brands, ...uniquePillBrands];
+
+    const serializedBrands = allBrands.map((brand) => ({
       id: brand.id,
       name: brand.name,
       slug: brand.slug,

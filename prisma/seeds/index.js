@@ -14,7 +14,7 @@ import temizlikCategory from "./seed-temizlik.js";
 import sigortaCategory from "./seed-sigorta.js";
 import oyuncakCategory from "./seed-oyuncak.js";
 import ureticiFirmaCategory from "./seed-uretici-firma.js";
-import ilacCategory from "./seed-ilac.js";
+import ilacSirketiCategory from "./seed-ilac.js";
 import supermarketCategory from "./seed-supermarket.js";
 import teknolojiCategory from "./seed-teknoloji.js";
 import kisiselBakimCategory from "./seed-kisisel-bakim.js";
@@ -30,6 +30,7 @@ import oyunCategory from "./seed-oyun.js";
 import seyahatCategory from "./seed-seyahat.js";
 import sporCategory from "./seed-spor.js";
 import sigaraCategory from "./seed-sigara.js";
+import petsCategory from "./seed-pets.js";
 
 const categorySeed = [
   kahveCategory,
@@ -48,7 +49,7 @@ const categorySeed = [
   sigortaCategory,
   oyuncakCategory,
   ureticiFirmaCategory,
-  ilacCategory,
+  ilacSirketiCategory,
   supermarketCategory,
   teknolojiCategory,
   kisiselBakimCategory,
@@ -64,6 +65,7 @@ const categorySeed = [
   seyahatCategory,
   sporCategory,
   sigaraCategory,
+  petsCategory,
 ];
 
 export default categorySeed;
