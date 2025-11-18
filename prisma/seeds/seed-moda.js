@@ -23,7 +23,6 @@ Holdingin kökenleri, 1952 yılında Altınyıldız Mensucat ve Konfeksiyon Fabr
 
 Boyner Grup, Türkiye'nin önde gelen mağaza ve moda perakendesi gruplarından biridir. Bünyesinde 6 grup şirketi, 250'den fazla mağaza, e-ticaret siteleri ve mobil uygulamalar bulundurur. Grup, 8.000'i aşkın çalışanıyla geniş bir operasyonel ağa sahiptir.`,
     },
-
     {
       name: "Modanisa",
       slug: "",

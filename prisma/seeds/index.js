@@ -6,7 +6,7 @@ import kozmetikCategory from "./seed-kozmetik.js";
 import otomotivCategory from "./seed-otomotiv.js";
 import isletmeCategory from "./seed-isletme.js";
 import enerjiCategory from "./seed-enerji.js";
-import medyaEglenceCategory from "./seed-medya-eglence.js";
+import dijitalMedyaCategory from "./seed-dijital-medya.js";
 import modaCategory from "./seed-moda.js";
 import finansCategory from "./seed-finans.js";
 import saglikCategory from "./seed-saglik.js";
@@ -41,7 +41,7 @@ const categorySeed = [
   otomotivCategory,
   isletmeCategory,
   enerjiCategory,
-  medyaEglenceCategory,
+  dijitalMedyaCategory,
   modaCategory,
   finansCategory,
   saglikCategory,
