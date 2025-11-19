@@ -2,23 +2,21 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
-import PropTypes from "prop-types";
+import { useEffect, useRef, useState } from "react";
 import {
  FiMenu,
  FiX,
- FiChevronDown,
  FiSearch,
  FiLoader,
  FiArrowUpRight,
+ FiMail,
  FiArrowRight,
- FiSlash,
 } from "react-icons/fi";
+import BoykotLogo from "./BoykotLogo.jsx";
 
-export default function Header({ categories = [] }) {
+export default function Header() {
  const router = useRouter();
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
- const [dropdownOpen, setDropdownOpen] = useState(false);
  const [resultsOpen, setResultsOpen] = useState(false);
  const [searchTerm, setSearchTerm] = useState("");
  const [searchError, setSearchError] = useState("");
@@ -27,46 +25,9 @@ export default function Header({ categories = [] }) {
   brands: [],
   categories: [],
  });
- const dropdownButtonRef = useRef(null);
- const dropdownMenuRef = useRef(null);
  const searchContainerRef = useRef(null);
  const searchTimeoutRef = useRef(null);
 
- const topCategories = useMemo(() => categories.slice(0, 6), [categories]);
- const groupedCategories = useMemo(() => {
-  const columnSize = Math.ceil(topCategories.length / 2) || 1;
-  return chunk(topCategories, columnSize);
- }, [topCategories]);
-
- useEffect(() => {
-  if (!dropdownOpen) {
-   return undefined;
-  }
-
-  function handlePointerDown(event) {
-   if (
-    dropdownMenuRef.current?.contains(event.target) ||
-    dropdownButtonRef.current?.contains(event.target)
-   ) {
-    return;
-   }
-   setDropdownOpen(false);
-  }
-
-  function handleKey(event) {
-   if (event.key === "Escape") {
-    setDropdownOpen(false);
-   }
-  }
-
-  document.addEventListener("mousedown", handlePointerDown);
-  document.addEventListener("keydown", handleKey);
-
-  return () => {
-   document.removeEventListener("mousedown", handlePointerDown);
-   document.removeEventListener("keydown", handleKey);
-  };
- }, [dropdownOpen]);
 
  async function handleSearchSubmit(event) {
   event.preventDefault();
@@ -76,7 +37,6 @@ export default function Header({ categories = [] }) {
    return;
   }
 
-  // Önceki timeout'u iptal et
   if (searchTimeoutRef.current) {
    clearTimeout(searchTimeoutRef.current);
   }
@@ -152,28 +112,24 @@ export default function Header({ categories = [] }) {
    setSearchError("");
   }
 
-  // Önceki timeout'u temizle
   if (searchTimeoutRef.current) {
    clearTimeout(searchTimeoutRef.current);
   }
 
   const trimmedValue = value.trim();
 
-  // Eğer boşsa sonuçları kapat
   if (!trimmedValue) {
    setResultsOpen(false);
    setSearchResults({ brands: [], categories: [] });
    return;
   }
 
-  // Minimum 2 karakter kontrolü
   if (trimmedValue.length < 2) {
    setResultsOpen(false);
    setSearchResults({ brands: [], categories: [] });
    return;
   }
 
-  // Debounce ile arama yap (500ms bekle)
   searchTimeoutRef.current = setTimeout(async () => {
    await performSearch(trimmedValue);
   }, 500);
@@ -277,16 +233,11 @@ export default function Header({ categories = [] }) {
      </span>
     </div>
    </div>
-   <div className="container flex items-center justify-between py-8">
-    <Link
-     href="/"
-     className="flex items-center gap-3 text-lg font-semibold text-slate-900 md:text-xl"
-    >
-     <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-orange-500/10 text-orange-600">BR</span>Boykot Rehberi
-    </Link>
+   <div className="container flex items-center gap-6 py-8">
+    <BoykotLogo size={36} />
 
-    <nav className="hidden items-center gap-6 text-sm font-medium text-slate-600 lg:flex">
-     <div className="relative" ref={searchContainerRef}>
+    <nav className="hidden flex-1 items-center gap-6 text-sm font-medium text-slate-600 lg:flex">
+     <div className="relative flex-1 max-w-2xl" ref={searchContainerRef}>
       <form
        onSubmit={handleSearchSubmit}
        className="flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50/60 px-4 py-2"
@@ -297,7 +248,7 @@ export default function Header({ categories = [] }) {
         value={searchTerm}
         onChange={handleSearchChange}
         placeholder="Marka veya kategori ara"
-        className="w-60 bg-transparent text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none"
+        className="flex-1 bg-transparent text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none"
         aria-label="Marka veya kategori ara"
        />
        <button
@@ -322,7 +273,7 @@ export default function Header({ categories = [] }) {
        </p>
       )}
       {resultsOpen && (searchResults.brands.length > 0 || searchResults.categories.length > 0) && (
-       <div className="absolute left-0 top-full z-50 mt-2 w-[320px] rounded-2xl border border-slate-200 bg-white shadow-xl">
+       <div className="absolute left-0 top-full z-50 mt-2 w-full max-w-2xl rounded-2xl border border-slate-200 bg-white shadow-xl">
         <div className="max-h-72 overflow-y-auto py-3">
          {searchResults.brands.length > 0 && (
           <div className="px-4 pb-3">
@@ -397,69 +348,12 @@ export default function Header({ categories = [] }) {
       )}
      </div>
 
-     <div className="relative">
-      <button
-       type="button"
-       ref={dropdownButtonRef}
-       className="inline-flex items-center gap-2 rounded-full px-4 py-2 transition hover:bg-slate-100 hover:text-slate-900"
-       onClick={() => setDropdownOpen((prev) => !prev)}
-       aria-expanded={dropdownOpen}
-       aria-haspopup="true"
-      >
-       Kategoriler
-       <FiChevronDown
-        size={16}
-        className={`transition ${dropdownOpen ? "rotate-180" : ""}`}
-       />
-      </button>
-
-      {dropdownOpen && (
-       <div
-        ref={dropdownMenuRef}
-        className="absolute left-1/2 top-full z-50 mt-3 w-[560px] -translate-x-1/2 rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl"
-       >
-        <div className="grid gap-4 md:grid-cols-2">
-         {groupedCategories.map((group, groupIndex) => (
-          <div key={group.map((category) => category.id).join('-')} className="grid gap-2">
-           {group.map((category) => (
-            <Link
-             key={category.id}
-             href={`/kategoriler/${category.slug}`}
-             className="flex items-center justify-between rounded-2xl border border-transparent px-4 py-3 text-sm transition hover:border-orange-200 hover:bg-orange-50/80 hover:text-orange-700"
-             onClick={() => setDropdownOpen(false)}
-            >
-             <span className="font-semibold">{category.name}</span>
-             <FiArrowRight className="text-base text-slate-400" aria-hidden="true" />
-            </Link>
-           ))}
-          </div>
-         ))}
-        </div>
-        <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm">
-         <Link
-          href="/kategoriler"
-          className="flex items-center justify-between font-semibold text-orange-600 transition hover:text-orange-700"
-          onClick={() => setDropdownOpen(false)}
-         >
-          Tüm kategorileri görüntüle
-         </Link>
-        </div>
-       </div>
-      )}
-     </div>
-
      <Link
       href="/iletisim"
-      className="rounded-full px-4 py-2 transition hover:bg-slate-100 hover:text-slate-900"
+      className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-4 py-2 text-white transition hover:bg-orange-600"
      >
+      <FiMail size={16} aria-hidden="true" />
       İletişim
-     </Link>
-     <Link
-      href="/kategoriler"
-      className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-4 py-2 text-white shadow-sm transition hover:bg-orange-600"
-     >
-      <span>Boykot Listesi</span>
-      <FiSlash size={18} aria-hidden="true" />
      </Link>
     </nav>
 
@@ -476,54 +370,74 @@ export default function Header({ categories = [] }) {
    {mobileMenuOpen && (
     <div className="border-t border-slate-200 bg-white/95 px-4 py-6 shadow-lg lg:hidden">
      <nav className="grid gap-4 text-sm font-medium text-slate-700">
-      <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
-       <p className="text-sm font-semibold text-slate-800">Kategoriler</p>
-       <div className="mt-3 grid gap-2">
-        {topCategories.map((category) => (
-         <Link
-          key={category.id}
-          href={`/kategoriler/${category.slug}`}
-          className="rounded-xl px-3 py-2 text-sm text-slate-600 transition hover:bg-orange-50 hover:text-orange-700"
-          onClick={closeMobileMenu}
-         >
-          {category.name}
-         </Link>
-        ))}
-        <Link
-         href="/kategoriler"
-         className="mt-2 inline-flex items-center gap-2 rounded-xl bg-orange-100 px-3 py-2 font-semibold text-orange-600 transition hover:bg-orange-200"
-         onClick={closeMobileMenu}
-        >
-         Tümünü gör
-        </Link>
-       </div>
-      </div>
-      <Link href="/iletisim" onClick={closeMobileMenu}>
-       İletişim
-      </Link>
       <Link
-       href="/kategoriler"
-       className="inline-flex items-center justify-center rounded-full bg-orange-500 px-4 py-2 text-white shadow-sm transition hover:bg-orange-600"
+       href="/iletisim"
+       className="inline-flex items-center gap-2"
        onClick={closeMobileMenu}
       >
-       Boykot listeleri
+       <FiMail size={16} aria-hidden="true" />
+       İletişim
       </Link>
      </nav>
     </div>
    )}
+
+   <nav className="fixed inset-x-0 top-[200px] z-30 border-b border-slate-200 bg-white/90 py-6 shadow-sm backdrop-blur">
+    <div className="container">
+     <div className="flex flex-wrap items-center justify-center gap-4">
+      <Link
+       href="/kategoriler/giyim-tekstil"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       Giyim - Tekstil
+      </Link>
+
+      <Link
+       href="/kategoriler/market-alisverisi"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       Market Alışverişi
+      </Link>
+      <Link
+       href="/kategoriler/supermarket"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       Süpermarket
+      </Link>
+      <Link
+       href="/kategoriler/e-ticaret"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       E-ticaret
+      </Link>
+      <Link
+       href="/kategoriler/finans"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       Finans
+      </Link>
+      <Link
+       href="/kategoriler/dijital-medya"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       Dijital Medya
+      </Link>
+      <Link
+       href="/kategoriler/teknoloji"
+       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       Teknoloji
+      </Link>
+      <Link
+       href="/kategoriler"
+       className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-orange-600"
+      >
+       <span>Diğerleri</span>
+       <FiArrowRight size={16} aria-hidden="true" />
+      </Link>
+     </div>
+    </div>
+   </nav>
   </header>
  );
 }
-
-Header.propTypes = {
- categories: PropTypes.array,
-};
-
-function chunk(array, size) {
- const result = [];
- for (let i = 0; i < array.length; i += size) {
-  result.push(array.slice(i, i + size));
- }
- return result;
-}
-

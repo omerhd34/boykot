@@ -1,5 +1,4 @@
 const konaklamaCategory = {
-  order: 21,
   name: "Konaklama",
   slug: "konaklama",
   iconKey: "bed",

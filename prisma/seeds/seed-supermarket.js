@@ -1,6 +1,5 @@
 //! BELKİ İLERDE YAZILAR DEĞİŞEBİLİR.
 const supermarketCategory = {
-  order: 18,
   name: "Süpermarket",
   slug: "supermarket",
   iconKey: "shopping-basket",

@@ -1,5 +1,4 @@
 const eTicaretCategory = {
-  order: 25,
   name: "E-ticaret",
   slug: "e-ticaret",
   iconKey: "store",

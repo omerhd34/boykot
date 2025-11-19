@@ -1,5 +1,4 @@
 const saglikCategory = {
-  order: 12,
   name: "Sağlık",
   slug: "saglik",
   iconKey: "heart-pulse",

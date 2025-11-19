@@ -1,5 +1,4 @@
 const kozmetikCategory = {
-  order: 5,
   name: "Kozmetik",
   slug: "kozmetik",
   iconKey: "sparkles",

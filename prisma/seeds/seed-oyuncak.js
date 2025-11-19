@@ -1,5 +1,4 @@
 const oyuncakCategory = {
-  order: 15,
   name: "Oyuncak",
   slug: "oyuncak",
   iconKey: "blocks",

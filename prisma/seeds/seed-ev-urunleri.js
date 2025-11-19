@@ -1,10 +1,9 @@
 const evUrunleriCategory = {
-  order: 30,
   name: "Ev Ürünleri",
   slug: "ev-urunleri",
   iconKey: "home",
   description: "Ev dekorasyonu ve yaşam ürünleri markaları.",
-  ctgry: ["Ev Ürünleri", "Elektrikli Ev Aletleri", "Beyaz Eşya"],
+  ctgry: ["Elektrikli Ev Aletleri", "Beyaz Eşya", "Mobilya"],
   brands: [
     {
       name: "Dyson",
@@ -100,4 +99,5 @@ const evUrunleriCategory = {
 };
 
 export default evUrunleriCategory;
-// h
+// https://boykotdedektifi.org/c/mobilya-beyaz-esya-28
+// https://boykotdedektifi.org/c/ev-urunleri-35

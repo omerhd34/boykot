@@ -1,7 +1,6 @@
 //! description ve boycottReason ve kurumlar'a alternative_products:[]; ekle.
 // https://tr.wikipedia.org/wiki/Kategori:T%C3%BCrkiye%27deki_bankalar
 const finansCategory = {
-  order: 11,
   name: "Finans",
   slug: "finans",
   iconKey: "creditcard",

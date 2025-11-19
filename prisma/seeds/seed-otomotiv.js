@@ -1,5 +1,4 @@
 const otomotivCategory = {
-  order: 6,
   name: "Otomotiv",
   slug: "otomotiv",
   iconKey: "car",

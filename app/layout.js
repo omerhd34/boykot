@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header.jsx";
 import PropTypes from "prop-types";
-import { getCategorySummaries } from "@/lib/categories.js";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,15 +26,13 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
-  const navigationCategories = await getCategorySummaries(12);
-
   return (
     <html lang="tr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col bg-slate-50`}
       >
-        <Header categories={navigationCategories} />
-        <main className="flex-1 pt-[200px]">{children}</main>
+        <Header />
+        <main className="flex-1 pt-[280px]">{children}</main>
         <footer className=" border-t border-slate-200 bg-white">
           <div className="container flex flex-col gap-6 py-10 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
             <div>

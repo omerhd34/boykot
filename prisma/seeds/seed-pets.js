@@ -1,5 +1,4 @@
 const petsCategory = {
-  order: 35,
   name: "Evcil Hayvan Ürünleri",
   slug: "evcil-hayvan-urunleri",
   iconKey: "paw",

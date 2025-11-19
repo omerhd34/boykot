@@ -1,5 +1,4 @@
 const sigortaCategory = {
-  order: 14,
   name: "Sigorta",
   slug: "sigorta",
   iconKey: "shield",

@@ -1,5 +1,4 @@
 const luksCategory = {
-  order: 29,
   name: "Lüks",
   slug: "luks",
   iconKey: "diamond",

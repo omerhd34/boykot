@@ -1,5 +1,4 @@
 const enerjiCategory = {
-  order: 8,
   name: "Enerji",
   slug: "enerji",
   iconKey: "bolt",
@@ -25,3 +24,4 @@ const enerjiCategory = {
 };
 
 export default enerjiCategory;
+// https://boykotdedektifi.org/c/enerji-8

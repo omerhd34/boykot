@@ -1,5 +1,4 @@
 const kahveCategory = {
-  order: 1,
   name: "Kahve",
   slug: "kahve",
   iconKey: "coffee",

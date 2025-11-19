@@ -1,5 +1,4 @@
 const kisiselBakimCategory = {
-  order: 20,
   name: "Kişisel Bakım",
   slug: "kisisel-bakim",
   iconKey: "soap",

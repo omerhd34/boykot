@@ -1,5 +1,4 @@
 const kirtasiyeCategory = {
-  order: 23,
   name: "Kırtasiye",
   slug: "kirtasiye",
   iconKey: "pen-tool",

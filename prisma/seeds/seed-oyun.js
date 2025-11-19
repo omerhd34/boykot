@@ -1,5 +1,4 @@
 const oyunCategory = {
-  order: 31,
   name: "Oyun",
   slug: "oyun",
   iconKey: "gamepad-2",

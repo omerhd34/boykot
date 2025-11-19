@@ -1,5 +1,4 @@
 const isletmeCategory = {
-  order: 7,
   name: "İşletme",
   slug: "isletme",
   iconKey: "building2",

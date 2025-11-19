@@ -1,5 +1,4 @@
 const seyahatCategory = {
-  order: 32,
   name: "Seyahat",
   slug: "seyahat",
   iconKey: "plane",

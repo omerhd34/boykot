@@ -1,5 +1,4 @@
 const ilacSirketiCategory = {
-  order: 17,
   name: "İlaç Şirketi",
   slug: "ilac-sirketi",
   iconKey: "pill",

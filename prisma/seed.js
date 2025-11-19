@@ -48,7 +48,7 @@ async function main() {
         continue;
       }
 
-      let boycottStatus = "boykot-degil"; // varsayılan
+      let boycottStatus = "boykot-degil";
 
       if (
         brand.isBoycotted === true ||
@@ -63,7 +63,6 @@ async function main() {
       ) {
         boycottStatus = "boykot-degil";
       } else if (typeof brand.isBoycotted === "string") {
-        // Eğer zaten string olarak geliyorsa direkt kullan
         boycottStatus = brand.isBoycotted;
       }
 
@@ -79,7 +78,6 @@ async function main() {
             ...brandData
           } = brand;
 
-          // pill_category'yi brandData'dan çıkar ve string array'e çevir
           const pillCategoryArray = pill_category || [];
           const pillCategoryStrings = pillCategoryArray
             .filter((item) => {
@@ -101,7 +99,6 @@ async function main() {
               return item.trim();
             });
 
-          // evidences array'ini filtrele (boş stringleri çıkar)
           const evidencesArray = (evidences || []).filter(
             (evidence) =>
               evidence && typeof evidence === "string" && evidence.trim() !== ""
@@ -110,9 +107,10 @@ async function main() {
           let subCategoryArray = [];
           if (ctgry) {
             if (Array.isArray(ctgry)) {
-              subCategoryArray = ctgry.filter(
+              const filteredItems = ctgry.filter(
                 (item) => item && typeof item === "string" && item.trim() !== ""
               );
+              subCategoryArray = filteredItems.map((item) => item.trim());
             } else if (typeof ctgry === "string" && ctgry.trim() !== "") {
               subCategoryArray = [ctgry.trim()];
             }
@@ -125,17 +123,18 @@ async function main() {
               alternative_products: alternative_products || [],
               pill_category: pillCategoryStrings,
               evidences: evidencesArray,
-              categoryId: category.id,
+              category: {
+                connect: {
+                  id: category.id,
+                },
+              },
               subCategory: subCategoryArray,
-              parentBrandId: null,
             },
           });
           existingSlugs.add(brand.slug);
 
-          // subBrands desteği (obje array)
           if (subBrands && Array.isArray(subBrands)) {
             for (const subBrand of subBrands) {
-              // Geçersiz alt markaları filtrele
               if (
                 !subBrand.name ||
                 !subBrand.slug ||
@@ -178,9 +177,12 @@ async function main() {
                   let subBrandSubCategoryArray = [];
                   if (ctgry) {
                     if (Array.isArray(ctgry)) {
-                      subBrandSubCategoryArray = ctgry.filter(
+                      const filteredItems = ctgry.filter(
                         (item) =>
                           item && typeof item === "string" && item.trim() !== ""
+                      );
+                      subBrandSubCategoryArray = filteredItems.map((item) =>
+                        item.trim()
                       );
                     } else if (
                       typeof ctgry === "string" &&
@@ -195,8 +197,16 @@ async function main() {
                       ...subBrandData,
                       isBoycotted: subBoycottStatus,
                       alternative_products: alternative_products || [],
-                      categoryId: category.id,
-                      parentBrandId: createdBrand.id,
+                      category: {
+                        connect: {
+                          id: category.id,
+                        },
+                      },
+                      parentBrand: {
+                        connect: {
+                          id: createdBrand.id,
+                        },
+                      },
                       subCategory: subBrandSubCategoryArray,
                     },
                   });
@@ -217,8 +227,6 @@ async function main() {
               }
             }
           }
-
-          // pill_category artık sadece array olarak saklanıyor, ayrı brand sayfaları oluşturulmuyor
         } catch (error) {
           if (error.code === "P2002") {
             console.log(

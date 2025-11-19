@@ -1,5 +1,4 @@
 const teknolojiCategory = {
-  order: 19,
   name: "Teknoloji",
   slug: "teknoloji",
   iconKey: "cpu",

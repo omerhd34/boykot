@@ -1,5 +1,4 @@
 const dijitalMedyaCategory = {
-  order: 9,
   name: "Dijital Medya",
   slug: "dijital-medya",
   iconKey: "clapperboard",

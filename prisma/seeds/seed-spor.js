@@ -1,5 +1,4 @@
 const sporCategory = {
-  order: 33,
   name: "Spor",
   slug: "spor",
   iconKey: "dumbbell",
