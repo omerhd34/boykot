@@ -32,6 +32,7 @@ model Brand {
   img                String?
   isBoycotted        String   @default("boykot-degil")
   boycottReason      String?
+  evidences          String[] @default([])
   alternative_products  String[] @default([])
   pill_category         String[] @default([])
   foundedYear        Int?
@@ -39,7 +40,7 @@ model Brand {
   owner              String?
   categoryId         String   @db.ObjectId
   category           Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
-  subCategory        String?
+  subCategory        String[] @default([])
 
   parentBrandId      String?  @db.ObjectId
   parentBrand        Brand?   @relation("BrandSubBrands", fields: [parentBrandId], references: [id], onDelete: NoAction, onUpdate: NoAction)

@@ -61,6 +61,15 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   ];
  }, [subCategories]);
 
+ // Yardımcı fonksiyon: subCategory'nin array veya string olup olmadığını kontrol et
+ const hasSubCategory = (brand, subCategoryFilter) => {
+  if (!brand.subCategory) return false;
+  if (Array.isArray(brand.subCategory)) {
+   return brand.subCategory.includes(subCategoryFilter);
+  }
+  return brand.subCategory === subCategoryFilter;
+ };
+
  // Yardımcı fonksiyonlar
  const calculateStatusCounts = (brands, activeCountryFilter, activeSubCategoryFilter) => {
   let brandsForStatusCount = brands;
@@ -68,7 +77,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
    brandsForStatusCount = brandsForStatusCount.filter(b => b.country === activeCountryFilter);
   }
   if (activeSubCategoryFilter !== "all") {
-   brandsForStatusCount = brandsForStatusCount.filter(b => b.subCategory === activeSubCategoryFilter);
+   brandsForStatusCount = brandsForStatusCount.filter(b => hasSubCategory(b, activeSubCategoryFilter));
   }
   return {
    all: brandsForStatusCount.length,
@@ -90,7 +99,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
    }
   }
   if (activeSubCategoryFilter !== "all") {
-   brandsForCountryCount = brandsForCountryCount.filter(b => b.subCategory === activeSubCategoryFilter);
+   brandsForCountryCount = brandsForCountryCount.filter(b => hasSubCategory(b, activeSubCategoryFilter));
   }
   const countryCounts = {};
   for (const country of availableCountries) {
@@ -122,7 +131,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
    if (subCat.id === "all") {
     subCategoryCounts[subCat.id] = brandsForSubCategoryCount.length;
    } else {
-    subCategoryCounts[subCat.id] = brandsForSubCategoryCount.filter(b => b.subCategory === subCat.id).length;
+    subCategoryCounts[subCat.id] = brandsForSubCategoryCount.filter(b => hasSubCategory(b, subCat.id)).length;
    }
   }
   return subCategoryCounts;
@@ -145,7 +154,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   }
 
   if (activeSubCategoryFilter !== "all") {
-   filtered = filtered.filter((brand) => brand.subCategory === activeSubCategoryFilter);
+   filtered = filtered.filter((brand) => hasSubCategory(brand, activeSubCategoryFilter));
   }
 
   return filtered;
@@ -456,7 +465,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
          )}
          {brand.subCategory && (
           <div className="rounded-md bg-purple-100 px-2 py-0.5 text-xs font-semibold uppercase text-purple-700">
-           {brand.subCategory}
+           {(Array.isArray(brand.subCategory) ? brand.subCategory : [brand.subCategory]).join(" & ")}
           </div>
          )}
         </div>

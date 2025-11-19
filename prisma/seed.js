@@ -73,6 +73,7 @@ async function main() {
             subBrands,
             pill_category,
             alternative_products,
+            evidences,
             isBoycotted: _,
             ctgry,
             ...brandData
@@ -100,14 +101,32 @@ async function main() {
               return item.trim();
             });
 
+          // evidences array'ini filtrele (boş stringleri çıkar)
+          const evidencesArray = (evidences || []).filter(
+            (evidence) =>
+              evidence && typeof evidence === "string" && evidence.trim() !== ""
+          );
+
+          let subCategoryArray = [];
+          if (ctgry) {
+            if (Array.isArray(ctgry)) {
+              subCategoryArray = ctgry.filter(
+                (item) => item && typeof item === "string" && item.trim() !== ""
+              );
+            } else if (typeof ctgry === "string" && ctgry.trim() !== "") {
+              subCategoryArray = [ctgry.trim()];
+            }
+          }
+
           const createdBrand = await prisma.brand.create({
             data: {
               ...brandData,
               isBoycotted: boycottStatus,
               alternative_products: alternative_products || [],
               pill_category: pillCategoryStrings,
+              evidences: evidencesArray,
               categoryId: category.id,
-              subCategory: ctgry || null,
+              subCategory: subCategoryArray,
               parentBrandId: null,
             },
           });
@@ -156,6 +175,21 @@ async function main() {
                     ctgry,
                     ...subBrandData
                   } = subBrand;
+                  let subBrandSubCategoryArray = [];
+                  if (ctgry) {
+                    if (Array.isArray(ctgry)) {
+                      subBrandSubCategoryArray = ctgry.filter(
+                        (item) =>
+                          item && typeof item === "string" && item.trim() !== ""
+                      );
+                    } else if (
+                      typeof ctgry === "string" &&
+                      ctgry.trim() !== ""
+                    ) {
+                      subBrandSubCategoryArray = [ctgry.trim()];
+                    }
+                  }
+
                   await prisma.brand.create({
                     data: {
                       ...subBrandData,
@@ -163,7 +197,7 @@ async function main() {
                       alternative_products: alternative_products || [],
                       categoryId: category.id,
                       parentBrandId: createdBrand.id,
-                      subCategory: ctgry || null,
+                      subCategory: subBrandSubCategoryArray,
                     },
                   });
                   existingSlugs.add(subBrand.slug);

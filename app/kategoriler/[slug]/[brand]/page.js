@@ -118,7 +118,9 @@ export default async function BrandDetailPage({ params }) {
             {brand.subCategory && (
               <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-purple-500 to-purple-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
                 <IoAppsOutline className="h-4 w-4" />
-                {brand.subCategory}
+                {Array.isArray(brand.subCategory)
+                  ? brand.subCategory.join(" & ")
+                  : brand.subCategory}
               </div>
             )}
             {brand.parentBrand && (
@@ -281,7 +283,9 @@ export default async function BrandDetailPage({ params }) {
                     Kategori
                   </dt>
                   <dd className="text-sm font-medium text-slate-900">
-                    {brand.subCategory}
+                    {Array.isArray(brand.subCategory)
+                      ? brand.subCategory.join(" & ")
+                      : brand.subCategory}
                   </dd>
                 </div>
               )}
@@ -305,6 +309,28 @@ export default async function BrandDetailPage({ params }) {
                 </div>
               )}
             </dl>
+            {brand.evidences && brand.evidences.length > 0 && (
+              <div className="mt-6 space-y-3 border-t border-orange-200 pt-6">
+                <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
+                  <IoInformationCircleOutline className="h-5 w-5 text-orange-600" />
+                  Kanıt Linkleri
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {brand.evidences.map((evidence, index) => (
+                    <a
+                      key={index}
+                      href={evidence}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-lg border-2 border-orange-300 bg-orange-50 px-4 py-2 text-xs font-semibold text-orange-700 transition hover:border-orange-400 hover:bg-orange-100 hover:shadow-sm"
+                    >
+                      <IoArrowForwardOutline className="h-3 w-3" />
+                      Kanıt {index + 1}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
             {brand.alternative_products &&
               brand.alternative_products.length > 0 && (
                 <div className="mt-6 space-y-4 border-t border-orange-200 pt-6">
@@ -360,7 +386,10 @@ export default async function BrandDetailPage({ params }) {
                   </div>
                 </div>
               )}
-            {((brand.category.slug === "ilac-sirketi" && brand.pill_category && brand.pill_category.length > 0) || (brand.subBrands && brand.subBrands.length > 0)) && (
+            {((brand.category.slug === "ilac-sirketi" &&
+              brand.pill_category &&
+              brand.pill_category.length > 0) ||
+              (brand.subBrands && brand.subBrands.length > 0)) && (
               <div className="mt-6 space-y-4 border-t border-orange-200 pt-6">
                 <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
                   <IoAppsOutline className="h-5 w-5 text-orange-600" />
