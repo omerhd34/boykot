@@ -5,6 +5,7 @@ const supermarketCategory = {
   iconKey: "shopping-basket",
   description: "Market zincirleri ve perakende mağazaları.",
   brands: [
+    // Fiskobirlik ve ŞOK marketi ekle.
     {
       name: "A101",
       slug: "a101",
@@ -434,7 +435,7 @@ Kipa'nın Migros'a bağlı olması ve Migros markası altında faaliyet gösterm
       ctgry: "Süpermarket",
       founder: "Sam Walton",
       owner: "Walton ailesi (%50,85)",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tarim-kredi-kooperatif-marketleri",
         "cagri",
@@ -738,7 +739,7 @@ Yabancı sermayeli ve uluslararası markalar yerine, yerel ve milli sermaye ile 
       ctgry: "Süpermarket",
       founder: "Tasso Argyros ve Nitay Joffe",
       owner: "Uniphore",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tarim-kredi-kooperatif-marketleri",
         "cagri",

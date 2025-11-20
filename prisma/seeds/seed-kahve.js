@@ -495,7 +495,7 @@ Starbucks, dünya çapında binlerce şubeye sahiptir ve farklı ülkelerde faal
 Marka, sosyal sorumluluk projelerine de önem vermektedir. Starbucks, kahve üreticilerini desteklemekte, sürdürülebilir kahve üretimini teşvik etmekte ve çevre dostu uygulamalar geliştirmektedir. Ayrıca, eğitim, sağlık ve toplumsal kalkınma projelerine de katkıda bulunmaktadır.
 
 Ancak, Starbucks markası, küresel operasyonları süresince İsrail'e yönelik destek açıklamaları ve İsrail yanlısı yardımlarla anılmakta, sendikalaşma sürecindeki açıklamaları sebebiyle boykot edilmektedir. Şirketin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Starbucks ürünlerinin satın alınması önerilmemektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.starbucks.com.tr/",
       img: "/starbucks.jpg",
       isBoycotted: "boykot",
@@ -733,7 +733,7 @@ Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir. Caribou
 Caribou Coffee, kalite ve tutarlılığa büyük önem vermektedir. Marka, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
 
 Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'deki projelere destek verdiği bildirilen bir zincirdir. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu bağlantılar sebebiyle boykot listelerine girmiştir ve Caribou Coffee ürünlerinin satın alınması önerilmemektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.cariboucoffee.com.tr/",
       img: "/caribou.png",
       isBoycotted: "boykot",

@@ -10,7 +10,7 @@ const dijitalMedyaCategory = {
       foundedYear: 2006,
       founder: "Amazon",
       owner: "Amazon",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -44,7 +44,7 @@ Amazon'un CEO'su Andy Jassy, 10 Ekim 2023 tarihinde Twitter (X) hesabı üzerind
       foundedYear: 1997,
       founder: "Reed Hastings ve Marc Randolph",
       owner: "Reed Hastings (Dominant Shareholder)",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -75,7 +75,7 @@ Netflix'in İsrail'e yönelik bu açık desteği, şirketin Filistinlilere yöne
       foundedYear: 2019,
       founder: "Apple",
       owner: "Apple",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -104,7 +104,7 @@ Tim Cook'un bu açıklaması, Apple'ın İsrail'in işgal politikalarına ve Fil
       foundedYear: 2019,
       founder: "Walt Disney Company",
       owner: "Walt Disney Company",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -133,7 +133,7 @@ Disney'in CEO'su, İsrail'deki Yahudilere yönelik saldırıları açıkça kın
       foundedYear: 2020,
       founder: "Warner Bros. Discovery",
       owner: "Warner Bros. Discovery",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -162,7 +162,7 @@ Warner Bros. Discovery'nin İsrail'e yönelik bu açık destek açıklamaları, 
       foundedYear: 2014,
       founder: "CBS (CBS All Access olarak)",
       owner: "Paramount Global",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -191,7 +191,7 @@ Paramount Global'in İsrail'e yönelik bu açık destek açıklaması, şirketin
       foundedYear: 2020,
       founder: "NBCUniversal",
       owner: "NBCUniversal (Comcast)",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -245,7 +245,7 @@ Tabii ve TRT, 2024-2025 sezonundan itibaren 3 sezon boyunca UEFA Şampiyonlar Li
       foundedYear: 2015,
       founder: "Aydın Doğan Yalçındağ",
       owner: "Warner Bros. Discovery",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -324,7 +324,7 @@ GAİN, hızlı bir şekilde 2 milyon kullanıcıya ulaşmış ve "Ayak İşleri"
       foundedYear: 2014,
       founder: "Farhad Massoudi ve Thomas Ahn Hicks",
       owner: "Fox Corporation",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",
@@ -455,7 +455,7 @@ IPTV hizmetinde "Durdur-İzle" özelliği ile canlı televizyon yayınını durd
       foundedYear: 2017,
       founder: "YouTube (Google)",
       owner: "Alphabet Inc. (Google)",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "tabii",
         "mubi",

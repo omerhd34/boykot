@@ -205,7 +205,7 @@ Markanın mevcut model yelpazesi, Enclave (büyük SUV), Envision (kompakt SUV),
 Buick, General Motors'un premium marka stratejisinin bir parçasıdır ve Chevrolet ile Cadillac arasında bir konumlandırmaya sahiptir. Marka, "premium" segmentte yer alırken, Cadillac kadar lüks olmayan ancak Chevrolet'den daha yüksek seviyede bir deneyim sunmaktadır. Bu konumlandırma, Buick'i geniş bir müşteri kitlesine hitap eden erişilebilir bir lüks marka haline getirmektedir.
 
 Şirket, elektrikli araç teknolojisine geçiş konusunda da adımlar atmaktadır ve gelecekte tamamen elektrikli modeller sunmayı planlamaktadır. Buick, General Motors'un Ultium platformunu kullanarak elektrikli araçlarını geliştirmektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.buick.com/",
       img: "/buick.png",
       isBoycotted: "boykot",
@@ -251,7 +251,7 @@ Cadillac, "Amerikan Lüksünün Standardı" (Standard of the World) sloganıyla 
 Markanın mevcut model yelpazesi, Escalade (full-size lüks SUV), XT4, XT5, XT6 (kompakt ve orta boy SUV'lar), CT4 ve CT5 (kompakt ve orta boy sedanlar) gibi modelleri içermektedir. Cadillac, son yıllarda elektrikli araçlara geçiş konusunda önemli adımlar atmış ve Lyriq (elektrikli SUV) ve Celestiq (ultra lüks elektrikli sedan) gibi modellerle elektrikli geleceğe yönelmiştir.
 
 Cadillac araçları, güçlü motorları, lüks iç mekanları, gelişmiş teknolojileri ve karakteristik tasarım diliyle dikkat çekmektedir. Markanın tasarım dili, keskin çizgiler, dikdörtgen ışık tasarımları ve cesur stilizasyonlarla tanınmaktadır. Cadillac, özellikle Kuzey Amerika ve Çin pazarlarında güçlü bir konuma sahiptir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.cadillac.com/",
       img: "/cadillac.png",
       isBoycotted: "boykot",
@@ -326,7 +326,7 @@ Chevrolet, otomotiv tarihinde birçok önemli modele imza atmıştır. 1955 Chev
 Chevrolet, 2015 yılında Avrupa pazarından çekilmiş, ancak 2024 yılında General Motors'un Türkiye'ye geri dönüş kararı ile birlikte Cadillac ve GMC markaları ile beraber yeniden Türkiye pazarına dönmeye hazırlanmaktadır. Marka, elektrikli araç teknolojisine geçiş konusunda da önemli adımlar atmaktadır ve Bolt EV/EUV modelleriyle elektrikli segmentte yer almaktadır.
 
 Chevrolet, güvenilirlik, dayanıklılık ve değer odaklı yaklaşımıyla tanınmaktadır. Marka, geniş bir müşteri kitlesine hitap eden, erişilebilir fiyatlı ve kaliteli araçlar sunmaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.chevrolet.com/",
       img: "/chevrolet.png",
       isBoycotted: "boykot-degil",
@@ -346,7 +346,7 @@ Chrysler'in mevcut model yelpazesi, minivan ve sedan segmentlerinde yoğunlaşm�
 Chrysler, otomotiv tarihinde birçok ikonik modele imza atmıştır. 1955 Chrysler 300, 1960'ların Imperial modelleri ve 1980'lerin K-Car serisi, markanın önemli kilometre taşlarıdır. Chrysler, ayrıca Hemi V8 motor teknolojisiyle de tanınmaktadır ve bu teknoloji, markanın performans kimliğinin önemli bir parçasıdır.
 
 Marka, konfor, lüks ve teknoloji odaklı yaklaşımıyla bilinmektedir. Chrysler araçları, geniş iç mekanları, yumuşak sürüş karakteristiği ve gelişmiş infotainment sistemleriyle dikkat çekmektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.chrysler.com/",
       img: "/chrysler.png",
       isBoycotted: "boykot",
@@ -417,7 +417,7 @@ DS Automobiles, özellikle iç mekan tasarımı ve lüks detaylarla dikkat çekm
 Dodge'un en ikonik modelleri arasında Challenger (muscle car), Charger (full-size sedan) ve Durango (full-size SUV) yer almaktadır. RAM pick-up serisi 2009 yılında ayrı bir marka olarak ayrılmıştır. Dodge, özellikle Hemi V8 motorlarıyla bilinmekte ve yüksek performanslı araçlar sunmaktadır.
 
 Marka, "Never Lift" (Asla Vazgeçme) sloganıyla performans ve güç odaklı bir kimlik benimsemektedir. Dodge modelleri, güçlü motorları, agresif tasarımları ve Amerikan otomotiv kültürünün karakteristik özellikleriyle dikkat çekmektedir. Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir ve otomotiv tutkunları arasında büyük bir hayran kitlesine sahiptir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.dodge.com/",
       img: "/dodge.png",
       isBoycotted: "boykot",
@@ -510,7 +510,7 @@ Ford, binek otomobiller, SUV'lar, pick-up'lar ve ticari araçlar üretmektedir. 
 Ford, elektrikli araç teknolojisine geçiş konusunda da önemli adımlar atmaktadır. Mustang Mach-E (elektrikli SUV) ve F-150 Lightning (elektrikli pickup) gibi modellerle marka, elektrikli geleceğe yönelmektedir. Ford, ayrıca Avrupa'da küçük araç segmentinde güçlü bir konuma sahiptir ve Focus, Fiesta gibi modellerle bu pazarda yer almaktadır.
 
 Marka, güvenilirlik, dayanıklılık ve değer odaklı yaklaşımıyla tanınmaktadır. Ford, geniş bir müşteri kitlesine hitap eden, erişilebilir fiyatlı ve kaliteli araçlar sunmaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.ford.com/",
       img: "/ford-motor-company.png",
       isBoycotted: "boykot",
@@ -592,7 +592,7 @@ GMC'nin mevcut model yelpazesi, Sierra pick-up serisi (Sierra 1500, 2500HD, 3500
 GMC, "Professional Grade" (Profesyonel Sınıf) sloganıyla tanınmaktadır ve araçları, güçlü motorları, dayanıklı yapıları ve lüks iç mekanlarıyla dikkat çekmektedir. Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir ve profesyonel kullanıcılar ile lüks araç arayan aileler arasında popülerdir.
 
 GMC, elektrikli araç teknolojisine geçiş konusunda da adımlar atmaktadır ve Hummer EV gibi elektrikli modellerle geleceğe yönelmektedir. Marka, General Motors'un Ultium platformunu kullanarak elektrikli araçlarını geliştirmektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.gmc.com/",
       img: "/gmc.png",
       isBoycotted: "boykot",
@@ -805,7 +805,7 @@ Jaguar, otomotiv tarihinde birçok ikonik modele imza atmıştır. E-Type, XJ ve
 Jeep'in ikonik modelleri arasında Wrangler (off-road SUV), Cherokee (kompakt SUV), Grand Cherokee (orta boy lüks SUV), Compass (kompakt SUV) ve Renegade (subkompakt SUV) yer almaktadır. Her model, Jeep'in karakteristik özellikleri olan dört tekerlekten çekiş sistemleri, yüksek yerden yüksekliği ve arazi kabiliyetleriyle donatılmıştır.
 
 Jeep, "Go Anywhere, Do Anything" (Her Yere Git, Her Şeyi Yap) sloganıyla macera ve özgürlük ruhunu yansıtmaktadır. Marka, özellikle Wrangler modeliyle off-road kültürünün simgesi haline gelmiştir. Jeep, ayrıca elektrikli araç teknolojisine geçiş konusunda da adımlar atmaktadır ve gelecekte elektrikli modeller sunmayı planlamaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.jeep.com.tr/",
       img: "/jeep.png",
       isBoycotted: "boykot-degil",
@@ -923,7 +923,7 @@ Li Auto'nun EREV teknolojisi, elektrikli motorun yanı sıra küçük bir benzin
 Lincoln, lüks sedanlar ve SUV'lar üretmektedir. Markanın mevcut model yelpazesi, Navigator (full-size lüks SUV), Aviator (orta boy lüks SUV), Corsair (kompakt lüks SUV), Nautilus (orta boy lüks SUV) ve Continental (full-size lüks sedan) gibi modelleri içermektedir. Her model, konfor, teknoloji ve prestij odaklı araçlarıyla dikkat çekmektedir.
 
 Lincoln, "Quiet Flight" (Sessiz Uçuş) sloganıyla lüks ve konfor odaklı bir yaklaşım benimsemektedir. Marka araçları, sessiz kabin teknolojisi, lüks iç mekanları, gelişmiş teknolojiler ve yumuşak sürüş karakteristiğiyle tanınmaktadır. Lincoln, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.lincoln.com/",
       img: "/lincoln.png",
       isBoycotted: "boykot",
@@ -964,7 +964,7 @@ Lotus, Formula 1 tarihinde de önemli başarılar elde etmiştir ve bu motor spo
 Lucid Air, markanın flagship lüks elektrikli sedan modelidir ve ileri teknoloji, uzun menzil ve hızlı şarj özellikleriyle dikkat çekmektedir. Model, farklı performans seviyelerinde sunulmaktadır ve bazı versiyonları 500 milin üzerinde menzil sunmaktadır. Lucid Motors, ayrıca Gravity adında bir elektrikli SUV modeli de geliştirmektedir.
 
 Şirket, eski Tesla mühendisleri tarafından kurulmuş ve premium elektrikli araç pazarında Tesla'ya rakip olarak konumlanmıştır. Lucid Motors, özellikle pil teknolojisi, motor verimliliği ve şarj hızı konusunda öncü çalışmalar yürütmektedir. Marka, lüks iç mekanları, gelişmiş teknolojileri ve yüksek performansıyla dikkat çekmektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://lucidmotors.com/",
       img: "/lucid-motors.png",
       isBoycotted: "boykot",
@@ -1278,7 +1278,7 @@ Marka, Avrupa pazarında güçlü bir konuma sahiptir ve özellikle Fransa, İta
 Ram'in mevcut model yelpazesi, Ram 1500 (yarı ton pickup), Ram 2500 (üç çeyrek ton pickup), Ram 3500 (bir ton pickup), Ram 4500/5500 (ağır hizmet pickup'ları) ve Ram ProMaster (ticari van) gibi modelleri içermektedir. Her model, güçlü motorları, dayanıklı yapıları ve geniş yük kapasiteleriyle dikkat çekmektedir.
 
 Marka, Amerika pazarında en çok satan pick-up'lardan biridir ve özellikle profesyonel kullanıcılar ve işletmeler arasında popülerdir. Ram, ayrıca lüks donanımlı versiyonlar da sunmakta ve aile kullanımına uygun modeller geliştirmektedir. Marka, elektrikli araç teknolojisine geçiş konusunda da adımlar atmaktadır ve gelecekte elektrikli pickup modelleri sunmayı planlamaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.ramtrucks.com/",
       img: "/ram.png",
       isBoycotted: "boykot",
@@ -1316,7 +1316,7 @@ Renault, elektrikli araç teknolojisinde öncü konumdadır ve Zoe modeli, Avrup
 Rivian, R1T elektrikli pick-up ve R1S elektrikli SUV modelleriyle bilinir. Her iki model de macera ve outdoor kullanıma uygun olarak tasarlanmıştır ve güçlü dört tekerlekten çekiş sistemleri, yüksek yerden yüksekliği ve uzun menzil özellikleriyle dikkat çekmektedir. Rivian araçları, özellikle off-road kullanım ve kamp gibi aktiviteler için idealdir.
 
 Amazon ile ortaklığı bulunmakta ve Rivian, Amazon için elektrikli teslimat araçları da üretmektedir. Şirket, özellikle sürdürülebilir mobilite ve çevre dostu teknolojiler konusunda öncü çalışmalar yürütmektedir. Rivian, gelecekte daha fazla model sunmayı planlamaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://rivian.com/",
       img: "/rivian.png",
       isBoycotted: "boykot-degil",
@@ -1456,7 +1456,7 @@ Marka, küçük boyutlu ve yakıt tasarruflu araçlarıyla tanınmaktadır ve ö
 Tesla, elektrikli sedanlar, SUV'lar ve pick-up'lar üretmektedir. Markanın mevcut model yelpazesi, Model S (full-size lüks elektrikli sedan), Model 3 (kompakt elektrikli sedan), Model X (full-size elektrikli SUV), Model Y (kompakt elektrikli SUV) ve Cybertruck (elektrikli pickup) gibi modelleri içermektedir. Her model, uzun menzil, hızlı şarj ve yüksek performans özellikleriyle dikkat çekmektedir.
 
 Marka, otonom sürüş teknolojisi ve sürdürülebilir enerji çözümleriyle tanınmaktadır. Tesla'nın Autopilot sistemi, otonom sürüş teknolojisinde öncü konumdadır ve şirket, gelecekte tam otonom sürüş hedeflemektedir. Tesla, ayrıca güneş panelleri ve enerji depolama sistemleri de üretmektedir ve sürdürülebilir enerji ekosisteminin tamamını kapsamaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.tesla.com/tr_tr",
       img: "/tesla.png",
       isBoycotted: "boykot",

@@ -401,48 +401,60 @@ export default async function BrandDetailPage({ params }) {
                   <PillList pills={brand.pill_category || []} />
                 ) : (
                   <div className="grid gap-3 sm:grid-cols-2">
-                    {brand.subBrands.map((subBrand) => (
-                      <Link
-                        key={subBrand.id}
-                        href={`/kategoriler/${brand.category.slug}/${subBrand.slug}`}
-                        className="group relative flex flex-col items-center gap-2 overflow-hidden rounded-lg border-2 border-slate-200 bg-white p-3 shadow-sm transition hover:border-orange-400 hover:shadow-md"
-                      >
-                        {subBrand.img && (
-                          <div className="relative h-16 w-16 overflow-hidden rounded-lg">
-                            <Image
-                              src={subBrand.img}
-                              alt={subBrand.name}
-                              fill
-                              className="object-contain"
-                              sizes="64px"
-                            />
+                    {(() => {
+                      // Tüm alt markaları düz bir array'e çevir (hem direkt hem nested)
+                      const allSubBrands = [];
+                      brand.subBrands?.forEach((subBrand) => {
+                        allSubBrands.push(subBrand);
+                        if (subBrand.subBrands && subBrand.subBrands.length > 0) {
+                          subBrand.subBrands.forEach((nestedSubBrand) => {
+                            allSubBrands.push(nestedSubBrand);
+                          });
+                        }
+                      });
+                      return allSubBrands.map((subBrand) => (
+                        <Link
+                          key={subBrand.id}
+                          href={`/kategoriler/${brand.category.slug}/${subBrand.slug}`}
+                          className="group relative flex flex-col items-center gap-2 overflow-hidden rounded-lg border-2 border-slate-200 bg-white p-3 shadow-sm transition hover:border-orange-400 hover:shadow-md"
+                        >
+                          {subBrand.img && (
+                            <div className="relative h-16 w-16 overflow-hidden rounded-lg">
+                              <Image
+                                src={subBrand.img}
+                                alt={subBrand.name}
+                                fill
+                                className="object-contain"
+                                sizes="64px"
+                              />
+                            </div>
+                          )}
+                          <div className="text-center">
+                            <h4 className="text-xs font-semibold text-slate-900 group-hover:text-orange-600">
+                              {subBrand.name}
+                            </h4>
+                            <div className="mt-1">
+                              {subBrand.isBoycotted === "boykot" ? (
+                                <span className="inline-flex items-center gap-1 rounded-full bg-red-100 px-2 py-0.5 text-xs font-medium text-red-700">
+                                  <IoWarningOutline className="h-3 w-3" />
+                                  Boykot
+                                </span>
+                              ) : subBrand.isBoycotted === "onerilmiyor" ? (
+                                <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                                  <IoAlertCircleOutline className="h-3 w-3" />
+                                  Önerilmiyor
+                                </span>
+                              ) : (
+                                <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                                  <IoShieldCheckmarkOutline className="h-3 w-3" />
+                                  Boykot Değil
+                                </span>
+                              )}
+                            </div>
                           </div>
-                        )}
-                        <div className="text-center">
-                          <h4 className="text-xs font-semibold text-slate-900 group-hover:text-orange-600">
-                            {subBrand.name}
-                          </h4>
-                          <div className="mt-1">
-                            {subBrand.isBoycotted === "boykot" ? (
-                              <span className="inline-flex items-center gap-1 rounded-full bg-red-100 px-2 py-0.5 text-xs font-medium text-red-700">
-                                <IoWarningOutline className="h-3 w-3" />
-                                Boykot
-                              </span>
-                            ) : subBrand.isBoycotted === "onerilmiyor" ? (
-                              <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
-                                <IoAlertCircleOutline className="h-3 w-3" />
-                                Önerilmiyor
-                              </span>
-                            ) : (
-                              <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
-                                <IoShieldCheckmarkOutline className="h-3 w-3" />
-                                Boykot Değil
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                      </Link>
-                    ))}
+                        </Link>
+                      ));
+                    })()}
                   </div>
                 )}
               </div>

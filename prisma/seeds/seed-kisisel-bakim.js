@@ -16,3 +16,4 @@ const kisiselBakimCategory = {
 };
 
 export default kisiselBakimCategory;
+// https://boykotdedektifi.org/b/yves-rocher-207 

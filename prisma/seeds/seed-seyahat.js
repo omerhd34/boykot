@@ -4,6 +4,7 @@ const seyahatCategory = {
   iconKey: "plane",
   description: "Seyahat acenteleri ve havayolu şirketleri.",
   brands: [
+    //blablacar
     {
       name: "Budget",
       slug: "budget",

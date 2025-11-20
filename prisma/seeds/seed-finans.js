@@ -25,6 +25,9 @@ const finansCategory = {
     "Yabancı Sermayeli Kalkınma ve Yatırım Bankası", // 3
   ],
   brands: [
+    // investing
+    // fintables
+
     {
       name: "Yapı Kredi", //! okey
       slug: "yapi-kredi",
@@ -89,7 +92,7 @@ Mastercard, bankalar ve tüketiciler için banka ve kredi kartları kullanarak �
 Mastercard Worldwide, 2006 yılından itibaren halka açık bir şirkettir. Halka arz öncesinde, markalı kartları çıkaran 25.000'den fazla finansal kurumun sahip olduğu bir kooperatifti. Şirket, başlangıçta 1966-1969 yılları arasında Interbank, 1969-1979 yılları arasında Master Charge adıyla faaliyet göstermiştir.
 
 2024 yılı itibarıyla Mastercard'ın net geliri 12,9 milyar ABD doları, çalışan sayısı ise 35.300'dür. Şirketin küresel rakipleri arasında Discover Financial, American Express ve Visa Inc. bulunmaktadır. Mastercard'ın temel faaliyeti, "Mastercard" markalı banka, kredi ve ön ödemeli kartları kullanıcılara çıkaran bankalar ile üye tüccarların bankaları arasındaki ödemeleri kolaylaştırmaktır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.mastercard.com.tr/tr-tr.html",
       img: "/mastercard.png",
       isBoycotted: "boykot",
@@ -112,7 +115,7 @@ Maestro, 93 ülkede yaklaşık on beş milyon satış noktasında kabul edilmekt
 Maestro kartları satış noktasında (POS) ve ATM'lerde kullanılabilir. Ödemeler, kartların ödeme terminalinden geçirilmesi, bir çip ve PIN cihazına takılması veya temassız bir okuyucu ile yapılır. Maestro genellikle her işlem için çevrimiçi elektronik yetkilendirme gerektirir.
 
 Mastercard, 1 Temmuz 2023'ten beri Avrupa genelinde Maestro'yu aşamalı olarak kullanımdan kaldırmaya başlamıştır. Avrupa bankaları ve diğer kart ihraç eden kuruluşların artık süresi dolan veya kaybolan Maestro kartlarını farklı bir kartla değiştirmeleri gerekmektedir. Maestro logosu 14 Temmuz 2016'dan beri kullanılmaktadır.`,
-          country: "Amerika Birleşik Devletleri",
+          country: "ABD",
           website: "https://www.mastercard.com/",
           img: "/maestro.png",
           isBoycotted: "boykot",
@@ -134,7 +137,7 @@ Adına rağmen, Masterpass yalnızca Mastercard ürünleriyle sınırlı değild
 Masterpass kullanıcıları, ödeme hizmetini kabul eden bazı perakendecilerden özel teklifler alabilir. Masterpass, Apple Pay ve Google Pay'e benzer şekilde çevrimiçi olarak çalışır, bu nedenle bir web sitesi veya hizmet zaten destek eklemediyse, Masterpass bunu değiştirmez.
 
 Masterpass, Mastercard altyapısıyla çalışan ve kart bilgilerinizi saklayarak, Masterpass logosu olan üye işyerlerinde tek tıkla ödeme yapmanızı sağlayan bir dijital ödeme çözümüdür.`,
-          country: "Amerika Birleşik Devletleri",
+          country: "ABD",
           website: "https://www.mastercard.com/",
           img: "/masterpass.png",
           isBoycotted: "boykot",
@@ -180,7 +183,7 @@ Visa, doğrudan tüketiciye yönelik bir şirket değildir. Birincil müşterile
 Dünya çapındaki neredeyse tüm Visa işlemleri, şirketin dört güvenli veri merkezinden biri olan VisaNet üzerinden doğrudan işlenmektedir. Bu veri merkezleri Ashburn, Virginia; Highlands Ranch, Colorado; Londra, İngiltere ve Singapur'da bulunmaktadır. 2015 yılı itibarıyla, China UnionPay'i (banka ve kredi kartları birleşik) geçerek Visa, dünyanın en büyük ikinci kart ödeme organizasyonu haline gelmiştir.
 
 Visa, dünyanın en değerli şirketlerinden biridir ve piyasa değeri 482 milyar dolardır. 2024 yılında toplam geliri yaklaşık 36 milyar dolar, net geliri ise 19,74 milyar dolar olarak gerçekleşmiştir. Şirketin çalışan sayısı 31.600'dür ve CEO'su Ryan McInerney'dir. Visa'nın sloganı "Olmak istediğin her yere"dir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.visa.com.tr/",
       img: "/visa.png",
       isBoycotted: "boykot",
@@ -357,7 +360,7 @@ American Express'in hizmetleri özellikle bankalar arasında popülerlik kazand�
 Sonraki yıllarda şirket Amerikan Borsası'na girmiş ve bu durum hisse değerlerini artırmıştır. Günümüzde American Express hisseleri Avrupa ülkeleri, Almanya ve Türkiye dahil olmak üzere dünya çapında popülerdir.
 
 Türkiye'de American Express kredi kartları 1996 yılına kadar Egebank tarafından, 1996-2006 yılları arasında Akbank tarafından, 2006'dan itibaren ise Garanti BBVA tarafından çıkarılmaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.americanexpress.com/",
       img: "/american-express.png",
       isBoycotted: "boykot",
@@ -380,7 +383,7 @@ Ağustos 2009 itibarıyla banka, Amerika'daki toplam banka mevduatlarının %12,
 2022 yılı itibarıyla Bank of America'nın 57 milyondan fazla müşterisi, 5.600'den fazla şubesi ve 200.000 çalışanı bulunmaktadır. Bankanın 2022 yılı geliri 95 milyar dolar olarak gerçekleşmiştir. Banka, ticari bankacılık, yatırım bankacılığı ve yatırım yönetimi hizmetleri sunmaktadır.
 
 Mart 2014'te ABD Federal Mevduat Sigorta Kurumu (FDIC), Bank of America dahil 16 bankaya Libor faiz oranlarını manipüle etme gerekçesiyle dava açmıştır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.bankofamerica.com/",
       img: "/bank-of-america.png",
       isBoycotted: "boykot",
@@ -402,7 +405,7 @@ ABD merkezli bir banka olarak, Bank of America İsrail'e destek veren küresel f
           founder: "Charles E. Merrill ve Edmund C. Lynch",
           owner: "Bank of America",
           description: ``,
-          country: "Amerika Birleşik Devletleri",
+          country: "ABD",
           website: "http://www.ml.com/",
           img: "/merrill-lynch.png",
           isBoycotted: "boykot",
@@ -431,7 +434,7 @@ Bloomberg L.P.'nin ana gelir kaynağı "Bloomberg Terminal" (Bloomberg Professio
 Bloomberg L.P., ayrıca kablo hizmeti (Bloomberg News), küresel bir televizyon ağı (Bloomberg Television), web siteleri, radyo istasyonları (Bloomberg Radio), abonelik tabanlı bültenler ve iki dergi yayınlamaktadır: "Bloomberg Businessweek" ve "Bloomberg Markets". Bloomberg News, 1990 yılında Michael Bloomberg ve Matthew Winkler tarafından kurulmuştur ve 100 ülkede 2.300'den fazla editör ve muhabire sahiptir.
 
 Şirketin 176 yeri ve yaklaşık 20.000 çalışanı bulunmaktadır. 2013 yılında şirketin geliri 8,3 milyar dolar olarak gerçekleşmiştir. Bloomberg L.P., finansal hizmetler, basın-yayın ve teknoloji endüstrilerinde faaliyet göstermektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.bloomberg.com/",
       img: "/bloomberg.png",
       isBoycotted: "boykot",
@@ -502,7 +505,7 @@ McKinsey'nin şu anda merkezi New York'ta bulunmaktadır. Şirket, 44 farklı ü
 McKinsey, kamu ve özel sektörün ekonomi politikalarını ve kararlarını analiz ederek bu yönde raporlar hazırlamakta ve yönetim danışmanlık hizmeti sunmaktadır. Birçok analiste göre McKinsey, dünyanın en prestijli ve hizmetleri en pahalı olan danışmanlık şirketidir.
 
 McKinsey aynı zamanda kurumsal yönetimlerde en fazla ağırlığı olan şirketlerden biri olarak görülmektedir. Şirket, stratejik planlama, operasyonel iyileştirme, organizasyonel dönüşüm ve dijital dönüşüm gibi alanlarda danışmanlık hizmetleri sunmaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.mckinsey.com/",
       img: "/mckinsey.png",
       isBoycotted: "boykot",
@@ -524,7 +527,7 @@ Citibank, 1812 yılında Samuel Osgood tarafından kurulmuştur. Banka, başlang
 Citibank, Türkiye'de 1975 yılında faaliyetlerine başlamıştır. 2007 yılında Akbank'ın %20 hissesini satın alarak ortak olmuştur. Haziran 2013'te bireysel bankacılık hizmetlerini durdurmuş ve bireysel müşteri portföyünü Denizbank'a devretmiştir.
 
 Citibank, küresel bir bankacılık ağına sahiptir ve çeşitli finansal hizmetler sunmaktadır. Banka, kurumsal ve bireysel müşterilere kredi, mevduat, yatırım ve diğer finansal ürünler sağlamaktadır. Citibank, dünya çapında 100'den fazla ülkede faaliyet göstermektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.citibank.com.tr/",
       img: "/citibank.png",
       isBoycotted: "boykot",
@@ -550,7 +553,7 @@ Goldman Sachs, gelir bakımından dünyanın en büyük bankalarından biridir. 
 2005 yılında Goldman Sachs, Çin, Hindistan, Rusya ve Brezilya'nın 2010 yılına kadar ekonomik gelişme yolunda olacağını ve en yüksek ekonomik büyüme oranlarına sahip olacağını tahmin etmiştir. Bu tahmin daha sonra doğru çıkmış ve bankanın itibarını artırmıştır. Goldman Sachs'a göre, 2015-2025 yılları arasında bazı ülkeler en yüksek ekonomik büyüme oranlarına sahip olabilir ve yatırımcıları çekebilir. Bu ülkeler arasında Meksika, Endonezya, Türkiye, Vietnam, Mısır, Filipinler ve Nijerya bulunmaktadır.
 
 Goldman Sachs, yatırım bankacılığı ve finansal hizmetler endüstrisinde faaliyet göstermektedir. Şirketin geliri 47,4 milyar ABD dolarıdır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.goldmansachs.com/",
       img: "/goldman-sachs.png",
       isBoycotted: "boykot",
@@ -570,7 +573,7 @@ Goldman Sachs'ın bu açıklaması, şirketin İsrail'e açık desteğini göste
 BCG, 50 ülkede 90'dan fazla ofisi bulunan küresel bir ağa sahiptir. Şirket, 1970'lerin başında klasik bir pazarlama modeli haline gelen "BCG matrisi" ile ün kazanmıştır. BCG matrisi, şirketlerin portföy yönetimi ve stratejik planlama için kullandığı önemli bir analiz aracıdır.
 Boston Consulting Group, stratejik danışmanlık, dijital dönüşüm, operasyonel iyileştirme, organizasyonel dönüşüm ve teknoloji danışmanlığı gibi alanlarda hizmetler sunmaktadır. Şirket, kamu ve özel sektör müşterilerine yönetim danışmanlık hizmetleri sağlamaktadır.
 2023 yılı itibarıyla BCG'nin 33.000 çalışanı bulunmaktadır. Şirketin 2025 yılı için öngörülen geliri 13,5 milyar ABD dolarıdır. BCG, profesyonel hizmetler endüstrisinde faaliyet göstermektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.bcg.com/",
       img: "/bcg.png",
       isBoycotted: "boykot",
@@ -594,7 +597,7 @@ Blackstone'un özel sermaye işi, son otuz yılda kaldıraçlı satın almaları
 Blackstone'un ana faaliyet alanları özel yatırımlar, bankalar ve sigorta şirketleri için danışmanlık ve çeşitli alanlardaki büyük şirketlerdir. Şirketin sanayi, cam, medya ve eğlence, enerji, atık ve bertaraf hizmetleri, paketleme, telekomünikasyon, sağlık ve oteller gibi sektörlerde yatırımları bulunmaktadır.
 
 Q4 2020 itibarıyla Blackstone'un geliri 6,102 milyar ABD doları, net geliri 2,262 milyar ABD doları ve çalışan sayısı 3.165'tir. Şirket, New York, Atlanta, Boston, Los Angeles, Mumbai, Londra ve Paris'te ofisleri bulunan küresel bir yatırım şirketidir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.blackstone.com/",
       img: "/blackstone-group.png",
       isBoycotted: "boykot",
@@ -617,7 +620,7 @@ Wells Fargo, önemli bir küresel varlığa sahip bir Amerikan çok uluslu finan
 Wells Fargo, geçmişteki skandallar nedeniyle itibar sorunları yaşamıştır. Banka, müşteri hesapları açma ve sahte hesap açma skandalları nedeniyle milyarlarca dolar para cezasına çarptırılmıştır. Günümüzde müşteri güvenini yeniden kazanmak için çeşitli reformlar ve denetimler gerçekleştirmektedir.
 
 Wells Fargo, ABD'nin tüm eyaletlerinde ve dünya çapında birçok ülkede faaliyet göstermektedir. Banka, milyonlarca müşteriye hizmet vermekte ve binlerce şubesi bulunmaktadır. Wells Fargo, Fortune 500 listesinde yer alan en büyük şirketlerden biridir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.wellsfargo.com/",
       img: "/wells-fargo.png",
       isBoycotted: "boykot",
@@ -685,7 +688,7 @@ Baupost Group'un yatırım felsefesi risk yönetimini vurgular ve yalnızca uzun
 Baupost Group'un varlıkları 1982'de 30 milyon dolar iken, 31 Aralık 2013 itibarıyla 29,9 milyar dolara yükselmiştir. 2022 yılı itibarıyla yönetimindeki varlıklar (AUM) 25 milyar ABD dolarıdır. Şirketin merkezi Boston, ABD'de bulunmaktadır ve 2011 yılında Londra'da bir ofis açmıştır.
 
 2004 yılında Baupost Group'ta 42 çalışanın çalıştığı bildirilmiştir: 12'si yatırım odaklı ve 30'u idari. 2020 yılı itibarıyla çalışan sayısı 61'dir. Şirket, özel bir yapıya sahiptir ve Seth Klarman başkanlığında yönetilmektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.baupost.com/",
       img: "/baupost-group.png",
       isBoycotted: "boykot",
@@ -707,7 +710,7 @@ Kurucusu, CEO'su ve Eş CIO'su Griffin, şirketin yaklaşık %85'ine sahiptir. A
 Citadel LLC, piyasa yapıcı Citadel Securities'den yasal olarak farklıdır, ancak her ikisi de Griffin tarafından kurulmuş ve Griffin'e aittir ve ortak mülkiyet yapıları altında kalmaya devam etmektedir. 23 Haziran 2022'de Griffin, çalışanlara gönderdiği bir mektupta Citadel'in genel merkezinin Chicago'dan Miami, Florida'ya taşınacağını açıklamıştır.
 
 2023 yılında Citadel, müşterilerine yaklaşık 7 milyar dolar kar sağlamış ve bu, bayrak gemisi fonu için yaklaşık %15 getiriye karşılık gelmiştir. Haziran 2024 itibarıyla Citadel, 63 milyar doların üzerinde sermaye yönetmekte ve dünyanın en büyük varlık yöneticilerinden biri olarak tanınmaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.citadel.com/",
       img: "/citadel.png",
       isBoycotted: "boykot",
@@ -726,7 +729,7 @@ CareTrust, 2014 yılında ülkenin önde gelen akut sonrası bakım ve yaşlıla
 CareTrust, bu mükemmellik odaklı, operatör merkezli zihniyeti DNA'sında taşır ve şimdi ülke çapında yenilikçi hizmet ve kaliteli hasta ve sakin bakımı tutkusunu paylaşan diğer operatörlerle ortaklık kurmayı hedeflemektedir. Özünde operatör olan CareTrust ekibi, Ensign'ın yeni kurulan bir şirketten ülkenin en başarılı, halka açık, çok eyaletli sağlık ve yaşlı bakım konutu operatörlerinden biri haline gelme yolunda edindiği deneyimleri yeni operatör ilişkilerine de taşımaktadır.
 
 CareTrust, bireysel operatörün gayrimenkul değeri için ne kadar önemli olduğunun farkındadır ve yalnızca işlerini büyütmek isteyen operatörlere değil, aynı zamanda başarılı olup da zor kazandıkları işletme değerinin bir kısmını masadan kaldırmak, gayrimenkul planlarını finanse etmek, işletmelerinin sermayesini yeniden düzenlemek veya çıkıp emekli olmak isteyen operatörlere de finansman ve destek sağlamayı amaçlamaktadır. CareTrust, küçük operatörler ve halka açık, çok eyaletli operatörlerinden biri olarak 55 yılı aşkın kolektif deneyime sahip üst düzey yönetim tarafından yönetilmektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.caretrustreit.com/",
       img: "/caretrust-reit.png",
       isBoycotted: "boykot",
@@ -749,7 +752,7 @@ JPMorgan Chase, 1996'dan bu yana birçok büyük ABD bankacılık şirketinin bi
 Şirketin en eski kurumu, Aaron Burr tarafından 1 Eylül 1799'da kurulan Bank of Manhattan Company'dir. Bu, ABD'nin üçüncü en eski bankacılık şirketi ve dünyanın 31. en eski bankasıdır. Chase Manhattan Bankası, 1955 yılında Manhattan Company (1799'da kuruldu) tarafından Chase National Bank'ın (1877'de kuruldu) satın alınmasıyla kurulmuştur.
 
 JPMorgan Chase, "Bulge Bracket" bankası olarak kabul edilir ve çeşitli yatırım bankacılığı ve finansal hizmetlerin birincil sağlayıcısıdır. Şirket, evrensel banka ve saklama bankası olarak tanınmaktadır. "J.P. Morgan" markası, yatırım bankacılığı, varlık yönetimi, özel bankacılık, özel varlık yönetimi ve hazine hizmetleri bölümleri tarafından kullanılmaktadır. 2025 yılı itibarıyla şirketin geliri 177,6 milyar ABD doları ve çalışan sayısı 256.981'dir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.jpmorganchase.com/",
       img: "/jpmorgan-chase.png",
       isBoycotted: "boykot",
@@ -771,7 +774,7 @@ Jefferies, 1962 yılında kurulmuştur. Şirket, birleşme ve satın almalar, ye
 Mayıs 2018'de Leucadia'nın Jefferies Financial Group olarak yeniden adlandırılmasının ardından, Jefferies, Jefferies Financial Group içindeki en büyük işletme şirketi haline gelmiştir. Jefferies Group LLC, Jefferies LLC'nin bir bağlı kuruluşudur ve bu da Jefferies Financial Group'un (eski adıyla Leucadia) bir bağlı kuruluşudur.
 
 2024 yılı itibarıyla Jefferies'in başkanı, CEO'su ve başkanı Richard B. Handler, yönetim kurulu başkanı ise Brian P. Friedman'dır. Şirketin 2.885 çalışanı bulunmaktadır ve dünya çapında hizmet vermektedir. 30 Kasım 2017 itibarıyla şirketin geliri 8,2 milyar ABD dolarıdır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.jefferies.com/",
       img: "/jefferies.png",
       isBoycotted: "boykot",
@@ -793,7 +796,7 @@ Cascade, hükümlü suçlu Andrew Evans tarafından yönetilen Dominion Income M
 Cascade, geniş bir kabuk şirket ağı aracılığıyla 269.000 dönüm tarım arazisi (tarihsel olarak borsaya karşı döngüsel) tutmaktadır ve bu da Cascade Investment'ı Amerika Birleşik Devletleri'nin en büyük tarım arazisi sahibi yapmaktadır. Cascade, 2013'ten bu yana Gates'in Canadian National Railway'deki hissesini yönetmektedir ve bu, yatırım şirketinin en büyük varlıklarından birini oluşturmaktadır.
 
 2021 yılı itibarıyla Cascade'nin toplam varlıkları 70 milyar ABD dolarıdır. 2022 yılında şirket, 940 milyon dolar değerinde hisse satarak Gates'in hissesini %1,4'e düşürmüştür. Cascade, Front Range Investment Holdings LLC, Cottonwood Management LLC ve Lakeland Sands Florida, LLC gibi bağlı ortaklıklara sahiptir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "",
       img: "/cascade.png",
       isBoycotted: "boykot",
@@ -817,7 +820,7 @@ Endeavor, 1997 yılında Linda Rottenberg ve Peter Kellner tarafından kurulmuş
 2007 yılında MercadoLibre, NASDAQ'da halka arz edilen ilk Endeavor şirketi olmuştur. 2009 yılında Endeavor'un ortak kurucusu Linda Rottenberg, Mısır'da düzenlenen Orta Doğu Dünya Ekonomik Forumu'na eş başkanlık yapmıştır. Aynı yıl Endeavor, Omidyar Network'ten 10 milyon dolar taahhüt almıştır.
 
 Endeavor, Latin Amerika, Orta Doğu, Güneydoğu Asya, Afrika ve Avrupa'da 40'tan fazla bağlı ofise sahiptir. 2016 yılı itibarıyla organizasyonun geliri 10,759,332 ABD doları, 2022 yılı itibarıyla toplam varlıkları 22,667,622 ABD dolarıdır. Organizasyonun dünya çapında 500'den fazla çalışanı bulunmaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://turkiye.endeavor.org/",
       img: "/endeavor.png",
       isBoycotted: "boykot",
@@ -839,7 +842,7 @@ Endeavor'un İsrail'e destek veren küresel finansal sistemin bir parçası olma
 TS Chapman ve Henry Cutler tarafından geliştirilen bankacılık, kamu finansmanı, menkul kıymetler ve kurumsal finans uygulamaları, firmanın temelini oluşturmuştur. Bu güçlü temel sayesinde Chapman and Cutler, Büyük Buhran, dünya savaşları, çeşitli seviyelerdeki küresel mali krizler ve pandemiler dahil olmak üzere önemli tarihsel zorlukları başarıyla aşmıştır.
 
 Firma tarihi boyunca müşterilerine çeşitli finansman türlerine erişim konusunda yardımcı olmuştur. Örnekler arasında demiryolu ekipmanları, otomobiller, kredi kartı alacakları, öğrenci kredileri, uçaklar, gemiler, ofis binaları, fabrikalar, okullar, belediye binaları, hastaneler, rüzgar çiftlikleri, yüksek hızlı trenler ve enerji tesisleri bulunmaktadır. Chapman and Cutler, finansal hizmetler alanında uzmanlaşmış bir hukuk firması olarak faaliyet göstermektedir.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.chapman.com/",
       img: "/chapman.png",
       isBoycotted: "boykot",
@@ -861,7 +864,7 @@ Companion Fund, evcil hayvan bakımı ve sağlığı üzerine yatırımlarda bul
 Companion Fund, başlangıcından bu yana erken aşama evcil hayvan bakımı startup'ları için dünyanın önde gelen yatırım fonlarından biri haline gelmiştir. Fon, Smalls, MySimplePetLab ve Scratch gibi yenilikçi şirketlere yatırım yapmıştır. Companion Fund II, daha fazla startup'ı büyüme aşamalarında destekleyecektir.
 
 Fon, başlıca Amerika Birleşik Devletleri ve Avrupa'da bulunan hayvan sağlığı şirketlerine yatırım yapmayı planlamaktadır. Digitalis Ventures, fonun bağımsız yönetimini sağlamaktadır ve portföy şirketlerinin gelişimleri boyunca farklılaştırılmış uzmanlık ile desteklenmesini amaçlamaktadır.`,
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       website: "https://www.companionfund.com/",
       img: "/companion-fund.png",
       isBoycotted: "boykot",

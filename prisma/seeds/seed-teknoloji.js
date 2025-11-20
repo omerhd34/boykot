@@ -4,6 +4,7 @@ const teknolojiCategory = {
   iconKey: "cpu",
   description: "Elektronik ve yazılım ekosistemindeki markalar.",
   brands: [
+    // whatsapp
     {
       name: "Teknosa",
       slug: "",

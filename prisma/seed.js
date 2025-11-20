@@ -1,13 +1,152 @@
 import prisma from "../lib/prisma.js";
 import categorySeed from "./seeds/index.js";
 
+async function createSubBrands(
+  subBrands,
+  parentBrandId,
+  categoryId,
+  existingSlugs
+) {
+  if (!subBrands || !Array.isArray(subBrands)) {
+    return;
+  }
+
+  for (const subBrand of subBrands) {
+    if (!subBrand.name || !subBrand.slug || subBrand.slug.trim() === "") {
+      console.log(
+        `Alt marka '${
+          subBrand.name || "İsimsiz"
+        }' geçersiz veri nedeniyle atlanıyor...`
+      );
+      continue;
+    }
+
+    let subBoycottStatus = "boykot-degil";
+
+    if (
+      subBrand.isBoycotted === true ||
+      subBrand.isBoycotted === "true" ||
+      subBrand.isBoycotted === 1
+    ) {
+      subBoycottStatus = "boykot";
+    } else if (
+      subBrand.isBoycotted === false ||
+      subBrand.isBoycotted === "false" ||
+      subBrand.isBoycotted === 0
+    ) {
+      subBoycottStatus = "boykot-degil";
+    } else if (typeof subBrand.isBoycotted === "string") {
+      subBoycottStatus = subBrand.isBoycotted;
+    }
+
+    if (!existingSlugs.has(subBrand.slug)) {
+      try {
+        const {
+          subBrands: nestedSubBrands,
+          alternative_products,
+          evidences,
+          pill_category,
+          isBoycotted: _,
+          ctgry,
+          ...subBrandData
+        } = subBrand;
+
+        const evidencesArray = (evidences || []).filter(
+          (evidence) =>
+            evidence && typeof evidence === "string" && evidence.trim() !== ""
+        );
+
+        const pillCategoryArray = pill_category || [];
+        const pillCategoryStrings = pillCategoryArray
+          .filter((item) => {
+            if (typeof item === "object" && item !== null) {
+              return (
+                item.name &&
+                typeof item.name === "string" &&
+                item.name.trim() !== ""
+              );
+            }
+            return typeof item === "string" && item.trim() !== "";
+          })
+          .map((item) => {
+            if (typeof item === "object" && item !== null) {
+              const name = item.name.trim();
+              const usage = item.usage ? item.usage.trim() : "";
+              return usage ? `${name} (${usage})` : name;
+            }
+            return item.trim();
+          });
+
+        let subBrandSubCategoryArray = [];
+        if (ctgry) {
+          if (Array.isArray(ctgry)) {
+            const filteredItems = ctgry.filter(
+              (item) => item && typeof item === "string" && item.trim() !== ""
+            );
+            subBrandSubCategoryArray = filteredItems.map((item) => item.trim());
+          } else if (typeof ctgry === "string" && ctgry.trim() !== "") {
+            subBrandSubCategoryArray = [ctgry.trim()];
+          }
+        }
+
+        const createdSubBrand = await prisma.brand.create({
+          data: {
+            ...subBrandData,
+            isBoycotted: subBoycottStatus,
+            alternative_products: alternative_products || [],
+            evidences: evidencesArray,
+            pill_category: pillCategoryStrings,
+            category: {
+              connect: {
+                id: categoryId,
+              },
+            },
+            parentBrand: {
+              connect: {
+                id: parentBrandId,
+              },
+            },
+            subCategory: subBrandSubCategoryArray,
+          },
+        });
+        existingSlugs.add(subBrand.slug);
+
+        // Recursive olarak nested subBrands'ı işle
+        if (nestedSubBrands && Array.isArray(nestedSubBrands)) {
+          await createSubBrands(
+            nestedSubBrands,
+            createdSubBrand.id,
+            categoryId,
+            existingSlugs
+          );
+        }
+      } catch (error) {
+        if (error.code === "P2002") {
+          console.log(
+            `Alt marka '${subBrand.name}' (${subBrand.slug}) zaten mevcut, atlanıyor...`
+          );
+        } else {
+          throw error;
+        }
+      }
+    } else {
+      console.log(
+        `Alt marka '${subBrand.name}' (${subBrand.slug}) duplicate, atlanıyor...`
+      );
+    }
+  }
+}
+
 async function main() {
   console.log("Seed işlemi başlıyor...");
 
   console.log("Mevcut kategori ve marka verileri temizleniyor...");
-  await prisma.brand.deleteMany({
+  await prisma.brand.updateMany({
     where: {
       parentBrandId: { not: null },
+    },
+    data: {
+      parentBrandId: null,
     },
   });
   await prisma.brand.deleteMany({});
@@ -133,99 +272,14 @@ async function main() {
           });
           existingSlugs.add(brand.slug);
 
+          // Recursive fonksiyon ile subBrands'ı işle (nested subBrands dahil)
           if (subBrands && Array.isArray(subBrands)) {
-            for (const subBrand of subBrands) {
-              if (
-                !subBrand.name ||
-                !subBrand.slug ||
-                subBrand.slug.trim() === ""
-              ) {
-                console.log(
-                  `Alt marka '${
-                    subBrand.name || "İsimsiz"
-                  }' geçersiz veri nedeniyle atlanıyor...`
-                );
-                continue;
-              }
-
-              let subBoycottStatus = "boykot-degil";
-
-              if (
-                subBrand.isBoycotted === true ||
-                subBrand.isBoycotted === "true" ||
-                subBrand.isBoycotted === 1
-              ) {
-                subBoycottStatus = "boykot";
-              } else if (
-                subBrand.isBoycotted === false ||
-                subBrand.isBoycotted === "false" ||
-                subBrand.isBoycotted === 0
-              ) {
-                subBoycottStatus = "boykot-degil";
-              } else if (typeof subBrand.isBoycotted === "string") {
-                subBoycottStatus = subBrand.isBoycotted;
-              }
-
-              if (!existingSlugs.has(subBrand.slug)) {
-                try {
-                  const {
-                    alternative_products,
-                    isBoycotted: _,
-                    ctgry,
-                    ...subBrandData
-                  } = subBrand;
-                  let subBrandSubCategoryArray = [];
-                  if (ctgry) {
-                    if (Array.isArray(ctgry)) {
-                      const filteredItems = ctgry.filter(
-                        (item) =>
-                          item && typeof item === "string" && item.trim() !== ""
-                      );
-                      subBrandSubCategoryArray = filteredItems.map((item) =>
-                        item.trim()
-                      );
-                    } else if (
-                      typeof ctgry === "string" &&
-                      ctgry.trim() !== ""
-                    ) {
-                      subBrandSubCategoryArray = [ctgry.trim()];
-                    }
-                  }
-
-                  await prisma.brand.create({
-                    data: {
-                      ...subBrandData,
-                      isBoycotted: subBoycottStatus,
-                      alternative_products: alternative_products || [],
-                      category: {
-                        connect: {
-                          id: category.id,
-                        },
-                      },
-                      parentBrand: {
-                        connect: {
-                          id: createdBrand.id,
-                        },
-                      },
-                      subCategory: subBrandSubCategoryArray,
-                    },
-                  });
-                  existingSlugs.add(subBrand.slug);
-                } catch (error) {
-                  if (error.code === "P2002") {
-                    console.log(
-                      `Alt marka '${subBrand.name}' (${subBrand.slug}) zaten mevcut, atlanıyor...`
-                    );
-                  } else {
-                    throw error;
-                  }
-                }
-              } else {
-                console.log(
-                  `Alt marka '${subBrand.name}' (${subBrand.slug}) duplicate, atlanıyor...`
-                );
-              }
-            }
+            await createSubBrands(
+              subBrands,
+              createdBrand.id,
+              category.id,
+              existingSlugs
+            );
           }
         } catch (error) {
           if (error.code === "P2002") {

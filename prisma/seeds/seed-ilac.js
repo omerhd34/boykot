@@ -310,7 +310,7 @@ Bayer'in geniş bir ilaç portföyü bulunmaktadır. Şirket, birçok terapötik
       foundedYear: 1876,
       founder: "Eli Lilly",
       owner: "Bilinmiyor",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: ["nobel", "abdi-ibrahim"],
       img: "/lilly.png",
       isBoycotted: "boykot",
@@ -432,7 +432,7 @@ Novartis, eczacılık, jenerik ilaç, tezgahüstü ilaç piyasası, aşı, teşh
       foundedYear: 1837,
       founder: "William Procter ve James Gamble",
       owner: "Halka açık",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: ["nobel", "abdi-ibrahim"],
       pill_category: [
         {
@@ -1634,7 +1634,7 @@ Reckitt olarak koruyor, iyileştiriyor ve besliyoruz. Dünyanın en tanınmış 
       foundedYear: 1886,
       founder: "Robert Wood Johnson I, James Wood Johnson, Edward Mead Johnson",
       owner: "Halka açık",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [],
       img: "/johnson.png",
       isBoycotted: "boykot",

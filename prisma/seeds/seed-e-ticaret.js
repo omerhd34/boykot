@@ -4,6 +4,7 @@ const eTicaretCategory = {
   iconKey: "store",
   description: "Çevrim içi perakende ve pazar yeri platformları.",
   brands: [
+    // Fiskobirlik marketi ekle.
     {
       name: "Trendyol",
       slug: "trendyol",
@@ -167,7 +168,7 @@ Alibaba Group'un Çin hükümetiyle yakın ilişkileri ve Doğu Türkistan'daki 
 
       founder: "Jeff Bezos",
       owner: "Jeff Bezos",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "hepsiburada",
         "halal-dunya-marketleri",
@@ -229,7 +230,7 @@ Gazze ve Filistin'de yaşanan insan hakları sorunlarına gösterilen hassasiyet
 
       founder: "Rob Kalin, Haim Schoppik Ve Chris Maguire",
       owner: "Halka açık",
-      country: "Amerika Birleşik Devletleri",
+      country: "ABD",
       alternative_products: [
         "hepsiburada",
         "halal-dunya-marketleri",
