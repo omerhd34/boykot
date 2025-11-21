@@ -1,6 +1,8 @@
 // ! Marks & Spencer'ın categorilerini düzenle. ve devam et. ctgry kısmını düzenle.
 // https://boykotdedektifi.org/c/giyim-tekstil-2
 // https://boykotdedektifi.org/c/moda-10
+// https://boykotdedektifi.org/b/capriholdings-659
+
 const giyimTekstilCategory = {
  name: "Giyim - Tekstil",
  slug: "giyim-tekstil",
