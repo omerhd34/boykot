@@ -880,7 +880,7 @@ Cora'nın Carrefour Group'a ait olması ve Carrefour bünyesinde faaliyet göste
    img: "/asda.png",
    isBoycotted: "boykot",
    website: "https://www.asda.com/",
-   description: `Asda Stores Limited (/'æzdə/), yaygın olarak ASDA olarak bilinen, İngiltere merkezli bir süpermarket ve benzin istasyonu zinciridir. Genel merkezi Leeds, İngiltere'de bulunmaktadır. Şirket, 1949 yılında Associated Dairies and Farm Stores adıyla kurulmuştur.
+   description: `Asda Stores Limited, yaygın olarak ASDA olarak bilinen, İngiltere merkezli bir süpermarket ve benzin istasyonu zinciridir. Genel merkezi Leeds, İngiltere'de bulunmaktadır. Şirket, 1949 yılında Associated Dairies and Farm Stores adıyla kurulmuştur.
 
 1970'ler ve 1980'lerde Asda, Güney İngiltere'ye genişlemiş ve Allied Carpets, 61 büyük Gateway Supermarkets ve MFI gibi işletmeleri satın almıştır. 1990'larda şirket, süpermarket dışındaki işletmelerini satarak ana süpermarket operasyonlarına odaklanmıştır.
 

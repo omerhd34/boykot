@@ -127,7 +127,7 @@ export default async function BrandDetailPage({ params }) {
         {brand.country}
        </div>
       )}
-      {brand.subCategory && (
+      {brand.subCategory && brand.subCategory.length > 0 && (
        <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-purple-500 to-purple-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
         <IoAppsOutline className="h-4 w-4" />
         {Array.isArray(brand.subCategory)

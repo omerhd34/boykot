@@ -204,24 +204,42 @@ export default function AdminPage() {
   <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 py-8">
    <div className="container mx-auto px-4">
     {/* Header */}
-    <div className="mb-8 flex flex-wrap items-center justify-between gap-4 rounded-2xl border-2 border-slate-200 bg-white px-6 py-4 shadow-sm">
-     <div className="flex items-center gap-4">
-      <Link
-       href="/"
-       className="inline-flex items-center gap-2 text-sm text-slate-600 transition hover:text-orange-600"
+    <div className="mb-8 rounded-2xl border-2 border-slate-200 bg-white shadow-sm">
+     <div className="flex flex-wrap items-center justify-between gap-4 px-6 py-4">
+      <div className="flex items-center gap-4">
+       <Link
+        href="/"
+        className="inline-flex items-center gap-2 text-sm text-slate-600 transition hover:text-orange-600"
+       >
+        <IoArrowBack className="h-4 w-4" />
+        Ana Sayfa
+       </Link>
+       <h1 className="text-2xl font-bold text-slate-900">Admin Paneli</h1>
+      </div>
+      <button
+       onClick={handleLogout}
+       className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-white px-4 py-2 text-sm font-semibold text-red-600 transition hover:bg-red-50"
       >
-       <IoArrowBack className="h-4 w-4" />
-       Ana Sayfa
-      </Link>
-      <h1 className="text-2xl font-bold text-slate-900">Admin Paneli</h1>
+       <IoLogOutOutline className="h-5 w-5" />
+       Çıkış Yap
+      </button>
      </div>
-     <button
-      onClick={handleLogout}
-      className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-white px-4 py-2 text-sm font-semibold text-red-600 transition hover:bg-red-50"
-     >
-      <IoLogOutOutline className="h-5 w-5" />
-      Çıkış Yap
-     </button>
+
+     {/* Navigation Tabs */}
+     <div className="flex gap-1 border-t border-slate-200 px-6">
+      <Link
+       href="/admin"
+       className="border-b-2 border-orange-500 px-4 py-3 text-sm font-semibold text-orange-600"
+      >
+       İtirazlar
+      </Link>
+      <Link
+       href="/admin/brand-suggestions"
+       className="border-b-2 border-transparent px-4 py-3 text-sm font-semibold text-slate-600 transition hover:text-orange-600"
+      >
+       Marka Önerileri
+      </Link>
+     </div>
     </div>
 
     {/* Filters */}
