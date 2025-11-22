@@ -11,12 +11,14 @@ import {
  FiArrowUpRight,
  FiMail,
  FiArrowRight,
+ FiGrid,
 } from "react-icons/fi";
 import BoykotLogo from "./BoykotLogo.jsx";
 
 export default function Header() {
  const router = useRouter();
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+ const [categoryMenuOpen, setCategoryMenuOpen] = useState(false);
  const [resultsOpen, setResultsOpen] = useState(false);
  const [searchTerm, setSearchTerm] = useState("");
  const [searchError, setSearchError] = useState("");
@@ -103,6 +105,10 @@ export default function Header() {
 
  function closeMobileMenu() {
   setMobileMenuOpen(false);
+ }
+
+ function toggleCategoryMenu() {
+  setCategoryMenuOpen((prev) => !prev);
  }
 
  function handleSearchChange(event) {
@@ -240,7 +246,7 @@ export default function Header() {
      <div className="relative flex-1 max-w-3xl mx-auto" ref={searchContainerRef}>
       <form
        onSubmit={handleSearchSubmit}
-       className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 px-5 py-3 shadow-sm hover:border-slate-300 transition-colors"
+       className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-0 shadow-sm hover:border-slate-300 transition-colors h-[50px]"
       >
        <FiSearch size={18} className="text-slate-400 shrink-0" aria-hidden="true" />
        <input
@@ -253,7 +259,7 @@ export default function Header() {
        />
        <button
         type="submit"
-        className="inline-flex items-center justify-center rounded-lg bg-orange-500 px-5 py-2 text-sm font-semibold text-white transition hover:bg-orange-600 disabled:cursor-not-allowed disabled:bg-orange-400 shadow-sm"
+        className="inline-flex items-center justify-center rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600 disabled:cursor-not-allowed disabled:bg-orange-400 shadow-sm"
         disabled={isSearching}
         aria-label="Ara"
        >
@@ -348,9 +354,18 @@ export default function Header() {
       )}
      </div>
 
+     <button
+      type="button"
+      onClick={toggleCategoryMenu}
+      className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 h-[50px] text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+     >
+      <FiGrid size={18} aria-hidden="true" />
+      <span>Kategoriler</span>
+     </button>
+
      <Link
       href="/iletisim"
-      className="inline-flex items-center gap-2 rounded-xl bg-orange-500 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-orange-600 shadow-sm"
+      className="inline-flex items-center gap-2 rounded-xl bg-orange-500 px-5 h-[50px] text-sm font-medium text-white transition hover:bg-orange-600 shadow-sm"
      >
       <FiMail size={18} aria-hidden="true" />
       <span>İletişim</span>
@@ -373,7 +388,7 @@ export default function Header() {
       <div className="relative mb-4" ref={searchContainerRef}>
        <form
         onSubmit={handleSearchSubmit}
-        className="flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5"
+        className="flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-0 h-[50px]"
        >
         <FiSearch size={16} className="text-slate-400" aria-hidden="true" />
         <input
@@ -480,9 +495,17 @@ export default function Header() {
         </div>
        )}
       </div>
+      <button
+       type="button"
+       onClick={toggleCategoryMenu}
+       className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 h-[50px] text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600"
+      >
+       <FiGrid size={16} aria-hidden="true" />
+       Kategoriler
+      </button>
       <Link
        href="/iletisim"
-       className="inline-flex items-center gap-2 rounded-xl bg-orange-500 px-4 py-2.5 text-white transition hover:bg-orange-600"
+       className="inline-flex items-center gap-2 rounded-xl bg-orange-500 px-4 h-[50px] text-white transition hover:bg-orange-600"
        onClick={closeMobileMenu}
       >
        <FiMail size={16} aria-hidden="true" />
@@ -492,62 +515,80 @@ export default function Header() {
     </div>
    )}
 
-   <nav className="fixed inset-x-0 top-[184px] z-30 border-b border-slate-200 bg-white py-5 shadow-sm">
-    <div className="container">
-     <div className="flex flex-wrap items-center justify-center gap-3">
-      <Link
-       href="/kategoriler/giyim-tekstil"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       Giyim - Tekstil
-      </Link>
+   <div
+    className={`fixed inset-x-0 top-[184px] z-30 border-b border-slate-200 bg-white shadow-sm transition-all duration-500 ease-in-out ${categoryMenuOpen ? 'visible opacity-100' : 'invisible opacity-0 pointer-events-none'
+     }`}
+   >
+    <div
+     className={`transform transition-transform duration-500 ease-out ${categoryMenuOpen ? 'translate-x-0' : 'translate-x-full'
+      }`}
+    >
+     <nav className="py-5">
+      <div className="container">
+       <div className="flex flex-wrap items-center justify-center gap-3">
+        <Link
+         href="/kategoriler/giyim-tekstil"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         Giyim - Tekstil
+        </Link>
 
-      <Link
-       href="/kategoriler/market-alisverisi"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       Market Alışverişi
-      </Link>
-      <Link
-       href="/kategoriler/supermarket"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       Süpermarket
-      </Link>
-      <Link
-       href="/kategoriler/e-ticaret"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       E-ticaret
-      </Link>
-      <Link
-       href="/kategoriler/finans"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       Finans
-      </Link>
-      <Link
-       href="/kategoriler/dijital-medya"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       Dijital Medya
-      </Link>
-      <Link
-       href="/kategoriler/teknoloji"
-       className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
-      >
-       Teknoloji
-      </Link>
-      <Link
-       href="/kategoriler"
-       className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-5 py-2.5 text-sm font-medium text-white shadow-sm transition hover:bg-orange-600"
-      >
-       <span>Diğerleri</span>
-       <FiArrowRight size={16} aria-hidden="true" />
-      </Link>
-     </div>
+        <Link
+         href="/kategoriler/market-alisverisi"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         Market Alışverişi
+        </Link>
+        <Link
+         href="/kategoriler/supermarket"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         Süpermarket
+        </Link>
+        <Link
+         href="/kategoriler/e-ticaret"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         E-ticaret
+        </Link>
+        <Link
+         href="/kategoriler/finans"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         Finans
+        </Link>
+        <Link
+         href="/kategoriler/dijital-medya"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         Dijital Medya
+        </Link>
+        <Link
+         href="/kategoriler/teknoloji"
+         className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         Teknoloji
+        </Link>
+        <Link
+         href="/kategoriler"
+         className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-5 py-2.5 text-sm font-medium text-white shadow-sm transition hover:bg-orange-600"
+         onClick={() => setCategoryMenuOpen(false)}
+        >
+         <span>Diğerleri</span>
+         <FiArrowRight size={16} aria-hidden="true" />
+        </Link>
+       </div>
+      </div>
+     </nav>
     </div>
-   </nav>
+   </div>
   </header>
  );
 }

@@ -56,13 +56,11 @@ export default function Footer() {
         <span>destek@boykotrehberi.org</span>
        </Link>
        <Link
-        href="https://forms.gle/8xHXfBoykotFormu"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/marka-onerisi"
         className="flex items-center gap-2 text-sm text-slate-600 transition hover:text-orange-500"
        >
         <FiExternalLink className="h-4 w-4" />
-        <span>Gönüllü Başvuru</span>
+        <span>Marka Önerisi</span>
        </Link>
       </div>
      </div>

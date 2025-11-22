@@ -33,7 +33,7 @@ export default async function RootLayout({ children }) {
     className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col bg-slate-50`}
    >
     <Header />
-    <main className="flex-1 pt-[260px]">{children}</main>
+    <main className="flex-1 pt-[180px]">{children}</main>
     <Footer />
    </body>
   </html>

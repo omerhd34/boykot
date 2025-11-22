@@ -1,81 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
- FiArrowRight,
  FiCheckCircle,
- FiCompass,
- FiHeart,
- FiShield,
  FiSlash,
- FiTrendingUp,
- FiUsers,
 } from "react-icons/fi";
 import prisma from "../lib/prisma.js";
-
-const VALUES = [
- {
-  title: "Şeffaf bilgi",
-  description:
-   "Bağımsız kaynaklardan doğrulanan verilerle hareket eder, kulaktan dolma bilgilere dayanmayız.",
-  icon: FiShield,
- },
- {
-  title: "Dayanışma kültürü",
-  description:
-   "Topluluk içerisinde deneyim ve kaynak paylaşarak herkesin katkı sunmasını kolaylaştırırız.",
-  icon: FiUsers,
- },
- {
-  title: "Vicdani duruş",
-  description:
-   "Tüketim gücümüzü adalet talebine dönüştürür, şirketleri sorumluluk almaya davet ederiz.",
-  icon: FiHeart,
- },
-];
-
-const WHY_ITEMS = [
- {
-  title: "Adalet talebi",
-  description:
-   "Haksız uygulamaları görünür kılmak için ekonomik baskının dönüştürücü gücünden yararlanırız.",
-  icon: FiTrendingUp,
- },
- {
-  title: "İnsan onuru",
-  description:
-   "Emeğe saygı duyan, sömürüyü reddeden ve temel haklara değer veren bir tüketim modeli savunuruz.",
-  icon: FiHeart,
- },
- {
-  title: "Doğa ve gelecek",
-  description:
-   "Çevreye zarar veren politikalara karşı kolektif ses çıkarır, sürdürülebilir alternatifleri destekleriz.",
-  icon: FiCompass,
- },
-];
-
-const STEPS = [
- {
-  title: "Araştır ve doğrula",
-  description:
-   "İddiaların kaynağını sorgula, güvenilir raporları ve bağımsız incelemeleri temel al.",
- },
- {
-  title: "İlkeni belirle",
-  description:
-   "Boykot gerekçesini ve beklenen değişimi netleştir, toplulukla aynı hedefte buluş.",
- },
- {
-  title: "Paylaş ve yaygınlaştır",
-  description:
-   "Deneyimlerini, alternatif önerilerini ve gelişmeleri toplulukla paylaş, farkındalığı artır.",
- },
- {
-  title: "Takip et ve değerlendir",
-  description:
-   "Şirketlerin attığı adımları izleyerek sonuçları ölç, gerektiğinde boykotu güncelle.",
- },
-];
 
 export default async function Home() {
  const companyCount = await prisma.brand.count();
@@ -87,7 +16,7 @@ export default async function Home() {
 
  return (
   <>
-   <section className="relative overflow-hidden bg-linear-to-br from-orange-50 via-white to-white pb-24 pt-16">
+   <section className="relative overflow-hidden bg-linear-to-br from-orange-50 via-white to-white pb-24 pt-9">
     <div className="absolute left-1/2 top-10 h-64 w-64 -translate-x-1/2 rounded-full bg-orange-200/40 blur-3xl" />
     <div className="container relative z-10 grid items-center gap-16 lg:grid-cols-[1.05fr_0.95fr]">
      <div className="flex flex-col gap-8">
@@ -110,12 +39,6 @@ export default async function Home() {
        >
         <span>Boykot listesine göz at</span>
         <FiSlash size={18} aria-hidden="true" />
-       </Link>
-       <Link
-        href="#boykot-nedir"
-        className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-600 transition hover:border-slate-300 hover:text-slate-900"
-       >
-        Boykot rehberine göz at
        </Link>
       </div>
       <div className="grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-3">

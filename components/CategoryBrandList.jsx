@@ -6,14 +6,19 @@ import { useMemo, useState, useRef, useEffect } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import PropTypes from 'prop-types';
 import {
+ Carousel,
+ CarouselContent,
+ CarouselItem,
+ CarouselNext,
+ CarouselPrevious,
+} from "@/components/ui/carousel";
+import {
  IoChevronDown,
  IoCloseCircle,
  IoWarning,
  IoCheckmarkCircle,
  IoArrowForward,
  IoLinkOutline,
- IoChevronBack,
- IoChevronForward
 } from "react-icons/io5";
 
 const FILTERS = [
@@ -38,9 +43,6 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
  const [isSubCategoryDropdownOpen, setIsSubCategoryDropdownOpen] = useState(false);
  const countryDropdownRef = useRef(null);
  const subCategoryDropdownRef = useRef(null);
- const sliderRef = useRef(null);
- const [canScrollLeft, setCanScrollLeft] = useState(false);
- const [canScrollRight, setCanScrollRight] = useState(true);
 
  const availableCountries = useMemo(() => {
   const countries = brands
@@ -190,74 +192,6 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
   }
  }, [isCountryDropdownOpen, isSubCategoryDropdownOpen]);
 
- const checkScrollability = () => {
-  if (sliderRef.current) {
-   const { scrollLeft, scrollWidth, clientWidth } = sliderRef.current;
-   setCanScrollLeft(scrollLeft > 0);
-   setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
-  }
- };
-
- useEffect(() => {
-  const slider = sliderRef.current;
-  if (slider) {
-   const resetScroll = () => {
-    // Scroll'u kesinlikle 0'a ayarla
-    slider.scrollLeft = 0;
-    // Force reflow
-    void slider.offsetHeight;
-    slider.scrollLeft = 0;
-    checkScrollability();
-   };
-
-   // Immediate reset
-   resetScroll();
-
-   // Multiple attempts to ensure scroll is reset
-   requestAnimationFrame(() => {
-    resetScroll();
-    requestAnimationFrame(() => {
-     resetScroll();
-    });
-   });
-
-   const timer = setTimeout(() => {
-    resetScroll();
-   }, 200);
-
-   slider.addEventListener("scroll", checkScrollability);
-   window.addEventListener("resize", checkScrollability);
-   return () => {
-    clearTimeout(timer);
-    slider.removeEventListener("scroll", checkScrollability);
-    window.removeEventListener("resize", checkScrollability);
-   };
-  }
- }, [filteredBrands]);
-
- const scrollLeft = () => {
-  if (sliderRef.current) {
-   const cardWidth = sliderRef.current.querySelector("article")?.offsetWidth || 0;
-   const gap = 20;
-   const isMobile = window.innerWidth < 768;
-   const scrollAmount = isMobile ? cardWidth + gap : (cardWidth + gap) * 2; // Mobilde 1, desktop'ta 2 kart
-   const targetScroll = sliderRef.current.scrollLeft - scrollAmount;
-   sliderRef.current.scrollTo({ left: targetScroll, behavior: "smooth" });
-  }
- };
-
- const scrollRight = () => {
-  if (sliderRef.current) {
-   const cardWidth = sliderRef.current.querySelector("article")?.offsetWidth || 0;
-   const gap = 20; // gap-5 = 1.25rem = 20px
-   const isMobile = window.innerWidth < 768;
-   const scrollAmount = isMobile ? cardWidth + gap : (cardWidth + gap) * 2; // Mobilde 1, desktop'ta 2 kart
-   const targetScroll = sliderRef.current.scrollLeft + scrollAmount;
-   sliderRef.current.scrollTo({ left: targetScroll, behavior: "smooth" });
-  }
- };
-
- // Önerilmiyor filtresi aktifken sayı 0 olursa filtreyi sıfırla
  useEffect(() => {
   if (activeFilter === "onerilmiyor") {
    const onerilmiyorCount = calculateStatusCounts(brands, activeCountryFilter, activeSubCategoryFilter).onerilmiyor;
@@ -286,12 +220,8 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
  return (
   <div className="space-y-6">
    <div className="flex flex-wrap items-center gap-3">
-    <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-     Listeyi filtrele
-    </span>
     <div className="inline-flex gap-2 rounded-full border border-slate-200 bg-slate-50 p-1">
      {FILTERS.filter((filter) => {
-      // Önerilmiyor filtresini sayı 0 ise gizle
       if (filter.id === "onerilmiyor") {
        const count = statusCounts[filter.id] || 0;
        return count > 0;
@@ -452,162 +382,136 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
      Seçilen filtreye göre marka bulunamadı.
     </div>
    ) : (
-    <div className="relative">
-     {/* Sol navigasyon butonu */}
-     {canScrollLeft && (
-      <button
-       onClick={scrollLeft}
-       className="absolute -left-6 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2.5 shadow-xl transition-all hover:scale-110 hover:shadow-2xl hover:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 md:-left-12 md:p-3"
-       aria-label="Önceki kartlar"
-      >
-       <IoChevronBack className="h-5 w-5 text-orange-600 transition-colors md:h-6 md:w-6" />
-      </button>
-     )}
-
-     {/* Slider container */}
-     <div
-      ref={sliderRef}
-      className="flex gap-5 overflow-x-auto scrollbar-hide scroll-smooth pb-4"
-      style={{
-       scrollbarWidth: "none",
-       msOverflowStyle: "none",
-       scrollSnapType: "x mandatory",
-      }}
-      onScroll={checkScrollability}
-     >
-      {filteredBrands.map((brand, index) => (
-       <article
-        key={brand.id}
-        className={`group flex h-full shrink-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:border-orange-300 hover:shadow-md scroll-snap-start ${index === 0 ? "ml-4 md:ml-8" : ""
-         } ${index === filteredBrands.length - 1 ? "mr-4 md:mr-8" : ""
-         } min-w-[calc(100%-2rem)] md:min-w-[calc((100%-3.25rem)/2)] md:max-w-[calc((100%-3.25rem)/2)]`}
-       >
-        <Link
-         href={`/kategoriler/${brand.categorySlug}/${brand.slug}`}
-         className="relative aspect-video w-full overflow-hidden bg-linear-to-br from-slate-50 to-slate-100"
+    <Carousel
+     opts={{
+      align: "start",
+     }}
+     className="relative w-full"
+    >
+     <CarouselContent className="-ml-5">
+      {filteredBrands.map((brand) => (
+       <CarouselItem key={brand.id} className="pl-5 md:basis-1/2">
+        <article
+         className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:border-orange-300 hover:shadow-md"
         >
-         {brand.img && (
-          <Image
-           src={brand.img}
-           alt={brand.name}
-           fill
-           className="object-cover transition-transform duration-300 group-hover:scale-105"
-           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          />
-         )}
-        </Link>
+         <Link
+          href={`/kategoriler/${brand.categorySlug}/${brand.slug}`}
+          className="relative aspect-video w-full overflow-hidden bg-linear-to-br from-slate-50 to-slate-100"
+         >
+          {brand.img && (
+           <Image
+            src={brand.img}
+            alt={brand.name}
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+           />
+          )}
+         </Link>
 
-        <div className="flex flex-1 flex-col gap-4 px-5 py-4">
-         <div className="flex items-center justify-between gap-3">
-          <Link
-           href={`/kategoriler/${brand.categorySlug}/${brand.slug}`}
-           className="text-base font-semibold text-slate-900 transition group-hover:text-orange-600"
-          >
-           {brand.name}
-          </Link>
-          {
-           (() => {
-            let bgColorClass;
-            if (brand.isBoycotted === "boykot") {
-             bgColorClass = "bg-linear-to-r from-red-500 to-red-600 text-white";
-            } else if (brand.isBoycotted === "onerilmiyor") {
-             bgColorClass = "bg-linear-to-r from-amber-500 to-amber-600 text-white";
-            } else {
-             bgColorClass = "bg-linear-to-r from-emerald-500 to-emerald-600 text-white";
-            }
-            return (
-             <span
-              className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-wide shadow-sm ${bgColorClass}`}
-             >
-              {
-               (() => {
-                if (brand.isBoycotted === "boykot") {
-                 return (
-                  <>
-                   <IoCloseCircle className="h-4 w-4" />
-                   <span>Boykot</span>
-                  </>
-                 );
-                } else if (brand.isBoycotted === "onerilmiyor") {
-                 return (
-                  <>
-                   <IoWarning className="h-4 w-4" />
-                   <span>Önerilmiyor</span>
-                  </>
-                 );
-                } else {
-                 return (
-                  <>
-                   <IoCheckmarkCircle className="h-4 w-4" />
-                   <span>Boykot Değil</span>
-                  </>
-                 );
-                }
-               })()
-              }
-             </span>
-            );
-           })()
-          }
-         </div>
-         <div className="flex flex-wrap items-center gap-2">
-          {brand.country && (
-           <div className="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-semibold uppercase text-slate-600">
-            {brand.country}
-           </div>
-          )}
-          {brand.subCategory && (
-           <div className="rounded-md bg-purple-100 px-2 py-0.5 text-xs font-semibold uppercase text-purple-700">
-            {(Array.isArray(brand.subCategory) ? brand.subCategory : [brand.subCategory]).join(" & ")}
-           </div>
-          )}
-         </div>
-         {brand.description && (
-          <p className="line-clamp-3 whitespace-pre-line text-sm leading-relaxed text-slate-600">
-           {brand.description}
-          </p>
-         )}
-         {showBoycottReason && brand.boycottReason && (
-          <div className="rounded-xl bg-red-50 px-4 py-3 text-xs leading-relaxed text-red-700 line-clamp-2">
-           {brand.boycottReason}
-          </div>
-         )}
-         <div className="mt-auto flex items-center justify-between border-t border-slate-100 pt-4">
-          <Link
-           href={`/kategoriler/${brand.categorySlug}/${brand.slug}`}
-           className="inline-flex items-center gap-2 text-sm font-semibold text-orange-600 transition hover:text-orange-700"
-          >
-           Detayı gör
-           <IoArrowForward className="h-4 w-4" />
-          </Link>
-          {brand.website && (
+         <div className="flex flex-1 flex-col gap-4 px-5 py-4">
+          <div className="flex items-center justify-between gap-3">
            <Link
-            href={brand.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-500 transition hover:text-slate-700"
+            href={`/kategoriler/${brand.categorySlug}/${brand.slug}`}
+            className="text-base font-semibold text-slate-900 transition group-hover:text-orange-600"
            >
-            Resmi Site
-            <IoLinkOutline className="h-4 w-4" />
+            {brand.name}
            </Link>
+           {
+            (() => {
+             let bgColorClass;
+             if (brand.isBoycotted === "boykot") {
+              bgColorClass = "bg-linear-to-r from-red-500 to-red-600 text-white";
+             } else if (brand.isBoycotted === "onerilmiyor") {
+              bgColorClass = "bg-linear-to-r from-amber-500 to-amber-600 text-white";
+             } else {
+              bgColorClass = "bg-linear-to-r from-emerald-500 to-emerald-600 text-white";
+             }
+             return (
+              <span
+               className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-wide shadow-sm ${bgColorClass}`}
+              >
+               {
+                (() => {
+                 if (brand.isBoycotted === "boykot") {
+                  return (
+                   <>
+                    <IoCloseCircle className="h-4 w-4" />
+                    <span>Boykot</span>
+                   </>
+                  );
+                 } else if (brand.isBoycotted === "onerilmiyor") {
+                  return (
+                   <>
+                    <IoWarning className="h-4 w-4" />
+                    <span>Önerilmiyor</span>
+                   </>
+                  );
+                 } else {
+                  return (
+                   <>
+                    <IoCheckmarkCircle className="h-4 w-4" />
+                    <span>Boykot Değil</span>
+                   </>
+                  );
+                 }
+                })()
+               }
+              </span>
+             );
+            })()
+           }
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+           {brand.country && (
+            <div className="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-semibold uppercase text-slate-600">
+             {brand.country}
+            </div>
+           )}
+           {brand.subCategory && brand.subCategory.length > 0 && (
+            <div className="rounded-md bg-purple-100 px-2 py-0.5 text-xs font-semibold uppercase text-purple-700">
+             {(Array.isArray(brand.subCategory) ? brand.subCategory : [brand.subCategory]).join(" & ")}
+            </div>
+           )}
+          </div>
+          {brand.description && (
+           <p className="line-clamp-3 whitespace-pre-line text-sm leading-relaxed text-slate-600">
+            {brand.description}
+           </p>
           )}
+          {showBoycottReason && brand.boycottReason && (
+           <div className="rounded-xl bg-red-50 px-4 py-3 text-xs leading-relaxed text-red-700 line-clamp-2">
+            {brand.boycottReason}
+           </div>
+          )}
+          <div className="mt-auto flex items-center justify-between border-t border-slate-100 pt-4">
+           <Link
+            href={`/kategoriler/${brand.categorySlug}/${brand.slug}`}
+            className="inline-flex items-center gap-2 text-sm font-semibold text-orange-600 transition hover:text-orange-700"
+           >
+            Detayı gör
+            <IoArrowForward className="h-4 w-4" />
+           </Link>
+           {brand.website && (
+            <Link
+             href={brand.website}
+             target="_blank"
+             rel="noopener noreferrer"
+             className="inline-flex items-center gap-2 text-sm font-semibold text-slate-500 transition hover:text-slate-700"
+            >
+             Resmi Site
+             <IoLinkOutline className="h-4 w-4" />
+            </Link>
+           )}
+          </div>
          </div>
-        </div>
-       </article>
+        </article>
+       </CarouselItem>
       ))}
-     </div>
-
-     {/* Sağ navigasyon butonu */}
-     {canScrollRight && (
-      <button
-       onClick={scrollRight}
-       className="absolute -right-6 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2.5 shadow-xl transition-all hover:scale-110 hover:shadow-2xl hover:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 md:-right-12 md:p-3"
-       aria-label="Sonraki kartlar"
-      >
-       <IoChevronForward className="h-5 w-5 text-orange-600 transition-colors md:h-6 md:w-6" />
-      </button>
-     )}
-    </div>
+     </CarouselContent>
+     <CarouselPrevious className="left-0 md:-left-12" />
+     <CarouselNext className="right-0 md:-right-12" />
+    </Carousel>
    )}
   </div>
  );
