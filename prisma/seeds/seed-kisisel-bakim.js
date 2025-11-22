@@ -1,19 +1,13 @@
 const kisiselBakimCategory = {
-  name: "Kişisel Bakım",
-  slug: "kisisel-bakim",
-  iconKey: "soap",
-  description: "Kişisel bakım ve hijyen ürünleri markaları.",
-  brands: [
-    {
-      name: "Dove",
-      slug: "dove",
-      description: "Cilt ve kişisel bakım ürünleri markası.",
-      country: "Birleşik Krallık",
-      img: "/dove.png",
-      isBoycotted: "boykot-degil",
-    },
-  ],
+ name: "Kişisel Bakım",
+ slug: "kisisel-bakim",
+ iconKey: "soap",
+ description: "Kişisel bakım ve hijyen ürünleri markaları.",
+ brands: [
+
+ ],
 };
 
 export default kisiselBakimCategory;
-// https://boykotdedektifi.org/b/yves-rocher-207 
+// https://boykotdedektifi.org/b/yves-rocher-207
+// https://boykotdedektifi.org/b/loreal-paris-209

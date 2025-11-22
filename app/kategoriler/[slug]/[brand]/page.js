@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getBrandBySlugs, getBrandByOwnerName } from "@/lib/categories.js";
 import PillList from "./PillList";
+import AppealButton from "./AppealButton";
 import {
  IoArrowBack,
  IoLocationOutline,
@@ -114,13 +115,18 @@ export default async function BrandDetailPage({ params }) {
 
     <header className="space-y-4">
      <div className="flex flex-wrap items-center gap-3">
-      {/* UPDATED: Dinamik badge */}
       <div
        className={`inline-flex items-center gap-2 rounded-full ${statusBadge.bg} px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm`}
       >
        <StatusIcon className="h-4 w-4" />
        {statusBadge.label}
       </div>
+      {brand.country && (
+       <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-blue-500 to-blue-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
+        <IoLocationOutline className="h-4 w-4" />
+        {brand.country}
+       </div>
+      )}
       {brand.subCategory && (
        <div className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-purple-500 to-purple-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white shadow-sm">
         <IoAppsOutline className="h-4 w-4" />
@@ -139,15 +145,12 @@ export default async function BrandDetailPage({ params }) {
        </Link>
       )}
      </div>
-     <h1 className="text-3xl font-semibold text-slate-900 md:text-4xl lg:text-5xl">
-      {brand.name}
-     </h1>
-     {brand.country && (
-      <p className="flex items-center gap-2 text-sm font-medium uppercase tracking-wide text-slate-500">
-       <IoLocationOutline className="h-5 w-5" />
-       Menşei: {brand.country}
-      </p>
-     )}
+     <div className="flex flex-wrap items-center justify-between gap-4">
+      <h1 className="text-3xl font-semibold text-slate-900 md:text-4xl lg:text-5xl">
+       {brand.name}
+      </h1>
+      <AppealButton brand={brand} />
+     </div>
     </header>
 
     <div className="grid gap-8 lg:grid-cols-[2fr,1fr]">
@@ -240,16 +243,6 @@ export default async function BrandDetailPage({ params }) {
          )}
         </dd>
        </div>
-       {brand.country && (
-        <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
-         <dt className="text-sm font-semibold text-slate-700">
-          Menşei
-         </dt>
-         <dd className="text-sm font-medium text-slate-900">
-          {brand.country}
-         </dd>
-        </div>
-       )}
        {brand.foundedYear && (
         <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
          <dt className="text-sm font-semibold text-slate-700">
@@ -320,32 +313,20 @@ export default async function BrandDetailPage({ params }) {
          )}
         </>
        )}
-       {brand.subCategory && (
-        <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
-         <dt className="text-sm font-semibold text-slate-700">
-          Kategori
-         </dt>
-         <dd className="text-sm font-medium text-slate-900">
-          {Array.isArray(brand.subCategory)
-           ? brand.subCategory.join(" & ")
-           : brand.subCategory}
-         </dd>
-        </div>
-       )}
        {brand.website && (
         <div className="flex items-center justify-between gap-4 rounded-lg bg-white/60 px-4 py-3 shadow-sm">
          <dt className="text-sm font-semibold text-slate-700">
           Web Sitesi
          </dt>
          <dd className="text-sm font-medium text-slate-900">
-          <a
+          <Link
            href={brand.website}
            target="_blank"
            rel="noopener noreferrer"
            className="text-orange-600 hover:text-orange-700 hover:underline"
           >
            WEB SİTESİ
-          </a>
+          </Link>
          </dd>
         </div>
        )}
@@ -354,11 +335,11 @@ export default async function BrandDetailPage({ params }) {
        <div className="mt-6 space-y-3 border-t border-orange-200 pt-6">
         <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-slate-700">
          <IoInformationCircleOutline className="h-5 w-5 text-orange-600" />
-         Kanıt Linkleri
+         Kaynakça
         </h3>
         <div className="flex flex-wrap gap-2">
          {brand.evidences.map((evidence, index) => (
-          <a
+          <Link
            key={index}
            href={evidence}
            target="_blank"
@@ -366,8 +347,8 @@ export default async function BrandDetailPage({ params }) {
            className="inline-flex items-center gap-2 rounded-lg border-2 border-orange-300 bg-orange-50 px-4 py-2 text-xs font-semibold text-orange-700 transition hover:border-orange-400 hover:bg-orange-100 hover:shadow-sm"
           >
            <IoArrowForwardOutline className="h-3 w-3" />
-           Kanıt {index + 1}
-          </a>
+           Kaynakça {index + 1}
+          </Link>
          ))}
         </div>
        </div>

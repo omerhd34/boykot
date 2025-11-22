@@ -48,4 +48,29 @@ model Brand {
   
   createdAt          DateTime @default(now())
   updatedAt          DateTime @updatedAt
+  appeals            Appeal[]
+}
+
+model Appeal {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  brandId     String   @db.ObjectId
+  brand       Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  brandName   String
+  categorySlug String
+  brandSlug   String
+  name        String
+  email       String
+  message     String
+  status      String   @default("pending") // pending, reviewed, resolved
+  adminNotes  String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Admin {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  username  String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
