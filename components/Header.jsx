@@ -314,6 +314,9 @@ export default function Header() {
                  </span>
                  <span className="text-xs text-slate-500">
                   {brand.category.name}
+                  {brand.subCategory && brand.subCategory.length > 0 && (
+                   <span className="text-slate-400"> - {brand.subCategory.join(", ")}</span>
+                  )}
                  </span>
                 </span>
                 <FiArrowUpRight size={16} className="text-orange-500" aria-hidden />
@@ -456,6 +459,9 @@ export default function Header() {
                   </span>
                   <span className="text-xs text-slate-500">
                    {brand.category.name}
+                   {brand.subCategory && brand.subCategory.length > 0 && (
+                    <span className="text-slate-400"> - {brand.subCategory.join(", ")}</span>
+                   )}
                   </span>
                  </span>
                  <FiArrowUpRight size={16} className="text-orange-500" aria-hidden />

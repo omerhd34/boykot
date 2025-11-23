@@ -49,14 +49,33 @@ export default async function CategoryDetailPage({ params }) {
      <h1 className="text-3xl font-semibold text-slate-900 md:text-4xl">
       {category.name}
      </h1>
-     {category.description && (
-      <p className="max-w-3xl text-sm leading-relaxed text-slate-600">
-       {category.description}
-      </p>
-     )}
-    </header>
+    {category.description && (
+     <p className="max-w-3xl text-sm leading-relaxed text-slate-600">
+      {category.description}
+     </p>
+    )}
+   </header>
 
-    {category.slug === "ilac-sirketi" && (
+   {category.slug === "supermarket" && (
+    <div className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 my-5 -mt-5">
+     <div className="flex items-start gap-3">
+      <IoInformationCircle className="h-5 w-5 shrink-0 text-amber-600 mt-0.5" />
+      <div className="flex-1 space-y-1">
+       <p className="text-sm font-medium text-amber-900">
+        Önemli Uyarı
+       </p>
+       <p className="text-sm leading-relaxed text-amber-800">
+        Market boykot edilmese bile, o marketten yabancı markalı ve 
+        boykot listesinde yer alan markaların ürünlerini almayınız. 
+        Alışveriş yaparken her ürünün markasını kontrol etmek, 
+        bilinçli tüketim için önemlidir.
+       </p>
+      </div>
+     </div>
+    </div>
+   )}
+
+   {category.slug === "ilac-sirketi" && (
      <div className="rounded-lg border border-blue-200 bg-blue-50/50 p-4 my-5 -mt-5">
       <div className="flex items-start gap-3">
        <IoInformationCircle className="h-5 w-5 shrink-0 text-blue-600 mt-0.5" />

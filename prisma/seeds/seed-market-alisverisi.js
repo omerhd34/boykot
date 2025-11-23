@@ -10,7 +10,8 @@ const marketAlisverisiCategory = {
   "Temizlik",
   "Şirket",
   "Kişisel Bakım",
-  "Bebek Maması",
+  "Bebek & Çocuk Gıda",
+  "Pets",
  ],
  brands: [
   /*
@@ -75,25 +76,46 @@ Birçok kişi, İsrail'e sevkiyat iddiaları nedeniyle markanın ürünlerini bo
    ],
   },
   {
-   name: "Snickers",
-   slug: "snickers",
-   foundedYear: 1930,
-   ctgry: "Yiyecek",
-   founder: "Mars Ailesi",
-   owner: "Mars, Incorporated",
+   name: "Mars Inc.",
+   slug: "mars-inc",
+   foundedYear: 1911,
+   ctgry: "Şirket",
+   founder: "Franklin Clarence Mars",
+   owner: "Mars Ailesi",
    country: "ABD",
-   alternative_products: [],
-   img: "/snickers.png",
+   img: "/mars-ind.png",
    isBoycotted: "boykot",
-   website: "https://www.snickers.com/",
-   description: `Snickers, Mars'a ait bir çikolata markasıdır. İçerisinde nuga, karamel ve fıstık yer alır. Üzeri ise sütlü çikolatayla kaplıdır. Snickers'ın yıllık global ürün satışı 2 milyar dolardır.
+   website: "https://www.mars.com/",
+   description: `Mars Inc., 1911 yılında Franklin Clarence Mars tarafından Tacoma, Washington'da temelleri atılan, Amerika Birleşik Devletleri merkezli dev bir gıda, şekerleme ve evcil hayvan ürünleri şirketidir. Franklin'in oğlu Forrest Mars'ın da katılımıyla büyüyen şirket, Milky Way çikolatasının icadıyla sektördeki ilk büyük başarısını elde etmiş, ardından 1932'de İngiltere operasyonlarını başlatarak Mars barını piyasaya sürmüştür. Bugün ABD'nin en büyük 6. özel şirketi konumundadır.
 
-1930'da Mars, Mars ailesinin en sevdiği atının adını taşıyan Snickers'ı tanıttı. Snickers çikolata barı, çikolata kaplı nuga, fıstık ve karamelden oluşur.
+Şirket sadece çikolata ile sınırlı kalmayıp; M&M's, Snickers ve Twix gibi ikonik markaların yanı sıra Whiskas, Pedigree ve Royal Canin ile evcil hayvan maması sektörünün de lideridir. Ayrıca Uncle Ben's gibi gıda markaları ve 2008 yılında bünyesine kattığı Wrigley ile sakız sektöründe de (Orbit, vs.) büyük bir pazar payına sahiptir.
 
-Snickers, çeşitli versiyonlarda sunulmaktadır: Snickers mini, bitter çikolata, dondurma çubukları, Bademli Snickers, Fındıklı Snickers, fıstık ezmesi çubukları, protein Snickers ve Ekstra Karamelli Snickers. Ayrıca espresso, ateşli, tatlı ve tuzlu çeşitleri de mevcuttur.
+Mars ailesi tarafından yönetilen şirket, küresel çapta bir üretim ağına sahiptir. Amerika, Avrupa, Avustralya ve Asya'da tesisleri bulunan Mars, çok uluslu yapısıyla dünyanın en büyük hızlı tüketim ürünleri şirketlerinden biri olarak faaliyetlerine devam etmektedir.`,
+   boycottReason: `Mars Inc. firmasının boykot edilmesinin temel nedeni İsrail ile olan yakın bağlantılarıdır. Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen Yahudi miraslarına sadık kalmış ve yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
 
-1990 yılına kadar Snickers, Birleşik Krallık, Man Adası ve İrlanda'da Marathon adıyla satılmıştır. 2004 yılında İngiltere'de Snickers bar'ın yerini almış ve Gıda ve İçecek Federasyonu (FDF) "Gıda ve Sağlık Manifestosu" ile uyumlu olacak şekilde tasarlanmıştır. 2005 yılında Mars Incorporated, kral boyutlu çubukları kaldırmayı ve bunları paylaşılabilir çubuklarla değiştirmeyi taahhüt etmiştir. Bu değişiklik sonucunda 'Duo' çift çubuk paketleri sunulmuştur.`,
-   boycottReason: `Snickers'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+Şirketin kurumsal yapısında İsrail Ordusu'na olan sosyal destek açıkça paylaşılmaktadır. Bu durum, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğinin bir göstergesi olarak kabul edilmektedir. Ayrıca Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners (JVP) ile stratejik ortaklık yapmaktadır. Bu ortaklık, şirketin İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu kanıtlamaktadır.`,
+   evidences: [
+    "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+   ],
+   subBrands: [
+    {
+     name: "Snickers",
+     slug: "snickers",
+     foundedYear: 1930,
+     ctgry: "Yiyecek",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["eti", "torku"],
+     img: "/snickers.png",
+     isBoycotted: "boykot",
+     website: "https://www.snickers.com/",
+     description: `Snickers, Mars ailesinin en sevdiği atın ismini taşıyan ve 1930 yılında piyasaya sürülen dünyanın en çok satan çikolata barlarından biridir. Ürünün klasik yapısı; yoğun nuga tabanı, üzeri karamel ve yer fıstığı ile kaplanmış ve son olarak sütlü çikolatayla sarılmış halinden oluşur. Yıllık global satış hacmi 2 milyar doları aşmaktadır.
+
+Marka, zaman içinde tüketici tercihlerine göre çeşitlenmiş; bademli, fındıklı, fıstık ezmeli, protein barlı ve dondurma versiyonları gibi birçok farklı ürün geliştirmiştir. 2005 yılında yapılan bir düzenlemeyle "King Size" (dev boy) ürünler kaldırılarak, daha sağlıklı porsiyon kontrolü sağlamak amacıyla paylaşılabilir 'Duo' paketlere geçiş yapılmıştır.
+
+İlginç bir tarihi detay olarak Snickers, 1990 yılına kadar Birleşik Krallık ve İrlanda pazarında "Marathon" ismiyle satılmıştır. Ancak global marka bütünlüğünü sağlamak amacıyla bu tarihten sonra tüm dünyada Snickers adını almıştır.`,
+     boycottReason: `Snickers'ın boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
 
 Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
 
@@ -101,9 +123,655 @@ Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahu
 
 Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
 
-Bu nedenlerle, Snickers ve Mars Inc.'e ait diğer tüm ürünler boykot listesinde yer almaktadır.`,
-   evidences: [
-    "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+Bu nedenlerle, Snickers boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Twix",
+     slug: "twix",
+     foundedYear: 1967,
+     ctgry: "Yiyecek",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["eti", "ulker"],
+     img: "/twix.png",
+     isBoycotted: "boykot",
+     website: "https://www.twix.com/",
+     description: `Twix, Mars Incorporated tarafından üretilen ve dünya genelinde en çok tanınan çikolatalı ürünlerden biridir. Ürünün imza niteliğindeki yapısı; gevrek bir bisküvi tabanı, üzerine eklenen yoğun karamel katmanı ve tamamını kaplayan sütlü çikolatadan oluşur. Genellikle altın sarısı ambalajı içerisinde, paylaşımı teşvik eden ikili çubuklar (barlar) halinde sunulmasıyla bilinir.
+
+Markanın tarihçesi 1967 yılına, Birleşik Krallık'a dayanmaktadır. İlk olarak burada üretilen ürün, 1979 yılında Amerika Birleşik Devletleri pazarında tanıtılmıştır. İsmi, ürünün ikili yapısına atıfta bulunarak İngilizce "Twin" (İkiz) ve "Biscuits" (Bisküviler) kelimelerinin birleşiminden (portmanteau) türetilmiştir.
+
+Twix, uzun yıllar boyunca Avrupa anakarasında ve birçok ülkede "Raider" ismiyle satılmıştır. Ancak 1991 yılında uluslararası marka bütünlüğünü sağlamak amacıyla ismi küresel çapta "Twix" olarak değiştirilmiştir. Günümüzde Mars ailesine ait olan şirket çatısı altında, minyatür versiyonları ve farklı aroma çeşitleriyle üretimine devam edilmektedir.`,
+     boycottReason: `Twix'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Twix boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "M&M’S",
+     slug: "m-ms",
+     foundedYear: 1941,
+     ctgry: "Yiyecek",
+     founder: "Forrest Mars ve Bruce Murrie",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/m-ms.png",
+     isBoycotted: "boykot",
+     website: "https://www.mms.com/en-us",
+     description: `M&M's, Mars Incorporated tarafından üretilen ve dünyanın en tanınmış renkli boncuk çikolata markasıdır. İsmini, şirketin kurucuları olan Forrest Mars ve Bruce Murrie'nin soyadlarının baş harflerinden almaktadır. Marka, 28 Şubat 1941 tarihinde piyasaya sürülmüştür.
+
+Markanın çıkış hikayesi oldukça stratejiktir; ilk büyük müşterisi ABD Savunma Bakanlığı olmuştur. Sert şeker kaplaması sayesinde tropikal iklimlerde erimeden dayanabilmesi, askerler için ideal bir enerji kaynağı olmasını sağlamıştır. Bu dayanıklılık özelliği, markanın küresel başarısının temelini atmış ve "Elinizde değil, ağzınızda erir" sloganıyla bütünleşmiştir.
+
+Günümüzde 100'den fazla ülkede satışa sunulan M&M's, sadece Amerika Birleşik Devletleri'nde günde 400 milyondan fazla üretilmektedir. Farklı renkleri, dolgulu çeşitleri ve ikonik maskot karakterleriyle popüler kültürün bir parçası haline gelen marka, Mars ailesinin en önemli ticari değerlerinden biridir.`,
+     boycottReason: `M&M’S'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, M&M’S boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Bounty",
+     slug: "bounty",
+     foundedYear: 1951,
+     ctgry: "Yiyecek",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["coco-star"],
+     img: "/bounty.png",
+     isBoycotted: "boykot",
+     website: "https://www.mars.com/",
+     description: `Bounty, Mars Incorporated tarafından üretilen ve içi yumuşak hindistan cevizi dolgusuyla bilinen uluslararası bir çikolata markasıdır. İlk kez 1951 yılında Birleşik Krallık ve Kanada pazarlarında tanıtılan ürün, başlangıçta sadece sütlü çikolata kaplamalı olarak piyasaya sürülmüştür. Genellikle tek bir paketin içinde iki küçük bar (çubuk) halinde sunulmasıyla tanınır.
+
+Ürün çeşitliliği açısından marka iki temel kategoriye ayrılır: Mavi ambalajda satılan versiyonu sütlü çikolata kaplamalıyken, kırmızı ambalajlı versiyonu bitter çikolata ile kaplıdır. Zaman içerisinde farklı pazarlarda (Avustralya, Rusya, Avrupa) kiraz, mango ve ananas aromalı sınırlı üretim çeşitleri de denenmiştir.
+
+Bounty, kendine has yuvarlatılmış köşeleri ve üzerindeki desenleri tescil ettirmek için Avrupa Birliği'nde hukuki süreçler yaşamış olsa da, bu şekil genel kabul edildiği için ayırt edici bulunmamıştır. İlginç bir şekilde, üretici firma Mars ABD merkezli olmasına rağmen, Amerika pazarında benzer rakip ürünlerin (Mounds vb.) varlığı nedeniyle Bounty'nin doğrudan dağıtımı yapılmamaktadır; ancak dünya genelinde süpermarketlerin uluslararası reyonlarında yaygın olarak bulunur.`,
+     boycottReason: `BOUNTY'nin boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, BOUNTY boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Mars",
+     slug: "mars",
+     foundedYear: 1932,
+     ctgry: "Yiyecek",
+     founder: "Forrest Mars, Sr.",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["metro"],
+     img: "/mars.png",
+     isBoycotted: "boykot",
+     website: "https://www.mars.com/",
+     description: `Mars, 1932 yılında Forrest Mars, Sr. tarafından İngiltere'nin Slough kentinde üretilmeye başlanan ve Mars Incorporated'a ait olan ikonik bir çikolata barıdır. Orijinal formülü, Amerikan 'Milky Way' barından esinlenilerek geliştirilmiş olup, sütlü çikolata ile kaplanmış yumuşak nuga ve karamel katmanlarından oluşmaktadır. Başlangıçta üretimde Cadbury çikolatası kullanılırken, zamanla marka kendi özgün üretim sürecini kurmuştur.
+
+Markanın küresel versiyonu ile ABD geçmişi arasında belirgin farklar bulunmaktadır. ABD'de satılan orijinal versiyon badem içerirken, bu ürün daha sonra 'Snickers Almond' olarak değiştirilmiştir. Dünya genelinde bilinen klasik Mars bar ise bademsizdir ve siyah ambalaj üzerindeki kırmızı-altın logusuyla tanınır. 2002 yılında yapılan güncellemelerle nuga daha hafif hale getirilmiş ve ürünün tarifi modernize edilmiştir.`,
+     boycottReason: `Mars'ın boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Mars boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Acana",
+     slug: "acana",
+     foundedYear: 1985,
+     ctgry: "Pets",
+     founder: "Reinhard Muhlenfeld (Champion Petfoods)",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/acana.png",
+     isBoycotted: "boykot",
+     website: "https://emea.acana.com/en/homepage",
+     description: `Acana, ismini doğduğu yer olan Kanada'nın Alberta eyaletindeki çiftlik arazilerinden alan, premium sınıf bir evcil hayvan maması markasıdır. "İhtiyaç duydukları beslenme, sevdikleri lezzet" mottosuyla hareket eden marka, kedi ve köpeklerin doğal beslenme alışkanlıklarına uygun, yüksek proteinli ve taze et içerikli mamalar üretmesiyle tanınır.
+
+Markanın üretim felsefesi, yerel çiftçilerden temin edilen taze veya çiğ kaliteli hayvansal içeriklerin, bütün meyve ve sebzelerle dengelenmesine dayanır. Üretim süreçleri, Kanada'nın Edmonton (Alberta) ve ABD'nin Auburn (Kentucky) kentlerindeki dünya standartlarına sahip ödüllü mutfaklarda (DogStar Kitchens) gerçekleştirilmektedir.
+
+Acana, uzun yıllar bağımsız bir Kanada şirketi olan Champion Petfoods tarafından yönetilmiş, ancak yakın zamanda küresel gıda devi Mars Incorporated tarafından satın alınmıştır. Bu satın alma ile birlikte marka, Mars Petcare ekosisteminin bir parçası haline gelmiştir.`,
+     boycottReason: `Acana markası, yakın zamanda Mars Incorporated tarafından satın alınmıştır. Mars Inc. firmasının İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars çatısı altındaki tüm markalar gibi Acana da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "API",
+     slug: "api",
+     foundedYear: 1964,
+     ctgry: "Pets",
+     founder: "Aquarium Pharmaceuticals, Inc.",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/api.png",
+     isBoycotted: "boykot",
+     website: "https://apifishcare.com/",
+     description: `API (Aquarium Pharmaceuticals, Inc.), su ürünleri ve akvaryum balıkçılığı sektöründe 60 yılı aşkın bir geçmişe sahip köklü bir markadır. Başlangıçta bağımsız bir şirket olarak kurulan marka, 2003 yılında küresel gıda ve evcil hayvan bakım devi Mars, Incorporated tarafından satın alınmıştır. Bu stratejik birleşme, markanın sektördeki tecrübesini Mars'ın gücü ve Waltham Evcil Hayvan Beslenmesi Merkezi'nin bilimsel uzmanlığıyla birleştirmiştir.
+
+Markanın araştırma ve geliştirme ekibi, süs balıklarının bakımı ve akvaryum tedavileri konusunda sektöre öncülük etmektedir. Bilimsel çalışmaları sonucunda su ürünleri endüstrisinde çığır açan yeniliklere imza atmış ve 30'un üzerinde küresel patent almıştır. API, balık besleme deneyimini iyileştirmek ve akvaryum hobisini daha sürdürülebilir kılmak için sürekli yeni çözümler üretmektedir.
+
+Bugün Kuzey Amerika'dan Asya Pasifik'e kadar geniş bir coğrafyada faaliyet gösteren API, hem kapalı akvaryumlar hem de açık havuzlar için kapsamlı bir ürün yelpazesi sunmaktadır. Su düzenleyicilerden balık yemlerine, hastalık tedavi edici ürünlerden su test kitlerine kadar akvaryum severlerin tüm ihtiyaçlarına yönelik profesyonel çözümler sağlamaktadır.`,
+     boycottReason: `API markası, Mars Incorporated tarafından 2003 yılında satın alınmıştır ve şirketin bir iştirakidir. Çatı şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars çatısı altındaki tüm markalar gibi API de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "AQUARIAN",
+     slug: "aquarian",
+     foundedYear: 1975,
+     ctgry: "Pets",
+     founder: "Forrest Mars, Sr. ve Dr. David Ford",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/aquarian.png",
+     isBoycotted: "boykot",
+     website: "https://aquarian.co.uk/",
+     description: `AQUARIAN, 1975 yılında İngiltere'de Forrest Mars, Sr. ve gıda bilimcisi Dr. David Ford'un iş birliğiyle doğmuş, su ürünleri ve balık yemi sektörünün öncü markalarından biridir. İlk olarak yedi farklı pul yem tarifiyle piyasaya sürülen marka, balıkların beslenme ihtiyaçlarını bilimsel temellere dayandırarak laboratuvar kontrollü deneylerle kanıtlanmış formüller geliştirmiştir.
+
+Markanın gelişimi, Mars bünyesindeki Waltham Evcil Hayvan Besleme Merkezi ile yapılan ortak çalışmalarla hız kazanmıştır. 2000'li yılların başında Mars Incorporated'ın API (Aquarium Pharmaceuticals) ve RENA markalarını satın almasıyla oluşturulan küresel balık bakım biriminin bir parçası haline gelmiş ve dünya çapında satışa sunulmuştur.
+
+"Balıklarınıza hem içten hem dıştan bakın" mottosuyla hareket eden AQUARIAN, bugün Birleşik Krallık'ın önde gelen balık yemi şirketidir. Sadece besleyici yemler (granüller, çubuklar, pelletler) değil, aynı zamanda su bakım ürünleri de sunarak akvaryum sahiplerine eksiksiz bir bakım sistemi sağlamaktadır.`,
+     boycottReason: `AQUARIAN markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi AQUARIAN da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Catsan",
+     slug: "catsan",
+     foundedYear: 1982,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/catsan.png",
+     isBoycotted: "boykot",
+     website: "https://www.catsan.co.uk/",
+     description: `Catsan, 1982 yılında Mars Incorporated tarafından piyasaya sürülen ve bugün kedi hijyeni denince akla gelen ilk markalardan biri olan kedi kumu üreticisidir. Kedilerin doğal temizlik ihtiyaçlarını anlama vizyonuyla yola çıkan marka, yüksek emiciliğe sahip benzersiz beyaz granülleriyle tanınır.
+
+Markanın en belirgin özelliği, kötü kokuları oluşmadan önce hapseden özel formülüdür. "Catsan Hijyen" (topaklaşmayan) ve "Catsan Ultra" (topaklaşan) gibi farklı çeşitleri bulunan ürünler, doğal kireçtaşı ve kuvars kumu gibi bileşenlerden üretilir. Beyaz rengi sayesinde idrar takibini kolaylaştırır ve kediler için hijyenik bir ortam sağlar.
+
+Mars Petcare uzmanlığıyla geliştirilen Catsan, tozsuz yapısı ve patilere yapışmayan dokusuyla hem kedilerin hem de kedi sahiplerinin konforunu hedefler. Avrupa başta olmak üzere dünya genelinde milyonlarca kedi sahibinin güvendiği premium bir hijyen markasıdır.`,
+     boycottReason: `Catsan markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Catsan da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Cesar",
+     slug: "cesar",
+     foundedYear: 1989,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/cesar.png",
+     isBoycotted: "boykot",
+     website: "https://www.cesar.com/",
+     description: `Cesar, Mars Petcare bünyesinde yer alan ve özellikle küçük ırk köpekler için ürettiği premium yaş mamalarla tanınan küresel bir markadır. Marka, ambalajlarında ve reklamlarında kullandığı ikonik West Highland White Terrier (Westie) köpeği ile özdeşleşmiştir. "Onları sevdiğiniz gibi sevin" mottosuyla hareket eden Cesar, köpekler için sadece beslenme değil, aynı zamanda bir lezzet şöleni sunmayı hedefler.
+
+Markanın uzmanlık alanı, tepsilerde sunulan ve gerçek et parçaları içeren gurme yaş mamalardır. Sığır eti, tavuk, kuzu eti ve çeşitli sebzelerle zenginleştirilmiş tarifleri, köpeklerin damak tadına uygun olarak özenle hazırlanır. Yaş mamaların yanı sıra kuru mama ve ödül maması çeşitleri de bulunan Cesar, evcil hayvan sahiplerinin sadık dostlarını şımartmak için tercih ettiği lider markalardan biridir.`,
+     boycottReason: `Cesar markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Cesar da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Crave",
+     slug: "crave",
+     foundedYear: 2017,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/crave.png",
+     isBoycotted: "boykot",
+     website: "https://www.cravepetfood.co.uk/",
+     description: `Crave, Mars Petcare tarafından 2017 yılında piyasaya sürülen ve evcil hayvanların doğal beslenme içgüdülerine odaklanan premium bir mama markasıdır. Köpeklerin ve kedilerin vahşi atalarından (kurtlar ve yaban kedileri) gelen beslenme alışkanlıklarını temel alan marka, "Doğalarındaki açlığı doyurun" felsefesiyle yüksek proteinli ürünler sunmaktadır.
+
+Markanın en belirgin özelliği, ürünlerinde tahıl yerine yüksek oranda hayvansal protein kullanmasıdır. İlk bileşen olarak her zaman gerçek et (tavuk, sığır, kuzu veya balık) kullanılır. Mısır, buğday, soya veya yapay renklendirici ve koruyucular içermeyen formülleriyle, evcil hayvanların kas yapısını desteklemeyi ve onlara ihtiyaç duydukları enerjiyi sağlamayı hedefler.
+
+Mars Petcare'in global tecrübesi ve beslenme uzmanlığıyla geliştirilen Crave, hem kuru hem de yaş mama çeşitlerine sahiptir. Modern evcil hayvanların biyolojik ihtiyaçlarını, atalarının diyetinden ilham alarak karşılayan marka, süpermarket raflarında ulaşılabilir premium bir seçenek olarak konumlanmıştır.`,
+     boycottReason: `Crave markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Crave de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Eukanuba",
+     slug: "eukanuba",
+     foundedYear: 1969,
+     ctgry: "Pets",
+     founder: "Paul Iams",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/eukanuba.png",
+     isBoycotted: "boykot",
+     website: "https://www.eukanuba.com/",
+     description: `Eukanuba, 1969 yılında Paul Iams tarafından kurulan ve ismini 1940'ların caz kültüründeki "zirve, en üstün" anlamına gelen bir terimden alan premium evcil hayvan maması markasıdır. Kurucusu Paul Iams'ın, köpeklerin etçil doğasına uygun, yüksek kaliteli hayvansal protein içeren bir mama üretme vizyonuyla ortaya çıkmıştır. Marka, köpeklerin ve kedilerin aktif yaşamlarını destekleyen, bilimsel olarak geliştirilmiş formülleriyle tanınır.
+
+Ürün geliştirme sürecinde "olağanüstü performans" ilkesini benimseyen Eukanuba, özellikle çalışan köpekler, sporcu köpekler ve yüksek enerji ihtiyacı olan ırklar için özelleşmiş beslenme çözümleri sunar. İçeriklerinde yüksek kaliteli tavuk, kuzu eti ve yumurta gibi protein kaynaklarını kullanarak, evcil hayvanların kas yapısını, sindirim sistemini ve tüy sağlığını desteklemeyi hedefler.
+
+Marka, 2014 yılında gerçekleşen büyük bir satın alma operasyonuyla küresel gıda devi Mars Incorporated bünyesine katılmıştır. Bugün Mars Petcare'in premium segmentteki en önemli oyuncularından biri olarak faaliyet gösteren Eukanuba, dünya genelinde veterinerler ve profesyonel yetiştiriciler tarafından tercih edilen bir marka konumundadır.`,
+     boycottReason: `Eukanuba markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Eukanuba da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Dreamies",
+     slug: "dreamies",
+     foundedYear: 2008,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/dreamies.png",
+     isBoycotted: "boykot",
+     website: "https://www.dreamiestreats.co.uk/",
+     description: `Dreamies, Mars Petcare tarafından üretilen ve kedilerin "hayır diyemediği" lezzetiyle ünlenen, dünyanın en popüler kedi ödül maması markalarından biridir. Kuzey Amerika pazarında "Temptations" adıyla bilinen marka, Avrupa ve Türkiye pazarında "Dreamies" ismiyle raflarda yer almaktadır. Markanın en karakteristik özelliği, dışının kıtır bir kabukla kaplı olması, içinin ise kedileri cezbeden yumuşacık ve lezzetli bir dolguya sahip olmasıdır.
+
+Marka, kedilerin paket hışırtısını duyduklarında duvarları bile delip geçebileceğini esprili bir dille anlatan reklam kampanyalarıyla hafızalara kazınmıştır. Tavuklu, peynirli, somonlu, sığır etli ve ördekli gibi kedilerin damak tadına uygun geniş bir aroma yelpazesi sunar. Ayrıca her bir tanenin 2 kaloriden az olması, kedilerini gün içinde şımartmak isteyen ancak kilo kontrolüne dikkat eden evcil hayvan sahipleri için önemli bir tercih sebebidir.
+
+Mars Incorporated'ın evcil hayvan beslenmesindeki global uzmanlığıyla geliştirilen Dreamies, içeriğindeki vitamin ve minerallerle zenginleştirilmiştir. Sadece bir atıştırmalık olmanın ötesinde, kedi ve sahibi arasındaki bağı güçlendiren, oyun ve eğitim saatlerini eğlenceli hale getiren bir ödül olarak konumlanmıştır.`,
+     boycottReason: `Dreamies markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Dreamies de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Greenies",
+     slug: "greenies",
+     foundedYear: 1996,
+     ctgry: "Pets",
+     founder: "Joe ve Judy Roetheli",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/greenies.png",
+     isBoycotted: "boykot",
+     website: "https://www.greenies.com/",
+     description: `Greenies, 1996 yılında Joe ve Judy Roetheli çifti tarafından, "Ivan" isimli köpeklerinin kötü ağız kokusu sorununa çözüm bulmak amacıyla geliştirilen, dünyanın ilk diş temizleyici ödül maması markasıdır. İkonik diş fırçası şeklindeki tasarımı ve çiğnenebilir yapısıyla köpeklerin dişlerindeki plak ve tartarı temizlemeye yardımcı olurken, aynı zamanda nefeslerini tazelemeyi hedefler.
+
+Markanın başarısı, Veteriner Ağız Sağlığı Konseyi (VOHC) tarafından plak ve tartar kontrolü için onaylanmış ilk ödül mamalarından biri olmasıyla tescillenmiştir. Farklı boyut ve ırklara uygun çeşitlerinin yanı sıra, kediler için üretilen "Feline Greenies" ve ilaç içirmeyi kolaylaştıran "Pill Pockets" gibi inovatif ürünlerle ürün gamını genişletmiştir.
+
+Hızla büyüyen marka, 2006 yılında küresel gıda ve evcil hayvan bakım devi Mars Incorporated tarafından satın alınmıştır. Bu tarihten itibaren Mars Petcare bünyesinde, bilimsel araştırmalarla desteklenen formülasyonlarıyla global pazarda evcil hayvan diş bakım kategorisinin lideri olarak faaliyet göstermektedir.`,
+     boycottReason: `Greenies markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Greenies de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "IAMS",
+     slug: "iams",
+     foundedYear: 1946,
+     ctgry: "Pets",
+     founder: "Paul Iams",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/iams.png",
+     isBoycotted: "boykot",
+     website: "https://www.iams.com/",
+     description: `IAMS, 1946 yılında hayvan beslenme uzmanı Paul Iams tarafından Ohio, Dayton'da kurulan, evcil hayvan beslenmesinde devrim yaratmış köklü bir markadır. Kurucusunun, köpeklerin ve kedilerin her şeyden önce birer "etçil" olduğu felsefesinden yola çıkan marka, evcil hayvan mamalarında bitkisel protein yerine hayvansal proteini birincil kaynak olarak kullanan ilk üreticilerden biri olarak sektöre yön vermiştir.
+
+Markanın en büyük inovasyonlarından biri, 1950'lerde geliştirdiği ve modern kuru mamaların atası sayılan "IAMS 999" adlı üründür. Yıllar içinde ürün yelpazesini genişleten IAMS; yavru, yetişkin ve yaşlı evcil hayvanlar için özel formüller geliştirmiş, sindirim sağlığı ve bağışıklık sistemini destekleyen patentli içeriklere imza atmıştır. "Ömür Boyu Sağlık" vizyonuyla hareket eden marka, veteriner hekimlerle iş birliği içinde çalışmaktadır.
+
+Uzun yıllar Procter & Gamble (P&G) bünyesinde faaliyet gösteren marka, 2014 yılında gerçekleşen büyük bir satın alma operasyonuyla Mars Incorporated ailesine katılmıştır. Günümüzde Mars Petcare'in bilimsel araştırma gücüyle desteklenen IAMS, dünya genelinde milyonlarca evcil hayvan sahibinin güvendiği premium bir marka olarak varlığını sürdürmektedir.`,
+     boycottReason: `IAMS markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi IAMS da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "James Wellbeloved",
+     slug: "james-wellbeloved",
+     foundedYear: 1992,
+     ctgry: "Pets",
+     founder: "İki Kız Kardeş (Somerset, İngiltere)",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/james-wellbeloved-brand-jwb.png",
+     isBoycotted: "boykot",
+     website: "https://wellbeloved.com/",
+     description: `James Wellbeloved, 1992 yılında İngiltere'nin Somerset bölgesinde, sindirim sorunları ve deri hassasiyeti yaşayan evcil hayvanlara çözüm bulmak isteyen iki kız kardeş tarafından kurulmuştur. Markanın çıkış noktası, "doğanın iyileştirici gücü" felsefesine dayanır. İlk tariflerini kendi mutfaklarında, yapay katkı maddeleri kullanmadan, basit ve doğal malzemelerle geliştirmişlerdir.
+
+Markanın en belirgin özelliği, evcil hayvanlarda gıda intoleransına neden olabilecek yaygın alerjenlerden (sığır eti, domuz eti, buğday gluteni, süt ürünleri ve yumurta) arındırılmış hipoalerjenik formüller üretmesidir. Genellikle tek bir hayvansal protein kaynağı (kuzu, hindi veya balık gibi) ve seçilmiş karbonhidratlar (pirinç, yulaf) kullanarak, hassas bünyeli kedi ve köpekler için sindirimi kolay mamalar sunar.
+
+İngiltere pazarında doğal evcil hayvan maması kategorisinin öncülerinden olan James Wellbeloved, daha sonra küresel gıda devi Mars Incorporated tarafından satın alınmıştır. Günümüzde Mars Petcare bünyesinde yer alsa da, Somerset kökenli doğal üretim mirasına ve "basit içerik, büyük lezzet" ilkesine sadık kalarak faaliyetlerini sürdürmektedir.`,
+     boycottReason: `James Wellbeloved markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi James Wellbeloved da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Lovebug",
+     slug: "lovebug",
+     foundedYear: 2021,
+     ctgry: "Pets",
+     founder: "Mars Petcare",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/lovebug.png",
+     isBoycotted: "boykot",
+     website: "https://www.lovebugpetfood.com/",
+     description: `Lovebug, Mars Petcare tarafından 2021 yılında piyasaya sürülen ve İngiltere'nin ilk %100 böcek proteini bazlı kedi maması markasıdır. Geleneksel et endüstrisinin çevresel etkilerini azaltmayı hedefleyen marka, protein kaynağı olarak "Kara Asker Sineği" larvalarını kullanır. Bu yenilikçi yaklaşım, kedilerin ihtiyaç duyduğu tüm esansiyel amino asitleri sağlarken, karbon ayak izini minimize etmeyi amaçlar.
+
+Markanın sürdürülebilirlik felsefesi sadece içeriğiyle sınırlı değildir; üretim sürecinde sığır etine kıyasla %80 daha az arazi kullanımına ihtiyaç duyulur ve ambalajları tamamen plastik içermeyen, geri dönüştürülebilir malzemelerden üretilir. Lovebug, çevre bilinci yüksek evcil hayvan sahipleri için "gezegeni severek beslenme" alternatifini sunar.
+
+Beslenme uzmanları ve veterinerler tarafından formüle edilen Lovebug, böcek proteininin hipoalerjenik yapısı sayesinde gıda hassasiyeti olan kediler için de uygun bir seçenektir. Mars'ın sürdürülebilirlik vizyonu (Sustainable in a Generation) kapsamında geliştirdiği en dikkat çekici girişimlerden biridir.`,
+     boycottReason: `Lovebug, Mars Incorporated tarafından geliştirilen ve piyasaya sürülen bir markadır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Lovebug da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "My Cat DNA",
+     slug: "my-cat-dna",
+     foundedYear: 2017,
+     ctgry: "Pets",
+     founder: "Genoscoper Laboratories / Mars Petcare",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/my-cat-dna.png",
+     isBoycotted: "boykot",
+     website: "https://mycatdna.com/",
+     description: `My Cat DNA, evcil kedilerin genetik mirasını, ırk kökenlerini ve potansiyel sağlık risklerini analiz eden kapsamlı bir DNA testi hizmetidir. Mars Petcare'in bilim ve teşhis bölümü olan Wisdom Health Genetics bünyesinde faaliyet gösteren bu hizmet, basit bir yanak sürüntüsü ile kedilerin DNA haritasını çıkararak sahiplerine detaylı bir rapor sunar.
+
+Hizmetin temel amacı, kedilerin genetik yatkınlıklarını önceden belirleyerek olası kalıtsal hastalıklar (örneğin polikistik böbrek hastalığı veya kalp rahatsızlıkları) hakkında erken uyarı sağlamaktır. Ayrıca kedinin fiziksel özelliklerini (tüy rengi, yapısı vb.) belirleyen genleri analiz ederek yetiştiricilere ve sahiplere bilimsel veriler sağlar.
+
+My Cat DNA, Mars'ın 2017 yılında Finlandiya merkezli Genoscoper Laboratuvarlarını satın almasıyla güçlenmiş ve global bir standarda ulaşmıştır. Veteriner hekimler ve genetik uzmanları tarafından geliştirilen bu teknoloji, kedilerin yaşam kalitesini artırmak için kişiselleştirilmiş sağlık yönetimine olanak tanır.`,
+     boycottReason: `My Cat DNA hizmeti, Mars Incorporated'ın bir iştiraki olan Wisdom Health Genetics tarafından sunulmaktadır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, bu hizmet de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "My Dog DNA",
+     slug: "my-dog-dna",
+     foundedYear: 2011,
+     ctgry: "Pets",
+     founder: "Genoscoper Laboratories",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/my-dog-dna.png",
+     isBoycotted: "boykot",
+     website: "https://mydogdna.com/",
+     description: `My Dog DNA, köpeklerin genetik sağlığını, ırk karışımını ve kalıtsal özelliklerini analiz etmek için geliştirilmiş lider bir DNA test panelidir. Başlangıçta Finlandiya merkezli Genoscoper Laboratuvarları tarafından geliştirilen bu teknoloji, 2017 yılında Mars Petcare tarafından satın alınarak Wisdom Health ağının bir parçası haline gelmiştir.
+
+Test, 200'den fazla kalıtsal hastalık ve özelliği tarayarak köpek sahiplerine ve yetiştiricilere hayati bilgiler sunar. Köpeğin genetik çeşitliliğini ölçmek, akraba evliliği risklerini azaltmak ve yavru köpeklerin sağlığını korumak amacıyla profesyonel yetiştiriciler tarafından da yaygın olarak kullanılmaktadır.
+
+Mars'ın "Evcil Hayvanlar İçin Daha İyi Bir Dünya" vizyonunun teknolojik yüzünü temsil eden My Dog DNA, veteriner tıbbı ile genetik bilimi birleştirir. Bu sayede köpek sahipleri, dostlarının genetik kodlarına dayalı olarak beslenme ve sağlık planlamalarını daha bilinçli bir şekilde yapabilirler.`,
+     boycottReason: `My Dog DNA, Mars Incorporated bünyesindeki Wisdom Health Genetics'in bir markasıdır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars grubuna ait bu hizmet de boykot kapsamındadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Nom Nom",
+     slug: "nom-nom",
+     foundedYear: 2015,
+     ctgry: "Pets",
+     founder: "Nate Phillips, Zach Phillips, Dr. Justin Shmalberg",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/nom-nom.png",
+     isBoycotted: "boykot",
+     website: "https://www.nomnomnow.com/",
+     description: `Nom Nom, 2015 yılında evcil hayvan sahiplerine taze ve veteriner formüleli yemekler sunmak amacıyla kurulan, doğrudan tüketiciye ulaşan (DTC) bir taze mama markasıdır. Kurucuları Nate ve Zach Phillips kardeşler ile veteriner beslenme uzmanı Dr. Justin Shmalberg, endüstriyel mamaların ötesine geçerek, gerçek gıda malzemeleriyle hazırlanan, porsiyonlanmış ve eve teslim edilen bir beslenme modeli geliştirmiştir.
+
+Markanın en büyük farkı, yemeklerin her bir evcil hayvanın yaşına, kilosuna ve aktivite seviyesine göre özel olarak porsiyonlanmasıdır. ABD'deki kendi mutfaklarında, insan gıdası standartlarına uygun malzemelerle pişirilen mamalar, dondurulmadan taze olarak soğuk zincirle teslim edilir. Bu yaklaşım, evcil hayvanların sindirim sağlığını ve genel enerjisini iyileştirmeyi hedefler.
+
+Hızla büyüyen ve taze mama kategorisinde liderlerden biri haline gelen Nom Nom, 2022 yılında Mars Incorporated tarafından satın alınarak Royal Canin bölümüne entegre edilmiştir. Bu satın alma, Mars'ın taze ve kişiselleştirilmiş beslenme pazarındaki varlığını güçlendirmiştir.`,
+     boycottReason: `Nom Nom markası, 2022 yılında Mars Incorporated tarafından satın alınmıştır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Nom Nom da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Nutro",
+     slug: "nutro",
+     foundedYear: 1926,
+     ctgry: "Pets",
+     founder: "John Saleen",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/nutro.png",
+     isBoycotted: "boykot",
+     website: "https://www.nutro.com/",
+     description: `Nutro, kökleri 1926 yılına dayanan ve "temiz beslenme" (Feed Clean) felsefesini benimseyen köklü bir evcil hayvan maması markasıdır. Kaliforniya'da John Saleen tarafından kurulan şirket, başından beri yapay koruyucular, renklendiriciler ve GDO'lu bileşenler kullanmadan, doğal içeriklere odaklanan mamalar üretmeyi ilke edinmiştir.
+
+Markanın "Nutro Ultra" ve "Wholesome Essentials" gibi serileri, yüksek kaliteli hayvansal proteinleri, vitamin açısından zengin sebze ve meyvelerle birleştirir. Özellikle gıda hassasiyeti olan köpekler için tahılsız seçenekler ve tüy/deri sağlığını destekleyen özel formüller sunmasıyla bilinir. "Çiftlikten kaseye" anlayışıyla tedarikçilerini şeffaf bir şekilde seçer.
+
+2007 yılında Mars Incorporated tarafından satın alınan Nutro, bugün Mars Petcare'in doğal segmentteki en güçlü markalarından biridir. 90 yılı aşkın tecrübesiyle, evcil hayvanların sadece doymasını değil, aynı zamanda enerjik ve sağlıklı kalmasını sağlayan besleyici çözümler sunmaya devam etmektedir.`,
+     boycottReason: `Nutro markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi Nutro da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Orijen",
+     slug: "origen",
+     foundedYear: 1985,
+     ctgry: "Pets",
+     founder: "Reinhard Muhlenfeld (Champion Petfoods)",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/origen.png",
+     isBoycotted: "boykot",
+     website: "https://emea.orijenpetfoods.com/en/homepage",
+     description: `Orijen, Kanada merkezli Champion Petfoods tarafından yaratılan ve "biyolojik olarak uygun" (biologically appropriate) beslenme konseptinin öncüsü olan ultra premium bir mama markasıdır. Markanın temel felsefesi, kedi ve köpeklerin vahşi doğadaki ataları gibi beslenmesi gerektiği fikrine dayanır. Bu nedenle ürünlerinde çok yüksek oranda taze et, sakatat ve kıkırdak içeren "WholePrey" (Bütün Av) oranlarını kullanır.
+
+Mamalarının içeriğinde %85'e varan oranlarda kaliteli hayvansal içerik bulunur ve sentetik katkı maddeleri yerine besin değerlerini doğal kaynaklardan (taze balık, kümes hayvanları, yumurta) sağlamayı hedefler. Tahılsız formülleri ve düşük karbonhidrat içeriğiyle, evcil hayvan beslenmesinde en üst segmentte yer alan ve dünya çapında ödüller kazanan bir markadır.
+
+Uzun yıllar bağımsız bir üretici olarak faaliyet gösteren Champion Petfoods, 2022 yılında Mars Incorporated tarafından satın alınmıştır. Bu satışla birlikte Orijen, Mars Petcare'in premium portföyüne katılmış olsa da, Kanada ve ABD'deki özel mutfaklarında (NorthStar Kitchens) üretim yapmaya devam etmektedir.`,
+     boycottReason: `Orijen markası, yakın zamanda Mars Incorporated tarafından satın alınmıştır. Mars Inc. firmasının İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Orijen de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Pedigree",
+     slug: "pedigree",
+     foundedYear: 1957,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/pedigree.png",
+     isBoycotted: "boykot",
+     website: "https://www.pedigree.com/",
+     description: `Pedigree, Mars Petcare'in en eski ve en yaygın bilinen markalarından biri olarak, dünya genelinde uygun fiyatlı ve ulaşılabilir köpek maması denince akla gelen ilk isimdir. Kökleri 1930'lara dayanan marka, 1957 yılında "Pedigree" adını alarak globalleşmiştir. "Biz köpekleri seviyoruz" sloganıyla özdeşleşen marka, her ırk ve yaştaki köpek için temel beslenme ihtiyaçlarını karşılayan yaş ve kuru mamalar üretir.
+
+Marka sadece mama üretimiyle değil, aynı zamanda köpeklerin ağız sağlığını korumaya yönelik geliştirdiği "Dentastix" gibi fonksiyonel ödül ürünleriyle de pazar lideridir. Bilimsel altyapısını Waltham Evcil Hayvan Besleme Merkezi'nden alan Pedigree, köpeklerin deri, tüy, sindirim ve bağışıklık sağlığını destekleyen formüller geliştirir.
+
+Ticari başarısının yanı sıra sosyal sorumluluk projeleriyle de tanınan Pedigree, "Pedigree Foundation" aracılığıyla barınak köpeklerinin sahiplendirilmesini teşvik eden ve barınaklara destek sağlayan küresel kampanyalar yürütmektedir.`,
+     boycottReason: `Pedigree markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Pedigree de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "PERFECT FIT",
+     slug: "perfect-fit",
+     foundedYear: 2002,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/perfect-fit.png",
+     isBoycotted: "boykot",
+     website: "https://www.perfect-fit.co.uk/",
+     description: `PERFECT FIT, Mars Petcare ve Waltham Evcil Hayvan Besleme Merkezi'nin uzman veterinerleri tarafından geliştirilen, ileri düzey beslenme çözümleri sunan bir kedi ve köpek maması markasıdır. Markanın temel felsefesi, "Total 5" formülü üzerine kuruludur. Bu formül, evcil hayvanların en yaygın 5 sağlık ihtiyacını (güçlü doğal savunma, sağlıklı sindirim, üriner sistem sağlığı, sağlıklı deri/tüy ve optimum kilo yönetimi) tek bir üründe karşılamayı hedefler.
+
+Marka, evcil hayvanların sadece fiziksel ihtiyaçlarına değil, aynı zamanda yaşam tarzlarına ve karakterlerine göre de özelleştirilmiş seçenekler sunar. Örneğin; "ev kedisi", "hassas kedi", "aktif köpek" veya "küçük ırk" gibi spesifik kategoriler için farklı protein kaynakları ve besin değerleri içeren mamalar üretir.
+
+Bilimsel araştırmalara dayalı içeriği ve premium kalitedeki ürünleriyle PERFECT FIT, evcil hayvan sahiplerine, dostlarının gençlik ruhunu ve sağlığını ömür boyu korumalarına yardımcı olacak bütünsel bir beslenme programı vaat etmektedir.`,
+     boycottReason: `PERFECT FIT markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi PERFECT FIT de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "PrettyLitter",
+     slug: "prettylitter",
+     foundedYear: 2015,
+     ctgry: "Pets",
+     founder: "Daniel Rotman",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/prettylitter.png",
+     isBoycotted: "boykot",
+     website: "https://www.prettylitter.com/",
+     description: `PrettyLitter, 2015 yılında Daniel Rotman tarafından kurulan ve kedi kumu teknolojisine getirdiği inovasyonla tanınan akıllı bir kedi kumu markasıdır. Markanın en devrimci özelliği, kumun kedinin idrarındaki pH seviyesine göre renk değiştirerek (mavi, sarı, yeşil, kırmızı vb.) potansiyel sağlık sorunlarını (idrar yolu enfeksiyonları, böbrek sorunları vb.) erkenden haber vermesidir.
+
+Geleneksel bentonit kumların aksine, hafif silika jel kristallerinden üretilen PrettyLitter, %80 daha hafiftir ve tek bir paketi bir kedi için bir ay boyunca kullanılabilir. Yüksek emiciliği sayesinde kokuyu hapseder ve tozsuzdur, bu da hem kedi sağlığı hem de ev hijyeni için büyük avantaj sağlar.
+
+Doğrudan tüketiciye (DTC) abonelik modeliyle hızla büyüyen marka, 2021 yılında Mars Incorporated tarafından satın alınmıştır. Mars Petcare'in sağlık ve teknoloji odaklı vizyonunun bir parçası olarak faaliyetlerine devam eden PrettyLitter, kedi sahiplerine proaktif bir sağlık izleme aracı sunmaktadır.`,
+     boycottReason: `PrettyLitter markası, 2021 yılında Mars Incorporated tarafından satın alınmıştır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi PrettyLitter da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Sheba",
+     slug: "sheba",
+     foundedYear: 1982,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/sheba.png",
+     isBoycotted: "boykot",
+     website: "https://www.sheba.com/",
+     description: `Sheba, 1982 yılında Hamburg'da piyasaya sürülen ve "kedinizi şımartmanın en zarif yolu" olarak konumlanan premium bir kedi maması markasıdır. Adını efsanevi Saba Melikesi'nden (Queen of Sheba) alan marka, kedileri sadece beslemekle kalmayıp onlarla duygusal bir bağ kurmayı ve onlara birer kraliyet üyesi gibi davranmayı hedefler. Özellikle fileto, çorba ve püre kıvamındaki gurme yaş mama çeşitleriyle tanınır.
+
+Markanın en önemli özelliği, seçici damak tadına sahip kediler için geliştirilen yüksek kaliteli içerikleridir. Sürdürülebilir balıkçılık kaynaklarından elde edilen ton balığı, somon ve beyaz et gibi protein kaynaklarını kullanır. Ayrıca Sheba, okyanusların korunması adına "Hope Grows" (Umut Büyüyor) projesiyle dünyanın en büyük mercan resifi restorasyon programını yürüterek çevresel sorumluluk bilincini de yansıtmaktadır.
+
+Mars Petcare'in lüks segmentteki temsilcisi olan Sheba, dünya genelinde milyonlarca kedi sahibi tarafından, evcil hayvanlarına duydukları sevgiyi göstermenin bir aracı olarak tercih edilmektedir.`,
+     boycottReason: `Sheba markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Sheba da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Temptations",
+     slug: "temptations",
+     foundedYear: 2002,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/temptations.png",
+     isBoycotted: "boykot",
+     website: "https://www.temptationstreats.com/",
+     description: `Temptations, Mars Petcare tarafından 2002 yılında piyasaya sürülen ve kısa sürede Amerika'nın 1 numaralı kedi ödül maması haline gelen popüler bir markadır. Avrupa pazarında "Dreamies" adıyla bilinen bu ürünün en karakteristik özelliği, dışının kıtır bir kabukla kaplı olması, içinin ise kedileri cezbeden yumuşak ve lezzetli bir dolguya sahip olmasıdır.
+
+Marka, kedilerin ambalajı sallar sallamaz koşarak gelmesini sağlayan dayanılmaz lezzetiyle ünlenmiştir. Tavuk, sığır eti, süt, ton balığı ve kedi nanesi gibi çeşitli aromalar sunar. Her bir tanesinin 2 kaloriden az olması ve besleyici vitaminlerle zenginleştirilmesi, kedilerini şımartmak isteyen ancak sağlık dengesini korumaya çalışan sahipler için ideal bir seçenek oluşturur.
+
+Eğlenceli ve mizahi reklam kampanyalarıyla tanınan Temptations, kedi ve insan arasındaki bağı güçlendirmeyi hedefler. Oyun saatlerini lezzetli bir deneyime dönüştüren marka, tüy yumağı kontrolü ve diş sağlığı gibi fonksiyonel çeşitleriyle de ürün gamını genişletmiştir.`,
+     boycottReason: `Temptations markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi Temptations da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Whiskas",
+     slug: "whiskas",
+     foundedYear: 1958,
+     ctgry: "Pets",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/whiskas.png",
+     isBoycotted: "boykot",
+     website: "https://www.whiskas.co.uk/",
+     description: `Whiskas, 1958 yılında İngiltere'de piyasaya sürülen ve o günden bu yana dünyanın en tanınmış kedi maması markalarından biri haline gelen küresel bir liderdir. İkonik mor ambalajı ve gümüş renkli tekir kedi maskotuyla özdeşleşen marka, "kediler Whiskas alır" (Cats would buy Whiskas) sloganıyla hafızalara kazınmıştır.
+
+Yavru kedilerden yaşlı kedilere kadar her yaşam evresi için özel olarak formüle edilmiş yaş ve kuru mamalar sunar. Ürünleri, Mars bünyesindeki Waltham Evcil Hayvan Besleme Merkezi'nin bilimsel araştırmalarına dayanarak geliştirilir. Kedilerin doğal beslenme ihtiyaçlarını karşılamak üzere dengeli protein, vitamin ve mineral içeriği sunmayı taahhüt eder.
+
+Whiskas, sadece beslenme alanında değil, kedi bakımı konusundaki eğitici içerikleriyle de evcil hayvan sahiplerine rehberlik eder. Uygun fiyatlı ve kaliteli beslenmeyi erişilebilir kılarak, dünya genelinde milyonlarca kedinin günlük beslenmesinin temelini oluşturmaktadır.`,
+     boycottReason: `Whiskas markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Whiskas da boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Royal Canin",
+     slug: "royal-canin",
+     foundedYear: 1968,
+     ctgry: "Pets",
+     founder: "Jean Cathary",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [],
+     img: "/royal-canin.png",
+     isBoycotted: "boykot",
+     website: "https://www.royalcanin.com/tr",
+     description: `Royal Canin, 1968 yılında Fransız veteriner hekim Jean Cathary tarafından kurulan ve "Beslenme Yoluyla Sağlık" felsefesini benimseyen, dünya lideri bir evcil hayvan maması markasıdır. Markanın temelleri, Dr. Cathary'nin evcil hayvanlardaki cilt ve tüy sorunlarının doğru beslenme ile çözülebileceğini keşfetmesiyle atılmıştır. O günden bu yana marka, kedi ve köpeklerin ihtiyaçlarını insanlaştırmadan, tamamen onların biyolojik gereksinimlerine odaklanan bilimsel bir yaklaşım sergiler.
+
+Markanın en belirgin özelliği, "Hassas Beslenme" (Health Nutrition) anlayışıdır. Irk, yaş, boyut, yaşam tarzı ve özel sağlık durumlarına (böbrek sağlığı, sindirim hassasiyeti, idrar yolu vb.) göre özelleştirilmiş yüzlerce farklı formül sunar. Veteriner hekimler ve beslenme uzmanlarıyla ortaklaşa geliştirilen reçeteli diyet serileri (Veterinary Diet), klinik beslenmede bir standart haline gelmiştir.
+
+2002 yılında küresel gıda devi Mars Incorporated tarafından satın alınan Royal Canin, Mars Petcare bünyesinde bağımsız bir bilimsel birim gibi çalışmaya devam etmektedir. Fransa'daki köklerinden gelen uzmanlığı Mars'ın küresel gücüyle birleştiren marka, evcil hayvanlar için en doğru besin değerlerini en hassas şekilde sunmayı hedefler.`,
+     boycottReason: `Royal Canin markası, 2002 yılında Mars Incorporated tarafından satın alınmıştır ve şirketin en önemli iştiraklerinden biridir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Royal Canin de boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
    ],
   },
   {
@@ -420,29 +1088,299 @@ Lezita, tamamen Türk sermayeli bir şirket olup İsrail'i destekler nitelikte f
 İsrail ile herhangi bir ticari ilişkisi olmayan Patito'nun, boykot çağrılarına konu olmadığı ve bu kampanyalarda yer almadığı net olarak bilinmektedir. Patito, Türkiye'de üretilen ve tamamen yerli tüketicinin damak tadına uygun çeşitler geliştiren bir cips markasıdır.`,
   },
   {
-   name: "Hero Baby",
-   slug: "hero-baby",
+   name: "Hero Group",
+   slug: "hero-group",
    foundedYear: 1886,
-   ctgry: "Bebek Maması",
+   ctgry: "Şirket",
    founder: "Gustav Henckell ve Gustav Zeiler",
-   owner: "",
+   owner: "Hero Group",
    country: "İsviçre",
    alternative_products: [],
-   img: "/hero-baby.png",
+   img: "/hero-group.png",
    isBoycotted: "boykot",
-   website: "https://www.hero.com.tr/",
-   description: `Hero'nun ilk konservesi, 1886 yılında, Gustav Henckell isimli konserve fabrikası işçisi ve Gustav Zeiler isimli meyve çiftçisi olan iki arkadaş sayesinde İsviçre'nin şirin kenti Lenzburg'un insanlarına doğanın iyiliğini sunmak amacıyla hayata geldi. Hero şirketinin genel merkezi, günümüzde dahi İsviçre'nin Lenzburg kentinde faaliyetlerini sürdürmektedir.
+   website: "https://hero-group.ch/tr",
+   description: `Hero Group, temelleri 1886 yılında İsviçre'nin Lenzburg kentinde atılan, bebek maması, reçel ve besleyici atıştırmalıklar konusunda uzmanlaşmış uluslararası bir gıda devidir. Gustav Henckell ve Gustav Zeiler tarafından kurulan şirket, 1995 yılında Dr. Arend Oetker'in çoğunluk hisselerini satın almasıyla stratejik bir dönüşüm geçirmiştir. Bu tarihten itibaren markalı işlere odaklanan ve küresel bir coğrafi genişleme programı başlatan grup, 2003 yılında İsviçre Borsası'ndan çıkarak özel bir şirket yapısına bürünmüştür.
 
-"Hero" ismi 1910 yılında, küçük konserve şişelerinin şeklinden ilham alınarak H, R ve O harfleri kullanılarak oluşturulmuştur. Logo, günümüze kadar benzersiz şeklini korumuştur. Sadece 12 yıl sonra, 1922'de Hero, tüketicilere otuzdan fazla farklı konserve ürünü sunan bir marka haline gelmiştir. Hero'nun misyonu, tüketicilere doğanın en iyisini ve taze ürünleri sunmaktır.
+   2000'li yıllar, Hero Group için agresif bir büyüme ve satın alma dönemi olmuştur. 2002'de Alman reçel devi Schwartau'yu, 2005'te Amerikan bebek maması üreticisi Beech-Nut'ı ve 2006'da İskandinavya'nın lideri Semper'i bünyesine katarak Avrupa ve Kuzey Amerika'daki konumunu güçlendirmiştir. Grup ayrıca Mısır'da Vitrac, Çekya'da Sunar ve İngiltere'de Organix gibi pazar lideri markaları satın alarak faaliyet alanını Orta Doğu, Afrika ve Doğu Avrupa'ya kadar genişletmiştir.
+   
+   Şirketin Türkiye pazarındaki serüveni ise stratejik ortaklıklarla başlamıştır. 2003 yılında Yıldız Holding (Ülker) ile kurulan ortak girişim (Joint Venture) sayesinde Türkiye pazarına güçlü bir giriş yapmış ve 2009 yılında Ankara'da modern bir bebek maması fabrikası açmıştır. 2014 yılına gelindiğinde ise Hero Group, Türkiye'deki operasyonun tam mülkiyetini satın alarak tüm ürünlerini "Hero Baby" markası altında tek çatı altında toplamıştır. Bugün 4.000'den fazla çalışanıyla global bir oyuncu olan Hero, "doğanın iyiliğini koruma" misyonuyla üretim yapmaya devam etmektedir.`,
+   boycottReason: `Hero Group, merkezi İsviçre'nin Lenzburg kentinde bulunan ve kökeni itibarıyla İsviçre ekonomisine doğrudan bağlı olan uluslararası bir şirkettir. Markanın boykot listesinde yer almasının temel gerekçesi, İsviçre devletinin İsrail ile olan derin siyasi ve ekonomik iş birlikleridir.
 
-1939 yılına gelindiğinde Hero ismi, 1922'de kurulan Hero Spain dahil olmak üzere beşten fazla şirketle birlikte büyümüştü. İkinci Dünya Savaşı'nın başlaması ve ardından gelen şeker kıtlığı ile Hero, daha az şeker ve daha fazla meyve ile konserve üretmeyi başarmış, bu sayede sadece savaşı atlatmakla kalmamış, aynı zamanda doğal, sağlıklı ve özgün içeriğini güçlendirmiştir.
-
-1950'lerde Hero, modern üretim tekniklerini ve öncü yaklaşımı benimseyerek, bilimsel gelişmeleri takip ederek tüketicilerine her zaman doğanın en iyisini sunmaya devam etmiştir. 1985 yılına gelindiğinde Hero, Fransa ve Almanya'daki satın almalar, Hero Foods (Birleşik Krallık) ve sevilen Hero Baby Spain gibi girişimlerle uluslararası başarı elde etmiştir.
-
-Hero, günümüzde Mısır, Türkiye, Çek Cumhuriyeti, Slovenya, İskandinavya, Belçika, Fransa, Almanya, Birleşik Krallık, Amerika Birleşik Devletleri, Brezilya ve Rusya dahil olmak üzere dünya çapındaki pazarlarda ürünleriyle insanlara doğanın iyiliğini sunmaya devam etmektedir.`,
-   boycottReason: `Bu marka İsviçre merkezli olduğu için önerilmemektedir.`,
+   İsviçre, uluslararası arenada tarafsızlık ilkesiyle bilinmesine rağmen, İsrail ile savunma sanayii, teknoloji ve ticaret alanlarında güçlü bağlara sahiptir. İsviçre menşeli şirketler, sağladıkları vergi gelirleri ve ekonomik güç ile dolaylı olarak bu devlet politikasının bir parçası konumundadır. İsrail'in işgal politikalarına karşı net bir yaptırım uygulamayan ve ticari ilişkilerini sürdüren İsviçre'ye ait olan Hero markası, bu ekonomik desteği kesmek isteyen tüketiciler tarafından boykot edilmektedir.`,
    evidences: [
     "https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations",
+   ],
+   subBrands: [
+    {
+     name: "Goodies",
+     slug: "goodies",
+     foundedYear: 1886,
+     ctgry: "Bebek & Çocuk Gıda",
+     founder: "Hero Group",
+     owner: "Hero Group",
+     country: "İsviçre",
+     alternative_products: [],
+     img: "/goodies.png",
+     isBoycotted: "boykot",
+     website: "https://goodies-snacks.com/tr",
+     description: `Goodies, okul öncesi çocuklar için özel olarak formüle edilmiş, sağlıklı ve eğlenceli bir atıştırmalık markasıdır. Ebeveynlerin çocuklarına güvenle verebileceği ürünler sunmayı misyon edinen marka, "Atıştırmalıklar sadece açlığı gidermekle kalmamalı, aynı zamanda besleyici ve keyifli olmalı" felsefesiyle hareket eder. Ürün içeriklerinde şeffaflığı ön planda tutan Goodies, gereksiz katkı maddelerinden arındırılmış temiz etiketli ürünleriyle bilinir.
+
+Markanın geniş ürün yelpazesinde; çocuklara enerji veren yulaf barları, besleyici meyve püreleri, sebzeli puflar ve krakerler bulunmaktadır. Bu ürünler, çocukların damak tadına uygun lezzetlerle, büyüme çağındaki ihtiyaç duydukları besin değerlerini birleştirir. İngiltere başta olmak üzere birçok Avrupa ülkesinde popüler olan Goodies, çocukların beslenme çantalarının vazgeçilmez bir parçasıdır.`,
+     boycottReason: `Goodies, İsviçre merkezli Hero Group'un bir markasıdır. Çatı şirketin (Hero) İsviçre kökenli olması ve ülkenin İsrail politikaları nedeniyle boykot listesinde yer alması, bu markayı da boykot kapsamına almaktadır.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Hero Baby",
+     slug: "hero-baby",
+     foundedYear: 1985,
+     ctgry: "Bebek & Çocuk Gıda",
+     founder: "Hero Group",
+     owner: "Hero Group",
+     country: "İsviçre",
+     alternative_products: [],
+     img: "/hero-baby.png",
+     isBoycotted: "boykot",
+     website: "https://www.hero.com.tr/",
+     description: `Hero Baby, bebek ve küçük çocuklar için formül süt, kaşık maması ve kavanoz mama üreten, uzman bir bebek beslenmesi markasıdır. Kökleri 1930'lara dayanan bilimsel araştırmalara ve beslenme uzmanlığına sahip olan marka, Hero Bebek Beslenme Enstitüsü ve uluslararası pediatristlerle işbirliği içinde ürünlerini geliştirmektedir. Amacı, bebeklerin sağlıklı gelişimini desteklerken ebeveynlere de güvenilir beslenme çözümleri sunmaktır.
+
+Ürün portföyünde; anne sütüne yakın formüle edilmiş devam sütleri, ek gıdaya geçiş sürecini kolaylaştıran meyve ve sebze püreleri, tahıllı kaşık mamaları ve organik kavanoz serileri yer alır. Doğal tarım uygulamalarıyla yetiştirilen meyve ve sebzeleri kullanan marka, üretim süreçlerinde yüksek kalite standartlarını benimser. Özellikle Türkiye, Mısır ve Orta Doğu pazarında yaygın olarak tercih edilen Hero Baby, nesillerdir büyüyen bebeklerin beslenmesinde önemli bir rol oynamaktadır.`,
+     boycottReason: `Hero Baby, Hero Group'un en bilinen ana markalarından biridir. Şirketin İsviçre merkezli olması ve İsviçre'nin İsrail'e verdiği destek nedeniyle marka boykot listesindedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Freche Freunde",
+     slug: "freche-freunde",
+     foundedYear: 2010,
+     ctgry: "Bebek & Çocuk Gıda",
+     founder: "Natacha ve Alexander",
+     owner: "Hero Group",
+     country: "Almanya",
+     alternative_products: [],
+     img: "/freche-freunde.png",
+     isBoycotted: "boykot",
+     website: "",
+     description: `Freche Freunde (Yaramaz Arkadaşlar), çocuklara meyve ve sebzeyi sevdirmeyi amaçlayan, %100 organik içerikli bir atıştırmalık markasıdır. 2010 yılında iki ebeveyn tarafından kurulan marka, çocukların sağlıklı beslenme alışkanlıklarını eğlenceli bir yolla kazanmasını hedefler. Karl Karotte (Havuç), Edda Erdbeere (Çilek) gibi neşeli karakterlerle ambalajlarını süsleyerek, sebze ve meyveleri çocuklar için çekici hale getirir.
+
+Markanın ürün gamı, tamamen organik tarımdan elde edilen malzemelerle hazırlanan meyve barları, sebzeli krakerler, püreler ve kahvaltılık gevreklerden oluşur. Hiçbir ürününde yapay katkı maddesi, renklendirici veya ilave şeker kullanmayan Freche Freunde, "temiz gıda" anlayışıyla ebeveynlerin güvenini kazanmıştır. Almanya, Avusturya ve İsviçre pazarında oldukça popüler olan marka, Hero Group çatısı altında büyümesini sürdürmektedir.`,
+     boycottReason: `Freche Freunde, Hero Group tarafından satın alınmış bir markadır. Çatı şirketin (Hero) İsviçre kökenli olması ve boykot gerekçeleri sebebiyle bu marka da boykot edilmektedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Beech-Nut",
+     slug: "beech-nut",
+     foundedYear: 1891,
+     ctgry: "Bebek & Çocuk Gıda",
+     founder: "Beech-Nut Packing Company",
+     owner: "Hero Group",
+     country: "Amerika Birleşik Devletleri",
+     alternative_products: [],
+     img: "/beech-nut.png",
+     isBoycotted: "boykot",
+     website: "https://www.beechnut.com/",
+     description: `Beech-Nut, 1891 yılından bu yana faaliyet gösteren ve "bebekler için gerçek gıda" misyonuyla üretim yapan köklü bir Amerikan bebek maması markasıdır. Yüzyılı aşkın tecrübesiyle Amerikan ailelerinin güvenini kazanan marka, tescilli "Gentle Cooking™" (Nazik Pişirme) yöntemini kullanarak meyve ve sebzelerin besin değerlerini, rengini ve dokusunu korur. Bu sayede ev yapımı kalitesine en yakın endüstriyel bebek mamasını sunmayı hedefler.
+
+Gıda güvenliği konusunda son derece titiz olan Beech-Nut, ham maddelerini pestisitler, ağır metaller ve çevresel toksinler dahil olmak üzere 255'ten fazla testten geçirir. Şeffaflık ilkesi gereği, kavanozlarının içinde ne varsa etiketinde de sadece o yazar. Geniş ürün yelpazesinde organik püreler, tahıl barları ve atıştırmalıklar bulunan marka, Hero Group'un Kuzey Amerika pazarındaki en güçlü temsilcisidir.`,
+     boycottReason: `Beech-Nut, İsviçre merkezli Hero Group'un bir iştirakidir. Ana şirketin boykot listesinde olması ve İsviçre'nin politik duruşu nedeniyle bu marka da boykot kapsamındadır.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Baby Gourmet",
+     slug: "baby-gourmet",
+     foundedYear: 2005,
+     ctgry: "Bebek & Çocuk Gıda",
+     founder: "Jennifer Carlson ve Jill Vos",
+     owner: "Hero Group",
+     country: "Kanada",
+     alternative_products: [],
+     img: "/baby-gourmet.png",
+     isBoycotted: "boykot",
+     website: "https://www.babygourmet.com/",
+     description: `Baby Gourmet, Kanada'nın önde gelen organik bebek maması ve sağlıklı atıştırmalık markasıdır. 2005 yılında Jennifer Carlson ve Jill Vos adlı iki kız kardeşin, kendi çocukları için yaptıkları mamaları yerel pazarda satmalarıyla başlayan bu girişim, bugün ulusal bir başarı hikayesine dönüşmüştür. Marka, bebeklerin damak tadını geliştiren gurme tarifleri organik içeriklerle birleştirerek sunar.
+
+Sertifikalı bir "B Corporation" olan Baby Gourmet, sadece kar amacı gütmeyip toplumsal ve çevresel faydayı da ön planda tutar. Sürdürülebilir tarım uygulamalarını destekleyen ve ambalaj atıklarını azaltmaya yönelik çalışmalar yapan marka; poşet mamalar, parmak gıdalar (finger foods) ve besleyici tahıl karışımlarıyla ebeveynlere pratik ve sağlıklı çözümler sunmaktadır.`,
+     boycottReason: `Baby Gourmet, Hero Group bünyesinde yer alan bir markadır. Ana şirketin İsviçre kökenli olması ve boykot nedenleri dolayısıyla bu marka da listeye dahildir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Organix",
+     slug: "organix",
+     foundedYear: 1992,
+     ctgry: "Bebekler için Yiyecek ve İçecek",
+     founder: "Lizzie Vann",
+     owner: "Hero Group",
+     country: "Birleşik Krallık",
+     alternative_products: [],
+     img: "/organix.png",
+     isBoycotted: "boykot",
+     website: "https://www.organix.com/",
+     description: `Organix, "No Junk" (Gereksiz Şeyler Yok) felsefesiyle üretim yapan, İngiltere menşeli öncü bir organik bebek atıştırmalığı markasıdır. 1992 yılında Lizzie Vann tarafından kurulan marka, bebek gıdalarında bulunan gereksiz katkı maddelerine, tuza ve şekere karşı bir duruş sergileyerek sektörü dönüştürmüştür. Tüm ürünleri organik sertifikalıdır ve bebeklerin güvenle tüketebileceği içeriklere sahiptir.
+
+Markanın ürün portföyünde; bebeklerin kendi kendilerine beslenmelerini (BLW) destekleyen parmak gıdalar, yumuşak dokulu bisküviler, pirinç patlakları ve meyve barları bulunur. Lezzetli olduğu kadar besleyici de olan bu atıştırmalıklar, çocukların sağlıklı beslenme alışkanlıkları kazanmasına yardımcı olur. İngiltere pazarının liderlerinden biri olan Organix, Hero Group'un global ağı sayesinde birçok ülkede satılmaktadır.`,
+     boycottReason: `Organix, İsviçre merkezli Hero Group'a aittir. Çatı şirketin boykot statüsü ve İsviçre-İsrail ilişkileri nedeniyle Organix de boykot edilmektedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Semper",
+     slug: "semper",
+     foundedYear: 1939,
+     ctgry: "Bebekler için Yiyecek ve İçecek",
+     founder: "Axel Wenner-Gren",
+     owner: "Hero Group",
+     country: "İsveç",
+     alternative_products: [],
+     img: "/semper.png",
+     isBoycotted: "boykot",
+     website: "https://www.semper.se/",
+     description: `Semper, 1939 yılından bu yana faaliyet gösteren ve İskandinavya pazarının lideri konumunda olan bir bebek maması ve glutensiz ürün markasıdır. Dünyanın ilk endüstriyel bebek mamasını geliştiren marka olarak bilinen Semper, İsveç kökenli olup kalite ve güvenilirlik konusunda yüksek standartlara sahiptir. Latince "Her zaman" anlamına gelen ismiyle, yaşamın her evresinde tüketicinin yanında olmayı hedefler.
+
+Marka, özellikle bebek sütü formülleri, kaşık mamaları ve ek gıdaya geçiş ürünleriyle tanınır. İskandinav beslenme alışkanlıklarına ve tariflerine sadık kalarak geliştirdiği ürünlerinde, gereksiz katkı maddelerinden kaçınır ve doğal içerikleri önceler. Bebek beslenmesinin yanı sıra çölyak hastaları ve glüsensiz beslenenler için geliştirdiği geniş bir ürün yelpazesi de bulunan Semper, İsveç, Danimarka, Finlandiya ve Norveç'te pazarın en güçlü oyuncusudur.`,
+     boycottReason: `Semper, Hero Group portföyünde yer almaktadır. Ana şirketin (Hero) İsviçre menşeli olması ve boykot gerekçeleri bu marka için de geçerlidir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Sunar",
+     slug: "sunar",
+     foundedYear: 1936,
+     ctgry: "Bebekler için Yiyecek ve İçecek",
+     founder: "",
+     owner: "Hero Group",
+     country: "Çek Cumhuriyeti",
+     alternative_products: [],
+     img: "/sunar.png",
+     isBoycotted: "boykot",
+     website: "https://sunar.cz/",
+     description: `Sunar, Çek Cumhuriyeti ve Slovakya'da nesillerdir bebek beslenmesi denince akla gelen ilk marka olan köklü bir süt formülü üreticisidir. 80 yılı aşkın tecrübesiyle bölgenin en güvenilen markalarından biri olan Sunar, anne sütünden ilham alarak geliştirdiği formülleriyle bebeklerin bağışıklık sistemini ve gelişimini desteklemeyi amaçlar.
+
+Markanın ürün yelpazesi sadece formül sütlerle sınırlı değildir; besleyici tahıl karışımları, meyve püreleri ve sağlıklı atıştırmalıklar da sunar. "Sağlıklı büyüme, mutlu karınlar" ilkesiyle hareket eden Sunar, yerel tatlara ve beslenme alışkanlıklarına uygun ürünler geliştirir. Hero Group bünyesine katıldıktan sonra Ar-Ge gücünü artıran marka, geleneksel güvenilirliğini modern beslenme bilimiyle birleştirmiştir.`,
+     boycottReason: `Sunar, Hero Group'a ait bir markadır. Çatı şirketin İsviçre merkezli olması ve boykot nedenleri sebebiyle bu marka da boykot listesindedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Corny",
+     slug: "corny",
+     foundedYear: 1984,
+     ctgry: "Yiyecek",
+     founder: "Schwartau",
+     owner: "Hero Group",
+     country: "Almanya",
+     alternative_products: [],
+     img: "/corny.png",
+     isBoycotted: "boykot",
+     website: "https://www.corny.de/",
+     description: `Corny, "müsli bar" kategorisinin yaratıcısı ve pazar lideri olan global bir atıştırmalık markasıdır. 1984 yılında Almanya'da Schwartau firması tarafından piyasaya sürülen Corny, tahılları çikolata, meyve ve kuruyemişlerle birleştirerek pratik, lezzetli ve enerji veren bir atıştırmalık konsepti yaratmıştır. Günümüzde 50'den fazla ülkede satılan marka, atıştırmalık dünyasının en bilinen isimlerinden biridir.
+
+Tüketici trendlerini yakından takip eden Corny, klasik çeşitlerinin yanı sıra farklı ihtiyaçlara yönelik seriler de geliştirmiştir. Şeker tüketimine dikkat edenler için "Corny Zero", sporcular ve aktif yaşam sürenler için "Corny Protein", daha büyük porsiyon isteyenler için "Corny BIG" gibi seçenekler sunar. Kaliteli yulaf ve tahıl kullanımıyla öne çıkan marka, Hero Group'un atıştırmalık kategorisindeki en güçlü kozudur.`,
+     boycottReason: `Corny, Hero Group bünyesindeki Schwartau firması tarafından üretilmektedir. Ana şirketin (Hero) boykot listesinde olması nedeniyle Corny de boykot edilmektedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Deliciously Ella",
+     slug: "deliciously-ella",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Ella Mills",
+     owner: "Hero Group",
+     country: "Birleşik Krallık",
+     alternative_products: [],
+     img: "/deliciously-ella.png",
+     isBoycotted: "boykot",
+     website: "https://deliciouslyella.com/",
+     description: `Deliciously Ella, %100 bitki bazlı ve doğal içeriklerle üretim yapan, İngiltere merkezli popüler bir sağlıklı gıda markasıdır. Markanın hikayesi, kurucusu Ella Mills'in yaşadığı sağlık sorunlarını çözmek amacıyla başladığı bitkisel beslenme blogunun büyük bir başarıya ulaşmasıyla başlar. Blogdan doğan bu marka, bugün İngiltere'nin en hızlı büyüyen gıda şirketlerinden biri haline gelmiştir.
+
+Markanın ürün yelpazesinde; glutensiz yulaflar, enerji topları, sağlıklı atıştırmalık barlar, granolalar ve dondurulmuş bitkisel yemekler bulunur. Hiçbir ürününde katkı maddesi veya işlenmiş şeker kullanmayan Deliciously Ella, sağlıklı yaşamı lezzetli ve ulaşılabilir kılmayı hedefler. Yakın zamanda Hero Group tarafından satın alınan marka, global pazarlara açılma yolunda emin adımlarla ilerlemektedir.`,
+     boycottReason: `Deliciously Ella, yakın zamanda Hero Group tarafından satın alınmıştır. Çatı şirketin (Hero) İsviçre kökenli olması ve boykot gerekçeleri sebebiyle bu marka da listeye dahil edilmiştir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Hero Solo",
+     slug: "hero-solo",
+     foundedYear: 2018,
+     ctgry: "Bebekler için Yiyecek ve İçecek",
+     founder: "Hero Group",
+     owner: "Hero Group",
+     country: "İspanya",
+     alternative_products: [],
+     img: "/hero-solo.png",
+     isBoycotted: "boykot",
+     website: "https://solo.hero.es/",
+     description: `Hero Solo, İspanya pazarında lider konumda olan ve %100 organik içeriklerle üretilen bir bebek maması markasıdır. Markanın temel felsefesi "Sadece gördüğünüz" (Solo lo que ves) sloganında yatar; bu, ürünün ön yüzündeki görselde hangi meyve veya sebze varsa, kavanozun içinde de sadece o malzemelerin olduğunu garanti eder.
+
+Şeffaflık ve doğallık üzerine kurulu bu marka; koruyucu, renklendirici, nişasta veya ilave şeker içermeyen ürünler sunar. Tıpkı evde hazırlanmış gibi doğal dokuya ve lezzete sahip olan Hero Solo ürünleri, ek gıdaya geçiş sürecindeki bebekler için en sağlıklı alternatiflerden biri olarak konumlanır. İspanya'nın yanı sıra Portekiz ve İtalya gibi Akdeniz ülkelerinde de ebeveynlerin güvenle tercih ettiği bir markadır.`,
+     boycottReason: `Hero Solo, Hero Group'un doğrudan markasıdır. Şirketin genel boykot gerekçesi (İsviçre menşei ve politik duruş) bu marka için de geçerlidir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Schwartau",
+     slug: "schwartau",
+     foundedYear: 1899,
+     ctgry: "Yiyecek",
+     founder: "",
+     owner: "Hero Group",
+     country: "Almanya",
+     alternative_products: [],
+     img: "/schwartau.png",
+     isBoycotted: "boykot",
+     website: "https://schwartau.de/",
+     description: `Schwartau, Almanya'nın en köklü ve pazar lideri olan reçel ve meyve ürünleri markasıdır. 1899 yılından beri Almanya'nın Bad Schwartau kentinde üretim yapan firma, Alman kahvaltı kültürünün ayrılmaz bir parçasıdır. Yüksek meyve oranı, özenle seçilmiş ham maddeler ve geleneksel üretim teknikleriyle hazırlanan reçelleri, kalite ve lezzet konusunda bir standart belirlemiştir.
+
+Markanın en bilinen serileri arasında, klasik reçel severler için "Schwartau Extra" ve pürüzsüz kıvam sevenler için çekirdeksiz ve parçasız "Schwartau Samt" yer alır. Ayrıca şeker oranına dikkat eden tüketiciler için azaltılmış şekerli veya şekersiz versiyonları da mevcuttur. Yerel üreticilerden meyve temin etmeye özen gösteren Schwartau, Hero Group'un Almanya pazarındaki en güçlü ve tarihi markasıdır.`,
+     boycottReason: `Schwartau, Hero Group bünyesinde yer alan bir şirkettir. Ana grubun İsviçre merkezli olması ve boykot listesinde bulunması nedeniyle Schwartau markası da boykottur.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Queensberry",
+     slug: "queensberry",
+     foundedYear: 1980,
+     ctgry: "Yiyecek",
+     founder: "Dr. Luiz Heraldo Câmara Lopes",
+     owner: "Hero Group",
+     country: "Brezilya",
+     alternative_products: [],
+     img: "/queensberry.png",
+     isBoycotted: "boykot",
+     website: "https://www.geleiasqueensberry.com.br/",
+     description: `Queensberry, Brezilya pazarının önde gelen premium reçel ve gurme gıda markasıdır. 1980 yılında kurulan marka, Avrupa standartlarında lüks reçeller üretme vizyonuyla yola çıkmıştır. Şık cam kavanozları, zarif etiket tasarımları ve ikonik yelkenli logosuyla rafta hemen ayırt edilen Queensberry, Güney Amerika'da "gurme reçel" kategorisinin yaratıcısıdır.
+
+Marka, meyvelerin doğal tadını, rengini ve dokusunu koruyan özel pişirme teknikleri kullanır. Klasik meyve reçellerinin yanı sıra, peynirlerle eşleştirmek için "Gourmet" serisi ve şekersiz "Diet" serisi gibi inovatif ürünler de sunar. Hero Group tarafından satın alınan Queensberry, Brezilya'daki lüks gıda marketlerinin ve kahvaltı sofralarının vazgeçilmez bir markası olmaya devam etmektedir.`,
+     boycottReason: `Queensberry, Hero Group tarafından satın alınmış bir markadır. Ana şirketin boykot statüsü nedeniyle bu marka da boykot listesindedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Vitrac",
+     slug: "vitrac",
+     foundedYear: 1982,
+     ctgry: "Yiyecek",
+     founder: "",
+     owner: "Hero Group",
+     country: "Mısır",
+     alternative_products: [],
+     img: "/vitrac.png",
+     isBoycotted: "boykot",
+     website: "https://www.heromea.com/vitrac/en",
+     description: `Vitrac, Mısır'ın en sevilen ve güvenilen reçel, meyve suyu ve meyve konsantresi markasıdır. 1982 yılında kurulan marka, kendi çiftliklerinde yetiştirdiği taze meyveleri işleyerek Mısır ailelerine yüksek kaliteli ürünler sunar. Kahvaltı sofralarında reçelleriyle, gün içinde ise meyve sularıyla Mısır kültürünün önemli bir parçası haline gelmiştir.
+
+Yerel damak tadına uygun olarak geliştirdiği ürünlerinde çilek, incir, kayısı gibi bölgenin bereketli meyvelerini kullanır. Hero Group bünyesine katılmasıyla birlikte üretim kapasitesini ve kalite standartlarını daha da artıran Vitrac, sadece Mısır'da değil, Orta Doğu ve Afrika pazarında da ihracat yapan güçlü bir bölgesel markadır.`,
+     boycottReason: `Vitrac, Hero Group bünyesindeki bir markadır. Ana şirketin İsviçre kökenli olması ve boykot gerekçeleri sebebiyle Vitrac da boykot kapsamındadır.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
+    {
+     name: "Casa de Mateus",
+     slug: "casa-de-mateus",
+     foundedYear: 1959,
+     ctgry: "Yiyecek",
+     founder: "",
+     owner: "Hero Group",
+     country: "Portekiz",
+     alternative_products: [],
+     img: "/casa-de-mateus.png",
+     isBoycotted: "boykot",
+     website: "https://www.docescasademateus.pt/",
+     description: `Casa de Mateus, Portekiz'in geleneksel reçel ve meyve konservesi markasıdır. 1959'dan beri üretim yapan marka, ismini Portekiz'in ünlü Mateus bölgesinden alır ve ülkenin zengin gastronomi mirasını temsil eder. "Ev yapımı" tadında reçeller üretme konusunda uzmanlaşan marka, en olgun mevsim meyvelerini geleneksel yöntemlerle işler.
+
+Portekizli ailelerin güvenle tükettiği Casa de Mateus, özellikle balkabağı, domates ve incir reçelleriyle ünlüdür. Katkısız, doğal ve yoğun meyve tadına sahip ürünleriyle yerel pazarda güçlü bir konuma sahiptir. Hero Group'un bir parçası olmasına rağmen, yerel kimliğini ve geleneksel üretim anlayışını korumayı başarmıştır.`,
+     boycottReason: `Casa de Mateus, Hero Group iştirakidir. Çatı şirketin boykot listesinde olması nedeniyle bu marka da boykot edilmektedir.`,
+     evidences: ["https://en.wikipedia.org/wiki/Israel%E2%80%93Switzerland_relations"],
+    },
    ],
   },
   {
@@ -553,267 +1491,389 @@ Hero, günümüzde Mısır, Türkiye, Çek Cumhuriyeti, Slovenya, İskandinavya,
     "https://en.globes.co.il/en/article-reckitt-benckiser-seeks-investments-in-israeli-cos-1001262747",
    ],
   },
-  //! Burdayım.
   {
-   name: "Sana Yağ",
-   slug: "sana-yag",
-   foundedYear: 1952,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "Flora Food Group (ex. Upfield)",
-   country: "Hollanda",
+   name: "Flora Food Group (Upfield)",
+   slug: "upfield",
+   foundedYear: 2018,
+   ctgry: "Şirket",
+   founder: "Kohlberg Kravis Roberts",
+   owner: "Kohlberg Kravis Roberts",
+   country: "Amerika",
    alternative_products: [],
-   img: "/sana-yag.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://www.sana.com.tr/",
-   description: `Sana, Flora Food Group (Upfield) bünyesi altında 1952 yılından itibaren Türkiye'de üretilen bir margarin markasıdır. 5 Ocak 1953'te Bakırköy'de Sana Margarin fabrikası açılmıştır. Türkiye'nin ilk margarinidir. Halk arasında herhangi bir margarine genellikle Sana yağı denir.
+   img: "/upfield.png",
+   isBoycotted: "boykot",
+   website: "https://www.upfield.com.tr/",
+   description: `Flora Food Group (eski ve bilinen adıyla Upfield), 2018 yılında Unilever'in margarin ve sürülebilir gıda bölümünün ayrılmasıyla kurulan, bitki bazlı gıda üretiminde dünya lideri olan bir şirkettir. Merkezi Amsterdam'da bulunmasına rağmen, şirketin mülkiyeti Amerikan yatırım devi Kohlberg Kravis Roberts (KKR) şirketine aittir.
 
-Sana, Sana Klasik, Sana Hamurişi, Sana Tereyağı Lezzeti ve Sana Ekmeküstü çeşitleriyle, paket ve kase ambalajlarıyla farklı kullanım ihtiyaçlarına özel ürünler sunar. Marka, Türkiye'de margarin kültürünün oluşmasında önemli bir rol oynamıştır.
+Dünya genelinde 95'ten fazla ülkede faaliyet gösteren Upfield; Flora, Rama (Blue Band), Becel, ProActiv ve Sana gibi tüketicilerin yakından tanıdığı ikonik markaların çatı şirketidir. Unilever çatısı altındayken başlayan tarihi, 2018'deki 6.8 milyar Euro'luk satış işlemiyle yeni bir boyuta taşınmıştır.
+   
+Şirket, "daha iyi bir bitkisel gelecek" vizyonuyla dünyanın en büyük bitki bazlı hızlı tüketim malları (FMCG) şirketi konumundadır. Tereyağına alternatif bitkisel sürülebilir ürünler, kremalar ve peynirler üreterek gıda sektöründe geniş bir pazar payına sahiptir.`,
+   boycottReason: `Upfield (Flora Food Group), 2018 senesinde Amerikan yatırım şirketi KOHLBERG KRAVIS ROBERTS & CO. (KKR) tarafından satın alınmıştır. Şirketin boykot listesinde yer almasının temel nedeni bu mülkiyet bağıdır.
 
-Sana'nın önceki sahibi Unilever'dir. 2018 yılında Unilever'in margarin ve yayılma bölümü, Flora Food Group (eski adıyla Upfield) olarak ayrılmış ve Kohlberg Kravis Roberts (KKR) tarafından satın alınmıştır.`,
-   boycottReason: `Bu marka yabancı bir ülke (Hollanda) merkezli Flora Food Group'a ait olduğu için önerilmemektedir. Yerli malı değildir.`,
+Sahibi olan KKR, İsrail’e desteğini açık bir şekilde ifade eden ve İsrail ekonomisine büyük yatırımları bulunan bir global sermaye devidir. KKR'nin İsrail devleti ve şirketleriyle olan bu derin stratejik ve finansal bağları nedeniyle, sahibi olduğu Upfield ve alt markaları (Becel, Flora, Sana vb.) boykot kapsamındadır.`,
+   evidences: ["https://www.linkedin.com/posts/kkr_israelhamaswar-activity-7117203219469983745-CHhx/"],
+   subBrands: [
+    {
+     name: "Sana Yağ",
+     slug: "sana-yag",
+     foundedYear: 1952,
+     ctgry: "Yiyecek",
+     founder: "Unilever",
+     owner: "Flora Food Group (Upfield)",
+     country: "Amerika",
+     alternative_products: [],
+     img: "/sana-yag.png",
+     isBoycotted: "boykot",
+     website: "https://www.sana.com.tr/",
+     description: `Sana, Flora Food Group (Upfield) bünyesi altında 1952 yılından itibaren Türkiye'de üretilen bir margarin markasıdır. 5 Ocak 1953'te Bakırköy'de Sana Margarin fabrikası açılmıştır. Türkiye'nin ilk margarinidir. Halk arasında herhangi bir margarine genellikle Sana yağı denir.
+  
+  Sana, Sana Klasik, Sana Hamurişi, Sana Tereyağı Lezzeti ve Sana Ekmeküstü çeşitleriyle, paket ve kase ambalajlarıyla farklı kullanım ihtiyaçlarına özel ürünler sunar. Marka, Türkiye'de margarin kültürünün oluşmasında önemli bir rol oynamıştır.
+  
+  Sana'nın önceki sahibi Unilever'dir. 2018 yılında Unilever'in margarin ve yayılma bölümü, Flora Food Group (eski adıyla Upfield) olarak ayrılmış ve Kohlberg Kravis Roberts (KKR) tarafından satın alınmıştır.`,
+     boycottReason: `Sana markası, Flora Food Group (Upfield) portföyünde yer almaktadır. Markanın çatı şirketi olan Upfield'ın mülkiyeti, 2018 yılından bu yana Amerikan yatırım devi Kohlberg Kravis Roberts (KKR) şirketindedir. KKR'nin İsrail devletine verdiği açık destek ve bu ülkedeki stratejik yatırımları nedeniyle, grubun bir parçası olan Sana markası da boykot listesinde yer almaktadır.`,
+    },
+    {
+     name: "Becel",
+     slug: "becel",
+     foundedYear: 1960,
+     ctgry: "Yiyecek",
+     founder: "Unilever",
+     owner: "Flora Food Group (Upfield)",
+     country: "Amerika",
+     alternative_products: [],
+     img: "/becel.png",
+     isBoycotted: "boykot",
+     website: "https://www.becel.com/tr-tr",
+     description: `Becel, kökleri 1960'lı yıllara dayanan ve günümüzde Flora Food Group (Upfield) bünyesinde bulunan küresel bir bitkisel yağ ve margarin markasıdır. İlk olarak Unilever tarafından Hollanda'da geliştirilen marka; ABD, İrlanda ve İspanya gibi ülkelerde "Flora", Fransa'da "Fruit d'Or" gibi farklı isimlerle de bilinmektedir.
+
+     Markanın çıkış hikayesi, 1950'lerde artan kalp hastalıkları ve yüksek kolesterol sorunlarına bir çözüm arayışına dayanır. İsmi, İngilizce "Blood Cholesterol Lowering" (Kan Kolesterolü Düşürücü) ifadesinin baş harfleri olan "BCL"den türetilmiştir. İçeriğindeki çoklu doymamış yağ asitleri ile kalp ve damar sağlığını desteklemeyi hedefleyen sağlıklı bir alternatif olarak piyasaya sürülmüştür.
+     
+     Uzun yıllar Unilever bünyesinde kalan Becel, 2018 yılında gerçekleşen stratejik satışla birlikte Upfield şirketine geçmiştir. "Kalbiniz Değerlidir" sloganıyla tanınan marka, günümüzde Upfield'ın sahibi olan Amerikan yatırım şirketi KKR'nin portföyünde yer almaktadır.`,
+
+     boycottReason: `Becel, Flora Food Group (Upfield) şirketine ait global bir markadır. Şirketin sermaye sahibi olan Amerikan fon şirketi KKR (Kohlberg Kravis Roberts), İsrail ekonomisine sağladığı fonlar ve İsrail'e yönelik açık desteği ile bilinmektedir. Ana sermaye grubunun (KKR) bu duruşu ve mülkiyet bağı sebebiyle Becel de boykot kapsamındadır.`,
+    },
+   ],
   },
   {
    name: "Arbella Makarna",
    slug: "arbella-makarna",
-   foundedYear: null,
+   foundedYear: 2002,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "AGT FOOD",
-   country: "Kanada",
+   founder: "Durum Gıda",
+   owner: "AGT Food And Ingredients",
+   country: "Türkiye",
    alternative_products: [],
    img: "/arbella-makarna.png",
    isBoycotted: "boykot-degil",
    website: "https://www.arbellamakarna.com.tr/",
-   description: `Arbella Makarna, AGT FOOD isimli Kanadalı gıda şirketine ait bir makarna markasıdır. Türkiye'de makarna sektöründe faaliyet göstermektedir. AGT FOOD, İsrail ile alakalı olumlu ya da olumsuz herhangi bir paylaşımda bulunduğu tespit edilmemiştir.`,
+   description: `Arbella Makarna'nın üreticisi Durum Gıda 2002 yılında kurulmuştur. 2009 yılında Kanada merkezli AGT Food And Ingredients şirketinin bünyesine geçmiştir.
+
+Makarna ve irmik sektörünün önde gelen üreticilerinden olan Arbella, makarna üretim kapasitesi ve tesisleri ile üretim ve ihracat potansiyeli açısından dünyadaki ilk on büyük makarna şirketi arasında yer almaktadır. Yıllık 180 bin ton irmik ve 160 bin ton makarna üretim kapasitesine sahip olan Arbella Makarna Afrika ülkelerinden AB ülkelerine, Japonya'dan Kanada'ya kadar geniş bir coğrafyada yüze yakın ülkeye ihracat gerçekleştirmektedir.
+
+Gerek ürün çeşitliliği gerekse ambalaj teknolojileri ile Türkiye ve dünya tüketicisinin talep ve ihtiyaçlarına yönelik çalışmalarına aralıksız devam eden Arbella Makarna'nın ürün yelpazesinde 28 çeşit makarnaya ek olarak tam buğday makarası, glütensiz mısır makarası ve çocuklu aileler için vitamin ve mineralli, sebzeli çeşitleri bulunmaktadır. Tüketicisine Türkiye'de ilk kez üretilen ve piyasaya sürülen şirket gerçekleştirdiği ar-ge çalışmaları ile açından söz ettirmektedir. Türkiye'de bir ilk olan mercimekli makarna ve nohutlu makarnayı üretmiştir. Ambalaj teknolojisinde yaptığı yeniliklerle de tüketicisine kolaylıklar sunan Arbella Makarna Türkiye'nin ilk ac- kapa spaghettilerini ve dengeli beslenmeye katkı sunmak üzere porsiyonlara ayrılmış spaghettilerini üretmektedir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Kristal Zeytinyağı",
+   slug: "kristal-zeytinyagi",
+   foundedYear: 1938,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   founder: "Anthony Micaleff",
+   owner: "Micaleff Ailesi ve Arkas Holding",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/kristal-zeytinyağı.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.kristalyaglari.com/",
+   description: `Kristal Zeytinyağı, temelleri 1938 yılında Anthony Micaleff tarafından İzmir'de atılan ve 1945 yılında "Türk Anonim Şirketi" unvanını alarak kurumsallaşan Türkiye'nin köklü markalarından biridir. Türkiye'nin zeytinyağı kültürünün oluşmasında öncü bir rol üstlenen Kristal, ülkemizin "ilk markalı zeytinyağı" olma özelliğini taşımaktadır ve nesillerdir bu geleneği sürdürmektedir.
+
+Sektördeki yenilikçi yaklaşımıyla bilinen marka, Türkiye'de Riviera tipi zeytinyağını üreten ve zeytinyağını teneke ambalajda sunan ilk firmadır. Ürün gamında sızma ve riviera zeytinyağlarının yanı sıra ayçiçek ve mısır yağı gibi bitkisel yağlar da bulunmaktadır. Bugün Almanya'dan Japonya'ya kadar 35'ten fazla ülkeye ihracat yaparak Türk zeytinyağını küresel pazarda temsil etmektedir.
+
+2007 yılında Arkas Holding ile gerçekleştirdiği stratejik ortaklıkla üretim kapasitesini ve pazar gücünü artıran Kristal Yağları, Turquality Marka Destek Programı'na dahil edilen küresel bir Türk markasıdır. İspanya'da şirket kuran ilk Türk zeytinyağı firması olma vizyonu ve uluslararası akreditasyona sahip laboratuvarlarıyla, yerli üretim gücünü koruyarak faaliyetlerine devam etmektedir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Burcu Gıda",
+   slug: "burcu-gida",
+   foundedYear: 1992,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   founder: "Cemil Bahadır",
+   owner: "Cemil Bahadır (Aile Şirketi)",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/burcu-gida.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.burcu.com.tr/",
+   description: `Burcu Gıda, 1992 yılında Cemil Bahadır tarafından Balıkesir'in Burhaniye ilçesinde temelleri atılan köklü bir gıda şirketidir. Kurulduğu ilk günlerde 600 metrekarelik bir alanda faaliyete başlayan firma, istikrarlı büyüme stratejisiyle bugün 20.000 metrekaresi kapalı olmak üzere toplam 53.000 metrekarelik modern tesislerinde üretim yapmaktadır. Şirketin kurucusu Cemil Bahadır, halen Yönetim Kurulu Başkanı olarak görevinin başındadır.
+
+Geniş bir ürün portföyüne sahip olan Burcu Gıda; salça, konserve, hazır yemekler, soslar, ketçap, mayonez ve turşu gruplarında 500'ü aşkın ürün çeşidi sunmaktadır. Ege ve Marmara bölgelerinin verimli topraklarından kontrollü tarım yöntemiyle elde edilen hammaddeleri işleyen marka, 50'den fazla ülkeye ihracat yaparak Türk lezzetlerini dünya pazarlarına taşımaktadır.
+
+Kalite ve gıda güvenliği konusunda uluslararası standartları benimseyen Burcu Gıda, ISO 9001 ve ISO 22000 belgelerinin yanı sıra, küresel geçerliliği olan BRCGS (British Retail Consortium Global Standards) sertifikasına sahiptir. Teknolojik yatırımları ve modernizasyon çalışmalarıyla üretim kapasitesini sürekli artıran firma, yerli üretimi ve çiftçiyi destekleyen yapısıyla sektörde önemli bir konuma sahiptir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Altınkılıç",
+   slug: "altinkilic",
+   foundedYear: 1976,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   founder: "Mehmet Altınkılıç",
+   owner: "Altınkılıç Ailesi",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/altinkilic.png",
+   isBoycotted: "boykot-degil",
+   website: "https://altinkilic.com/",
+   description: `Altınkılıç Süt Ürünleri'nin temelleri, kurucusu Mehmet Altınkılıç'ın 1957 yılında İstanbul'a gelmesi ve peynir piyasasında deneyim kazanmasıyla atılmıştır. 1976 yılında Unkapanı'nda 20 metrekarelik bir alanda başlayan ticari yolculuk, 1991 yılında "Altınkılıç Gıda ve Süt San. Tic. A.Ş."nin kurulmasıyla kurumsal bir kimlik kazanmıştır. Marka, üretim merkezi olarak Türkiye'nin süt ürünleri konusundaki en verimli bölgelerinden biri olan Çanakkale Ezine'yi seçmiş ve burada 20.000 metrekarelik geniş bir arazi üzerine kurulu tesislerinde üretime başlamıştır.
+
+Geleneksel lezzetleri modern üretim teknikleriyle birleştiren Altınkılıç, ürün gamını sürekli geliştirmiştir. 1996 yılında Balıkesir Karaağaç bölgesinde kurduğu özel tesisle "Türkiye'nin en kaliteli Eski Kaşar'ını üretme" hedefini ortaya koymuş ve bu alanda uzmanlaşmıştır. Ezine Peyniri, Klasik Peynir, Koyun Peyniri, İzmir Tulumu ve Eski Kaşar gibi yöresel değerler, markanın kalite odaklı üretim anlayışıyla sofralara taşınmaktadır.
+
+2001 yılından itibaren vizyonunu yenileyen şirket, sadece geleneksel peynirlerle sınırlı kalmayıp fonksiyonel gıdalara da yönelmiştir. Başta Ege Üniversitesi olmak üzere Türkiye'nin önde gelen üniversiteleriyle yürütülen Ar-Ge çalışmaları sonucunda, nütritif (besleyici) değeri yüksek ürünlere odaklanılmıştır. Bu bilimsel yaklaşım, markanın bugün en bilinen ve sevilen ürünlerinden biri olan "Altınkılıç Kefir"i Türkiye pazarına kazandırmasını sağlamış; şirket doğal ve sağlıklı ürün misyonuyla büyümeye devam etmiştir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Lindt",
+   slug: "lindt",
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   foundedYear: 1845,
+   founder: "David Sprüngli ve Rudolf Lindt",
+   owner: "Halka açık (%81.4839), Lindt (%15,43), Ernst Tanner (%2,277) ve Rudolf Konrad Sprüngli (%0,8091)",
+   country: "İsviçre",
+   website: "https://www.lindt-spruengli.com/",
+   img: "/lindt.png",
+   isBoycotted: "onerilmiyor",
+   description: `Chocoladefabriken Lindt & Sprüngli AG, bilinen adıyla Lindt, temelleri 1845 yılında David Sprüngli ve oğlu tarafından Zürih'te atılan dünyaca ünlü bir İsviçre çikolata üreticisidir. Şirketin kaderi, 1899 yılında "konçlama" tekniğini bularak çikolatayı bugünkü pürüzsüz ve eriyen kıvamına getiren Rodolphe Lindt'in fabrikasının satın alınmasıyla değişmiş ve marka bugünkü efsanevi halini almıştır.
+
+   Merkezi İsviçre'nin Kilchberg kentinde bulunan şirket, sadece çikolata barlarıyla değil, ikonik "Lindor" dolgulu trüfleri ve Paskalya döneminin simgesi haline gelen "Gold Bunny" (Altın Tavşan) ile tanınır. Küresel bir büyüme stratejisi izleyen Lindt; 1990'larda Avusturyalı Hofbauer, İtalyan Caffarel ve Amerikan Ghirardelli gibi prestijli markaları bünyesine katarak dünyanın en büyük premium çikolata üreticilerinden biri haline gelmiştir.
+   
+   Lindt, üretim süreçlerinde "çekirdekten bara" (bean-to-bar) felsefesini benimseyerek kakao çekirdeklerinin seçiminden nihai ürüne kadar tüm aşamaları kendi kontrolünde tutar. Sektördeki bağımsız yapısını koruyan şirket, İsviçre çikolatasının dünyadaki en önemli temsilcilerinden biri olarak faaliyetlerine devam etmektedir.`,
+
+   boycottReason: `Lindt, İsviçre menşeli ithal bir markadır. Herhangi bir savaş suçu veya insan hakları ihlaliyle ilişkilendirilen siyasi bir boykot listesinde yer almamaktadır Ancak, yerli üretimi ve ulusal ekonomiyi destekleme hassasiyeti taşıyan tüketiciler için, ithal ürün olması sebebiyle tercih edilmesi önerilmemektedir.`,
+   alternative_products: [
+   ],
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Koska",
+   slug: "koska",
+   foundedYear: 1931,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   founder: "Halil İbrahim Adil Dindar",
+   owner: "Dindar Ailesi",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/koska.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.koska.com/tr",
+   description: `Koska’nın lezzet yolculuğu, 1900’lü yılların başında Denizli’de Hacı Emin Bey’in helvacı dükkânıyla başlamış, 1931 yılında oğlu Halil İbrahim Adil Dindar’ın İstanbul Koska semtinde açtığı dükkanla kurumsal bir kimliğe bürünmüştür. Semtin adıyla özdeşleşen ve markalaşan firma, 1983 yılında Mümtaz ve Nevzat Dindar kardeşlerin vizyonuyla modern tesislere geçiş yapmıştır. Günümüzde dördüncü kuşağın yönetiminde olan şirket, Avcılar-Ambarlı kavşağındaki 22.000 metrekarelik kapalı alana sahip tesislerinde üretimini sürdürmektedir.
+
+   Geleneksel Türk tatlılarını en son teknolojiyle birleştiren Koska; helva, tahin, pekmez, lokum ve reçel gibi klasik ürünlerin yanı sıra inovatif çalışmalara da imza atmaktadır. İTÜ ve Türk Diyabet Cemiyeti onayıyla doğal tatlandırıcılı diyabetik ürünler üreterek sektörde bir ilki başarmıştır. Üretim süreçleri; ISO 22.000, BRC, FDA, Kosher ve Helal gibi uluslararası kalite ve hijyen sertifikalarıyla tescillenmiştir.
+   
+   Türkiye’nin en büyük helva üreticisi konumunda olan Koska, 700’e yakın çalışanı ve yüksek üretim kapasitesiyle sektörün lider markalarından biridir. Sadece iç pazarda değil, dört kıtada 74 ülkeye gerçekleştirdiği ihracatla küresel ölçekte de önemli bir oyuncudur. Kalite geleneğinden ödün vermeden büyüyen marka, Türk gıda sanayisini dünyada temsil eden global bir değer olma hedefini sürdürmektedir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Herbalife",
+   slug: "herbalife",
+   foundedYear: 1980,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   founder: "Mark Hughes",
+   owner: "Halka Açık (NYSE: HLF)",
+   country: "ABD",
    alternative_products: [],
-   img: "/.png",
+   img: "/herbalife.png",
    isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   website: "https://www.herbalife.com/tr-tr",
+   description: `Herbalife Nutrition, 1980 yılında Mark Hughes tarafından Los Angeles, Kaliforniya'da kurulan küresel bir beslenme ve ağ pazarlama (network marketing) şirketidir. Kurucusunun arabasının bagajında kilo kontrol ürünleri satarak başlattığı bu girişim, günümüzde 94'ten fazla ülkede faaliyet gösteren ve milyonlarca bağımsız distribütöre sahip dev bir organizasyona dönüşmüştür.
+
+Şirketin ürün yelpazesinde temel olarak öğün yerine geçen protein karışımları (shake), vitaminler, takviye edici gıdalar, sporcu beslenme ürünleri ve kişisel bakım malzemeleri bulunmaktadır. Geleneksel mağazacılık yerine doğrudan satış modelini benimseyen marka, ürünlerini bağımsız üyeleri aracılığıyla tüketicilere ulaştırmaktadır.
+
+New York Borsası'nda (NYSE) işlem gören halka açık bir şirket olan Herbalife, yasal merkezi Cayman Adaları'nda olsa da ana yönetim merkezi Los Angeles'tadır. Zaman zaman iş modeliyle (piramit sistem iddiaları ve 2016 FTC anlaşması gibi) ilgili tartışmalarla gündeme gelse de, küresel beslenme sektörünün en hacimli oyuncularından biri olarak varlığını sürdürmektedir.`,
+   boycottReason: `Herbalife, Amerika Birleşik Devletleri kökenli bir markadır. İsrail'in Gazze'de uyguladığı soykırımın en büyük silah tedarikçisi ve en büyük finansal destekçisi olan ABD'ye ait bir marka olması sebebiyle boykot listesindedir. ABD ekonomisine sağladığı katkı ve kökeni nedeniyle boykot edilmektedir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   name: "Yörsan",
+   slug: "yorsan",
+   foundedYear: 1964,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Yörükler Gıda",
+   owner: "Matlı Holding",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/yorsan.png",
+   isBoycotted: "boykot-degil",
+   website: "https://yorsan.com.tr/",
+   description: `Yörsan, temelleri 1964 yılında Yörükler Gıda olarak atılan ve Türkiye süt endüstrisinin sembol markalarından biri haline gelen köklü bir kuruluştur. Balıkesir Susurluk'taki tesisleriyle özdeşleşen marka, geçmişte yabancı fonlara satılmış olsa da, 17 Ocak 2022 tarihinde Matlı Holding tarafından satın alınarak yeniden %100 yerli sermayeye kavuşmuş ve sektördeki güçlü konumuna geri dönmüştür.
+
+Matlı Holding'in 60 yıla yakın tarım ve hayvancılık tecrübesiyle birleşen Yörsan, "sütün kaynağında kalite" vizyonunu benimsemiştir. Matlı'nın aynı zamanda Türkiye'nin önde gelen yem üreticisi olması sayesinde, hayvanların beslenmesinden sütün işlenmesine kadar olan tüm süreç (yemden sofraya) entegre bir şekilde yönetilmektedir. Bu "altın tedarik zinciri", ürünlerin lezzet ve güvenilirliğini garanti altına almaktadır.
+
+Geniş ürün yelpazesiyle dikkat çeken Yörsan, süt ve süt ürünleri kategorisinde 200'e yakın çeşit sunmaktadır. Türkiye'nin ilk kaymaklı tava yoğurdunu ve ev tipi yoğurdunu üreten marka olma özelliğini taşıyan şirket, 2023 yılında kurduğu Ar-Ge merkeziyle geleneksel lezzetleri yenilikçi teknolojilerle geliştirmeye devam etmektedir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   name: "Yörükoğlu",
+   slug: "yorukoglu",
+   foundedYear: 1977,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Antalya'nın Köklü Yörük Aileleri",
+   owner: "Yörükoğlu Ailesi",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
-  },
-  {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/yorukoglu.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.yorukoglusut.com.tr/tr",
+   description: `Yörükoğlu Süt, sütçülük mesleğini üç nesildir sürdüren Antalya'nın köklü Yörük aileleri tarafından kurulmuştur. 1977 yılında endüstriyel üretime geçerek kurumsal kimliğini kazanan marka, "Torosların doğallığı ve saflığı" mottosuyla yola çıkmıştır. Akdeniz'den Ege'ye uzanan Toros Dağları'nın bereketli doğasından ve temiz havasından beslenen hayvanlardan elde edilen sütleri işleyerek sektöre değer katmaktadır.
+
+   Üretim kapasitesini sürekli artıran Yörükoğlu, 1996 yılında Antalya Organize Sanayi Bölgesi'ndeki ilk tesisini, 2020 yılında ise Türkiye'nin en modern süt fabrikalarından biri olan ikinci tesisini faaliyete geçirmiştir. Günlük 1250 tonluk süt işleme kapasitesine ulaşan şirket, bu yatırımlarıyla Akdeniz Bölgesi'nin en büyük süt ve süt ürünleri üreticisi konumuna yükselmiştir.
+   
+   2007 yılından bu yana Türkiye'nin en büyük 500 sanayi kuruluşu (İSO 500) listesinde yer alan Yörükoğlu, 700'ü aşkın çalışanıyla ülke ekonomisine katkı sağlamaktadır. Ayrandan yoğurda, peynirden tereyağına kadar geniş bir ürün yelpazesine sahip olan marka; Akdeniz, Ege, Marmara, Karadeniz ve İç Anadolu bölge müdürlükleri aracılığıyla geniş bir dağıtım ağına sahiptir.`,
   },
 
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   name: "Yayla Agro",
+   slug: "yayla-agro",
+   foundedYear: 1996,
+   ctgry: "Şirket",
+   founder: "Hasan Gümüş",
+   owner: "Hasan Gümüş (%84,98) ve Halka Açık (%15,02)",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
+   img: "/yayla-agro.png",
    isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   website: "https://www.yaylaagro.com/",
+   description: `Yayla Agro Gıda San. ve Tic. A.Ş., 1996 yılında Hasan Gümüş tarafından kurulan, bakliyat ve hazır yemek sektörünün öncü firmalarından biridir. Merkezi Ankara'da bulunan şirket, stratejik konumuyla dikkat çeken Mersin ve Ankara'daki modern üretim tesislerinde faaliyet göstermektedir. "Yaşam Senin Sağlıklı Kal" sloganıyla üretim yapan marka, klasik bakliyat ürünlerinin yanı sıra haşlanmış ürünler ve pratik hazır yemek serileriyle de tanınmaktadır.
+
+İç pazarda Yayla, Ala Çiftçi, İri Danem ve Yunus gibi markalarıyla sofralara ulaşan şirket, ihracat odaklı büyüme stratejisi de izlemektedir. Yurt dışında "Legurme" markasıyla yapılanan Yayla Agro; Almanya, Hollanda, İngiltere, Çin ve Romanya başta olmak üzere birçok ülkede Türk gıda sektörünü temsil etmektedir.
+
+Sermaye yapısı itibarıyla Borsa İstanbul'da (BIST: YYLGD) işlem gören halka açık bir şirkettir. Hisselerinin çoğunluğu (%84,98) kurucusu Hasan Gümüş'e ait olup, geri kalan kısmı halka açıktır. Yerli üretim gücü ve Ar-Ge yatırımlarıyla sektöründe yenilikçi bir Türk markası olarak varlığını sürdürmektedir.`,
+   boycottReason: `Yayla Bakliyat, küresel boykot listelerinin en başında yer alan Coca-Cola firması ile yaptığı ticari işbirlikleri ve ortak promosyon kampanyaları nedeniyle boykot edilmektedir. Yerli bir marka olmasına rağmen, ürün satışlarında Coca-Cola ile "ortak menü" veya "yanında hediye" gibi kampanyalar düzenlemesi, hassasiyet sahibi tüketiciler tarafından tepkiyle karşılanmış ve markanın boykot listesine alınmasına neden olmuştur.`,
+   subBrands: [
+    {
+     name: "Yayla",
+     slug: "yayla",
+     foundedYear: 1996,
+     ctgry: "Yiyecek",
+     founder: "Yayla Agro",
+     owner: "Yayla Agro",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/yayla.png",
+     isBoycotted: "boykot",
+     website: "https://yaylabakliyat.com/",
+     description: `Yayla Bakliyat, Yayla Agro Gıda'nın ana markası ve amiral gemisidir. Klasik bakliyat ürünlerinden (pirinç, bulgur, nohut, fasulye vb.) gurme serilere, haşlanmış pratik ürünlerden "Yemek Hazır" serisine kadar en geniş ürün gamına sahip markadır. Türkiye genelinde yüksek bilinirliğe sahip olan marka, Ankara ve Mersin fabrikalarında son teknolojiyle paketlenmektedir.`,
+     boycottReason: `Yayla Bakliyat, Yayla Agro şirketinin ana markasıdır. Şirketin Coca-Cola ile yürüttüğü ortak reklam ve promosyon çalışmaları nedeniyle, ana şirketle birlikte bu marka da boykot kapsamındadır.`,
+    },
+    {
+     name: "Legurme",
+     slug: "legurme",
+     foundedYear: 2016,
+     ctgry: "Yiyecek",
+     founder: "Yayla Agro",
+     owner: "Yayla Agro",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/legurme.png",
+     isBoycotted: "boykot",
+     website: "https://yaylabakliyat.com/legurme",
+     description: `Legurme, Yayla Agro'nun özellikle uluslararası pazarlar ve ihracat kanalları için geliştirdiği, "Lezzet" ve "Gurme" kavramlarını birleştiren markasıdır. Sağlıklı, katkısız ve pratik beslenmeyi hedefleyen Legurme; haşlanmış bakliyatlar, hazır yemekler ve zeytinyağlılar gibi "aç-ye" konseptli ürünleriyle hem yurt dışında hem de Türkiye pazarında yer almaktadır.`,
+     boycottReason: `Legurme, Yayla Agro Gıda'ya ait bir alt markadır. Ana şirketin (Yayla) Coca-Cola firmasıyla olan ticari işbirlikleri ve ortak kampanyaları sebebiyle, şirketin tüm iştirakleri gibi Legurme markası da boykot edilmektedir.`,
+    },
+    {
+     name: "AlaÇiftçi",
+     slug: "alaciftci",
+     foundedYear: 1996,
+     ctgry: "Yiyecek",
+     founder: "Yayla Agro",
+     owner: "Yayla Agro",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/alaciftci.png",
+     isBoycotted: "boykot",
+     website: "https://www.yaylaagro.com/markalarimiiz/alaciftci-klasik",
+     description: `AlaÇiftçi, Yayla Agro bünyesinde "Anadolu'nun bereketli topraklarından sofralara" mottosuyla sunulan, yöresel ve spesifik tohumlara odaklanan bir markadır. Özellikle belirli bölgelerin coğrafi ve lezzet karakteristiğini taşıyan kaliteli bakliyat ürünlerini tüketicilerle buluşturmayı hedefler.`,
+     boycottReason: `AlaÇiftçi, Yayla Agro şirketinin mülkiyetindedir. Yayla Agro'nun Coca-Cola ile gerçekleştirdiği promosyonel işbirlikleri nedeniyle, grubun diğer markalarıyla birlikte boykot listesinde yer almaktadır.`,
+    },
+    {
+     name: "İri Danem",
+     slug: "iri-danem",
+     foundedYear: 1996,
+     ctgry: "Yiyecek",
+     founder: "Yayla Agro",
+     owner: "Yayla Agro",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/iri-danem.png",
+     isBoycotted: "boykot",
+     website: "https://www.yaylaagro.com/markalarimiiz/iri-danem",
+     description: `İri Danem, adından da anlaşılacağı üzere tane büyüklüğü ve kalibrasyon standartları yüksek ürünleri temsil eden Yayla Agro markasıdır. Özellikle pilavlık pirinç, bulgur ve bakliyat çeşitlerinde iri taneli ve gösterişli ürün arayan tüketicilere hitap eden, lezzet ve görsel kaliteyi ön planda tutan bir seridir.`,
+     boycottReason: `İri Danem markası, Yayla Agro Gıda San. ve Tic. A.Ş. bünyesinde üretilmektedir. Ana üretici firmanın Coca-Cola ile olan pazarlama ortaklıkları sebebiyle, bu alt marka da boykot kriterlerini taşımaktadır.`,
+    },
+    {
+     name: "Yunus",
+     slug: "yunus",
+     foundedYear: 1996,
+     ctgry: "Yiyecek",
+     founder: "Yayla Agro",
+     owner: "Yayla Agro",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/yunus.png",
+     isBoycotted: "boykot",
+     website: "https://www.yaylaagro.com/markalarimiiz/yunus",
+     description: `Yunus, Yayla Agro'nun ürün portföyünde yer alan, geleneksel lezzetleri daha ekonomik ve ulaşılabilir fiyatlarla sunmayı amaçlayan markasıdır. Günlük sofraların temel ihtiyaçlarına yönelik klasik bakliyat çeşitleriyle, kalite ve uygun fiyat dengesini arayan tüketiciler için bir alternatif oluşturmaktadır.`,
+     boycottReason: `Yunus markası, Yayla Agro şirketine aittir. Yayla markasının Coca-Cola ile yaptığı "ortak menü" ve benzeri ticari işbirlikleri nedeniyle oluşan boykot kararı, şirketin ekonomik segmentteki bu markasını da kapsamaktadır.`,
+    },
+   ],
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   name: "Teksüt",
+   slug: "teksut",
+   foundedYear: 1956,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Recep Arınık",
+   owner: "Arınık Ailesi",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/teksut.png",
+   isBoycotted: "boykot-degil",
+   website: "https://teksut.com.tr/",
+   description: `Teksüt, 1956 yılında Balıkesir'in Gönen ilçesinde kurulan Türkiye'nin en köklü süt ve süt ürünleri firmalarından biridir. İlk kurulduğunda yerel ölçekte beyaz peynir üretimiyle yola çıkan marka, bugün Gönen'de 27 bin metrekaresi kapalı olmak üzere toplam 80 bin metrekare üzerine kurulu modern fabrikasında üretimini sürdürmektedir. Türkiye'nin en büyük sanayi kuruluşlarını gösteren İSO 500 listesinde yer alan Teksüt, süt ürünleri sektörünün ilk 10 firması arasındadır.
+
+   Günde 600 ton süt işleme kapasitesine sahip olan firma, geniş bir ürün yelpazesi sunmaktadır. Klasik beyaz peynir ve kaşarın yanı sıra; Mihaliç, Çeçil, Dil, Çerkez, Otlu, Urfa, Örgü, Misket ve Çubuk gibi yöresel peynirleri de sofralara taşımaktadır. Ayrıca UHT süt, tereyağı, kaymak, yoğurt ve ayran gibi temel süt ürünlerinin üretimini de son teknolojiyle gerçekleştirmektedir.
+   
+   Kaliteyi kaynağında arayan Teksüt, sütünü süt hayvancılığının merkezi sayılan Gönen ve çevresindeki yaklaşık 10 bin üreticiden temin etmektedir. Gıda güvenliği ve hijyene verdiği önemle ISO 9001, FSSC 22000, BRC Food ve Helal Gıda sertifikalarına sahip olan marka, "İyi olan tek'tir" mottosuyla üretim yapmaktadır.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
+   name: "Söke Un",
+   slug: "soke-un",
+   foundedYear: 1963,
    ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   founder: "Söke Değirmencilik",
+   owner: "Ulusoy Un San. ve Tic. A.Ş.",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/soke-un.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.soke.com.tr/sokenin-lezzetleri",
+   description: `Söke Un, 1963 yılında un ve un karışımları üretmek üzere kurulan, sektörde 60 yılı aşkın deneyime sahip köklü bir markadır. Üretim faaliyetlerini lojistik avantaj sağlayacak şekilde konumlandıran şirket; Aydın-Söke ve Ankara-Sincan’da bulunan devasa fabrikalarında, toplamda on binlerce metrekarelik kapalı alanda yüksek kapasiteyle faaliyet göstermektedir.
+
+Geniş bir ürün portföyüne sahip olan Söke Un, sadece kendi markasıyla değil, perakende devleri için yaptığı üretimle de dikkat çeker. BİM (Efsane), A101 (Dorbi) ve Metro Toptancı Marketleri (Aro) gibi zincirler için özel markalı üretim gerçekleştirmektedir. Nielsen raporlarına göre, Türkiye perakende un pazarında (indirim marketleri hariç) lider konumda bulunan şirket, aynı zamanda ISO ikinci 500 listesinde üst sıralarda yer alan bir sanayi devidir.
+
+Kalite ve gıda güvenliği standartlarını (ISO 14001, FSSC 22000, TSE) en üst seviyede tutan şirket, 11 Ocak 2022 tarihinde gerçekleşen stratejik bir satın alma ile yapısını güçlendirmiştir. Şirket paylarının tamamı, Türkiye'nin un sanayi devlerinden Ulusoy Un San. ve Tic. A.Ş. tarafından satın alınmış olup, faaliyetlerine güçlü yerli sermaye yapısıyla devam etmektedir.`,
   },
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   name: "Ekici",
+   slug: "ekici",
+   foundedYear: 1957,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Şabettin Ekici",
+   owner: "Ekici Ailesi (Mansur ve Mustafa Ekici)",
+   country: "Türkiye",
    alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
+   img: "/ekici.png",
+   isBoycotted: "boykot-degil",
+   website: "https://ekicipeynir.com/tr",
+   description: `Ekici Peynir'in hikayesi, 1957 yılında Şabettin Ekici tarafından Konya'nın Ereğli ilçesindeki küçük bir mandırada başlamıştır. Başlangıçta sadece koyun sütü işleyen firma, üretim sürekliliğini sağlamak ve inek sütüne de erişebilmek amacıyla 1979 yılında ikinci kuşak temsilcileri Mansur ve Mustafa Ekici liderliğinde Antalya'ya taşınmıştır. "Her zaman bildiğin işi, en iyi şekilde yap" felsefesiyle büyüyen marka, özellikle "Lokum Kıvamında Beyaz Peynir" inovasyonuyla sektörde fark yaratmıştır.
+
+Bugün üretimini Antalya Organize Sanayi Bölgesi'ndeki 42.000 metrekarelik dev tesislerinde sürdüren Ekici, günlük 480 ton süt işleme kapasitesine sahiptir. 2015 yılından itibaren beyaz peynir üretiminde tam otomasyona geçen şirket, hijyen ve kalite standartlarını en üst seviyede tutmaktadır. Yaklaşık 35 farklı ürün çeşidiyle peynir odaklı uzmanlığını sürdürmektedir.
+
+Türkiye'nin en büyük ilk 1000 sanayi kuruluşu (İSO) arasında yer alan Ekici, 81 ilde 44.000 satış noktasında tüketicilerle buluşmaktadır. Yaklaşık 600 kişiye istihdam sağlayan marka, sadece iç pazarda değil, ihracatta da güçlüdür. ABD, Almanya, Çin ve Orta Doğu ülkeleri başta olmak üzere birçok ülkeye ihracat yaparak Türk peynirini dünyada temsil etmektedir.`,
   },
+  //! Burdayım.
   {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
-  },
-  {
-   name: "",
+   name: "Humana",
    slug: "",
    foundedYear: 1111111111111111111111111111111,
    ctgry: "Yiyecek",
@@ -1217,7 +2277,7 @@ Winston, ABD'de Imperial Tobacco'nun yan kuruluşu ITG Brands, ABD dışında is
    name: "Danone",
    slug: "danone",
    foundedYear: 1919,
-   ctgry: "Şirket",
+   ctgry: "Yiyecek ve İçecek",
    founder: "İzak Karasu (İsaac Carraso)",
    owner: "Groupe Danone",
    country: "Fransa",
@@ -1298,7 +2358,7 @@ Almimama, Danone'nin anne ve bebek sağlığına katkı sağlama misyonunun bir 
     {
      name: "Nutricia",
      slug: "nutricia",
-     ctgry: "Şirket",
+     ctgry: "Yiyecek ve İçecek",
      foundedYear: 1896,
      founder: "Dr. Johannes van der Hagen ve Martinus van der Hagen",
      owner: "Danone (Royal Numico üzerinden)",
@@ -1376,7 +2436,7 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
       {
        name: "Fortini",
        slug: "fortini",
-       ctgry: "Bebek Maması",
+       ctgry: "Bebek & Çocuk Gıda",
        foundedYear: null,
        founder:
         "Nutricia (Johannes van der Hagen ve Martinus van der Hagen)",
@@ -1447,7 +2507,7 @@ Danone, tüm yaşam evrelerinde sağlık ve beslenme alanında dünya lideri ola
     {
      name: "Bledina",
      slug: "bledina",
-     ctgry: "Bebek Maması",
+     ctgry: "Bebek & Çocuk Gıda",
      foundedYear: null,
      founder: "Danone",
      owner: "Danone",
@@ -1773,7 +2833,7 @@ Alpro, bitki sütü ve süt ürünlerine alternatifler üretmektedir ve dünya �
     {
      name: "Cow & Gate",
      slug: "cow-gate",
-     ctgry: "Bebek Maması",
+     ctgry: "Bebek & Çocuk Gıda",
      foundedYear: 1888,
      founder: "Charles Arthur Gates ve Leonard Gates",
      owner: "Danone (Numico)",
@@ -1797,7 +2857,7 @@ Yerel çiftçilerden süt satın almışlar, "süt ayırıcı" kullanarak krema 
     {
      name: "Nutricia",
      slug: "nutricia",
-     ctgry: "Bebek Maması",
+     ctgry: "Bebek & Çocuk Gıda",
      foundedYear: 1896,
      founder: "Martin van der Hagen",
      owner: "Danone",
@@ -1825,7 +2885,7 @@ Nutricia, günümüzde Amsterdam, Hollanda merkezli bir şirket olarak faaliyet 
     {
      name: "Milupa",
      slug: "milupa",
-     ctgry: "Şirket",
+     ctgry: "Bebek & Çocuk Gıda",
      foundedYear: 1921,
      founder: "Emil Pauli",
      owner: "Danone (Nutricia)",
@@ -1851,7 +2911,7 @@ Milupa, bebek gıdası üretiminde 80 yıldan fazla deneyime sahiptir. Günümü
       {
        name: "Aptamil",
        slug: "aptamil",
-       ctgry: "Bebek Maması",
+       ctgry: "Bebek & Çocuk Gıda",
        foundedYear: null,
        founder: "Danone",
        owner: "Danone",
@@ -1871,7 +2931,7 @@ Aptamil, Danone'nin global bebek beslenmesi portföyünün bir parçası olarak,
       {
        name: "Bebelac",
        slug: "bebelac",
-       ctgry: "Bebek Maması",
+       ctgry: "Bebek & Çocuk Gıda",
        foundedYear: null,
        founder: "Danone",
        owner: "Danone",
@@ -1891,7 +2951,7 @@ Bebelac, Milupa'nın bebek formülü markaları (Bebelac, Aptamil, Milumil), ço
       {
        name: "Milumil",
        slug: "milumil",
-       ctgry: "Bebek Maması",
+       ctgry: "Bebek & Çocuk Gıda",
        foundedYear: null,
        founder: "Danone",
        owner: "Danone",
@@ -2137,7 +3197,7 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
    name: "Nestle",
    slug: "nestle",
    foundedYear: 1866,
-   ctgry: "Şirket",
+   ctgry: "Yiyecek ve İçecek",
    founder: "Henri Nestlé",
    owner: "Nestlé S.A.",
    country: "İsviçre",
@@ -2163,6 +3223,44 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
     "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
    ],
    subBrands: [
+    {
+     name: "Purina",
+     slug: "purina",
+     foundedYear: 1986,
+     ctgry: "Pets",
+     founder: "Ralston Purina",
+     owner: "Nestlé",
+     country: "İsviçre",
+     alternative_products: [],
+     img: "/purina.png",
+     isBoycotted: "boykot",
+     website: "https://www.purina.com.tr/",
+     description: `Purina, evcil hayvan beslenmesi konusunda dünya çapında lider markalardan biridir. Orijinal olarak Amerika Birleşik Devletleri'nde Ralston Purina adıyla faaliyet gösteren şirket, günümüzde İsviçre merkezli gıda devi Nestlé'nin iştiraki olan "Nestlé Purina PetCare" çatısı altında üretim yapmaktadır.
+
+     Markanın en bilinen serilerinden biri olan Purina ONE, 1986 yılında Ralston Purina tarafından piyasaya sürülen "ilk süper premium evcil hayvan maması" olma özelliğini taşır. İçeriğinde gerçek et, tahıl ve mısır gibi besin kaynaklarını kullanan marka, doğal bileşenlere odaklanan "Doğal Karışımlar" gibi yenilikçi serileriyle de tanınmaktadır.
+     
+     Kedi ve köpekler için bilimsel araştırmalara dayalı, besleyici ve kaliteli mamalar üreten Purina; Pro Plan, Felix, Friskies ve Gourmet gibi birçok popüler alt markayı da bünyesinde barındırmaktadır. Nestlé bünyesinde faaliyet gösterdiği için global dağıtım ağında güçlü bir konuma sahiptir.`,
+     boycottReason: `Purina'ınn sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+    },
+    {
+     name: "Pingviini (Penguen)",
+     slug: "penguin",
+     foundedYear: 1930,
+     ctgry: "Yiyecek",
+     founder: "Oy Jäätelö - Glass Ab / Valio",
+     owner: "Froneri (Nestlé ve R&R Ortak Girişimi)",
+     country: "Finlandiya",
+     alternative_products: [],
+     img: "/penguin.png",
+     isBoycotted: "boykot",
+     website: "https://penguinicecream.com/",
+     description: `Pingviini (Türkçe anlamıyla "Penguen"), 1935 yılında Helsinki'de kurulan ve Finlandiya'nın en köklü dondurma markalarından biridir. İlk olarak Oy Jäätelö - Glass Ab tarafından üretimine başlanan marka, kısa süre sonra Valio tarafından satın alınmış ve ülkenin simgesi haline gelmiştir. 1930'lardan beri logosunda yer alan ikonik penguen figürüyle tanınan marka, "Avainlippu" (Anahtar Bayrak) ödülüyle Fin işçiliği ve ham maddesi (Fin sütü) kullandığını tescillemiştir.
+  
+     Markanın üretimi, 1962 yılında Janakkala kentinin Turenki bölgesinde kurulan modern fabrikada gerçekleştirilmektedir. İskandinavya'nın en büyük dondurma tesislerinden biri olan bu fabrika, yoğun sezonda 300 kişiye istihdam sağlamaktadır. Üretimde Fin tüketicilerin damak tadına uygun olarak kızılcık, yaban mersini gibi yerel meyveler kullanılmakta; Aino, Classic, Puffet ve PEHMIS gibi popüler alt markalar bu çatı altında üretilmektedir.
+     
+     Mülkiyet yapısı incelendiğinde, marka 2004 yılında küresel gıda devi Nestlé tarafından satın alınmıştır. Ancak 2016 yılında Nestlé, dondurma operasyonlarını İngiliz R&R şirketi ile birleştirerek "Froneri" adında dev bir ortak girişim kurmuştur. Günümüzde Pingviini, bu ortaklık yapısı olan Froneri Finlandiya bünyesinde faaliyetlerine devam etmektedir.`,
+     boycottReason: `Pingviini (Penguin) markası, teknik olarak Froneri firmasına aittir. Ancak Froneri, küresel gıda devi Nestlé ile İngiliz R&R Ice Cream şirketinin birleşmesiyle kurulan bir ortak girişimdir (Joint Venture). Nestlé'nin bu şirketteki kurucu ortaklığı ve büyük hissedarlığı nedeniyle, Nestlé boykotu kapsamında hassasiyet gösteren tüketiciler için bu marka da boykot kategorisinde değerlendirilmektedir.`,
+    },
     {
      name: "Perrier",
      slug: "perrier",
@@ -2496,7 +3594,7 @@ pladis Global, Yıldız Holding'in küresel gıda stratejisinin önemli bir par�
      name: "Aytaç",
      slug: "aytac",
      foundedYear: 1993,
-     ctgry: "Yiyecek",
+     ctgry: "Yiyecek ve İçecek",
      founder: "İsviçre Bankası ve Dünya Bankası Ortaklığı",
      owner: "Yıldız Holding",
      country: "Türkiye",
@@ -2560,6 +3658,22 @@ DFU'nun misyonu, gelişimin işlerinin ayrılmaz bir parçası olduğunu kabul e
 
 DFU'nun kalite politikası, vizyonuyla uyumlu olarak en taze, en sağlıklı ve en yüksek kaliteli ürünleri sunmak, bunları kolay erişilebilir hale getirmek ve geniş bir tüketici zevk yelpazesine hitap etmektir. Şirket, yıllık olarak yenilenen BRC ve Helal Sertifikalarına sahiptir ve çeşitli kalite programları aracılığıyla en yüksek standartlarda hizmet sunmaya kararlıdır.`,
      boycottReason: `Donuk Fırıncılık Ürünleri'nin sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
+    },
+    {
+     name: "Ona Yağ",
+     slug: "ona-yag",
+     foundedYear: 1111111111111111111111111111111,
+     ctgry: "Yiyecek",
+     founder: "",
+     owner: "",
+     country: "",
+     alternative_products: [],
+     img: "/.png",
+     isBoycotted: "onerilmiyor",
+     website: "",
+     description: ``,
+     boycottReason: `Ona Yağ'ın sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
+     evidences: [""],
     },
    ],
   },
@@ -2829,6 +3943,25 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
     "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
    ],
    subBrands: [
+    {
+     name: "Raffaello",
+     slug: "raffaello",
+     foundedYear: 1990,
+     ctgry: "Yiyecek",
+     founder: "Ferrero",
+     owner: "Ferrero",
+     country: "İtalya",
+     alternative_products: [""],
+     img: "/raffaello.png",
+     isBoycotted: "boykot",
+     website: "https://www.ferrero.com/tr/tr/markalarimiz/raffaello",
+     description: `Raffaello, İtalyan şekerleme devi Ferrero tarafından 1990 yılında piyasaya sunulan, küresel çapta tanınırlığa sahip hindistan cevizli ve bademli özel bir üründür. Alışılagelmiş çikolatalı ürünlerin aksine, içeriğinde kakao barındırmayan bu lezzet, beyaz ve zarif görünümüyle öne çıkmaktadır.
+
+Ürünün merkezinde, özenle seçilmiş bütün bir beyaz badem (ağartılmış) yer alır. Bu badem, kadifemsi bir sütlü krema ile sarılarak çıtır bir gofret küresinin içine yerleştirilmiştir. En dış katmanı ise yoğun hindistan cevizi parçacıklarıyla kaplanarak, hem doku hem de lezzet açısından zengin, egzotik bir deneyim sunar.`,
+
+     boycottReason: `Raffaello'nun boykot edilmesinin temel nedeni, şirketin sahibi Ferrero'nun İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Ferrero, İsrail'in Tel Aviv bölgesindeki Holon şehrinde Asya için ana ofisi bulunmaktadır. Ayrıca, Ferrero, İsrail şeker şirketi Sugar Incredo (Douxmatok) ile ortak geliştirme anlaşması imzalamıştır. Ferrero'nun İsrail'deki varlığı ve İsrail şirketleriyle olan ortaklıkları nedeniyle bu marka boykot listesindedir.`,
+     evidences: [],
+    },
     {
      name: "Ferrero Rocher",
      slug: "ferrero-rocher",
@@ -3702,7 +4835,7 @@ Marka maskotu olarak bir ayıcık seçilmiştir. 1983'ten beri tüm ürün promo
    name: "Şölen",
    slug: "sölen",
    foundedYear: 1989,
-   ctgry: "Şirket",
+   ctgry: "Yiyecek",
    founder: "İsmail Çoban",
    owner: "Çoban Ailesi",
    country: "Türkiye",
@@ -4917,6 +6050,76 @@ Kızılay Maden Suyu, özellikle sosyal sorumluluk ve kalite odaklı yaklaşım�
 Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere yönelmek daha uygun olacaktır.`,
    subBrands: [
     {
+     name: "Ak Gıda",
+     slug: "ak-gida",
+     foundedYear: 1996,
+     ctgry: "Şirket",
+     founder: "Ülker Grubu",
+     owner: "Groupe Lactalis",
+     description: `Ak Gıda, 1996 yılında kurulan ve Türkiye'de süt ve süt ürünleri sektörünün en büyük işletmelerinden biridir. Başlangıçta Ülker Ailesi (Yıldız Holding) tarafından kurulan şirket, Türkiye'nin ilk UHT sütünü ve ilk meyveli yoğurdunu üretmesiyle tanınır. 2015 yılında şirketin çoğunluk hissesi, dünya süt endüstrisi lideri olan Fransız Groupe Lactalis tarafından satın alınmıştır. Günümüzde 6 üretim tesisi ve günlük 5 bin ton süt işleme kapasitesiyle İçim, Président ve Masterini gibi markaların üretimini gerçekleştirmektedir.`,
+     country: "Fransa",
+     website: "https://www.bim.com.tr ",
+     img: "/ak-gida.png",
+     isBoycotted: "boykot",
+     boycottReason: `Ak Gıda'nın boykot edilmesinin temel nedeni, 2015 yılından bu yana hisselerinin Fransa merkezli Groupe Lactalis'e ait olmasıdır. Çatı şirket Lactalis'in İsrail pazarındaki aktif ticari varlığı, yatırımları ve İsrail ekonomisine sağladığı katkılar nedeniyle, Türkiye'deki operasyonu olan Ak Gıda ve ürettiği markalar da bu boykotun bir parçasıdır.`,
+     subBrands: [
+      {
+       name: "İçim",
+       slug: "icim",
+       ctgry: "Yiyecek ve İçecek",
+       founder: "Ülker Grubu",
+       owner: "Groupe Lactalis",
+       description: `İçim, Türkiye'nin önde gelen gıda şirketlerinden Ak Gıda tarafından üretilen köklü bir süt ve süt ürünleri markasıdır. Markanın geniş bir ürün yelpazesi bulunmaktadır; bu yelpaze UHT süt, yoğurt, ayran, peynir ve tereyağı gibi temel süt ürünlerini kapsar.
+    
+İçim markasının kuruluş hikayesi, Ülker Grubu'nun süt ve süt ürünleri sektörüne girmesiyle başlamıştır. Ak Gıda, üretim kapasitesi ve hızlı büyümesiyle tanınan bir şirkettir. İçim markasının üreticisi olan Ak Gıda, uzun yıllar boyunca Ülker Grubu'na bağlı kalmış, ancak daha sonra önemli bir yabancı yatırımcıya satılmıştır.
+    
+İçim markasının günümüzdeki sahibi, Avrupa'nın en büyük gıda şirketlerinden biri olan Fransa merkezli Groupe Lactalis'tir. Lactalis, Ak Gıda'yı satın alarak Türkiye süt ve süt ürünleri pazarına girmiştir. Bu satın alma, Lactalis'in küresel genişleme stratejisinin bir parçasıdır ve şirketin Türkiye pazarındaki varlığını güçlendirmiştir.
+    
+İçim markası, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmaktadır. Marka, kalite ve güvenilirlik odaklı üretim anlayışıyla Türkiye süt ürünleri pazarında önemli bir konuma sahiptir.`,
+       country: "Fransa",
+       website: "https://www.icim.com.tr/",
+       img: "/icim.png",
+       isBoycotted: "boykot",
+       boycottReason: `İçim markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`, alternative_products: ["sutas", "pinar"],
+      },
+      {
+       name: "Président",
+       slug: "president",
+       foundedYear: 1933,
+       ctgry: "Yiyecek ve İçecek",
+       founder: "André Besnier",
+       owner: "Groupe Lactalis",
+       description: `Président'in hikayesi, 19 Ekim 1933 tarihinde Fransa'nın Laval kasabasında André Besnier'in küçük bir mandırada üretime başlamasıyla filizlenmiştir. Sadece 34 litre süt ve 17 adet Camembert peyniri ile başlayan bu mütevazı girişim, zamanla büyüyerek dünyanın en prestijli peynir markalarından biri haline gelmiştir. Groupe Lactalis'in amiral gemisi konumunda olan marka, 90 yılı aşkın tecrübesiyle Fransız peynir ustalığını küresel bir standarta dönüştürmüştür.
+
+       Dünya genelinde 140'tan fazla ülkede sofralarda yer alan Président, sadece Camembert ve Brie gibi özel peynirleriyle değil, tereyağı ve kremalarıyla da gastronomi dünyasının vazgeçilmezlerinden biridir. Marka, "Peyniri dünyaya sevdiren lezzet" mottosuyla, sütün en kaliteli halini usta dokunuşlarla işleyerek tüketicilere sunmaktadır.
+       
+       2019 yılı itibarıyla Türkiye pazarında yerli üretime başlayan Président, Ak Gıda'nın modern tesislerinde Türk damak tadına uygun ürünler geliştirmektedir. Lezzetini peynirin tam kalbinden alan marka; taze peynir, kaşar peyniri, labne, tereyağı ve gurme çeşitleriyle Türkiye'deki kahvaltı ve yemek kültürüne Fransız uzmanlığını taşımakta, yerel üretim gücüyle global kaliteyi birleştirmektedir.`,
+       country: "Fransa",
+       website: "https://www.presidentpeynir.com.tr/",
+       img: "/president.png",
+       isBoycotted: "boykot",
+       boycottReason: `Président, Groupe Lactalis'in ana markasıdır. Markanın sahibi olan Fransız şirketin İsrail ile olan ticari ilişkileri ve küresel sermaye hareketleri nedeniyle boykot listesinde yer almaktadır.`,
+      },
+      {
+       name: "Masterini",
+       slug: "masterini",
+       foundedYear: 2019,
+       ctgry: "Yiyecek",
+       founder: "Ak Gıda (Lactalis)",
+       owner: "Groupe Lactalis",
+       description: `Masterini Professional, Grup Lactalis’in Türkiye şirketi olan Ak Gıda tarafından, ev dışı tüketim (EDT) kanalına özel olarak geliştirilmiş uzman bir markadır. Otel, restoran, kafe (HoReCa) ve pastane gibi işletmelerdeki profesyonel şeflerin ihtiyaçlarını karşılamak üzere tasarlanan marka, mutfakta yüksek performans ve standart lezzet garantisi sunmayı hedefler. "Profesyonellerin Yeni Tercihi" sloganıyla yola çıkan Masterini, usta aşçıların güvenilir iş ortağı olarak konumlanmıştır.
+
+       Markanın geniş ürün portföyünde; pasta ve tatlı şefleri için özel olarak formüle edilmiş bitkisel krem şantiler, sıcak yemeklerde kesilme yapmayan bitkisel sıvı kremalar ve yemeklere lezzet katan çeşitli soslar bulunmaktadır. Ayrıca ketçap ve mayonez gibi tamamlayıcı ürünleriyle de profesyonel mutfakların operasyonel yükünü hafifleten pratik çözümler sunmaktadır.
+       
+       Dünyanın lider gıda markalarından Président, Galbani ve Parmalat’ı bünyesinde bulunduran Grup Lactalis’in uluslararası tecrübesinden güç alan Masterini, bu global bilgi birikimini yerel şeflerin beklentileriyle birleştirmektedir. Her uygulamada aynı yüksek kaliteyi ve kıvamı tutturmak isteyen şefler için özel reçetelerle üretilen ürünler, Türkiye'nin dört bir yanındaki profesyonel mutfaklarda kullanılmaktadır.`,
+       website: "https://masterini.com.tr/",
+       img: "/masterini.png",
+       isBoycotted: "boykot",
+       boycottReason: `Masterini, Fransız Groupe Lactalis'in Türkiye'deki şirketi Ak Gıda tarafından üretilmektedir. Çatı şirketin (Lactalis) İsrail ekonomisine olan katkıları ve ticari bağları sebebiyle, profesyonel kullanıma yönelik olan bu marka da boykot kapsamındadır.`,
+      },
+     ],
+    },
+    {
      name: "Dostino",
      slug: "dostino",
      ctgry: "Yiyecek",
@@ -4947,26 +6150,6 @@ Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere
      img: "/dost.png",
      isBoycotted: "boykot",
      boycottReason: `Dost markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Ak Gıda, 2015 yılından bu yana Fransız şirketi Groupe Lactalis'e aittir ve bu şirketin İsrail ile olan ticari ilişkileri nedeniyle boykot edilmektedir.`,
-     alternative_products: ["sutas", "pinar"],
-    },
-    {
-     name: "İçim",
-     slug: "icim",
-     ctgry: "Yiyecek ve İçecek",
-     founder: "Ülker Grubu",
-     owner: "Groupe Lactalis",
-     description: `İçim, Türkiye'nin önde gelen gıda şirketlerinden Ak Gıda tarafından üretilen köklü bir süt ve süt ürünleri markasıdır. Markanın geniş bir ürün yelpazesi bulunmaktadır; bu yelpaze UHT süt, yoğurt, ayran, peynir ve tereyağı gibi temel süt ürünlerini kapsar.
-  
-  İçim markasının kuruluş hikayesi, Ülker Grubu'nun süt ve süt ürünleri sektörüne girmesiyle başlamıştır. Ak Gıda, üretim kapasitesi ve hızlı büyümesiyle tanınan bir şirkettir. İçim markasının üreticisi olan Ak Gıda, uzun yıllar boyunca Ülker Grubu'na bağlı kalmış, ancak daha sonra önemli bir yabancı yatırımcıya satılmıştır.
-  
-  İçim markasının günümüzdeki sahibi, Avrupa'nın en büyük gıda şirketlerinden biri olan Fransa merkezli Groupe Lactalis'tir. Lactalis, Ak Gıda'yı satın alarak Türkiye süt ve süt ürünleri pazarına girmiştir. Bu satın alma, Lactalis'in küresel genişleme stratejisinin bir parçasıdır ve şirketin Türkiye pazarındaki varlığını güçlendirmiştir.
-  
-  İçim markası, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmaktadır. Marka, kalite ve güvenilirlik odaklı üretim anlayışıyla Türkiye süt ürünleri pazarında önemli bir konuma sahiptir.`,
-     country: "Fransa",
-     website: "https://www.icim.com.tr/",
-     img: "/icim.png",
-     isBoycotted: "boykot",
-     boycottReason: `İçim markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
      alternative_products: ["sutas", "pinar"],
     },
    ],

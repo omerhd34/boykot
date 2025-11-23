@@ -114,6 +114,7 @@ export async function GET(request) {
    slug: brand.slug,
    img: brand.img,
    isBoycotted: brand.isBoycotted,
+   subCategory: brand.subCategory,
    category: {
     id: brand.category.id,
     name: brand.category.name,

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {
  FiCheckCircle,
+ FiExternalLink,
  FiSlash,
 } from "react-icons/fi";
 import prisma from "../lib/prisma.js";
@@ -37,8 +38,15 @@ export default async function Home() {
         href="/kategoriler"
         className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-orange-600"
        >
-        <span>Boykot listesine göz at</span>
+        <span>Boykot Listesi</span>
         <FiSlash size={18} aria-hidden="true" />
+       </Link>
+       <Link
+        href="/marka-onerisi"
+        className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-orange-600"
+       >
+        <span>Marka Önerisi</span>
+        <FiExternalLink className="h-4 w-4" />
        </Link>
       </div>
       <div className="grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-3">
