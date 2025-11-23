@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import {
  FiCheckCircle,
+<<<<<<< HEAD
  FiExternalLink,
+=======
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
  FiSlash,
 } from "react-icons/fi";
 import prisma from "../lib/prisma.js";
@@ -41,6 +44,7 @@ export default async function Home() {
         <span>Boykot Listesi</span>
         <FiSlash size={18} aria-hidden="true" />
        </Link>
+<<<<<<< HEAD
        <Link
         href="/marka-onerisi"
         className="inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-orange-600"
@@ -48,6 +52,8 @@ export default async function Home() {
         <span>Marka Önerisi</span>
         <FiExternalLink className="h-4 w-4" />
        </Link>
+=======
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
       </div>
       <div className="grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-3">
        {STATS.map((stat) => (

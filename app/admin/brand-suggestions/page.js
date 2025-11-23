@@ -1,7 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
+<<<<<<< HEAD
 import { FiCheckCircle, FiXCircle, FiClock, FiRefreshCw } from "react-icons/fi";
+=======
+import { FiCheckCircle, FiXCircle, FiClock } from "react-icons/fi";
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
 import Link from "next/link";
 import { IoArrowBack, IoLogOutOutline } from "react-icons/io5";
 import { useRouter } from "next/navigation";
@@ -12,6 +16,10 @@ export default function AdminBrandSuggestionsPage() {
  const [loading, setLoading] = useState(true);
  const [filter, setFilter] = useState("all");
  const [updating, setUpdating] = useState(null);
+<<<<<<< HEAD
+=======
+ const [notification, setNotification] = useState(null);
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
 
  useEffect(() => {
   fetchSuggestions();
@@ -33,6 +41,14 @@ export default function AdminBrandSuggestionsPage() {
   }
  };
 
+<<<<<<< HEAD
+=======
+ const showNotification = (message, type = "success") => {
+  setNotification({ message, type });
+  setTimeout(() => setNotification(null), 3000);
+ };
+
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
  const handleLogout = async () => {
   try {
    await fetch("/api/admin/login", { method: "DELETE" });
@@ -51,11 +67,30 @@ export default function AdminBrandSuggestionsPage() {
     body: JSON.stringify({ status: newStatus, adminNotes }),
    });
 
+<<<<<<< HEAD
    if (response.ok) {
     await fetchSuggestions();
    }
   } catch (error) {
    console.error("Durum güncellenemedi:", error);
+=======
+   const data = await response.json();
+
+   if (response.ok) {
+    await fetchSuggestions();
+    showNotification(
+     newStatus === "approved"
+      ? "Öneri başarıyla onaylandı!"
+      : "Öneri başarıyla reddedildi!",
+     "success"
+    );
+   } else {
+    showNotification(data.error || "Bir hata oluştu.", "error");
+   }
+  } catch (error) {
+   console.error("Durum güncellenemedi:", error);
+   showNotification("Durum güncellenirken bir hata oluştu.", "error");
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
   } finally {
    setUpdating(null);
   }
@@ -111,6 +146,30 @@ export default function AdminBrandSuggestionsPage() {
 
  return (
   <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 py-8">
+<<<<<<< HEAD
+=======
+   {/* Bildirim */}
+   {notification && (
+    <div className="fixed right-4 top-4 z-50 animate-slide-in">
+     <div
+      className={`rounded-xl border-2 px-6 py-4 shadow-lg ${notification.type === "success"
+       ? "border-green-500 bg-green-50 text-green-800"
+       : "border-red-500 bg-red-50 text-red-800"
+       }`}
+     >
+      <div className="flex items-center gap-3">
+       {notification.type === "success" ? (
+        <FiCheckCircle className="h-5 w-5" />
+       ) : (
+        <FiXCircle className="h-5 w-5" />
+       )}
+       <p className="font-medium">{notification.message}</p>
+      </div>
+     </div>
+    </div>
+   )}
+
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
    <div className="container mx-auto px-4">
     {/* Header */}
     <div className="mb-8 rounded-2xl border-2 border-slate-200 bg-white shadow-sm">

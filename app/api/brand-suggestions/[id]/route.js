@@ -3,7 +3,11 @@ import prisma from "@/lib/prisma";
 
 export async function PATCH(request, { params }) {
  try {
+<<<<<<< HEAD
   const { id } = params;
+=======
+  const { id } = await params;
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
   const body = await request.json();
   const { status, adminNotes } = body;
 
@@ -39,7 +43,11 @@ export async function PATCH(request, { params }) {
 
 export async function DELETE(request, { params }) {
  try {
+<<<<<<< HEAD
   const { id } = params;
+=======
+  const { id } = await params;
+>>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
 
   await prisma.brandSuggestion.delete({
    where: { id },
