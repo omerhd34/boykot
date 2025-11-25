@@ -5,6 +5,7 @@ const ilacSirketiCategory = {
  description: "İlaç üreticileri, eczane ürünleri ve sağlık sektörü markaları",
  brands: [
   // https://boykotdedektifi.org/b/solgar-380
+  // https://www.boykot.co/d/royal--lac
   {
    name: "Nobel",
    slug: "nobel",

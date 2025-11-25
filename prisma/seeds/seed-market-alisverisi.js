@@ -4,21 +4,18 @@ const marketAlisverisiCategory = {
  iconKey: "shopping-cart",
  description: "Market ve alışveriş zincirleri.",
  ctgry: [
+  "Şirket",
   "Sigara",
   "İçecek",
   "Yiyecek",
   "Temizlik",
-  "Şirket",
-  "Kişisel Bakım",
-  "Bebek & Çocuk Gıda",
-  "Pets",
+  "Bebek & Çocuk",
  ],
  brands: [
   /*
 https://boykotdedektifi.org/b/kan-tong-691
 https://boykotdedektifi.org/b/kevin-s-natural-foods-702
 https://boykotdedektifi.org/b/seeds-of-change-710
-https://boykotdedektifi.org/b/foodspring-711
 */
   //! TEMİZLİK MARKALARI
   // https://boykotdedektifi.org/c/temizlik-13
@@ -83,7 +80,7 @@ Birçok kişi, İsrail'e sevkiyat iddiaları nedeniyle markanın ürünlerini bo
    founder: "Franklin Clarence Mars",
    owner: "Mars Ailesi",
    country: "ABD",
-   img: "/mars-ind.png",
+   img: "/mars-inc.png",
    isBoycotted: "boykot",
    website: "https://www.mars.com/",
    description: `Mars Inc., 1911 yılında Franklin Clarence Mars tarafından Tacoma, Washington'da temelleri atılan, Amerika Birleşik Devletleri merkezli dev bir gıda, şekerleme ve evcil hayvan ürünleri şirketidir. Franklin'in oğlu Forrest Mars'ın da katılımıyla büyüyen şirket, Milky Way çikolatasının icadıyla sektördeki ilk büyük başarısını elde etmiş, ardından 1932'de İngiltere operasyonlarını başlatarak Mars barını piyasaya sürmüştür. Bugün ABD'nin en büyük 6. özel şirketi konumundadır.
@@ -98,6 +95,97 @@ Mars ailesi tarafından yönetilen şirket, küresel çapta bir üretim ağına 
     "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
    ],
    subBrands: [
+    {
+     name: "Eclipse",
+     slug: "eclipse",
+     foundedYear: 1999,
+     ctgry: "Yiyecek",
+     founder: "Wrigley Company (Mars)",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["falim", "vivident", "olips"],
+     img: "/eclipse.png",
+     isBoycotted: "boykot",
+     website: "https://www.eclipsemints.com.au/",
+     description: `Eclipse, 1999 yılında Wrigley Company (günümüzde Mars iştiraki) tarafından Amerika Birleşik Devletleri pazarında tanıtılan, nefes tazeleyici özelliğiyle bilinen bir sakız ve nane şekeri markasıdır. Markanın kökleri, 1991 yılında Kanada'da piyasaya sürülen "Excel" markasına dayanır; Eclipse, bu başarılı modelin ABD pazarına uyarlanmış halidir.
+
+Markanın en ayırt edici özelliği, ABD pazarında pelet (yastık) şeklindeki sakızları blister (ilaç tableti benzeri) ambalajlarda sunan ilk ürünlerden biri olmasıdır. "Güçlü taze nefes" vaadiyle pazarlanan Eclipse, sert dış kabuğu ve ferahlatıcı iç dolgusuyla bilinir.
+
+2007 yılında Amerikan Diş Hekimleri Birliği (ADA) tarafından onaylanan şekersiz formülüyle diş sağlığını desteklediği tescillenmiştir. Günümüzde Mars Incorporated çatısı altında üretilen marka; Nane, Winterfrost, Spearmint gibi klasik aromaların yanı sıra çeşitli meyve aromalı seçenekleriyle de dünya genelinde satılmaktadır.`,
+     boycottReason: `Eclipse'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Eclipse boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Skittles",
+     slug: "skittles",
+     foundedYear: 1974,
+     ctgry: "Yiyecek",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["bonibon", "jelibon"],
+     img: "/skittles.png",
+     isBoycotted: "boykot",
+     website: "https://www.skittles.com/",
+     description: `Skittles, Mars ve Wrigley şirketi tarafından üretilen, rengarenk görünümleri ve "S" harfi baskılı ikonik tasarımlarıyla bilinen meyve aromalı bir şeker markasıdır. Tarihçesi 1974 yılında bir İngiliz şirketi tarafından üretilmesiyle başlamış, 1982 yılında Amerika Birleşik Devletleri'nde üretilmeye başlanmasıyla küresel bir popülariteye ulaşmıştır. "Taste the Rainbow" (Gökkuşağının tadını çıkar) sloganıyla özdeşleşmiştir.
+
+Şekerlerin karakteristik yapısı, sert ve kıtır dış kabuğunun altındaki yumuşak, çiğnenebilir meyve dolgusuyla oluşur. Orijinal paketinde limon, misket limonu, portakal, çilek ve üzüm gibi klasik meyve tatları bulunurken; Ekşi (Sour), Tropikal, Orman Meyveleri (Wild Berry) ve Riddles gibi farklı damak tatlarına hitap eden çeşitleri de mevcuttur.
+
+Mars Incorporated bünyesinde üretilen Skittles, eğlenceli marka kimliği ve geniş ürün yelpazesiyle dünyanın en çok tüketilen şekerleme ürünlerinden biridir. İçeriğinde meyve suyu ve çeşitli aromalar barındıran ürün, atıştırmalık dünyasında renkli bir yere sahiptir.`,
+     boycottReason: `Skittles'ın boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Skittles boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Foodspring",
+     slug: "foodspring",
+     foundedYear: 1930,
+     ctgry: "Yiyecek",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/foodspring.png",
+     isBoycotted: "boykot",
+     website: "https://www.snickers.com/",
+     description: `Foodspring, 2013 yılında Berlin'de kurulan ve sporcu beslenmesine odaklanan öncü bir Alman markasıdır. Tobias Schüle ve Philipp Schrempp tarafından hayata geçirilen girişim; protein tozları, barlar, yulaf lapaları ve fonksiyonel fitness gıdalarıyla "sağlıklı beslenmeyi lezzetli hale getirme" vizyonunu benimsemiştir.
+
+     Marka, gösterdiği hızlı büyüme ile dikkat çekmiş ve 2019 yılında küresel gıda devi Mars Incorporated (Mars Edge yatırım kolu) tarafından yaklaşık 300 milyon Euro karşılığında satın alınmıştır. Bu satın alma ile Mars'ın portföyüne giren Foodspring, ürünlerini 17 farklı ülkede tüketicilerle buluşturmuştur.
+     
+     Ancak şirket yönetimi, zorlu piyasa koşullarını gerekçe göstererek Mart 2025'te radikal bir karar almış ve 30 Haziran 2025 tarihi itibarıyla müşteriye yönelik tüm operasyonlarını sonlandıracağını duyurmuştur.`,
+
+     boycottReason: `Foodspring'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Foodspring boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
     {
      name: "Snickers",
      slug: "snickers",
@@ -124,6 +212,36 @@ Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahu
 Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
 
 Bu nedenlerle, Snickers boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Galaxy",
+     slug: "galaxy",
+     foundedYear: 1960,
+     ctgry: "Yiyecek",
+     founder: "Mars, Incorporated",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: ["eti", "torku"],
+     img: "/galaxy.png",
+     isBoycotted: "boykot",
+     website: "https://www.galaxychocolate.co.uk/",
+     description: `Galaxy, 1960 yılında Birleşik Krallık'ta Mars Incorporated tarafından piyasaya sürülen ve pürüzsüz, ipeksi dokusuyla tanınan ünlü bir sütlü çikolata markasıdır. İngiltere pazarında en çok satan çikolatalar arasında zirveye oynayan marka, Amerika Birleşik Devletleri, Kanada ve Avrupa'nın birçok bölgesinde "Dove" ismiyle tüketicilere sunulmaktadır.
+
+     Geniş bir ürün yelpazesine sahip olan Galaxy; klasik sütlü çikolatasının yanı sıra Karamel, Cookie Crumble ve Fruit & Nut gibi çeşitleriyle bilinir. Ayrıca "Minstrels" (draje), "Ripple" (kıvrımlı dolgulu) gibi ikonik alt markaları ve sıcak çikolata tozu, dondurma, kek gibi yan ürünleriyle de tatlı dünyasında güçlü bir yere sahiptir.
+     
+     Tüketici trendlerini yakından takip eden marka, 2019 yılında vegan serisini piyasaya sürerek ürün gamını genişletmiştir. Orta Doğu pazarında da oldukça popüler olan Galaxy, Mars Inc. çatısı altında global bir marka olarak faaliyet göstermektedir.`,
+     boycottReason: `Galaxy'nin boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Galaxy boykot listesinde yer almaktadır.`,
      evidences: [
       "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
      ],
@@ -196,7 +314,7 @@ Bu nedenlerle, M&M’S boykot listesinde yer almaktadır.`,
      founder: "Mars, Incorporated",
      owner: "Mars, Incorporated",
      country: "ABD",
-     alternative_products: ["coco-star"],
+     alternative_products: [""],
      img: "/bounty.png",
      isBoycotted: "boykot",
      website: "https://www.mars.com/",
@@ -246,532 +364,6 @@ Bu nedenlerle, Mars boykot listesinde yer almaktadır.`,
       "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
      ],
     },
-    {
-     name: "Acana",
-     slug: "acana",
-     foundedYear: 1985,
-     ctgry: "Pets",
-     founder: "Reinhard Muhlenfeld (Champion Petfoods)",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/acana.png",
-     isBoycotted: "boykot",
-     website: "https://emea.acana.com/en/homepage",
-     description: `Acana, ismini doğduğu yer olan Kanada'nın Alberta eyaletindeki çiftlik arazilerinden alan, premium sınıf bir evcil hayvan maması markasıdır. "İhtiyaç duydukları beslenme, sevdikleri lezzet" mottosuyla hareket eden marka, kedi ve köpeklerin doğal beslenme alışkanlıklarına uygun, yüksek proteinli ve taze et içerikli mamalar üretmesiyle tanınır.
-
-Markanın üretim felsefesi, yerel çiftçilerden temin edilen taze veya çiğ kaliteli hayvansal içeriklerin, bütün meyve ve sebzelerle dengelenmesine dayanır. Üretim süreçleri, Kanada'nın Edmonton (Alberta) ve ABD'nin Auburn (Kentucky) kentlerindeki dünya standartlarına sahip ödüllü mutfaklarda (DogStar Kitchens) gerçekleştirilmektedir.
-
-Acana, uzun yıllar bağımsız bir Kanada şirketi olan Champion Petfoods tarafından yönetilmiş, ancak yakın zamanda küresel gıda devi Mars Incorporated tarafından satın alınmıştır. Bu satın alma ile birlikte marka, Mars Petcare ekosisteminin bir parçası haline gelmiştir.`,
-     boycottReason: `Acana markası, yakın zamanda Mars Incorporated tarafından satın alınmıştır. Mars Inc. firmasının İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars çatısı altındaki tüm markalar gibi Acana da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "API",
-     slug: "api",
-     foundedYear: 1964,
-     ctgry: "Pets",
-     founder: "Aquarium Pharmaceuticals, Inc.",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/api.png",
-     isBoycotted: "boykot",
-     website: "https://apifishcare.com/",
-     description: `API (Aquarium Pharmaceuticals, Inc.), su ürünleri ve akvaryum balıkçılığı sektöründe 60 yılı aşkın bir geçmişe sahip köklü bir markadır. Başlangıçta bağımsız bir şirket olarak kurulan marka, 2003 yılında küresel gıda ve evcil hayvan bakım devi Mars, Incorporated tarafından satın alınmıştır. Bu stratejik birleşme, markanın sektördeki tecrübesini Mars'ın gücü ve Waltham Evcil Hayvan Beslenmesi Merkezi'nin bilimsel uzmanlığıyla birleştirmiştir.
-
-Markanın araştırma ve geliştirme ekibi, süs balıklarının bakımı ve akvaryum tedavileri konusunda sektöre öncülük etmektedir. Bilimsel çalışmaları sonucunda su ürünleri endüstrisinde çığır açan yeniliklere imza atmış ve 30'un üzerinde küresel patent almıştır. API, balık besleme deneyimini iyileştirmek ve akvaryum hobisini daha sürdürülebilir kılmak için sürekli yeni çözümler üretmektedir.
-
-Bugün Kuzey Amerika'dan Asya Pasifik'e kadar geniş bir coğrafyada faaliyet gösteren API, hem kapalı akvaryumlar hem de açık havuzlar için kapsamlı bir ürün yelpazesi sunmaktadır. Su düzenleyicilerden balık yemlerine, hastalık tedavi edici ürünlerden su test kitlerine kadar akvaryum severlerin tüm ihtiyaçlarına yönelik profesyonel çözümler sağlamaktadır.`,
-     boycottReason: `API markası, Mars Incorporated tarafından 2003 yılında satın alınmıştır ve şirketin bir iştirakidir. Çatı şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars çatısı altındaki tüm markalar gibi API de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "AQUARIAN",
-     slug: "aquarian",
-     foundedYear: 1975,
-     ctgry: "Pets",
-     founder: "Forrest Mars, Sr. ve Dr. David Ford",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/aquarian.png",
-     isBoycotted: "boykot",
-     website: "https://aquarian.co.uk/",
-     description: `AQUARIAN, 1975 yılında İngiltere'de Forrest Mars, Sr. ve gıda bilimcisi Dr. David Ford'un iş birliğiyle doğmuş, su ürünleri ve balık yemi sektörünün öncü markalarından biridir. İlk olarak yedi farklı pul yem tarifiyle piyasaya sürülen marka, balıkların beslenme ihtiyaçlarını bilimsel temellere dayandırarak laboratuvar kontrollü deneylerle kanıtlanmış formüller geliştirmiştir.
-
-Markanın gelişimi, Mars bünyesindeki Waltham Evcil Hayvan Besleme Merkezi ile yapılan ortak çalışmalarla hız kazanmıştır. 2000'li yılların başında Mars Incorporated'ın API (Aquarium Pharmaceuticals) ve RENA markalarını satın almasıyla oluşturulan küresel balık bakım biriminin bir parçası haline gelmiş ve dünya çapında satışa sunulmuştur.
-
-"Balıklarınıza hem içten hem dıştan bakın" mottosuyla hareket eden AQUARIAN, bugün Birleşik Krallık'ın önde gelen balık yemi şirketidir. Sadece besleyici yemler (granüller, çubuklar, pelletler) değil, aynı zamanda su bakım ürünleri de sunarak akvaryum sahiplerine eksiksiz bir bakım sistemi sağlamaktadır.`,
-     boycottReason: `AQUARIAN markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi AQUARIAN da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Catsan",
-     slug: "catsan",
-     foundedYear: 1982,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/catsan.png",
-     isBoycotted: "boykot",
-     website: "https://www.catsan.co.uk/",
-     description: `Catsan, 1982 yılında Mars Incorporated tarafından piyasaya sürülen ve bugün kedi hijyeni denince akla gelen ilk markalardan biri olan kedi kumu üreticisidir. Kedilerin doğal temizlik ihtiyaçlarını anlama vizyonuyla yola çıkan marka, yüksek emiciliğe sahip benzersiz beyaz granülleriyle tanınır.
-
-Markanın en belirgin özelliği, kötü kokuları oluşmadan önce hapseden özel formülüdür. "Catsan Hijyen" (topaklaşmayan) ve "Catsan Ultra" (topaklaşan) gibi farklı çeşitleri bulunan ürünler, doğal kireçtaşı ve kuvars kumu gibi bileşenlerden üretilir. Beyaz rengi sayesinde idrar takibini kolaylaştırır ve kediler için hijyenik bir ortam sağlar.
-
-Mars Petcare uzmanlığıyla geliştirilen Catsan, tozsuz yapısı ve patilere yapışmayan dokusuyla hem kedilerin hem de kedi sahiplerinin konforunu hedefler. Avrupa başta olmak üzere dünya genelinde milyonlarca kedi sahibinin güvendiği premium bir hijyen markasıdır.`,
-     boycottReason: `Catsan markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Catsan da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Cesar",
-     slug: "cesar",
-     foundedYear: 1989,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/cesar.png",
-     isBoycotted: "boykot",
-     website: "https://www.cesar.com/",
-     description: `Cesar, Mars Petcare bünyesinde yer alan ve özellikle küçük ırk köpekler için ürettiği premium yaş mamalarla tanınan küresel bir markadır. Marka, ambalajlarında ve reklamlarında kullandığı ikonik West Highland White Terrier (Westie) köpeği ile özdeşleşmiştir. "Onları sevdiğiniz gibi sevin" mottosuyla hareket eden Cesar, köpekler için sadece beslenme değil, aynı zamanda bir lezzet şöleni sunmayı hedefler.
-
-Markanın uzmanlık alanı, tepsilerde sunulan ve gerçek et parçaları içeren gurme yaş mamalardır. Sığır eti, tavuk, kuzu eti ve çeşitli sebzelerle zenginleştirilmiş tarifleri, köpeklerin damak tadına uygun olarak özenle hazırlanır. Yaş mamaların yanı sıra kuru mama ve ödül maması çeşitleri de bulunan Cesar, evcil hayvan sahiplerinin sadık dostlarını şımartmak için tercih ettiği lider markalardan biridir.`,
-     boycottReason: `Cesar markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Cesar da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Crave",
-     slug: "crave",
-     foundedYear: 2017,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/crave.png",
-     isBoycotted: "boykot",
-     website: "https://www.cravepetfood.co.uk/",
-     description: `Crave, Mars Petcare tarafından 2017 yılında piyasaya sürülen ve evcil hayvanların doğal beslenme içgüdülerine odaklanan premium bir mama markasıdır. Köpeklerin ve kedilerin vahşi atalarından (kurtlar ve yaban kedileri) gelen beslenme alışkanlıklarını temel alan marka, "Doğalarındaki açlığı doyurun" felsefesiyle yüksek proteinli ürünler sunmaktadır.
-
-Markanın en belirgin özelliği, ürünlerinde tahıl yerine yüksek oranda hayvansal protein kullanmasıdır. İlk bileşen olarak her zaman gerçek et (tavuk, sığır, kuzu veya balık) kullanılır. Mısır, buğday, soya veya yapay renklendirici ve koruyucular içermeyen formülleriyle, evcil hayvanların kas yapısını desteklemeyi ve onlara ihtiyaç duydukları enerjiyi sağlamayı hedefler.
-
-Mars Petcare'in global tecrübesi ve beslenme uzmanlığıyla geliştirilen Crave, hem kuru hem de yaş mama çeşitlerine sahiptir. Modern evcil hayvanların biyolojik ihtiyaçlarını, atalarının diyetinden ilham alarak karşılayan marka, süpermarket raflarında ulaşılabilir premium bir seçenek olarak konumlanmıştır.`,
-     boycottReason: `Crave markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Crave de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Eukanuba",
-     slug: "eukanuba",
-     foundedYear: 1969,
-     ctgry: "Pets",
-     founder: "Paul Iams",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/eukanuba.png",
-     isBoycotted: "boykot",
-     website: "https://www.eukanuba.com/",
-     description: `Eukanuba, 1969 yılında Paul Iams tarafından kurulan ve ismini 1940'ların caz kültüründeki "zirve, en üstün" anlamına gelen bir terimden alan premium evcil hayvan maması markasıdır. Kurucusu Paul Iams'ın, köpeklerin etçil doğasına uygun, yüksek kaliteli hayvansal protein içeren bir mama üretme vizyonuyla ortaya çıkmıştır. Marka, köpeklerin ve kedilerin aktif yaşamlarını destekleyen, bilimsel olarak geliştirilmiş formülleriyle tanınır.
-
-Ürün geliştirme sürecinde "olağanüstü performans" ilkesini benimseyen Eukanuba, özellikle çalışan köpekler, sporcu köpekler ve yüksek enerji ihtiyacı olan ırklar için özelleşmiş beslenme çözümleri sunar. İçeriklerinde yüksek kaliteli tavuk, kuzu eti ve yumurta gibi protein kaynaklarını kullanarak, evcil hayvanların kas yapısını, sindirim sistemini ve tüy sağlığını desteklemeyi hedefler.
-
-Marka, 2014 yılında gerçekleşen büyük bir satın alma operasyonuyla küresel gıda devi Mars Incorporated bünyesine katılmıştır. Bugün Mars Petcare'in premium segmentteki en önemli oyuncularından biri olarak faaliyet gösteren Eukanuba, dünya genelinde veterinerler ve profesyonel yetiştiriciler tarafından tercih edilen bir marka konumundadır.`,
-     boycottReason: `Eukanuba markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Eukanuba da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Dreamies",
-     slug: "dreamies",
-     foundedYear: 2008,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/dreamies.png",
-     isBoycotted: "boykot",
-     website: "https://www.dreamiestreats.co.uk/",
-     description: `Dreamies, Mars Petcare tarafından üretilen ve kedilerin "hayır diyemediği" lezzetiyle ünlenen, dünyanın en popüler kedi ödül maması markalarından biridir. Kuzey Amerika pazarında "Temptations" adıyla bilinen marka, Avrupa ve Türkiye pazarında "Dreamies" ismiyle raflarda yer almaktadır. Markanın en karakteristik özelliği, dışının kıtır bir kabukla kaplı olması, içinin ise kedileri cezbeden yumuşacık ve lezzetli bir dolguya sahip olmasıdır.
-
-Marka, kedilerin paket hışırtısını duyduklarında duvarları bile delip geçebileceğini esprili bir dille anlatan reklam kampanyalarıyla hafızalara kazınmıştır. Tavuklu, peynirli, somonlu, sığır etli ve ördekli gibi kedilerin damak tadına uygun geniş bir aroma yelpazesi sunar. Ayrıca her bir tanenin 2 kaloriden az olması, kedilerini gün içinde şımartmak isteyen ancak kilo kontrolüne dikkat eden evcil hayvan sahipleri için önemli bir tercih sebebidir.
-
-Mars Incorporated'ın evcil hayvan beslenmesindeki global uzmanlığıyla geliştirilen Dreamies, içeriğindeki vitamin ve minerallerle zenginleştirilmiştir. Sadece bir atıştırmalık olmanın ötesinde, kedi ve sahibi arasındaki bağı güçlendiren, oyun ve eğitim saatlerini eğlenceli hale getiren bir ödül olarak konumlanmıştır.`,
-     boycottReason: `Dreamies markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Dreamies de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Greenies",
-     slug: "greenies",
-     foundedYear: 1996,
-     ctgry: "Pets",
-     founder: "Joe ve Judy Roetheli",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/greenies.png",
-     isBoycotted: "boykot",
-     website: "https://www.greenies.com/",
-     description: `Greenies, 1996 yılında Joe ve Judy Roetheli çifti tarafından, "Ivan" isimli köpeklerinin kötü ağız kokusu sorununa çözüm bulmak amacıyla geliştirilen, dünyanın ilk diş temizleyici ödül maması markasıdır. İkonik diş fırçası şeklindeki tasarımı ve çiğnenebilir yapısıyla köpeklerin dişlerindeki plak ve tartarı temizlemeye yardımcı olurken, aynı zamanda nefeslerini tazelemeyi hedefler.
-
-Markanın başarısı, Veteriner Ağız Sağlığı Konseyi (VOHC) tarafından plak ve tartar kontrolü için onaylanmış ilk ödül mamalarından biri olmasıyla tescillenmiştir. Farklı boyut ve ırklara uygun çeşitlerinin yanı sıra, kediler için üretilen "Feline Greenies" ve ilaç içirmeyi kolaylaştıran "Pill Pockets" gibi inovatif ürünlerle ürün gamını genişletmiştir.
-
-Hızla büyüyen marka, 2006 yılında küresel gıda ve evcil hayvan bakım devi Mars Incorporated tarafından satın alınmıştır. Bu tarihten itibaren Mars Petcare bünyesinde, bilimsel araştırmalarla desteklenen formülasyonlarıyla global pazarda evcil hayvan diş bakım kategorisinin lideri olarak faaliyet göstermektedir.`,
-     boycottReason: `Greenies markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Greenies de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "IAMS",
-     slug: "iams",
-     foundedYear: 1946,
-     ctgry: "Pets",
-     founder: "Paul Iams",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/iams.png",
-     isBoycotted: "boykot",
-     website: "https://www.iams.com/",
-     description: `IAMS, 1946 yılında hayvan beslenme uzmanı Paul Iams tarafından Ohio, Dayton'da kurulan, evcil hayvan beslenmesinde devrim yaratmış köklü bir markadır. Kurucusunun, köpeklerin ve kedilerin her şeyden önce birer "etçil" olduğu felsefesinden yola çıkan marka, evcil hayvan mamalarında bitkisel protein yerine hayvansal proteini birincil kaynak olarak kullanan ilk üreticilerden biri olarak sektöre yön vermiştir.
-
-Markanın en büyük inovasyonlarından biri, 1950'lerde geliştirdiği ve modern kuru mamaların atası sayılan "IAMS 999" adlı üründür. Yıllar içinde ürün yelpazesini genişleten IAMS; yavru, yetişkin ve yaşlı evcil hayvanlar için özel formüller geliştirmiş, sindirim sağlığı ve bağışıklık sistemini destekleyen patentli içeriklere imza atmıştır. "Ömür Boyu Sağlık" vizyonuyla hareket eden marka, veteriner hekimlerle iş birliği içinde çalışmaktadır.
-
-Uzun yıllar Procter & Gamble (P&G) bünyesinde faaliyet gösteren marka, 2014 yılında gerçekleşen büyük bir satın alma operasyonuyla Mars Incorporated ailesine katılmıştır. Günümüzde Mars Petcare'in bilimsel araştırma gücüyle desteklenen IAMS, dünya genelinde milyonlarca evcil hayvan sahibinin güvendiği premium bir marka olarak varlığını sürdürmektedir.`,
-     boycottReason: `IAMS markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi IAMS da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "James Wellbeloved",
-     slug: "james-wellbeloved",
-     foundedYear: 1992,
-     ctgry: "Pets",
-     founder: "İki Kız Kardeş (Somerset, İngiltere)",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/james-wellbeloved-brand-jwb.png",
-     isBoycotted: "boykot",
-     website: "https://wellbeloved.com/",
-     description: `James Wellbeloved, 1992 yılında İngiltere'nin Somerset bölgesinde, sindirim sorunları ve deri hassasiyeti yaşayan evcil hayvanlara çözüm bulmak isteyen iki kız kardeş tarafından kurulmuştur. Markanın çıkış noktası, "doğanın iyileştirici gücü" felsefesine dayanır. İlk tariflerini kendi mutfaklarında, yapay katkı maddeleri kullanmadan, basit ve doğal malzemelerle geliştirmişlerdir.
-
-Markanın en belirgin özelliği, evcil hayvanlarda gıda intoleransına neden olabilecek yaygın alerjenlerden (sığır eti, domuz eti, buğday gluteni, süt ürünleri ve yumurta) arındırılmış hipoalerjenik formüller üretmesidir. Genellikle tek bir hayvansal protein kaynağı (kuzu, hindi veya balık gibi) ve seçilmiş karbonhidratlar (pirinç, yulaf) kullanarak, hassas bünyeli kedi ve köpekler için sindirimi kolay mamalar sunar.
-
-İngiltere pazarında doğal evcil hayvan maması kategorisinin öncülerinden olan James Wellbeloved, daha sonra küresel gıda devi Mars Incorporated tarafından satın alınmıştır. Günümüzde Mars Petcare bünyesinde yer alsa da, Somerset kökenli doğal üretim mirasına ve "basit içerik, büyük lezzet" ilkesine sadık kalarak faaliyetlerini sürdürmektedir.`,
-     boycottReason: `James Wellbeloved markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi James Wellbeloved da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Lovebug",
-     slug: "lovebug",
-     foundedYear: 2021,
-     ctgry: "Pets",
-     founder: "Mars Petcare",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/lovebug.png",
-     isBoycotted: "boykot",
-     website: "https://www.lovebugpetfood.com/",
-     description: `Lovebug, Mars Petcare tarafından 2021 yılında piyasaya sürülen ve İngiltere'nin ilk %100 böcek proteini bazlı kedi maması markasıdır. Geleneksel et endüstrisinin çevresel etkilerini azaltmayı hedefleyen marka, protein kaynağı olarak "Kara Asker Sineği" larvalarını kullanır. Bu yenilikçi yaklaşım, kedilerin ihtiyaç duyduğu tüm esansiyel amino asitleri sağlarken, karbon ayak izini minimize etmeyi amaçlar.
-
-Markanın sürdürülebilirlik felsefesi sadece içeriğiyle sınırlı değildir; üretim sürecinde sığır etine kıyasla %80 daha az arazi kullanımına ihtiyaç duyulur ve ambalajları tamamen plastik içermeyen, geri dönüştürülebilir malzemelerden üretilir. Lovebug, çevre bilinci yüksek evcil hayvan sahipleri için "gezegeni severek beslenme" alternatifini sunar.
-
-Beslenme uzmanları ve veterinerler tarafından formüle edilen Lovebug, böcek proteininin hipoalerjenik yapısı sayesinde gıda hassasiyeti olan kediler için de uygun bir seçenektir. Mars'ın sürdürülebilirlik vizyonu (Sustainable in a Generation) kapsamında geliştirdiği en dikkat çekici girişimlerden biridir.`,
-     boycottReason: `Lovebug, Mars Incorporated tarafından geliştirilen ve piyasaya sürülen bir markadır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Lovebug da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "My Cat DNA",
-     slug: "my-cat-dna",
-     foundedYear: 2017,
-     ctgry: "Pets",
-     founder: "Genoscoper Laboratories / Mars Petcare",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/my-cat-dna.png",
-     isBoycotted: "boykot",
-     website: "https://mycatdna.com/",
-     description: `My Cat DNA, evcil kedilerin genetik mirasını, ırk kökenlerini ve potansiyel sağlık risklerini analiz eden kapsamlı bir DNA testi hizmetidir. Mars Petcare'in bilim ve teşhis bölümü olan Wisdom Health Genetics bünyesinde faaliyet gösteren bu hizmet, basit bir yanak sürüntüsü ile kedilerin DNA haritasını çıkararak sahiplerine detaylı bir rapor sunar.
-
-Hizmetin temel amacı, kedilerin genetik yatkınlıklarını önceden belirleyerek olası kalıtsal hastalıklar (örneğin polikistik böbrek hastalığı veya kalp rahatsızlıkları) hakkında erken uyarı sağlamaktır. Ayrıca kedinin fiziksel özelliklerini (tüy rengi, yapısı vb.) belirleyen genleri analiz ederek yetiştiricilere ve sahiplere bilimsel veriler sağlar.
-
-My Cat DNA, Mars'ın 2017 yılında Finlandiya merkezli Genoscoper Laboratuvarlarını satın almasıyla güçlenmiş ve global bir standarda ulaşmıştır. Veteriner hekimler ve genetik uzmanları tarafından geliştirilen bu teknoloji, kedilerin yaşam kalitesini artırmak için kişiselleştirilmiş sağlık yönetimine olanak tanır.`,
-     boycottReason: `My Cat DNA hizmeti, Mars Incorporated'ın bir iştiraki olan Wisdom Health Genetics tarafından sunulmaktadır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, bu hizmet de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "My Dog DNA",
-     slug: "my-dog-dna",
-     foundedYear: 2011,
-     ctgry: "Pets",
-     founder: "Genoscoper Laboratories",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/my-dog-dna.png",
-     isBoycotted: "boykot",
-     website: "https://mydogdna.com/",
-     description: `My Dog DNA, köpeklerin genetik sağlığını, ırk karışımını ve kalıtsal özelliklerini analiz etmek için geliştirilmiş lider bir DNA test panelidir. Başlangıçta Finlandiya merkezli Genoscoper Laboratuvarları tarafından geliştirilen bu teknoloji, 2017 yılında Mars Petcare tarafından satın alınarak Wisdom Health ağının bir parçası haline gelmiştir.
-
-Test, 200'den fazla kalıtsal hastalık ve özelliği tarayarak köpek sahiplerine ve yetiştiricilere hayati bilgiler sunar. Köpeğin genetik çeşitliliğini ölçmek, akraba evliliği risklerini azaltmak ve yavru köpeklerin sağlığını korumak amacıyla profesyonel yetiştiriciler tarafından da yaygın olarak kullanılmaktadır.
-
-Mars'ın "Evcil Hayvanlar İçin Daha İyi Bir Dünya" vizyonunun teknolojik yüzünü temsil eden My Dog DNA, veteriner tıbbı ile genetik bilimi birleştirir. Bu sayede köpek sahipleri, dostlarının genetik kodlarına dayalı olarak beslenme ve sağlık planlamalarını daha bilinçli bir şekilde yapabilirler.`,
-     boycottReason: `My Dog DNA, Mars Incorporated bünyesindeki Wisdom Health Genetics'in bir markasıdır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars grubuna ait bu hizmet de boykot kapsamındadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Nom Nom",
-     slug: "nom-nom",
-     foundedYear: 2015,
-     ctgry: "Pets",
-     founder: "Nate Phillips, Zach Phillips, Dr. Justin Shmalberg",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/nom-nom.png",
-     isBoycotted: "boykot",
-     website: "https://www.nomnomnow.com/",
-     description: `Nom Nom, 2015 yılında evcil hayvan sahiplerine taze ve veteriner formüleli yemekler sunmak amacıyla kurulan, doğrudan tüketiciye ulaşan (DTC) bir taze mama markasıdır. Kurucuları Nate ve Zach Phillips kardeşler ile veteriner beslenme uzmanı Dr. Justin Shmalberg, endüstriyel mamaların ötesine geçerek, gerçek gıda malzemeleriyle hazırlanan, porsiyonlanmış ve eve teslim edilen bir beslenme modeli geliştirmiştir.
-
-Markanın en büyük farkı, yemeklerin her bir evcil hayvanın yaşına, kilosuna ve aktivite seviyesine göre özel olarak porsiyonlanmasıdır. ABD'deki kendi mutfaklarında, insan gıdası standartlarına uygun malzemelerle pişirilen mamalar, dondurulmadan taze olarak soğuk zincirle teslim edilir. Bu yaklaşım, evcil hayvanların sindirim sağlığını ve genel enerjisini iyileştirmeyi hedefler.
-
-Hızla büyüyen ve taze mama kategorisinde liderlerden biri haline gelen Nom Nom, 2022 yılında Mars Incorporated tarafından satın alınarak Royal Canin bölümüne entegre edilmiştir. Bu satın alma, Mars'ın taze ve kişiselleştirilmiş beslenme pazarındaki varlığını güçlendirmiştir.`,
-     boycottReason: `Nom Nom markası, 2022 yılında Mars Incorporated tarafından satın alınmıştır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Nom Nom da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Nutro",
-     slug: "nutro",
-     foundedYear: 1926,
-     ctgry: "Pets",
-     founder: "John Saleen",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/nutro.png",
-     isBoycotted: "boykot",
-     website: "https://www.nutro.com/",
-     description: `Nutro, kökleri 1926 yılına dayanan ve "temiz beslenme" (Feed Clean) felsefesini benimseyen köklü bir evcil hayvan maması markasıdır. Kaliforniya'da John Saleen tarafından kurulan şirket, başından beri yapay koruyucular, renklendiriciler ve GDO'lu bileşenler kullanmadan, doğal içeriklere odaklanan mamalar üretmeyi ilke edinmiştir.
-
-Markanın "Nutro Ultra" ve "Wholesome Essentials" gibi serileri, yüksek kaliteli hayvansal proteinleri, vitamin açısından zengin sebze ve meyvelerle birleştirir. Özellikle gıda hassasiyeti olan köpekler için tahılsız seçenekler ve tüy/deri sağlığını destekleyen özel formüller sunmasıyla bilinir. "Çiftlikten kaseye" anlayışıyla tedarikçilerini şeffaf bir şekilde seçer.
-
-2007 yılında Mars Incorporated tarafından satın alınan Nutro, bugün Mars Petcare'in doğal segmentteki en güçlü markalarından biridir. 90 yılı aşkın tecrübesiyle, evcil hayvanların sadece doymasını değil, aynı zamanda enerjik ve sağlıklı kalmasını sağlayan besleyici çözümler sunmaya devam etmektedir.`,
-     boycottReason: `Nutro markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi Nutro da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Orijen",
-     slug: "origen",
-     foundedYear: 1985,
-     ctgry: "Pets",
-     founder: "Reinhard Muhlenfeld (Champion Petfoods)",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/origen.png",
-     isBoycotted: "boykot",
-     website: "https://emea.orijenpetfoods.com/en/homepage",
-     description: `Orijen, Kanada merkezli Champion Petfoods tarafından yaratılan ve "biyolojik olarak uygun" (biologically appropriate) beslenme konseptinin öncüsü olan ultra premium bir mama markasıdır. Markanın temel felsefesi, kedi ve köpeklerin vahşi doğadaki ataları gibi beslenmesi gerektiği fikrine dayanır. Bu nedenle ürünlerinde çok yüksek oranda taze et, sakatat ve kıkırdak içeren "WholePrey" (Bütün Av) oranlarını kullanır.
-
-Mamalarının içeriğinde %85'e varan oranlarda kaliteli hayvansal içerik bulunur ve sentetik katkı maddeleri yerine besin değerlerini doğal kaynaklardan (taze balık, kümes hayvanları, yumurta) sağlamayı hedefler. Tahılsız formülleri ve düşük karbonhidrat içeriğiyle, evcil hayvan beslenmesinde en üst segmentte yer alan ve dünya çapında ödüller kazanan bir markadır.
-
-Uzun yıllar bağımsız bir üretici olarak faaliyet gösteren Champion Petfoods, 2022 yılında Mars Incorporated tarafından satın alınmıştır. Bu satışla birlikte Orijen, Mars Petcare'in premium portföyüne katılmış olsa da, Kanada ve ABD'deki özel mutfaklarında (NorthStar Kitchens) üretim yapmaya devam etmektedir.`,
-     boycottReason: `Orijen markası, yakın zamanda Mars Incorporated tarafından satın alınmıştır. Mars Inc. firmasının İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Orijen de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Pedigree",
-     slug: "pedigree",
-     foundedYear: 1957,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/pedigree.png",
-     isBoycotted: "boykot",
-     website: "https://www.pedigree.com/",
-     description: `Pedigree, Mars Petcare'in en eski ve en yaygın bilinen markalarından biri olarak, dünya genelinde uygun fiyatlı ve ulaşılabilir köpek maması denince akla gelen ilk isimdir. Kökleri 1930'lara dayanan marka, 1957 yılında "Pedigree" adını alarak globalleşmiştir. "Biz köpekleri seviyoruz" sloganıyla özdeşleşen marka, her ırk ve yaştaki köpek için temel beslenme ihtiyaçlarını karşılayan yaş ve kuru mamalar üretir.
-
-Marka sadece mama üretimiyle değil, aynı zamanda köpeklerin ağız sağlığını korumaya yönelik geliştirdiği "Dentastix" gibi fonksiyonel ödül ürünleriyle de pazar lideridir. Bilimsel altyapısını Waltham Evcil Hayvan Besleme Merkezi'nden alan Pedigree, köpeklerin deri, tüy, sindirim ve bağışıklık sağlığını destekleyen formüller geliştirir.
-
-Ticari başarısının yanı sıra sosyal sorumluluk projeleriyle de tanınan Pedigree, "Pedigree Foundation" aracılığıyla barınak köpeklerinin sahiplendirilmesini teşvik eden ve barınaklara destek sağlayan küresel kampanyalar yürütmektedir.`,
-     boycottReason: `Pedigree markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Pedigree de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "PERFECT FIT",
-     slug: "perfect-fit",
-     foundedYear: 2002,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/perfect-fit.png",
-     isBoycotted: "boykot",
-     website: "https://www.perfect-fit.co.uk/",
-     description: `PERFECT FIT, Mars Petcare ve Waltham Evcil Hayvan Besleme Merkezi'nin uzman veterinerleri tarafından geliştirilen, ileri düzey beslenme çözümleri sunan bir kedi ve köpek maması markasıdır. Markanın temel felsefesi, "Total 5" formülü üzerine kuruludur. Bu formül, evcil hayvanların en yaygın 5 sağlık ihtiyacını (güçlü doğal savunma, sağlıklı sindirim, üriner sistem sağlığı, sağlıklı deri/tüy ve optimum kilo yönetimi) tek bir üründe karşılamayı hedefler.
-
-Marka, evcil hayvanların sadece fiziksel ihtiyaçlarına değil, aynı zamanda yaşam tarzlarına ve karakterlerine göre de özelleştirilmiş seçenekler sunar. Örneğin; "ev kedisi", "hassas kedi", "aktif köpek" veya "küçük ırk" gibi spesifik kategoriler için farklı protein kaynakları ve besin değerleri içeren mamalar üretir.
-
-Bilimsel araştırmalara dayalı içeriği ve premium kalitedeki ürünleriyle PERFECT FIT, evcil hayvan sahiplerine, dostlarının gençlik ruhunu ve sağlığını ömür boyu korumalarına yardımcı olacak bütünsel bir beslenme programı vaat etmektedir.`,
-     boycottReason: `PERFECT FIT markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi PERFECT FIT de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "PrettyLitter",
-     slug: "prettylitter",
-     foundedYear: 2015,
-     ctgry: "Pets",
-     founder: "Daniel Rotman",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/prettylitter.png",
-     isBoycotted: "boykot",
-     website: "https://www.prettylitter.com/",
-     description: `PrettyLitter, 2015 yılında Daniel Rotman tarafından kurulan ve kedi kumu teknolojisine getirdiği inovasyonla tanınan akıllı bir kedi kumu markasıdır. Markanın en devrimci özelliği, kumun kedinin idrarındaki pH seviyesine göre renk değiştirerek (mavi, sarı, yeşil, kırmızı vb.) potansiyel sağlık sorunlarını (idrar yolu enfeksiyonları, böbrek sorunları vb.) erkenden haber vermesidir.
-
-Geleneksel bentonit kumların aksine, hafif silika jel kristallerinden üretilen PrettyLitter, %80 daha hafiftir ve tek bir paketi bir kedi için bir ay boyunca kullanılabilir. Yüksek emiciliği sayesinde kokuyu hapseder ve tozsuzdur, bu da hem kedi sağlığı hem de ev hijyeni için büyük avantaj sağlar.
-
-Doğrudan tüketiciye (DTC) abonelik modeliyle hızla büyüyen marka, 2021 yılında Mars Incorporated tarafından satın alınmıştır. Mars Petcare'in sağlık ve teknoloji odaklı vizyonunun bir parçası olarak faaliyetlerine devam eden PrettyLitter, kedi sahiplerine proaktif bir sağlık izleme aracı sunmaktadır.`,
-     boycottReason: `PrettyLitter markası, 2021 yılında Mars Incorporated tarafından satın alınmıştır. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi PrettyLitter da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Sheba",
-     slug: "sheba",
-     foundedYear: 1982,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/sheba.png",
-     isBoycotted: "boykot",
-     website: "https://www.sheba.com/",
-     description: `Sheba, 1982 yılında Hamburg'da piyasaya sürülen ve "kedinizi şımartmanın en zarif yolu" olarak konumlanan premium bir kedi maması markasıdır. Adını efsanevi Saba Melikesi'nden (Queen of Sheba) alan marka, kedileri sadece beslemekle kalmayıp onlarla duygusal bir bağ kurmayı ve onlara birer kraliyet üyesi gibi davranmayı hedefler. Özellikle fileto, çorba ve püre kıvamındaki gurme yaş mama çeşitleriyle tanınır.
-
-Markanın en önemli özelliği, seçici damak tadına sahip kediler için geliştirilen yüksek kaliteli içerikleridir. Sürdürülebilir balıkçılık kaynaklarından elde edilen ton balığı, somon ve beyaz et gibi protein kaynaklarını kullanır. Ayrıca Sheba, okyanusların korunması adına "Hope Grows" (Umut Büyüyor) projesiyle dünyanın en büyük mercan resifi restorasyon programını yürüterek çevresel sorumluluk bilincini de yansıtmaktadır.
-
-Mars Petcare'in lüks segmentteki temsilcisi olan Sheba, dünya genelinde milyonlarca kedi sahibi tarafından, evcil hayvanlarına duydukları sevgiyi göstermenin bir aracı olarak tercih edilmektedir.`,
-     boycottReason: `Sheba markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Sheba da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Temptations",
-     slug: "temptations",
-     foundedYear: 2002,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/temptations.png",
-     isBoycotted: "boykot",
-     website: "https://www.temptationstreats.com/",
-     description: `Temptations, Mars Petcare tarafından 2002 yılında piyasaya sürülen ve kısa sürede Amerika'nın 1 numaralı kedi ödül maması haline gelen popüler bir markadır. Avrupa pazarında "Dreamies" adıyla bilinen bu ürünün en karakteristik özelliği, dışının kıtır bir kabukla kaplı olması, içinin ise kedileri cezbeden yumuşak ve lezzetli bir dolguya sahip olmasıdır.
-
-Marka, kedilerin ambalajı sallar sallamaz koşarak gelmesini sağlayan dayanılmaz lezzetiyle ünlenmiştir. Tavuk, sığır eti, süt, ton balığı ve kedi nanesi gibi çeşitli aromalar sunar. Her bir tanesinin 2 kaloriden az olması ve besleyici vitaminlerle zenginleştirilmesi, kedilerini şımartmak isteyen ancak sağlık dengesini korumaya çalışan sahipler için ideal bir seçenek oluşturur.
-
-Eğlenceli ve mizahi reklam kampanyalarıyla tanınan Temptations, kedi ve insan arasındaki bağı güçlendirmeyi hedefler. Oyun saatlerini lezzetli bir deneyime dönüştüren marka, tüy yumağı kontrolü ve diş sağlığı gibi fonksiyonel çeşitleriyle de ürün gamını genişletmiştir.`,
-     boycottReason: `Temptations markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları nedeniyle, Mars portföyündeki tüm markalar gibi Temptations da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Whiskas",
-     slug: "whiskas",
-     foundedYear: 1958,
-     ctgry: "Pets",
-     founder: "Mars, Incorporated",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/whiskas.png",
-     isBoycotted: "boykot",
-     website: "https://www.whiskas.co.uk/",
-     description: `Whiskas, 1958 yılında İngiltere'de piyasaya sürülen ve o günden bu yana dünyanın en tanınmış kedi maması markalarından biri haline gelen küresel bir liderdir. İkonik mor ambalajı ve gümüş renkli tekir kedi maskotuyla özdeşleşen marka, "kediler Whiskas alır" (Cats would buy Whiskas) sloganıyla hafızalara kazınmıştır.
-
-Yavru kedilerden yaşlı kedilere kadar her yaşam evresi için özel olarak formüle edilmiş yaş ve kuru mamalar sunar. Ürünleri, Mars bünyesindeki Waltham Evcil Hayvan Besleme Merkezi'nin bilimsel araştırmalarına dayanarak geliştirilir. Kedilerin doğal beslenme ihtiyaçlarını karşılamak üzere dengeli protein, vitamin ve mineral içeriği sunmayı taahhüt eder.
-
-Whiskas, sadece beslenme alanında değil, kedi bakımı konusundaki eğitici içerikleriyle de evcil hayvan sahiplerine rehberlik eder. Uygun fiyatlı ve kaliteli beslenmeyi erişilebilir kılarak, dünya genelinde milyonlarca kedinin günlük beslenmesinin temelini oluşturmaktadır.`,
-     boycottReason: `Whiskas markası, Mars Incorporated çatısı altında faaliyet gösteren bir iştiraktir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Whiskas da boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
-    {
-     name: "Royal Canin",
-     slug: "royal-canin",
-     foundedYear: 1968,
-     ctgry: "Pets",
-     founder: "Jean Cathary",
-     owner: "Mars, Incorporated",
-     country: "ABD",
-     alternative_products: [],
-     img: "/royal-canin.png",
-     isBoycotted: "boykot",
-     website: "https://www.royalcanin.com/tr",
-     description: `Royal Canin, 1968 yılında Fransız veteriner hekim Jean Cathary tarafından kurulan ve "Beslenme Yoluyla Sağlık" felsefesini benimseyen, dünya lideri bir evcil hayvan maması markasıdır. Markanın temelleri, Dr. Cathary'nin evcil hayvanlardaki cilt ve tüy sorunlarının doğru beslenme ile çözülebileceğini keşfetmesiyle atılmıştır. O günden bu yana marka, kedi ve köpeklerin ihtiyaçlarını insanlaştırmadan, tamamen onların biyolojik gereksinimlerine odaklanan bilimsel bir yaklaşım sergiler.
-
-Markanın en belirgin özelliği, "Hassas Beslenme" (Health Nutrition) anlayışıdır. Irk, yaş, boyut, yaşam tarzı ve özel sağlık durumlarına (böbrek sağlığı, sindirim hassasiyeti, idrar yolu vb.) göre özelleştirilmiş yüzlerce farklı formül sunar. Veteriner hekimler ve beslenme uzmanlarıyla ortaklaşa geliştirilen reçeteli diyet serileri (Veterinary Diet), klinik beslenmede bir standart haline gelmiştir.
-
-2002 yılında küresel gıda devi Mars Incorporated tarafından satın alınan Royal Canin, Mars Petcare bünyesinde bağımsız bir bilimsel birim gibi çalışmaya devam etmektedir. Fransa'daki köklerinden gelen uzmanlığı Mars'ın küresel gücüyle birleştiren marka, evcil hayvanlar için en doğru besin değerlerini en hassas şekilde sunmayı hedefler.`,
-     boycottReason: `Royal Canin markası, 2002 yılında Mars Incorporated tarafından satın alınmıştır ve şirketin en önemli iştiraklerinden biridir. Ana şirket Mars Inc.'in İsrail ile olan ticari ve siyasi bağlantıları, İsrail ordusuna yönelik destek açıklamaları ve İsrail ekonomisine katkı sağlayan yatırımları (JVP ortaklığı vb.) nedeniyle, Mars portföyündeki tüm markalar gibi Royal Canin de boykot listesinde yer almaktadır.`,
-     evidences: [
-      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
-     ],
-    },
    ],
   },
   {
@@ -780,7 +372,7 @@ Markanın en belirgin özelliği, "Hassas Beslenme" (Health Nutrition) anlayış
    foundedYear: 2000,
    ctgry: "İçecek",
    founder: "Erbak Ailesi (Uludağ İçecek)",
-   owner: "Bim A.Ş.",
+   owner: "Bim Birleşik Mağazalar A.Ş.",
    country: "Türkiye",
    alternative_products: [],
    img: "/lecola.png",
@@ -788,7 +380,7 @@ Markanın en belirgin özelliği, "Hassas Beslenme" (Health Nutrition) anlayış
    website: "",
    description: `Le Cola, tamamen Türkiye'ye ait bir kola markasıdır. Marka, 2000'li yıllarda yerli kola markalarına olan ilginin artmasıyla piyasaya sürülmüştür.
 
-Le Cola, Bim A.Ş.'nin sahip olduğu ve Kristal Kola Fabrikalarında üretilen bir kola markasıdır. Markanın geçmişi, Uludağ İçecek'in gazlı içecek sektöründeki deneyimlerine dayanmaktadır. Uludağ İçecek, 1930'lardan beri Türkiye'de maden suyu ve gazlı içecek sektöründe hizmet vermektedir ve Erbak Ailesi tarafından yönetilmektedir.
+Le Cola, Bim'in sahip olduğu ve Kristal Kola Fabrikalarında üretilen bir kola markasıdır. Markanın geçmişi, Uludağ İçecek'in gazlı içecek sektöründeki deneyimlerine dayanmaktadır. Uludağ İçecek, 1930'lardan beri Türkiye'de maden suyu ve gazlı içecek sektöründe hizmet vermektedir ve Erbak Ailesi tarafından yönetilmektedir.
 
 Le Cola, uygun fiyatlı ve kaliteli bir yerli kola alternatifi olarak sektördeki yerini korumaktadır. Marka, kola ve diyet kola çeşitleriyle tüketicilere sunulmaktadır. Üretim tesisleri Türkiye'nin farklı bölgelerinde bulunmaktadır.
 
@@ -849,11 +441,11 @@ Tekirdağ/Hayrabolu tesisinde ise rafine yağ dolum ve paketleme işlemleri yap�
 Kent Boringer Dış Ticaret, ihracat faaliyetlerini altı bölgeye yayılmış bir organizasyon yapısı ile yönetmektedir. Şirket, tamamen Türk sermayeli olup, gıda ve yağ sektöründe önemli bir konuma sahiptir.`,
   },
   {
-   name: "Kraft Heinz Company",
+   name: "Kraft Heinz Company (KHC)",
    slug: "kraft-heinz-company",
    foundedYear: 2015,
    ctgry: "Şirket",
-   founder: "",
+   founder: "	James L. Kraft ve Henry J. Heinz",
    owner: "Berkshire Hathaway (%27,5)",
    country: "ABD",
    alternative_products: [],
@@ -877,18 +469,18 @@ Kraft Heinz, 2 Eylül 2025 tarihinde birleşmeden on yıl sonra iki ayrı şirke
      slug: "abc",
      foundedYear: 1999,
      ctgry: "Yiyecek",
-     founder: "",
+     founder: "Chu Ailesi (PT ABC Central Food)",
      owner: "Kraft Heinz Company",
-     country: "Endonezya",
+     country: "ABD",
      alternative_products: [],
      img: "/abc.png",
      isBoycotted: "boykot",
-     website: "",
-     description: `PT Heinz ABC Indonesia, Kraft Heinz'in Jakarta merkezli Endonezya merkezli yiyecek ve içecek yan kuruluşudur ve soslar, çeşniler, meyve suları ve şuruplar üretmektedir. ABC markası daha önce 1999 yılında Heinz tarafından satın alınan PT ABC Central Food Industry şirketine aitti.
+     website: "https://www.heinz.co.id/",
+     description: `ABC, Endonezya mutfağının en ikonik ve güvenilen gıda markalarından biridir. Özellikle "Kecap Manis" (tatlı soya sosu) ve "Sambal" (acı biber sosu) ürünleriyle Asya mutfağının vazgeçilmez bir parçasıdır. Markanın kökleri yerel bir aile şirketi olan PT ABC Central Food Industry'ye dayanır, ancak 1999 yılında Kraft Heinz Company tarafından satın alınarak küresel bir güce dönüşmüştür.
 
-ABC, Heinz'ın Asya'daki en büyük işletmesidir ve dünyanın en büyük işletmelerinden biridir. Java ve Endonezya'nın diğer bölgelerinde 3000 çalışanı, 3 üretim tesisi, 8 paketleme tesisi ve geniş dağıtım ağı bulunmaktadır. Bugün ABC, dünya çapında Heinz'ın sahip olduğu 15 markadan biridir.
+Heinz'ın Asya'daki en büyük operasyonu olan ABC, Cava ve Endonezya'nın diğer bölgelerindeki 3 üretim tesisi ve 8 paketleme merkeziyle devasa bir üretim kapasitesine sahiptir. Sadece soslarla sınırlı kalmayan marka; meyve suları, şuruplar, konserve balık ve hazır gıdalarla geniş bir ürün yelpazesi sunar.
 
-ABC markası, Endonezya pazarında soslar, çeşniler, meyve suları ve şuruplar kategorisinde önemli bir konuma sahiptir. Şirket, geniş üretim ve paketleme altyapısı sayesinde hem yerel hem de uluslararası pazarlara hizmet vermektedir.`,
+Endonezya'daki her evin mutfağında bulunan ABC, yerel lezzetleri modern üretim standartlarıyla birleştirir. Kraft Heinz çatısı altında olmasına rağmen, yerel damak tadına sadık kalarak Asya pazarındaki liderliğini sürdürmektedir.`,
      boycottReason: `ABC'nin sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
      evidences: ["https://www.ynetnews.com/business/article/3832858"],
     },
@@ -927,7 +519,7 @@ ABC markası, Endonezya pazarında soslar, çeşniler, meyve suları ve şurupla
      ctgry: "Yiyecek",
      founder: "BİM Chain Markets",
      owner: "Kraft Heinz Company (KHC)",
-     country: "Türkiye",
+     country: "ABD",
      alternative_products: [],
      img: "/bol-bol-ketcap.png",
      isBoycotted: "boykot",
@@ -942,6 +534,400 @@ Günümüzde Bol Bol Ketçap ve Bol Bol Mayonez, Kraft Heinz Company tarafından
       "https://www.invest.gov.tr/tr/news/news-from-turkey/sayfalar/kraft-heinz-acquires-turkish-assan-foods.aspx",
       "https://www.ynetnews.com/business/article/3832858",
      ],
+    },
+    {
+     name: "Colorado",
+     slug: "colorado",
+     foundedYear: 2013,
+     ctgry: "Yiyecek",
+     founder: "Assan Gıda (Kibar Holding)",
+     owner: "Kraft Heinz Company (KHC)",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/colorado.png",
+     isBoycotted: "boykot",
+     website: "",
+     description: `Colorado, "Türkiye'nin Sos Uzmanı" olma vizyonuyla, Kibar Holding iştiraki olan Assan Gıda tarafından geliştirilmiş ve 2013 yılında piyasaya sürülmüştür. Özellikle ev dışı tüketim (otel, restoran, kafe) kanalında ve perakendede gurme soslarıyla (barbekü, sriracha, buffalo, pesto vb.) kısa sürede pazar liderlerinden biri haline gelmiştir.
+  
+Markanın kaderi, 2021 yılında gerçekleşen büyük bir stratejik satışla değişmiştir. Kibar Holding, Colorado markasını da bünyesinde barındıran Assan Gıda'yı, dünyanın en büyük gıda şirketlerinden biri olan ABD merkezli The Kraft Heinz Company'e yaklaşık 100 milyon dolar karşılığında satmıştır.
+  
+Bu satışla birlikte Colorado, %100 yerli sermaye kimliğinden çıkarak Kraft Heinz'ın küresel portföyünün bir parçası haline gelmiştir. Günümüzde üretim ve dağıtım süreçleri Amerikan gıda devi Kraft Heinz tarafından yönetilmektedir.`,
+     boycottReason: `Colorado'nun sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "HP Sauce",
+     slug: "hp-sauce",
+     foundedYear: 1895,
+     ctgry: "Yiyecek",
+     founder: "Frederick Gibson Garton",
+     owner: "Kraft Heinz Company (KHC)",
+     country: "ABD",
+     alternative_products: [],
+     img: "/hp-sauce.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/en-GB/hp-sauce",
+     description: `HP Sauce, 1895 yılında Nottingham'da bakkal Frederick Gibson Garton tarafından geliştirilen ve İngiliz kültürünün simgesi haline gelen ikonik bir "kahverengi sos" (brown sauce) markasıdır. İsmini, İngiltere Parlamento Binası'ndaki (Houses of Parliament) bir restoranda kullanıldığına dair yayılan söylentilerden almıştır. Etiketinde Londra'nın simge yapıları olan Big Ben ve Westminster Sarayı'nı taşıyan sos, 19. yüzyıldan beri İngiliz kahvaltılarının vazgeçilmezi olmuştur.
+
+Sosun karakteristik ve baharatlı lezzeti; domates, malt sirkesi, hurma, demirhindi, çavdar unu ve özel baharatların harmanlanmasından gelir. Özellikle sosisli sandviçler, pastırma ve sıcak-soğuk tuzlu yemeklerde çeşni olarak kullanılır. İngiltere Başbakanı Harold Wilson ile özdeşleşerek "Wilson'ın sosu" olarak da anılan ürün, İngiliz mutfağının en popüler ulusal markalarından biridir.
+
+Tarihsel süreçte Danone ve Imperial Tobacco gibi farklı şirketlerin bünyesinde bulunan marka, 2005 yılında Amerikan gıda devi Heinz tarafından satın alınmıştır. Bu satın almanın ardından üretimin İngiltere'nin Birmingham kentinden Hollanda'ya taşınması büyük tartışmalara neden olsa da, HP Sauce günümüzde Kraft Heinz Company çatısı altında üretilmeye devam etmektedir.`,
+     boycottReason: `HP Sauce'un sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Kraft",
+     slug: "kraft",
+     foundedYear: 1903,
+     ctgry: "Yiyecek",
+     founder: "James L. Kraft",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/kraft.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinzcompany.com/",
+     description: `Kraft, 1903 yılında James L. Kraft'ın Chicago sokaklarında at arabasıyla peynir satarak başlattığı, gıda teknolojisinde devrim yaratan köklü bir markadır. James L. Kraft'ın 1916'da "işlenmiş peynir" (processed cheese) için aldığı patent, peynirin bozulmadan saklanabilmesini ve taşınabilmesini sağlayarak gıda endüstrisini sonsuza dek değiştirmiştir. Bu inovasyon, markayı I. Dünya Savaşı'nda ordunun ana tedarikçisi yapmış ve küresel bir devin temellerini atmıştır.
+
+Amerikan mutfak kültürünün ayrılmaz bir parçası olan Kraft, özellikle "Kraft Macaroni & Cheese" (veya Kanada'daki adıyla Kraft Dinner) ile efsaneleşmiştir. Pratik, uygun fiyatlı ve lezzetli yemek çözümleri sunan marka; Kraft Singles dilimli peynirleri, mayonezleri, salata sosları ve barbekü soslarıyla milyonlarca haneye girmektedir.
+
+Tarihsel süreçte birçok birleşme ve bölünme yaşayan marka, son olarak 2015 yılında Heinz ile birleşerek Kraft Heinz Company'yi oluşturmuştur. Günümüzde "ailelerin favori lezzeti" olma misyonuyla, pratik ve güvenilir gıda ürünleri sunmaya devam etmektedir.`,
+     boycottReason: `Kraft'ın sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Philadelphia",
+     slug: "philadelphia",
+     foundedYear: 1880,
+     ctgry: "Yiyecek",
+     founder: "William Lawrence",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/philadelphia.png",
+     isBoycotted: "boykot",
+     website: "https://www.creamcheese.com/",
+     description: `Philadelphia, 1880 yılında New Yorklu sütçü William Lawrence tarafından tesadüfen keşfedilen ve dünyanın en ünlü krem peyniri haline gelen bir markadır. Lawrence, aslında Fransız Neufchâtel peyniri yapmaya çalışırken daha zengin ve kremamsı bir peynir elde etmiş; bu yeni ürüne o dönemde yüksek kaliteli süt ürünleriyle tanınan "Philadelphia" şehrinin adını vererek pazarlamıştır.
+
+Pürüzsüz dokusu, hafif tuzlu tadı ve kolay sürülebilir yapısıyla kahvaltıların vazgeçilmezi olan Philadelphia, aynı zamanda New York Cheesecake'in de ana malzemesidir. Sade versiyonunun yanı sıra otlu, sarımsaklı, somonlu ve çilekli gibi birçok farklı çeşidi bulunmaktadır.
+
+Günümüzde Kraft Heinz (Kuzey Amerika) ve Mondelēz International (uluslararası pazarlar) tarafından yönetilen marka, krem peynir kategorisinin jenerik ismi haline gelmiştir. Soğuk sandviçlerden tatlılara, soslardan dip soslara kadar mutfakta çok yönlü bir kullanım sunar.`,
+     boycottReason: `Philadelphia'nın sahibi (Kuzey Amerika operasyonları ve ana lisansör olarak) Kraft Heinz Company boykot olduğu için bu marka da boykottur.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Capri Sun",
+     slug: "capri-sun-kraft",
+     foundedYear: 1969,
+     ctgry: "İçecek",
+     founder: "Rudolf Wild",
+     owner: "Capri Sun Group (Global) / Kraft Heinz (ABD) / Coca-Cola (Avrupa Dağıtım)",
+     country: "Almanya / İsviçre",
+     alternative_products: [""],
+     img: "/capri-sun.png",
+     isBoycotted: "boykot",
+     website: "https://www.capri-sun.com/tr/",
+     description: `Capri Sun, 1969 yılında Alman girişimci Rudolf Wild tarafından geliştirilen ve ismini İtalya'nın Capri adasından alan, ikonik gümüş folyo poşet (Doypack) ambalajıyla tanınan bir meyve suyu markasıdır. İsviçre merkezli Capri Sun Group Holding'e ait olan marka, "koruyucu içermeyen doğal içerik" vurgusuyla dünya genelinde çocukların favorisi olmuştur.
+
+Markanın küresel operasyonları karmaşık bir ortaklık yapısına sahiptir. Orijinal marka sahibi Hans-Peter Wild olsa da, markanın en büyük pazarlarındaki operasyonları boykot listesindeki dev şirketler tarafından yönetilmektedir. 1981'den bu yana Kuzey Amerika'daki (ABD) tüm üretim ve dağıtım lisansı **Kraft Heinz Company**'ye aittir. Ayrıca Hollanda, Fransa, İngiltere gibi birçok Avrupa ülkesinde dağıtım **Coca-Cola** (CCEP) tarafından yapılmaktadır.
+
+Standart 200ml'lik paketlerde ve pipetle sunulan ürün, 2014 yılında küf şikayetleri üzerine ambalajında şeffaf taban düzenlemesine gitmiştir. Dünya genelinde popüler olan marka, küresel gıda devleriyle olan bu stratejik ortaklıkları nedeniyle geniş bir pazara hakimdir.`,
+     boycottReason: `Capri Sun markası, karmaşık ticari ağları nedeniyle boykot listesindedir. Markanın Kuzey Amerika'daki (ABD) tüm üretim ve lisans hakları boykotlu Kraft Heinz Company'ye aittir. Ayrıca Avrupa pazarındaki dağıtımı bir diğer boykotlu firma olan Coca-Cola tarafından yapılmaktadır. Bu iki büyük şirketle olan doğrudan ticari ve finansal bağları nedeniyle marka boykot kapsamındadır.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Oscar Mayer",
+     slug: "oscar-mayer",
+     foundedYear: 1883,
+     ctgry: "Yiyecek",
+     founder: "Oscar F. Mayer ve Gottfried Mayer",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/oscar-mayer.png",
+     isBoycotted: "boykot",
+     website: "https://www.oscarmayer.com/",
+     description: `Oscar Mayer, 1883 yılında Alman göçmeni Oscar F. Mayer ve kardeşi Gottfried tarafından Chicago'da temelleri atılan, Amerikan et endüstrisinin en köklü markalarından biridir. Kardeşlerin kiraladıkları küçük bir et pazarında, Alman mahallelerine özgü bratwurst ve liverwurst gibi geleneksel sosisleri satarak başlattıkları bu serüven, zamanla devasa bir gıda imparatorluğuna dönüşmüştür. 1906 yılında yeni oluşturulan federal et denetleme programına katılan ilk gönüllü şirketlerden biri olması, markanın kaliteye verdiği önemin tarihsel bir kanıtıdır.
+
+Marka, sadece ürünleriyle değil, pazarlama dehasıyla da Amerikan popüler kültürüne damgasını vurmuştur. 1936 yılında yollara çıkan sosis şeklindeki ikonik araç "Wienermobile" ve nesiller boyu söylenen reklam jingle'ları, Oscar Mayer'i sosisli sandviç (hot dog) ve şarküteri ürünlerinde akla gelen ilk isim yapmıştır. Sosis, salam (bologna), pastırma ve çocuklar için hazırlanan Lunchables setleriyle pazarın lideri konumundadır.
+
+Tarihsel süreçte General Foods ve Kraft Foods tarafından satın alınan şirket, günümüzde gıda devi Kraft Heinz Company bünyesinde faaliyet göstermektedir. Geleneksel lezzetlerini modern gıda standartlarıyla birleştiren marka, yapay koruyuculardan arındırılmış ve daha doğal içeriklere odaklanan yeni ürün serileriyle varlığını sürdürmektedir.`,
+     boycottReason: `Oscar Mayer'in sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Velveeta",
+     slug: "velveeta",
+     foundedYear: 1918,
+     ctgry: "Yiyecek",
+     founder: "Emil Frey",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/velveeta.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/velveeta",
+     description: `Velveeta, 1918 yılında İsviçreli göçmen Emil Frey tarafından New York, Monroe'daki Monroe Cheese Company'de icat edilen ikonik bir işlenmiş peynir ürünüdür. Markanın ismi, ürünün pürüzsüz ve yumuşak dokusunu ifade eden "kadife" (velvet) kelimesinden türetilmiştir. En ayırt edici özelliği, ısıtıldığında topaklanmadan veya yağını salmadan tamamen homojen bir şekilde eriyerek "sıvı altın" kıvamına gelmesidir.
+
+Tarihsel süreçte ilginç bir yere sahip olan Velveeta, 1930'larda "besleyici bir sağlık gıdası" olarak pazarlanmış ve Amerikan Tabipler Birliği'nin onay mührünü alan ilk peynir ürünü olmuştur. 1927 yılında Kraft tarafından satın alınan marka, peynir altı suyunun geri kazandırılmasıyla elde edilen özel formülü sayesinde Amerikan mutfağının, özellikle de makarna soslarının ve dip sosların vazgeçilmezi olmuştur.
+
+Günümüzde Kraft Heinz çatısı altında üretilen Velveeta, 2002 yılından bu yana ABD mevzuatına göre "Pastörize Hazırlanmış Peynir Ürünü" olarak etiketlenmektedir. Raf ömrünün uzunluğu ve kullanım kolaylığı ile bilinen marka, "Shells & Cheese" gibi hazır yemek setleri ve blok formlarıyla market raflarında yer almaktadır.`,
+     boycottReason: `Velveeta'nın sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Jell-O",
+     slug: "jello",
+     foundedYear: 1897,
+     ctgry: "Yiyecek",
+     founder: "Pearle Bixby Wait ve May Wait",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/jello.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/jell-o",
+     description: `Jell-O, 1897 yılında New York'un Le Roy kasabasında marangoz Pearle Bixby Wait ve eşi May tarafından yaratılan, jelatinli tatlılar, pudingler ve kremalı turtalarla özdeşleşmiş tescilli bir markadır. Markanın ismini Pearle'nin eşi May bulmuştur. 1845 yılında patenti alınan toz jelatin teknolojisini çilek, ahududu, portakal ve limon gibi meyve aromalarıyla birleştirerek kitlelere ulaştıran marka, özellikle 1930'lar ve 1950'lerde Amerikan popüler kültürünün bir simgesi haline gelmiştir.
+
+Marka, "sallanan" renkli jölelerinin yanı sıra pişirmeden hazırlanan pratik puding karışımları ve "No Bake" (Pişirmesiz) tatlı kitleriyle tanınır. "Jell-O için her zaman yer vardır" sloganıyla pazarlanan ürün, hafif ve eğlenceli bir tatlı alternatifi olarak nesillerdir tüketilmektedir.
+
+Kraft Heinz portföyünde bulunan Jell-O, günümüzde şekersiz ve düşük kalorili versiyonlarıyla da diyet yapanların tatlı ihtiyacını karşılamayı hedefler. Hem çocuklar için eğlenceli bir atıştırmalık hem de yetişkinler için pratik bir tatlı malzemesi olarak pazar liderliğini korumaktadır.`,
+     boycottReason: `Jell-O'nun sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Kool-Aid",
+     slug: "kool-aid",
+     foundedYear: 1927,
+     ctgry: "İçecek",
+     founder: "Edwin Perkins",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/kool-aid.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/kool-aid/products",
+     description: `Kool-Aid, 1927 yılında Edwin Perkins tarafından Nebraska'nın Hastings kentinde, annesinin mutfağında yapılan deneyler sonucunda icat edilen efsanevi bir toz içecek markasıdır. Perkins, o dönem popüler olan ancak nakliyesi masraflı ve cam şişelerin kırılma riski taşıyan "Fruit Smack" adlı sıvı konsantreyi kurutarak sadece tozunu elde etmeyi başarmıştır. Bu inovasyon, ürünün hem raf ömrünü uzatmış hem de nakliye maliyetlerini düşürerek Büyük Buhran döneminde aileler için ekonomik bir alternatif olmasını sağlamıştır.
+
+Marka, Nebraska eyaletinin "resmi meşrubatı" ilan edilecek kadar yerel kültürle bütünleşmiştir. Her yıl Hastings'te düzenlenen "Kool-Aid Günleri" festivaliyle bu miras kutlanmaktadır. 1953 yılında General Foods'a satılan marka, daha sonra Kraft Foods ve nihayetinde Kraft Heinz bünyesine katılmıştır.
+
+Kool-Aid'in en unutulmaz simgesi, duvarları kırarak "Oh, Yeah!" sloganıyla sahneye giren dev sürahi maskotu "Kool-Aid Man"dir. Toz karışımların yanı sıra kullanıma hazır sıvı paketler (Jammers) ve dondurma çeşitleriyle de ürün gamını genişleten marka, Amerikan popüler kültürünün renkli ve eğlenceli bir parçasıdır.`,
+     boycottReason: `Kool-Aid'in sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Maxwell House",
+     slug: "maxwell-house",
+     foundedYear: 1892,
+     ctgry: "İçecek",
+     founder: "Joel Owsley Cheek",
+     owner: "Kraft Heinz Company (Kuzey Amerika) / JDE Peet's (Global)",
+     country: "ABD",
+     alternative_products: [],
+     img: "/maxwell-house.png",
+     isBoycotted: "boykot",
+     website: "https://www.maxwellhousecoffee.com/",
+     description: `Maxwell House, 1892 yılında toptancı Joel Owsley Cheek tarafından Nashville, Tennessee'de geliştirilen ve ismini şehrin o dönemdeki en prestijli oteli Maxwell House Hotel'den alan köklü bir kahve markasıdır. Otelin müşterilerinin Cheek'in özel karışımını çok beğenmesi üzerine marka doğmuş ve 1980'lerin sonuna kadar yaklaşık 100 yıl boyunca Amerika Birleşik Devletleri'nin en çok satan kahve markası olma başarısını göstermiştir.
+
+Markanın efsanevi sloganı "Good to the last drop" (Son damlasına kadar iyi), rivayete göre 1907 yılında Başkan Theodore Roosevelt'in bu kahveyi içtikten sonra söylediği sözden gelmektedir. Bu slogan, markanın logosuna ve etiketlerine kadar işlenmiş bir kalite taahhüdü olarak kullanılmaktadır.
+
+Markanın mülkiyeti günümüzde ikiye ayrılmıştır: Kuzey Amerika operasyonları boykot listesindeki Kraft Heinz Company tarafından yönetilirken, dünyanın geri kalanındaki hakları JDE Peet's şirketine aittir. Hazır kahve, öğütülmüş filtre kahve ve kapsül çeşitleriyle Amerikan kahve kültürünün en önemli temsilcilerinden biridir.`,
+     boycottReason: `Maxwell House markasının Kuzey Amerika operasyonları ve marka hakları Kraft Heinz Company'ye aittir. Kraft Heinz'ın boykot listesinde olması nedeniyle, bu ticari bağdan dolayı marka boykot kapsamındadır.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Ore-Ida",
+     slug: "ore-ida",
+     foundedYear: 1952,
+     ctgry: "Yiyecek",
+     founder: "Francis Nephi Grigg ve Golden Grigg",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/ore-ida.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/ore-ida",
+     description: `Ore-Ida, 1952 yılında Francis Nephi Grigg ve Golden Grigg kardeşler tarafından kurulan ve adını üretim tesislerinin bulunduğu Oregon ve Idaho eyaletlerinin birleşiminden alan, dondurulmuş patates ürünleri markasıdır. Başlangıçta mısır yetiştiricisi olan kardeşler, dondurulmuş gıda işine girerek Amerika'nın en büyük patates markalarından birini yaratmışlardır.
+
+Markanın tarihindeki en büyük inovasyon, 1953 yılında patates kızartması üretiminden artan parçaları değerlendirmek amacıyla geliştirdikleri "Tater Tots" (patates lokmaları) ürünüdür. Bu ürün kısa sürede bir Amerikan klasiği haline gelmiş ve markanın simgesi olmuştur.
+
+1965 yılında H.J. Heinz Company tarafından satın alınan marka, günümüzde Kraft Heinz Company bünyesinde faaliyet göstermektedir. "Ore-Ida dendiğinde, her şey yolunda demektir" sloganıyla bilinen marka, patates kızartmasından soğan halkasına kadar geniş bir dondurulmuş ürün yelpazesi sunmaktadır.`,
+     boycottReason: `Ore-Ida'nın sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Classico",
+     slug: "classico",
+     foundedYear: 1987,
+     ctgry: "Yiyecek",
+     founder: "",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/classico.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/classico",
+     description: `Classico, 1987 yılında piyasaya sürülen ve İtalya'nın farklı bölgelerinin (Toscana, Napoli, Sicilya vb.) otantik lezzetlerinden ilham alan bir makarna sosu markasıdır. Market raflarında, ev yapımı sos hissi veren "Mason jar" (kavanoz) ambalajıyla dikkat çeker.
+
+Domates, fesleğen, sarımsak ve peynir gibi kaliteli malzemelerle hazırlanan sosları, makarna yemeklerini pratik bir şekilde gurme bir deneyime dönüştürmeyi hedefler. Kraft Heinz bünyesinde üretilen Classico, Kuzey Amerika pazarının en çok tercih edilen premium makarna soslarından biridir.`,
+     boycottReason: `Classico'nun sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Smart Ones",
+     slug: "smart-ones",
+     foundedYear: 1992,
+     ctgry: "Yiyecek",
+     founder: "H.J. Heinz Company",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/smart-ones.png",
+     isBoycotted: "boykot",
+     website: "https://www.eatyourbest.com/",
+     description: `Smart Ones, 1992 yılında H.J. Heinz Company tarafından, o dönem şirketin bünyesinde olan Weight Watchers (Kilo Gözcüleri) programına uygun bir alt marka olarak piyasaya sürülmüştür. Markanın ismi ve çıkış noktası, ürünlerin başlangıçta "sadece bir gram yağ" (One gram of fat) içermesi vaadine dayanmaktadır. Bu iddialı giriş, markayı kısa sürede diyet yapanların favorisi haline getirmiştir.
+
+Heinz, 1999 yılında Weight Watchers International'ı satmış olsa da, markayı gıda ürünlerinde kullanma lisansını elinde tutmaya devam etmiştir. Zamanla ürün yelpazesini sadece düşük yağlı ürünlerden; dondurulmuş kahvaltılar, atıştırmalıklar, ana yemekler ve tatlıları kapsayan geniş bir portföye dönüştürmüştür.
+
+Günümüzde Kraft Heinz Company çatısı altında faaliyet gösteren Smart Ones, porsiyon kontrolü ve kalori hesabı yapan tüketiciler için pratik çözümler sunmaktadır. 2015 yılında ünlü sunucu Oprah Winfrey'in Weight Watchers'a ortak olmasıyla birlikte marka yeniden popülerlik kazanmış ve sağlıklı dondurulmuş gıda kategorisindeki yerini sağlamlaştırmıştır.`,
+     boycottReason: `Smart Ones'ın sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Grey Poupon",
+     slug: "grey-poupon",
+     foundedYear: 1777,
+     ctgry: "Yiyecek",
+     founder: "Maurice Grey ve Auguste Poupon",
+     owner: "Kraft Heinz Company (Kuzey Amerika) ve Associated British Foods (BK ve Avrupa)",
+     country: "Fransa / ABD",
+     alternative_products: [""],
+     img: "/grey-poupon.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/grey-poupon/products/00054400000245-dijon-mustard",
+     description: `Grey Poupon, temelleri 1777 yılında Fransa'nın Dijon kentinde atılan ve 1866'da Maurice Grey ile Auguste Poupon'un ortaklığıyla markalaşan dünyanın en prestijli hardal üreticilerinden biridir. Maurice Grey'in geliştirdiği ve hardal üretimini hızlandıran makine sayesinde Kraliyet Nişanı ile ödüllendirilen marka, beyaz şarapla yapılan otantik Dijon hardalı ile küresel bir üne kavuşmuştur.
+
+Markanın Amerika serüveni 1946 yılında Heublein Şirketi'nin haklarını satın almasıyla başlamış, daha sonra Kraft Foods (şimdiki Kraft Heinz) bünyesine geçmiştir. 1980'lerdeki meşhur "Pardon me, would you have any Grey Poupon?" (Affedersiniz, hiç Grey Poupon'unuz var mı?) reklam kampanyası, ürünü lüks ve statü sembolü haline getirmiştir. Amerikan versiyonu Kanada'da yetiştirilen kahverengi hardal tohumlarıyla yapılırken, Avrupa versiyonu orijinal Fransız tarifine sadık kalmaktadır.
+
+Günümüzde markanın Kuzey Amerika hakları Kraft Heinz Company'ye aittir ve bu nedenle boykot kapsamındadır. Gurme sandviçlerden salata soslarına kadar geniş bir kullanım alanı olan Grey Poupon, hardal severler için bir kalite standardı olarak kabul edilir.`,
+     boycottReason: `Grey Poupon markasının Kuzey Amerika'daki mülkiyeti ve üretim hakları Kraft Heinz Company'ye aittir. Kraft Heinz'ın boykot listesinde olması nedeniyle, bu ticari bağdan dolayı marka boykot kapsamındadır.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Lunchables",
+     slug: "lunchables",
+     foundedYear: 1988,
+     ctgry: "Yiyecek",
+     founder: "Kraft Foods (Oscar Mayer Bölümü)",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/lunchables.png",
+     isBoycotted: "boykot",
+     website: "https://www.lunchables.com/",
+     description: `Lunchables, 1988 yılında Seattle'da tanıtılan ve 1989'da ulusal çapta piyasaya sürülen, çalışan ebeveynlerin çocukları için pratik bir öğle yemeği çözümü arayışından doğmuş ikonik bir markadır. Fullerton, Kaliforniya'da geliştirilen bu konsept, çocukların kendi yemeklerini "inşa etmelerine" olanak tanıyan bölmeli kutu tasarımıyla gıda sektöründe yeni bir kategori yaratmıştır.
+
+Markanın küresel pazarlaması bölgesel farklılıklar gösterir; ABD ve Kanada'da genellikle Oscar Mayer et ürünleriyle eşleştirilerek satılırken, Birleşik Krallık pazarında Dairylea markası altında tüketicilere sunulmaktadır. İçeriğinde genellikle kraker, peynir, şarküteri ürünleri ve bazen küçük bir tatlı veya içecek bulunan bu setler, eğlenceli ve interaktif bir yeme deneyimi sunar.
+
+Günümüzde Kraft Heinz Company çatısı altında faaliyet gösteren Lunchables, Garland, Teksas gibi büyük tesislerde üretilmektedir. Pizza, nachos ve sosisli sandviç gibi çeşitleriyle ürün gamını genişleten marka, okul beslenmelerinin ve pratik atıştırmalıkların en popüler tercihlerinden biri olmaya devam etmektedir.`,
+     boycottReason: `Lunchables'ın sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Golden Circle",
+     slug: "golden-circle",
+     foundedYear: 1947,
+     ctgry: "İçecek",
+     founder: "Queenslandli Çiftçiler (Kooperatif)",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/golden-circle.png",
+     isBoycotted: "boykot",
+     website: "https://www.goldencircle.com.au/",
+     description: `Golden Circle, merkezi Brisbane, Queensland'de bulunan ve kökleri 1947 yılında yerel çiftçilerin kurduğu bir kooperatife dayanan Avustralya'nın en ikonik gıda markalarından biridir. Meyve ve sebze işleme konusundaki uzmanlığı ve bölge ekonomisine sağladığı büyük katkılardan dolayı 2010 yılında "Queensland İş Liderleri Onur Listesi"ne dahil edilmiştir. Marka, "Sunshine in a can" (Kutudaki günışığı) mottosuyla özdeşleşmiştir.
+
+Üretim gücünü yerel tarımdan alan Golden Circle, Avustralyalı çiftçilerden yılda 180.000 tondan fazla hammadde tedarik etmektedir. Özellikle Sunshine Coast ve Maryborough bölgelerinden gelen ananasları ve Lockyer Vadisi'nde yetiştirilen sebzeleri işlemesiyle tanınır. Queensland'de yetişmeyen ürünler ise eyaletler arası ağlarla tedarik edilerek kalite standardı korunur.
+
+2008 yılında Heinz (bugünkü Kraft Heinz) tarafından satın alınan marka, yatırımlarına devam ederek bebek maması üretimi ve yılda 42 milyon litreden fazla meyve suyu işleme kapasitesine sahip Tetra Pak tesisleriyle büyümüştür. Konserve meyvelerden meyve sularına kadar geniş bir ürün yelpazesiyle Avustralya sofralarının vazgeçilmezidir.`,
+     boycottReason: `Golden Circle'ın sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Wattie's",
+     slug: "watties",
+     foundedYear: 1934,
+     ctgry: "Yiyecek",
+     founder: "Sir James Wattie",
+     owner: "Kraft Heinz Company",
+     country: "ABD",
+     alternative_products: [],
+     img: "/watties.png",
+     isBoycotted: "boykot",
+     website: "https://www.watties.co.nz/",
+     description: `Wattie's, 1934 yılında Sir James Wattie tarafından Yeni Zelanda'da "J. Wattie Canneries Limited" adıyla kurulan ve ülkenin gıda mirasının en önemli parçalarından biri haline gelen ikonik bir markadır. Dondurulmuş ve paketlenmiş meyve-sebzelerden soslara, bebek mamasından evcil hayvan gıdalarına kadar uzanan geniş ürün yelpazesiyle Yeni Zelanda mutfaklarının vazgeçilmezidir.
+
+Markanın tarihçesi önemli birleşmelere sahne olmuştur. 1987 yılında Goodman Fielder ile birleşerek "Goodman Fielder Wattie" grubunu oluşturan şirket, küresel gıda pazarında dikkat çekmiştir. Bu büyüme sürecinin ardından, 1992 yılında Amerikan gıda devi H.J. Heinz Company tarafından 565 milyon dolar karşılığında satın alınarak uluslararası bir boyut kazanmıştır.
+
+Günümüzde Kraft Heinz Company bünyesinde faaliyet gösteren Wattie's, Amerikan sermayeli bir marka olmasına rağmen Yeni Zelanda'daki yerel kimliğini korumayı başarmıştır. "New Zealand's favourite" (Yeni Zelanda'nın favorisi) sloganıyla üretim yapan marka, yerel tarımı destekleyen yapısı ve geniş dağıtım ağıyla Okyanusya bölgesinin lider gıda üreticisidir.`,
+     boycottReason: `Wattie's'in sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Pudliszki",
+     slug: "pudliszki",
+     foundedYear: 1920,
+     ctgry: "Yiyecek",
+     founder: "Stanisław Fenrych",
+     owner: "Kraft Heinz Company",
+     country: "Polonya",
+     alternative_products: [],
+     img: "/pudliszki.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/pl-PL/pudliszki/produkty",
+     description: `Pudliszki, 1920 yılında ziraat mühendisi Stanisław Fenrych tarafından Polonya'nın Pudliszki köyünde kurulan, ülkenin en köklü ve saygın gıda markalarından biridir. Şirketin temelleri, 1847'de kurulan eski bir şeker rafinerisinin arazisinde atılmıştır. Fenrych'in vizyonu, 1927 yılında Londra'ya gönderdiği uzmanlarla ketçap üretim teknolojisini araştırtmasıyla şekillenmiş ve Pudliszki, kendi domateslerini işleyerek ketçap üreten öncü bir marka haline gelmiştir.
+
+Büyük Buhran ve II. Dünya Savaşı gibi zorlu dönemleri atlatan şirket, savaş sonrası millileştirilerek devlet işletmesi olarak faaliyetlerine devam etmiş, ancak kalitesinden ödün vermemiştir. 1990'larda özelleştirilen marka, 1997 yılında Amerikan gıda devi Heinz tarafından satın alınmıştır.
+
+Günümüzde Kraft Heinz Company çatısı altında faaliyet gösteren Pudliszki; ketçap, domates konsantresi, hazır sebze yemekleri ve konserve sebzeleriyle Polonya mutfağının ayrılmaz bir parçasıdır. Yerel tarımsal üretimi destekleyen yapısı ve geleneksel lezzetleri modern üretimle birleştirmesiyle bilinir.`,
+     boycottReason: `Pudliszki'nin sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Kraft Heinz Company) gidiniz.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Honig",
+     slug: "honig",
+     foundedYear: 1867,
+     ctgry: "Yiyecek",
+     founder: "Klaas Honig",
+     owner: "Kraft Heinz Company",
+     country: "Hollanda",
+     alternative_products: [],
+     img: "/honig.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/nl-NL/honig",
+     description: `Honig, 1867 yılında Klaas Honig tarafından Hollanda'nın Koog aan de Zaan kentinde kurulan, köklü bir Hollanda gıda markasıdır. Başlangıçta nişasta üretimiyle başlayan şirket, zamanla çorba karışımları, makarna, bulyon ve yemek harçları konusunda uzmanlaşmıştır.
+
+Hollanda mutfağının pratik ve lezzetli çözümler sunan markası olarak bilinen Honig, 2001 yılında Heinz tarafından satın alınmıştır. Bugün Kraft Heinz bünyesinde, Hollandalı ailelerin günlük yemek pişirme rutinlerinin önemli bir parçası olmaya devam etmektedir.`,
+     boycottReason: `Honig'in sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
+    },
+    {
+     name: "Quero",
+     slug: "quero",
+     foundedYear: 1980,
+     ctgry: "Yiyecek",
+     founder: "Bilinmiyor",
+     owner: "Kraft Heinz Company",
+     country: "Brezilya",
+     alternative_products: [],
+     img: "/quero.png",
+     isBoycotted: "boykot",
+     website: "https://www.kraftheinz.com/pt-BR/quero",
+     description: `Quero, Brezilya'nın en sevilen ve yaygın bulunan gıda markalarından biridir. Portekizce "İstiyorum" anlamına gelen ismiyle, tüketicilere uygun fiyatlı ve lezzetli ürünler sunmayı hedefler. Ürün portföyünde domates sosları, konserve mısır ve bezelye, ketçap, mayonez ve baharatlar bulunur.
+
+2011 yılında Heinz tarafından satın alınan Quero, Kraft Heinz'ın Brezilya pazarındaki büyümesinde stratejik bir rol oynamıştır. Yerel damak tadına uygun ürünleriyle Brezilya sofralarının vazgeçilmezlerinden biridir.`,
+     boycottReason: `Quero'nun sahibi Kraft Heinz Company boykot olduğu için bu marka da boykottur.`,
+     evidences: ["https://www.ynetnews.com/business/article/3832858"],
     },
    ],
   },
@@ -992,6 +978,403 @@ Aroma Ömer Duruk Doğal Kaynak Suyu Tesisleri, Aroma Meyve Suları Gıda Sanayi
 Aroma Ömer Duruk Doğal Kaynak Suyu, mineraller açısından zengin, pH değeri 8,15 olan, sağlıklı, lezzetli ve içimi kolay bir sudur. Su, tamamen otomatik makinelerle, elle dokunulmadan, hijyenik koşullarda ve uluslararası standartlara uygun olarak doldurulmaktadır.
 
 Şirket, Mahmut Atom Duruk'un Yönetim Kurulu Başkanlığı'nda faaliyet göstermektedir. Aroma ailesi olarak geçmişten günümüze değişmeyen kalite politikası, sağlıklı, güvenli ve lezzetli ürünleri, geleneksel aynı zamanda yenilikçi tutumuyla yurt içinde ve yurt dışında her geçen gün büyüyen ve gelişen bir firma olarak hizmet vermeye devam etmektedir. Aroma, yerli bir marka olup İsrail'i destekler nitelikte faaliyetleri bulunmamaktadır.`,
+   subBrands: [
+    {
+     name: "Meyöz",
+     slug: "meyoz",
+     foundedYear: 1991,
+     ctgry: "İçecek",
+     founder: "Aroma Bursa Meyve Suları A.Ş.",
+     owner: "Duruk Group",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/meyoz.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.aroma.com.tr/marka/meyoz/",
+     description: `Meyöz, Türkiye'nin köklü meyve suyu üreticisi Aroma A.Ş. bünyesinde faaliyet gösteren ve "Aroma güvencesiyle" üretilen bir meyve nektarı ve içeceği markasıdır. Markanın temel amacı, Aroma'nın kalite ve gıda güvenliği standartlarından ödün vermeden, tüketicilere daha ekonomik ve ulaşılabilir fiyatlı lezzet alternatifleri sunmaktır.
+
+Aroma'nın Bursa Gürsu'daki entegre tesislerinde, son teknoloji ve hijyenik koşullarda üretilen Meyöz; şeftali, vişne, kayısı ve karışık meyve gibi Türk damak tadının en sevilen klasik lezzetlerine odaklanmaktadır. Özellikle geniş aileler, toplu tüketim noktaları ve fiyat/performans dengesine önem veren tüketiciler için geliştirilmiş olan marka, meyve nektarı kategorisinde güvenilir bir yerli alternatif olarak raflarda yer almaktadır.`,
+    }
+   ],
+  },
+  {
+   name: "Cafex",
+   slug: "cafex",
+   ctgry: "İçecek",
+   founder: "Aydın Ailesi",
+   owner: "A101 Yeni Mağazacılık A.Ş. (Aydın Ailesi)",
+   description: `Cafex, Türkiye merkezli bir kahve markasıdır ve A101 Yeni Mağazacılık A.Ş. bünyesinde faaliyet göstermektedir. Marka, Aydın Ailesi'nin sahibi olduğu A101 perakende zincirinin özel markası olarak konumlandırılmıştır ve Türkiye'nin yerli kahve markalarından biridir.
+
+Cafex ürünleri, DİMES Gıda Sanayi ve Ticaret A.Ş. tarafından A101 Yeni Mağazacılık A.Ş. adına üretilmektedir. Marka, yüksek kaliteli kahve çekirdekleri kullanarak Türkiye'de üretim yapmaktadır ve tüm üretim süreçleri yerli tesislerde gerçekleştirilmektedir. Cafex, A101 mağazalarında özel marka (private label) olarak satılmakta ve tüketicilere uygun fiyatlı kaliteli kahve seçenekleri sunmaktadır.
+
+Marka, tamamen Türk sermayesi ile faaliyet göstermektedir. A101 Yeni Mağazacılık A.Ş.'nin çoğunluk hisseleri Aydın Ailesi'ne aittir ve şirketin yönetimi tamamen yerli sermayeye dayanmaktadır. Cafex, üretimde kullanılan tüm malzemelerin Türkiye menşeli olmasına özen göstermekte ve yerli üretimi desteklemektedir.
+
+Cafex markası, herhangi bir boykot listesinde yer almamaktadır. İsrail bağlantısı bulunmayan marka, tamamen yerli sermaye ile faaliyet göstermekte ve Türkiye'nin yerli kahve markaları arasında yer almaktadır. Marka, A101 müşterilerine kaliteli ve uygun fiyatlı kahve seçenekleri sunarak Türk kahve pazarında önemli bir konuma sahiptir.`,
+   country: "Türkiye",
+   img: "/cafex.svg",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Mahmood",
+   slug: "mahmood",
+   foundedYear: 1996,
+   ctgry: "İçecek",
+   founder: "Altunsa Gıda Sanayi ve Ticaret A.Ş.",
+   owner: "Altunkaya Şirketler Grubu",
+   description: `Mahmood Coffee, 1996 yılında kurulan Altunsa Gıda Sanayi ve Ticaret A.Ş.'nin sıcak toz içecek kategorisindeki önemli markalarından biridir. Marka, Altunkaya Şirketler Grubu bünyesinde faaliyet göstermekte ve Türkiye'nin önde gelen yerli kahve markaları arasında yer almaktadır.
+
+Mahmood Coffee, kalite standartlarına olan bağlılığı ile tanınmaktadır. Marka, ISO 9001 Kalite Yönetim Sistemi ve ISO 22000 Gıda Güvenliği Yönetim Sistemi belgelerine sahiptir. Bu belgeler, Mahmood Coffee'nin üretim süreçlerinde en yüksek kalite ve güvenlik standartlarını uyguladığını göstermektedir.
+
+Marka, Gaziantep'teki 15 bin metrekarelik modern üretim tesisinde üretilmektedir. Bu tesis, son teknoloji ekipmanlarla donatılmış ve sürekli kalite kontrolü yapılan bir üretim merkezidir. Mahmood Coffee, bu tesislerde sıcak toz içecek kategorisinde çeşitli ürünler üretmektedir.
+
+Mahmood Coffee, sadece Türkiye pazarında değil, uluslararası pazarlarda da güçlü bir konuma sahiptir. Marka, 40'tan fazla ülkeye ihracat yapmakta ve dünya çapında tüketicilere ulaşmaktadır. Bu uluslararası başarı, Mahmood Coffee'nin kalitesinin ve rekabet gücünün bir göstergesidir.
+
+Altunkaya Şirketler Grubu bünyesinde Mahmood Coffee, Altunsa, Livan's, Mahmood Rice ve Mahmood Tea gibi diğer markalarla birlikte geniş bir ürün yelpazesi sunmaktadır. Bu markalar, çay ve kahve pazarında uygun fiyatlı ve kaliteli ürünler sunarak geniş bir müşteri kitlesine hitap etmektedir.
+
+Mahmood Coffee, üretim ve pazarlama faaliyetleri ile hem yurt içinde hem de yurt dışında birçok tüketiciye ulaşmaktadır. Marka, özellikle fiyat-performans dengesi arayan müşterilere hitap etmekte ve kaliteli kahve deneyimini erişilebilir fiyatlarla sunmaktadır.
+
+Mahmood Coffee, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren marka, İsrail bağlantısı bulunmayan Türk menşeli bir markadır ve Türkiye'nin yerli kahve üreticileri arasında önemli bir konuma sahiptir.`,
+   country: "Türkiye",
+   website: "https://www.mahmoodcoffee.com/tr/ana-sayfa",
+   img: "/mahmood.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Obsesso",
+   slug: "obsesso",
+   foundedYear: 2015,
+   ctgry: "İçecek",
+   founder: "DİMES Gıda Sanayi ve Ticaret A.Ş.",
+   owner: "DİMES Gıda Sanayi ve Ticaret A.Ş.",
+   description: `Obsesso, DİMES Gıda Sanayi ve Ticaret A.Ş. güvencesiyle üretilen ve Türkiye'nin önde gelen soğuk kahve markalarından biridir. Marka, özellikle tenekede soğuk kahve segmentinde uzmanlaşmış ve bu alanda önemli bir konuma sahiptir.
+
+Obsesso ürünleri, DİMES İzmir fabrikasında üretilmektedir. Bu fabrika, Türkiye'nin tenekede soğuk kahve üretim kapasitesi en yüksek tesislerinden biridir ve son teknoloji üretim ekipmanlarıyla donatılmıştır. Fabrika, modern üretim teknikleri ve sıkı kalite kontrol süreçleriyle çalışmaktadır.
+
+Marka, uzman üretim ve kalite mühendisleri gözetiminde hazırlanan ürünler sunmaktadır. Obsesso, soğuk kahve kategorisinde çeşitli ürünler üretmekte ve tüketicilere pratik ve lezzetli soğuk kahve seçenekleri sunmaktadır. Ürünler, teneke ambalajlarda sunulmakta ve uzun raf ömrü ile tazelik garantisi sağlamaktadır.
+
+Obsesso, yerli bir marka olarak Türkiye pazarında faaliyet göstermektedir. Marka, özellikle hazır soğuk kahve arayan tüketicilere hitap etmekte ve modern yaşam tarzına uygun pratik çözümler sunmaktadır. Soğuk kahve kategorisinde giderek büyüyen bir pazar payına sahiptir.
+
+DİMES'in güçlü altyapısı ve üretim kapasitesi sayesinde Obsesso, kaliteli ve güvenilir ürünler sunmaktadır. Marka, gıda güvenliği standartlarına uygun olarak üretim yapmakta ve tüketici sağlığını ön planda tutmaktadır.
+
+Obsesso, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren marka, Türkiye'nin yerli kahve üreticileri arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır.`,
+   country: "Türkiye",
+   website: "https://www.obsesso.com.tr/",
+   img: "/obsesso.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "mahmood", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Gold Cup",
+   slug: "gold-cup",
+   foundedYear: null,
+   ctgry: "İçecek",
+   founder: "Erfood Gıda Sanayi ve Tic. Ltd. Şti.",
+   owner: "Erfood Gıda Sanayi ve Tic. Ltd. Şti.",
+   description: `Gold Cup, Türkiye'de faaliyet gösteren yerli bir kahve markasıdır ve tüketicilere çeşitli kahve seçenekleri sunmaktadır. Marka, yerli üretimiyle bilinmekte ve Türkiye pazarında aktif olarak faaliyet göstermektedir.
+
+Gold Cup, farklı kahve türleri ve harmanları ile tüketicilere geniş bir ürün yelpazesi sunmaktadır. Marka, hem geleneksel Türk kahvesi hem de modern kahve çeşitleri üretmekte ve farklı zevklere hitap eden ürünler geliştirmektedir.
+
+Marka, kaliteli ve uygun fiyatlı kahve ürünleri sunmayı hedeflemektedir. Gold Cup, geniş bir müşteri kitlesine hitap etmekte ve erişilebilir fiyatlarla kaliteli kahve deneyimi sunmaktadır. Ürünler, perakende satış noktalarında ve online platformlarda tüketicilere ulaşmaktadır.
+
+Gold Cup markası hakkında boykot listelerine alınmasını gerektirecek olumsuz bir açıklama ya da destek bulunmamaktadır. Yerli üretimiyle bilinen marka, Türkiye'nin yerli kahve üreticileri arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır. Marka, boykot dışıdır ve tüketiciler tarafından güvenle tercih edilebilir.`,
+   country: "Türkiye",
+   img: "/gold-cup.png",
+   website: "https://www.goldcupdrink.com/",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "mahmood", "obsesso", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Artukbey-Kahve",
+   slug: "artukbey-kahve",
+   foundedYear: null,
+   ctgry: "İçecek",
+   founder: "Geleneksel",
+   owner: "Geleneksel",
+   description: `Artuklu Bey Kahvesi, Mardin'in zengin kültürel mirasından doğan ve yüzyıllardır süregelen geleneksel bir kahve türüdür. Marka, Artuklu Beyliği döneminden gelen köklü bir geçmişe sahiptir ve Mardin'in tarihi kahve kültürünün önemli bir parçasıdır.
+
+Artuklu Bey Kahvesi, Mardin'in tarih kokan sokaklarında hâlâ en çok tercih edilen kahvelerden biri olmayı sürdürmektedir. Bu geleneksel kahve, özel harman ve kavurma teknikleriyle hazırlanmakta ve Mardin'in kendine özgü lezzet profilini yansıtmaktadır. Kahve, bölgenin kültürel kimliğinin önemli bir parçasıdır ve nesiller boyunca aktarılan bir gelenektir.
+
+Marka, geleneksel üretim yöntemlerini modern kalite standartlarıyla harmanlamaktadır. Artuklu Bey Kahvesi, özenle seçilmiş kahve çekirdeklerinden üretilmekte ve geleneksel kavurma teknikleri kullanılarak hazırlanmaktadır. Bu yaklaşım, hem geleneksel lezzeti korumakta hem de modern kalite standartlarını sağlamaktadır.
+
+Artuklu Bey Kahvesi, sadece Mardin'de değil, Türkiye genelinde de tanınmaktadır. Marka, geleneksel Türk kahve kültürünü yaşatmakta ve bu kültürel mirası gelecek nesillere aktarmayı hedeflemektedir. Özellikle geleneksel kahve sevenler ve kültürel değerlere önem veren tüketiciler arasında popülerdir.
+
+Marka, boykot dışıdır. Tamamen yerli ve geleneksel bir ürün olan Artuklu Bey Kahvesi, Türkiye'nin kültürel mirasının önemli bir parçasıdır ve İsrail bağlantısı bulunmamaktadır.`,
+   country: "Türkiye",
+   website: "https://www.artukbey.com/",
+   img: "/artukbey.webp",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Osso",
+   slug: "osso",
+   foundedYear: null,
+   ctgry: "İçecek",
+   founder: "Natural Gıda A.Ş.",
+   owner: "Natural Gıda A.Ş.",
+   description: `Osso, Natural Gıda A.Ş.'ye ait olan ve Türkiye'de faaliyet gösteren yerli bir kahve markasıdır. Marka, kahve kategorisinde geniş bir ürün yelpazesi sunmakta ve tüketicilere çeşitli kahve seçenekleri sağlamaktadır.
+
+Natural Gıda A.Ş., Türkiye'nin önde gelen gıda üreticilerinden biridir ve Osso markası, şirketin kahve kategorisindeki önemli markalarından biridir. Marka, kaliteli ve güvenilir ürünler sunmayı hedeflemekte ve tüketici memnuniyetini ön planda tutmaktadır.
+
+Osso, farklı kahve türleri ve harmanları ile geniş bir müşteri kitlesine hitap etmektedir. Marka, hem geleneksel Türk kahvesi hem de modern kahve çeşitleri üretmekte ve farklı zevklere uygun ürünler geliştirmektedir. Ürünler, perakende satış noktalarında ve online platformlarda tüketicilere ulaşmaktadır.
+
+Marka, uygun fiyatlı ve kaliteli kahve ürünleri sunmayı hedeflemektedir. Osso, geniş bir müşteri kitlesine hitap etmekte ve erişilebilir fiyatlarla kaliteli kahve deneyimi sunmaktadır. Marka, özellikle fiyat-performans dengesi arayan tüketiciler arasında popülerdir.
+
+Osso, kahve kategorisinde boykot listelerinde yer almayan yerli markalar arasındadır. Tamamen yerli sermaye ile faaliyet gösteren marka, Türkiye'nin yerli kahve üreticileri arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır. Marka, boykot dışıdır ve tüketiciler tarafından güvenle tercih edilebilir.`,
+   country: "Türkiye",
+   img: "/osso.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Kurukahveci Mehmet Efendi Mahdumları",
+   slug: "kurukahveci-mehmet-efendi",
+   foundedYear: 1871,
+   ctgry: "İçecek",
+   founder: "Mehmet Efendi",
+   owner: "Mehmet Efendi Mahdumları",
+   description: `Kurukahveci Mehmet Efendi Mahdumları, 1871 yılında İstanbul'un Fatih ilçesinde Mehmet Efendi tarafından kurulan ve Türkiye'nin en köklü kahve markalarından biridir. Marka, 150 yılı aşkın tarihiyle Türk kahve kültürünün önemli bir parçasıdır ve nesiller boyunca aktarılan bir gelenektir.
+
+Mehmet Efendi, Türkiye'de ilk kez öğütülmüş kahve üretimini başlatan kişi olarak kabul edilmektedir. O dönemde kahve, çekirdek halinde satılmakta ve evlerde dibeklerde öğütülmekteydi. Mehmet Efendi, kahveyi öğütülmüş halde satarak Türk kahve kültüründe bir devrim yaratmıştır. Bu yenilik, Türk kahvesinin yaygınlaşmasına ve popülerleşmesine önemli katkı sağlamıştır.
+
+Kurukahveci Mehmet Efendi Mahdumları, bugün hala aynı aile tarafından yönetilmektedir. Marka, geleneksel üretim yöntemlerini modern kalite standartlarıyla harmanlamakta ve her nesilde kaliteyi artırmaktadır. Üretim, İstanbul'daki tarihi tesislerde gerçekleştirilmekte ve özenle seçilmiş kahve çekirdekleri kullanılmaktadır.
+
+Marka, sadece Türkiye'de değil, dünya çapında da tanınmaktadır. Kurukahveci Mehmet Efendi, ürünlerini 50'den fazla ülkeye ihraç etmekte ve Türk kahvesini dünya çapında tanıtmaktadır. Bu uluslararası başarı, markanın kalitesinin ve geleneksel değerlerinin bir göstergesidir.
+
+Kurukahveci Mehmet Efendi Mahdumları, Türk kahvesini gelecek nesillerle buluşturmayı amaçlamaktadır. Marka, geleneksel lezzeti korurken modern tüketici ihtiyaçlarına da cevap vermektedir. Farklı ambalaj seçenekleri, çeşitli harmanlar ve özel serilerle geniş bir müşteri kitlesine hitap etmektedir.
+
+Marka, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren ve Türkiye'nin kültürel mirasının önemli bir parçası olan Kurukahveci Mehmet Efendi, İsrail bağlantısı bulunmayan köklü bir Türk markasıdır.`,
+   country: "Türkiye",
+   website: "https://www.mehmetefendi.com/",
+   img: "/Kurukahveci_Mehmet_Efendi.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kocatepe"],
+  },
+  {
+   name: "Caffè Nero",
+   slug: "caffe-nero-coffees",
+   foundedYear: 1997,
+   ctgry: "İçecek",
+   founder: "Gerry Ford",
+   owner: "Caffè Nero Group",
+   description: `Caffè Nero, 1997 yılında Gerry Ford tarafından Londra'da kurulan ve dünya çapında faaliyet gösteren bir kahve zinciridir. Marka, Avrupa'nın en büyük bağımsız kahve zincirlerinden biridir ve özellikle İtalyan kahve kültürünü modern bir yaklaşımla sunmaktadır.
+
+Caffè Nero, "Siyah Kahve" anlamına gelen İtalyanca ismiyle, İtalyan espresso kültürünü dünya çapında yaymayı hedeflemektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her fincanda kaliteli bir kahve deneyimi sunmaktadır.
+
+Caffè Nero, geniş bir menü sunmaktadır. Marka, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de müşterilerine kapsamlı bir deneyim sağlamaktadır.`,
+   country: "Birleşik Krallık",
+   website: "https://www.caffenero.com/tr",
+   img: "/caffe-nero.png",
+   isBoycotted: "boykot",
+   boycottReason: `Caffè Nero, Birleşik Krallık (İngiltere) merkezli bir markadır. İngiltere hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık siyasi ve ekonomik destek nedeniyle, İngiliz ekonomisine doğrudan katkı sağlayan ve bu menşei taşıyan markalar boykot listesinde yer almaktadır.`,
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Kocatepe",
+   slug: "kocatepe",
+   foundedYear: 1919,
+   ctgry: "İçecek",
+   founder: "Madam Marysia",
+   owner: "Tuncay Ailesi",
+   description: `Kocatepe 1949 Kahve Evi, Türkiye'nin ilk kahve zinciri olma özelliğini taşıyan ve köklü bir geçmişe sahip olan önemli bir Türk kahve markasıdır. Marka, 1919 yılında Madam Marysia tarafından Ankara'nın Kocatepe Mahallesi'nde kurulmuş ve o zamandan beri Türk kahve kültürünün önemli bir parçası olmuştur.
+
+Kocatepe markası, 1949 yılında Nurettin Tuncay ile birlikte market raflarında yerini almış ve Türkiye'de paketlenmiş kahve satışının öncülerinden biri olmuştur. Bu dönem, Türk kahve endüstrisinde önemli bir dönüm noktasıdır ve Kocatepe, bu değişimin öncüsü olmuştur.
+
+1996 yılında Haluk Tuncay önderliğinde marka, Türkiye'nin ilk kahve evi konseptlerinden biri olarak yeniden yapılanmıştır. Bu yeniden yapılanma, sadece kahve satışı değil, aynı zamanda kahve içme deneyimi sunan bir konsept yaratmıştır. Kocatepe Kahve Evi, müşterilere sıcak bir ortamda kaliteli kahve deneyimi sunmayı hedeflemektedir.
+
+Kocatepe, geleneksel Türk kahvesi kültürünü modern bir yaklaşımla sunmaktadır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel kavurma tekniklerini uygulamakta ve her fincanda otantik bir Türk kahvesi deneyimi sunmaktadır. Ayrıca, modern kahve çeşitleri ve pastane ürünleriyle de müşterilerine geniş bir seçenek sunmaktadır.
+
+Marka, Türkiye genelinde şubeleri bulunan bir zincir haline gelmiştir. Kocatepe Kahve Evi şubeleri, sıcak ve samimi atmosferleriyle dikkat çekmekte ve müşterilere rahat bir ortam sunmaktadır. Her şube, geleneksel Türk kahve kültürünü yaşatmakta ve bu kültürel mirası gelecek nesillere aktarmayı hedeflemektedir.
+
+Kocatepe, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren ve Türkiye'nin kültürel mirasının önemli bir parçası olan marka, İsrail bağlantısı bulunmayan köklü bir Türk markasıdır.`,
+   country: "Türkiye",
+   website: "https://www.kocatepekahveevi.com.tr/",
+   img: "/kocatepe.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi"],
+  },
+  {
+   name: "Tchibo",
+   slug: "tchibo-coffee",
+   foundedYear: 1949,
+   ctgry: "İçecek",
+   founder: "Carl Tchilinghiryan ve Max Herz",
+   owner: "Tchibo GmbH (Herz Ailesi)",
+   description: `Tchibo, 1949 yılında Carl Tchilinghiryan ve Max Herz tarafından Almanya'nın Hamburg kentinde kurulan ve dünyanın en büyük kahve ve genel tüketim ürünleri şirketlerinden biridir. Marka, başlangıçta sadece kahve satışı yaparken, zamanla geniş bir ürün yelpazesi sunan bir perakende zinciri haline gelmiştir.
+
+Tchibo, özellikle kahve kategorisinde güçlü bir konuma sahiptir. Marka, çeşitli kahve harmanları, hazır kahve ürünleri, kapsül kahve seçenekleri ve filtre kahve ürünleri sunmaktadır. Tchibo, özenle seçilmiş kahve çekirdeklerini kullanmakta ve gelişmiş kavurma teknikleri uygulamaktadır.
+
+Marka, sadece kahve değil, aynı zamanda genel tüketim ürünleri de satmaktadır. Tchibo, "Her Hafta Yeni Bir Dünya" sloganıyla haftalık olarak değişen ürün koleksiyonları sunmakta ve müşterilerine çeşitli kategorilerde ürünler sağlamaktadır. Bu yaklaşım, markanın ayırt edici özelliklerinden biridir.
+
+Tchibo, özellikle Almanya ve Avrupa pazarında güçlü bir konuma sahiptir. Marka, Almanya'nın en büyük kahve perakendecilerinden biridir ve binlerce şubeye sahiptir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
+
+Marka, kalite ve tutarlılığa büyük önem vermektedir. Tchibo, tüm ürünlerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+
+Ancak, Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları nedeniyle eleştirilmektedir. İsrail'deki faaliyetleri ve açıklamalarına tepki olarak boykot çağrılarına konu olmaktadır. Herz ailesinin İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Almanya",
+   website: "https://www.tchibo.com.tr/",
+   img: "/tchibo.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları ve faaliyetleri nedeniyle boykot kapsamına alınmıştır. Herz ailesinin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo'nun ürünlerinin satın alınması önerilmemektedir. Tchibo markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Caribou Coffee",
+   slug: "caribou",
+   foundedYear: 1992,
+   founder: "John Puckett",
+   owner: "JAB Holdings",
+   description: `Caribou Coffee, 1992 yılında John Puckett tarafından Amerika Birleşik Devletleri'nin Minnesota eyaletinde kurulan ve dünyanın önde gelen kahve zincirlerinden biridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
+
+Caribou Coffee, özellikle premium kahve deneyimi sunmakta ve specialty coffee (özel kahve) kategorisinde faaliyet göstermektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve geniş bir menü ile müşterilerine hizmet vermektedir. Caribou Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+
+Marka, 2012 yılında JAB Holdings tarafından satın alınmıştır. JAB Holdings, dünyanın en büyük kahve şirketlerinden biridir ve Caribou Coffee'nin yanı sıra Peet's Coffee, Keurig Dr Pepper ve diğer önemli kahve markalarına da sahiptir. Bu satın alma, Caribou Coffee'nin global genişlemesini hızlandırmıştır.
+
+Caribou Coffee şubeleri, sıcak ve samimi atmosferleriyle dikkat çekmektedir. Her şube, rahat bir ortam sunmakta ve müşterilere hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+
+Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir. Caribou Coffee, Amerika Birleşik Devletleri ve Kanada'da binlerce şubeye sahiptir ve bu pazarlarda önemli bir pazar payına sahiptir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
+
+Caribou Coffee, kalite ve tutarlılığa büyük önem vermektedir. Marka, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+
+Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'deki projelere destek verdiği bildirilen bir zincirdir. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu bağlantılar sebebiyle boykot listelerine girmiştir ve Caribou Coffee ürünlerinin satın alınması önerilmemektedir.`,
+   country: "ABD",
+   website: "https://www.cariboucoffee.com.tr/",
+   img: "/caribou.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Caribou Coffee markası, JAB Holdings tarafından yönetilen bir kahve zinciridir. JAB Holdings'in İsrail'deki projelere verdiği destek iddiaları ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Caribou Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Illy",
+   slug: "illy-coffee",
+   foundedYear: 1933,
+   founder: "Francesco Illy",
+   owner: "Illycaffè S.p.A.",
+   description: `Illy, 1933 yılında Francesco Illy tarafından İtalya'nın Trieste kentinde kurulan ve dünyanın en prestijli kahve markalarından biridir. Marka, özellikle premium espresso kategorisinde faaliyet göstermekte ve yüksek kaliteli kahve çekirdekleri kullanarak üretim yapmaktadır. Illy, İtalyan kahve kültürünün önemli bir temsilcisi olarak kabul edilmektedir.
+
+Illy, özellikle espresso kategorisinde uzmanlaşmıştır ve dünya çapında milyonlarca tüketiciye ulaşmaktadır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her pakette tutarlı bir lezzet garantisi sunmaktadır. Illy, sadece kahve çekirdekleri değil, aynı zamanda hazır kahve ürünleri ve kapsül kahve seçenekleri de sunmaktadır.
+
+Marka, dünya çapında özellikle restoranlar, kafeler ve otellerde yaygın olarak kullanılmaktadır. Illy, premium segmentte faaliyet göstermekte ve yüksek kaliteli kahve deneyimi arayan tüketicilere hitap etmektedir. Marka, özellikle Avrupa, Kuzey Amerika ve Asya pazarlarında güçlü bir konuma sahiptir.
+
+Illy, sürdürülebilir kahve üretimi konusunda da önemli adımlar atmaktadır. Marka, kahve üreticilerini desteklemekte, sürdürülebilir tarım uygulamalarını teşvik etmekte ve çevre dostu ambalajlama çözümleri geliştirmektedir. Ayrıca, kahve kültürünü yaymak için çeşitli eğitim programları ve etkinlikler düzenlemektedir.
+
+Ancak, Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünlerinin İsrail tesislerinde üretilip pazarlanması nedeniyle eleştirilmektedir. Coca-Cola'nın İsrail'deki yatırımları ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Illy ürünlerinin satın alınması önerilmemektedir.`,
+   country: "İtalya",
+   website: "https://illy.barista.com.tr/",
+   img: "/illy.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünlerinin İsrail tesislerinde üretilip pazarlanması nedeniyle boykot kapsamına alınmıştır. Illy'nin Coca-Cola ile olan iş birliği ve İsrail'deki üretim/pazarlama faaliyetleri, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Coca-Cola'nın İsrail'deki yatırımları ve İsrail'e verdiği destekler de bu boykotun nedenleri arasındadır. Bu nedenle, Illy'nin ürünlerinin satın alınması önerilmemektedir. Illy markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Tassimo",
+   slug: "tassimo",
+   foundedYear: 2004,
+   ctgry: "İçecek",
+   founder: "Kraft Foods",
+   owner: "Jacobs Douwe Egberts",
+   description: `Tassimo, 2004 yılında Kraft Foods tarafından geliştirilen ve dünya çapında faaliyet gösteren bir kapsül kahve sistemidir. Marka, özellikle çeşitlilik ve esneklik açısından öne çıkmakta ve sadece kahve değil, aynı zamanda çay, sıcak çikolata ve diğer sıcak içecek seçenekleri de sunmaktadır.
+
+Tassimo, kapsül kahve kategorisinde önemli bir konuma sahiptir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her kapsülde tutarlı bir lezzet garantisi sunmaktadır. Tassimo, çeşitli kavurma profilleri ve harmanlar sunmakta ve farklı zevklere hitap eden geniş bir ürün yelpazesi sunmaktadır.
+
+Markanın en önemli özelliklerinden biri, Bosch tarafından geliştirilen özel Tassimo makineleridir. Bu makineler, her kapsülün üzerindeki barkodları okuyarak otomatik olarak doğru sıcaklık, basınç ve hazırlama süresini ayarlamaktadır. Bu teknoloji, mükemmel bir içecek deneyimi sunmak için özel olarak tasarlanmıştır.
+
+Tassimo makineleri, modern tasarımları ve kullanıcı dostu özellikleriyle dikkat çekmektedir. Her makine, kolay kullanım, hızlı hazırlama ve temizlik kolaylığı gibi özelliklerle donatılmıştır. Makineler, hem ev kullanımı hem de küçük ofisler için ideal boyutlarda üretilmektedir.
+
+Marka, sadece kahve değil, aynı zamanda çeşitli sıcak içecek seçenekleri sunmaktadır. Tassimo, espresso, cappuccino, latte, çay, sıcak çikolata ve diğer özel içecekler için kapsüller sunmaktadır. Bu yaklaşım, tüketicilere tek bir makine ile geniş bir içecek yelpazesi sunmaktadır.
+
+Tassimo, 2015 yılında Kraft Foods'un kahve bölümünün ayrılmasıyla Jacobs Douwe Egberts (JDE) çatısı altına geçmiştir. JDE, dünyanın en büyük kahve şirketlerinden biridir ve Tassimo'nun yanı sıra Jacobs, Douwe Egberts, Senseo ve diğer önemli kahve markalarına da sahiptir.
+
+Ancak, Tassimo markası, Jacobs Douwe Egberts çatısı altında faaliyet göstermektedir ve şirketin İsrail ile ikili ticari ilişkileri ve destekleri gerekçe gösterilerek boykot edilmektedir. JDE'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tassimo ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Almanya",
+   website: "https://www.tassimo.com/",
+   img: "/tassimo.webp",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Tassimo markası, Jacobs Douwe Egberts (JDE) çatısı altında faaliyet gösteren bir kapsül kahve markasıdır. Jacobs Douwe Egberts'in İsrail ile ikili ticari ilişkileri ve İsrail'e verdiği destekler nedeniyle, JDE bünyesindeki tüm markalar boykot kapsamına alınmıştır. JDE'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Jacobs Douwe Egberts'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Tassimo markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Venado Coffee",
+   slug: "venado",
+   ctgry: "İçecek",
+   foundedYear: null,
+   founder: "Yıldız Holding",
+   owner: "Yıldız Holding",
+   description: `Venado Coffee, Yıldız Holding bünyesinde faaliyet gösteren ve Türkiye'de önemli bir konuma sahip olan kahve markalarından biridir. Marka, Yıldız Holding'in güçlü altyapısı ve deneyimi sayesinde hızlı bir büyüme kaydetmiş ve Türkiye pazarında aktif olarak faaliyet göstermektedir.
+
+Venado Coffee, geniş bir ürün yelpazesi sunmaktadır. Marka, geleneksel Türk kahvesinden espresso bazlı içeceklere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir menü ile müşterilerine hizmet vermektedir. Ayrıca, kahve çekirdekleri, filtre kahve ve hazır kahve ürünleri de sunmaktadır.
+
+Marka, özellikle premium segmentte faaliyet göstermektedir. Venado Coffee, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her pakette tutarlı bir lezzet garantisi sunmaktadır. Marka, kaliteli ve güvenilir ürünler sunmayı hedeflemekte ve tüketici memnuniyetini ön planda tutmaktadır.
+
+Venado Coffee, Türkiye pazarında hem perakende satış noktalarında hem de online platformlarda müşterilerine ulaşmaktadır. Marka, özellikle kaliteli kahve arayan tüketiciler arasında popülerlik kazanmaktadır ve geniş bir müşteri kitlesine hitap etmektedir.`,
+   country: "Türkiye",
+   website: "https://venado.com.tr/",
+   img: "/venado.png",
+   isBoycotted: "onerilmiyor",
+   boycottReason: `Venado Coffee, Yıldız Holding bünyesinde faaliyet gösteren bir markadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "Lavazza",
+   slug: "lavazza",
+   foundedYear: 1895,
+   ctgry: "İçecek",
+   founder: "Luigi Lavazza",
+   owner: "Lavazza Group",
+   description: `Lavazza, 1895 yılında Luigi Lavazza tarafından İtalya'nın Torino kentinde kurulan ve dünyanın en köklü kahve markalarından biridir. Marka, 130 yılı aşkın tarihiyle İtalyan kahve kültürünün önemli bir parçasıdır ve nesiller boyunca aktarılan bir gelenektir.
+
+Lavazza, özellikle espresso kategorisinde güçlü bir konuma sahiptir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her pakette tutarlı bir lezzet garantisi sunmaktadır. Lavazza, çeşitli kavurma profilleri ve harmanlar sunmakta ve farklı zevklere hitap eden geniş bir ürün yelpazesi sunmaktadır.
+
+Marka, sadece kahve çekirdekleri değil, aynı zamanda hazır kahve ürünleri, kapsül kahve seçenekleri ve özel koleksiyonlar da sunmaktadır. Lavazza, dünya çapında milyonlarca tüketiciye ulaşmakta ve özellikle restoranlar, kafeler ve otellerde yaygın olarak kullanılmaktadır.
+
+Lavazza, dünya çapında özellikle Avrupa, Kuzey Amerika ve Asya pazarlarında güçlü bir konuma sahiptir. Marka, İtalya'nın en büyük kahve üreticilerinden biridir ve dünya çapında 90'dan fazla ülkede faaliyet göstermektedir. Türkiye'de de aktif olarak faaliyet gösteren marka, geniş bir müşteri kitlesine hitap etmektedir.
+
+Marka, sürdürülebilir kahve üretimi konusunda da önemli adımlar atmaktadır. Lavazza, kahve üreticilerini desteklemekte, sürdürülebilir tarım uygulamalarını teşvik etmekte ve çevre dostu ambalajlama çözümleri geliştirmektedir. Ayrıca, kahve kültürünü yaymak için çeşitli eğitim programları ve etkinlikler düzenlemektedir.
+
+Lavazza, sanat ve kültür alanında da aktif olarak yer almaktadır. Marka, fotoğraf sergileri, müzik etkinlikleri ve kültürel projelerle İtalyan kültürünü dünya çapında tanıtmaktadır. Bu yaklaşım, Lavazza'nın sadece bir kahve markası değil, aynı zamanda bir kültürel marka olarak konumlandırılmasını sağlamaktadır.
+
+Ancak, Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen destek ve İsrail yatırımları nedeniyle eleştirilmektedir. Lavazza'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu sebeplerle boykot listelerindeki yerini almıştır ve Lavazza ürünlerinin satın alınması önerilmemektedir.`,
+   country: "İtalya",
+   website: "https://www.lavazza.com/en",
+   img: "/Lavazza.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen destek ve İsrail yatırımları nedeniyle boykot kapsamına alınmıştır. Lavazza'nın İsrail'deki faaliyetleri, spor kulüplerine verdiği destekler ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Lavazza'nın ürünlerinin satın alınması önerilmemektedir. Lavazza markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+  },
+  {
+   name: "VIP Kahve",
+   slug: "vip-kahve",
+   foundedYear: null,
+   ctgry: "İçecek",
+   founder: "BİM Birleşik Mağazalar A.Ş.",
+   owner: "BİM Birleşik Mağazalar A.Ş.",
+   description: `VIP Kahve, BİM marketlerinde satılan özel marka (private label) bir kahve ürünüdür. Marka, BİM'in geniş mağaza ağı sayesinde Türkiye'nin dört bir yanındaki tüketicilere ulaşmakta ve uygun fiyatlı kaliteli kahve seçenekleri sunmaktadır.
+
+VIP Kahve, BİM'in özel marka stratejisinin bir parçasıdır. BİM, müşterilerine uygun fiyatlı ürünler sunmak için özel marka ürünleri geliştirmekte ve VIP Kahve de bu stratejinin kahve kategorisindeki temsilcilerinden biridir. Marka, geniş bir müşteri kitlesine hitap etmekte ve erişilebilir fiyatlarla kaliteli kahve deneyimi sunmaktadır.
+
+VIP Kahve, farklı kahve türleri ve harmanları ile geniş bir ürün yelpazesi sunmaktadır. Marka, hem geleneksel Türk kahvesi hem de modern kahve çeşitleri üretmekte ve farklı zevklere hitap eden ürünler geliştirmektedir. Ürünler, BİM mağazalarında özel marka olarak satılmakta ve tüketicilere uygun fiyatlı seçenekler sunmaktadır.
+
+Marka, özellikle fiyat-performans dengesi arayan tüketicilere hitap etmektedir. VIP Kahve, geniş bir müşteri kitlesine hitap etmekte ve erişilebilir fiyatlarla kaliteli kahve deneyimi sunmaktadır. Ürünler, BİM'in güçlü altyapısı ve tedarik zinciri sayesinde uygun fiyatlarla tüketicilere sunulmaktadır.
+
+BİM, Türkiye'nin en büyük perakende zincirlerinden biridir ve binlerce mağazasıyla Türkiye genelinde faaliyet göstermektedir. VIP Kahve, bu geniş mağaza ağı sayesinde milyonlarca tüketiciye ulaşmakta ve Türkiye'nin kahve pazarında önemli bir konuma sahiptir.
+
+Ancak, VIP Kahve markası, BİM marketlerinde satılan özel bir ürün olması nedeniyle BİM'e yönelik boykot çağrıları kapsamında marka da boykot edilen ürünler arasına eklenmiştir. BİM'e yönelik boykot çağrıları, şirketin çeşitli nedenlerle eleştirilmesi sonucunda ortaya çıkmıştır. Bu nedenle, VIP Kahve ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Türkiye",
+   img: "/vip.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "VIP Kahve markası, BİM (Birleşik Mağazalar A.Ş.) marketlerinde satılan özel marka (private label) bir kahve ürünüdür. BİM'e yönelik boykot çağrıları kapsamında, BİM'in özel marka ürünleri de boykot kapsamına alınmıştır. BİM'e yönelik boykot çağrıları, şirketin çeşitli nedenlerle eleştirilmesi sonucunda ortaya çıkmıştır. Bu nedenle, BİM'in özel marka ürünlerinin satın alınması önerilmemektedir. VIP Kahve markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
   },
   {
    name: "Oba Makarna",
@@ -1005,20 +1388,20 @@ Aroma Ömer Duruk Doğal Kaynak Suyu, mineraller açısından zengin, pH değeri
    img: "/oba-makarna.png",
    isBoycotted: "boykot",
    website: "https://www.obamakarna.com.tr/",
-   description: `OBA Makarnacılık, 1966 yılında Gaziantep'te kurulmuş, sektöründe öncü bir makarna üreticisidir. Şirket, 2005 yılında Özgüçlü Ailesi tarafından satın alınmıştır. Gaziantep 4. Organize Sanayi Bölgesi'nde 110.000 m² arazi üzerinde, 49.000 m² kapalı alana sahip tesisinde faaliyet göstermektedir. Dünyanın en gelişmiş teknoloji sistemlerini kullanarak üretim yapmakta ve yenilikçi yaklaşımlarla ürünler geliştirmektedir.
+   description: `OBA Makarnacılık, 1966 yılında Gaziantep'te kurulmuş, sektöründe öncü bir makarna üreticisidir. Şirket, 2005 yılında Özgüçlü Ailesi tarafından satın alınmıştır. Gaziantep 4. Organize Sanayi Bölgesi'nde 110.000 m² arazi üzerinde, 49.000 m² kapalı alana sahip tesisinde faaliyet göstermektedir.Dünyanın en gelişmiş teknoloji sistemlerini kullanarak üretim yapmakta ve yenilikçi yaklaşımlarla ürünler geliştirmektedir.
 
-2010-2012 yılları arasında yapılan 50.000.000 Euro'luk yatırımlarla birlikte günlük 1.215 ton buğday kırma ve yaklaşık 1.100 ton makarna üretim kapasitesine ulaşmıştır. Ürünleri 100'den fazla ülkedeki masalara ulaşmaktadır.
+2010 - 2012 yılları arasında yapılan 50.000.000 Euro'luk yatırımlarla birlikte günlük 1.215 ton buğday kırma ve yaklaşık 1.100 ton makarna üretim kapasitesine ulaşmıştır. Ürünleri 100'den fazla ülkedeki masalara ulaşmaktadır.
 
-2017 yılında Sakarya/Hendek'te 50.000 m² alan üzerinde yeni bir tesis kurulmuştur. Yüksek teknolojili entegre üretim tesisleriyle donatılan bu tesis, üretim sürecinin başından sonuna kadar yüksek kaliteli nihai ürünler garantilemektedir. Sakarya/Hendek tesisinin günlük kapasitesi 1.575 ton buğday kırma ve yaklaşık 580 ton makarna üretimidir. Stratejik konumu sayesinde ürünler dünya pazarlarına hızlıca ulaşmaktadır.
+2017 yılında Sakarya / Hendek'te 50.000 m² alan üzerinde yeni bir tesis kurulmuştur. Yüksek teknolojili entegre üretim tesisleriyle donatılan bu tesis, üretim sürecinin başından sonuna kadar yüksek kaliteli nihai ürünler garantilemektedir. Sakarya/Hendek tesisinin günlük kapasitesi 1.575 ton buğday kırma ve yaklaşık 580 ton makarna üretimidir. Stratejik konumu sayesinde ürünler dünya pazarlarına hızlıca ulaşmaktadır.
 
 OBA Makarnacılık, tarıma öncülük eden Güneydoğu Anadolu Bölgesi'nin verimli topraklarında yetiştirilen en taze ve canlı durum buğdayını kullanmaktadır. Tüketicilere 40 farklı ürün çeşidi sunmaktadır. Ürünler, en gelişmiş kontrol cihazlarıyla donatılmış entegre modern üretim tesislerinde el değmeden üretilmektedir. Şirket ayrıca laboratuvar analiz hizmetleri de sağlamaktadır.
 
-Sakarya/Hendek tesisinde noodle üretim hatları sayısı 4'e çıkarılmıştır. Günlük 3.000.000 paket noodle ve 300.000 kupa noodle üretim kapasitesine ulaşmıştır. OBA Makarnacılık, Türkiye ve Avrupa'nın en büyük noodle üretim tesisi olmaktan gurur duymaktadır.
+Sakarya / Hendek tesisinde noodle üretim hatları sayısı 4'e çıkarılmıştır. Günlük 3.000.000 paket noodle ve 300.000 kupa noodle üretim kapasitesine ulaşmıştır. OBA Makarnacılık, Türkiye ve Avrupa'nın en büyük noodle üretim tesisi olmaktan gurur duymaktadır.
 
-OBA Makarnacılık, sürdürülebilirlik stratejisine uyum sağlamaktadır. Noodle üretim tesisinde tüketilen elektriğin yarısı GES (Güneş Enerjisi Santrali) panellerinden sağlanmaktadır. Makarna üretiminde kullanılan elektriğin %5'i, tesis çatısına kurulan toplam 4,5 MW'lık GES panellerinden karşılanmaktadır. Bu sayede 3.600 ton karbon emisyonu önlenmekte ve 71.000 ağaç kurtarılmaktadır.
+OBA Makarnacılık, sürdürülebilirlik stratejisine uyum sağlamaktadır.Noodle üretim tesisinde tüketilen elektriğin yarısı GES(Güneş Enerjisi Santrali) panellerinden sağlanmaktadır.Makarna üretiminde kullanılan elektriğin % 5'i, tesis çatısına kurulan toplam 4,5 MW'lık GES panellerinden karşılanmaktadır.Bu sayede 3.600 ton karbon emisyonu önlenmekte ve 71.000 ağaç kurtarılmaktadır.
 
 OBA Makarnacılık, mükemmeliyetçi yaklaşımlarıyla elde ettikleri yüksek tüketici memnuniyetinin bir tesadüf değil, başarı hikayelerinin özü olduğunu belirtmektedir.`,
-   boycottReason: `Oba Makarna, boykot listesinde yer almaktadır. Yıldız Holding Yönetim Kurulu Üyesi, Pladis ve GODIVA Yönetim Kurulu Başkanı Murat Ülker'in 19 Ekim'de yaptığı açıklamada, işgalci İsrail'in yıllardır Filistinlilere yaptığı zulmün çözülemediğini ve çözüm için yapılanların da yeterli görünmediğini söylemesi nedeniyle şirket boykot kapsamına alınmıştır.`,
+   boycottReason: `Oba Makarna, boykot listesinde yer almaktadır.Yıldız Holding Yönetim Kurulu Üyesi, Pladis ve GODIVA Yönetim Kurulu Başkanı Murat Ülker'in 19 Ekim'de yaptığı açıklamada, işgalci İsrail'in yıllardır Filistinlilere yaptığı zulmün çözülemediğini ve çözüm için yapılanların da yeterli görünmediğini söylemesi nedeniyle şirket boykot kapsamına alınmıştır.`,
    evidences: [""],
   },
   {
@@ -1115,7 +1498,7 @@ Lezita, tamamen Türk sermayeli bir şirket olup İsrail'i destekler nitelikte f
      name: "Goodies",
      slug: "goodies",
      foundedYear: 1886,
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      founder: "Hero Group",
      owner: "Hero Group",
      country: "İsviçre",
@@ -1133,7 +1516,7 @@ Markanın geniş ürün yelpazesinde; çocuklara enerji veren yulaf barları, be
      name: "Hero Baby",
      slug: "hero-baby",
      foundedYear: 1985,
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      founder: "Hero Group",
      owner: "Hero Group",
      country: "İsviçre",
@@ -1151,7 +1534,7 @@ Markanın geniş ürün yelpazesinde; çocuklara enerji veren yulaf barları, be
      name: "Freche Freunde",
      slug: "freche-freunde",
      foundedYear: 2010,
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      founder: "Natacha ve Alexander",
      owner: "Hero Group",
      country: "Almanya",
@@ -1169,7 +1552,7 @@ Markanın ürün gamı, tamamen organik tarımdan elde edilen malzemelerle hazı
      name: "Beech-Nut",
      slug: "beech-nut",
      foundedYear: 1891,
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      founder: "Beech-Nut Packing Company",
      owner: "Hero Group",
      country: "Amerika Birleşik Devletleri",
@@ -1187,7 +1570,7 @@ Gıda güvenliği konusunda son derece titiz olan Beech-Nut, ham maddelerini pes
      name: "Baby Gourmet",
      slug: "baby-gourmet",
      foundedYear: 2005,
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      founder: "Jennifer Carlson ve Jill Vos",
      owner: "Hero Group",
      country: "Kanada",
@@ -1871,28 +2254,1247 @@ Bugün üretimini Antalya Organize Sanayi Bölgesi'ndeki 42.000 metrekarelik dev
 
 Türkiye'nin en büyük ilk 1000 sanayi kuruluşu (İSO) arasında yer alan Ekici, 81 ilde 44.000 satış noktasında tüketicilerle buluşmaktadır. Yaklaşık 600 kişiye istihdam sağlayan marka, sadece iç pazarda değil, ihracatta da güçlüdür. ABD, Almanya, Çin ve Orta Doğu ülkeleri başta olmak üzere birçok ülkeye ihracat yaparak Türk peynirini dünyada temsil etmektedir.`,
   },
-  //! Burdayım.
   {
    name: "Humana",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "",
-   country: "",
+   slug: "humana",
+   foundedYear: 1950,
+   ctgry: "Bebek & Çocuk",
+   founder: "Dr. Heinz Lemke",
+   owner: "DMK Group (Deutsches Milchkontor)",
+   country: "Almanya",
    alternative_products: [],
-   img: "/.png",
+   img: "/humana.png",
    isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
+   website: "https://www.humana-baby.com.tr/",
+   description: `Humana, 1950 yılında Almanya'nın Herford kentinde çocuk doktoru Dr. Heinz Lemke tarafından kurulan köklü bir bebek beslenmesi markasıdır. Dr. Lemke'nin anne sütüne en yakın formülü geliştirme vizyonuyla başlayan yolculuk, markayı bugün bebek maması ve ek gıda sektöründe dünya çapında güvenilen bir uzman konumuna taşımıştır. 70 yılı aşkın süredir bilim ve doğayı birleştirerek bebeklerin sağlıklı gelişimini desteklemeyi hedefler.
+
+Marka, Almanya'nın en büyük süt kooperatifi olan DMK Group (Deutsches Milchkontor) bünyesinde yer almaktadır. Bu güçlü yapı, Humana'nın "inekten biberona" kadar tüm üretim sürecini tam kontrol altında tutmasını sağlar. Sadece kendi kooperatifine bağlı çiftçilerden temin edilen, GDO'suz ve yüksek kaliteli sütleri kullanarak üretim yapan marka, Almanya'daki tesislerinde uluslararası gıda güvenliği standartlarına uygun olarak çalışmaktadır.
+
+Humana'nın geniş ürün yelpazesinde; yenidoğandan itibaren kullanılan formül sütler, gaz ve alerji gibi durumlar için özel tıbbi amaçlı mamalar, sütlü tahıllı kaşık mamaları ve emziren anneler için geliştirilmiş "Still-Tee" gibi bitki çayları bulunmaktadır. Türkiye pazarında da uzun yıllardır faaliyet gösteren marka, "Sevgiyle Büyü" sloganıyla ebeveynlere güvenilir beslenme çözümleri sunmaktadır.`,
+   boycottReason: `Humana, Almanya menşeli bir markadır ve mülkiyeti Almanya'nın en büyük süt endüstrisi devi DMK Group'a aittir. Almanya hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık, koşulsuz siyasi ve lojistik destek nedeniyle, Alman ekonomisine doğrudan katkı sağlayan bu marka boykot listesinde değerlendirilmektedir.`,
    evidences: [""],
   },
+  {
+   name: "Bahçıvan",
+   slug: "bahcivan",
+   foundedYear: 1992,
+   ctgry: "Yiyecek",
+   founder: "Mecit Bahçıvan",
+   owner: "Bahçıvan Ailesi",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/bahcivan.png",
+   isBoycotted: "boykot-degil",
+   website: "https://bahcivanpeynir.com/",
+   description: `Bahçıvan Gıda, 1992 yılında Kırklareli'nin Lüleburgaz ilçesinde faaliyete geçen ve Türkiye peynircilik sektörünün önde gelen markalarından biridir. 44.000 metrekare açık ve 20.000 metrekare kapalı alana sahip modern fabrikasında üretim yapan şirket, "peynir uzmanı" kimliğiyle bilinmektedir. İleri teknoloji ve uzman kadrosuyla sadece peynir ve peynir ürünleri değil, aynı zamanda tereyağı ve endüstriyel ürünler de üretmektedir.
+
+Kalite ve gıda güvenliği konusunda öncü adımlar atan Bahçıvan, Türkiye'de ISO 50001 Enerji Yönetim Sistemi belgesini alan ilk gıda markaları arasında yer almaktadır. Bunun yanı sıra BRC, Helal Üretim Sertifikası, Global Yiyecek Güvenliği Sertifikası gibi uluslararası geçerliliği olan belgelere sahiptir. Avrupa Birliği ülkelerine süt ürünleri ihracatı yapabilme iznine sahip sayılı firmalardan biri olması, üretim standartlarının yüksekliğini kanıtlamaktadır.
+
+Sadece Türkiye pazarında değil, global pazarda da güçlü bir oyuncu olan Bahçıvan Peynir, 4 kıtada 30'dan fazla ülkeye ihracat gerçekleştirmektedir. Süt ve süt ürünleri kategorisinde Türkiye'nin en fazla ihracat yapan firmaları arasında yer alan marka, yerli üretimi küresel vizyonla birleştirerek büyümesini sürdürmektedir.`,
+  },
+  {
+   name: "Bağdat Baharat",
+   slug: "bagdat-baharat",
+   foundedYear: 1968,
+   ctgry: "Yiyecek",
+   founder: "Mustafa Danacı",
+   owner: "Danacı Ailesi",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/bagdat-baharat.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.bagdatbaharat.com.tr/",
+   description: `Bağdat Baharat, 1968 yılında Mustafa Danacı tarafından Ankara'da kurulan ve Türkiye'nin baharat sektöründeki en köklü markalarından biridir. Küçük bir dükkanda "en kaliteli ürünü sunma" ilkesiyle başlayan bu lezzet yolculuğu, zamanla büyüyerek Türkiye'nin sınırlarını aşan bir sanayi devine dönüşmüştür. Marka, geleneksel Türk damak tadını modern üretim teknikleriyle harmanlamasıyla tanınır.
+
+Üretim faaliyetlerini Ankara Sincan Organize Sanayi Bölgesi'ndeki 25.000 metrekarelik modern tesislerinde gerçekleştiren firma, gıda güvenliğine verdiği önemle öne çıkar. Ham maddenin tarladan toplanmasından paketlenmesine kadar olan tüm süreçte, ileri teknolojiye sahip laboratuvar analizleri ve "el değmeden üretim" teknolojileri kullanılır. ISO ve Helal gıda sertifikalarına sahip olan marka, hijyen standartlarını en üst seviyede tutmaktadır.
+
+Sadece baharat çeşitleriyle değil; harçlar, soslar, hazır çorbalar, pastacılık ürünleri ve bitki çayları gibi geniş bir ürün yelpazesi sunan Bağdat Baharat, iç pazardaki lider konumunu korumaktadır. Aynı zamanda Avrupa, Amerika ve Orta Doğu başta olmak üzere 25'ten fazla ülkeye ihracat yaparak, Anadolu'nun lezzetlerini dünya mutfaklarıyla buluşturmaktadır.`,
+   evidences: [],
+  },
+  {
+   name: "Muratbey",
+   slug: "muratbey",
+   foundedYear: 1965,
+   ctgry: "Yiyecek",
+   founder: "Erol Ailesi (Necmi Erol)",
+   owner: "Erol Ailesi",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/muratbey.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.muratbey.com.tr/",
+   description: `Muratbey, peynircilik serüvenine 1965 yılında İstanbul Eminönü’nde küçük bir dükkânla başlamış, 1992 yılında ilk üretim tesisini açarak sanayileşme yolunda büyük bir adım atmıştır. Doğal sütün lezzetini inovatif teknolojilerle birleştiren marka, "Lezzet diye bir şey var!" iddiasıyla peyniri günün her saatinde tüketilebilen sağlıklı bir atıştırmalığa dönüştürmüştür. Özellikle "Özel Peynirler" kategorisindeki pazar liderliği ve patentli ürünleriyle sektörde fark yaratmaktadır.
+
+Üretim faaliyetlerini 35 bin metrekare kapalı alana sahip modern tesislerinde gerçekleştiren Muratbey, günde 700 ton süt işleme kapasitesine sahiptir. Yaklaşık 400 çalışanı ve 300’ün üzerinde ürün çeşidiyle Türkiye genelinde 50 bini aşkın satış noktasına ulaşmaktadır. Geleneksel Türk peynirlerini modern sofralara uyarlayan firma, büyük işletme standartlarını korurken butik üretim lezzetinden ödün vermemektedir.
+
+Global bir marka olma vizyonuyla 2008 yılında yurt dışına açılan şirket, bugün ABD’den Avrupa Birliği’ne, Çin'den Orta Doğu’ya kadar 5 kıtada 60’a yakın ülkede marka tesciline sahiptir. Sadece lezzete değil doğaya da önem veren Muratbey, 'Sürdürülebilir Gıda Platformu' üyesi olarak üretimde sıfır kimyasal atık ve enerji tasarrufu hedefleriyle çevre dostu bir büyüme stratejisi izlemektedir.`,
+  },
+  {
+   name: "Dole",
+   slug: "dole",
+   foundedYear: 1851,
+   ctgry: "Yiyecek",
+   founder: "Samuel Northrup Castle, Amos Starr Cooke ve James Dole",
+   owner: "Dole plc",
+   country: "İrlanda",
+   alternative_products: [""],
+   img: "/dole.png",
+   isBoycotted: "boykot",
+   website: "https://www.dole.com/",
+   description: `Dole plc, kökleri 1851 yılına dayanan ve "Ananas Kralı" olarak bilinen James Dole'un vizyonuyla büyüyen dünyanın en büyük taze meyve ve sebze üreticisidir. Hawaii'de başlayan serüveni, zamanla küresel bir gıda devine dönüşmüştür. 2021 yılında İrlanda merkezli Total Produce ile birleşerek genel merkezini Dublin'e taşıyan şirket, 90'dan fazla ülkede faaliyet göstermektedir.
+
+"Kalite, kalite ve kalite" prensibiyle üretim yapan Dole; muz, ananas, üzüm, çilek ve taze salatalar başta olmak üzere geniş bir ürün yelpazesine sahiptir. Kendi nakliye filosu (Dole Ocean Cargo Express) ile ürünlerini dünyanın dört bir yanına ulaştıran marka, özellikle paketlenmiş taze meyve ve sebze kategorisinde pazar lideridir.`,
+   boycottReason: `Dole, ülkemizde yaygın olarak ithal muz markası olarak bilinmektedir. Markanın boykot listesinde yer almasının ana nedeni, 2016 yılında boykot listelerinde bulunan Disney ile imzaladığı çok yıllı iş birliği protokolüdür. Bu ticari ortaklık sebebiyle marka boykot edilmektedir.`,
+   evidences: ["https://en.wikipedia.org/wiki/Dole_Whip"],
+  },
+  {
+   name: "Müller",
+   slug: "muller",
+   foundedYear: 1896,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Ludwig Müller",
+   owner: "Unternehmensgruppe Theo Müller",
+   country: "Almanya",
+   alternative_products: [],
+   img: "/muller.png",
+   isBoycotted: "boykot",
+   website: "https://www.muller.co.uk/",
+   description: `Müller, hikayesi 1896 yılında Almanya'nın Bavyera eyaletinde küçük bir aile çiftliği olarak başlayan ve bugün Avrupa'nın önde gelen süt ürünleri devlerinden biri haline gelen köklü bir markadır. "Süt ürünlerini lezzetli kılma" tutkusuyla yola çıkan şirket, Almanya kökenli olmasına rağmen özellikle Birleşik Krallık ve İrlanda pazarında çok güçlü bir konuma sahiptir.
+
+Şirket, İngiltere'de 7.500'den fazla çalışanı ve 1.000'in üzerinde çiftlikten oluşan tedarik ağıyla devasa bir operasyon yürütmektedir. İstatistiklere göre Birleşik Krallık'taki buzdolaplarının %97'sinde süt, %78'inde ise yoğurt ürünleriyle yer alarak pazarın tartışmasız liderlerinden biri konumundadır.
+
+Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kolda faaliyet gösteren marka; Müller Corner, Müller Rice, Müller Light ve FRijj gibi sevilen ürünlerin üreticisidir. Ayrıca Mondelez lisansı altında çeşitli soğuk tatlılar da üretmekte olup, "ulusun yüzüne bir gülümseme kondurmak" misyonuyla üretim yapmaktadır.`,
+   boycottReason: `Müller, Almanya merkezli bir markadır. Almanya hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık siyasi ve ekonomik destek nedeniyle, Alman ekonomisine doğrudan katkı sağlayan bu marka boykot listesinde değerlendirilmektedir.`,
+   evidences: [""],
+  },
+  {
+   name: "Peysan",
+   slug: "peysan",
+   foundedYear: 1979,
+   ctgry: "Yiyecek",
+   founder: "Peysan Gıda San. A.Ş.",
+   owner: "Peysan Gıda San. A.Ş.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/peysan.png",
+   isBoycotted: "boykot-degil",
+   website: "https://peysanexport.com/tr/",
+   description: `Peysan, 1979 yılında süt ürünleri piyasasında standart kalitede fabrikasyon üretimi başlatmak ve sektöre öncülük etmek amacıyla kurulmuş yenilikçi bir markadır. Edirne'deki 30.000 metrekarelik modern tesislerinde üretim yapan Peysan, Türk tüketicisini dünya peynirleri ve modern üretim teknikleriyle tanıştıran marka olarak bilinir.
+
+Markanın en belirgin özelliği inovasyona dayalı yapısıdır. 1987 yılında yurt dışından uzmanlar getirerek Türkiye'de ilk kez "Jadel" ve "Örgü Peyniri" üretimini gerçekleştirmiştir. Ayrıca Emmantel, Gouda, Edam, Mozzarella ve Rokfor gibi Avrupa tipi peynirleri Türkiye'de üreterek yerli pazarda bir ilke imza atmıştır.
+
+Geçmişte La Vache Qui Rit (Gülen İnek) ve President gibi dünya devlerinin Türkiye distribütörlüğünü üstlenerek sektörün gelişimine katkı sağlayan Peysan, bugün "Peysan Çiftlik" serisiyle Ultra Filitrasyon teknolojisi kullanarak üretim yapmaya ve Ar-Ge odaklı çalışmalarına devam etmektedir.`,
+  },
+  {
+   name: "Taciroğlu",
+   slug: "taciroglu",
+   foundedYear: 1936,
+   ctgry: "Yiyecek",
+   founder: "Taciroğlu Ailesi",
+   owner: "Peysan Gıda San. A.Ş.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/taciroglu.png",
+   isBoycotted: "boykot-degil",
+   website: "https://peysanexport.com/tr/",
+   description: `Taciroğlu, kökleri 1936 yılına dayanan ve Türkiye'nin peynircilik tarihinde "geleneksel lezzetin" simgesi haline gelmiş çok köklü bir markadır. Süt ürünleri üretimindeki ustalığıyla tanınan marka, sektördeki en büyük devrimini 1963 yılında gerçekleştirmiştir.
+
+O yıllarda yaptığı ciddi yatırımlarla Türkiye'de ilk kez "ambalajlı beyaz peynir" üretimini başlatan Taciroğlu, peyniri açıkta satılan bir ürün olmaktan çıkarıp hijyenik ve standart bir sanayi ürününe dönüştürmüştür. Bu hamlesiyle Türk süt endüstrisinde yeni bir çağ başlatmıştır.
+
+Günümüzde Peysan Gıda çatısı altında faaliyet gösteren Taciroğlu, klasik inek peyniri, koyun ve keçi peyniri, tulum peyniri gibi geleneksel damak tadına hitap eden ürünleriyle bilinir. "Değişmeyen lezzet" mottosuyla, nesillerdir süregelen üretim tecrübesini modern sofralara taşımaktadır.`,
+  },
+  {
+   name: "Ender Çikolata",
+   slug: "ender-cikolata",
+   foundedYear: 1947,
+   ctgry: "Şirket",
+   founder: "Hacı Şerafettin Selçuk",
+   owner: "Selçuk Ailesi (Ender Grup)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/ender-cikolata.png",
+   isBoycotted: "boykot-degil",
+   website: "https://endercikolata.com/",
+   description: `Ender Çikolata, temelleri 1947 yılında Hacı Şerafettin Selçuk tarafından atılan ve Türkiye'nin çikolata sektöründeki en köklü markalarından biri olan "Çikolatacınız"dır. Üretim hayatına küçük bir atölyede başlayan marka, bugün Ankara'daki modern fabrikasında yıllık 12.000 ton üretim kapasitesiyle faaliyet göstermektedir.
+
+"Kalite ve tazelik" ilkesinden ödün vermeden büyüyen Ender, ürünlerini hijyenik koşullarda, en son teknoloji paketleme sistemleriyle tüketicilere sunar. Gıda güvenliği standartlarını yakından takip eden firma, üretim sürecinin her aşamasında sıkı kalite kontrol önlemleri uygulamaktadır.
+
+Misyonunu "en kaliteli çikolataları en iyi fiyatlarla sunmak" olarak belirleyen marka, müşteri memnuniyetini her zaman ön planda tutar. Sevgi, neşe ve heyecanla geliştirdiği zengin ürün çeşitliliğiyle hem yurt içinde hem de yurt dışında çikolata severlerin beğenisini kazanmaktadır.`,
+   subBrands: [
+    {
+     name: "Ender",
+     slug: "ender",
+     foundedYear: 1947,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/ender.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `Ender markası, şirketin ana markası olup geniş bir ürün yelpazesini kapsar. Klasik tablet çikolatalar, bayramlık ikramlıklar ve dökme şekerlemeler bu çatı altında sunulur. Geleneksel Türk damak tadına uygun, kaliteli kakao ve fındık kullanımıyla bilinir.`,
+    },
+    {
+     name: "RoCoco",
+     slug: "rococo",
+     foundedYear: 2010,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/rococo.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `RoCoco, Ender Çikolata'nın hindistan cevizi dolgulu bar çikolatasıdır. Egzotik hindistan cevizi lezzetini sütlü çikolata kaplamasıyla birleştirerek tatlı krizlerine ferahlatıcı bir alternatif sunar.`,
+    },
+    {
+     name: "Votivo",
+     slug: "votivo",
+     foundedYear: 2015,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/votivo.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `Votivo, şık ambalajı ve özel dolgulu yapısıyla Ender'in premium segmentteki ikramlık çikolatalarından biridir. Özellikle bayram ve özel günlerde hediye etmek veya misafirlere sunmak için tercih edilen zarif bir lezzettir.`,
+    },
+    {
+     name: "Roro",
+     slug: "roro",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/roro.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `Roro, çocuklara ve gençlere hitap eden, gofret ve bisküvi parçacıklı çikolatalı atıştırmalıktır. Eğlenceli ambalajı ve çıtır lezzetiyle gün içi atıştırmalık ihtiyacını karşılamayı hedefler.`,
+    },
+    {
+     name: "N'Goes",
+     slug: "n-goes",
+     foundedYear: 2018,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/ngoes.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `N'Goes, fındık ve karamel dolgulu nuga bar formatıyla enerji veren bir üründür. Yoğun tempolu günlerde açlığı bastırmak ve enerji toplamak isteyenler için doyurucu bir seçenektir.`,
+    },
+    {
+     name: "Tom & Tom",
+     slug: "tom-tom",
+     foundedYear: 2000,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/tom-tom.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `Tom & Tom, draje formundaki renkli çikolatalarıyla çocukların sevgilisidir. Eğlenceli karakterleri ve renkli kaplamasıyla çikolata yeme deneyimini bir oyuna dönüştürür.`,
+    },
+    {
+     name: "Premium",
+     slug: "premium",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Ender Çikolata",
+     owner: "Ender Grup",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/premium.png",
+     isBoycotted: "boykot-degil",
+     website: "https://endercikolata.com/",
+     description: `Ender Premium serisi, en kaliteli kakao çekirdeklerinden üretilen tablet ve kare çikolataları kapsar. Bitter, sütlü, fıstıklı ve fındıklı çeşitleriyle gerçek çikolata tutkunlarına hitap eden, markanın ustalık eseridir.`,
+    }
+   ],
+  },
+  {
+   name: "Beyoğlu Çikolata",
+   slug: "beyoglu-cikolata",
+   foundedYear: 1991,
+   ctgry: "Şirket",
+   founder: "Halil Ölçücüer",
+   owner: "Beyoğlu Çikolata A.Ş. (Ölçücüer Ailesi)",
+   country: "Türkiye",
+   alternative_products: ["eti"],
+   img: "/beyoglu-cikolata.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.beyoglucikolata.com.tr/",
+   description: `Beyoğlu Çikolata, sektörde 33 yılı aşkın tecrübesiyle faaliyet gösteren ve Yönetim Kurulu Başkanı Halil Ölçücüer liderliğinde büyüyen köklü bir markadır. Halil Ölçücüer, ticari hayatına Gaziantep'te Şölen Çikolata ile başlamış, ardından İstanbul'da Misbis, Ankara Çikolata ve Kaptan Gıda gibi firmalardaki deneyimlerinin ardından Beyoğlu Çikolata markasını zirveye taşımıştır.
+
+Markanın üretim üssü Kilis'te bulunmaktadır. Kilis Organize Sanayi Bölgesi'nde 40.000 metrekaresi kapalı olmak üzere toplam 52.000 metrekarelik devasa bir alana kurulu olan modern fabrikası, yıllık 14 bin ton üretim kapasitesine sahiptir. En son teknolojiyle donatılmış bu tesislerde her yıl 120 milyon adet çikolata üretilmekte ve 100'den fazla ürün çeşidi tüketicilere sunulmaktadır.
+
+Ankara/Kazan ve Kilis'teki yatırımlarıyla büyüyen firma, bugün 1000'i aşkın çalışanıyla bölge ekonomisinin en önemli lokomotiflerinden biridir. Sadece iç pazarda değil, ihracatta da güçlü olan Beyoğlu Çikolata; Orta Doğu, Kuzey Afrika ve Avrupa Birliği ülkeleri başta olmak üzere 70'i aşkın ülkeye ihracat yaparak Türk çikolatasını dünyaya tanıtmaktadır.`,
+   boycottReason: ``,
+   evidences: [],
+   subBrands: [
+    {
+     name: "Artizan",
+     slug: "artizan",
+     foundedYear: 2015,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/artizan.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Beyoğlu Çikolata'nın "Artizan" serisi, endüstriyel üretimde el yapımı çikolata ustalığını hissettiren özel bir koleksiyondur. Usta ellerden çıkmış gibi görünen doğal formları, yoğun kakao tadı ve seçkin içerikleriyle çikolatada gurme bir deneyim arayanlara hitap eder.`,
+    },
+    {
+     name: "Matchico",
+     slug: "matchico",
+     foundedYear: 2018,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/matchico.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Matchico, Beyoğlu Çikolata'nın modern ve yenilikçi yüzünü temsil eden, özellikle genç tüketicilerin damak tadına uygun olarak geliştirilmiş bir atıştırmalık serisidir. Farklı dolgu ve kaplamalarla zenginleştirilmiş çikolatalarıyla dinamik bir lezzet sunar.`,
+    },
+    {
+     name: "Sweet Collection",
+     slug: "sweet-collection",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/sweet-collection.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Sweet Collection, özel günlerde hediye edilmek üzere tasarlanmış, şık kutularda sunulan madlen ve spesiyel çikolataları kapsayan bir seridir. Bayram ziyaretlerinden kutlamalara kadar her anı tatlandırmayı amaçlayan zarif sunumuyla öne çıkar.`,
+    },
+    {
+     name: "Dubaco",
+     slug: "dubaco",
+     foundedYear: 2016,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/dubaco.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Dubaco, çikolatanın gofret ve bisküvi ile buluştuğu, çıtır lezzet arayanlar için üretilen bir markadır. Kat kat gofret yaprakları ve yoğun kremasıyla çay ve kahve molalarının keyifli eşlikçisidir.`,
+    },
+    {
+     name: "1968 İstiklal",
+     slug: "1968-istiklal",
+     foundedYear: 2010,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/1968-istiklal.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `1968 İstiklal serisi, Beyoğlu'nun tarihi dokusuna ve çikolata kültürüne bir saygı duruşu niteliğindedir. Nostaljik ambalaj tasarımı ve klasikleşmiş bol fındıklı/fıstıklı kırma çikolata formuyla geçmişin lezzetini günümüze taşır.`,
+    },
+    {
+     name: "Fındık Yağmuru",
+     slug: "findik-yagmuru",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/findik-yagmuru.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Adından da anlaşılacağı üzere bol fındık içeren bu seri, Beyoğlu Çikolatası'nın alametifarikası olan fındık-çikolata uyumunu en üst seviyede sunar. Her ısırıkta bütün fındıkların hissedildiği, enerji veren bir lezzettir.`,
+    },
+    {
+     name: "Hazelnut",
+     slug: "hazelnut",
+     foundedYear: 2008,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/hazelnut.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Hazelnut, uluslararası pazarlar için de uygun olarak tasarlanmış, fındık kreması ve dolgulu çikolata seçenekleri sunan bir seridir. Kaliteli Türk fındıklarının lezzetini dünya standartlarında bir çikolata deneyimiyle birleştirir.`,
+    },
+    {
+     name: "Kek Aşkım",
+     slug: "kek-askim",
+     foundedYear: 2014,
+     ctgry: "Yiyecek",
+     founder: "Beyoğlu Çikolata",
+     owner: "Beyoğlu Çikolata A.Ş.",
+     country: "Türkiye",
+     alternative_products: ["eti"],
+     img: "/kek-askim.png",
+     isBoycotted: "boykot-degil",
+     website: "",
+     description: `Kek Aşkım, Beyoğlu Çikolata'nın unlu mamuller kategorisindeki lezzetli girişimidir. Yumuşacık kek hamuru ve içindeki akışkan sosuyla, tatlı krizlerinde pratik ve doyurucu bir çözüm sunar.`,
+    },
+   ],
+  },
+  {
+   name: "Saadet Gıda",
+   slug: "saadet-gida",
+   foundedYear: 1997,
+   ctgry: "Şirket",
+   founder: "Sübet Çiçek",
+   owner: "Saadet Gıda San. ve Tic. A.Ş.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/saadet-gida.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.saadet.com.tr",
+   description: `Saadet Gıda, sektöre İstanbul'da 1.000 metrekarelik kapalı alanda "Bay Balon" markalı sakız üretimiyle adım atmış, yenilikçi ve gelişime açık vizyonuyla kısa sürede büyümüş bir gıda şirketidir. Küçük bir atölyeden başlayan bu yolculuk, 2000 yılında Esenyurt'ta kurulan 20.000 metrekarelik modern tesislerle sanayileşme boyutuna taşınmıştır.
+
+   Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumuşak şeker (Jelly), sürpriz yumurta, marshmallow ve çikolatalı draje olmak üzere 5 ana grupta üretim yapmaktadır. 2011 yılında Silivri'de kurduğu modern tesisiyle aylık 600 tonluk Licorice (meyan kökü şekeri) üretimine de başlayarak ürün gamını genişletmiştir. Kalite ve gıda güvenliğine verdiği önemle HACCP, ISO 9001, ISO 22000 ve Helal Gıda belgelerine sahip olan marka, "Evrensel boyutta bir gıda üretim fabrikası olma" misyonuyla hareket etmektedir.
+   
+   Saadet Gıda, kuruluşundan bugüne %100 yerli sermaye yapısıyla faaliyet gösteren milli bir kuruluştur. Üretimden yönetime kadar tamamen yerli kaynaklarla büyüyen firmanın herhangi bir yabancı ortaklığı veya boykot edilen ülkelerle siyasi/ekonomik bir bağı bulunmamaktadır. Bu nedenle boykot listeleriyle hiçbir alakası olmayıp, yerli üretimi destekleyen güvenilir bir Türk markasıdır.`,
+   subBrands: [
+    {
+     name: "Nazar",
+     slug: "nazar",
+     foundedYear: 2000,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/nazar.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/Nazar",
+     description: `Nazar, Saadet Gıda'nın sakız kategorisindeki en renkli ve eğlenceli markalarından biridir. Özellikle yuvarlak formlu top sakızları, canlı renkleri ve yoğun meyve aromalarıyla tanınır. Hem çocuklara hem de nostaljik sakız lezzetini arayan yetişkinlere hitap eden marka, Saadet Gıda'nın modern tesislerinde el değmeden paketlenerek tüketicilere sunulmaktadır.`,
+    },
+    {
+     name: "Ocean Fresh",
+     slug: "ocean-fresh",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/ocean-fresh.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/ocean-fresh",
+     description: `Ocean Fresh, isminden de anlaşılacağı üzere yoğun ferahlık hissi sunmayı hedefleyen draje sakız markasıdır. Saadet Gıda güvencesiyle üretilen bu seri, nane ve mentol aromalarının güçlü etkisiyle ağızda uzun süreli serinlik ve temizlik hissi bırakır. Gün içinde nefes tazelemek isteyenler için pratik ambalajlarda sunulan, global standartlarda bir üründür.`,
+    },
+    {
+     name: "Fresh Smile",
+     slug: "fresh-smile",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/fresh-smile.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/fresh-smile",
+     description: `Fresh Smile, ağız bakımı ve ferah bir gülümseme konseptiyle geliştirilmiş, Saadet Gıda portföyünün öne çıkan sakız markalarından biridir. Şekersiz ve aromalı çeşitleriyle diş dostu bir profil çizen marka, çiğneme süresi boyunca aromasını koruyan yapısıyla bilinir. Hem yerel pazarda hem de ihracat kanallarında "taze bir başlangıç" sloganıyla tüketicilerle buluşmaktadır.`,
+    },
+    {
+     name: "Ocean Extra",
+     slug: "ocean-extra",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/ocean-extra.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/ocean-extra",
+     description: `Ocean Extra, Saadet Gıda'nın geniş aroma yelpazesine sahip, uzun süre lezzetini koruyan şerit sakız markasıdır. Çilek, karpuz, nane ve karışık meyve gibi klasik tatların yanı sıra yenilikçi aromalarıyla da tüketicilere keyifli bir çiğneme deneyimi sunar.`,
+    },
+    {
+     name: "O'FRESH",
+     slug: "o-fresh",
+     foundedYear: 2010,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/o-fresh.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/ofresh",
+     description: `O'FRESH, gün boyu taze bir nefes ve ferahlık arayanlar için özel olarak formüle edilmiş şerit sakız markasıdır. Yoğun nane ve mentol aromalarıyla ağız hijyenine katkıda bulunmayı hedeflerken, şık ve pratik paket tasarımıyla her an yanınızda taşımaya uygundur.`,
+    },
+    {
+     name: "Baybalon",
+     slug: "baybalon",
+     foundedYear: 1997,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/baybalon.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/baybalon",
+     description: `Baybalon, Saadet Gıda'nın sektöre ilk adımını attığı ve şirketin büyümesinde kilit rol oynayan efsanevi markasıdır. Adından da anlaşılacağı üzere, dev balonlar şişirmek için özel elastik yapıda üretilmiştir. Çocukların ve nostalji severlerin vazgeçilmezi olan bu ürün, meyve aromalı lezzetiyle klasikleşmiş bir balonlu sakızdır.`,
+    },
+    {
+     name: "King Blast",
+     slug: "king-blast",
+     foundedYear: 2008,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/king-blast.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/king-blast",
+     description: `King Blast, dışı çıtır kaplamalı, içi ise akışkan sıvı dolgulu sürprizli bir sakızdır. Isırıldığı anda ağızda dağılan yoğun meyve aromalı sıvı dolgusu ile bir "lezzet patlaması" yaşatmayı hedefler. Özellikle çocuklar ve gençler arasında popüler olan, dinamik ve enerjik bir üründür.`,
+    },
+    {
+     name: "Frogger",
+     slug: "frogger",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/frogger.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/frogger",
+     description: `Frogger, eğlenceli figürleri ve canlı renkleriyle çocukların dünyasına hitap eden neşeli bir sakız ve şekerleme markasıdır. Oyun ve lezzeti birleştiren konseptiyle, çocuklara sadece bir atıştırmalık değil, aynı zamanda keyifli bir deneyim sunar.`,
+    },
+    {
+     name: "Punto",
+     slug: "punto",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/punto.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/punto",
+     description: `Punto, Saadet Gıda'nın draje formunda ürettiği, renkli kaplaması ve uzun süre giden aromasıyla bilinen sakız markasıdır. Çıtır dış kabuğu ve içindeki yumuşak yapısıyla keyifli bir çiğneme deneyimi sunar. Meyve aromalı çeşitleriyle gün içinde tatlı bir mola vermek isteyenler için pratik bir seçenektir.`,
+    },
+    {
+     name: "Bay Balon Soft",
+     slug: "baybalon-soft",
+     foundedYear: 2000,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/baybalon-soft.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/baybalon-soft",
+     description: `Bay Balon Soft, efsanevi Bay Balon markasının mirasını daha yumuşak bir dokuyla sürdüren yenilikçi bir üründür. Klasik balonlu sakızların aksine, çeneyi yormayan yumuşak kıvamıyla öne çıkar. Balon şişirme keyfinden ödün vermeden daha konforlu bir çiğneme deneyimi arayan çocuklar ve yetişkinler için geliştirilmiştir.`,
+    },
+    {
+     name: "Ekşiyüz",
+     slug: "eksiyuz",
+     foundedYear: 2008,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/eksiyuz.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/eksiyuz",
+     description: `Ekşiyüz, isminin hakkını vererek ilk çiğnemede yoğun ekşi tadıyla şaşırtan, ardından tatlı bir aromaya dönüşen eğlenceli bir sakızdır. Özellikle çocuklar arasında popüler olan bu ürün, ekşi lezzetleri sevenler için bir lezzet meydan okuması niteliğindedir. Keskin aromasıyla damaklarda iz bırakan, macera dolu bir atıştırmalıktır.`,
+    },
+    {
+     name: "Shock 2 Shock",
+     slug: "shock-2-shock",
+     foundedYear: 2010,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/shock-2-shock.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sakiz/shock2shock",
+     description: `Shock 2 Shock, dış katmanındaki yoğun aroma ve merkezindeki akışkan sıvı dolgu ile tüketicilere "çifte şok" etkisi yaşatmayı hedefleyen bir sakızdır. Isırıldığı anda ağızda patlayan sıvı dolgusu, çiğneme deneyimini sıradan bir sakızdan çok daha öteye taşır. Farklı meyve kombinasyonlarıyla üretilen bu seri, dinamik ve yoğun tatlar arayanlar için tasarlanmıştır.`,
+    },
+    {
+     name: "Jellopy",
+     slug: "jellopy",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/jellopy.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/yumusak-seker/jellopy",
+     description: `Jellopy, Saadet Gıda'nın yumuşak şeker (jelly) kategorisindeki amiral gemisidir. Meyve sularından gelen doğal lezzetleri, elastik ve yumuşak dokusuyla birleştiren marka; solucan, ayıcık, kola şişesi gibi eğlenceli figürleriyle hem göze hem damağa hitap eder. Helal üretim standartlarında üretilen Jellopy, geniş ürün yelpazesiyle sadece Türkiye'de değil, dünya pazarında da çocukların favori atıştırmalıkları arasındadır.`,
+    },
+    {
+     name: "The Best Fruity",
+     slug: "the-best-fruity",
+     foundedYear: 2008,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/the-best-fruity.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sert-seker/thebestfruity",
+     description: `The Best Fruity, adından da anlaşılacağı üzere meyve lezzetlerinin en yoğun halini sunmayı hedefleyen sert şeker markasıdır. Karışık meyve aromalarıyla zenginleştirilmiş içeriği, ağızda uzun süre kalan tadı ve canlı renkli ambalajlarıyla klasikleşmiş bir şekerleme deneyimi sunar. Gün içinde tatlı bir mola vermek ve ağzını tatlandırmak isteyenler için ferahlatıcı bir seçenektir.`,
+    },
+    {
+     name: "Coffie",
+     slug: "coffie",
+     foundedYear: 2010,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/coffie.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sert-seker/coffie",
+     description: `Coffie, kahve tutkunları için özel olarak formüle edilmiş, yoğun kahve aromalı sert şeker markasıdır. Kahvenin o karakteristik kokusunu ve tadını şeker formunda sunarak, kahve molası verilemeyen anlarda bile bu keyfi yaşatmayı amaçlar. Sütlü ve sade kahve notalarını barındıran lezzetiyle, özellikle yetişkin tüketicilerin beğenisini kazanan bir üründür.`,
+    },
+    {
+     name: "WeLike",
+     slug: "welike",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/welike.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/sert-seker/welike",
+     description: `WeLike, Saadet Gıda'nın ikramlık ve hediyelik şekerleme kategorisindeki şık markasıdır. Özel günlerde, bayramlarda ve ziyaretlerde sunulmak üzere tasarlanan WeLike, zarif ambalajları ve dolgulu/sade çeşitleriyle misafirlere verilen değeri simgeler. Kaliteli içeriği ve estetik sunumuyla paylaşmanın ve ikramın en tatlı yollarından biridir.`,
+    },
+    {
+     name: "Bay Melow",
+     slug: "bay-melow",
+     foundedYear: 2005,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/bay-melow.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/marshmallow/Baymellow",
+     description: `Bay Melow, Saadet Gıda'nın yumuşacık dokusu ve süngerimsi yapısıyla bilinen marshmallow markasıdır. Sade vanilyalı çeşitlerinin yanı sıra renkli ve burgulu formlarıyla da dikkat çeker. İster paketinden çıkarıldığı gibi doğrudan tüketilen, ister ateşte kızartılarak karamelize edilen Bay Melow, hafif ve puf puf yapısıyla tatlı krizlerinin en hafif çözümüdür.`,
+    },
+    {
+     name: "Povi",
+     slug: "povi",
+     foundedYear: 2010,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/povi.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/marshmallow/povi",
+     description: `Povi, Saadet Gıda'nın marshmallow ürün grubunda yer alan, puf puf kabaran yapısı ve yumuşak dokusuyla bilinen eğlenceli bir markadır. Sade ve meyve aromalı çeşitleriyle hem tek başına atıştırmalık olarak hem de tatlı tariflerini süslemek veya sıcak çikolatalara eşlik etmek için ideal bir lezzet sunar.`,
+    },
+    {
+     name: "Lovely Mallows",
+     slug: "lovely-mallows",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/lovely-mallows.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/marshmallow/lovelymallows",
+     description: `Lovely Mallows, marshmallow lezzetini sevimli şekiller ve renkli sunumlarla birleştiren, göze ve damağa hitap eden özel bir seridir. Özellikle çocukların ve gençlerin ilgisini çeken yumuşak kıvamı ve vanilya-meyve aromaları, onu partilerin ve kutlamaların neşeli bir parçası haline getirir.`,
+    },
+    {
+     name: "Kremy",
+     slug: "kremytoffe",
+     foundedYear: 2008,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/kremytoffe.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/toffee/kremytoffe",
+     description: `Kremy, yumuşak şeker (toffee) severler için geliştirilmiş, süt ve meyve lezzetlerinin uyumunu sunan bir markadır. Çiğnenebilir yumuşak yapısı, dişe yapışmayan formülü ve içindeki dolgusuyla klasik toffee deneyimini zenginleştirir. Gün içinde enerji veren tatlı bir atıştırmalıktır.`,
+    },
+    {
+     name: "Sortie",
+     slug: "sortie",
+     foundedYear: 2009,
+     ctgry: "Yiyecek",
+     founder: "Saadet Gıda",
+     owner: "Saadet Gıda",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/sortie.png",
+     isBoycotted: "boykot-degil",
+     website: "https://www.saadet.com.tr/urunlerimiz/toffee/sortie",
+     description: `Sortie, Saadet Gıda'nın toffee kategorisindeki çeşitliliğini artıran, aromatik ve yumuşak şekerleme markasıdır. Farklı meyve aromalarıyla zenginleştirilmiş içeriği ve çiğneme zevkini artıran dokusuyla öne çıkar. Hem ikramlık olarak hem de bireysel tüketim için tercih edilen lezzetli bir alternatiftir.`,
+    },
+   ],
+  },
+  {
+   name: "Karali Çay",
+   slug: "karali",
+   foundedYear: 1993,
+   ctgry: "İçecek",
+   founder: "Karali Ailesi (Mevlana Karali)",
+   owner: "Karali Çay San. A.Ş.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/karali.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.karalicay.com/tr",
+   description: `Karali Çay, 1993 yılında Türkiye'nin çay başkenti Rize'de kurulan ve "öncelikle kalite" ilkesiyle yola çıkan köklü bir markadır. Rize'deki ilk fabrikasının ardından Mersin, İstanbul, İzmir, Ankara ve Bursa'da bölge müdürlükleri kurarak Türkiye genelinde güçlü bir satış ve dağıtım ağı oluşturmuştur. Yaklaşık 30 yıllık tecrübesiyle sektörün önemli oyuncularından biridir.
+
+Yenilikçi yaklaşımlarıyla dikkat çeken firma, değişen tüketici ihtiyaçlarına yanıt vermek amacıyla süzen poşet çay tesislerine yatırım yapmıştır. Özellikle organik beslenmeye artan talebi karşılamak üzere ürettiği organik dökme siyah çay, süzen poşet ve demlik poşet çayları ile sektörde öncü adımlar atmıştır. Faaliyet alanları arasında çayın yanı sıra çay kazanı ve zeytin de bulunmaktadır.
+
+İstikrarlı büyümesi ve tüketici odaklı yaklaşımı, Tüm Tüketicileri Koruma Derneği tarafından verilen "Altın Marka Ödülü" ile tescillenmiştir. Türk damak tadına uygun, kaliteli ve güvenilir ürünler sunmayı misyon edinen Karali Çay, yerli sermaye gücüyle yatırımlarına devam etmektedir.`,
+  },
+  {
+   name: "Iglo",
+   slug: "iglo",
+   foundedYear: 1956,
+   ctgry: "Yiyecek",
+   founder: "Unilever",
+   owner: "Nomad Foods",
+   country: "Birleşik Krallık",
+   alternative_products: [""],
+   img: "/iglo.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://www.nomadfoods.com/our-brands/",
+   description: `Iglo, Avrupa'nın dondurulmuş gıda sektöründeki en bilinen ve köklü markalarından biridir. Tarihsel olarak Unilever bünyesinde doğan marka, özellikle "Kaptan Iglo" ikonu ve balık parmakları (fish fingers) ile hafızalara kazınmıştır. Markanın temel felsefesi, sebze ve balık gibi ürünleri en taze halleriyle dondurarak besin değerlerini korumak üzerine kuruludur.
+
+Şirketin kurumsal yapısı yıllar içinde önemli değişiklikler geçirmiştir. 2006 yılında Unilever tarafından Permira fonuna satılan Iglo, 2015 yılında Birleşik Krallık merkezli Nomad Foods tarafından 2.6 milyar Euro değerlemeyle satın alınmıştır. Bu satın alma ile birlikte Birds Eye ve Findus gibi diğer dev markalarla aynı çatı altında birleşerek Avrupa'nın en büyük dondurulmuş gıda operasyonunun bir parçası olmuştur.
+
+Günümüzde Nomad Foods Europe bünyesinde faaliyet gösteren Iglo; sebze, balık, tavuk ve hazır yemek kategorilerinde geniş bir ürün yelpazesi sunmaktadır. "Tazelikten ödün vermeden pratiklik" sunan marka, 15'ten fazla ülkede faaliyet göstermektedir.`,
+   boycottReason: `Iglo, Birleşik Krallık merkezli Nomad Foods şirketine aittir. Markanın İsrail ile doğrudan bir ticari veya siyasi bağına dair kanıt bulunmamaktadır. Ancak şirket, tamamen yabancı sermayeli (ABD ve İngiltere kökenli fonlar) bir yapıya sahip olduğu için, yerli üretimi desteklemek isteyen ve ithal ürünlere mesafeli duran tüketiciler için 'önerilmeyen' kategorisinde değerlendirilmektedir.`,
+   evidences: [],
+  },
+  {
+   name: "Baby Goat",
+   slug: "baby-goat",
+   foundedYear: 2014,
+   ctgry: "Bebek & Çocuk",
+   founder: "Engin Yiğit (Hünika A.Ş.)",
+   owner: "Hünika A.Ş.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/baby-goat.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.babygoat.com.tr/",
+   description: `Baby Goat, Türkiye'nin ilk ve tek keçi sütü bazlı bebek maması markası olarak Hünika A.Ş. bünyesinde faaliyet göstermektedir. "Geleceğin teminatı bebeklerimiz" vizyonuyla yola çıkan marka, anne sütüne en yakın protein yapısına sahip olan keçi sütünü kullanarak, bebeklerin sindirim sistemine uygun, besleyici ve doğal formüller geliştirmektedir. Üretim süreçlerinde "Türkiye'nin Markası" olma gururunu taşımaktadır.
+
+Markanın en ayırt edici özelliği, kendi kendine yeten entegre üretim modelidir. Şirket, kendi arazilerinde yetiştirdiği organik otlarla beslenen keçilerin bulunduğu özel çiftliklere sahiptir. El değmeden sağılan sütler, tazeliğini kaybetmeden modern üretim tesislerine aktarılır. Bu "çiftlikten biberona" izlenebilirlik sistemi, hammaddenin kalitesini ve güvenilirliğini garanti altına almaktadır.
+
+Baby Goat ürünleri, sadece sanayi tecrübesiyle değil, güçlü bir akademik iş birliğiyle ortaya çıkmıştır. Ege Üniversitesi, Adnan Menderes Üniversitesi ve TÜBİTAK MAM (Marmara Araştırma Merkezi) ile ortaklaşa yürütülen Ar-Ge projeleri sonucunda geliştirilen formüller, Türk Gıda Kodeksi'ne ve uluslararası standartlara tam uyumludur. %100 yerli sermaye ile üretilen marka, helal sertifikasına sahip güvenilir bir yerli alternatiftir.`,
+  },
+  {
+   name: "Afia Gıda",
+   slug: "afia-gida",
+   foundedYear: 1998,
+   ctgry: "Yiyecek",
+   founder: "Girişimci Grubu (Müteşebbis Heyet)",
+   owner: "Afia Gıda San. ve Tic. Ltd. Şti.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/afia-gida.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.afia.com.tr/",
+   description: `Afia Gıda, 1998 yılında "Helal Rızık Bol Bereket" ilkesiyle kurulan ve gıda sektöründe "helal ve güvenilir gıda" hassasiyetini merkeze alan yerli bir markadır. Üretim süreçlerinde insan sağlığına zararlı veya dinen sakıncalı katkı maddelerini (jelatin, sistein, MSG vb.) kullanmama politikasıyla tanınır.
+
+Marka, sadece bisküvi veya çikolata ile sınırlı kalmayıp, bir evin neredeyse tüm ihtiyaçlarını karşılayacak genişlikte bir ürün yelpazesine sahiptir. Ürün portföyünde; Çikolata, Gofret, Bisküvi ve Kek gibi atıştırmalıkların yanı sıra Et Ürünleri (Sucuk, Salam vb.), Çorba, Baharat, Sos, Sirke, Helva, Reçel, Bal ve Tahin-Pekmez gibi kahvaltılık ve temel gıda ürünleri de bulunmaktadır. Ayrıca Meşrubat, Kahve ve "Afibuz" gibi içecek çeşitleriyle de raflarda yer almaktadır.
+
+Afia Gıda, "Gevrekler"den "Pastalık Ürünler"e kadar uzanan bu geniş çeşitliliği, kendi belirlediği sıkı helal sertifikasyon standartlarına göre üretmekte veya ürettirmektedir. %100 yerli sermaye yapısı ve İslami hassasiyetlere uygun üretim modeliyle, güvenilir gıda arayışındaki tüketiciler için önemli bir alternatif konumundadır.`,
+  },
+  {
+   name: "Yonca Gıda",
+   slug: "yonca-gida",
+   foundedYear: 1981,
+   ctgry: "Şirket",
+   founder: "Hasan Türek",
+   owner: "Türek Ailesi",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/yonca-gida.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.yonca.com.tr/",
+   description: `Yonca Gıda, 1981 yılında Hasan Türek tarafından Manisa Organize Sanayi Bölgesi'nde kurulan ve "Dürüstlük, İstikrar ve Denge" mottosuyla büyüyen köklü bir gıda şirketidir. Ayçiçek yağı üretimiyle başladığı yolculuğunda, bugün günlük 700 ton yağlı tohum işleme ve 400 ton rafine yağ üretim kapasitesiyle Türkiye'nin en büyük yağ üreticilerinden biri haline gelmiştir.
+
+Ürün yelpazesini sürekli genişleten firma; 1994'te kurulan konserve ve sos işletmeleri ile 2010'da bünyesine kattığı Türkiye'nin en büyük turşu üretim tesisiyle (Saruhanlı) gıda sektöründe dev bir entegre yapıya dönüşmüştür. Yemeklik yağlardan zeytinyağına, közlenmiş ürünlerden turşuya, ketçap-mayonezden domates salçasına kadar uzanan geniş ürün gamıyla hem perakende hem de ev dışı tüketim kanalına hizmet vermektedir.
+
+Türkiye'nin en büyük 500 sanayi kuruluşu (İSO 500) listesinde yer alan ve "İhracatın Yıldızları" ödüllerinin değişmez ismi olan Yonca Gıda, 1000'e yakın çalışanıyla faaliyet göstermektedir. Kaliteye verdiği önemle BRC, IFS ve ISO gibi uluslararası belgelerin yanı sıra Yetkilendirilmiş Yükümlü Sertifikası (YYS) ile de güvenilirliğini tescillemiştir.`,
+  },
+  {
+   name: "Amigo",
+   slug: "amigo",
+   foundedYear: 1983,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/amigo.png",
+   isBoycotted: "onerilmiyor",
+   website:
+    "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/amigo",
+   description: `Amigo, 1983 yılında Türkiye'nin ilk paketlenmiş kuruyemiş firmalarından biri olarak kurulmuştur. Amigo, 1995 yılında kurulan Şok Marketler Tic. A.Ş. adına çeşitli üreticiler tarafından üretilen atıştırmalık ürünlerin markasıdır.
+
+Günümüzde Şok Marketler'in güvencesiyle üretilen Amigo kuruyemişleri, zengin lezzet çeşitliliği ve yüksek kalite standartlarıyla öne çıkmakta, tüketicilere güvenilir ve sağlıklı bir alternatif sunmaktadır.
+
+Amigo, fıstık, ayçekirdeği, çiğ badem, kuru meyve, cips ve fıstık ezmesi gibi geniş bir ürün yelpazesiyle damak zevkine düşkün olanlar için ideal bir seçenektir. Amigo, Şok Marketler'in özel markası olarak faaliyet göstermektedir.
+
+Şok Marketler, Türkiye'nin en büyük perakende zincirlerinden biri olup 2011 yılında Ülker'in de sahibi olduğu Yıldız Holding bünyesine katılmıştır. Bu nedenle Amigo, Şok Marketler'e ait bir marka olarak Yıldız Holding çatısı altında faaliyet göstermektedir.`,
+   boycottReason: `Amigo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Karmen",
+   slug: "karmen",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/karmen.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/karmen",
+   description: `Karmen, Şok Marketler zincirinin çikolata, gofret ve kakaolu ürünler kategorisindeki tescilli markasıdır. Yıldız Holding (Ülker) bünyesindeki fabrikalarda veya holdingin kalite standartlarına uygun tesislerde üretilen Karmen ürünleri, uygun fiyatla yüksek lezzet sunmayı amaçlar.
+
+Ürün portföyünde; tablet çikolatalar, bütün fıstıklı ve fındıklı çeşitler, kakaolu fındık kreması, gofretler ve bayramlık ikramlık çikolatalar bulunmaktadır. Tüketiciler tarafından "fiyat/performans ürünü" olarak bilinen Karmen, Ülker'in çikolata üretimindeki uzmanlığının market markasına yansımış halidir.`,
+
+   boycottReason: `Karmen, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Experdent",
+   slug: "experdent",
+   foundedYear: 2012,
+   ctgry: "Kişesel Bakım",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/experdent.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/experdent",
+   description: `Experdent, Şok Marketler zincirinin ağız ve diş sağlığı kategorisindeki tescilli özel markasıdır (Private Label). Şok Marketler'in tüketicilere uygun fiyatlı ve kaliteli temel ihtiyaç ürünleri sunma stratejisi doğrultusunda geliştirilmiştir.
+
+Ürün portföyünde; diş çürüklerine karşı koruma sağlayan florürlü diş macunları, beyazlatıcı etkili macunlar, naneli ferahlatıcı çeşitler ve farklı sertlik derecelerine sahip diş fırçaları bulunmaktadır. Global ve pahalı ağız bakım markalarına ekonomik bir alternatif olarak konumlanan Experdent, günlük hijyen ihtiyacını bütçe dostu bir şekilde karşılamayı hedefler.`,
+   boycottReason: `Experdent, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Bisto",
+   slug: "bisto",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/bisto.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bisto",
+   description: `Bisto, Şok Marketler zincirinin unlu mamuller, kurabiye ve fırıncılık ürünleri kategorisindeki tescilli özel markasıdır. "Evinizin fırınından çıkmış gibi" hissi yaratmayı amaçlayan ürünleriyle, çay saatlerinin ekonomik ve lezzetli eşlikçisi olarak konumlanmıştır.
+
+Ürün portföyünde; tatlı ve tuzlu kurabiyeler, gevrekler, galetalar ve çeşitli hamur işi atıştırmalıklar bulunmaktadır. Yıldız Holding'in gıda üretimindeki tecrübesiyle üretilen/ürettirilen Bisto, uygun fiyatla kaliteyi buluşturmayı ve tüketicilere taze lezzetler sunmayı hedefler.`,
+   boycottReason: `Amigo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Altınküp",
+   slug: "altinkup",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/altinkup.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/altnkup",
+   description: `Altınküp, Şok Marketler zincirinin temel gıda kategorisinde yer alan, toz ve küp şeker ürünlerini tüketicilere sunan tescilli özel markasıdır (Private Label). %100 pancar şekerinden üretilen doğal içeriğiyle, çay saatlerinden tatlı yapımına kadar mutfakların en temel ihtiyacını karşılamayı hedefler.
+
+Ürün gamında; çabuk eriyen küp şekerler, kristal toz şeker ve esmer şeker gibi çeşitler bulunmaktadır. Şok Marketler'in "kaliteli ürünü uygun fiyata sunma" stratejisinin bir parçası olan Altınküp, Yıldız Holding'in gıda güvenliği standartlarına uygun tesislerde, el değmeden paketlenerek raflarda yerini almaktadır.`,
+   boycottReason: `Altınküp, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Beyaz Güvercin",
+   slug: "beyaz-guvercin",
+   foundedYear: 2012,
+   ctgry: "Temizlik",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/beyaz-guvercin.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/beyaz-guvercin",
+   description: `Beyaz Güvercin, Şok Marketler zincirinin kağıt ve hijyen ürünleri kategorisindeki tescilli özel markasıdır (Private Label). Tuvalet kağıdı, kağıt havlu, peçete ve ıslak mendil gibi günlük temizlik ihtiyaçlarını karşılamak üzere geliştirilmiştir.
+
+"Yumuşak doku, yüksek emicilik" vaadiyle üretilen Beyaz Güvercin ürünleri, global markaların kalitesini daha ekonomik fiyatlarla tüketiciye sunmayı hedefler. Şok Marketler'in en çok tercih edilen temel ihtiyaç markalarından biridir.`,
+   boycottReason: `Beyaz Güvercin, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Mintax",
+   slug: "mintax",
+   foundedYear: 1970,
+   ctgry: "Temizlik",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/mintax.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/mintax",
+   description: `Mintax, Şok Marketler'in temizlik ürünleri kategorisindeki en güçlü ve bilinen özel markasıdır (Private Label). "Temizlikte Mükemmel Sonuç" vaadiyle yola çıkan marka, bulaşık deterjanından çamaşır suyuna, yüzey temizleyicilerden yağ çözücülere kadar geniş bir ürün yelpazesi sunar.
+
+Ekonomik fiyatıyla dikkat çeken Mintax, performansıyla da tüketicilerin beğenisini kazanmış ve marketin en çok satan markalarından biri olmuştur. Etkili formülleriyle ev temizliğinin her alanında pratik çözümler sunmayı hedefler.`,
+   boycottReason: `Mintax, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Piyale",
+   slug: "piyale",
+   foundedYear: 1922,
+   ctgry: "Yiyecek",
+   founder: "Hasan Tahsin Piyale",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/piyale.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/piyale",
+   description: `Piyale, 1922 yılında Hasan Tahsin Piyale tarafından İzmir'de kurulan, Türkiye Cumhuriyeti ile yaşıt, ülkenin en köklü ve sembol gıda markalarından biridir. Yıllarca "Türkiye'nin Makarnası" sloganıyla hafızalara kazınan marka, günümüzde Şok Marketler zincirinin temel gıda ve pastacılık ürünleri kategorisindeki en güçlü özel markası (Private Label) olarak yaşamına devam etmektedir.
+
+Tarihsel mirasını koruyarak Şok Marketler güvencesiyle raflarda yer alan Piyale; makarnadan una, hazır çorbadan pudinge, kabartma tozundan kakaoya kadar mutfakların temel ihtiyaçlarını karşılayan geniş bir ürün yelpazesi sunar. Asırlık lezzet tecrübesini ekonomik fiyatlarla tüketiciye ulaştırmayı hedefler.`,
+
+   boycottReason: `Piyale, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Crown",
+   slug: "crown",
+   foundedYear: 2012,
+   ctgry: "İçecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/crown.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/crown",
+   description: `Crown, Şok Marketler zincirinin gazlı ve aromalı içecekler kategorisindeki tescilli markasıdır. Global içecek markalarına ekonomik ve kaliteli bir alternatif oluşturmak amacıyla geliştirilmiştir.
+
+Ürün portföyünde; kola, gazoz, portakallı gazlı içecek, buzlu çay (Ice Tea) ve limonata gibi serinletici çeşitler bulunmaktadır. Yıldız Holding'in içecek sektöründeki üretim gücü ve kalite standartlarıyla üretilen Crown, özellikle yaz aylarında ve yemeklerin yanında ferahlatıcı bir seçenek olarak tüketicilere sunulmaktadır.`,
+   boycottReason: `Crown, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Evin",
+   slug: "evin",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/evin.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/evin",
+   description: `Evin, Şok Marketler zincirinin sıvı yağ kategorisindeki temel markasıdır. Ayçiçek yağı ve mısır yağı gibi mutfakların en temel ihtiyaçlarını, Yıldız Holding'in (Besler Gıda) kalite güvencesiyle ve ekonomik fiyatlarla sunar. "Evinizin yağı" sloganıyla özdeşleşen marka, kızartmalardan hamur işlerine kadar çok amaçlı kullanım için formüle edilmiştir.`,
+   boycottReason: `Evin, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "İnci",
+   slug: "inci",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/inci.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/inci",
+   description: `İnci, Şok Marketler zincirinin dondurulmuş gıda ve pratik yemek çözümleri kategorisindeki tescilli markasıdır. Günlük hayatın koşturmacasında mutfakta zaman kazandıran, lezzetli ve pratik ürünleriyle bilinir.
+
+Geniş ürün yelpazesinde; parmak ve kroket patates çeşitleri, dondurulmuş sebzeler (bezelye, mısır), milföy hamuru, Kayseri mantısı, karışık pizza ve hamburger köftesi gibi ürünler yer almaktadır. Mevsiminde toplanan sebzelerin ve kaliteli malzemelerin dondurularak tazeliğinin korunduğu İnci ürünleri, ekonomik fiyatlarıyla tüketicilere sunulmaktadır.`,
+   boycottReason: `İnci, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Lio",
+   slug: "lio",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/lio.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/lio",
+   description: `Lio, Şok Marketler'in zeytinyağı ve zeytin bazlı ürünler kategorisindeki uzman markasıdır. Ege Bölgesi'nin zeytinlerinden elde edilen Sızma ve Riviera zeytinyağlarını, yüksek kalite ve uygun fiyat dengesiyle tüketicilere sunar.
+
+Marka, zeytinyağının yanı sıra salamura zeytin çeşitleriyle de raflarda yer almaktadır. Yıldız Holding'in gıda güvenliği standartlarına uygun olarak üretilen Lio, mutfaklarında zeytinyağı lezzetini ekonomik bir şekilde kullanmak isteyenlerin tercihidir.`,
+   boycottReason: `Lio, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Tempo",
+   slug: "tempo",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/tempo.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/tempo",
+   description: `Tempo, Şok Marketler zincirinin bisküvi, kraker ve atıştırmalık kategorisindeki tescilli özel markasıdır. "Yılların deneyimi ve kalite anlayışıyla" üretildiği belirtilen marka, tüketicilere ekonomik fiyatlarla lezzetli atıştırmalık alternatifleri sunmayı hedefler.
+
+Geniş bir ürün yelpazesine sahip olan Tempo; çıtır krakerlerden kremalı bisküvilere, tuzlu atıştırmalıklardan çay saati ikramlıklarına kadar her damak zevkine hitap eden seçenekler barındırır. Özenle seçilmiş malzemeler ve titiz üretim süreçleriyle hazırlanan ürünleri, gün içinde enerji toplamak veya keyifli anlar paylaşmak isteyenler için raflarda yerini almaktadır.
+   
+Yıldız Holding'in (Ülker grubu) bisküvi üretimindeki derin tecrübesini arkasına alan Tempo, market markalı (Private Label) ürünler arasında fiyat/performans dengesiyle öne çıkan ve Şok müşterileri tarafından sıkça tercih edilen bir markadır.`,
+   boycottReason: `Tempo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Mis",
+   slug: "mis",
+   foundedYear: 1976,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/mis.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/mis",
+   description: `Mis, 1976 yılından bu yana Türkiye'nin en sevilen ve güvenilen süt markalarından biri olarak sofralarda yerini almıştır. Taze ve doğal süt ürünleriyle özdeşleşen marka, 2012 yılında Şok Marketler bünyesine katılarak milyonlarca tüketiciye ulaşmıştır.
+
+Ürün yelpazesi oldukça geniş olan Mis; günlük süt, UHT süt, yoğurt, peynir çeşitleri (beyaz peynir, kaşar peyniri, labne vb.), ayran, tereyağı ve dondurma gibi birçok kategoride üretim yapmaktadır. "Her üründe kalite ve lezzeti bir arada sunma" misyonuyla hareket eden marka, Şok Marketler'in en güçlü özel markası konumundadır.`,
+   boycottReason: `Mis, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Bizim Vatan",
+   slug: "bizim-vatan",
+   foundedYear: 1951,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/bizim-vatan.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bizim-vatan",
+   description: `Bizim Vatan, kökleri 1951 yılına dayanan ve Türk mutfağının zenginliğini sofralara taşıyan geleneksel bir markadır. Turşu ve konserve ürünleriyle tanınan marka, geleneksel tatları modern üretim teknikleriyle birleştirerek Şok Marketler aracılığıyla tüketicilere sunulmaktadır.
+
+Ürün portföyünde; salça, domates püresi, çeşitli turşular (salatalık, biber, lahana vb.), garnitürler, haşlanmış bakliyatlar ve ton balığı gibi mutfakların temel ihtiyaçları bulunmaktadır. Yıldız Holding güvencesiyle üretilen Bizim Vatan, lezzet ve kaliteyi ekonomik fiyatlarla buluşturmayı hedefler.`,
+   boycottReason: `Bizim Vatan, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Peki",
+   slug: "peki",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/peki.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/peki",
+   description: `Peki, Şok Marketler zincirinin kek ve unlu tatlılar kategorisindeki tescilli özel markasıdır. "Peki dedirten lezzet" mottosuyla yola çıkan marka, özellikle çay saatleri ve ani tatlı krizleri için pratik çözümler sunar.
+
+Ürün portföyünde; baton kekler, mozaik pastalar, donutlar, kruvasanlar ve tek porsiyonluk dilim kekler yer almaktadır. Yumuşak dokusu ve taze lezzetiyle bilinen Peki ürünleri, ekonomik fiyatlarıyla pastane lezzetlerine alternatif olarak raflarda yerini almaktadır.`,
+   boycottReason: `Peki, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Taşkale",
+   slug: "taskale",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/taskale.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/taskale",
+   description: `Taşkale, geleneksel Türk tatlılarını ve kahvaltılık ürünlerini Şok Marketler güvencesiyle sunan bir markadır. Tahin, pekmez, helva çeşitleri (sade, kakaolu, fıstıklı) ve lokum gibi Anadolu'nun köklü lezzetlerini modern paketleme standartlarıyla tüketicilere ulaştırır.
+
+Özellikle kahvaltı sofralarının vazgeçilmezi olan tahin-pekmez ikilisi ve enerji deposu helvalarıyla bilinen Taşkale, geleneksel üretim yöntemlerine sadık kalarak, katkısız ve doğal lezzetler sunmayı hedefler.`,
+   boycottReason: `Taşkale, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Anadolu Mutfağı",
+   slug: "anadolu-mutfagi",
+   foundedYear: 2012,
+   ctgry: "Yiyecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/anadolu-mutfagi.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/anadolu-mutfagi",
+   description: `Anadolu Mutfağı, isminden de anlaşılacağı üzere Türkiye'nin bereketli topraklarından elde edilen bakliyat ve tahıl ürünlerini sofralara taşıyan Şok Marketler markasıdır. Pirinç (osmancık, baldo), mercimek, nohut, fasulye, bulgur ve mısır gibi temel gıda maddelerini kapsar.
+
+Yöresel mahsullerin özenle seçilip paketlendiği marka, Türk mutfağının tencere yemekleri için kaliteli ve ekonomik bir temel oluşturur. "Bereketli sofralar" vizyonuyla hareket eden marka, her evin ihtiyacı olan temel gıdaları ulaşılabilir fiyatlarla sunmaktadır.`,
+   boycottReason: `Anadolu Mutfağı, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Deren",
+   slug: "deren",
+   foundedYear: 2012,
+   ctgry: "İçecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/deren.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/deren",
+   description: `Deren, Şok Marketler zincirinin çay kategorisindeki uzman markasıdır. Karadeniz'in seçkin çay bahçelerinden toplanan yapraklarla harmanlanan siyah çaylarının yanı sıra, bitki ve meyve çayı çeşitleriyle de geniş bir ürün yelpazesine sahiptir.
+
+Dökme çay, demlik poşet ve bardak poşet seçenekleri sunan Deren, "Demi tam, keyfi tamam" anlayışıyla Türk çay kültürüne uygun, tavşan kanı ve aromatik bir çay deneyimi vaat eder. Ekonomik fiyatıyla tiryakilerin tercih ettiği markalardan biridir.`,
+   boycottReason: `Deren, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Bebeland",
+   slug: "bebeland",
+   foundedYear: 2012,
+   ctgry: "Bebek & Çocuk",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/bebeland.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bebeland",
+   description: `Bebeland, Şok Marketler'in bebek bakım ürünleri kategorisindeki güvenilir markasıdır. Bebek bezleri, ıslak mendiller, bebek şampuanları ve bakım örtüleri gibi ürünlerle ebeveynlerin en büyük yardımcısı olmayı hedefler.
+
+Dermatolojik olarak test edilen ve bebeklerin hassas cilt yapısına uygun olarak geliştirilen Bebeland ürünleri, yüksek emicilik ve yumuşaklık standartlarını ekonomik fiyatlarla sunar. "Mutlu bebekler, huzurlu anneler" anlayışıyla üretilen marka, kaliteden ödün vermeden bütçe dostu çözümler sağlar.`,
+   boycottReason: `Bebeland, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+  {
+   name: "Tornado",
+   slug: "tornado",
+   foundedYear: 2012,
+   ctgry: "Yiyecek ve İçecek",
+   founder: "Şok Marketler",
+   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/tornado.png",
+   isBoycotted: "onerilmiyor",
+   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/tornado",
+   description: `Tornado, Şok Marketler tarafından genç ve dinamik tüketiciler için geliştirilen enerji içeceği markasıdır. Yoğun günlerde, spor öncesinde veya odaklanma gerektiren anlarda ihtiyaç duyulan enerjiyi sağlamayı hedefler.
+
+İçeriğindeki kafein, taurin ve B vitaminleri ile zenginleştirilen formülü, ferahlatıcı tadıyla birleşerek güçlü bir performans artışı sunar. Global enerji içeceği markalarına uygun fiyatlı ve etkili bir yerli alternatif olarak raflarda yerini almaktadır.`,
+   boycottReason: `Tornado, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+   evidences: [""],
+  },
+
+  //burdayım
   {
    name: "",
    slug: "",
    foundedYear: 1111111111111111111111111111111,
-   ctgry: "Yiyecek",
+   ctgry: "",
    founder: "",
    owner: "",
    country: "",
@@ -1904,6 +3506,7 @@ Türkiye'nin en büyük ilk 1000 sanayi kuruluşu (İSO) arasında yer alan Ekic
    boycottReason: ``,
    evidences: [""],
   },
+
   //! SİGARA MARKALARI
   {
    name: "Kent",
@@ -2310,6 +3913,42 @@ Bu nedenlerle, Danone ve Danone'ye ait tüm ürünler boykot listesinde yer alma
    evidences: ["https://tr.wikipedia.org/wiki/Strauss_Group"],
    subBrands: [
     {
+     name: "Tikveşli",
+     slug: "tikvesli",
+     ctgry: "Yiyecek",
+     foundedYear: 1943,
+     founder: "Tikveşli Ailesi",
+     owner: "Danone",
+     description: `Tikveşli, temelleri 1943 yılında atılan ve adını kurucusu olan ailenin köklerinin dayandığı Rumeli'deki Tikveş yöresinden alan, Türkiye'nin en köklü ve saygın süt ürünleri markalarından biridir. "Geleneksel lezzet" denince akla gelen ilk markalardan biri olan Tikveşli, özellikle yoğun kıvamlı yoğurtları ve yemeklere lezzet katan kremasıyla mutfaklarda özel bir yere sahiptir.
+
+Markanın en ikonik ürünleri arasında, geleneksel damak tadına uygun "Altın Kaymak"lı yoğurdu ve makarnadan çorbaya birçok yemekte kullanılan sıvı kreması yer alır. Kaliteli süt kullanımı ve değişmeyen lezzet standardıyla premium süt ürünleri segmentinin liderlerinden biridir.
+
+Tarihsel süreçte önce Sabancı Holding bünyesine katılan marka, daha sonra gerçekleşen ortaklıklar ve satın almalar sonucunda Fransız gıda devi Danone'nin portföyüne girmiştir. Günümüzde üretim ve dağıtımı Danone Türkiye tarafından yönetilmektedir.`,
+     country: "Fransa",
+     website: "https://www.danone.com.tr/markalarimiz/sutlu-urunler/tikvesli",
+     img: "/tikvesli.png",
+     isBoycotted: "boykot",
+     boycottReason: `Tikveşli'nin sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     alternative_products: ["sutas", "pinar"],
+    }, {
+     name: "Activia",
+     slug: "activia",
+     ctgry: "İçecek",
+     foundedYear: 1987,
+     founder: "",
+     owner: "Danone",
+     description: `Activia, 1987 yılında Fransa'da Groupe Danone tarafından piyasaya sürülen ve dünya genelinde probiyotik yoğurt kategorisinin öncüsü kabul edilen bir markadır. Sindirim sağlığını desteklemek amacıyla geliştirilen bu fonksiyonel gıda, Danone araştırmacılarının 1980'lerde yürüttüğü bilimsel çalışmaların bir ürünüdür.
+
+     Markanın en ayırt edici özelliği, içeriğinde bulunan ve mide asidine karşı dayanıklı olması için özel olarak geliştirilen probiyotik bakteri suşudur (Bifidus). Geleneksel yoğurt bakterilerine ek olarak kullanılan bu özel maya, sindirim sisteminin düzenli çalışmasına katkıda bulunmayı hedefler.
+     
+     Günümüzde 5 kıtada ve 70'ten fazla ülkede satışa sunulan Activia, sade, meyveli, tahıllı ve içilebilir versiyonlarıyla geniş bir ürün yelpazesine sahiptir. Hem lezzetli bir atıştırmalık hem de sağlıklı yaşamın bir parçası olarak global pazarda lider konumdadır.`,
+     country: "Fransa",
+     website: "https://www.activiaturkiye.com/activia-dunyasini-kesfet/",
+     img: "/activia.png",
+     isBoycotted: "boykot",
+     boycottReason: `Activia'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+    },
+    {
      name: "Bonafont",
      slug: "bonafont",
      ctgry: "İçecek",
@@ -2436,7 +4075,7 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
       {
        name: "Fortini",
        slug: "fortini",
-       ctgry: "Bebek & Çocuk Gıda",
+       ctgry: "Bebek & Çocuk",
        foundedYear: null,
        founder:
         "Nutricia (Johannes van der Hagen ve Martinus van der Hagen)",
@@ -2507,7 +4146,7 @@ Danone, tüm yaşam evrelerinde sağlık ve beslenme alanında dünya lideri ola
     {
      name: "Bledina",
      slug: "bledina",
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      foundedYear: null,
      founder: "Danone",
      owner: "Danone",
@@ -2833,7 +4472,7 @@ Alpro, bitki sütü ve süt ürünlerine alternatifler üretmektedir ve dünya �
     {
      name: "Cow & Gate",
      slug: "cow-gate",
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      foundedYear: 1888,
      founder: "Charles Arthur Gates ve Leonard Gates",
      owner: "Danone (Numico)",
@@ -2855,37 +4494,9 @@ Yerel çiftçilerden süt satın almışlar, "süt ayırıcı" kullanarak krema 
      boycottReason: `Cow & Gate'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
     },
     {
-     name: "Nutricia",
-     slug: "nutricia",
-     ctgry: "Bebek & Çocuk Gıda",
-     foundedYear: 1896,
-     founder: "Martin van der Hagen",
-     owner: "Danone",
-     description: `Nutricia, Danone grubunun bir parçasıdır ve terapötik gıda ve klinik beslenme alanında uzmanlaşmıştır. Ürün yelpazesi, özel ihtiyaçları olan bebekler için bebek formülünden emziren anneler için özel beslenmeye kadar uzanmaktadır. Ayrıca özel klinik beslenme, diyet ürünleri ve hastalığa özgü beslenme üretmekte ve pazarlamaktadır.
-
-Nutricia'nın öncülü olan De Stoomzuivelfabriek, 1896 yılında Zoetermeer, Hollanda'da kurulmuş ve 1901 yılında Nutricia adını almıştır. Şirket, tıbbi beslenme ürünleri geliştirmeye başlamış ve daha sonra bebek gıdası pazarına girmiştir.
-
-II. Dünya Savaşı'ndan sonra Nutricia, gıda ürünlerinin bilimsel gelişimine odaklanmıştır. 1946 yılında ilk araştırma ve geliştirme merkezi açılmış ve sütten kesme için bebek gıdası tanıtılmıştır. 1950'lerden itibaren beslenme uzmanları, şirket uzmanları ve pediatristler, yaşamın ilk yılı boyunca uygun bebek beslenmesi konusunda eğitim çalışmalarına başlamıştır.
-
-1960'larda teknik keşifler, hastaneler için özel gıdaların geliştirilmesine yol açmış ve ciddi beslenme sorunları olan kronik hasta insanlar için kapsamlı bir çözüm olan Nutri 2000 lansman yapılmıştır.
-
-1981 yılında Cow & Gate, Nutricia tarafından satın alınmıştır. Milupa, 1903 yılında Bad Homburg vor der Höhe'de bir endüstriyel fırının halefi olarak kurulmuş, başlangıçta ekmek ve çikolata üretimine odaklanmış, daha sonra bebek gıdasına geçmiş ve 1995 yılında Nutricia tarafından satın alınmıştır.
-
-1998 yılında Nutricia, Milupa ve Cow & Gate'den oluşan grup "NUMICO" adını almıştır. 2007 yılında Fransız rakibi Danone, NUMICO için 12,3 milyar avroluk bir teklif sunmuş ve NUMICO'nun yönetim kurulu tarafından kabul edilmiştir. 31 Ekim 2007'de Danone, NUMICO'nun %90'ından fazlasına sahip olduğunu açıklamış ve kalan hisseler için koşulsuz bir teklif yapmıştır.
-
-Satın alma sonucunda NUMICO, AEX endeksinden çıkarılmış ve 2007 sonunda Danone'nin tam kontrolü ele geçirmesinin ardından Amsterdam Borsası'ndan delist edilmiştir. Daha önce NUMICO'ya ait olan Milupa, Nutricia ve Cow & Gate markaları, Danone'nin kontrolü altına girmiştir.
-
-Nutricia, günümüzde Amsterdam, Hollanda merkezli bir şirket olarak faaliyet göstermektedir ve 2010 yılı itibarıyla 1,055 milyar avro gelir elde etmiştir.`,
-     country: "Hollanda",
-     website: "https://www.nutricia.com.tr/",
-     img: "/nutricia.png",
-     isBoycotted: "boykot",
-     boycottReason: `Nutricia'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
-    },
-    {
      name: "Milupa",
      slug: "milupa",
-     ctgry: "Bebek & Çocuk Gıda",
+     ctgry: "Bebek & Çocuk",
      foundedYear: 1921,
      founder: "Emil Pauli",
      owner: "Danone (Nutricia)",
@@ -2911,7 +4522,7 @@ Milupa, bebek gıdası üretiminde 80 yıldan fazla deneyime sahiptir. Günümü
       {
        name: "Aptamil",
        slug: "aptamil",
-       ctgry: "Bebek & Çocuk Gıda",
+       ctgry: "Bebek & Çocuk",
        foundedYear: null,
        founder: "Danone",
        owner: "Danone",
@@ -2931,7 +4542,7 @@ Aptamil, Danone'nin global bebek beslenmesi portföyünün bir parçası olarak,
       {
        name: "Bebelac",
        slug: "bebelac",
-       ctgry: "Bebek & Çocuk Gıda",
+       ctgry: "Bebek & Çocuk",
        foundedYear: null,
        founder: "Danone",
        owner: "Danone",
@@ -2951,7 +4562,7 @@ Bebelac, Milupa'nın bebek formülü markaları (Bebelac, Aptamil, Milumil), ço
       {
        name: "Milumil",
        slug: "milumil",
-       ctgry: "Bebek & Çocuk Gıda",
+       ctgry: "Bebek & Çocuk",
        foundedYear: null,
        founder: "Danone",
        owner: "Danone",
@@ -3020,26 +4631,6 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
       "https://www.instagram.com/reel/C3KQPqlip1n/?igsh=ZjZnazcyOHphY2Nn",
       "https://www.gazetebirlik.com/yasam/birsah-sut-boykot-urunu-mu-kimin-israilin-mi-turk-mali-mi-neden-boykot-edildi-sahte-mi/264720",
      ],
-    },
-    {
-     name: "Activia",
-     slug: "activia",
-     foundedYear: 1987,
-     ctgry: "Yiyecek ve İçecek",
-     founder: "Danone",
-     owner: "Groupe Danone (Danone)",
-     country: "Fransa",
-     alternative_products: [],
-     img: "/activia.png",
-     isBoycotted: "boykot",
-     website: "https://www.activiaturkiye.com/",
-     description: `Activia, 1987 yılında Fransa'da tanıtılan, Groupe Danone'ye (ABD'de Dannon Company olarak bilinir) ait bir yoğurt markasıdır. 2013 itibarıyla Activia, 70'ten fazla ülkede ve 5 kıtada mevcuttur.
-  
-  Activia, sindirim sağlığını iyileştirmek için tasarlanmış fonksiyonel bir gıda olarak sınıflandırılmaktadır. 1980'lerde Danone araştırmacıları bifido bakterileriyle ilgilenmiş ve yoğurdun asidik ortamında hayatta kalabilen özel bir suş geliştirmişlerdir. Geleneksel yoğurt bakterilerine ek olarak, probiyotik bir suş eklemeye karar vermişlerdir.
-  
-  Activia, probiyotik yoğurt ve probiyotik içecek çeşitleriyle tüketicilere sunulmaktadır. Marka, sindirim sağlığına odaklanan fonksiyonel gıda kategorisinde öncü bir konumdadır.`,
-     boycottReason: `Activia'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
-     evidences: [],
     },
     {
      name: "Sırma",
@@ -3161,36 +4752,6 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
       "buzdagi",
      ],
     },
-    {
-     name: "Evian",
-     slug: "evian",
-     ctgry: "İçecek",
-     foundedYear: 1826,
-     founder: "Cachat Ailesi",
-     owner: "Danone Group",
-     description: `Evian, Cenevre Gölü'nün güney kıyısında, Évian-les-Bains yakınlarındaki çeşitli kaynaklardan gelen bir şişelenmiş su markasıdır. Marka, 1826 yılında Cachat ailesi tarafından keşfedilmiş ve dünya çapında tanınan premium su markalarından biri haline gelmiştir. Evian, yüksek mineral içeriği ve saflığı ile küresel çapta tanınmıştır.
-  
-  Markanın en önemli özelliklerinden biri, suyunun Fransa'nın Alp Dağları'ndan gelen doğal kaynaklardan elde edilmesidir. Bu kaynaklar, binlerce yıllık doğal filtrasyon sürecinden geçerek mineral açısından zengin ve saf bir su sağlamaktadır. Evian'ın suyu, özellikle kalsiyum, magnezyum ve potasyum gibi mineraller açısından zengindir.
-  
-  Evian, günümüzde Fransız çok uluslu şirket Danone'ye aittir. Şişelenmiş suya ek olarak Danone, Evian adını bir dizi organik cilt bakım ürünü ve Fransa'daki lüks bir tatil yeri için de kullanmaktadır. Evian, Fransa, Amerika Birleşik Devletleri, Belçika, İsviçre ve Rusya gibi birçok ülkede satılmakta olup, Türkiye'de ise Migros tarafından satılmaktadır.
-  
-  Marka, özellikle lüks segmentte konumlandırılmıştır ve premium restoranlar, oteller ve özel etkinliklerde tercih edilmektedir. Evian, dünya çapında tanınan bir premium su markası olarak, kalite ve doğallık konusundaki itibarını korumaktadır. Marka, sürdürülebilirlik konusunda da önemli adımlar atmaktadır ve çevre dostu ambalajlama kullanmaktadır.
-  
-  Evian, özellikle sağlık bilincine sahip tüketiciler ve lüks yaşam tarzını benimseyen bireyler arasında popülerlik kazanmaktadır. Marka, doğal mineralli suyun sağlığa faydaları ve ferahlatıcı özellikleri ile pazarlanmaktadır.`,
-     country: "Fransa",
-     website: "https://www.evian.com/en_us",
-     img: "/",
-     isBoycotted: "boykot",
-     boycottReason: `Evian'ın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
-     alternative_products: [
-      "kizilay",
-      "beypazari",
-      "sarikiz",
-      "ozkaynak",
-      "buzdagi",
-      "ceysu",
-     ],
-    },
    ],
   },
   {
@@ -3208,10 +4769,11 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
    description: `Nestlé, merkezi İsviçre'nin Vevey şehrinde bulunan dünyanın en büyük yiyecek ve içecek üreticisidir. Nestlé, çikolata ürünlerinden kahveye, süt ürünlerinden evcil hayvan mamalarına kadar geniş bir ürün yelpazesine sahiptir.
 
 Nestlé, 1866 yılında İsviçre'de Alman eczacı ve şekerlemeci Henri Nestlé tarafından kurulmuştur. Henri Nestlé, Eylül 1866'da süt, un ve şeker karışımından oluşan "Farine Lactée Henri Nestlé" adlı bebek gıdasını üretmiştir. Bu ürün, bebeklerin yapay beslenmesi için tasarlanmıştır ve anne sütü yerine geçmemektedir. Ürün, birkaç yıl sonra İsviçre ve birçok Avrupa ülkesinde satılmaya başlanmıştır.
-
+   
 1875 yılında Henri Nestlé, İsviçreli çikolata mucidi Daniel Peter ile işbirliği yaparak çikolata üretimine başlamıştır. 1904 yılında Nestlé, çikolata üretimine başlamış ve kısa sürede dünya çapında çikolata üretiminde lider konuma gelmiştir. 1930'larda Brezilya hükümetinin isteği üzerine kahve araştırmalarına başlayan Nestlé, sekiz yıl sonra kahve tozunu keşfetmiş ve Nescafé markasını piyasaya sürmüştür.
+   
+Nestlé, bugün 190 ülkede faaliyet göstermekte olup 2000'den fazla markayı bünyesinde barındırmaktadır. Şirketin geniş ürün yelpazesinde; kahve kategorisinde Nescaf ve Nespresso, su grubunda Nestlé Pure Life ve Erikli, çikolata ve şekerlemede KitKat, Damak ve Crunch, kahvaltılık gevrek ve içeceklerde Nesquik gibi ikonik markalar yer alır. Ayrıca SMA bebek mamaları, Maggi bulyonları ve evcil hayvanlar için Pro Plan ile Felix gibi ürünlerle tüketicilerin hayatının her alanına dokunmaktadır.`,
 
-Nestlé, 190 ülkede faaliyet göstermekte, yaklaşık 500 fabrika ve 330.000 çalışanı bulunmaktadır. Şirket, bebek gıdası, kahve, şişelenmiş su, kahvaltılık gevrekler, çikolata, hazır kahve, dondurma, kedi ve köpek maması gibi çok çeşitli ürünler üretmektedir. Nestlé, aynı zamanda dünyanın en büyük çikolata ve şekerleme üreticisi olup, diyabet hastalarına ilaç satan en büyük şirketlerden biridir.`,
    boycottReason: `Nestlé'nin boykot edilmesinin temel nedeni, şirketin İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Nestlé, İsrail'in en büyük gıda üreticilerinden ve distribütörlerinden biri olan Osem Investments'ın sahibidir. Osem Investments, İsrail pazarında önemli bir konuma sahiptir ve İsrail ekonomisine önemli katkılar sağlamaktadır.
 
 Ayrıca, Nestlé'nin Gazze Şeridi'ne yaklaşık 2 km uzaklıktaki Sderot'ta bir Araştırma ve Geliştirme Merkezi bulunmaktadır. Bu merkez, İsrail'in yasadışı yerleşimlerine yakın bir konumda faaliyet göstermektedir. Yasadışı İsrail yerleşimlerinde üretim yapmak ve faaliyet göstermek, boykot edilmesine neden olmaktadır.
@@ -3220,28 +4782,9 @@ Nestlé'nin İsrail ile olan bu güçlü ticari bağlantıları ve İsrail'in ya
 
 Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek isteyen ve İsrail'in işgalci politikalarına karşı duran tüketiciler, Nestlé'yi boykot etmeyi bir sorumluluk olarak görmektedir. Nestlé'nin Osem Investments sahipliği ve Sderot'taki araştırma merkezi, boykot kararını destekleyen temel faktörlerdir.`,
    evidences: [
-    "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+    "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000", "https://www.foodnavigator.com/Article/2016/02/04/Nestle-buys-out-Israeli-food-manufacturer-Osem-for-752m/#:~:text=Food%20giant%20Nestl%C3%A9%20has%20agreed,publically%20traded%20food%20manufacturer%20private."
    ],
    subBrands: [
-    {
-     name: "Purina",
-     slug: "purina",
-     foundedYear: 1986,
-     ctgry: "Pets",
-     founder: "Ralston Purina",
-     owner: "Nestlé",
-     country: "İsviçre",
-     alternative_products: [],
-     img: "/purina.png",
-     isBoycotted: "boykot",
-     website: "https://www.purina.com.tr/",
-     description: `Purina, evcil hayvan beslenmesi konusunda dünya çapında lider markalardan biridir. Orijinal olarak Amerika Birleşik Devletleri'nde Ralston Purina adıyla faaliyet gösteren şirket, günümüzde İsviçre merkezli gıda devi Nestlé'nin iştiraki olan "Nestlé Purina PetCare" çatısı altında üretim yapmaktadır.
-
-     Markanın en bilinen serilerinden biri olan Purina ONE, 1986 yılında Ralston Purina tarafından piyasaya sürülen "ilk süper premium evcil hayvan maması" olma özelliğini taşır. İçeriğinde gerçek et, tahıl ve mısır gibi besin kaynaklarını kullanan marka, doğal bileşenlere odaklanan "Doğal Karışımlar" gibi yenilikçi serileriyle de tanınmaktadır.
-     
-     Kedi ve köpekler için bilimsel araştırmalara dayalı, besleyici ve kaliteli mamalar üreten Purina; Pro Plan, Felix, Friskies ve Gourmet gibi birçok popüler alt markayı da bünyesinde barındırmaktadır. Nestlé bünyesinde faaliyet gösterdiği için global dağıtım ağında güçlü bir konuma sahiptir.`,
-     boycottReason: `Purina'ınn sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
-    },
     {
      name: "Pingviini (Penguen)",
      slug: "penguin",
@@ -3260,6 +4803,9 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
      
      Mülkiyet yapısı incelendiğinde, marka 2004 yılında küresel gıda devi Nestlé tarafından satın alınmıştır. Ancak 2016 yılında Nestlé, dondurma operasyonlarını İngiliz R&R şirketi ile birleştirerek "Froneri" adında dev bir ortak girişim kurmuştur. Günümüzde Pingviini, bu ortaklık yapısı olan Froneri Finlandiya bünyesinde faaliyetlerine devam etmektedir.`,
      boycottReason: `Pingviini (Penguin) markası, teknik olarak Froneri firmasına aittir. Ancak Froneri, küresel gıda devi Nestlé ile İngiliz R&R Ice Cream şirketinin birleşmesiyle kurulan bir ortak girişimdir (Joint Venture). Nestlé'nin bu şirketteki kurucu ortaklığı ve büyük hissedarlığı nedeniyle, Nestlé boykotu kapsamında hassasiyet gösteren tüketiciler için bu marka da boykot kategorisinde değerlendirilmektedir.`,
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
     },
     {
      name: "Perrier",
@@ -3280,6 +4826,9 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       "sarikiz",
       "ozkaynak",
       "buzdagi",
+     ],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
      ],
     },
     {
@@ -3303,31 +4852,13 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       "ozkaynak",
       "buzdagi",
      ],
-    },
-    {
-     name: "Nesquik",
-     slug: "nesquik",
-     ctgry: "Yiyecek ve İçecek",
-     foundedYear: 1948,
-     founder: "Nestlé",
-     owner: "Nestlé S.A.",
-     country: "İsviçre",
-     website:
-      "https://www.nestle.com.tr/markalarimiz/nesquik/nestlenesquik",
-     img: "/nesquik.png",
-     isBoycotted: "boykot",
-     description: `Nesquik, Nestlé'ye ait olan kahvaltılık gevrek ve aromalı süt markasıdır. 1948 yılında Nestlé, Amerika'da çikolata aromalı süt karışımı olan "Nestle Quik" adlı ürünü üretmiştir.
-
-1950'lerde bu karışım Avrupa'da satılmaya başlanmıştır. 1999 yılında dünya çapında "Nesquik" adıyla bilinir hale gelmiştir. Günümüzde Nesquik markası, kahvaltılık gevrekler, süt için toz karışımlar, hazır gıda ürünleri ve şeker çubukları gibi geniş bir ürün yelpazesini kapsamaktadır.
-
-Nesquik, kökeni Vevey, İsviçre olan Nestlé tarafından geliştirilmiş ve dünya çapında satılan uluslararası bir markadır. Markanın sloganı "Sütü sevdirir" olarak bilinmektedir.`,
-     boycottReason: `Nesquik'in sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
-     evidences: [],
-     alternative_products: [],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
     },
     {
      name: "Polo",
-     slug: "polo",
+     slug: "polo-nestle",
      ctgry: "Yiyecek",
      foundedYear: 1948,
      founder: "John Bargewell (Rowntree's)",
@@ -3370,6 +4901,9 @@ Polo, Nestlé S.A. tarafından satın alınan Rowntree's portföyünün bir par�
      isBoycotted: "boykot",
      boycottReason: `Nescafé'nin sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
      alternative_products: ["dogus", "ofcay", "caykur"],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
     },
     {
      name: "Caro | Pero",
@@ -3386,6 +4920,9 @@ Polo, Nestlé S.A. tarafından satın alınan Rowntree's portföyünün bir par�
      isBoycotted: "boykot",
      boycottReason: `Caro'nun sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
      alternative_products: ["dogus", "ofcay", "caykur"],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
     },
     {
      name: "Erikli",
@@ -3394,7 +4931,11 @@ Polo, Nestlé S.A. tarafından satın alınan Rowntree's portföyünün bir par�
      foundedYear: 1960,
      founder: "Nuri Nihat Aslanoba",
      owner: "Nestlé Waters Türkiye",
-     description: `Erikli Su, 1960 yılında Nuri Nihat Aslanoba tarafından kurulan yerli bir markadır. Kuruluşundan bu yana Türkiye’de güvenilir bir içme suyu markası olarak öne çıkmıştır. Ancak 2006 yılında Nestlé Waters ile ortaklık kurmuş ve hisselerinin bir kısmı devredilmiştir. Günümüzde Erikli Su, Nestlé Waters Türkiye bünyesinde faaliyet göstermeye devam etmektedir.`,
+     description: `Erikli Su, 1960'ların ortalarında Nuri Nihat Aslanoba tarafından Bursa'da temelleri atılan ve adını kaynağının bulunduğu Uludağ'ın zirvesindeki Erikli Yaylası'ndan alan köklü bir markadır. Binlerce yıllık jeolojik oluşumların filtrelediği Uludağ'ın kar ve yağmur sularını, el değmeden şişeleyerek tüketicilere sunmasıyla bilinir. Kendine has yumuşak içimi ve lezzetiyle kısa sürede Türkiye'nin en çok tercih edilen ve güvenilen ambalajlı su markası haline gelmiştir.
+
+     Sektördeki liderliğini uzun yıllardır koruyan Erikli, sadece bir su markası olmanın ötesinde, Türkiye'nin en geniş ev ve ofis dağıtım ağına sahip organizasyonlarından biridir. Yüksek teknolojili dolum tesisleri ve geniş araç filosu ile Türkiye'nin dört bir yanına ulaşan marka, "Türkiye'nin en sevilen suyu" olma unvanını taşımaktadır. Aile şirketi olarak başladığı yolculukta, kurumsallaşma adımlarıyla dev bir endüstriyel güce dönüşmüştür.
+     
+     Markanın tarihindeki en önemli dönüm noktası, 2006 yılında küresel gıda ve içecek devi Nestlé Waters ile gerçekleştirdiği stratejik ortaklıktır. Bu birleşme ile Erikli, yerli bir marka olarak başladığı serüvenine uluslararası bir güçle devam etme kararı almıştır. Zamanla hisse yapısındaki değişimlerle birlikte Erikli, günümüzde tamamen Nestlé Waters Türkiye çatısı altında faaliyet göstermekte olup, operasyonları ve sermaye yapısı global Nestlé grubu tarafından yönetilmektedir.`,
      country: "İsviçre",
      website: "https://www.erikli.com.tr/",
      img: "/erikli.png",
@@ -3412,20 +4953,26 @@ Polo, Nestlé S.A. tarafından satın alınan Rowntree's portföyünün bir par�
       "sarikiz",
       "beypazari",
      ],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
     },
     {
-     name: "Nestle Pure Life",
-     slug: "nestle-pure-life",
+     name: "Alaçam",
+     slug: "alacam",
      ctgry: "İçecek",
-     foundedYear: 1998,
-     founder: "Nestlé S.A.",
-     owner: "Nestlé S.A.",
-     description: `Nestlé Pure Life, dünya genelinde yaygın olarak satılan bir şişelenmiş su markasıdır. Marka, 1998 yılında İsviçre merkezli Nestlé şirketi tarafından piyasaya sürülmüş ve kısa sürede birçok ülkede yaygınlaşmıştır. Su, farklı bölgelerdeki yerel kaynaklardan elde edilir ve çeşitli minerallerle zenginleştirilerek şişelenir. Nestlé Pure Life, özellikle temiz ve güvenilir içme suyu olarak pazarlanmakta olup, farklı ambalaj boyutlarıyla tüketicilere sunulmaktadır.`,
-     country: "İsviçre",
-     website: "https://www.nestlepurelife.com/tr/tr-tr",
-     img: "/nestle-pure-life.png",
+     foundedYear: 1995,
+     founder: "Yerel Girişim",
+     owner: "Nestlé Waters Türkiye",
+     description: `Alaçam, adını ve kaynağını Bursa'nın Kestel ilçesine bağlı Alaçam bölgesinden alan, lezzetini Uludağ'ın zengin mineralli yapısından kazanan doğal bir kaynak suyudur. Yumuşak içimi ve bölgesel bilinirliği ile öne çıkan marka, Bursa ve çevresinin önemli su değerlerinden biridir.
+
+     Markanın ticari yolculuğu, Türkiye su pazarının lideri Erikli ile birleşmesiyle yeni bir boyut kazanmıştır. Daha sonra Erikli A.Ş.'nin, küresel su ve gıda devi Nestlé Waters ile yaptığı stratejik ortaklık ve hisse devri sonucunda, Alaçam markası da Nestlé'nin geniş marka portföyüne dahil olmuştur.
+     
+     Günümüzde Nestlé Waters Türkiye organizasyonu tarafından yönetilen Alaçam, üretim ve dolum süreçlerinde Nestlé'nin global kalite ve hijyen standartlarına göre faaliyet göstermektedir.`, country: "İsviçre",
+     website: "",
+     img: "/erikli.png",
      isBoycotted: "boykot",
-     boycottReason: `Nestlé Pure Life markasının sahibi olan Nestlé, İsrail merkezli Osem şirketinin kontrol hissesine sahiptir. Osem, işgal altındaki Filistin'de faaliyet gösteren bir gıda üreticisidir ve Nestlé, Osem'in %53,8'ine sahip bir İsviçreli çok uluslu yiyecek ve içecek şirketidir. Ayrıca Nestlé'nin, Gazze Şeridi'ne yaklaşık 2 km uzaklıktaki Sderot yerleşiminde bir Araştırma ve Geliştirme Merkezi bulunmaktadır. Bu bağlantılar nedeniyle, bazı çevreler Nestlé Pure Life ve Nestlé ürünlerini boykot etmektedir.`,
+     boycottReason: `Alaçam'ın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
      alternative_products: [
       "hamidiye",
       "beysu",
@@ -3437,6 +4984,239 @@ Polo, Nestlé S.A. tarafından satın alınan Rowntree's portföyünün bir par�
       "ceysu",
       "sarikiz",
       "beypazari",
+     ],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Nesfit",
+     slug: "nesfit",
+     ctgry: "Yiyecek",
+     foundedYear: 1996,
+     founder: "Nestlé & General Mills (Cereal Partners Worldwide)",
+     owner: "Nestlé S.A.",
+     description: `Nesfit, 1996 yılında Nestlé tarafından (global pazarda "Fitness" adıyla) piyasaya sürülen ve "formda kalma" konseptiyle özdeşleşmiş bir kahvaltılık gevrek markasıdır. Tam tahıllı buğday ve yulaf içeriğiyle lif kaynağı sunmayı hedefleyen marka, özellikle sağlıklı beslenmeye ve kilo kontrolüne özen gösteren tüketiciler için geliştirilmiştir.
+
+İçeriğinde B vitaminleri, kalsiyum ve demir gibi mineraller barındıran Nesfit, güne hafif ve besleyici bir başlangıç yapmak isteyenlerin favorisi haline gelmiştir. Klasik sade gevreğin yanı sıra kırmızı meyveli, çikolatalı, ballı bademli gibi çeşitleri ve gün içi atıştırmalık olarak tüketilen tam tahıllı barlarıyla geniş bir ürün yelpazesine sahiptir.
+
+Türkiye pazarında kahvaltılık gevrek kategorisinin en bilinen markalarından biri olan Nesfit, ambalajlarındaki "Tam Tahıl Garantisi" vurgusuyla dikkat çeker. Nestlé'nin global beslenme stratejisinin bir parçası olarak, aktif yaşam tarzını destekleyen bir marka kimliğiyle raflarda yer almaktadır.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/kahvaltilik-gevrekler/nesfit",
+     img: "/nesfit.png",
+     isBoycotted: "boykot",
+     boycottReason: `Nesfit'in sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: ["eti"],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Cheerios",
+     slug: "cheerios",
+     ctgry: "Yiyecek",
+     foundedYear: 1941,
+     founder: "General Mills (Global Ortak: Nestlé)",
+     owner: "Nestlé S.A. (ABD dışında)",
+     description: `Cheerios, 1941 yılında piyasaya sürülen ve dünyanın en ikonik kahvaltılık gevreklerinden biridir. İlk olarak "CheeriOats" adıyla çıkan ürün, kendine has "O" şekli ve yulaf bazlı içeriğiyle bilinir. Özellikle kalp sağlığına dost, kolesterolü düşürmeye yardımcı tam tahıllı yapısıyla kahvaltı sofralarının vazgeçilmezidir.
+
+Nestlé ve General Mills ortaklığı (Cereal Partners Worldwide) sayesinde dünya genelinde dağıtılan Cheerios, ballı (Honey Nut), çok tahıllı ve sade gibi çeşitleriyle hem çocuklara hem de yetişkinlere hitap eder. Yüksek lif oranı ve düşük şeker seçenekleriyle sağlıklı bir kahvaltı alternatifi olarak konumlanmıştır.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/kahvaltilik-gevrekler/cheerios",
+     img: "/cheerios.png",
+     isBoycotted: "boykot",
+     boycottReason: `Cheerios, Amerika dışında Nestlé tarafından üretilip dağıtılmaktadır. Markanın sahibi Nestlé'nin İsrail'deki yatırımları ve politik duruşu nedeniyle boykot listesinde yer almaktadır.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Nesquik",
+     slug: "nesquik",
+     ctgry: "Yiyecek",
+     foundedYear: 1948,
+     founder: "Nestlé",
+     owner: "Nestlé S.A.",
+     description: `Nesquik, 1948 yılında Amerika'da "Nestlé Quik" adıyla başlayan serüveninde, çocuklara sütü sevdirmeyi amaçlayan dünyanın en popüler kakaolu içecek ve gevrek markasıdır. İkonik tavşan maskotu "Quickly" (veya bugünkü adıyla Quicky) ile özdeşleşen marka, kahvaltıyı eğlenceli bir deneyime dönüştürür.
+
+Nesquik kahvaltılık gevrekleri, sütün rengini çikolatalı süte dönüştüren özelliğiyle çocukların favorisidir. Tam tahıl, B vitaminleri, demir ve kalsiyum ile zenginleştirilmiş formülü sayesinde, çocukların güne enerjik başlamasına katkıda bulunmayı hedefler. Sadece toz içecek ve gevrek değil, gofret ve hazır içecek formatlarında da sunulmaktadır.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/kahvaltilik-gevrekler/nesquik",
+     img: "/nesquik.png",
+     isBoycotted: "boykot",
+     boycottReason: `Nesquik'in sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Crunch",
+     slug: "crunch",
+     ctgry: "Yiyecek",
+     foundedYear: 1938,
+     founder: "Nestlé",
+     owner: "Nestlé S.A.",
+     description: `Crunch, 1938 yılında Nestlé tarafından piyasaya sürülen ve çıtır pirinç patlakları ile sütlü çikolatanın eşsiz uyumunu sunan klasik bir markadır. "Çıtırdat" sloganıyla bilinen ürün, hem tablet çikolata hem de kahvaltılık gevrek formatında tüketicilere sunulmaktadır.
+
+Crunch kahvaltılık gevreği, markanın imza niteliğindeki pirinç patlağı ve çikolata lezzetini kaseye taşır. Sütle buluştuğunda çıtırlığını uzun süre korumasıyla bilinir. Eğlenceli ve ses getiren bir kahvaltı deneyimi arayan gençler ve çocuklar için geliştirilmiştir.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/crunchr",
+     img: "/crunch.png",
+     isBoycotted: "boykot",
+     boycottReason: `Crunch'ın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Chokella",
+     slug: "chokella",
+     ctgry: "Yiyecek",
+     foundedYear: 1990,
+     founder: "Nestlé",
+     owner: "Nestlé S.A.",
+     description: `Chokella, Nestlé'nin fındık kreması lezzetini kahvaltılık gevrekle birleştirdiği özel bir üründür. Minik kızarmış ekmek dilimlerine benzeyen şekli ve içindeki yoğun çikolatalı fındık dolgusuyla diğer gevreklerden ayrılır.
+
+Çıtır dış kabuğu ve içindeki yumuşak dolgusuyla "gevrek içinde çikolata" deneyimi sunar. Sütle tüketildiğinde hem doyurucu hem de tatlı ihtiyacını karşılayan bir kahvaltı alternatifi olarak öne çıkar. Özellikle çikolatalı fındık kreması sevenler için tasarlanmıştır.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/chokella",
+     img: "/chokella.png",
+     isBoycotted: "boykot",
+     boycottReason: `Chokella'nın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Gold Corn Flakes",
+     slug: "gold-corn-flakes",
+     ctgry: "Yiyecek",
+     foundedYear: 1894,
+     founder: "Nestlé",
+     owner: "Nestlé S.A.",
+     description: `Gold Corn Flakes, Nestlé'nin klasik mısır gevreği pazarındaki temsilcisidir. Fırınlanmış mısırların altın sarısı rengini ve çıtırlığını sofralara taşıyan ürün, kahvaltıda sadelikten ve hafiflikten yana olanların tercihidir.
+
+Ballı ve yer fıstıklı çeşitleri de bulunan Gold Corn Flakes, glutensiz beslenenler için de uygun bir karbonhidrat kaynağıdır (etiket kontrolü önerilir). Süt veya yoğurtla karıştırılarak güne zinde bir başlangıç yapmak isteyenler için vitamin ve minerallerle zenginleştirilmiştir.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/kahvaltilik-gevrekler/goldflakes",
+     img: "/gold-corn-flakes.png",
+     isBoycotted: "boykot",
+     boycottReason: `Gold Corn Flakes'ın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Koko Krunch",
+     slug: "koko-krunch",
+     ctgry: "Yiyecek",
+     foundedYear: 1980,
+     founder: "Nestlé",
+     owner: "Nestlé S.A.",
+     description: `Koko Krunch, özellikle Asya ve Orta Doğu pazarında çok popüler olan, ayı şeklindeki taneleriyle bilinen yoğun çikolatalı bir kahvaltılık gevrektir. "Koko" isimli koala maskotuyla çocukların ilgisini çeker.
+
+Tam tahıl içeriğiyle lif kaynağı olan ürün, yoğun çikolata tadıyla sütün lezzetini değiştirir. İçeriğindeki B vitaminleri, demir ve kalsiyum ile çocukların gelişimini desteklemeyi amaçlar. Çıtır yapısı ve eğlenceli şekliyle kahvaltıyı keyifli bir öğün haline getirir.`,
+     country: "İsviçre",
+     website: "https://www.nestle-cereals.com/tr/kahvaltilik-gevrekler/koko-krunch",
+     img: "/koko-krunch.png",
+     isBoycotted: "boykot",
+     boycottReason: `Koko Krunch'ın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: ["eti"],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Damak",
+     slug: "damak",
+     ctgry: "Yiyecek",
+     foundedYear: 1933,
+     founder: "Nestlé Türkiye",
+     owner: "Nestlé S.A.",
+     description: `Nestlé Damak, 1933 yılında Türkiye'de üretilen ilk Antep fıstıklı çikolata olma özelliğiyle Türk gıda tarihinin en ikonik markalarından biridir. "Türkiye'nin çikolatası" olarak anılan Damak, meşhur beyaz ambalajı, çıtır Antep fıstıkları ve ipeksi sütlü çikolatasının eşsiz uyumuyla nesillerdir değişmeyen bir lezzet klasiği haline gelmiştir.
+
+Marka, sadece bir çikolata olmanın ötesinde, Antep fıstığı tarımının sürdürülebilirliği için de çalışmalar yürütmektedir. 2011 yılından bu yana TEMA Vakfı iş birliğiyle yürütülen "Fıstığımız Bol Olsun" projesi ile Gaziantep ve çevresindeki fıstık üretiminin verimini ve kalitesini artırmayı hedefleyen sosyal sorumluluk projelerine imza atmaktadır.
+
+Klasikleşen sütlü çikolatalı versiyonunun (Damak Klasik) yanı sıra; bitter severler için "Damak Gece", beyaz çikolata sevenler için "Damak İnci" ve geleneksel Türk tatlılarından ilham alan "Damak Baklava" gibi çeşitleriyle ürün portföyünü sürekli zenginleştirmektedir.`,
+     country: "İsviçre",
+     website: "https://www.nestle.com.tr/markalarimiz/damak",
+     img: "/damak.png",
+     isBoycotted: "boykot",
+     boycottReason: `Damak'ın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: ["eti-antep-fistikli", "torku-antep-fistikli", "ulker-fistikli"],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Kit Kat",
+     slug: "kit-kat",
+     ctgry: "Yiyecek",
+     foundedYear: 1935,
+     founder: "Rowntree's (York, İngiltere)",
+     owner: "Nestlé S.A.",
+     description: `KitKat, 1935 yılında İngiltere'de Rowntree's firması tarafından "Rowntree's Chocolate Crisp" adıyla piyasaya sürülen ve daha sonra dünyanın en ünlü gofretli çikolatalarından biri haline gelen global bir markadır. "Have a break, have a KitKat" (Bir mola ver, KitKat ye) sloganıyla özdeşleşen ürün, çıtır gofret katmanlarının sütlü çikolatayla kaplanmasıyla oluşan dört parmaklı (4-finger) formatıyla tanınır.
+
+1988 yılında Nestlé'nin Rowntree's firmasını satın almasıyla Nestlé bünyesine katılan marka, bugün Japonya'daki 300'den fazla farklı aroma çeşidiyle (Matcha çayı, Wasabi, Sakura çiçeği vb.) bir kültürel fenomen haline gelmiştir. Dünya genelinde 80'den fazla ülkede satılmakta ve her saniye yüzlerce KitKat tüketilmektedir.
+
+Klasik 4 parmaklı versiyonunun yanı sıra KitKat Chunky, KitKat Mini ve bitter/beyaz çikolatalı çeşitleri de bulunmaktadır. Marka, sürdürülebilir kakao tarımını destekleyen "Nestlé Cocoa Plan" kapsamında üretim yapmayı taahhüt etmektedir.`,
+     country: "İsviçre",
+     website: "https://www.kitkat.com/",
+     img: "/kit-kat.png",
+     isBoycotted: "boykot",
+     boycottReason: `Kit Kat'ın sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: ["eti"],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Coffee Mate",
+     slug: "coffee-mate",
+     ctgry: "Yiyecek ve İçecek",
+     foundedYear: 1961,
+     founder: "Carnation Company",
+     owner: "Nestlé S.A.",
+     description: `Coffee Mate, 1961 yılında Amerikan Carnation şirketi tarafından "dünyanın ilk süt tozu olmayan kahve beyazlatıcısı" olarak piyasaya sürülen ikonik bir markadır. Geliştirilme amacı, sütün çabuk bozulma riskine ve soğutma zorunluluğuna karşı, kahveyi yumuşatan, raf ömrü uzun ve pratik bir çözüm sunmaktı. Orijinal formülü, sodyum kazeinat (süt proteini türevi) içermesine rağmen laktozsuz olmasıyla bilinir.
+
+1985 yılında Nestlé'nin Carnation şirketini satın almasıyla birlikte Nestlé portföyüne katılan marka, global dağıtım ağı sayesinde dünyanın en çok bilinen kahve kreması haline gelmiştir. Klasik toz formunun yanı sıra, zamanla sıvı versiyonları, şekersiz seçenekleri ve Fransız Vanilyası, Fındık, Karamel gibi onlarca farklı aroma çeşidiyle ürün gamını genişletmiştir.
+
+"Kahvenizin mükemmel eşlikçisi" olarak konumlanan Coffee Mate, kahvenin tadını değiştirmeden dokusunu yumuşatmayı ve kremamsı bir lezzet katmayı hedefler. Özellikle ofis ortamlarında ve süte erişimin zor olduğu durumlarda kahve severlerin vazgeçilmez bir tercihi olarak raflarda yer almaktadır.`,
+     country: "İsviçre",
+     website: "https://www.goodnes.com/coffeemate/",
+     img: "/coffee-mate.png",
+     isBoycotted: "boykot",
+     boycottReason: `Coffee Mate'in sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
+     ],
+    },
+    {
+     name: "Mövenpick",
+     slug: "movenpick",
+     ctgry: "Yiyecek",
+     foundedYear: 1948,
+     founder: "Ueli Prager",
+     owner: "Nestlé S.A.",
+     description: `Mövenpick, hikayesi 1948 yılında İsviçreli otelci Ueli Prager'in Zürih'te ilk restoranını açmasıyla başlayan, gastronomi kökenli prestijli bir markadır. Markanın ismi, Prager'in Zürih Gölü üzerinde uçan ve yiyecek kapmak için zarifçe dalış yapan bir martıdan (Almanca "Möwe") ve "pick" (yakalamak/seçmek) kelimesinden ilham almasıyla doğmuştur. 1960'larda restoranlarında sunulan dondurmaların büyük beğeni toplaması üzerine, bu lezzet bir perakende markasına dönüşmüştür.
+
+Markanın dondurmalarını rakiplerinden ayıran en önemli özellik, "İsviçre Mükemmelliyetçiliği" ilkesine dayanmasıdır. Dondurmalarında İsviçre Alpleri'nden gelen taze krema kullanılır ve hiçbir yapay katkı maddesi veya renklendiriciye yer verilmez. Meyve parçacıkları, çikolata sosları ve kuruyemişler, gastronomi uzmanlığıyla birleştirilerek gurme bir deneyim sunulur.
+
+2003 yılında, Mövenpick markasının dondurma bölümü (Mövenpick Ice Cream), dünyanın en büyük gıda şirketi Nestlé tarafından satın alınmıştır. O tarihten bu yana Nestlé'nin "Süper Premium" kategorisindeki global markası olarak, lüks otellerden süpermarketlere kadar dünya genelinde satışa sunulmaktadır.`,
+     country: "İsviçre",
+     website: "https://www.nestle.com/brands/ice-cream/movenpick",
+     img: "/movenpick.png",
+     isBoycotted: "boykot",
+     boycottReason: `Mövenpick'in sahibi Nestlé boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Nestlé) gidiniz.`,
+     alternative_products: [""],
+     evidences: [
+      "https://www.haaretz.com/2002-02-14/ty-article/nestle-may-receive-r-d-grant-for-sderot/0000017f-f8cb-d47e-a37f-f9ff9da50000",
      ],
     },
    ],
@@ -3493,8 +5273,761 @@ pladis Global, Yıldız Holding'in küresel gıda stratejisinin önemli bir par�
        website: "https://www.ulker.com.tr/tr",
        description: `Ülker, 1944 yılında Sabri Ülker ve kardeşi Asım Ülker tarafından İstanbul Eminönü Nohutçu Han'da kurulmuş Türk gıda markasıdır. Bisküvi, çikolata, şekerleme, gofret, kek, sakız ve kraker gibi geniş bir ürün yelpazesine sahiptir. 1989 yılında Yıldız Holding çatısı altında faaliyetlerine devam eden marka, Türkiye'nin en büyük gıda şirketleri arasında yer almaktadır. Ülker Çikolata, Türkiye'de fabrika üretimi yapan ilk çikolata şirketidir. Marka, 100'den fazla ülkeye ihracat yapmakta ve Türkiye'nin en büyük 500 sanayi kuruluşu arasında 108. sırada yer almaktadır.
 
-Ülker'in popüler ürünleri arasında Dido bisküvileri, Albeni çikolataları, Çokokrem fındık kreması, Torku süt ürünleri, Halley meyve suları ve Kekstra kekler yer almaktadır. Marka, tüketicilere geniş bir ürün çeşitliliği sunarak Türk gıda sektöründe önemli bir konuma sahiptir.`,
+Ülker'in popüler ürünleri arasında Dido bisküvileri, Albeni çikolataları, Çokokrem fındık kreması, Halley meyve suları ve Kekstra kekler yer almaktadır. Marka, tüketicilere geniş bir ürün çeşitliliği sunarak Türk gıda sektöründe önemli bir konuma sahiptir.`,
        boycottReason: `Ülker'in sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
+       subBrands: [
+        {
+         name: "Dido",
+         slug: "dido",
+         foundedYear: 1990,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/dido.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/marka/dido",
+         description: `Ülker Dido, çıtır gofret yaprakları ve yoğun sütlü çikolata kaplamasının eşsiz uyumuyla Türkiye'nin en sevilen çikolatalı gofret markalarından biridir. Kendine has çubuk formu ve yoğun çikolata oranıyla "gofret değil, çikolatalı gofret" arayanların tercihi olan Dido, Ülker'in çikolata ustalığını yansıtan ikonik lezzetler arasındadır.
+ 
+ Klasikleşmiş kırmızı ambalajıyla tanınan Dido, zaman içinde ürün ailesini genişleterek farklı damak tatlarına hitap etmiştir. Dido Trio (üç katlı lezzet), Dido Gold (beyaz çikolatalı ve karamelli) ve Dido Black (bitter çikolatalı) gibi çeşitleriyle tüketicilere zengin seçenekler sunmaktadır.`,
+         boycottReason: `Dido, Ülker (Yıldız Holding) bünyesinde üretilen bir markadır. Yıldız Holding'in uluslararası düzeydeki bazı ticari ortaklıkları ve global sermaye hareketleri nedeniyle, bu durum hassasiyet gösteren tüketiciler tarafından eleştirilmektedir. Bu sermaye bağlantıları ve ortaklık yapısından dolayı marka, boykot listesi kriterlerine göre 'önerilmemektedir'.`,
+        },
+        {
+         name: "Albeni",
+         slug: "albeni",
+         foundedYear: 1997,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/albeni.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/marka/albeni",
+         description: `1997 yılında tüketicilerle buluşan Ülker Albeni, taze bisküvi, yumuşak karamel ve gerçek Ülker çikolatasını tek bir barda birleştiren efsanevi bir atıştırmalıktır. Piyasaya çıktığı günden bu yana "Bahanesi Çok" gibi akılda kalıcı sloganlarıyla gençlerin ve tatlı severlerin favorisi haline gelmiştir.
+ 
+ Sadece Türkiye'de değil, Orta Doğu ve Türki Cumhuriyetler başta olmak üzere birçok ülkede pazar lideri konumunda olan Albeni, geniş bir ürün yelpazesine sahiptir. Klasik bar formunun yanı sıra Albeni Tane Tane, Albeni Atıştırmalık ve Albeni Kek gibi formatlarla günün her saatinde tüketilebilecek lezzetli alternatifler sunmaktadır.`,
+         boycottReason: `Albeni, Ülker (Yıldız Holding) markasıdır. Çatı şirket Yıldız Holding'in bazı uluslararası ticari ilişkileri ve sermaye yapısı konusundaki hassasiyetler nedeniyle, marka tam boykot kapsamında olmasa da 'önerilmeyenler' kategorisinde değerlendirilmektedir.`,
+        },
+        {
+         name: "Çokokrem",
+         slug: "cokokrem",
+         foundedYear: 1977,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cokokrem.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/marka/cokokrem",
+         description: `Çokokrem, 1977 yılında Türkiye'nin ilk markalı kakaolu fındık kreması olarak piyasaya sürülen ve "En tatlı sabahlar Çokokrem'le başlar" sloganıyla hafızalara kazınan efsanevi bir markadır. Nesiller boyu çocukların kahvaltı alışkanlıklarının bir parçası olan Çokokrem, özellikle ikonik tüp ambalajıyla tüketici zihninde nostaljik ve güçlü bir yere sahiptir.
+
+Marka, yıllar içinde ürün portföyünü genişleterek cam kavanoz, kase ve tüp formatlarının yanı sıra, okul beslenmeleri için pratik tekli paketler de sunmuştur. Taze fındıkların kavrulması ve Ülker'in özel kakao harmanıyla birleşmesiyle oluşan lezzeti, onu Türkiye'nin en çok tercih edilen sürülebilir çikolatalarından biri yapmıştır.`,
+         boycottReason: `Çokokrem, Ülker (Yıldız Holding) markasıdır. Çatı şirket Yıldız Holding'in bazı uluslararası ticari ilişkileri ve sermaye yapısı konusundaki hassasiyetler nedeniyle, marka tam boykot kapsamında olmasa da 'önerilmeyenler' kategorisinde değerlendirilmektedir.`,
+        },
+        {
+         name: "Caramio",
+         slug: "caramio",
+         foundedYear: 2009,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/caramio.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/marka/caramio",
+         description: `Ülker Caramio, sütlü çikolata ile yoğun karamelin mükemmel uyumunu sunan, kare formundaki tasarımıyla dikkat çeken bir çikolata markasıdır. "Karameliyle şaşırtan lezzet" olarak konumlanan ürün, ısırıldığında uzayan akışkan karameli ile tatlı krizlerinin vazgeçilmez tercihlerinden biridir.
+
+Ülker'in çikolata ustalığını modern bir tatla birleştiren Caramio, sadece tablet çikolata olarak değil, bar formatında ve baton çeşitleriyle de raflarda yer almaktadır. Yoğun tatlı ihtiyacını tek bir pakette karşılamayı hedefleyen marka, karamel severler için özel olarak formüle edilmiştir.`,
+         boycottReason: `Caramio, Yıldız Holding bünyesindeki Ülker tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Metro",
+         slug: "metro",
+         foundedYear: 1980,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/metro-ulker.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/marka/metro",
+         description: `Ülker Metro, "Enerji verir" sloganıyla özdeşleşen, yumuşak nuga, karamel ve sütlü çikolata kaplamasından oluşan klasik bir enerji barıdır. Türkiye'nin en köklü bar çikolatalarından biri olan Metro, gün içindeki açlığı bastırmak ve hızlı enerji sağlamak amacıyla tüketiciler tarafından tercih edilmektedir.
+
+Yıllar içinde klasik lezzetini koruyarak yenilikçi çeşitler de geliştiren marka; Metro Büyük Boy, Metro Mini ve protein ilaveli versiyonlarıyla ürün gamını zenginleştirmiştir. Dinamik ve genç marka kimliğiyle spor aktiviteleri ve yoğun tempolu günlerin destekçisi olarak konumlanmaktadır.`,
+         boycottReason: `Metro, Ülker (Yıldız Holding) markasıdır. Yıldız Holding'in uluslararası düzeydeki bazı ticari ortaklıkları ve global sermaye hareketleri nedeniyle, bu durum hassasiyet gösteren tüketiciler tarafından eleştirilmektedir. Bu nedenle marka 'önerilmeyenler' listesinde yer almaktadır.`,
+        },
+        {
+         name: "Çokonat",
+         slug: "cokonat",
+         foundedYear: 1979,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cokonat.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/cokonat",
+         description: `Ülker Çokonat, "Nat nat nat Çokonat" sloganıyla hafızalara kazınan ve Türkiye'nin en çok tüketilen gofretli çikolatalarından biridir. Çıtır gofret yaprakları, bol fındık parçacıkları ve sütlü çikolata kaplamasıyla kendine has bir lezzet profiline sahiptir.
+
+Yıllardır değişmeyen lezzeti ve ambalajıyla klasikleşen marka, fındıklı çikolata severlerin ilk tercihlerinden biridir. Gofretin çıtırlığı ile fındığın aromasını dengeli bir şekilde sunan Çokonat, Ülker'in en köklü ve güçlü markaları arasında yer almaktadır.`,
+         boycottReason: `Çokonat, Ülker (Yıldız Holding) markasıdır. Çatı şirket Yıldız Holding'in bazı uluslararası ticari ilişkileri ve sermaye yapısı konusundaki hassasiyetler nedeniyle, marka tam boykot kapsamında olmasa da 'önerilmeyenler' kategorisinde değerlendirilmektedir.`,
+        },
+        {
+         name: "Laviva",
+         slug: "laviva",
+         foundedYear: 2010,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/laviva.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/marka/laviva",
+         description: `Ülker Laviva, yenilikçi tasarımı ve "dolgu çikolata" konseptiyle çikolata dünyasına farklı bir soluk getiren modern bir markadır. Uzun ve ince yapısı, alt tabanındaki taze bisküvi, üzerindeki yoğun çikolatalı mus dolgusu ve dışını kaplayan çıtır çikolatasıyla çok katmanlı bir lezzet deneyimi sunar.
+
+"Hayatın ritmini yakala" mottosuyla özellikle genç kitleye hitap eden Laviva, standart tablet veya bar çikolatalardan farklılaşan formuyla dikkat çeker. Hem bisküvi hem de yoğun çikolata hazzını aynı anda yaşamak isteyenler için özel olarak tasarlanmıştır.`,
+         boycottReason: `Laviva, Yıldız Holding bünyesindeki Ülker tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Cocostar",
+         slug: "cocostar",
+         foundedYear: 1995,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cocostar.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Ülker Cocostar, yumuşacık rendelenmiş hindistan cevizi dolgusu ve üzerini kaplayan sütlü çikolatasıyla egzotik bir lezzet sunan bar çikolatadır. "Hindistan cevizi rüyası" olarak tanımlanan ürün, tropikal tatları seven tüketiciler için geliştirilmiştir.
+
+Isırıldığında hissedilen yoğun hindistan cevizi dokusu ve sütün uyumu, markayı rakiplerinden ayıran en önemli özelliktir. Klasik bar formatının yanı sıra atıştırmalık mini paketleri ve dondurma versiyonlarıyla da ürün gamını genişleten Cocostar, tatlı krizlerinde ferahlatıcı bir alternatif sunar.`,
+         boycottReason: `Cocostar, Ülker (Yıldız Holding) iştirakidir. Ana şirketin uluslararası ticari bağları nedeniyle, bu marka da 'önerilmeyen' ürünler listesinde yer almaktadır.`,
+        },
+        {
+         name: "Hobby",
+         slug: "hobby",
+         foundedYear: 1970,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/hobby.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/hobby",
+         description: `Ülker Hobby, "Hobby olsun diye yemiyorum" sloganıyla bilinen, küçük boyutu ancak yoğun fındıklı lezzetiyle efsaneleşmiş bir çikolata markasıdır. Uygun fiyatlı ve ulaşılabilir olması nedeniyle bakkal ve marketlerin kasa önü vazgeçilmezlerinden biridir.
+
+İçerisindeki fındık parçacıkları ve kakaolu kremsi yapısıyla kendine has bir hayran kitlesine sahiptir. Kahve yanında ikramlık olarak veya atıştırmalık olarak sıkça tercih edilen Hobby, sürülebilir kahvaltılık çikolata versiyonuyla da sofralarda yer almaktadır.`,
+         boycottReason: `Hobby, Yıldız Holding çatısı altındaki Ülker markasıdır. Holdingin sermaye yapısı ve global ilişkileri nedeniyle, marka 'önerilmeyen' kategorisinde sınıflandırılmaktadır.`,
+        },
+        {
+         name: "Piko",
+         slug: "piko",
+         foundedYear: 1985,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/piko.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/piko",
+         description: `Ülker Piko, pirinç patlağı, meyve parçacıkları/kuruyemiş ve az miktarda çikolatanın birleşimiyle oluşan hafif bir atıştırmalık barıdır. Düşük kalorili yapısı ve enerji veren içeriğiyle, özellikle ağır çikolatalardan kaçınan ve gün içinde hafif bir tatlı molası vermek isteyen tüketicilere hitap eder.
+
+Portakallı, fındıklı ve klasik çeşitleriyle bilinen Piko, çıtır yapısı ve dengeli şeker oranıyla öne çıkar. Yıllar içinde formunu koruyan marka, nostaljik bir değer taşımasının yanı sıra pratik bir enerji kaynağı olarak da tüketilmektedir.`,
+         boycottReason: `Piko, Ülker (Yıldız Holding) tarafından üretilmektedir. Yıldız Holding'in global ticari ilişkileri sebebiyle, marka tam boykot listesinde olmasa da 'önerilmeyenler' arasında değerlendirilmektedir.`,
+        },
+        {
+         name: "Alpella",
+         slug: "alpella",
+         foundedYear: 1995,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/alpella.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/alpella-3gen",
+         description: `Alpella, Ülker'in genç ve dinamik yüzünü temsil eden, enerji dolu bir çikolata ve atıştırmalık markasıdır. Piyasaya sürüldüğü günden bu yana özellikle çocuklara ve gençlere hitap eden renkli marka kimliğiyle tanınır. Bir dönem basketbol takımı sponsorluğuyla da adından sıkça söz ettirmiştir.
+
+Beyaz çikolata, sütlü çikolata ve gofret çeşitleriyle geniş bir ürün gamına sahip olan Alpella; "3gen", "Rio" ve "Harby" gibi alt ürünleriyle de raflarda yer almaktadır. Eğlenceli ve lezzetli atıştırmalık arayanların tercih ettiği marka, Ülker kalitesini enerjik bir tarzla sunmaktadır.`,
+         boycottReason: `Alpella, Yıldız Holding bünyesindeki Ülker tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Dankek",
+         slug: "dankek",
+         foundedYear: 1995,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/dankek.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/dankek",
+         description: `Ülker Dankek, "Kek dünyasında tek" sloganıyla bilinen ve Türkiye'nin en çok tüketilen paketli kek markalarından biridir. Çay saatlerinin vazgeçilmezi olan Dankek, ev yapımı kek tazeliğini pratik ambalajlarda sunmayı hedefler.
+
+Marka; Dankek Rulo, Dankek Pöti (muffin tarzı), Dankek 8. Kek (dilim) ve akışkan dolgulu Dankek Magma gibi yenilikçi çeşitleriyle her damak tadına uygun seçenekler sunar. Yumuşak dokusu ve zengin meyve/çikolata içeriğiyle, günün her saati tüketilebilen doyurucu bir atıştırmalıktır.`,
+         boycottReason: `Dankek, Ülker (Yıldız Holding) markasıdır. Çatı şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, marka tam boykot kapsamında olmasa da 'önerilmeyenler' listesinde yer almaktadır.`,
+        },
+        {
+         name: "Biskrem",
+         slug: "biskrem",
+         foundedYear: 1991,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/biskrem.png",
+         isBoycotted: "onerilmiyor",
+         website: "http://ulker.com.tr/tr/markalar/biskrem",
+         description: `1991 yılında piyasaya sürülen Ülker Biskrem, "Bi Biskrem versem?" sloganıyla efsaneleşmiş, Türkiye'nin dolgulu bisküvi kategorisindeki lider markasıdır. Kıtır bisküvi hamurunun içindeki %100 gerçek kakao ve fındık kreması dolgusuyla benzersiz bir lezzet deneyimi sunar.
+
+Yenilikçi yapısıyla sürekli gelişen marka, klasik poşet formatının yanı sıra rulo, ekstra (büyük boy) ve meyve dolgulu çeşitleriyle de tüketicilerin beğenisini kazanmıştır. Çikolata ve bisküvinin en uyumlu hallerinden biri olarak kabul edilen Biskrem, gençlerin ve atıştırmalık severlerin favorisidir.`,
+         boycottReason: `Biskrem, Yıldız Holding iştiraki olan Ülker'e aittir. Holdingin global ilişkileri ve sermaye yapısına dair hassasiyetler sebebiyle, bu marka da 'önerilmeyen' ürünler arasında değerlendirilmektedir.`,
+        },
+        {
+         name: "Halley",
+         slug: "halley",
+         foundedYear: 1978,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/halley.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/halley",
+         description: `Ülker Halley, iki kıtır bisküvi arasında yumuşacık marshmallow ve üzerindeki gerçek çikolata kaplamasıyla Türkiye'nin en sevilen sandviç bisküvilerinden biridir. Doyurucu yapısı ve tatmin edici lezzetiyle yıllardır "7'den 70'e" herkesin tükettiği klasikleşmiş bir üründür.
+
+Bulut kadar hafif marshmallow dolgusu, Halley'i diğer bisküvilerden ayıran en temel özelliktir. Klasik çikolata kaplamalısının yanı sıra beyaz çikolatalı, karadutlu ve mini boy seçenekleri de bulunmaktadır. Çay ve kahvenin yanında keyifli bir eşlikçi olarak tüketilmektedir.`,
+         boycottReason: `Halley, Ülker (Yıldız Holding) tarafından üretilmektedir. Yıldız Holding'in global ticari ilişkileri ve sermaye hareketleri nedeniyle, marka 'önerilmeyen' kategorisinde sınıflandırılmaktadır.`,
+        },
+        {
+         name: "Hanımeller",
+         slug: "hanimeller",
+         foundedYear: 1988,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/hanimeller.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/hanimeller",
+         description: `Ülker Hanımeller, "Anne eli değmiş gibi" sloganıyla özdeşleşen, ev yapımı kurabiye tadında ve dokusunda üretilen nostaljik bir bisküvi markasıdır. Kıyır kıyır ağızda dağılan yapısı, markanın en belirgin özelliğidir.
+
+Tüketicilerin en çok tercih ettiği çeşitleri arasında; bol fındıklı "Hanımeller Fındıklı" ve çikolata parçacıklı "Hanımeller Çokodamla" yer alır. Sıcak ve samimi marka imajıyla, ev sıcaklığını ve annelerin özenini hatırlatan lezzetleri paketli formatta sunmaktadır.`,
+         boycottReason: `Hanımeller, Yıldız Holding bünyesindeki Ülker markasıdır. Holdingin uluslararası ticari bağlantıları nedeniyle, marka tam boykot kapsamında olmasa da hassasiyet gösteren tüketiciler için 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Çokoprens",
+         slug: "cokoprens",
+         foundedYear: 1980,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cokoprens.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/cokoprens",
+         description: `Ülker Çokoprens, iki taze ve kıtır bisküvi arasındaki nefis kakaolu fındık kremasıyla çocukların ve yetişkinlerin enerji kaynağıdır. Üzerindeki ikonik prens tacı deseni ve kendine has lezzetiyle Türkiye'nin en bilinen sandviç bisküvileri arasında yer alır.
+
+Özellikle okul çağındaki çocukların beslenme çantalarında ve atıştırmalık saatlerinde sıkça tercih edilir. Hem doyurucu hem de tatlı ihtiyacını karşılayan yapısıyla yıllardır popülerliğini koruyan Çokoprens, klasik lezzetini değiştirmeden günümüze kadar taşımıştır.`,
+         boycottReason: `Çokoprens, Ülker (Yıldız Holding) iştirakidir. Ana şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, bu marka da 'önerilmeyen' ürünler listesinde yer almaktadır.`,
+        },
+        {
+         name: "Probis",
+         slug: "probis",
+         foundedYear: 1995,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/probis.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/probis",
+         description: `Ülker Probis, "Protein deposu" olarak bilinen, özellikle gelişim çağındaki çocuklar ve enerjiye ihtiyaç duyanlar için formüle edilmiş besleyici bir bisküvidir. Kendine has delikli tasarımı, iki bisküvi arasındaki muzlu ve kakaolu özel kremasıyla benzersiz bir lezzet profiline sahiptir.
+
+İçeriğindeki protein, vitamin ve minerallerle zenginleştirilmiş yapısı sayesinde, annelerin çocuklarına güvenle verdiği, çalışanların ise açlıklarını bastırmak için tercih ettiği doyurucu bir atıştırmalıktır. Yıllardır değişmeyen lezzetiyle klasikleşmiş Ülker ürünleri arasında yer alır.`,
+         boycottReason: `Probis, Ülker (Yıldız Holding) tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "İkram",
+         slug: "ikram",
+         foundedYear: 1985,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/ikram.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/ikram",
+         description: `Ülker İkram, adından da anlaşılacağı üzere misafirlere sunulan çayın en iyi eşlikçisi olarak tasarlanmış, dikdörtgen formda bir sandviç bisküvidir. İki kıtır bisküvi arasındaki yoğun fındıklı veya çikolatalı kremasıyla klasikleşmiş bir lezzettir.
+
+Özellikle çay saatlerinde, ofis molalarında ve ev oturmaları sırasında tercih edilen İkram, "Bisküvisi ayrı, kreması ayrı lezzetli" sloganıyla hafızalarda yer etmiştir. Sert yapısı çaya batırılarak yenmeye uygundur ve Türkiye'nin en çok tüketilen ikramlık bisküvilerinden biridir.`,
+         boycottReason: `İkram, Yıldız Holding iştiraki olan Ülker'e aittir. Holdingin global ilişkileri ve sermaye yapısına dair hassasiyetler sebebiyle, bu marka da 'önerilmeyen' ürünler arasında değerlendirilmektedir.`,
+        },
+        {
+         name: "Rondo",
+         slug: "rondo",
+         foundedYear: 1982,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/rondo.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/rondo",
+         description: `Ülker Rondo, "Aç bi Rondo" sloganıyla özdeşleşen, iki desenli bisküvi arasında bol krema dolgusuyla bilinen efsanevi bir markadır. Özellikle çilekli ve muzlu çeşitleri, çocukluğunda bu lezzetle tanışanlar için nostaljik bir değer taşır.
+
+Gevrek bisküvi yapısı ve ağızda dağılan yumuşak kremasıyla tatlı krizlerinin pratik çözümüdür. Yıllar içinde sade, fındıklı ve çikolatalı gibi farklı çeşitleriyle ürün gamını genişletse de, Rondo denince akla gelen ilk imaj, klasik kremalı sandviç bisküvi formudur.`,
+         boycottReason: `Rondo, Ülker (Yıldız Holding) markasıdır. Çatı şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, marka tam boykot kapsamında olmasa da 'önerilmeyenler' listesinde yer almaktadır.`,
+        },
+        {
+         name: "Canpare",
+         slug: "canpare",
+         foundedYear: 2010,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/canpare.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/canpare",
+         description: `Ülker Canpare, "Bisküvi değil, sanki kurabiye" iddiasıyla piyasaya sürülen ve ev yapımı kurabiye lezzetini paketli formatta sunan premium bir üründür. Ağızda dağılan kıyır kıyır yapısı ve bol malzemeli içeriğiyle öne çıkar.
+
+Fındıklı, çikolata parçacıklı ve meyve parçacıklı çeşitleri bulunan Canpare, standart bisküvilerden farklı olarak daha yumuşak ve zengin bir dokuya sahiptir. Çay ve kahve keyfinin yanında, misafirlere sunulabilecek kalitede bir atıştırmalık olarak konumlanmıştır.`,
+         boycottReason: `Canpare, Yıldız Holding bünyesindeki Ülker markasıdır. Holdingin uluslararası ticari bağlantıları nedeniyle, marka tam boykot kapsamında olmasa da hassasiyet gösteren tüketiciler için 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Çokomel",
+         slug: "cokomel",
+         foundedYear: 1976,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cokomel.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/cokomel",
+         description: `Ülker Çokomel, bisküvi üzerine yerleştirilmiş yumuşacık marshmallow ve onu kaplayan ince çikolatasıyla Türkiye'nin en nostaljik lezzetlerinden biridir. Rengarenk alüminyum folyo ambalajlarıyla çocukların ilgisini çeken marka, ambalajı tırnakla düzleştirip defter arasına saklama ritüeliyle bir neslin çocukluk anılarına kazınmıştır.
+
+"En tatlı anlar Çokomel ile başlar" sloganıyla bilinen ürün, sade (Marshmallowlu) çeşidinin yanı sıra çilekli ve muzlu aromalarıyla da üretilmektedir. Yıllara meydan okuyan marka, basit ama etkileyici lezzetiyle günümüzde de popülerliğini korumaktadır.`,
+         boycottReason: `Çokomel, Ülker (Yıldız Holding) iştirakidir. Ana şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, bu marka da 'önerilmeyen' ürünler listesinde yer almaktadır.`,
+        },
+        {
+         name: "O'lala",
+         slug: "olala",
+         foundedYear: 2011,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/olala.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/olala",
+         description: `Ülker O'lala, paketli kek dünyasında bir devrim yaratarak "sufle" lezzetini her an ulaşılabilir kılan yenilikçi bir markadır. Isıtılarak veya olduğu gibi tüketilebilen akışkan çikolatalı kekiyle, özellikle gençlerin tatlı krizlerine pratik ve lezzetli bir çözüm sunar.
+
+Marka, "O'lala ile modunu yükselt" iletişimiyle, sadece bir tatlı değil, aynı zamanda bir moral kaynağı olarak konumlanmıştır. Sufle başarısının ardından waffle ve bar kek gibi farklı formatlarda da ürünler geliştirerek "ıslak kek" kategorisindeki iddiasını sürdürmektedir.`,
+         boycottReason: `O'lala, Yıldız Holding çatısı altındaki Ülker markasıdır. Holdingin sermaye yapısı ve global ilişkileri nedeniyle, marka 'önerilmeyen' kategorisinde sınıflandırılmaktadır.`,
+        },
+        {
+         name: "9 Kat Tat",
+         slug: "9-kat-tat",
+         foundedYear: 1995,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/9-kat-tat.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/9-kat-tat",
+         description: `Ülker 9 Kat Tat, adını incecik 9 kat gofret yaprağı ve arasındaki nefis kremadan alan, Türkiye'nin ikonik küp gofret markasıdır. "İnce ince işlendi, 9 Kat Tat efsaneleşti" sloganıyla bilinen ürün, gofretin en zarif ve lezzetli hallerinden birini sunar.
+
+Fındıklı, çilekli, muzlu ve limonlu gibi klasikleşmiş çeşitleriyle her damak tadına hitap eder. İnce yapısı sayesinde ağızda eriyen dokusu ve yoğun krema lezzeti, 9 Kat Tat'ı sıradan gofretlerden ayıran en önemli özelliktir.`,
+         boycottReason: `9 Kat Tat, Ülker (Yıldız Holding) tarafından üretilmektedir. Yıldız Holding'in global ticari ilişkileri sebebiyle, marka tam boykot listesinde olmasa da 'önerilmeyenler' arasında değerlendirilmektedir.`,
+        },
+        {
+         name: "Rulokat",
+         slug: "rulokat",
+         foundedYear: 1984,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/rulokat.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Ülker Rulokat, çıtır rulo gofretin içindeki akışkan fındık kremasıyla benzersiz bir lezzet deneyimi sunan premium bir atıştırmalıktır. Silindir şeklindeki teneke kutusu ve kırılgan, ince yapısıyla kendine has bir prestije sahiptir.
+
+Sadece tek başına değil, dondurma ve tatlıların yanında garnitür olarak da sıkça tüketilen Rulokat, "Kırılır ama yine de yenir" dedirten lezzetiyle bağımlılık yaratan bir tada sahiptir. Fındıklı klasiğinin yanı sıra çikolatalı çeşitleriyle de raflarda yer almaktadır.`,
+         boycottReason: `Rulokat, Ülker (Yıldız Holding) iştirakidir. Çatı şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, bu marka da 'önerilmeyen' ürünler listesinde yer almaktadır.`,
+        },
+        {
+         name: "Çizi",
+         slug: "cizi",
+         foundedYear: 1994,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cizi.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/cizi",
+         description: `Ülker Çizi, "Açlığı yatıştırır" sloganıyla hafızalara kazınan, Türkiye'nin en ikonik peynirli kraker markasıdır. Dikdörtgen şekli, üzerindeki tuz tanecikleri ve yoğun peynir aromasıyla tuzlu atıştırmalık denince akla gelen ilk isimlerden biridir.
+
+Gevrek yapısı ve ağızda dağılan kıvamıyla hem öğrencilerin hem de çalışanların gün içindeki ani açlık krizleri için pratik bir çözümdür. Klasik versiyonunun yanı sıra Çizi Viç (sandviç kraker) ve Çizi Çıtır (ince kraker) gibi farklı formlarıyla da tüketicilere sunulmaktadır.`,
+         boycottReason: `Çizi, Yıldız Holding bünyesindeki Ülker tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Krispi",
+         slug: "krispi",
+         foundedYear: 2003,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/krispi.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/krispi",
+         description: `Ülker Krispi, "Atıştır, kapış, paylaş" konseptiyle gençlere hitap eden, bol baharatlı ve çıtır bir kraker markasıdır. Standart krakerlerin aksine, daha yoğun aromalar ve farklı şekiller sunarak atıştırmalık dünyasına hareket getirmiştir.
+
+Tırtıklı yapısıyla baharatı üzerinde tutan çeşitleri ve ince çubuk kraker formundaki "Krispi Çubuk" serisiyle bilinir. Peynirli, soğanlı, baharatlı ve acılı gibi keskin tatlarıyla özellikle film izlerken veya arkadaş ortamlarında tüketilen popüler bir atıştırmalıktır.`,
+         boycottReason: `Krispi, Ülker (Yıldız Holding) iştirakidir. Ana şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, bu marka da 'önerilmeyen' ürünler listesinde yer almaktadır.`,
+        },
+        {
+         name: "Altınbaşak",
+         slug: "altinbasak",
+         foundedYear: 1994,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/altinbasak.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/altinbasak",
+         description: `Ülker Altınbaşak, formuna dikkat edenler ve sağlıklı beslenmeyi yaşam tarzı haline getirenler için geliştirilmiş "light" kraker markasıdır. Kepekli, yulaflı ve tam buğdaylı içeriğiyle sindirimi kolaylaştırmayı ve uzun süre tokluk hissi sağlamayı hedefler.
+
+Marka, klasik diyet kraker algısını kırarak lezzetli seçenekler de sunar. Labneli sandviç, çörek otlu kraker ve yulaflı bisküvi çeşitleriyle ara öğünlerin vazgeçilmezidir. "İyiliği içinde" mottosuyla lif kaynağı ürünler sunan Altınbaşak, dengeli beslenmenin lezzetli bir parçası olarak konumlanmıştır.`,
+         boycottReason: `Altınbaşak, Ülker (Yıldız Holding) markasıdır. Çatı şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, marka tam boykot kapsamında olmasa da 'önerilmeyenler' listesinde yer almaktadır.`,
+        },
+        {
+         name: "Mavi Yeşil",
+         slug: "mavi-yesil",
+         foundedYear: 1999,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/mavi-yesil.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Ülker Mavi Yeşil, Türkiye'nin "light" ürün kategorisindeki ilk ve en kapsamlı markasıdır. "Hafifleten lezzet" sloganıyla yola çıkan marka, kalori kontrolü yapmak isteyenler ve sağlıklı beslenmeye özen gösterenler için geliştirilmiştir.
+
+Düşük yağlı, lif kaynağı ve azaltılmış kalorili ürünleriyle diyet yapanların vazgeçilmezi haline gelmiştir. Bisküvi, kraker, kek ve gofret gibi çeşitleriyle, formuna dikkat eden tüketicilerin lezzetten ödün vermeden atıştırmalık ihtiyacını karşılamayı hedefler.`,
+         boycottReason: `Mavi Yeşil, Yıldız Holding bünyesindeki Ülker tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Haylayf",
+         slug: "haylayf",
+         foundedYear: 1980,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/haylayf.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/haylayf",
+         description: `Ülker Haylayf, "Hayatın tadı" sloganıyla bilinen, incecik kıtır bisküvisi ve üzerindeki şeker kristalleriyle özdeşleşmiş klasik bir lezzettir. Özellikle çaya batırıldığında hemen yumuşamayan yapısı ve şekerin verdiği hafif tatlılık, onu çay saatlerinin favorisi yapmıştır.
+
+Nostaljik değeri yüksek olan Haylayf, sadelikten yana olanların tercihidir. İnce yapısı ve kendine has aromasıyla yıllardır değişmeyen bir lezzet profili sunar.`,
+         boycottReason: `Haylayf, Ülker (Yıldız Holding) iştirakidir. Çatı şirketin uluslararası ticari bağları ve sermaye yapısı nedeniyle, bu marka da 'önerilmeyen' ürünler listesinde yer almaktadır.`,
+        },
+        {
+         name: "Cafe Crown",
+         slug: "cafe-crown",
+         foundedYear: 2003,
+         ctgry: "İçecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cafe-crown.webp",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.cafecrown.com/",
+         description: `Cafe Crown, Ülker'in kahve sektöründeki güçlü oyuncusu olarak, pratik kahve deneyimini genç ve dinamik bir kimlikle sunar. Özellikle 2'si 1 Arada ve 3'ü 1 Arada hazır kahve karışımlarıyla ofislerin ve öğrencilerin vazgeçilmezidir.
+
+Fındıklı, karamelli gibi aromalı kahve çeşitleriyle pazara yenilik getiren marka, "Cafe Crown Action" serisiyle de yoğun kahve tadı arayanlara hitap eder. Köpüklü yapısı ve kolay hazırlanışı ile kahve keyfini her yere taşır.`,
+         boycottReason: `Cafe Crown, Yıldız Holding çatısı altındaki bir markadır. Holdingin sermaye yapısı ve global ilişkileri nedeniyle, marka 'önerilmeyen' kategorisinde sınıflandırılmaktadır.`,
+        },
+        {
+         name: "Link",
+         slug: "link",
+         foundedYear: 1997,
+         ctgry: "İçecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/link.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Ülker Link, özellikle okul çağındaki çocukların ve gençlerin favorisi olan, B grubu vitaminlerle zenginleştirilmiş meyve aromalı bir içecektir. Çilek ve şeftali aromalı çeşitleri, ikonik kutu ve şişe tasarımlarıyla bilinir.
+
+Uygun fiyatı ve ferahlatıcı tadıyla kantinlerin ve marketlerin en çok satan içeceklerinden biridir. "Link'le kop" sloganıyla gençlik enerjisini ve eğlenceyi temsil eder.`,
+         boycottReason: `Link, Ülker (Yıldız Holding) tarafından üretilmektedir. Yıldız Holding'in global ticari ilişkileri sebebiyle, marka tam boykot listesinde olmasa da 'önerilmeyenler' arasında değerlendirilmektedir.`,
+        },
+        {
+         name: "SuperFresh",
+         slug: "superfresh",
+         foundedYear: 1990,
+         ctgry: "Yiyecek",
+         founder: "Kerevitaş",
+         owner: "Kerevitaş (Yıldız Holding)",
+         country: "Türkiye",
+         alternative_products: ["", ""],
+         img: "/superfresh.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.superfresh.com.tr/tr",
+         description: `SuperFresh, 1990 yılında Kerevitaş bünyesinde kurulan ve Türkiye'yi "dondurulmuş gıda" kavramıyla tanıştıran ilk perakende markasıdır. "Tarladan sofraya" vizyonuyla hareket eden marka, sebze ve meyveleri en olgun ve besleyici dönemlerinde hasat edip IQF (Bireysel Hızlı Dondurma) teknolojisiyle dondurarak besin değerlerini korumayı hedefler.
+
+Geniş ürün yelpazesiyle mutfakların en büyük yardımcısı olan SuperFresh; pizzadan milföy hamuruna, börek çeşitlerinden dondurulmuş sebzelere, ton balığından kaplamalı ürünlere kadar yüzlerce çeşit sunar. Özellikle çalışan kesim ve pratik yemek arayanlar için hijyenik, katkısız ve lezzetli çözümler üretmesiyle pazar lideri konumundadır.
+
+Yıldız Holding çatısı altında faaliyetlerine devam eden marka, Bursa ve Afyon'daki modern tesislerinde üretim yapmaktadır. Türk damak tadına uygun yerel lezzetleri (Mantı, Künefe vb.) dondurulmuş formda sunarak geleneksel lezzetleri modern yaşam temposuna uyarlamaktadır.`,
+         boycottReason: `SuperFresh, Yıldız Holding iştiraki olan Kerevitaş Gıda Sanayi bünyesindedir. Ana şirketin (Yıldız Holding) uluslararası ticari bağları ve sermaye yapısına dair hassasiyetler sebebiyle, bu marka da tam boykot kapsamında olmasa da 'önerilmeyen' ürünler arasında değerlendirilmektedir.`,
+         evidences: [],
+        },
+        {
+         name: "Bi'rüya",
+         slug: "biruya",
+         foundedYear: 2015,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/biruya.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Ülker Bi'rüya, çikolata severlere rüya gibi bir deneyim sunmak amacıyla geliştirilmiş, kendine has dokusuyla öne çıkan bir çikolata serisidir. Tablet ve bar formlarında sunulan ürün, Ülker'in çikolata ustalığını farklı dolgu ve aromalarla birleştirir.
+
+Özellikle yoğun çikolata tadı ve ağızda eriyen yapısıyla dikkat çeken Bi'rüya, klasik çikolatalardan sıkılan ve yeni lezzetler arayan tüketiciler için premium bir alternatif olarak raflarda yerini almıştır.`,
+         boycottReason: `Bi'rüya, Yıldız Holding bünyesindeki Ülker markasıdır. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Bizim Bereket",
+         slug: "bizim-bereket",
+         foundedYear: 2002,
+         ctgry: "Yiyecek",
+         founder: "Bizim Toptan",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/bizim-bereket.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.bizimtoptan.com.tr/search?q=Bizim+Bereket",
+         description: `Bizim Bereket, Yıldız Holding iştiraki olan Bizim Toptan Satış Mağazaları'nın bakliyat ve temel gıda kategorisindeki özel markasıdır. Anadolu'nun bereketli topraklarından sofralara uzanan bir çizgide; pirinç, bulgur, nohut, fasulye ve mercimek gibi temel gıda ürünlerini tüketicilere sunar.
+
+"Kaliteli ürün, uygun fiyat" politikasıyla hareket eden marka, özellikle toplu tüketim yapan işletmeler ve büyük aileler için ekonomik ve güvenilir çözümler üretir. Ürünler, Yıldız Holding'in kalite standartlarına uygun olarak seçilir ve paketlenir.`,
+         boycottReason: `Bizim Bereket, Yıldız Holding bünyesindeki Bizim Toptan'ın markasıdır. Holdingin uluslararası ticari bağları nedeniyle, marka 'önerilmeyen' kategorisinde sınıflandırılmaktadır.`,
+        },
+        {
+         name: "Bizim Yağ",
+         slug: "bizim-yag",
+         foundedYear: 1992,
+         ctgry: "Yiyecek",
+         founder: "Besler Gıda (Ülker)",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/bizim-yag.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.bizimtoptan.com.tr/search?q=Bizim+Ya%C4%9F",
+         description: `Bizim Yağ, "Hamur işi onsuz olmaz" sloganıyla Türkiye'nin mutfak kültürüne yerleşmiş, bitkisel margarin pazarının lider markalarından biridir. Özellikle baklava, börek ve kurabiye gibi hamur işlerinde sağladığı kıtırlık ve kabarma performansı ile "Ustaların tercihi" olarak bilinir.
+
+Besler Gıda tesislerinde üretilen Bizim Yağ, profesyonel pastane lezzetlerini ev mutfaklarına taşıma iddiasındadır. Yüksek performansı ve trans yağ içermeyen formülüyle, nesillerdir ev hanımlarının ve ustaların güvenle kullandığı bir klasiktir.`,
+         boycottReason: `Bizim Yağ, Yıldız Holding iştiraki olan Besler Gıda tarafından üretilmektedir. Holdingin sermaye yapısı ve global ilişkileri nedeniyle, marka 'önerilmeyen' kategorisinde yer almaktadır.`,
+        },
+        {
+         name: "Çokomilk",
+         slug: "cokomilk",
+         foundedYear: 1979,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/cokomilk.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/cokomilk",
+         description: `Ülker Çokomilk, yumuşacık nuga dolgusu ve sütlü çikolata kaplamasıyla, özellikle çocukların favorisi olan klasik bir lezzettir. Uzun ve ince bar formu, tek ısırımlık yapısı ve karakteristik tadıyla yıllardır raflarda yerini koruyan nostaljik bir üründür.`,
+         boycottReason: `Çokomilk, Yıldız Holding bünyesindeki Ülker markasıdır. Holdingin uluslararası ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Dore",
+         slug: "dore",
+         foundedYear: 2010,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/dore.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/dore",
+         description: `Ülker Dore, incecik ve gevrek bisküvilerin arasına sürülmüş yoğun krema dolgusuyla zarif bir lezzet deneyimi sunar. Premium bisküvi kategorisinde yer alan ürün, özellikle çay ve kahve yanında hafif ama tatlı bir eşlikçi arayanlar için geliştirilmiştir.`,
+         boycottReason: `Dore, Ülker (Yıldız Holding) tarafından üretilmektedir. Holdingin global sermaye yapısı nedeniyle marka 'önerilmeyen' kategorisindedir.`,
+        },
+        {
+         name: "Finger",
+         slug: "finger",
+         foundedYear: 1970,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/finger.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/finger",
+         description: `Ülker Finger Bisküvi, parmak şeklindeki formu ve klasik vanilya aromalı lezzetiyle Türkiye'nin en çok bilinen çay bisküvilerinden biridir. Sade tüketiminin yanı sıra, ev yapımı pastaların, mozaik pastaların ve tatlıların vazgeçilmez ana malzemesi olarak mutfaklarda başköşededir.`,
+         boycottReason: `Finger, Ülker (Yıldız Holding) markasıdır. Holdingin ticari ilişkileri nedeniyle 'önerilmeyen' ürünler listesindedir.`,
+        },
+        {
+         name: "Flipz",
+         slug: "flipz",
+         foundedYear: 1997,
+         ctgry: "Yiyecek",
+         founder: "Nestlé (Başlangıç)",
+         owner: "Yıldız Holding (pladis)",
+         country: "Türkiye",
+         img: "/flipz.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.flipz.com/",
+         description: `Flipz, tuzlu kraker (pretzel) ile tatlı çikolatanın benzersiz uyumunu sunan, dünyaca ünlü bir atıştırmalık markasıdır. Yıldız Holding'in global şirketi pladis bünyesinde yer alan marka, "tatlı-tuzlu" zıtlığından doğan lezzetiyle atıştırmalık dünyasında fenomen haline gelmiştir.`,
+         boycottReason: `Flipz, Yıldız Holding'in global iştiraki pladis bünyesindedir. Holdingin uluslararası ticari bağları nedeniyle 'önerilmeyen' kategorisindedir.`,
+        },
+        {
+         name: "Kat Kat Tat",
+         slug: "kat-kat-tat",
+         foundedYear: 1990,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/kat-kat-tat.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Ülker Kat Kat Tat, binbir kat milföy hamuru ve içindeki akışkan marmelat/krema dolgusuyla efsaneleşmiş bir puf böreği lezzetidir. Çıtır çıtır yapısı ve üzerindeki şeker tanecikleriyle, tatlı krizlerinin en pratik ve lezzetli çözümlerinden biri olarak bilinir.`,
+         boycottReason: `Kat Kat Tat, Ülker (Yıldız Holding) markasıdır. Holdingin ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Kekstra",
+         slug: "kekstra",
+         foundedYear: 2000,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/kekstra.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/kekstra",
+         description: `Ülker Kekstra, yumuşak kekin ortasındaki jöle kıvamındaki meyve sosuyla çocukların en sevdiği kek markalarından biridir. "Kekstra, Kekstra, çilekli jöleli Kekstra" jingle'ı ile hafızalara kazınan ürün, eğlenceli formu ve lezzetiyle beslenme çantalarının vazgeçilmezidir.`,
+         boycottReason: `Kekstra, Yıldız Holding iştiraki Ülker markasıdır. Holdingin ticari bağları nedeniyle 'önerilmeyen' listesindedir.`,
+        },
+        {
+         name: "Kremini",
+         slug: "kremini",
+         foundedYear: 1998,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/kremini.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/kremini",
+         description: `Ülker Kremini, sert şeker kabuğu ve içindeki yumuşak meyve dolgusuyla sürprizli bir lezzet sunan bonbon şeker markasıdır. "Şeker mi şeker" sloganıyla bilinen ürün, çilek, portakal ve yoğurtlu çeşitleriyle ağızda eriyen, uzun süreli bir tat deneyimi sunar.`,
+         boycottReason: `Kremini, Yıldız Holding bünyesindeki Ülker markasıdır. Holdingin uluslararası ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Oneo",
+         slug: "oneo",
+         foundedYear: 2013,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/oneo.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/oneo",
+         description: `Ülker Oneo, ferahlık ve lezzeti bir arada sunan, büyük draje formundaki sakız markasıdır. İçindeki mikro granüller ve sıvı dolgusuyla uzun süreli ferahlık sağlar. Şık ve pratik kutu tasarımlarıyla çantaların ve araçların vazgeçilmez bir parçasıdır.`,
+         boycottReason: `Oneo, Ülker (Yıldız Holding) markasıdır. Holdingin ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Taç Kraker",
+         slug: "tac-kraker",
+         foundedYear: 1985,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/tac-kraker.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/tac-kraker",
+         description: `Ülker Taç Kraker, sade ve tuzlu tadıyla kraker dünyasının en klasik ve sade üyelerinden biridir. İnce, gevrek yapısı ve hafifliğiyle mideyi bastırmak veya çay yanında atıştırmak için idealdir. Yıllardır değişmeyen paketi ve lezzetiyle sadık bir tüketici kitlesine sahiptir.`,
+         boycottReason: `Taç Kraker, Ülker (Yıldız Holding) markasıdır. Holdingin ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Teremyağ",
+         slug: "teremyag",
+         foundedYear: 2003,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/teremyag.png",
+         isBoycotted: "onerilmiyor",
+         website: "",
+         description: `Teremyağ, "Tereyağı lezzetinde" sloganıyla margarin pazarına yeni bir soluk getiren, sürülebilir ve yemeklik yağ markasıdır. Tereyağının lezzetini bitkisel yağların hafifliğiyle birleştirme iddiasıyla yola çıkan marka, kahvaltılardan hamur işlerine kadar geniş bir kullanım alanı sunar.`,
+         boycottReason: `Teremyağ, Yıldız Holding bünyesindeki Besler Gıda tarafından üretilmektedir. Holdingin ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+        {
+         name: "Yupo",
+         slug: "yupo",
+         foundedYear: 1990,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/yupo.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/yupo",
+         description: `Ülker Yupo, yumuşak şeker (jelibon) kategorisinde eğlenceli şekilleri ve yoğun meyve aromalarıyla çocukların favorisi olan bir markadır. Ayıcıklı, solucanlı, kola şişesi gibi farklı formları ve elastik yapısıyla çiğnemesi keyifli bir atıştırmalık deneyimi sunar.`,
+         boycottReason: `Yupo, Ülker (Yıldız Holding) markasıdır. Holdingin uluslararası ticari ilişkileri nedeniyle 'önerilmeyen' statüsündedir.`,
+        },
+       ],
+      },
+      {
+       name: "McVities",
+       slug: "mcvities",
+       foundedYear: 1830,
+       ctgry: "Yiyecek",
+       founder: "Robert McVitie",
+       owner: "Yıldız Holding",
+       country: "Türkiye",
+       alternative_products: [],
+       img: "/mcvities.png",
+       isBoycotted: "onerilmiyor",
+       website: "https://mcvities.com/",
+       description: `McVitie's, 1830 yılında Richard McVitie tarafından kurulan ve United Biscuits bünyesinde üretilen ünlü bir çerez ve bisküvi markasıdır. United Biscuits, merkezi İngiltere'de bulunan büyük bir gıda üreticisidir. McVitie's markalı ürünler, İngiltere'de bulunan beş farklı fabrikada üretilmektedir. Bu fabrikalar, markanın yüksek kaliteli bisküvi ve çerezlerini üretmekte ve İngiltere'nin yanı sıra dünya genelindeki birçok ülkeye ihraç etmektedir. 2014 yılında, Türkiye merkezli Yıldız Holding, McVitie's markasının sahibi olan United Biscuits Group'u satın alarak büyük bir uluslararası genişleme hamlesi gerçekleştirdi. Yıldız Holding, Ülker markasıyla tanınan, Türkiye'nin önde gelen gıda üreticilerinden biridir. Bu satın alma, Yıldız Holding'in global pazarda etkisini artırmış ve McVitie's gibi köklü bir markayı bünyesine katarak ürün yelpazesini genişletmiştir. 2016 yılında Yıldız Holding, United Biscuits ve diğer bazı bağlı şirketlerini Pladis çatısı altında birleştirmiştir.`,
+       boycottReason: `McVities'in sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
+       subBrands: [
+        {
+         name: "Saklıköy",
+         slug: "saklikoy",
+         foundedYear: 2010,
+         ctgry: "Yiyecek",
+         founder: "Ülker",
+         owner: "Yıldız Holding",
+         country: "Türkiye",
+         img: "/saklikoy.png",
+         isBoycotted: "onerilmiyor",
+         website: "https://www.ulker.com.tr/tr/markalar/saklikoy",
+         description: `Ülker Saklıköy, "Doğal lezzetlerin buluşma noktası" mottosuyla yola çıkan, tam buğday ve yulaf içeriğiyle öne çıkan lif kaynağı bir bisküvi markasıdır. Ağızda dağılan gevrek yapısı ve doyurucu özelliğiyle, özellikle çay saatlerinde klasik bisküvilere daha "doğal" bir alternatif arayanların favorisidir.
+ 
+ Sade, sütlü krema dolgulu ve çikolatalı krema dolgulu çeşitleriyle sunulan Saklıköy, geleneksel tahıllı bisküvi lezzetini modern bir dokunuşla sofralara taşır. Hem besleyici içeriği hem de lezzetiyle, "İçindekiler iyiyse, tadı da iyidir" felsefesini yansıtan bir atıştırmalıktır.`,
+         boycottReason: `Saklıköy, Yıldız Holding bünyesindeki Ülker tarafından üretilmektedir. Holdingin global sermaye hareketleri ve ticari ortaklıklarına dair hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+        },
+       ],
       },
       {
        name: "Godiva",
@@ -3515,40 +6048,6 @@ pladis Global, Yıldız Holding'in küresel gıda stratejisinin önemli bir par�
   
   Günümüzde Godiva, Amerika, Avrupa ve Asya'da 84 ülkede faaliyet göstermektedir. Markanın 450'den fazla butik mağazası bulunmaktadır ve ürünleri 10.000'den fazla toptancıya tedarik edilmektedir. Godiva'nın küresel satışları 1988 yılında 100 milyon ABD dolarına, 2007 yılında ise 500 milyon ABD dolarına ulaşmıştır. Godiva, Pladis bünyesinde faaliyet göstermektedir ve premium çikolata segmentinde tanınmış bir markadır.`,
        boycottReason: `Godiva'nın sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
-      },
-      {
-       name: "McVities",
-       slug: "mcvities",
-       foundedYear: 1830,
-       ctgry: "Yiyecek",
-       founder: "Robert McVitie",
-       owner: "Yıldız Holding",
-       country: "Türkiye",
-       alternative_products: [],
-       img: "/mcvities.png",
-       isBoycotted: "onerilmiyor",
-       website: "https://mcvities.com/",
-       description: `McVitie's, 1830 yılında Richard McVitie tarafından kurulan ve United Biscuits bünyesinde üretilen ünlü bir çerez ve bisküvi markasıdır. United Biscuits, merkezi İngiltere'de bulunan büyük bir gıda üreticisidir. McVitie's markalı ürünler, İngiltere'de bulunan beş farklı fabrikada üretilmektedir. Bu fabrikalar, markanın yüksek kaliteli bisküvi ve çerezlerini üretmekte ve İngiltere'nin yanı sıra dünya genelindeki birçok ülkeye ihraç etmektedir. 2014 yılında, Türkiye merkezli Yıldız Holding, McVitie's markasının sahibi olan United Biscuits Group'u satın alarak büyük bir uluslararası genişleme hamlesi gerçekleştirdi. Yıldız Holding, Ülker markasıyla tanınan, Türkiye'nin önde gelen gıda üreticilerinden biridir. Bu satın alma, Yıldız Holding'in global pazarda etkisini artırmış ve McVitie's gibi köklü bir markayı bünyesine katarak ürün yelpazesini genişletmiştir. 2016 yılında Yıldız Holding, United Biscuits ve diğer bazı bağlı şirketlerini Pladis çatısı altında birleştirmiştir.`,
-       boycottReason: `McVities'in sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
-      },
-      {
-       name: "Jacop's",
-       slug: "jacops",
-       foundedYear: 1885,
-       ctgry: "Yiyecek",
-       founder: "",
-       owner: "Yıldız Holding",
-       country: "Türkiye",
-       isBoycotted: "onerilmiyor",
-       alternative_products: [],
-       img: "/jacops.png",
-       website: "https://www.pladisglobal.com/our-brands/jacobs",
-       description: `Jacob's, 19. yüzyılın ortalarında William Beale Jacob tarafından kurulmuş, öncelikle İrlanda ve Birleşik Krallık'ta satılan İrlandalı bir bisküvi ve kraker markasıdır. Marka, 1885 yılında tescilli ticari marka olarak kaydedilmiş ve çeşitli bisküvi serilerinde kullanılmıştır.
-  
-  Jacob's markası, farklı pazarlarda farklı sahiplere aittir. İrlanda pazarında marka, Valeo Foods'un bir parçası olan Jacob Fruitfield Food Group'a aittir. Birleşik Krallık pazarında ise Jacob's, Pladis'in bir parçası olan United Biscuits'e aittir. Asya pazarında ise marka, Mondelēz International'a aittir.
-  
-  Jacob's, köklü bir geçmişe sahip olup, özellikle İrlanda ve Birleşik Krallık'ta tanınmış bir bisküvi ve kraker markasıdır. Marka, çeşitli bisküvi ürünleriyle tüketicilere hizmet vermektedir.`,
-       boycottReason: `Jacops'un sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
       },
       {
        name: "Biscuiterie Nantaise(BN)",
@@ -3589,6 +6088,25 @@ pladis Global, Yıldız Holding'in küresel gıda stratejisinin önemli bir par�
        boycottReason: `DeMet's Candy Company'nin sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
       },
      ],
+    },
+    {
+     name: "Jacop's",
+     slug: "jacops",
+     foundedYear: 1885,
+     ctgry: "Yiyecek",
+     founder: "",
+     owner: "Yıldız Holding",
+     country: "Türkiye",
+     isBoycotted: "onerilmiyor",
+     alternative_products: [],
+     img: "/jacops.png",
+     website: "https://www.pladisglobal.com/our-brands/jacobs",
+     description: `Jacob's, 19. yüzyılın ortalarında William Beale Jacob tarafından kurulmuş, öncelikle İrlanda ve Birleşik Krallık'ta satılan İrlandalı bir bisküvi ve kraker markasıdır. Marka, 1885 yılında tescilli ticari marka olarak kaydedilmiş ve çeşitli bisküvi serilerinde kullanılmıştır.
+
+Jacob's markası, farklı pazarlarda farklı sahiplere aittir. İrlanda pazarında marka, Valeo Foods'un bir parçası olan Jacob Fruitfield Food Group'a aittir. Birleşik Krallık pazarında ise Jacob's, Pladis'in bir parçası olan United Biscuits'e aittir. Asya pazarında ise marka, Mondelēz International'a aittir.
+
+Jacob's, köklü bir geçmişe sahip olup, özellikle İrlanda ve Birleşik Krallık'ta tanınmış bir bisküvi ve kraker markasıdır. Marka, çeşitli bisküvi ürünleriyle tüketicilere hizmet vermektedir.`,
+     boycottReason: `Jacops'un sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
     },
     {
      name: "Aytaç",
@@ -3658,22 +6176,6 @@ DFU'nun misyonu, gelişimin işlerinin ayrılmaz bir parçası olduğunu kabul e
 
 DFU'nun kalite politikası, vizyonuyla uyumlu olarak en taze, en sağlıklı ve en yüksek kaliteli ürünleri sunmak, bunları kolay erişilebilir hale getirmek ve geniş bir tüketici zevk yelpazesine hitap etmektir. Şirket, yıllık olarak yenilenen BRC ve Helal Sertifikalarına sahiptir ve çeşitli kalite programları aracılığıyla en yüksek standartlarda hizmet sunmaya kararlıdır.`,
      boycottReason: `Donuk Fırıncılık Ürünleri'nin sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
-    },
-    {
-     name: "Ona Yağ",
-     slug: "ona-yag",
-     foundedYear: 1111111111111111111111111111111,
-     ctgry: "Yiyecek",
-     founder: "",
-     owner: "",
-     country: "",
-     alternative_products: [],
-     img: "/.png",
-     isBoycotted: "onerilmiyor",
-     website: "",
-     description: ``,
-     boycottReason: `Ona Yağ'ın sahibi Yıldız Holding'in bazı bağlantıları ve yaklaşımları nedeniyle bu marka da önerilmemektedir. Detaylı bilgi için üst marka ismine (Yıldız Holding) gidiniz.`,
-     evidences: [""],
     },
    ],
   },
@@ -3824,6 +6326,22 @@ ABD menşeli şirketlerin ürünlerini tüketmek, ABD ekonomisine katkı sağlam
    evidences: [""],
    subBrands: [
     {
+     name: "Coco Pops",
+     slug: "coco-pops",
+     foundedYear: 1958,
+     ctgry: "Yiyecek",
+     founder: "Kellogg's",
+     owner: "Kellogg Company",
+     country: "ABD",
+     img: "/coco-pops.png",
+     isBoycotted: "boykot",
+     website: "https://www.kelloggs.com/tr-tr/products.html",
+     description: `Coco Pops, Amerikan gıda devi Kellogg's tarafından üretilen ve dünyanın en bilinen kakaolu pirinç gevreği markasıdır. "Sütü çikolatalı süte dönüştüren" özelliğiyle çocukların kahvaltı favorisi haline gelmiştir. Maskotu maymun Coco ile özdeşleşen marka, kahvaltıyı eğlenceli hale getirmeyi hedefler.
+
+Türkiye pazarında uzun yıllar Ülker ile yapılan ortaklık (distribütörlük/üretim) sayesinde tanınmış olsa da, günümüzde operasyonları tamamen ABD merkezli Kellogg Company'ye aittir. İçeriğindeki vitamin ve minerallerle zenginleştirilmiş olsa da, yüksek şeker oranıyla bilinen bir atıştırmalıktır.`,
+     boycottReason: `Coco Pops, Amerika Birleşik Devletleri merkezli Kellogg Company'ye ait bir markadır. Kellogg's, ABD'nin İsrail politikalarına olan desteği ve şirketin İsrail'deki ticari yatırımları nedeniyle küresel boykot listelerinde 'Boykot' statüsünde yer almaktadır. `,
+    },
+    {
      name: "Pringles",
      slug: "pringles",
      foundedYear: 1968,
@@ -3867,22 +6385,6 @@ Kellogg's Company, 'Kellogg-Recanati International Executive MBA Program' adı a
    isBoycotted: "boykot-degil",
    website: "https://www.tat.com.tr/",
    description: `Tat, 27 Ağustos 1967 tarihinde Vehbi Koç tarafından Bursa'nın Mustafakemalpaşa ilçesinde kurulmuş Türk gıda şirketidir. Başlangıçta Tat Konserve adıyla faaliyet gösteren şirket, 15 Kasım 2013 tarihinde Tat Gıda olarak isim değişikliği yapmıştır. Şirketin genel merkezi İstanbul'un Çekmeköy ilçesinde bulunmaktadır. Bursa'nın Mustafakemalpaşa ve Karacabey ilçeleri ile İzmir'in Torbalı ilçesinde toplam 3 üretim tesisi bulunmaktadır. Domates sosu, ketçap, hazır yemek, mayonez, salça ve işlenmiş et ürünleri gibi geniş bir ürün yelpazesi sunmaktadır. 2024 yılında Koç Holding'in sahip olduğu hisseler Memişoğlu Tarım Ürünleri şirketine satılmıştır. Tat, Türkiye'de gıda sektörünün en bilinen isimlerinden biri olarak tüketici memnuniyetini ön planda tutan bir marka olarak bilinir. Tat markası ile ilgili yapılan değerlendirmeler sonucunda, geçmişte Coca-Cola ile gerçekleştirilen iş birliklerinin sona erdiği ve gelecekte benzer bir iş birliğine gidilmeyeceği yönünde kamuoyuna ve çeşitli mecralara verilen teminatlar dikkate alınmıştır. Bu taahhütler doğrultusunda, Tat markası boykot listesinden çıkarılmıştır. Ancak, ilerleyen dönemde bu teminatlara aykırı bir gelişme tespit edilirse, marka yeniden değerlendirmeye alınarak boykot listesine dahil edilebilir. Süreci şeffaf bir şekilde takip etmeye devam edeceğiz.`,
-  },
-  {
-   name: "Superfresh",
-   slug: "superfresh",
-   foundedYear: null,
-   ctgry: "Yiyecek",
-   founder: "",
-   owner: "Besler Gıda (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/superfresh.png",
-   isBoycotted: "boykot",
-   website: "https://www.superfresh.com.tr/tr",
-   description: `SuperFresh, Türkiye merkezli dondurulmuş gıda markasıdır. Başlangıçta Kerevitaş Gıda çatısı altında faaliyet gösteren marka, pazarda büyümesi ve liderler arasına girmesiyle Besler Gıda adıyla yoluna devam etmektedir. Yıldız Holding bünyesi altında bulunan Besler Gıda'ya ait olan SuperFresh, dondurulmuş mısır, pizza, börek ve aklınıza gelebilecek birçok dondurulmuş ürünü satışa sunmaktadır. Tamamen Türkiye'de üretilen yerli bir marka olan SuperFresh, hem Türkiye'de hem de yurtdışında satış yapmaktadır. Marka, kullanıcılara sağladığı pratiklik ve kullanım konforu ile bilinmektedir.`,
-   boycottReason: `SuperFresh, Yıldız Holding bünyesinde bulunan Besler Gıda'ya ait bir markadır. Yıldız Holding yönetim kurulu üyesi Yahya Ülker'in, İsrail boykotu konusunda kritik markalardan biri olan Starbucks'ı ziyaret ederek bunu sosyal medyasında paylaşması, kamuoyunda büyük tepki çekmiştir. Bu ziyaret, İsrail'e dolaylı destek olarak yorumlanmıştır. Yıldız Holding bünyesinde yer alan birçok marka gibi SuperFresh de bu nedenle boykot listesine dahil edilmiştir. SuperFresh doğrudan İsrail'e ait bir marka olmamasına rağmen, bağlı bulunduğu holdingin aldığı tepkilerden dolayı boykot listelerinde yer almaktadır.`,
-   evidences: [""],
   },
   {
    name: "Torku",
@@ -3944,6 +6446,54 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
    ],
    subBrands: [
     {
+     name: "Tic Tac",
+     slug: "tictac",
+     foundedYear: 1969,
+     ctgry: "Yiyecek",
+     founder: "Ferrero",
+     owner: "Ferrero",
+     country: "İtalya",
+     alternative_products: ["olips", "vivident", "first"],
+     img: "/tictac.png",
+     isBoycotted: "boykot",
+     website: "https://www.tictac.com/",
+     description: `Tic Tac, İtalyan şekerleme devi Ferrero tarafından üretilen ve dünya çapında 100'den fazla ülkede satılan ikonik bir sert şeker markasıdır. İlk olarak 1969 yılında "Refreshing Mints" adıyla piyasaya sürülmüş, ancak 1970 yılında kendine has menteşeli kapağının açılıp kapanırken çıkardığı karakteristik "tik-tak" sesinden esinlenerek bugünkü adını almıştır.
+
+Genellikle şeffaf, sert plastik kutularda sunulan ürün, taşınabilirliği ve pratikliği ile bilinir. Başlangıçta şekerler aroma rengine göre boyanırken, günümüzde birçok ülkede kutular renkli, şekerler ise beyaz olarak üretilmektedir. Markanın en büyük pazarlama kozlarından biri düşük kalorili olmasıdır; her bir draje yaklaşık 1.9 kalori içerir, bu da onu "düşük kalorili nefes tazeleyici" olarak konumlandırmıştır.
+
+Orijinal nane ve portakal aromalarıyla başlayan serüven, zamanla anason, tarçın, yeşil nane, vişne, çarkıfelek meyvesi ve patlamış mısır gibi sayısız çeşide ulaşmıştır. Marka ayrıca Coca-Cola, Sprite gibi içecek devleri ve Minyonlar, Simpsons gibi popüler kültür ikonlarıyla yaptığı sınırlı üretim iş birlikleriyle dinamizmini korumaktadır.`,
+     boycottReason: `Tic Tac'ın boykot edilmesinin temel nedeni, şirketin sahibi Ferrero'nun İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Ferrero, İsrail'in Tel Aviv bölgesindeki Holon şehrinde Asya için ana ofisi bulunmaktadır. Ayrıca, Ferrero, İsrail şeker şirketi Sugar Incredo (Douxmatok) ile ortak geliştirme anlaşması imzalamıştır. Ferrero'nun İsrail'deki varlığı ve İsrail şirketleriyle olan ortaklıkları nedeniyle bu marka boykot listesindedir.`,
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
+    },
+    {
+     name: "Hanuta",
+     slug: "hanuta",
+     foundedYear: 1959,
+     ctgry: "Yiyecek",
+     founder: "Ferrero",
+     owner: "Ferrero",
+     country: "İtalya",
+     alternative_products: [""],
+     img: "/hanuta.png",
+     isBoycotted: "boykot",
+     website: "https://www.hanuta.de/",
+     description: `Hanuta, İtalyan şekerleme devi Ferrero tarafından 1959 yılında Almanya pazarında piyasaya sürülen ikonik bir gofret markasıdır. İsmi, Almanca "Haselnusstafel" (Fındık Tableti) kelimesinin kısaltılmasından türetilmiştir ("Ha-nu-ta"). Başlangıçta Almanya'ya özgü bir lezzet olarak doğsa da zamanla tüm Avrupa'da tanınan bir atıştırmalık haline gelmiştir.
+
+Ürünün karakteristik yapısı, taze kavrulmuş fındık parçacıklarıyla zenginleştirilmiş yoğun kakao kremasının, iki adet çıtır gofret yaprağı arasına yerleştirilmesiyle oluşur. Ferrero'nun fındık konusundaki uzmanlığını yansıtan Hanuta, özellikle "taze kavrulmuş" vurgusuyla ve kendine has kare formuyla bilinir. Altın sarısı alüminyum ambalajı, ürünün tazeliğini ve çıtırlığını korumasını sağlar.
+
+Klasik versiyonunun yanı sıra "Hanuta Minis", "Hanuta Riegel" (Bar) ve dönemsel olarak çıkarılan sınırlı üretim (kurabiye, sütlü vb.) çeşitleri de bulunmaktadır. Ferrero çatısı altında üretilen marka, Nutella ve Ferrero Rocher gibi diğer fındık odaklı ürünlerle aynı kalite standartlarını paylaşmaktadır.`,
+     boycottReason: `Hanuta'nın boykot edilmesinin temel nedeni, şirketin sahibi Ferrero'nun İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Ferrero, İsrail'in Tel Aviv bölgesindeki Holon şehrinde Asya için ana ofisi bulunmaktadır. Ayrıca, Ferrero, İsrail şeker şirketi Sugar Incredo (Douxmatok) ile ortak geliştirme anlaşması imzalamıştır. Ferrero'nun İsrail'deki varlığı ve İsrail şirketleriyle olan ortaklıkları nedeniyle bu marka boykot listesindedir.`,
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
+    },
+    {
      name: "Raffaello",
      slug: "raffaello",
      foundedYear: 1990,
@@ -3960,7 +6510,11 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
 Ürünün merkezinde, özenle seçilmiş bütün bir beyaz badem (ağartılmış) yer alır. Bu badem, kadifemsi bir sütlü krema ile sarılarak çıtır bir gofret küresinin içine yerleştirilmiştir. En dış katmanı ise yoğun hindistan cevizi parçacıklarıyla kaplanarak, hem doku hem de lezzet açısından zengin, egzotik bir deneyim sunar.`,
 
      boycottReason: `Raffaello'nun boykot edilmesinin temel nedeni, şirketin sahibi Ferrero'nun İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Ferrero, İsrail'in Tel Aviv bölgesindeki Holon şehrinde Asya için ana ofisi bulunmaktadır. Ayrıca, Ferrero, İsrail şeker şirketi Sugar Incredo (Douxmatok) ile ortak geliştirme anlaşması imzalamıştır. Ferrero'nun İsrail'deki varlığı ve İsrail şirketleriyle olan ortaklıkları nedeniyle bu marka boykot listesindedir.`,
-     evidences: [],
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
     },
     {
      name: "Ferrero Rocher",
@@ -3978,7 +6532,11 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
 
 Ferrero Rocher'in yapısı şöyledir: Merkezde kavrulmuş bir fındık bulunur, bu fındık çikolata kreması ve gofret katmanı ile çevrilidir, ardından sütlü çikolata ve fındık parçaları ile kaplanır. Ürünün içeriği şeker, kakao yağı, kakao kitlesi, yağsız süt tozu, susuz süt yağı, emülgatör (soya lesitini), vanilin (aroma), fındık, palm yağı, buğday unu, peyniraltı suyu, az yağlı kakao tozu, sodyum bikarbonat (kabartma ajanı) ve tuz içerir.`,
      boycottReason: `Ferrero Rocher'in boykot edilmesinin temel nedeni, şirketin sahibi Ferrero'nun İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Ferrero, İsrail'in Tel Aviv bölgesindeki Holon şehrinde Asya için ana ofisi bulunmaktadır. Ayrıca, Ferrero, İsrail şeker şirketi Sugar Incredo (Douxmatok) ile ortak geliştirme anlaşması imzalamıştır. Ferrero'nun İsrail'deki varlığı ve İsrail şirketleriyle olan ortaklıkları nedeniyle bu marka boykot listesindedir.`,
-     evidences: [],
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
     },
     {
      name: "Kinder",
@@ -3992,7 +6550,7 @@ Ferrero Rocher'in yapısı şöyledir: Merkezde kavrulmuş bir fındık bulunur,
      img: "/kinder.png",
      isBoycotted: "boykot",
      website: "https://www.kinder.com/tr/tr/",
-     description: `Kinder (telaffuzu ['kinde]), Almanca'da "çocuklar" anlamına gelir. Kinder, İtalyan çokuluslu şekerleme şirketi Ferrero tarafından üretilen bir İtalyan çikolata markasıdır.
+     description: `Kinder, Almanca'da "çocuklar" anlamına gelir. Kinder, İtalyan çokuluslu şekerleme şirketi Ferrero tarafından üretilen bir İtalyan çikolata markasıdır.
   
   Kinder markası altındaki ürünler çeşitli çeşitler içerir ve dünya çapında 125'ten fazla ülkede satılmaktadır. Kinder, 24 Ekim 1968'de Kinder Çikolata ile tanıtılmıştır. Markanın en popüler ürünleri arasında Kinder Çikolata (sütlü çikolata barları), Kinder Maxi (Kinder Çikolata'nın daha büyük versiyonu) ve Kinder Bueno (fındık kreması dolgulu iki çikolatalı gofretten oluşan set) bulunmaktadır. Kinder Bueno, 1990 yılında İtalya'da piyasaya sürülmüştür.
   
@@ -4002,7 +6560,146 @@ Ferrero Rocher'in yapısı şöyledir: Merkezde kavrulmuş bir fındık bulunur,
   Ferrero'nun İsrail'de iki üretim tesisi bulunmaktadır ve şirket İsrail ile ticari ilişkilerini sürdürmektedir. Küresel tepkilere rağmen Ferrero, İsrail'deki yerel fabrikalarını kapatmamış ve ticari faaliyetlerini devam ettirmektedir. Bu durum, birçok tüketici ve aktivist tarafından İsrail'e dolaylı destek olarak yorumlanmaktadır.
   
   Ferrero'nun İsrail'deki varlığı, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Kinder, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır. Ferrero'nun İsrail'deki üretim tesisleri ve ticari faaliyetleri, boykot kararını destekleyen temel faktörlerdir.`,
-     evidences: [""],
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
+     subBrands: [
+      {
+       name: "Kinder Pingui",
+       slug: "kinder-pingui",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-pengui.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-pingui",
+       description: `Kinder Pingui, taze sütten yapılan yumuşak krema dolgusu ve incecik kek katmanının, kıtır bitter çikolata ile kaplanmasıyla oluşan soğuk bir atıştırmalıktır. Koruyucu ve renklendirici içermeyen yapısıyla buzdolabında saklanması gereken ferahlatıcı bir lezzettir.`,
+       boycottReason: `Kinder Pingui, Ferrero şirketine ait bir üründür. Ferrero'nun İsrail ile olan ticari ortaklıkları, üretim tesisleri ve İsrail ekonomisine sağladığı katkılar nedeniyle, bu ürün de boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+      {
+       name: "Kinder Chocolate",
+       slug: "kinder-chocolate",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-chocolate.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-chocolate",
+       description: `Kinder Chocolate, markanın 1968 yılında piyasaya sürdüğü ilk ve en ikonik ürünüdür. "Çocuklar için özel olarak porsiyonlanmış" sloganıyla bilinen ürün, bol sütlü yumuşak dolgusu ve dışındaki sütlü çikolatasıyla tanınır. Küçük eller için ideal boyutta paketlenmiş barlarıyla klasikleşmiştir.`,
+       boycottReason: `Kinder Chocolate, sahibi olan Ferrero grubunun İsrail ile olan doğrudan ticari bağlantıları ve yatırımları sebebiyle boykot edilmektedir.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+      {
+       name: "Kinder Joy",
+       slug: "kinder-joy",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-joy.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-joy",
+       description: `Kinder Joy, özellikle sıcak iklimlerde çikolatanın erimesini önlemek amacıyla geliştirilmiş, yumurta formunda yenilikçi bir üründür. Plastik yumurtanın bir yarısında kaşıkla yenebilen sütlü ve kakaolu krema içinde çıtır gofret topları bulunurken, diğer yarısında çocuklar için bir oyuncak yer alır.`,
+       boycottReason: `Kinder Joy, Ferrero bünyesindeki bir markadır. Çatı şirketin İsrail'deki "Sugar Incredo" gibi firmalarla yaptığı anlaşmalar ve bu ülkedeki ticari varlığı nedeniyle boykot kapsamındadır.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+      {
+       name: "Kinder Bueno",
+       slug: "kinder-bueno",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-bueno.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-bueno",
+       description: `Kinder Bueno, incecik çıtır gofretin içindeki akışkan fındık kreması ve dışındaki sütlü çikolata kaplamasıyla sofistike bir lezzet sunar. Ağızda eriyen yapısı ve hafifliğiyle hem gençlerin hem de yetişkinlerin favori atıştırmalıklarından biridir.`,
+       boycottReason: `Kinder Bueno, Ferrero'nun global markalarından biridir. Şirketin İsrail ile olan stratejik ortaklıkları ve yatırımları nedeniyle boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+      {
+       name: "Kinder Surprise",
+       slug: "kinder-surprise",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-surprise.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-surprise",
+       description: `Kinder Surprise, "3'ü 1 arada" deneyimi sunan efsanevi bir üründür: Çikolatanın lezzeti, oyuncağın sürprizi ve oyunun eğlencesi. Dışı sütlü, içi beyaz çikolatadan oluşan ince yumurta kabuğunun içinde, çocukların yaratıcılığını geliştiren demonte oyuncaklar barındıran sarı bir kapsül bulunur.`,
+       boycottReason: `Kinder Surprise, Ferrero şirketine aittir. Ferrero'nun İsrail'deki üretim ve Ar-Ge faaliyetleri (özellikle gıda teknolojisi alanındaki yatırımları) nedeniyle marka boykot edilmektedir.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+      {
+       name: "Kinder Süt Dilimi",
+       slug: "kinder-sut-dilimi",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-sut-dilimi.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-sut-dilimi",
+       description: `Kinder Süt Dilimi, iki ince kakaolu kek tabakasının arasında yer alan balla tatlandırılmış taze süt kremasından oluşur. Çikolata kaplaması içermeyen hafif yapısı ve soğuk tüketimiyle çocuklar için ideal bir ara öğün alternatifi olarak konumlandırılmıştır.`,
+       boycottReason: `Kinder Süt Dilimi, Ferrero grubu tarafından üretilmektedir. Ana şirketin İsrail ile olan ekonomik bağları ve iş birlikleri nedeniyle bu ürün de boykot kapsamındadır.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+      {
+       name: "Kinder Delice",
+       slug: "kinder-delice",
+       ctgry: "Yiyecek",
+       founder: "Ferrero",
+       owner: "Ferrero",
+       country: "İtalya",
+       alternative_products: ["eti"],
+       img: "/kinder-delice.png",
+       isBoycotted: "boykot",
+       website: "https://www.kinder.com/tr/tr/kinder-delice",
+       description: `Kinder Delice, yumuşak kakaolu keki, sütlü dolgusu ve üzerindeki yoğun kakao kaplamasıyla doyurucu bir atıştırmalıktır. Kek severler için geliştirilen bu ürün, okul beslenmelerinde veya gün içi molalarda tercih edilen lezzetli bir seçenektir.`,
+       boycottReason: `Kinder Delice, Ferrero markasıdır. Ferrero'nun İsrail'deki ticari faaliyetleri ve stratejik ortaklıkları sebebiyle, marka boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+        "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+        "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+       ],
+      },
+     ],
     },
     {
      name: "Nutella",
@@ -4018,9 +6715,36 @@ Ferrero Rocher'in yapısı şöyledir: Merkezde kavrulmuş bir fındık bulunur,
      website: "https://www.nutella.com/tr/tr/",
      description: `Nutella, İtalyan çikolata şirketi Ferrero Spa tarafından üretilen fındıklı kakao ezmesi markasıdır. 1946 yılında Pietro Ferrero tarafından İtalya'nın Alba kentinde Pasta Gianduja adıyla başlamış, 1951'de Supercrema gianduja adıyla kremalı versiyonu satılmaya başlanmıştır. 1963 yılında Pietro'nun oğlu Michele Ferrero tarafından ürünün kompozisyonu değiştirilerek "Nutella" adı verilmiş ve 20 Nisan 1964 tarihinde Alba fabrikasından ilk Nutella kavanozu piyasaya çıkmıştır. Ürün, şeker ve palm yağı (%50'den fazla), %13 fındık, kakao tozu ve yağsız süt içermektedir. ABD ve İngiltere'de soya ürünleri de içermektedir. Nutella, dünya çapında büyük bir başarı elde etmiş ve popülerliğini sürdürmektedir.`,
      boycottReason: `Nutella, dünyaca ünlü Ferrero şekerli gıda şirketinin alt markasıdır. Ferrero'nun İsrail'de iki üretim tesisi bulunmaktadır ve şirket İsrail ile ticari ilişkilerini sürdürmektedir. Küresel tepkilere rağmen Ferrero, İsrail'deki yerel fabrikalarını kapatmamış ve ticari faaliyetlerini devam ettirmektedir. Bu durum, birçok tüketici ve aktivist tarafından İsrail'e dolaylı destek olarak yorumlanmaktadır. Ferrero'nun İsrail'deki varlığı, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Nutella, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-     evidences: [""],
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
     },
-   ],
+    {
+     name: "Giotto",
+     slug: "giotto",
+     foundedYear: 1996,
+     ctgry: "Yiyecek ve İçecek",
+     founder: "Ferrero",
+     owner: "Ferrero",
+     country: "İtalya",
+     alternative_products: [""],
+     img: "/giotto.png",
+     isBoycotted: "boykot",
+     website: "https://www.giotto.de/",
+     description: `Giotto, İtalyan çikolata ve şekerleme devi Ferrero tarafından 1996 yılında piyasaya sunulan, fındık tutkunları için özel olarak geliştirilmiş premium bir atıştırmalık markasıdır. İtalyan pastane geleneğinden ilham alan bu mini toplar, özellikle "kahve molalarının vazgeçilmezi" olarak konumlandırılmış ve kısa sürede Avrupa'da bir klasik haline gelmiştir.
+
+Ürünün imza niteliğindeki yapısı; ince ve çıtır bir gofret küresinin içinde saklı olan yumuşak, yağsız süt ve fındık kreması dolgusuyla başlar. Bu kürenin dış yüzeyi ise özenle kavrulmuş ve kıyılmış fındık parçacıklarıyla kaplanarak hem görsel bir şıklık hem de yoğun bir lezzet deneyimi sunar. Her bir top, tek lokmalık boyutuyla rafine bir tatlı keyfi yaşatmayı hedefler.
+
+Genellikle kendine has ince uzun paketlerde (tüp ambalaj) sunulan Giotto, cappuccino veya espresso yanında ikram edilen zarif bir lezzet olarak bilinir. Ferrero'nun fındık işleme konusundaki uzmanlığının bir ürünü olan marka, "Küçük bir İtalyan kaçamağı" hissi uyandırarak tüketicilere gün içinde keyifli bir mola anı vaat etmektedir.`,
+     boycottReason: `Giotto'nun boykot edilmesinin temel nedeni, şirketin sahibi Ferrero'nun İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Ferrero, İsrail'in Tel Aviv bölgesindeki Holon şehrinde Asya için ana ofisi bulunmaktadır. Ayrıca, Ferrero, İsrail şeker şirketi Sugar Incredo (Douxmatok) ile ortak geliştirme anlaşması imzalamıştır. Ferrero'nun İsrail'deki varlığı ve İsrail şirketleriyle olan ortaklıkları nedeniyle bu marka boykot listesindedir.`,
+     evidences: [
+      "https://agfundernews.com/incredo-formerly-douxmatok-raises-30m-for-sugar-reduction-tech",
+      "https://www.fooddive.com/news/douxmatok-rebrands-incredo-30m-investment-ferrero/650981/",
+      "https://techcrunch.com/2023/05/24/douxmatok-incredo-sugar-foodtech-30m/",
+     ],
+    },],
   },
   {
    name: "Züber",
@@ -4186,6 +6910,55 @@ Unilever'in İsrail ile olan güçlü bağları, İsrail yerleşimlerinde üreti
    ],
    subBrands: [
     {
+     name: "Lipton",
+     slug: "lipton",
+     ctgry: "İçecek",
+     foundedYear: 1890,
+     founder: "Sir Thomas Lipton",
+     owner: "Unilever",
+     description: `Lipton, 1890 yılında İskoç girişimci Sir Thomas Lipton tarafından kuruldu. Zamanla dünyanın en büyük çay markalarından biri haline geldi. Lipton'un kuruluş hikayesi, Sir Thomas Lipton'un çay ticaretine başlaması ve dünya çapında çay plantasyonları kurmasıyla başlamıştır.
+  
+  Sir Thomas Lipton, çayı herkes için erişilebilir hale getirmek amacıyla, doğrudan çay üreticilerinden çay satın alarak aracıları ortadan kaldırmış ve böylece çay fiyatlarını düşürmüştür. Bu yaklaşım, Lipton'un hızla büyümesini ve dünya çapında tanınan bir marka haline gelmesini sağlamıştır.
+  
+  Günümüzde ise marka, global gıda devi Unilever bünyesinde faaliyet göstermektedir. Ayrıca Lipton ürünlerinin dağıtımı ve pazarlaması konusunda Unilever ile PepsiCo arasında ortak bir girişim bulunmaktadır. Yani Lipton'un sahibi İngiltere merkezli Unilever olup, PepsiCo'nun da markada önemli bir payı vardır.
+  
+  Lipton, bugün dünya çapında 150'den fazla ülkede satılmakta ve günlük olarak milyonlarca fincan tüketilmektedir. Marka, sadece siyah çayla sınırlı kalmayıp, yeşil çay, bitki çayları ve buzlu çay gibi farklı formatlarda da ürünler sunmaktadır. Lipton, özellikle evlerde ve restoranlarda tercih edilen bir çay markası olarak öne çıkmaktadır.`,
+     country: "İngiltere",
+     website: "https://www.lipton.com.tr/",
+     img: "/lipton.png",
+     isBoycotted: "boykot",
+     boycottReason: `Lipton'un boykot edilmesinin temel nedeni, markanın ana ortağı olan PepsiCo'nun İsrail ile olan ticari ilişkileridir. Lipton'un doğrudan İsrail'i desteklediğine dair resmi bir açıklama bulunmamaktadır. Ancak Lipton'un ana ortağı olan PepsiCo, İsrail merkezli bazı şirketlerle ticari ilişkiler yürütmektedir:
+  
+  1. SodaStream: PepsiCo, İsrail merkezli SodaStream'i 3,2 milyar dolara satın almıştır. SodaStream, İsrail'in yasadışı yerleşim bölgelerinde açtığı fabrikalar nedeniyle uzun süredir tartışma konusu olmaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir.
+  
+  2. Sabra: PepsiCo, İsrail merkezli Sabra markasının %50 hissesine sahiptir. Sabra'nın hakim hissedarı Strauss Group, İsrail ordusuna doğrudan destek vermesiyle bilinir. Bu durum, PepsiCo'nun İsrail'in askeri operasyonlarına da dolaylı olarak katkıda bulunduğu anlamına gelmektedir.
+  
+  Bu ticari ilişkiler nedeniyle, birçok tüketici Lipton'u dolaylı olarak İsrail'i destekleyen markalar arasında görmektedir. Filistin davasına destek vermek isteyen ve İsrail'in işgalci politikalarına karşı duran tüketiciler, PepsiCo'nun ortaklığı nedeniyle Lipton'u boykot etmeyi bir sorumluluk olarak görmektedir.`,
+     alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
+    },
+    {
+     name: "Pfanni",
+     slug: "pfanni",
+     foundedYear: 1949,
+     ctgry: "Yiyecek",
+     founder: "Werner Eckart",
+     owner: "Unilever",
+     country: "Birleşik Krallık",
+     alternative_products: [],
+     img: "/pfanni.png",
+     isBoycotted: "boykot",
+     website: "https://www.pfanni.de/",
+     description: `Pfanni, 2 Eylül 1949'da Münih'te Werner Eckart tarafından kurulan ve Almanya'nın en bilinen hazır patates ürünleri markasıdır. İsmini Almanca "tava" (Pfanne) kelimesinden alan marka, kökleri 1868'e dayanan bir konserve üreticisi ailenin girişimi olarak doğmuştur. Özellikle patates püresi, patates köftesi (Knödel) ve gnocchi gibi pratik ve lezzetli çözümleriyle Alman mutfağının vazgeçilmezlerinden biri haline gelmiştir.
+
+Markanın yükselişi, 1960'lı yıllarda yıllık 150.000 ton patates işleme kapasitesine ulaşmasıyla hız kazanmıştır. Şirket, 1993 yılında CPC Germany'e (daha sonra Bestfoods) satılmış, 2000 yılında ise bu grubun küresel gıda devi Unilever tarafından devralınmasıyla Unilever bünyesine katılmıştır.
+
+Günümüzde merkezi Stavenhagen'de bulunan Pfanni, "gerçek patates lezzeti" iddiasıyla üretim yapmaya devam etmektedir. Cloppenburg'daki tarihi üretim kulesi (Pfanni Kulesi) gibi sembolik yapılarıyla da bilinen marka, geleneksel Alman lezzetlerini modern ve pratik formlarda sunarak Unilever'in gıda portföyünde önemli bir yer tutmaktadır.`,
+     boycottReason: `Pfanni'nin sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+     evidences: [
+      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+     ],
+    },
+    {
      name: "Algida",
      slug: "algida",
      foundedYear: 1922,
@@ -4210,195 +6983,197 @@ Unilever'in İsrail ile olan güçlü bağları, İsrail yerleşimlerinde üreti
      evidences: [
       "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
      ],
-    },
-    {
-     name: "Magnum",
-     slug: "magnum",
-     foundedYear: 1989,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/magnum.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Magnum, Unilever tarafından 1989 yılında piyasaya sürülen premium dondurma markasıdır. Magnum, çikolata kaplı dondurma çubuklarıyla tanınır ve dünya çapında en popüler dondurma markalarından biridir.
-  
-  Magnum, ilk olarak Avrupa'da Algida (Wall's) markası altında piyasaya sürülmüştür. Markanın başarısı, kaliteli çikolata kaplama ve çeşitli lezzet seçenekleriyle tüketicilerin ilgisini çekmiştir. Magnum, "Magnum Pleasure" (Magnum Zevki) sloganıyla tanınır ve lüks dondurma segmentinde önemli bir konuma sahiptir.
-  
-  Magnum, çikolata kaplı dondurma konseptini popülerleştirmiş ve zaman içinde farklı lezzetler ve boyutlarda çeşitlenmiştir. Marka, dünya genelinde Algida, Wall's, Streets ve diğer Unilever dondurma markaları altında satılmaktadır. Magnum, Unilever'in Heartbrand (Kalp Markası) stratejisinin önemli bir parçasıdır.`,
-     boycottReason: `Magnum'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [""],
-    },
-    {
-     name: "Cornetto",
-     slug: "cornetto",
-     foundedYear: 1976,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/cornetto.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Cornetto, Unilever tarafından 1976 yılında İtalya'da piyasaya sürülen dondurma markasıdır. Cornetto, koni şeklindeki waffle kaplarda dondurma ve çikolata kaplı dondurma çubuklarıyla tanınır.
-  
-  Cornetto, ilk olarak Avrupa'da Algida (Wall's) markası altında piyasaya sürülmüştür. Markanın başarısı, eşsiz koni şekli ve çeşitli lezzet seçenekleriyle tüketicilerin ilgisini çekmiştir. Cornetto, "One Moment of Pure Pleasure" (Bir Anlık Saf Zevk) sloganıyla tanınır ve dünya çapında popüler bir dondurma markasıdır.
-  
-  Cornetto, Unilever'in Heartbrand (Kalp Markası) stratejisinin önemli bir parçasıdır ve dünya genelinde farklı ülkelerde farklı isimlerle satılmaktadır. Marka, özellikle genç tüketiciler arasında popülerdir ve çeşitli lezzetlerde üretilmektedir.`,
-     boycottReason: `Cornetto'nun sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Carte D'Or",
-     slug: "carte-dor",
-     foundedYear: 1991,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/carte-dor.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Carte d'Or, Unilever tarafından 1991 yılında Fransa'da piyasaya sürülen premium dondurma markasıdır. Carte d'Or, yüksek kaliteli malzemeler ve çeşitli lezzet seçenekleriyle tanınır.
-  
-  Carte d'Or, özellikle Avrupa pazarında premium segmentte konumlanmıştır. Marka, özenle seçilmiş içerikler ve geleneksel dondurma yapım teknikleriyle tüketicilere lüks bir dondurma deneyimi sunmaktadır. Carte d'Or, "Le plaisir d'être ensemble" (Birlikte olmanın zevki) gibi sloganlarla tanınır.
-  
-  Carte d'Or, Unilever'in Heartbrand (Kalp Markası) stratejisinin bir parçasıdır ve özellikle Fransa, Belçika, İsviçre gibi ülkelerde yaygın olarak bulunmaktadır. Marka, geleneksel ve modern lezzetlerin birleşimini sunarak geniş bir tüketici kitlesine hitap etmektedir.`,
-     boycottReason: `Carte d'Or'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Classics",
-     slug: "classics",
-     foundedYear: 1990,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/classics.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Classics, Unilever tarafından üretilen ve Algida markası altında satılan klasik dondurma ürünleridir. Classics serisi, geleneksel lezzetler ve klasik dondurma çeşitleriyle tüketicilere sunulmaktadır.`,
-     boycottReason: `Classics'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Twister",
-     slug: "twister",
-     foundedYear: 1982,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/twister.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Twister, Unilever tarafından 1982 yılında piyasaya sürülen dondurma markasıdır. Twister, çift renkli ve çift lezzetli dondurma çubuklarıyla tanınır. Marka, özellikle genç tüketiciler arasında popülerdir ve çeşitli meyve lezzetlerinde üretilmektedir.`,
-     boycottReason: `Twister'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Viennetta",
-     slug: "viennetta",
-     foundedYear: 1982,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/viennetta.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Viennetta, Unilever tarafından 1982 yılında piyasaya sürülen premium dondurma pastası markasıdır. Viennetta, katmanlı dondurma ve çikolata katmanlarıyla tanınır ve özel günler için tasarlanmış lüks bir dondurma ürünüdür.`,
-     boycottReason: `Viennetta'nın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Boom Boom",
-     slug: "boom-boom",
-     foundedYear: 1990,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/boom-boom.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Boom Boom, Unilever'in Algida markası altında Türkiye pazarı için ürettiği dondurma markasıdır. Boom Boom, özellikle çocuklar ve gençler arasında popüler olan renkli ve eğlenceli dondurma ürünleridir.`,
-     boycottReason: `Boom Boom'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Nogger",
-     slug: "nogger",
-     foundedYear: 1980,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/nogger.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Nogger, Unilever tarafından 1980 yılında Almanya'da piyasaya sürülen dondurma markasıdır. Nogger, çikolata kaplı dondurma çubuklarıyla tanınır ve özellikle Avrupa pazarında popülerdir.`,
-     boycottReason: `Nogger'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Keyif",
-     slug: "keyif",
-     foundedYear: 1995,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/keyif.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Keyif, Unilever'in Algida markası altında Türkiye pazarı için ürettiği dondurma markasıdır. Keyif, geleneksel Türk dondurma lezzetlerini modern bir yaklaşımla sunan ürünlerdir.`,
-     boycottReason: `Keyif'in sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
-     ],
-    },
-    {
-     name: "Usta Usulü",
-     slug: "usta-usulu",
-     foundedYear: 2000,
-     ctgry: "Yiyecek",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/usta-usulu.png",
-     isBoycotted: "boykot",
-     website: "",
-     description: `Usta Usulü, Unilever'in Algida markası altında Türkiye pazarı için ürettiği dondurma markasıdır. Usta Usulü, geleneksel dondurma ustalarının tariflerinden ilham alınarak hazırlanmış özel dondurma ürünleridir.`,
-     boycottReason: `Usta Usulü'nün sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     evidences: [
-      "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+     subBrands: [
+      {
+       name: "Magnum",
+       slug: "magnum",
+       foundedYear: 1989,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/magnum.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Magnum, Unilever tarafından 1989 yılında piyasaya sürülen premium dondurma markasıdır. Magnum, çikolata kaplı dondurma çubuklarıyla tanınır ve dünya çapında en popüler dondurma markalarından biridir.
+    
+    Magnum, ilk olarak Avrupa'da Algida (Wall's) markası altında piyasaya sürülmüştür. Markanın başarısı, kaliteli çikolata kaplama ve çeşitli lezzet seçenekleriyle tüketicilerin ilgisini çekmiştir. Magnum, "Magnum Pleasure" (Magnum Zevki) sloganıyla tanınır ve lüks dondurma segmentinde önemli bir konuma sahiptir.
+    
+    Magnum, çikolata kaplı dondurma konseptini popülerleştirmiş ve zaman içinde farklı lezzetler ve boyutlarda çeşitlenmiştir. Marka, dünya genelinde Algida, Wall's, Streets ve diğer Unilever dondurma markaları altında satılmaktadır. Magnum, Unilever'in Heartbrand (Kalp Markası) stratejisinin önemli bir parçasıdır.`,
+       boycottReason: `Magnum'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [""],
+      },
+      {
+       name: "Cornetto",
+       slug: "cornetto",
+       foundedYear: 1976,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/cornetto.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Cornetto, Unilever tarafından 1976 yılında İtalya'da piyasaya sürülen dondurma markasıdır. Cornetto, koni şeklindeki waffle kaplarda dondurma ve çikolata kaplı dondurma çubuklarıyla tanınır.
+    
+    Cornetto, ilk olarak Avrupa'da Algida (Wall's) markası altında piyasaya sürülmüştür. Markanın başarısı, eşsiz koni şekli ve çeşitli lezzet seçenekleriyle tüketicilerin ilgisini çekmiştir. Cornetto, "One Moment of Pure Pleasure" (Bir Anlık Saf Zevk) sloganıyla tanınır ve dünya çapında popüler bir dondurma markasıdır.
+    
+    Cornetto, Unilever'in Heartbrand (Kalp Markası) stratejisinin önemli bir parçasıdır ve dünya genelinde farklı ülkelerde farklı isimlerle satılmaktadır. Marka, özellikle genç tüketiciler arasında popülerdir ve çeşitli lezzetlerde üretilmektedir.`,
+       boycottReason: `Cornetto'nun sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Carte D'Or",
+       slug: "carte-dor",
+       foundedYear: 1991,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/carte-dor.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Carte d'Or, Unilever tarafından 1991 yılında Fransa'da piyasaya sürülen premium dondurma markasıdır. Carte d'Or, yüksek kaliteli malzemeler ve çeşitli lezzet seçenekleriyle tanınır.
+    
+    Carte d'Or, özellikle Avrupa pazarında premium segmentte konumlanmıştır. Marka, özenle seçilmiş içerikler ve geleneksel dondurma yapım teknikleriyle tüketicilere lüks bir dondurma deneyimi sunmaktadır. Carte d'Or, "Le plaisir d'être ensemble" (Birlikte olmanın zevki) gibi sloganlarla tanınır.
+    
+    Carte d'Or, Unilever'in Heartbrand (Kalp Markası) stratejisinin bir parçasıdır ve özellikle Fransa, Belçika, İsviçre gibi ülkelerde yaygın olarak bulunmaktadır. Marka, geleneksel ve modern lezzetlerin birleşimini sunarak geniş bir tüketici kitlesine hitap etmektedir.`,
+       boycottReason: `Carte d'Or'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Classics",
+       slug: "classics",
+       foundedYear: 1990,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/classics.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Classics, Unilever tarafından üretilen ve Algida markası altında satılan klasik dondurma ürünleridir. Classics serisi, geleneksel lezzetler ve klasik dondurma çeşitleriyle tüketicilere sunulmaktadır.`,
+       boycottReason: `Classics'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Twister",
+       slug: "twister",
+       foundedYear: 1982,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/twister.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Twister, Unilever tarafından 1982 yılında piyasaya sürülen dondurma markasıdır. Twister, çift renkli ve çift lezzetli dondurma çubuklarıyla tanınır. Marka, özellikle genç tüketiciler arasında popülerdir ve çeşitli meyve lezzetlerinde üretilmektedir.`,
+       boycottReason: `Twister'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Viennetta",
+       slug: "viennetta",
+       foundedYear: 1982,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/viennetta.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Viennetta, Unilever tarafından 1982 yılında piyasaya sürülen premium dondurma pastası markasıdır. Viennetta, katmanlı dondurma ve çikolata katmanlarıyla tanınır ve özel günler için tasarlanmış lüks bir dondurma ürünüdür.`,
+       boycottReason: `Viennetta'nın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Boom Boom",
+       slug: "boom-boom",
+       foundedYear: 1990,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/boom-boom.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Boom Boom, Unilever'in Algida markası altında Türkiye pazarı için ürettiği dondurma markasıdır. Boom Boom, özellikle çocuklar ve gençler arasında popüler olan renkli ve eğlenceli dondurma ürünleridir.`,
+       boycottReason: `Boom Boom'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Nogger",
+       slug: "nogger",
+       foundedYear: 1980,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/nogger.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Nogger, Unilever tarafından 1980 yılında Almanya'da piyasaya sürülen dondurma markasıdır. Nogger, çikolata kaplı dondurma çubuklarıyla tanınır ve özellikle Avrupa pazarında popülerdir.`,
+       boycottReason: `Nogger'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Keyif",
+       slug: "keyif",
+       foundedYear: 1995,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/keyif.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Keyif, Unilever'in Algida markası altında Türkiye pazarı için ürettiği dondurma markasıdır. Keyif, geleneksel Türk dondurma lezzetlerini modern bir yaklaşımla sunan ürünlerdir.`,
+       boycottReason: `Keyif'in sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
+      {
+       name: "Usta Usulü",
+       slug: "usta-usulu",
+       foundedYear: 2000,
+       ctgry: "Yiyecek",
+       founder: "Unilever",
+       owner: "Unilever",
+       country: "Birleşik Krallık",
+       alternative_products: [],
+       img: "/usta-usulu.png",
+       isBoycotted: "boykot",
+       website: "",
+       description: `Usta Usulü, Unilever'in Algida markası altında Türkiye pazarı için ürettiği dondurma markasıdır. Usta Usulü, geleneksel dondurma ustalarının tariflerinden ilham alınarak hazırlanmış özel dondurma ürünleridir.`,
+       boycottReason: `Usta Usulü'nün sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
+       evidences: [
+        "https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",
+       ],
+      },
      ],
     },
     {
@@ -4447,27 +7222,6 @@ Knorr, Heilbronn, Almanya'da bulunan şirkettir. Şirketin toplam €3 milyar pa
 Knorr, Unilever'in gıda ürünü olarak faaliyet göstermektedir ve dünya çapında çeşitli yemek ürünleri, sos karışımları ve hazır yemek karışımları üretmektedir.`,
     },
     {
-     name: "Axe",
-     slug: "axe",
-     foundedYear: 1983,
-     ctgry: "Kişisel Bakım",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/axe.png",
-     isBoycotted: "boykot",
-     website: "https://www.axe.com/tr/home.html",
-     boycottReason: `Axe'in sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     description: `Axe, Unilever'e ait kişisel bakım markasıdır. Axe, Birleşik Krallık, İrlanda, Avustralya ve Yeni Zelanda'da "Lynx" adıyla bilinmektedir.
-
-Axe, 1983 yılında Fransa'da ilk kez piyasaya sürülmüştür. İlk amacı, erkekler için kadınları çekmek için koku ürünleri yaratmaktı. Daha sonra Axe'in reklamları, erkeklerin kadınların dikkatini çekmesi üzerine odaklanmıştır. İlk olarak Amerika'da tanıtılan ürün, daha sonra Asya ve Afrika'da başarı bulmuştur.
-
-Ocak 2012'de Axe, daha önce sadece erkekler için üretim yapan marka, Birleşik Krallık'ta ilk Axe/Lynx kadın ürününü piyasaya sürmüştür. Güncel ürün portföyü aerosol, parfüm, şampuan, tıraş kremi ve duş jeli içermektedir.
-
-Şirket, Axe Black, Axe Black Night, Axe Dark Temptation, Axe Apollo, Axe Gold Temptation, Axe Anarchy, Axe Excite ve Axe Africa gibi çeşitli isimler ve kokularla ürünler sunmaktadır. Axe, Türkiye'de küresel perspektifle yenilikçi ürün ve iletişim faaliyetlerine devam etmektedir ve 2015 yılına kadar "Axe Effect" başlığı altında birçok küresel kampanyanın Türkçe versiyonları tasarlanmıştır.`,
-    },
-    {
      name: "Cif",
      slug: "cif",
      foundedYear: 1969,
@@ -4489,31 +7243,6 @@ Cif, 51 ülkede Jif, Vim, Viss ve Handy Andy gibi çeşitli isimlerle bilinmekte
 Ürün, Belçika, Finlandiya ve Portekiz'de uzun süre Vim olarak bilinmiş, sonra Cif olmuştur ve hala Kanada ve Hindistan'da Vim olarak adlandırılmaktadır. Hindistan'da Cif yüzey temizleyici reklamları görünmeye başlamıştır, ancak bulaşık yıkama makineleri için hala Vim kullanılmaktadır. Almanya'da temizleyici Viss olarak, Norveç'te ise hala Jif olarak adlandırılmaktadır. Irak'ta Jif, yerel Arapça ve İngilizce yazılarla bulunmaktadır.
 
 Türkiye'de 2010 yazında Sunlight markası altında üretilen bulaşık deterjanları, yeni kompozit marka "Sunlight Cif" olarak pazarlanmaya başlanmıştır.`,
-    },
-    {
-     name: "Clear",
-     slug: "clear",
-     foundedYear: 1981,
-     ctgry: "Kişisel Bakım",
-     founder: "Unilever",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/clear.png",
-     isBoycotted: "boykot",
-     website: "https://www.unilever.com.tr/brands/beauty-wellbeing/clear/",
-     boycottReason: `Clear'ın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     description: `Clear, Unilever tarafından üretilen kepek önleyici şampuan markasıdır. Clear, 1981 yılında piyasaya sürülmüş ve birçok küresel ülkede "Clear" adıyla satılmaktadır.
-
-Clear, Yunanistan'da "Ultrex", Portekiz'de "Linic", Hindistan'da "Pure Derm" olarak bilinmektedir. 2000'lerden önce ürün, Tayland'da "Clinic Clear" ve "Clinic" olarak satılmıştır ve 2010'a kadar bu isimle satılmaya devam etmiştir.
-
-Agnes Monica, Clear'in şu anki marka elçisidir. Clear, dünya çapında birçok sporcu, müzisyen ve aktörü reklamlarında kullanmıştır.
-
-Clear'in tarihsel sloganları şunlardır:
-- 1981-1989: "Clear şampuanı, kepeklere karşı, düzenli olarak"
-- 1989-1993: "Berrak işler. Kepek düzenli olarak hatta her gün"
-
-Clear, kepek önleme ve saç bakımı alanında faaliyet göstermektedir ve Unilever'in kişisel bakım markalarından biridir.`,
     },
     {
      name: "Domestos",
@@ -4539,62 +7268,6 @@ Domestos Çamaşır Suyu, 1929 yılında kimyager Wilfred Handley (1901-1982) ta
 1961 yılında Domestos'un üretim ve satış haklarını devralan Unilever'le birlikte çamaşır suyu pazarında büyümesini hızlandırdı. 1999 yılında ise Domestos, Türkiye ev bakım pazarına yoğun kıvamlı çamaşır suyunu getiren ilk marka oldu ve o günden bu yana Türkiye'deki evlere eşsiz formüllü çamaşır suları ve temizlik ürünleri ile maksimum sürdürülebilir hijyen sunuyor.
 
 Türkiye'deki ürünler arasında Domestos Ultra Yoğun Kıvamlı Çamaşır Suyu (Dağ Esintisi, Kar Beyazı, Limon Ferahlığı ve Okaliptus Ferahlığı kokuları gibi farklı kokuları ile) ve 7'li Püskürtme Sistemi (özel dizayn edilmiş kapağı ile, yoğun kıvamlı çamaşır suyunun tazyikli bir şekilde tuvaletin her yerine ulaştırır) bulunmaktadır.`,
-    },
-    {
-     name: "Dove",
-     slug: "dove",
-     country: "ABD",
-     ctgry: "Kişisel Bakım",
-     founder: "",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/dove.png",
-     isBoycotted: "boykot",
-     website: "https://www.dove.com/tr/home.html",
-     boycottReason: `Dove'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     description: `Dove, İngiliz kökenli Unilever şirketine ait kişisel bakım markasıdır. Dove ürünleri Arjantin, Avustralya, Brezilya, Kanada, Almanya, Endonezya, İsrail, İrlanda, Meksika, Hollanda, Pakistan, Güney Afrika, Tayland, Türkiye ve Amerika Birleşik Devletleri gibi çeşitli ülkelerde üretilmektedir.
-
-Dove markası ilk olarak 1955 yılında ABD'de piyasaya sürülmüştür. Günümüzde ürünleri 80'den fazla ülkede satılmakta ve tüketilmektedir.
-
-Dove, dört sektörde faaliyet göstermektedir: cilt temizleme ürünleri, cilt bakım ürünleri, deodorant ve saç bakım ürünleri. Ürün yelpazesi arasında antiperspirant deodorantlar, vücut yıkama jelleri, güzellik sabunları, losyonlar, nemlendiriciler, saç bakımı ve yüz bakım ürünleri bulunmaktadır.
-
-Dove ürünleri genellikle sentetik yüzey aktif maddeler, bitkisel yağlar (palm kernel yağı gibi) ve hayvansal yağlardan (tallow) hazırlanmaktadır.
-
-Günümüzde Dove, hem erkek hem de kadınlar için sabun, sıvı sabun, duş jeli, krem çubuklar, şampuanlar, saç kremleri, rulo, deodorantlar, spreyler, losyonlar ve vücut ve el bakım ürünleri üretmektedir.
-
-Türkiye pazarında Dove ilk olarak 1993 yılında Dove Cream Bar'ın piyasaya sürülmesiyle giriş yapmıştır. Bunu 1997 yılında Shower Gel ve Liquid Soap'un piyasaya sürülmesi takip etmiştir. Dove Deodorant, markaya 2001 yılında eklenmiş ve Dove Body Silk ise 2002 yılında piyasaya sürülmüştür. 2010 yılında Dove, erkekler için "Dove Men + Care" adında yeni bir marka başlatmıştır.`,
-    },
-    {
-     name: "Elidor",
-     slug: "elidor",
-     foundedYear: 1954,
-     ctgry: "Kişisel Bakım",
-     founder: "",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/elidor.png",
-     isBoycotted: "boykot",
-     website: "https://www.elidor.com.tr/home.html",
-     boycottReason: `Elidor'un sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     description: `Elidor, Unilever şirketine ait şampuan markasıdır. Orijinal adı "Sunsilk" olup, diğer ülkelerde "Elidor", "Seda" ve "Sedal" adlarıyla satılmaktadır.
-
-Elidor markası ilk olarak 1954 yılında İngiltere'de piyasaya sürülmüştür. 1959 yılında 18 ülkede satılmaya başlanmıştır.
-
-1956 yılında kuru saçlar için Sunsilk krem şampuan piyasaya sürülmüştür. 1960 yılında enfekte saç derisi için Allantoin içeren Sunsilk Tonic şampuan piyasaya çıkmıştır. 1962 yılında Sunsilk, farklı saç tipleri için farklı şampuan türleri olarak pazarlanmaya başlanmıştır.
-
-1966 yılında Sunsilk, ürün formülünü önemli ölçüde geliştirerek yeni seriler başlatmıştır. İlk olarak saçları yumuşak ve yönetilebilir hale getirmek için zeytinyağı içeren bir krem şampuan tanıtılmıştır. Yağlı saçlar için doğal parlaklığını geri kazandırmak amacıyla limon şampuanı piyasaya sürülmüştür. 1966 yılında Sunsilk, saç bakımı için ilk saç spreyini tanıtmıştır. Saç spreyi bir Fransız parfümü içeriyordu ve yıkandıktan sonra kolayca taranabilirdi.
-
-1969 yılında tüm Sunsilk ürünleri, cam şişeler yerine daha pratik PVC (polivinil klorür) ambalajlarda paketlenmeye başlanmıştır. 1971 yılında Sunsilk krem, kuru, normal ve yağlı saçlar için üç çeşit olarak piyasaya sürülmüştür. 1973 yılında Sunsilk, bir aerosol losyon tanıtmıştır. 1985 yılında Sunsilk, styling mousse serisini başlatmıştır.
-
-1993 yılında Sunsilk, kadınların saç ihtiyaçlarını karşılamak ve istedikleri saç görünümünü yansıtmak için geliştirilmiş şampuan ve kremlerden oluşan bir seri piyasaya sürmüştür. "Elida Hair Institute" bu yönde birçok çalışma yapmış ve yeni ürünleri piyasaya tanıtmıştır.
-
-Sunsilk, küresel tanıtım ve pazarlaması için ünlüleri kullanmıştır. 2008 yılında Madonna, Natalia Oreiro ve Shakira, "Hayat beklemiyor" sloganıyla bir reklam kampanyası başlatmıştır. Bunu takiben "Saç Üzerine = Hayat Üzerine" sloganıyla kampanyalar devam etmiştir.
-
-2009 yılında Elidor, dünyanın en ünlü yedi saç tasarımcısıyla işbirliği yaparak "Elidor Co-Creations" serisini başlatmıştır. Her tasarımcı, belirli saç tipleri veya problemleri için formüller geliştirmiştir: Ouidad (dalgalı ve kıvırcık saçlar), Rita Hazan (boyalı saçlar), Francesca Fusco (saç dökülmesi ve diğer saç derisi problemleri), Jamal Hammadi (ışıltılı saçlar), Yuko Yamashita (düz saçlar), Teddy Charles (hacimli saçlar), Thomas Taw (kuru ve yıpranmış saçlar).
-
-Türkiye'de Meryem Uzerli ve Elçin Sangu, Elidor'un reklam yüzleri olmuştur.`,
     },
     {
      name: "Hellmann's",
@@ -4650,37 +7323,6 @@ OMO, farklı ülkelerde farklı isimlerle pazarlanmaktadır:
 Omo, 1990'larda Polonya'da popülerdi ancak 2000 yılında satışlar durdu. Belçika'da 2009 yılında "Coral" Omo'nun yerini aldı. Tunus'ta popülerliği nedeniyle tüm deterjanlar "Omo" olarak bilinmeye başladı.
 
 Türkiye'de OMO, 1960'larda piyasaya girmiştir. 1985 yılında otomatik çamaşır makineleri için "Omomatik" tanıtılmıştır. Pazarlama kampanyaları arasında "Kıyafetler kirlenir, çocuklar böyle öğrenir" (2001), "Kirlenmek Güzeldir" (2004) ve "Her Çocuğun Çocuk Olma Hakkı Vardır" sloganıyla "yaparak öğrenmek" teması (2008) bulunmaktadır. OMO, günümüzde Türkiye'de en yaygın kullanılan deterjan markalarından biridir.`,
-    },
-    {
-     name: "Rexona",
-     slug: "rexona",
-     foundedYear: 1908,
-     ctgry: "Kişisel Bakım",
-     founder: "Dr. Alice Sheffer",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/rexona.png",
-     isBoycotted: "boykot",
-     website: "https://www.rexona.com/tr/home.html",
-     boycottReason: `Rexona'nın sahibi Unilever boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Unilever) gidiniz.`,
-     description: `Rexona, Unilever'e ait deodorant ve antiperspirant markasıdır. Farklı bölgelerde farklı isimlerle bilinmektedir: "Sure" (Birleşik Krallık ve İrlanda), "Degree" (Amerika Birleşik Devletleri ve Kanada), "Rexena" (Güney Kore ve Japonya), "Shield" (Güney Afrika Cumhuriyeti).
-
-Rexona, 1908 yılında Avustralya'da Dr. Alice Sheffer tarafından yaratılmıştır. Dr. Sheffer, ilk olarak hoş kokulu bir sabun geliştirmiştir. "Rexona" ismi, "kral" veya "prens" anlamına gelen Latince "rex" kelimesinden türetilmiştir.
-
-1920 yılına kadar Sheffer, ürünlerini yerel olarak satmış, sonra markayı Avustralya genelinde genişletmeye karar vermiştir. Billboard'lar kullanmış ve "Rexona Baby" ve "Miss Rexona" yarışmaları düzenleyerek markayı tanıtmış, böylece Rexona'yı Avustralya'da tercih edilen bir seçenek haline getirmiştir.
-
-1928 yılında Rexona, İngiliz sabun üreticisi Lever Brothers tarafından satın alınmıştır. Lever Brothers, daha sonra Margarine Unie ile birleşerek Unilever'i oluşturmuştur.
-
-1960 yılında Rexona, antiperspirant üretimine başlamış ve bunları İngiltere'de "Sure" olarak piyasaya sürmüştür. Marka, ardından Avrupa'ya ve dünya çapına yayılmıştır.
-
-1980 yılında Rexona, küresel büyüme stratejisinin bir parçası olarak farklı kokulara sahip yeni ürün çeşitleri tanıtmıştır.
-
-1990'larda Rexona, profesyonel spor dünyasına girmiş ve önemli sporcuları ve takımları sponsor etmiştir. Sponsor olunan sporcular ve takımlar arasında dağ bisikletçisi Darren Berrelcloth, tenis şampiyonu Steffi Graf, Springboks (rugby takımı), hayatta kalma uzmanı Bear Grylls, tenis şampiyonu David Nalbandian, All Blacks (rugby takımı), paraşütçü Miles Daisher, kriketçi Andrew Flintoff ve Lotus F1™ Team bulunmaktadır.
-
-2015 yılında marka, formülünü güncellemiş ve yeniden tasarlanmış ambalajlarla yeni bir parfüm serisi başlatmıştır.
-
-Günümüzde Rexona, kadın ve erkekler için aerosol, sprey, stick, roll-on ve krem ürünleri sunmaktadır. Sloganı: "Seni asla yarı yolda bırakmaz!" (It will never let you down!).`,
     },
     {
      name: "Rinso",
@@ -4744,45 +7386,6 @@ Bir sıra ülkelerde Asya ve Latin Amerika'da Signal'in yerine Pepsodent'in sat�
 Signal, Unilever'in "Her gün daha iyi bir gelecek yaratma" vazifesiyle, Türkiye'de ağız bakım alışkanlıkları için bilgilendirme çalışmalarına yapıyor.
 
 Ürün yelpazesi diş macunu, diş fırçası ve ağız bakım suyunu içerir.`,
-    },
-    {
-     name: "Vaseline",
-     slug: "vaseline",
-     country: "ABD",
-     ctgry: "Kişisel Bakım",
-     founder: "Robert Chesebrough",
-     owner: "Unilever",
-     country: "Birleşik Krallık",
-     alternative_products: [],
-     img: "/vaseline.png",
-     isBoycotted: "boykot",
-     website: "https://www.vaseline.com.tr/home.html",
-     boycottReason: `Unilever'in boykot edilmesinin temel nedeni, şirketin İsrail ile olan doğrudan ticari ve ekonomik bağlarıdır. Unilever, İsrail'i destekleyen ve fon sağlayan bir şirkettir.
-
-Ben & Jerry's, Unilever'in alt şirketi olarak İsrail'deki ürün satışlarını durdurma kararı almıştır. Ancak Unilever İsrail, bu kararı görmezden gelerek Ben & Jerry's ürünlerinin dağıtım haklarını Avi Zinger'a (markanın uzun süredir İsrail dondurma lisans sahibi ve AQP'nin sahibi) satarak satışların devam etmesini sağlamıştır. Bu durum, Unilever'in Filistin davasına karşı duyarsızlığını ve İsrail pazarına olan bağlılığını göstermektedir.
-
-Unilever'in boykot edilmesinin bir diğer nedeni, Filistinlilerden zorla alınan ve meşru olmayan İsrail yerleşimlerinde üretim yapan şirketlerle ortaklıklar kurması ve İsrail ekonomisine önemli katkılarda bulunmasıdır.
-
-Unilever, Strauss Ice Cream'ın ana hissedarıdır ve bu şirket Strauss Group'un bir yan kuruluşudur. Strauss Group, İsrail'in önde gelen gıda şirketlerinden biridir. Unilever, aynı zamanda Strauss Group'un önemli bir iş ortağıdır. Strauss Group, İsrail'in askeri birimlerine ürün ve hizmet sağlayan bir şirketler grubudur.
-
-Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek isteyen ve İsrail'in işgalci politikalarına karşı duran tüketiciler, Unilever'e ait tüm markaları (Vaseline dahil) boykot etmeyi bir sorumluluk olarak görmektedir.
-
-Unilever'in İsrail ile olan güçlü bağları, İsrail yerleşimlerinde üretim yapan şirketlerle olan ortaklıkları, Ben & Jerry's kararını görmezden gelmesi ve Strauss Group ile olan ilişkileri, boykot kararını destekleyen temel faktörlerdir.`,
-     description: `Vaseline, İngiliz çokuluslu şirket Unilever'e ait bir Amerikan vazelin bazlı ürün markasıdır. Ürünler arasında sade vazelin ve çeşitli cilt kremleri, sabunlar, losyonlar, temizleyiciler ve deodorantlar bulunur.
-
-Birçok dilde "vazelin" kelimesi vazelin için jenerik olarak kullanılır; Portekiz'de Unilever ürünleri Vasenol olarak adlandırılır.
-
-Vaseline'ın kökeni 1859 yılına dayanmaktadır. Eskiden ispermeçet balinalarının başlarından elde edilen mumsu bir yağ olan ispermeçet yağından lamba yağı elde eden bir kimyager olan Robert Chesebrough, balina yağının yerini kömür yağının almasıyla iş kaybına uğradı. Bu yeni yakıttan hangi yeni malzemelerin üretilebileceğini araştırmak için Pensilvanya, Titusville'deki petrol sahalarına gitti.
-
-Orada, petrol kulesi pompalarından periyodik olarak temizlenmesi gereken çubuk mumu adı verilen bir kalıntı olduğunu öğrendi. Petrol işçileri bu maddeyi kesik ve yanıkları iyileştirmek için kullanıyordu. Chesebrough, çubuk mumundan örnekler alarak Brooklyn'e geri götürdü, kullanılabilir vazelini çıkardı ve Vaseline adını verdiği tıbbi bir ürün üretmeye başladı.
-
-1872 yılında Chesebrough Manufacturing Company tarafından Vaseline için Amerikan patenti alındı. Robert Chesebrough, patent başvurusunda "Ben, Robert Chesebrough, petrol ürünlerinden Vaseline adını verdiğim yeni ve kullanışlı bir ürün icat ettim..." ifadesini kullanmıştır.
-
-Üreticiye göre "vazelin" ismi, Almanca "Wasser" (su) ve Yunanca "έλαιον (elaion)" (yağ) kelimelerinden türetilmiştir.
-
-Vaseline, 1955 yılında Pond's ile birleşene kadar Chesebrough Manufacturing Company tarafından üretilmiştir. Daha sonra 1987 yılında Unilever tarafından satın alınmıştır.
-
-Vaseline, dünya çapında pazarlanmaktadır ve sloganı "Vazelinin İyileştirici Gücü" (The Healing Power of Vaseline) dir.`,
     },
     {
      name: "Yumoş",
@@ -5617,6 +8220,33 @@ Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merke
       },
      ],
     },
+    {
+     name: "Jacobs",
+     slug: "jacobs",
+     ctgry: "İçecek",
+     foundedYear: 1895,
+     founder: "Johann Jacobs",
+     owner: "Mondelez International",
+     description: `Jacobs, 1895 yılında Johann Jacobs tarafından Almanya'nın Bremen kentinde kurulan ve dünyanın en köklü kahve markalarından biridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek global bir kahve markası haline gelmiştir.
+  
+  Jacobs, özellikle hazır kahve ve filtre kahve kategorilerinde güçlü bir konuma sahiptir. Marka, çeşitli kahve harmanları, hazır kahve ürünleri ve kapsül kahve seçenekleri sunmaktadır. Jacobs, farklı zevklere hitap eden geniş bir ürün yelpazesi ile dünya çapında milyonlarca tüketiciye ulaşmaktadır.
+  
+  Marka, 1990 yılında Kraft Foods tarafından satın alınmış, 2012 yılında ise Mondelez International'ın bünyesine katılmıştır. Mondelez International, dünyanın en büyük gıda şirketlerinden biridir ve Jacobs, şirketin önemli kahve markalarından biridir.
+  
+  Jacobs, özellikle Avrupa pazarında güçlü bir konuma sahiptir. Marka, Almanya, İtalya, Fransa ve diğer Avrupa ülkelerinde en çok satan kahve markalarından biridir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
+  
+  Marka, kalite ve tutarlılığa büyük önem vermektedir. Jacobs, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her pakette aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+  
+  Ancak, Jacobs markası, Mondelez International çatısı altında faaliyet göstermektedir ve ana şirketin İsrail'deki girişimleri ve ekonomik ilişkileri nedeniyle marka boykot listelerinde yer almaktadır. Mondelez International'ın İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Jacobs ürünlerinin satın alınması önerilmemektedir.`,
+     country: "Almanya",
+     website: "https://www.jacobscoffee.com.tr/",
+     img: "/jacobs.png",
+     isBoycotted: "boykot",
+     boycottReason:
+      "Jacobs markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Jacobs markası da bu kapsamda boykot listesinde yer almaktadır.",
+     alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+    },
+
    ],
   },
   {
@@ -5644,36 +8274,6 @@ Banvit, 2023 yılında 21,3 milyar Türk Lirası gelir elde etmiş ve 2024 yıl�
 Şirket, uzun yıllar basketbol sponsorluğu yapmıştır. 1994 yılında Bandırma BK basketbol takımını kurmuş ve 2019 yılına kadar kulübü sponsor etmiştir. Ayrıca 2004, 2005, 2006 ve 2008 yıllarında Banvit ve Tübad Basketbol Turnuvası'nı düzenlemiştir.`,
    evidences: [""],
   },
-  {
-   name: "Amigo",
-   slug: "amigo",
-   foundedYear: 1983,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/amigo.png",
-   isBoycotted: "boykot",
-   website:
-    "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/amigo",
-   description: `Amigo, 1983 yılında Türkiye'nin ilk paketlenmiş kuruyemiş firmalarından biri olarak kurulmuştur. Amigo, 1995 yılında kurulan Şok Marketler Tic. A.Ş. adına çeşitli üreticiler tarafından üretilen atıştırmalık ürünlerin markasıdır.
-
-Günümüzde Şok Marketler'in güvencesiyle üretilen Amigo kuruyemişleri, zengin lezzet çeşitliliği ve yüksek kalite standartlarıyla öne çıkmakta, tüketicilere güvenilir ve sağlıklı bir alternatif sunmaktadır.
-
-Amigo, fıstık, ayçekirdeği, çiğ badem, kuru meyve, cips ve fıstık ezmesi gibi geniş bir ürün yelpazesiyle damak zevkine düşkün olanlar için ideal bir seçenektir. Amigo, Şok Marketler'in özel markası olarak faaliyet göstermektedir.
-
-Şok Marketler, Türkiye'nin en büyük perakende zincirlerinden biri olup 2011 yılında Ülker'in de sahibi olduğu Yıldız Holding bünyesine katılmıştır. Bu nedenle Amigo, Şok Marketler'e ait bir marka olarak Yıldız Holding çatısı altında faaliyet göstermektedir.`,
-   boycottReason: `Amigo'nun boykot edilmesinin temel nedeni, markanın Şok Marketler'e ait olması ve Şok Marketler'in de boykot edilmesidir. Amigo, Şok Marketler'in sahibi olduğu bir marka olarak boykot listesindedir.
-
-Şok Marketler, 2011 yılında Ülker'in de sahibi olduğu Yıldız Holding bünyesine katılmıştır. Şok Marketler'in boykot edilme nedeni, market raflarında dünya çapında boykot edilen Starbucks ürünlerine yer vermesi ve Coca Cola gibi boykot edilen ürünlerin de indirimli olarak satın almaya teşvik edilmesidir.
-
-7 Şubat 2024 tarihinde Şok Market'e karşı Twitter üzerinden #ŞokBoykot hashtag'ı ile boykot kampanyası başlatılmıştır. Şok Marketler'in boykot edilen ürünlere raflarında yer vermesi ve tüketicileri bu ürünleri satın almaya teşvik etmesi, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır.
-
-Amigo, Şok Marketler'e ait bir marka olduğu ve Şok Marketler'in boykot edilmesi nedeniyle boykot listesindedir. Ayrıca, Şok Marketler'in Yıldız Holding bünyesinde olması ve Yıldız Holding'in İsrail ile olan ilişkileri de Amigo'nun boykot edilmesine neden olmaktadır.`,
-   evidences: [""],
-  },
-
   {
    name: "Bebeto",
    slug: "bebeto",
@@ -6080,7 +8680,8 @@ Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere
        website: "https://www.icim.com.tr/",
        img: "/icim.png",
        isBoycotted: "boykot",
-       boycottReason: `İçim markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`, alternative_products: ["sutas", "pinar"],
+       boycottReason: `İçim markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
+       alternative_products: ["sutas", "pinar"],
       },
       {
        name: "Président",
@@ -6109,13 +8710,48 @@ Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere
        owner: "Groupe Lactalis",
        description: `Masterini Professional, Grup Lactalis’in Türkiye şirketi olan Ak Gıda tarafından, ev dışı tüketim (EDT) kanalına özel olarak geliştirilmiş uzman bir markadır. Otel, restoran, kafe (HoReCa) ve pastane gibi işletmelerdeki profesyonel şeflerin ihtiyaçlarını karşılamak üzere tasarlanan marka, mutfakta yüksek performans ve standart lezzet garantisi sunmayı hedefler. "Profesyonellerin Yeni Tercihi" sloganıyla yola çıkan Masterini, usta aşçıların güvenilir iş ortağı olarak konumlanmıştır.
 
-       Markanın geniş ürün portföyünde; pasta ve tatlı şefleri için özel olarak formüle edilmiş bitkisel krem şantiler, sıcak yemeklerde kesilme yapmayan bitkisel sıvı kremalar ve yemeklere lezzet katan çeşitli soslar bulunmaktadır. Ayrıca ketçap ve mayonez gibi tamamlayıcı ürünleriyle de profesyonel mutfakların operasyonel yükünü hafifleten pratik çözümler sunmaktadır.
+Markanın geniş ürün portföyünde; pasta ve tatlı şefleri için özel olarak formüle edilmiş bitkisel krem şantiler, sıcak yemeklerde kesilme yapmayan bitkisel sıvı kremalar ve yemeklere lezzet katan çeşitli soslar bulunmaktadır. Ayrıca ketçap ve mayonez gibi tamamlayıcı ürünleriyle de profesyonel mutfakların operasyonel yükünü hafifleten pratik çözümler sunmaktadır.
        
-       Dünyanın lider gıda markalarından Président, Galbani ve Parmalat’ı bünyesinde bulunduran Grup Lactalis’in uluslararası tecrübesinden güç alan Masterini, bu global bilgi birikimini yerel şeflerin beklentileriyle birleştirmektedir. Her uygulamada aynı yüksek kaliteyi ve kıvamı tutturmak isteyen şefler için özel reçetelerle üretilen ürünler, Türkiye'nin dört bir yanındaki profesyonel mutfaklarda kullanılmaktadır.`,
+Dünyanın lider gıda markalarından Président, Galbani ve Parmalat’ı bünyesinde bulunduran Grup Lactalis’in uluslararası tecrübesinden güç alan Masterini, bu global bilgi birikimini yerel şeflerin beklentileriyle birleştirmektedir. Her uygulamada aynı yüksek kaliteyi ve kıvamı tutturmak isteyen şefler için özel reçetelerle üretilen ürünler, Türkiye'nin dört bir yanındaki profesyonel mutfaklarda kullanılmaktadır.`,
        website: "https://masterini.com.tr/",
+       country: "Fransa",
        img: "/masterini.png",
        isBoycotted: "boykot",
        boycottReason: `Masterini, Fransız Groupe Lactalis'in Türkiye'deki şirketi Ak Gıda tarafından üretilmektedir. Çatı şirketin (Lactalis) İsrail ekonomisine olan katkıları ve ticari bağları sebebiyle, profesyonel kullanıma yönelik olan bu marka da boykot kapsamındadır.`,
+      },
+      {
+       name: "Pauls",
+       slug: "pauls",
+       ctgry: "İçecek",
+       foundedYear: 1933,
+       founder: "Pauls Ice Cream & Milk Ltd",
+       owner: "Groupe Lactalis",
+       description: `Pauls, 1933 yılında Avustralya'nın Brisbane kentinde kurulan ve kıtanın en ikonik süt ve süt ürünleri markalarından biri haline gelen köklü bir kuruluştur. "Olağanüstü süt ürünleri" (Extraordinary Dairy) mottosuyla yola çıkan marka, nesillerdir Avustralyalı ailelerin kahvaltı sofralarının ve buzdolaplarının vazgeçilmezi olmuştur.
+ 
+ Geniş ürün yelpazesiyle dikkat çeken Pauls, sadece taze süt çeşitleriyle değil; özellikle Avustralya mutfak kültüründe önemli bir yeri olan vanilyalı muhallebileri (custard), yoğurtları, kremaları ve aromalı sütlü içecekleriyle tanınır. Kaliteli yerel sütleri işleyerek hem besleyici hem de lezzetli ürünler sunmayı hedefler.
+ 
+ Tarihsel süreçte Queensland United Foods (QUF) ve ardından İtalyan Parmalat bünyesinde faaliyet gösteren marka, son olarak küresel süt endüstrisi devi Fransız Groupe Lactalis tarafından satın alınmıştır. Günümüzde Lactalis Australia çatısı altında üretim yapan Pauls, Avustralya mirasını Fransız sermayesi ve global dağıtım gücüyle birleştirmektedir.`,
+       country: "Fransa",
+       website: "https://www.pauls.com.au/",
+       img: "/pauls.png",
+       isBoycotted: "boykot",
+       boycottReason: `Pauls markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
+      },
+      {
+       name: "Ice Break",
+       slug: "ice-break",
+       ctgry: "İçecek",
+       foundedYear: 1997,
+       founder: "Pauls",
+       owner: "Groupe Lactalis",
+       description: `Ice Break, 1990'ların sonunda Avustralya'nın köklü süt markası Pauls (QUF) tarafından lanse edilen ve "gerçek kahve" (Real Coffee) sloganıyla ünlenen ikonik bir soğuk kahve markasıdır. Avustralya'nın "Iced Coffee" kültürünün en önemli temsilcilerinden biri olan marka, ekstra kafeinli ve güçlü kahve tadıyla bilinir. Sabahları güne zinde başlamak isteyenler için "The only thing you need to break the morning barrier" (Sabah engelini aşmak için ihtiyacınız olan tek şey) mottosuyla pazarlanmaktadır.
+     
+     Marka, kökeni itibarıyla Avustralyalı olsa da, Pauls markasının önce İtalyan Parmalat'a, ardından da Fransız süt endüstrisi devi Lactalis'e satılmasıyla el değiştirmiştir. Günümüzde Lactalis Australia çatısı altında üretimine devam eden Ice Break; Regular, Extra Shot ve şekersiz gibi farklı çeşitleriyle soğuk kahve pazarında önemli bir paya sahiptir.`,
+       country: "Fransa",
+       website: "https://lactalis.com.au/product/ice-break/",
+       img: "/ice-break.png",
+       isBoycotted: "boykot",
+       boycottReason: `Ice Break markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
       },
      ],
     },
@@ -6594,33 +9230,6 @@ Fruit Pocket, Türkiye genelinde marketler, süpermarketler ve çeşitli satış
    isBoycotted: "boykot-degil",
   },
   {
-   name: "Lipton",
-   slug: "lipton",
-   ctgry: "İçecek",
-   foundedYear: 1890,
-   founder: "Sir Thomas Lipton",
-   owner: "Unilever (PepsiCo ortaklığı)",
-   description: `Lipton, 1890 yılında İskoç girişimci Sir Thomas Lipton tarafından kuruldu. Zamanla dünyanın en büyük çay markalarından biri haline geldi. Lipton'un kuruluş hikayesi, Sir Thomas Lipton'un çay ticaretine başlaması ve dünya çapında çay plantasyonları kurmasıyla başlamıştır.
-
-Sir Thomas Lipton, çayı herkes için erişilebilir hale getirmek amacıyla, doğrudan çay üreticilerinden çay satın alarak aracıları ortadan kaldırmış ve böylece çay fiyatlarını düşürmüştür. Bu yaklaşım, Lipton'un hızla büyümesini ve dünya çapında tanınan bir marka haline gelmesini sağlamıştır.
-
-Günümüzde ise marka, global gıda devi Unilever bünyesinde faaliyet göstermektedir. Ayrıca Lipton ürünlerinin dağıtımı ve pazarlaması konusunda Unilever ile PepsiCo arasında ortak bir girişim bulunmaktadır. Yani Lipton'un sahibi İngiltere merkezli Unilever olup, PepsiCo'nun da markada önemli bir payı vardır.
-
-Lipton, bugün dünya çapında 150'den fazla ülkede satılmakta ve günlük olarak milyonlarca fincan tüketilmektedir. Marka, sadece siyah çayla sınırlı kalmayıp, yeşil çay, bitki çayları ve buzlu çay gibi farklı formatlarda da ürünler sunmaktadır. Lipton, özellikle evlerde ve restoranlarda tercih edilen bir çay markası olarak öne çıkmaktadır.`,
-   country: "İngiltere",
-   website: "https://www.lipton.com.tr/",
-   img: "/lipton.png",
-   isBoycotted: "boykot",
-   boycottReason: `Lipton'un boykot edilmesinin temel nedeni, markanın ana ortağı olan PepsiCo'nun İsrail ile olan ticari ilişkileridir. Lipton'un doğrudan İsrail'i desteklediğine dair resmi bir açıklama bulunmamaktadır. Ancak Lipton'un ana ortağı olan PepsiCo, İsrail merkezli bazı şirketlerle ticari ilişkiler yürütmektedir:
-
-1. SodaStream: PepsiCo, İsrail merkezli SodaStream'i 3,2 milyar dolara satın almıştır. SodaStream, İsrail'in yasadışı yerleşim bölgelerinde açtığı fabrikalar nedeniyle uzun süredir tartışma konusu olmaktadır. Bu yerleşimler, uluslararası hukuka göre yasadışı kabul edilmekte ve Filistin topraklarının işgali anlamına gelmektedir.
-
-2. Sabra: PepsiCo, İsrail merkezli Sabra markasının %50 hissesine sahiptir. Sabra'nın hakim hissedarı Strauss Group, İsrail ordusuna doğrudan destek vermesiyle bilinir. Bu durum, PepsiCo'nun İsrail'in askeri operasyonlarına da dolaylı olarak katkıda bulunduğu anlamına gelmektedir.
-
-Bu ticari ilişkiler nedeniyle, birçok tüketici Lipton'u dolaylı olarak İsrail'i destekleyen markalar arasında görmektedir. Filistin davasına destek vermek isteyen ve İsrail'in işgalci politikalarına karşı duran tüketiciler, PepsiCo'nun ortaklığı nedeniyle Lipton'u boykot etmeyi bir sorumluluk olarak görmektedir.`,
-   alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
-  },
-  {
    name: "Caprisun",
    slug: "caprisun",
    ctgry: "İçecek",
@@ -6702,9 +9311,35 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
      website: "https://www.fritolay.com.tr/",
      description: `Frito-Lay, 1930'ların başında The Frito Company ve H.W. Lay & Company'nin birleşmesiyle kurulmuş, 1961 yılında Frito-Lay, Inc. adını almıştır. 1964 yılında PepsiCo ile birleşerek PepsiCo, Inc.'in temel alt şirketlerinden biri haline gelmiştir. Mısır, patates cipsi ve benzeri atıştırmalık gıdalar üreten ve pazarlayan şirket, ABD'de pazarın %40'ına, dünya genelinde ise %30'una sahiptir. Frito-Lay, PepsiCo'nun toplam satışlarının %31'ini oluşturmaktadır. Lay's, Ruffles, Doritos, Cheetos, Fritos, Tostitos, Sun Chips gibi dünya çapında tanınan birçok markaya sahiptir.`,
      boycottReason: `Frito-Lay, PepsiCo'nun alt şirketi olduğu için boykot listesindedir. PepsiCo, İsrail merkezli SodaStream markasının tamamına ve İsrail merkezli Sabra markasının %50'sine sahiptir. SodaStream, İsrail'deki yasadışı yerleşimlerde fabrikalar açarak yasadışı işgali kolaylaştırmakla suçlanmaktadır. Sabra markasının dominant hissedarı Strauss Group, İsrail askeri birimlerine destek ve malzeme tedariki sağlamaktadır. Bu nedenlerle Frito-Lay ve tüm alt markaları boykot edilmektedir.`,
+     evidences: [
+      "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
+     ],
      subBrands: [
       {
+       name: "Miss Vickie's",
+       slug: "miss-vickies",
+       ctgry: "Yiyecek",
+       foundedYear: 1987,
+       founder: "Vickie ve Bill Kerr",
+       owner: "PepsiCo (Frito-Lay)",
+       description: `Miss Vickie's, 1987 yılında Kanada'nın Ontario eyaletindeki New Lowell kasabasında, patates çiftçisi Vickie ve Bill Kerr tarafından yaratılan premium bir cips markasıdır. Markanın hikayesi, Vickie Kerr'in annesinden kalan eski bir tarifi kullanarak, çocuklarına daha sağlıklı ve katkısız atıştırmalıklar sunma isteğiyle başlamıştır. İlk kez 1987'deki 14. Geleneksel Alliston Patates Festivali'nde görücüye çıkan cipsler, festivalde büyük ilgi görerek tamamen tükenmiş ve kısa sürede Kanada genelinde popülerlik kazanmıştır.
+ 
+ Markayı diğerlerinden ayıran en önemli özellik, "Kettle Cooked" (kazanda pişirme) tekniğidir. Patatesler kabuklarıyla birlikte kalın dilimlenir ve küçük partiler halinde yavaşça kızartılır; bu da onlara karakteristik sertliğini ve ekstra kıtırlığını verir. Orijinal tarifinde lezzet vermesi için fıstık yağı kullanılmış olsa da, günümüzde üretimde bu içerik değiştirilmiştir ancak ev yapımı tadı korunmuştur.
+ 
+ Hızla büyüyen ve Kanada pazarının %1'ini ele geçiren marka, 1 Şubat 1993 tarihinde Frito-Lay (Hostess) tarafından satın alınmıştır. Bu satışla birlikte PepsiCo bünyesine katılan Miss Vickie's, günümüzde Kuzey Amerika ve Avrupa başta olmak üzere dünya genelinde gurme cips kategorisinin öncüsü olarak raflarda yer almaktadır.`,
+       country: "ABD",
+       website: "https://www.missvickies.ca/",
+       img: "/miss-vickies.png",
+       isBoycotted: "boykot",
+       boycottReason: `Miss Vickie's markası, PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Markanın sahibi PepsiCo'nun, SodaStream'i satın alması ve Sabra markasındaki ortaklığı yoluyla İsrail ekonomisine ve işgal politikalarına verdiği destek nedeniyle, PepsiCo çatısı altındaki tüm markalar gibi Miss Vickie's de boykot listesinde yer almaktadır.`,
+       alternative_products: [""],
+       evidences: [
+        "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
+       ],
+      },
+      {
        name: "Çerezza",
+       slug: "cerezza",
        country: "ABD",
        foundedYear: null,
        founder: "Frito-Lay",
@@ -6721,6 +9356,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       },
       {
        name: "Lay's",
+       slug: "lays",
        country: "ABD",
        foundedYear: 1932,
        founder: "Herman W. Lay",
@@ -6737,6 +9373,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       },
       {
        name: "Doritos",
+       slug: "doritos",
        country: "ABD",
        foundedYear: 1966,
        founder: "Frito-Lay",
@@ -6753,6 +9390,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       },
       {
        name: "Cheetos",
+       slug: "cheetos",
        country: "ABD",
        foundedYear: 1948,
        founder: "Frito-Lay",
@@ -6769,6 +9407,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       },
       {
        name: "Ruffles",
+       slug: "ruffles",
        country: "ABD",
        foundedYear: 1948,
        founder: "Bernhardt Stahmer",
@@ -6783,6 +9422,7 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
       },
       {
        name: "Rocco",
+       slug: "rocco",
        country: "ABD",
        foundedYear: null,
        founder: "Frito-Lay",
@@ -6795,7 +9435,25 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        boycottReason: `Rocco, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
        evidences: [""],
       },
-     ],
+      {
+       name: "Spitz",
+       slug: "spitz",
+       foundedYear: 1982,
+       ctgry: "Yiyecek",
+       founder: "Steur Ailesi",
+       owner: "PepsiCo (Frito-Lay)",
+       country: "ABD",
+       img: "/spitz.png",
+       isBoycotted: "boykot",
+       website: "https://www.spitzusa.com/",
+       description: `Spitz, 1982 yılında Kanada'nın Alberta eyaletinde bir aile şirketi olarak kurulan ve ayçiçeği çekirdeği pazarında devrim yaratan bir markadır. Kuzey Amerika'da aromalı ayçiçeği ve kabak çekirdeği sunan ilk şirketlerden biri olan Spitz, "mümkün olan en iyi kabuk ayırma deneyimini" sunma misyonuyla yola çıkmıştır.
+ 
+ Marka, sadece lezzetiyle değil, ambalaj inovasyonuyla da tanınır. Çekirdekleri tekrar kapatılabilir (resealable) paketlerde sunan ilk şirketlerden biri olarak, ürünün tazeliğini korumayı ve tüketicilere pratik bir kullanım sağlamayı hedeflemiştir. Çatlak Biber (Cracked Pepper), Flamin' Hot ve Limon gibi cesur aroma çeşitleriyle çekirdek severlerin favorisi haline gelmiştir.
+ 
+ Kanada kökenli bir başarı hikayesi olan Spitz, daha sonra küresel gıda devi PepsiCo'nun atıştırmalık birimi Frito-Lay tarafından satın alınmıştır. Günümüzde Frito-Lay çatısı altında, Kuzey Amerika başta olmak üzere geniş bir pazarda faaliyet göstermektedir.`,
+       boycottReason: `Spitz markası, PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Markanın sahibi PepsiCo'nun, SodaStream'i satın alması ve Sabra markasındaki ortaklığı yoluyla İsrail ekonomisine ve işgal politikalarına verdiği destek nedeniyle, PepsiCo çatısı altındaki tüm markalar gibi Spitz de boykot listesinde yer almaktadır.`,
+       evidences: [""],
+      },],
     },
     {
      name: "Pepsi",
@@ -7787,6 +10445,34 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
    ],
    subBrands: [
     {
+     name: "Costa Coffee",
+     slug: "costa",
+     foundedYear: 1971,
+     ctgry: "İçecek",
+     founder: "Sergio Costa ve Bruno Costa",
+     owner: "Coca-Cola Company",
+     description: `Costa Coffee, 1971 yılında Sergio Costa ve Bruno Costa kardeşler tarafından İngiltere'de kurulan ve dünyanın en büyük kahve zincirlerinden biridir. Marka, başlangıçta küçük bir aile işletmesi olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
+  
+  Costa Coffee, özellikle İtalyan espresso kültürünü İngiltere'ye getiren öncü markalardan biridir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her fincanda kaliteli bir kahve deneyimi sunmaktadır. Costa Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+  
+  Marka, 2019 yılında Coca-Cola Company tarafından satın alınmıştır. Bu satın alma, Costa Coffee'nin global genişlemesini hızlandırmış ve markanın dünya çapındaki varlığını güçlendirmiştir. Coca-Cola'nın güçlü altyapısı ve pazarlama gücü sayesinde Costa Coffee, yeni pazarlara açılmış ve büyümesini sürdürmüştür.
+  
+  Costa Coffee, dünya çapında binlerce şubeye sahiptir ve özellikle İngiltere, Avrupa, Asya ve Orta Doğu pazarlarında güçlü bir varlık göstermektedir. Marka, her ülkede yerel pazara uyum sağlamakta ve kültürel farklılıklara saygı göstermektedir. Türkiye'de de aktif olarak faaliyet gösteren marka, yerel ihtiyaçlara uyum sağlamaktadır.
+  
+  Costa Coffee şubeleri, modern ve şık tasarımlarıyla dikkat çekmektedir. Her şube, sıcak ve samimi atmosferiyle müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+  
+  Marka, kalite ve tutarlılığa büyük önem vermektedir. Costa Coffee, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+  
+  Ancak, Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet göstermektedir ve Coca-Cola'nın İsrail'deki yatırımları ve askeri birliklere sağladığı destek iddiaları nedeniyle marka boykot çağrılarıyla karşılaşmaktadır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Costa Coffee ürünlerinin satın alınması önerilmemektedir.`,
+     country: "Birleşik Krallık",
+     website: "https://www.costa.co.uk/",
+     img: "/costa-coffee.jpg",
+     isBoycotted: "boykot",
+     boycottReason:
+      "Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola'nın İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola'ya ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Costa Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+     alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+    },
+    {
      name: "Fuse Tea",
      slug: "fuse-tea",
      ctgry: "İçecek",
@@ -7836,6 +10522,28 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
       "uludag",
       "zafer-gazoz",
       "dirilis",
+     ],
+     subBrands: [
+      {
+       name: "Capri Sun",
+       slug: "capri-sun-coca-cola",
+       foundedYear: 1969,
+       ctgry: "İçecek",
+       founder: "Rudolf Wild",
+       owner: "Capri Sun Group (Global) / Kraft Heinz (ABD) / Coca-Cola (Avrupa Dağıtım)",
+       country: "Almanya / İsviçre",
+       alternative_products: [],
+       img: "/capri-sun.png",
+       isBoycotted: "boykot",
+       website: "https://www.capri-sun.com/tr/",
+       description: `Capri Sun, 1969 yılında Alman girişimci Rudolf Wild tarafından geliştirilen ve ismini İtalya'nın Capri adasından alan, ikonik gümüş folyo poşet (Doypack) ambalajıyla tanınan bir meyve suyu markasıdır. İsviçre merkezli Capri Sun Group Holding'e ait olan marka, "koruyucu içermeyen doğal içerik" vurgusuyla dünya genelinde çocukların favorisi olmuştur.
+  
+  Markanın küresel operasyonları karmaşık bir ortaklık yapısına sahiptir. Orijinal marka sahibi Hans-Peter Wild olsa da, markanın en büyük pazarlarındaki operasyonları boykot listesindeki dev şirketler tarafından yönetilmektedir. 1981'den bu yana Kuzey Amerika'daki (ABD) tüm üretim ve dağıtım lisansı **Kraft Heinz Company**'ye aittir. Ayrıca Hollanda, Fransa, İngiltere gibi birçok Avrupa ülkesinde dağıtım **Coca-Cola** (CCEP) tarafından yapılmaktadır.
+  
+  Standart 200ml'lik paketlerde ve pipetle sunulan ürün, 2014 yılında küf şikayetleri üzerine ambalajında şeffaf taban düzenlemesine gitmiştir. Dünya genelinde popüler olan marka, küresel gıda devleriyle olan bu stratejik ortaklıkları nedeniyle geniş bir pazara hakimdir.`,
+       boycottReason: `Capri Sun markası, karmaşık ticari ağları nedeniyle boykot listesindedir. Markanın Kuzey Amerika'daki (ABD) tüm üretim ve lisans hakları boykotlu Kraft Heinz Company'ye aittir. Ayrıca Avrupa pazarındaki dağıtımı bir diğer boykotlu firma olan Coca-Cola tarafından yapılmaktadır. Bu iki büyük şirketle olan doğrudan ticari ve finansal bağları nedeniyle marka boykot kapsamındadır.`,
+       evidences: ["https://www.ynetnews.com/business/article/3832858"],
+      },
      ],
     },
 
@@ -7928,21 +10636,23 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      ],
     },
     {
-     name: "Damla Su",
-     slug: "damla-su",
+     name: "Damla",
+     slug: "damla",
      ctgry: "İçecek",
      foundedYear: null,
      founder: "Coca-Cola Türkiye",
      owner: "Coca-Cola Company",
-     description: `Damla Su, Türkiye merkezli bir içme ve maden suyu markasıdır ve doğal kaynaklardan elde ettiği suyu yüksek kalite standartlarında tüketiciye sunmaktadır. Şirket, hem içme suyunda hem de maden suyunda sağlıklı ve güvenilir ürünleri geniş kitlelere ulaştırmayı amaçlamaktadır. Ürünlerinin hijyenik koşullarda üretilmesi ve paketlenmesi, markanın en önemli önceliklerinden biridir.
-         Damla Su, modern dolum tesisleri ve sıkı kalite kontrol süreçleri ile tanınır. Türkiye genelindeki marketler, süpermarketler ve çeşitli satış noktaları aracılığıyla tüketicilere ulaşan marka, Coca-Cola Türkiye tarafından üretilmekte ve dağı-tılmakta olup, günlük hayatın her anında güvenle tercih edilen bir içme ve maden suyu markasıdır.
-         Damla Su bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılmaktadır; ancak markanın sahibi, Amerikan şirketi Coca-Cola Company'nin Türkiye kolu olan Coca-Cola Türkiye'dir. Yani mülkiyet Amerikan olmakla birlikte, ürün tamamen Türkiye pazarı için üretilip sunulmaktadır.`,
+     description: `Damla, Türkiye merkezli bir içme ve maden suyu markasıdır ve doğal kaynaklardan elde ettiği suyu yüksek kalite standartlarında tüketiciye sunmaktadır. Şirket, hem içme suyunda hem de maden suyunda sağlıklı ve güvenilir ürünleri geniş kitlelere ulaştırmayı amaçlamaktadır. Ürünlerinin hijyenik koşullarda üretilmesi ve paketlenmesi, markanın en önemli önceliklerinden biridir.
+
+Damla, modern dolum tesisleri ve sıkı kalite kontrol süreçleri ile tanınır. Türkiye genelindeki marketler, süpermarketler ve çeşitli satış noktaları aracılığıyla tüketicilere ulaşan marka, Coca-Cola Türkiye tarafından üretilmekte ve dağı-tılmakta olup, günlük hayatın her anında güvenle tercih edilen bir içme ve maden suyu markasıdır.
+        
+Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılmaktadır; ancak markanın sahibi, Amerikan şirketi Coca-Cola Company'nin Türkiye kolu olan Coca-Cola Türkiye'dir. Yani mülkiyet Amerikan olmakla birlikte, ürün tamamen Türkiye pazarı için üretilip sunulmaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/tr/tr/brands/damla",
-     img: "/damla-su.png",
+     img: "/damla.png",
      isBoycotted: "boykot",
      boycottReason:
-      "Damla Su'nun sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+      "Damla'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
      alternative_products: [
       "juss",
       "dimes",
@@ -8512,22 +11222,6 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
       "sarikiz",
       "beypazari",
      ],
-    },
-    {
-     name: "Costa Coffee",
-     slug: "costa-coffee",
-     ctgry: "İçecek",
-     foundedYear: 1971,
-     founder: "Sergio Costa & Bruno Costa",
-     owner: "Coca-Cola Company",
-     description: `Costa Coffee, Birleşik Krallık merkezli ve dünya çapında tanınan bir kahve zinciridir. 1971 yılında İtalyan kökenli Sergio ve Bruno Costa kardeşler tarafından Londra'da kurulmuştur. Marka, özel olarak kavrulmuş kahve çekirdekleri ve geniş içecek menüsüyle bilinmektedir. Costa Coffee, 2019 yılında The Coca-Cola Company tarafından yaklaşık 5.1 milyar dolara satın alınmıştır. Bu satın alma, Coca-Cola'nın kahve pazarına girişini ve portföyünü genişletme stratejisini temsil etmektedir. Costa Coffee, dünya genelinde binlerce mağaza ve ürünleriyle Coca-Cola'nın önemli bir markasıdır.`,
-     country: "ABD",
-     website: "https://www.costa.co.uk/",
-     img: "/costa-coffee.png",
-     isBoycotted: "boykot",
-     boycottReason:
-      "Costa Coffee'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
-     alternative_products: ["dogus", "ofcay", "caykur"],
     },
     {
      name: "Ayran Turka",

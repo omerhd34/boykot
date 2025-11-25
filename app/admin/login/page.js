@@ -9,6 +9,7 @@ import {
  IoLogInOutline,
 } from "react-icons/io5";
 import Link from "next/link";
+import axios from "@/lib/axios";
 
 export default function AdminLoginPage() {
  const router = useRouter();
@@ -27,8 +28,7 @@ export default function AdminLoginPage() {
 
  const checkAuth = async () => {
   try {
-   const response = await fetch("/api/admin/login");
-   const data = await response.json();
+   const { data } = await axios.get("/api/admin/login");
 
    if (data.success && data.authenticated) {
     router.push("/admin");
@@ -55,15 +55,7 @@ export default function AdminLoginPage() {
   setErrorMessage("");
 
   try {
-   const response = await fetch("/api/admin/login", {
-    method: "POST",
-    headers: {
-     "Content-Type": "application/json",
-    },
-    body: JSON.stringify(formData),
-   });
-
-   const data = await response.json();
+   const { data } = await axios.post("/api/admin/login", formData);
 
    if (data.success) {
     router.push("/admin");
@@ -72,7 +64,7 @@ export default function AdminLoginPage() {
    }
   } catch (error) {
    console.error("Login error:", error);
-   setErrorMessage("Bir hata oluştu. Lütfen tekrar deneyiniz.");
+   setErrorMessage(error.response?.data?.message || "Bir hata oluştu. Lütfen tekrar deneyiniz.");
   } finally {
    setIsSubmitting(false);
   }

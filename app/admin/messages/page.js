@@ -7,36 +7,38 @@ import {
  IoLogOutOutline,
  IoAlertCircleOutline,
  IoCheckmarkCircleOutline,
- IoTimeOutline,
- IoCloseOutline,
- IoCloseCircleOutline,
  IoMailOutline,
  IoPersonOutline,
  IoDocumentTextOutline,
  IoCalendarOutline,
  IoArrowBack,
  IoEyeOutline,
+ IoTrashOutline,
+ IoMailOpenOutline,
+ IoCloseOutline,
 } from "react-icons/io5";
 import axios from "@/lib/axios";
 
-export default function AdminPage() {
+export default function AdminMessagesPage() {
  const router = useRouter();
- const [appeals, setAppeals] = useState([]);
+ const [messages, setMessages] = useState([]);
  const [isLoading, setIsLoading] = useState(true);
  const [isCheckingAuth, setIsCheckingAuth] = useState(true);
- const [filter, setFilter] = useState("all");     // all, pending, reviewed, resolved
- const [selectedAppeal, setSelectedAppeal] = useState(null);
+ const [filter, setFilter] = useState("all");
+ const [selectedMessage, setSelectedMessage] = useState(null);
  const [adminNotes, setAdminNotes] = useState("");
  const [updatingStatus, setUpdatingStatus] = useState(false);
 
  useEffect(() => {
   checkAuth();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
  }, []);
 
  useEffect(() => {
   if (!isCheckingAuth) {
-   fetchAppeals();
+   fetchMessages();
   }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
  }, [filter, isCheckingAuth]);
 
  const checkAuth = async () => {
@@ -55,18 +57,18 @@ export default function AdminPage() {
   }
  };
 
- const fetchAppeals = async () => {
+ const fetchMessages = async () => {
   try {
    setIsLoading(true);
-   const { data } = await axios.get("/api/admin/appeals", {
+   const { data } = await axios.get("/api/admin/contact-messages", {
     params: { status: filter },
    });
 
    if (data.success) {
-    setAppeals(data.appeals || []);
+    setMessages(data.messages || []);
    }
   } catch (error) {
-   console.error("Fetch appeals error:", error);
+   console.error("Fetch messages error:", error);
   } finally {
    setIsLoading(false);
   }
@@ -81,18 +83,21 @@ export default function AdminPage() {
   }
  };
 
- const handleStatusUpdate = async (appealId, newStatus) => {
+ const handleStatusUpdate = async (messageId, newStatus) => {
   try {
    setUpdatingStatus(true);
-   const { data } = await axios.patch(`/api/admin/appeals/${appealId}`, {
-    status: newStatus,
-    adminNotes: adminNotes || undefined,
-   });
+   const { data } = await axios.patch(
+    `/api/admin/contact-messages/${messageId}`,
+    {
+     status: newStatus,
+     adminNotes: adminNotes || undefined,
+    }
+   );
 
    if (data.success) {
-    setSelectedAppeal(null);
+    setSelectedMessage(null);
     setAdminNotes("");
-    fetchAppeals();
+    fetchMessages();
    } else {
     alert(data.message || "Güncelleme başarısız");
    }
@@ -104,24 +109,24 @@ export default function AdminPage() {
   }
  };
 
- const handleCancelAppeal = async (appealId) => {
-  if (!confirm("Bu itirazı iptal etmek istediğinizden emin misiniz?")) {
+ const handleDeleteMessage = async (messageId) => {
+  if (!confirm("Bu mesajı silmek istediğinizden emin misiniz?")) {
    return;
   }
 
   try {
    setUpdatingStatus(true);
-   const { data } = await axios.patch(`/api/admin/appeals/${appealId}`, {
-    status: "cancelled",
-   });
+   const { data } = await axios.delete(
+    `/api/admin/contact-messages/${messageId}`
+   );
 
    if (data.success) {
-    fetchAppeals();
+    fetchMessages();
    } else {
-    alert(data.message || "İptal işlemi başarısız");
+    alert(data.message || "Silme işlemi başarısız");
    }
   } catch (error) {
-   console.error("Cancel appeal error:", error);
+   console.error("Delete message error:", error);
    alert("Bir hata oluştu");
   } finally {
    setUpdatingStatus(false);
@@ -130,29 +135,23 @@ export default function AdminPage() {
 
  const getStatusBadge = (status) => {
   switch (status) {
-   case "pending":
+   case "unread":
     return {
      bg: "bg-amber-100 text-amber-700 border-amber-300",
-     icon: IoTimeOutline,
-     label: "Beklemede",
+     icon: IoMailOutline,
+     label: "Okunmadı",
     };
-   case "reviewed":
+   case "read":
     return {
      bg: "bg-blue-100 text-blue-700 border-blue-300",
-     icon: IoEyeOutline,
-     label: "İncelendi",
+     icon: IoMailOpenOutline,
+     label: "Okundu",
     };
-   case "resolved":
+   case "replied":
     return {
      bg: "bg-emerald-100 text-emerald-700 border-emerald-300",
      icon: IoCheckmarkCircleOutline,
-     label: "Çözüldü",
-    };
-   case "cancelled":
-    return {
-     bg: "bg-red-100 text-red-700 border-red-300",
-     icon: IoCloseCircleOutline,
-     label: "İptal Edildi",
+     label: "Cevaplandı",
     };
    default:
     return {
@@ -214,7 +213,7 @@ export default function AdminPage() {
      <div className="flex gap-1 border-t border-slate-200 px-6">
       <Link
        href="/admin"
-       className="border-b-2 border-orange-500 px-4 py-3 text-sm font-semibold text-orange-600"
+       className="border-b-2 border-transparent px-4 py-3 text-sm font-semibold text-slate-600 transition hover:text-orange-600"
       >
        İtirazlar
       </Link>
@@ -226,7 +225,7 @@ export default function AdminPage() {
       </Link>
       <Link
        href="/admin/messages"
-       className="border-b-2 border-transparent px-4 py-3 text-sm font-semibold text-slate-600 transition hover:text-orange-600"
+       className="border-b-2 border-orange-500 px-4 py-3 text-sm font-semibold text-orange-600"
       >
        İletişim Mesajları
       </Link>
@@ -235,7 +234,7 @@ export default function AdminPage() {
 
     {/* Filters */}
     <div className="mb-6 flex flex-wrap gap-3">
-     {["all", "pending", "reviewed", "resolved", "cancelled"].map((status) => (
+     {["all", "unread", "read", "replied"].map((status) => (
       <button
        key={status}
        onClick={() => setFilter(status)}
@@ -246,18 +245,16 @@ export default function AdminPage() {
       >
        {status === "all"
         ? "Tümü"
-        : status === "pending"
-         ? "Beklemede"
-         : status === "reviewed"
-          ? "İncelendi"
-          : status === "resolved"
-           ? "Çözüldü"
-           : "İptal Edildi"}
+        : status === "unread"
+         ? "Okunmadı"
+         : status === "read"
+          ? "Okundu"
+          : "Cevaplandı"}
       </button>
      ))}
     </div>
 
-    {/* Appeals List */}
+    {/* Messages List */}
     {isLoading ? (
      <div className="flex items-center justify-center rounded-2xl border-2 border-slate-200 bg-white px-6 py-12">
       <div className="text-center">
@@ -265,20 +262,20 @@ export default function AdminPage() {
        <p className="mt-4 text-sm text-slate-600">Yükleniyor...</p>
       </div>
      </div>
-    ) : appeals.length === 0 ? (
+    ) : messages.length === 0 ? (
      <div className="rounded-2xl border-2 border-slate-200 bg-white px-6 py-12 text-center">
       <IoAlertCircleOutline className="mx-auto h-12 w-12 text-slate-400" />
-      <p className="mt-4 text-slate-600">Henüz itiraz bulunmamaktadır.</p>
+      <p className="mt-4 text-slate-600">Henüz mesaj bulunmamaktadır.</p>
      </div>
     ) : (
      <div className="space-y-4">
-      {appeals.map((appeal) => {
-       const statusBadge = getStatusBadge(appeal.status);
+      {messages.map((message) => {
+       const statusBadge = getStatusBadge(message.status);
        const StatusIcon = statusBadge.icon;
 
        return (
         <div
-         key={appeal.id}
+         key={message.id}
          className="rounded-2xl border-2 border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md"
         >
          <div className="flex flex-wrap items-start justify-between gap-4">
@@ -286,7 +283,7 @@ export default function AdminPage() {
            {/* Header */}
            <div className="flex flex-wrap items-center gap-3">
             <h3 className="text-lg font-bold text-slate-900">
-             {appeal.brandName}
+             {message.subject}
             </h3>
             <span
              className={`inline-flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-semibold ${statusBadge.bg}`}
@@ -300,29 +297,20 @@ export default function AdminPage() {
            <div className="grid gap-2 text-sm text-slate-600 sm:grid-cols-2">
             <div className="flex items-center gap-2">
              <IoPersonOutline className="h-4 w-4" />
-             <span className="font-semibold">{appeal.name}</span>
+             <span className="font-semibold">{message.name}</span>
             </div>
             <div className="flex items-center gap-2">
              <IoMailOutline className="h-4 w-4" />
              <Link
-              href={`mailto:${appeal.email}`}
+              href={`mailto:${message.email}`}
               className="text-orange-600 hover:underline"
              >
-              {appeal.email}
+              {message.email}
              </Link>
             </div>
             <div className="flex items-center gap-2">
              <IoCalendarOutline className="h-4 w-4" />
-             <span>{formatDate(appeal.createdAt)}</span>
-            </div>
-            <div className="flex items-center gap-2">
-             <Link
-              href={`/kategoriler/${appeal.categorySlug}/${appeal.brandSlug}`}
-              className="text-orange-600 hover:underline"
-              target="_blank"
-             >
-              Marka sayfasını görüntüle →
-             </Link>
+             <span>{formatDate(message.createdAt)}</span>
             </div>
            </div>
 
@@ -330,21 +318,21 @@ export default function AdminPage() {
            <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
             <div className="mb-2 flex items-center gap-2 text-xs font-semibold text-slate-700">
              <IoDocumentTextOutline className="h-4 w-4" />
-             İtiraz Mesajı
+             Mesaj
             </div>
-            <p className="whitespace-pre-wrap text-sm text-slate-700">
-             {appeal.message}
+            <p className="whitespace-pre-wrap break-all text-sm text-slate-700">
+             {message.message}
             </p>
            </div>
 
            {/* Admin Notes */}
-           {appeal.adminNotes && (
+           {message.adminNotes && (
             <div className="rounded-lg border border-orange-200 bg-orange-50 p-4">
              <div className="mb-2 text-xs font-semibold text-orange-700">
               Admin Notları
              </div>
              <p className="whitespace-pre-wrap text-sm text-orange-700">
-              {appeal.adminNotes}
+              {message.adminNotes}
              </p>
             </div>
            )}
@@ -352,49 +340,57 @@ export default function AdminPage() {
 
           {/* Actions */}
           <div className="flex flex-col gap-2">
-           {appeal.status === "pending" && (
+           {message.status === "unread" && (
             <>
              <button
               onClick={() => {
-               setSelectedAppeal(appeal);
-               setAdminNotes("");
+               setSelectedMessage(message);
+               setAdminNotes(message.adminNotes || "");
               }}
               className="inline-flex items-center gap-2 rounded-lg border-2 border-blue-500 bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-600"
              >
-              <IoEyeOutline className="h-4 w-4" />
-              İncele
+              <IoMailOpenOutline className="h-4 w-4" />
+              Okundu İşaretle
              </button>
              <button
-              onClick={() => handleCancelAppeal(appeal.id)}
+              onClick={() => handleDeleteMessage(message.id)}
               disabled={updatingStatus}
               className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
              >
-              <IoCloseCircleOutline className="h-4 w-4" />
-              İptal Et
+              <IoTrashOutline className="h-4 w-4" />
+              Sil
              </button>
             </>
            )}
-           {appeal.status === "reviewed" && (
+           {message.status === "read" && (
             <>
              <button
-              onClick={() =>
-               handleStatusUpdate(appeal.id, "resolved")
-              }
+              onClick={() => handleStatusUpdate(message.id, "replied")}
               disabled={updatingStatus}
               className="inline-flex items-center gap-2 rounded-lg border-2 border-emerald-500 bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600 disabled:cursor-not-allowed disabled:opacity-50"
              >
               <IoCheckmarkCircleOutline className="h-4 w-4" />
-              Çözüldü Olarak İşaretle
+              Cevaplandı İşaretle
              </button>
              <button
-              onClick={() => handleCancelAppeal(appeal.id)}
+              onClick={() => handleDeleteMessage(message.id)}
               disabled={updatingStatus}
               className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
              >
-              <IoCloseCircleOutline className="h-4 w-4" />
-              İptal Et
+              <IoTrashOutline className="h-4 w-4" />
+              Sil
              </button>
             </>
+           )}
+           {message.status === "replied" && (
+            <button
+             onClick={() => handleDeleteMessage(message.id)}
+             disabled={updatingStatus}
+             className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+             <IoTrashOutline className="h-4 w-4" />
+             Sil
+            </button>
            )}
           </div>
          </div>
@@ -405,17 +401,17 @@ export default function AdminPage() {
     )}
    </div>
 
-   {/* Modal for reviewing appeal */}
-   {selectedAppeal && (
+   {/* Modal for marking as read */}
+   {selectedMessage && (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
      <div className="relative w-full max-w-2xl rounded-2xl border-2 border-slate-200 bg-white shadow-xl">
       <div className="flex items-center justify-between border-b border-slate-200 px-6 py-4">
        <h2 className="text-xl font-bold text-slate-900">
-        İtirazı İncele
+        Mesajı Okundu İşaretle
        </h2>
        <button
         onClick={() => {
-         setSelectedAppeal(null);
+         setSelectedMessage(null);
          setAdminNotes("");
         }}
         className="rounded-lg p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-600"
@@ -423,7 +419,7 @@ export default function AdminPage() {
         <IoCloseOutline className="h-6 w-6" />
        </button>
       </div>
-      <div className="px-6 py-5 space-y-4">
+      <div className="space-y-4 px-6 py-5">
        <div>
         <label className="mb-2 block text-sm font-semibold text-slate-700">
          Admin Notları (Opsiyonel)
@@ -433,13 +429,13 @@ export default function AdminPage() {
          onChange={(e) => setAdminNotes(e.target.value)}
          rows={4}
          className="w-full rounded-lg border-2 border-slate-200 px-4 py-3 text-slate-900 transition focus:border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-200"
-         placeholder="Bu itiraz hakkında notlarınız..."
+         placeholder="Bu mesaj hakkında notlarınız..."
         />
        </div>
        <div className="flex gap-3">
         <button
          onClick={() => {
-          setSelectedAppeal(null);
+          setSelectedMessage(null);
           setAdminNotes("");
          }}
          className="flex-1 rounded-lg border-2 border-slate-300 bg-white px-6 py-3 font-semibold text-slate-700 transition hover:bg-slate-50"
@@ -447,13 +443,11 @@ export default function AdminPage() {
          İptal
         </button>
         <button
-         onClick={() =>
-          handleStatusUpdate(selectedAppeal.id, "reviewed")
-         }
+         onClick={() => handleStatusUpdate(selectedMessage.id, "read")}
          disabled={updatingStatus}
          className="flex-1 rounded-lg border-2 border-blue-500 bg-blue-500 px-6 py-3 font-semibold text-white transition hover:bg-blue-600 disabled:cursor-not-allowed disabled:opacity-50"
         >
-         {updatingStatus ? "Güncelleniyor..." : "İncelendi Olarak İşaretle"}
+         {updatingStatus ? "Güncelleniyor..." : "Okundu Olarak İşaretle"}
         </button>
        </div>
       </div>

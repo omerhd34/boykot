@@ -127,8 +127,8 @@ BİM, %100 yerli sermaye yapısına sahip bir Türk şirketi olmasına rağmen, 
    name: "File",
    slug: "file",
    foundedYear: 2015,
-   founder: "Bim",
-   owner: "Bim",
+   founder: "Bim Birleşik Mağazalar A.Ş.",
+   owner: "Bim Birleşik Mağazalar A.Ş.",
    country: "Türkiye",
    alternative_products: [
     "tarim-kredi-kooperatif-marketleri",
@@ -300,7 +300,7 @@ Fransa merkezli Carrefour, Türkiye'deki CarrefourSA'nın da ortağı olduğu i�
   },
   {
    name: "Metro",
-   slug: "metro",
+   slug: "metro-market",
    foundedYear: 1964,
    founder: "Otto Beisheim",
    owner: "Metro AG",
@@ -387,21 +387,6 @@ Bu nedenlerle Hakmar markası boykot edilmekte ve tüketicilerin yerel alternati
    evidences: [
     "https://www.aa.com.tr/tr/gundem/hakmarin-sahibinin-yakalandigi-feto-sorusturmasinda-22-supheli-tutuklandi/3634518",
    ],
-<<<<<<< HEAD
-=======
-   img: "/makroMarket.gif",
-   isBoycotted: "onerilmiyor",
-   website: "",
-   description: `Makro Market A.Ş., 1991 yılında Ankara'da Songör ailesi tarafından kurulmuş bir süpermarket zinciridir. Şirket, "Bu ülkenin marketi" sloganıyla faaliyet göstermiştir. 6 ortaklı bir yapıya sahip olan Makro Market, Ankara, Amasya, Antalya, Bolu, İstanbul, Kayseri, Kırıkkale, Konya, Karaman, Malatya, Mersin, Samsun, Yozgat, Ordu ve Tekirdağ olmak üzere 15 ilde hizmet vermiştir.
-
-2012 yılında Uyum Gıda'nın %47,32 hissesini satın alan Makro Market, 2016 yılında iki şirketi birleştirerek Makro Market A.Ş. çatısı altında toplam 192 Makro ve 87 Uyum mağazasıyla 279 mağazaya ulaşmıştır. 2016 yılında e-ticaret kanalına giriş yaparak www.marketsepeti.com.tr web sitesi ve GittiGidiyor'un süpermarket kanalı üzerinden Türkiye genelinde ürün gönderimi yapmaya başlamıştır.
-
-2016 yılında Fortune Türkiye'nin En Büyük 500 Şirketi listesinde istihdamda 42., cirosunda 126. sırada yer alırken, perakende sektöründe 6. sırada yer almıştır. Capital Türkiye'nin En Büyük 500 Şirketi listesinde ise genel sıralamada 131. sırada, perakende sektöründe 11. sırada yer almış ve ₺1.725.322.850 ciro elde etmiştir.
-
-Ekim 2017'de mali sıkıntılar nedeniyle konkordato başvurusunda bulunan şirket, 2018 yılında Migros'a İstanbul merkezli 56 Uyum Market şubesi ve Antalya'daki 17 Makro Market şubesini 105 milyon liraya satmıştır. 2019 itibarıyla Makro Market'in aktif şubesi kalmamıştır.`,
-   boycottReason: `Makro Market'in önerilmemesinin temel nedeni, şirketin 2017 yılında mali sıkıntılar nedeniyle konkordato başvurusunda bulunması ve 2019 itibarıyla tüm şubelerini kapatarak faaliyetlerini durdurmasıdır. Şirket artık aktif olarak hizmet vermemektedir.
-
-Ayrıca, 2018 yılında şirketin bazı şubelerinin Migros'a satılması nedeniyle, Migros'un boykot edilen bir marka olması ve şirketin bu markaya entegre olması da önerilmemesinin nedenlerinden biridir. Tüketicilerin aktif olarak hizmet veren ve yerel ekonomiyi destekleyen alternatif market zincirlerini tercih etmesi önerilmektedir.`,
   },
   {
    name: "Kaufland",
@@ -466,43 +451,6 @@ Action, düşük bütçeli gıda dışı ürünler ve uzun raf ömrüne sahip ba
    boycottReason: `Action'ın boykot edilmesinin temel nedeni, şirketin %80 hissesine sahip olan İngiliz özel sermaye şirketi 3i'nin sahipliğidir. Yabancı sermayeli ve uluslararası bir marka olan Action, yerel ekonomiyi desteklememesi ve milli sermaye ile işletilmemesi nedeniyle boykot listelerine dahil edilmiştir.
 
 Ayrıca, şirketin küresel bir indirim zinciri olarak faaliyet göstermesi ve yerel işletmelerle rekabet etmesi de boykot nedenlerinden biridir. Tüketicilerin yerel ve milli sermaye ile işletilen market zincirlerini tercih etmesi, ülke ekonomisine daha fazla katkı sağlamak açısından önemlidir.`,
-  },
-  {
-   name: "Kipa",
-   slug: "kipa",
-   foundedYear: 1992,
-   ctgry: "Süpermarket",
-   founder:
-    "İzmirli 100 Girişimci ve 11 Kasım 2003 itibarıyla Tesco ile ortaklık",
-   owner: "Anadolu Grubu (Migros Ticaret A.Ş. bünyesinde)",
-   country: "Türkiye",
-   alternative_products: [
-    "tarim-kredi-kooperatif-marketleri",
-    "bim",
-    "cagri",
-    "mopas",
-    "ozkuruslar",
-    "sec-market",
-    "mopas",
-    "onur-market",
-    "yunus-market",
-    "tespo",
-   ],
-   img: "/kipa.png",
-   isBoycotted: "boykot",
-   website: "http://www.kipa.com.tr",
-   description: `Kipa Kitle Pazarlama Ticaret A.Ş., 17 Ağustos 1992 tarihinde İzmir'de İzmirli 100 girişimci tarafından kurulmuş bir hipermarket zinciridir. Şirketin kuruluşunda Ahmet Piriştina, Şinasi Ertan ve Metin Akpınar gibi isimler yer almıştır. İlk Kipa hipermarketi Bornova'da açılmış, ardından Balçova ve Çiğli ilçelerinde de mağazalar açılmıştır.
-
-1997 yılında Kipa'nın hisseleri İMKB'de işlem görmeye başlamıştır. 1998 yılında İzmir dışındaki ilk mağazasını Denizli'de açan Kipa, Türkiye genelinde büyümeye başlamıştır. 11 Kasım 2003 tarihinde şirketin ana hisseleri İngiltere merkezli Tesco tarafından satın alınmıştır.
-
-2013 yılında Tesco, "Türkiye'nin Tadı" projesi kapsamında İngiltere'deki 235 mağazasında Türk ürünleri ve markalarını satışa sunmuştur. 2015 yılında Tesco, Ankara, Mersin ve Denizli'deki 10 mağazayı Beğendik'e 40 milyon TL'ye satmıştır. 2017 yılında Kipa'nın %95,5 hissesi Anadolu Grubu'na satılmıştır.
-
-2018 yılında Anadolu Grubu bünyesindeki Kipa ve Migros mağazalarının Migros markası altında birleştirilmesine karar verilmiştir. Kasım 2015 itibarıyla Kipa, 20 ilde 169 mağaza, 3 benzin istasyonu, 1 dağıtım merkezi ve 31 alışveriş merkezi ile faaliyet göstermiştir. Toplam satış alanı 354.384 m²'dir.`,
-   boycottReason: `Kipa'nın boykot edilmesinin temel nedeni, şirketin 2018 yılında Migros Ticaret A.Ş. bünyesine dahil edilmesi ve Migros'un boykot edilen bir marka olmasıdır. Kipa, Anadolu Grubu bünyesinde Migros ile birleştirilmiş ve artık Migros markası altında faaliyet göstermektedir.
-
-Migros'un boykot edilmesinin nedeni, İsviçre merkezli ana şirketinin piyanist Fazıl Say ile ilgili aldığı karardır. Fazıl Say'ın İsrail'in Gazze'ye karşı işlediği soykırım suçuna dair Türkiye Cumhuriyeti Cumhurbaşkanı Erdoğan'ın politikasını desteklediğini ifade etmesinin ardından İsviçre Migros, sanatçının konserlerini iptal etmiş ve bu sözleri "kabul edilemez" bulduğunu açıklamıştır.
-
-Kipa'nın Migros'a bağlı olması ve Migros markası altında faaliyet göstermesi nedeniyle, Migros'un boykot edilmesi Kipa'yı da kapsamaktadır. Bu nedenle Kipa markası boykot listelerine dahil edilmiştir.`,
   },
   {
    name: "Walmart",
@@ -715,39 +663,6 @@ Edeka Group, Almanya'nın en büyük perakende gruplarından biridir ve çeşitl
    boycottReason: `Edeka'nın boykot edilmesinin temel nedeni, şirketin Almanya merkezli yabancı sermayeli bir marka olmasıdır. Edeka, yerel ekonomiyi desteklememesi ve milli sermaye ile işletilmemesi nedeniyle boykot listelerine dahil edilmiştir.
 
 Yabancı sermayeli ve uluslararası markalar yerine, yerel ve milli sermaye ile işletilen market zincirlerini tercih etmek, ülke ekonomisine daha fazla katkı sağlamak ve yerli işletmeleri desteklemek açısından önemlidir. Alternatif ürünlere bakınız.`,
-  },
-  {
-   name: "Coop",
-   slug: "coop",
-   foundedYear: 1969,
-   ctgry: "Süpermarket",
-   founder: "Verband Schweizerischer Konsumvereine",
-   owner: "Kooperatif (Üyelere ait)",
-   country: "İsviçre",
-   alternative_products: [
-    "tarim-kredi-kooperatif-marketleri",
-    "cagri",
-    "bim",
-    "mopas",
-    "sec-market",
-    "tespo",
-    "mopas",
-    "onur-market",
-    "ozkuruslar",
-    "yunus-market",
-   ],
-   img: "/coop.png",
-   isBoycotted: "boykot-degil",
-   website: "https://www.coop.ch/en/",
-   description: `Coop, İsviçre'deki en büyük perakende ve toptancılık mağazalarından biridir. Şirket, 1969 yılında İsviçre Tüketici Dernekleri Birliği (Verband Schweizerischer Konsumvereine) tarafından kurulmuştur. Merkezi İsviçre'nin Basel şehrindedir. Coop, kooperatif yapısında faaliyet göstermekte ve üyelerine aittir.
-
-Coop'un kökeni, 1850'lerde Jean Jeny tarafından İsviçre'ye getirilen tüketici kooperatifleri kavramına dayanmaktadır. İsviçre Tüketici Dernekleri Birliği, 11 Ocak 1890 tarihinde Olten'de kurulmuştur. 1969 yılında bu birlik Coop Suisse adını almıştır.
-
-Coop, perakendenin yanı sıra Coop restoranları, Interdiscount elektronik mağazaları, Fust beyaz eşya mağazaları, Livique mobilya mağazaları, Jumbo yapı marketleri, ithal parfümeriler, Coop Vitality eczaneleri, Coop benzin istasyonları ve 3 otel gibi çeşitli iş kollarında faaliyet göstermektedir.
-
-Yaklaşık 86.000 çalışanı olan kooperatif, İsviçre'de 2.250'den fazla satış noktasında 1.853.207 m² satış alanı ile faaliyet göstermektedir. 2017 mali yılında 29,21 milyar İsviçre Frangı satış gerçekleştirmiştir. Coop, Transgourmet Holding AG'nin satın alınmasından sonra Avrupa'da self-servis ve toptan teslimat sektöründe ikinci sıraya yükselmiştir.
-
-Coop kooperatifinin Alman şirketi Co op veya İtalyan grubu Coop Italia ile hiçbir bağlantısı yoktur. İtalyan Coop'un Filistin dayanışması adına İsrail ürünlerini satmama kararı, İsviçre Coop'unu etkilememektedir.`,
   },
   {
    name: "Billa",
@@ -985,136 +900,6 @@ ADEG, Avusturya'nın önde gelen süpermarket zincirlerinden biridir ve bağıms
    boycottReason: `ADEG'in boykot edilmesinin temel nedeni, şirketin Almanya merkezli REWE Group'a ait olması ve yabancı sermayeli bir marka olmasıdır. ADEG, yerel ekonomiyi desteklememesi ve milli sermaye ile işletilmemesi nedeniyle boykot listelerine dahil edilmiştir.
 
 Yabancı sermayeli ve uluslararası markalar yerine, yerel ve milli sermaye ile işletilen market zincirlerini tercih etmek, ülke ekonomisine daha fazla katkı sağlamak ve yerli işletmeleri desteklemek açısından önemlidir. Alternatif ürünlere bakınız.`,
-  },
-  {
-   name: "Macrocenter",
-   slug: "macrocenter",
-   foundedYear: 1996,
-   ctgry: "Süpermarket",
-   founder: "MacroCenter",
-   owner: "Migros Ticaret A.Ş.",
-   country: "Türkiye",
-   alternative_products: [
-    "tarim-kredi-kooperatif-marketleri",
-    "cagri",
-    "bim",
-    "mopas",
-    "sec-market",
-    "tespo",
-    "mopas",
-    "onur-market",
-    "ozkuruslar",
-    "yunus-market",
-   ],
-   img: "/macrocenter.jpg",
-   isBoycotted: "boykot",
-   website: "https://www.macrocenter.com.tr/",
-   description: `MacroCenter, Türkiye'ye ait bir markadır. 1996 yılında gurme ürünlere odaklanan bir süpermarket konseptiyle Türkiye'de kurulmuştur. 2003 yılında Türkiye'nin en büyük perakende gruplarından biri olan Migros Ticaret A.Ş. tarafından satın alınmıştır. Migros'un çatısı altında faaliyet göstermeye başlayan MacroCenter, premium hizmet anlayışıyla Türkiye'nin en seçkin süpermarket zincirlerinden biri haline gelmiştir.
-
-2010'larda MacroCenter, Türkiye'de premium süpermarket segmentinde lider konuma gelmiştir. Gurme ürünlerin yanı sıra sağlıklı yaşam ürünleri, organik seçenekler ve özel ithal ürünlerle dikkat çekmektedir. 2020 ve sonrasında marka, dijitalleşme sürecine uyum sağlayarak online alışveriş ve eve teslim hizmetlerini geliştirmiştir. Ayrıca, sürdürülebilirlik projelerine önem vererek çevre dostu uygulamalarını artırmıştır.`,
-   boycottReason: `Macrocenter'ın boykot edilmesinin temel nedeni, şirketin Migros Ticaret A.Ş. bünyesinde faaliyet göstermesi ve Migros'un boykot edilen bir marka olmasıdır. Macrocenter, Migros'un bir parçası olarak Migros markası altında yönetilmektedir.
-
-Migros'un boykot edilmesinin nedeni, İsviçre merkezli ana şirketinin piyanist Fazıl Say ile ilgili aldığı karardır. Fazıl Say, sosyal medya hesabından yaptığı bir paylaşımda, "İsrail'in Gazze'lilere karşı işlediği soykırım suçuna dair Türkiye Cumhuriyeti Cumhurbaşkanı Erdoğan'ın izlediği politikayı doğru bulduğunu" ifade etmiştir. Bu açıklamanın ardından İsviçre Migros, sanatçının planlanan konserlerini iptal ettiğini ve bu sözleri "kabul edilemez" bulduğunu duyurmuştur.
-
-Bu olay, ana şirketin tutumu nedeniyle Türkiye'deki Migros Ticaret A.Ş.'nin de kamuoyunda eleştirilmesine ve boykot edilmesine yol açmıştır. Macrocenter'ın Migros'a ait olması ve Migros bünyesinde faaliyet göstermesi nedeniyle, Migros'un boykot edilmesi Macrocenter'ı da kapsamaktadır. Bu nedenle Macrocenter markası boykot listelerine dahil edilmiştir.`,
-  },
-  {
-   name: "File",
-   slug: "file",
-   foundedYear: 2015,
-   ctgry: "Süpermarket",
-   founder: "Bim",
-   owner: "Bim",
-   country: "Türkiye",
-   alternative_products: [
-    "tarim-kredi-kooperatif-marketleri",
-    "cagri",
-    "bim",
-    "mopas",
-    "sec-market",
-    "tespo",
-    "mopas",
-    "onur-market",
-    "ozkuruslar",
-    "yunus-market",
-   ],
-   img: "/file.png",
-   isBoycotted: "boykot-degil",
-   website: "https://www.file.com.tr/",
-   description: `File Market (Dosya Pazarı Perakende A.Ş.), 2015 yılında Bim tarafından kurulan ve Bim'e ait bir Türk perakende şirketidir. Şirket 2025 yılı itibarıyla Türkiye'de 32 ilde 262 süpermarket işletmektedir.
-
-Bim, 2015 yılında Türkiye indirim mağazacılığı sektörünün önde gelen şirketlerinden biri olma unvanını elde ettikten sonra süpermarket kategorisine yatırım yapmak istedi ve File'yi kurdu. Şirketin ilk mağazası İstanbul Başakşehir'deki Prestige Alışveriş Merkezi'nde açıldı.
-
-Bim'in geleneksel indirim modelinden farklı olarak File, daha geniş bir ürün yelpazesi ve daha modern bir mağaza konsepti sunmaktadır. Özel indirim günleri sunmak yerine, her gün düşük fiyatlandırma stratejisi izlemektedir. Her mağazada genellikle 4.000 ila 4.500 farklı gıda, kişisel bakım ve ev temizlik ürünü bulunmaktadır.
-
-2021 yılında şirket "File Market" adlı bir market teslimat uygulaması geliştirmiştir. Nisan 2021 itibarıyla şirketin Türkiye'de 135 şubesi ve yaklaşık 4.000 çalışanı bulunmaktadır.`,
-  },
-  {
-   name: "Seç Market",
-   slug: "sec-market",
-   foundedYear: 2014,
-   ctgry: "Süpermarket",
-   founder: "Bizim Toptan ve Yıldız Holding (Ortak girişim)",
-   owner: "Bizim Toptan (%90) ve Yıldız Holding (%10)",
-   country: "Türkiye",
-   alternative_products: [
-    "tarim-kredi-kooperatif-marketleri",
-    "cagri",
-    "bim",
-    "mopas",
-    "tespo",
-    "mopas",
-    "onur-market",
-    "ozkuruslar",
-    "yunus-market",
-   ],
-   img: "/sec.png",
-   isBoycotted: "boykot-degil",
-   website: "https://www.secmarket.com.tr/",
-   description: `Seç Marketçilik A.Ş. veya yaygın adıyla Seç Market, Türkiye merkezli bir market zinciridir. Şirket, 2014 yılında Bizim Toptan ve Yıldız Holding ortak girişimi olarak kurulmuştur. Genel merkezi İstanbul'un Üsküdar ilçesinde yer almaktadır.
-
-Seç Market, "Mahallenizin Marketi" sloganıyla faaliyet göstermektedir. 2020 yılında anonim şirket statüsüne geçmiştir. 2021 yılında 1500. mağazasını açmıştır. 2023 yılı itibarıyla Seç Market'in Türkiye genelinde 2.324 mağazası bulunmaktadır.
-
-Şirket, mahalle marketi konseptiyle Türkiye genelinde yaygın bir ağa sahiptir ve müşterilere yakın çevrelerinde kolay erişilebilir alışveriş imkanı sunmaktadır.`,
-  },
-  {
-   name: "Bizim Toptan",
-   slug: "bizim",
-   foundedYear: 2001,
-   ctgry: "Süpermarket",
-   founder: "Bilinmiyor",
-   owner: "Yıldız Holding (ortaklık)",
-   country: "Türkiye",
-   alternative_products: [
-    "tarim-kredi-kooperatif-marketleri",
-    "cagri",
-    "bim",
-    "mopas",
-    "sec-market",
-    "tespo",
-    "mopas",
-    "onur-market",
-    "ozkuruslar",
-    "yunus-market",
-   ],
-   img: "/bizim.svg",
-   isBoycotted: "boykot",
-   website: "https://www.bizimtoptan.com.tr/",
-   description: `Bizim Toptan, Türkiye'nin Cash & Carry (Organize Toptan Ticaret) sektöründe mağaza sayısı bakımından en büyük ve erişilebilirlik açısından en yaygın şirketidir. Kuruluş çalışmaları 2001 yılında tamamlanmış ve 2002 yılında 14 mağaza ile faaliyete başlamıştır. 2023 yılı itibarıyla Türkiye genelinde 71 ilde 180 mağazası bulunmaktadır.
-
-Şirket, gıda, alkolsüz içecekler, tütün ürünleri, temizlik ürünleri, kişisel bakım ürünleri ve kağıt ürünleri gibi ana ürün kategorilerinde faaliyet göstermektedir. Türkiye'de faaliyet gösteren tanınmış ulusal ve uluslararası markaların toptan ürünlerini satmaktadır. Müşteri portföyü toptancılar, tüccarlar, bakkallar, marketler, süpermarketler, özel perakendeciler, oteller, restoranlar ve kafelerden oluşmaktadır.
-
-Ülke genelinde yaklaşık 13.000 farklı ürün çeşidi sunan Bizim Toptan, cash&carry marketlerinde mağaza başına ortalama 3.000 stok kalemi bulundurmaktadır. Ürün portföyü markalı ürünler ve özel marka ürünler olarak gruplandırılabilir, SKU'ların yaklaşık %95'i markalı, %5'i özel marka ürünlerden oluşmaktadır.
-
-Temmuz 2014'te Bizim Toptan, ortaklık tedarik sistemini satın almış ve sektörde üye marketlerin tedarikini üstlenen öncü ve tek şirket haline gelmiştir. Yıldız Holding ile güçlü bir ortaklık yapısına sahiptir. 2011 yılında halka açılmış ve hisseleri Borsa İstanbul'da işlem görmeye başlamıştır. Şirket, nakit üreten büyüme stratejisi izlemekte ve ülke genelinde varlığını sürekli genişletmektedir.`,
-   boycottReason: `Bizim Toptan'ın boykot edilmesinin temel nedeni, Ülker Grubu ile olan bağlantısı ve Ülker Grubu'nun Starbucks ile olan ticari ilişkisidir. Yahya Ülker'in Starbucks'ı ziyaret etmesi ve Şok marketlerinde (Ülker Grubu'na bağlı) Starbucks ürünlerine özel alanlar ayırarak satışını yapmaya devam etmesi, birçok kesim tarafından tepkiyle karşılanmıştır.
-
-Ülker'in İsrail yanlısı tutum sergileyen Starbucks ile bağlarını koparmaması sebebiyle eleştirilmektedir. Bu durum sosyal medyada büyük yankı bulmuştur. 7 Şubat 2024 tarihinde Twitter üzerinden başlatılan #ŞokBoykot kampanyası, Ülker Grubu'nun bu işbirliğini sürdürmesi nedeniyle daha da büyümüştür.
-
-Tüketiciler, Starbucks'ın Filistin'deki duruma sessiz kaldığı gerekçesiyle, bu markaya destek veren firmalara karşı boykot çağrısında bulunmaktadır. Ülker ise bu eleştiriler karşısında, ziyaretin boykot öncesi olduğunu ve haksız bir algı yaratıldığını savunsa da, toplumsal tepkiler sürmektedir.
-
-Sonuç olarak, Yahya Ülker'in Starbucks'a gerçekleştirdiği ziyaret ve Ülker Grubu'nun bu markayla ticari ilişkisini sürdürmesi, Bizim Toptan'ın boykot edilmesine yol açan temel sebeplerden biridir.`,
->>>>>>> 77835048519632a9186d7fd467a5ac180eae690d
   },
   {
    name: "Tespo",

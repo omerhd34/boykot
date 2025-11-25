@@ -422,9 +422,8 @@ export default async function BrandDetailPage({ params }) {
          {brand.category.slug === "ilac-sirketi" ? (
           <PillList pills={brand.pill_category || []} />
          ) : (
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
            {(() => {
-            // Tüm alt markaları düz bir array'e çevir (hem direkt hem nested)
             const allSubBrands = [];
             brand.subBrands?.forEach((subBrand) => {
              allSubBrands.push(subBrand);

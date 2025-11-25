@@ -4,7 +4,34 @@ const eTicaretCategory = {
  iconKey: "store",
  description: "Çevrim içi perakende ve pazar yeri platformları.",
  brands: [
-  // Fiskobirlik marketi ekle.
+  // Fiskobirlik ve Naturalive ve Procsin marketi ekle.
+  {
+   name: "Nespresso",
+   slug: "nespresso",
+   foundedYear: 1986,
+   founder: "Nestle",
+   owner: "Nestle",
+   description: `Nespresso, 1986 yılında Nestle grubu tarafından kurulan ve dünyanın en prestijli kapsül kahve markalarından biridir. Marka, özellikle premium segmentte faaliyet göstermekte ve yüksek kaliteli kapsül kahve sistemleri sunmaktadır.
+
+Nespresso, kapsül kahve kategorisinde öncü konumdadır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her kapsülde tutarlı bir lezzet garantisi sunmaktadır. Nespresso, çeşitli kavurma profilleri ve harmanlar sunmakta ve farklı zevklere hitap eden geniş bir ürün yelpazesi sunmaktadır.
+
+Marka, sadece kapsül kahve değil, aynı zamanda özel kahve makineleri de üretmektedir. Nespresso makineleri, modern tasarımları ve kullanıcı dostu özellikleriyle dikkat çekmektedir. Her makine, mükemmel bir espresso deneyimi sunmak için özel olarak tasarlanmıştır.
+
+Nespresso, premium bir marka olarak konumlandırılmıştır. Marka, lüks ambalajlar, özel koleksiyonlar ve sınırlı üretim serileriyle dikkat çekmektedir. Nespresso, sadece bir kahve markası değil, aynı zamanda bir yaşam tarzı markası olarak da tanımlanmaktadır.
+
+Marka, sürdürülebilirlik konusunda da önemli adımlar atmaktadır. Nespresso, kullanılmış kapsülleri geri dönüştürmekte, sürdürülebilir kahve üretimini teşvik etmekte ve çevre dostu uygulamalar geliştirmektedir. Ayrıca, kahve üreticilerini desteklemek için çeşitli projeler yürütmektedir.
+
+Nespresso, dünya çapında milyonlarca tüketiciye ulaşmaktadır. Marka, özellikle Avrupa, Kuzey Amerika ve Asya pazarlarında güçlü bir konuma sahiptir. Türkiye'de de aktif olarak faaliyet gösteren marka, premium kahve arayan tüketicilere hitap etmektedir.
+
+Ancak, Nespresso markası, Nestle grubuna aittir ve Nestle'nin İsrail'deki Ar-Ge merkezleri ve iş birliği yaptığı yatırımlar nedeniyle marka boykot çağrılarında anılmaktadır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nespresso ürünlerinin satın alınması önerilmemektedir.`,
+   country: "İsviçre",
+   isBoycotted: "boykot",
+   website: "https://www.nespresso.com/tr/tr",
+   img: "/nespresso.png",
+   boycottReason:
+    "Nespresso markası, Nestle grubuna ait bir markadır. Nestle'nin İsrail'deki Ar-Ge merkezleri, yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Nespresso markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [],
+  },
   {
    name: "Trendyol",
    slug: "trendyol",

@@ -1,11 +1,11 @@
 const evUrunleriCategory = {
-  name: "Ev Ürünleri",
-  slug: "ev-urunleri",
-  iconKey: "home",
-  description: "Ev dekorasyonu ve yaşam ürünleri markaları.",
-  ctgry: ["Elektrikli Ev Aletleri", "Beyaz Eşya", "Mobilya"],
-  brands: [
-    {
+ name: "Ev Ürünleri",
+ slug: "ev-urunleri",
+ iconKey: "home",
+ description: "Ev dekorasyonu ve yaşam ürünleri markaları.",
+ ctgry: ["Elektrikli Ev Aletleri", "Beyaz Eşya", "Mobilya"],
+ brands: [
+/*     {
       name: "Dyson",
       slug: "dyson",
       foundedYear: 2008,
@@ -95,7 +95,7 @@ const evUrunleriCategory = {
       description: ``,
       boycottReason: ``,
     },
-  ],
+ */  ],
 };
 
 export default evUrunleriCategory;

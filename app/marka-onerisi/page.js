@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { FiSend, FiCheckCircle, FiAlertCircle } from "react-icons/fi";
+import axios from "@/lib/axios";
 
 export default function BrandSuggestionPage() {
  const [formData, setFormData] = useState({
@@ -25,17 +26,7 @@ export default function BrandSuggestionPage() {
   setStatus({ type: "", message: "" });
 
   try {
-   const response = await fetch("/api/brand-suggestions", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(formData),
-   });
-
-   const data = await response.json();
-
-   if (!response.ok) {
-    throw new Error(data.error || "Bir hata oluştu");
-   }
+   const { data } = await axios.post("/api/brand-suggestions", formData);
 
    setStatus({
     type: "success",
@@ -51,7 +42,7 @@ export default function BrandSuggestionPage() {
   } catch (error) {
    setStatus({
     type: "error",
-    message: error.message || "Bir hata oluştu. Lütfen tekrar deneyin.",
+    message: error.response?.data?.error || error.message || "Bir hata oluştu. Lütfen tekrar deneyin.",
    });
   } finally {
    setIsSubmitting(false);

@@ -2,9 +2,528 @@ const gidaYiyecekCategory = {
  name: "Lezzet Durakları",
  slug: "lezzet-duraklari",
  iconKey: "taste-stops",
- description: "Restaurant & Pastane & Kafe",
+ description: "Restaurant & Pastane & Kafe & Kahve",
  // https://boykotdedektifi.org/b/oncu-2160
+ // https://boykotdedektifi.org/b/dunkin-donuts-1319
+ // https://boykotdedektifi.org/b/tatbak-2472
+ // https://boykotdedektifi.org/b/borgir-1045
+ // https://boykotdedektifi.org/b/yaprak-donercisi-2263
+ // https://boykotdedektifi.org/b/pasa-doner-2282
+ // ! önemli : https://boykotdedektifi.org/b/restaurant-brands-international-476
  brands: [
+  {
+   name: "Kahve Diyarı",
+   slug: "kahve-diyari",
+   foundedYear: 2005,
+   founder: "Bilinmiyor",
+   owner: "Abdurrahman Yılmaz & Taha Yılmaz",
+   description: `Kahve Diyarı, 2005 yılında İzmir'in Alsancak semtinde açılan ilk şubesiyle marka yolculuğuna başlamış ve Türkiye'nin önde gelen yerli kahve zincirlerinden biri haline gelmiştir. Marka, başlangıçtan itibaren yerli sermaye ile faaliyet göstermekte ve Türk kahve kültürünü modern bir yaklaşımla sunmaktadır.
+
+Bugün Kahve Diyarı, Türkiye genelinde 33 ilde 100'ün üzerinde şubesiyle misafirlerine hizmet vermektedir. Edirne'den Kars'a uzanan geniş mağaza ağıyla, marka Türkiye'nin dört bir yanındaki müşterilerine ulaşmaktadır. Her şube, sıcak ve samimi atmosferiyle misafirlerine kaliteli bir kahve deneyimi sunmayı hedeflemektedir.
+
+Kahve Diyarı'nın en önemli özelliklerinden biri, tüm ürünlerinin kendi üretim tesislerinde özenle üretilmesidir. Marka, kahve çekirdeklerinden pastalara, dondurmalardan unlu mamullere ve tatlı çeşitlerine kadar geniş bir ürün yelpazesini kendi tesislerinde üretmektedir. Bu yaklaşım, kalite kontrolü ve tazelik açısından önemli avantajlar sağlamaktadır.
+
+Marka, Türk kahve kültürünü modern bir anlayışla harmanlamaktadır. Geleneksel Türk kahvesinden espresso bazlı içeceklere, soğuk kahve çeşitlerinden özel karışımlara kadar geniş bir menü sunmaktadır. Ayrıca, pasta, dondurma ve tatlı çeşitleriyle de müşterilerine kapsamlı bir deneyim sunmaktadır.
+
+Kahve Diyarı, tamamen yerli sermaye ile faaliyet gösteren Türk menşeli bir markadır ve boykot dışıdır. İsrail bağlantısı bulunmayan marka, Türkiye'nin yerli kahve zincirleri arasında önemli bir konuma sahiptir ve yerli üretimi desteklemektedir.`,
+   country: "Türkiye",
+   website: "https://kahvediyari.com/",
+   img: "/kahve-diyari.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Moliendo",
+   slug: "moliendo",
+   foundedYear: 2015,
+   founder: "Kahvesan Gıda Sanayi ve Ticaret A.Ş.",
+   owner: "Kahvesan Gıda Sanayi ve Ticaret A.Ş.",
+   description: `Moliendo Finest Coffee, 2015 yılında kurulan Kahvesan Gıda Sanayi ve Ticaret A.Ş. bünyesinde üretilen ve Türkiye'nin önde gelen yerli kahve markalarından biridir. Marka, "Moliendo" adını İspanyolca'da "öğütme" anlamına gelen kelimeden almıştır ve bu isim, markanın kahve işleme konusundaki uzmanlığını yansıtmaktadır.
+
+Moliendo, yeşil çekirdekten başlayarak tüm kahve işleme süreçlerini kendi tesislerinde gerçekleştirmektedir. Marka, kavrulmuş çekirdek kahveden öğütülmüş kahveye, filtre kahveden Türk kahvesine kadar geniş bir ürün yelpazesi sunmaktadır. Her ürün, özenle seçilmiş kahve çekirdeklerinden üretilmekte ve kalite standartlarına uygun olarak hazırlanmaktadır.
+
+Marka, özellikle specialty coffee (özel kahve) segmentinde faaliyet göstermektedir. Moliendo, farklı bölgelerden gelen özel kahve çekirdeklerini kullanarak, çeşitli kavurma profilleri ve harmanlar sunmaktadır. Bu yaklaşım, kahve tutkunlarına farklı lezzet deneyimleri yaşama imkanı sağlamaktadır.
+
+Moliendo Finest Coffee, Türkiye pazarında giderek büyüyen bir marka haline gelmiştir. Marka, hem perakende satış noktalarında hem de online platformlarda müşterilerine ulaşmaktadır. Özellikle kaliteli kahve arayan tüketiciler arasında popülerlik kazanmaktadır.
+
+Marka, sürdürülebilir kahve üretimi konusunda da hassasiyet göstermektedir. Moliendo, etik ticaret prensiplerine uygun olarak çalışmakta ve kahve üreticileriyle adil ticaret ilişkileri kurmaya özen göstermektedir.
+
+Moliendo Finest Coffee, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren marka, Türkiye'nin yerli kahve üreticileri arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır.`,
+   country: "Türkiye",
+   website: "https://www.moliendocoffee.com/",
+   img: "/moliendo.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Artukbey",
+   slug: "artukbey",
+   foundedYear: null,
+   founder: "Geleneksel",
+   owner: "Geleneksel",
+   description: `Artuklu Bey Kahvesi, Mardin'in zengin kültürel mirasından doğan ve yüzyıllardır süregelen geleneksel bir kahve türüdür. Marka, Artuklu Beyliği döneminden gelen köklü bir geçmişe sahiptir ve Mardin'in tarihi kahve kültürünün önemli bir parçasıdır.
+
+Artuklu Bey Kahvesi, Mardin'in tarih kokan sokaklarında hâlâ en çok tercih edilen kahvelerden biri olmayı sürdürmektedir. Bu geleneksel kahve, özel harman ve kavurma teknikleriyle hazırlanmakta ve Mardin'in kendine özgü lezzet profilini yansıtmaktadır. Kahve, bölgenin kültürel kimliğinin önemli bir parçasıdır ve nesiller boyunca aktarılan bir gelenektir.
+
+Marka, geleneksel üretim yöntemlerini modern kalite standartlarıyla harmanlamaktadır. Artuklu Bey Kahvesi, özenle seçilmiş kahve çekirdeklerinden üretilmekte ve geleneksel kavurma teknikleri kullanılarak hazırlanmaktadır. Bu yaklaşım, hem geleneksel lezzeti korumakta hem de modern kalite standartlarını sağlamaktadır.
+
+Artuklu Bey Kahvesi, sadece Mardin'de değil, Türkiye genelinde de tanınmaktadır. Marka, geleneksel Türk kahve kültürünü yaşatmakta ve bu kültürel mirası gelecek nesillere aktarmayı hedeflemektedir. Özellikle geleneksel kahve sevenler ve kültürel değerlere önem veren tüketiciler arasında popülerdir.
+
+Marka, boykot dışıdır. Tamamen yerli ve geleneksel bir ürün olan Artuklu Bey Kahvesi, Türkiye'nin kültürel mirasının önemli bir parçasıdır ve İsrail bağlantısı bulunmamaktadır.`,
+   country: "Türkiye",
+   website: "https://www.artukbey.com/",
+   img: "/artukbey.webp",
+   isBoycotted: "boykot-degil",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Espressolab",
+   slug: "espressolab",
+   foundedYear: 2014,
+   founder: "Esat Kocadağ",
+   owner: "Kocadağ Ailesi Şirketler Grubu",
+   description: `Espressolab, 2014 yılında Esat Kocadağ tarafından İstanbul Bilgi Üniversitesi'nde kurulan ve Türkiye'nin önde gelen yerli ikinci dalga kahve zincirlerinden biridir. Marka, specialty coffee (özel kahve) kültürünü Türkiye'ye getiren öncü markalardan biri olarak kabul edilmektedir.
+
+Espressolab, Sütis ile birlikte Kocadağ Ailesi Şirketler Grubu'na aittir. Bu grup, Türkiye'nin önde gelen yerli şirketlerinden biridir ve Espressolab'ın büyümesine önemli destek sağlamaktadır. Marka, bu güçlü altyapı sayesinde hızlı bir büyüme kaydetmiştir.
+
+Marka, ikinci dalga kahve hareketinin Türkiye'deki temsilcilerinden biridir. Espressolab, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve barista eğitimine önem vermektedir. Her şube, eğitimli baristalar tarafından yönetilmekte ve müşterilere kaliteli bir kahve deneyimi sunulmaktadır.
+
+Espressolab, geniş bir menü sunmaktadır. Marka, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır. Ayrıca, pastane ürünleri ve hafif yemek seçenekleriyle de müşterilerine kapsamlı bir deneyim sağlamaktadır.
+
+Marka, özellikle genç ve şehirli tüketicilere hitap etmektedir. Espressolab şubeleri, modern ve şık tasarımlarıyla dikkat çekmekte ve müşterilere rahat bir ortam sunmaktadır. Marka, sosyal medya ve dijital pazarlama stratejileriyle de güçlü bir varlık göstermektedir.
+
+Espressolab, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren marka, Türkiye'nin yerli kahve zincirleri arasında önemli bir konuma sahiptir ve İsrail bağlantısı bulunmamaktadır.`,
+   country: "Türkiye",
+   website: "https://espressolab.com/tr",
+   img: "/espresso-lab.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: [
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Gloria Jean's",
+   slug: "gloria-jeans",
+   foundedYear: 1979,
+   founder: "Ed ve Gloria Jean Kvetko",
+   owner: "Türkiye: Mehmet Dinçerler",
+   description: `Gloria Jean's Coffees, 1979 yılında Ed ve Gloria Jean Kvetko tarafından Amerika Birleşik Devletleri'nde kurulan ve dünya çapında faaliyet gösteren bir kahve zinciridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek global bir kahve zinciri haline gelmiştir.
+
+Gloria Jean's, özellikle specialty coffee (özel kahve) kategorisinde faaliyet göstermektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve geniş bir menü ile müşterilerine hizmet vermektedir. Zincir, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+
+Türkiye'de Gloria Jean's operasyonları, Mehmet Dinçerler tarafından yürütülmektedir. Türkiye pazarında aktif olarak faaliyet gösteren marka, yerel ihtiyaçlara uyum sağlamakta ve Türk kahve kültürüne saygı göstermektedir. Türkiye'deki şubeler, modern ve şık tasarımlarıyla dikkat çekmekte ve müşterilere rahat bir ortam sunmaktadır.
+
+Gloria Jean's, dünya çapında binlerce şubeye sahiptir ve farklı ülkelerde faaliyet göstermektedir. Marka, her ülkede yerel pazara uyum sağlamakta ve kültürel farklılıklara saygı göstermektedir. Bu yaklaşım, markanın global başarısının önemli bir parçasıdır.
+
+Marka, sosyal sorumluluk projelerine de önem vermektedir. Gloria Jean's, kahve üreticilerini desteklemekte ve sürdürülebilir kahve üretimini teşvik etmektedir. Ayrıca, yerel topluluklara katkıda bulunmak için çeşitli projeler yürütmektedir.
+
+Gloria Jean's Coffees, boykot dışıdır. Markanın İsrail menşeli olduğuna dair resmi bir bilgi bulunmamaktadır ve Türkiye'deki operasyonları yerel bir yatırımcı tarafından yürütülmektedir. Marka, Türkiye pazarında güvenle tercih edilebilir.`,
+   country: "Türkiye",
+   website: "https://gloriajeans.com.tr/",
+   img: "/gloria-jeans.webp",
+   isBoycotted: "boykot-degil",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Caffè Nero",
+   slug: "caffe-nero",
+   foundedYear: 1997,
+   founder: "Gerry Ford",
+   owner: "Caffè Nero Group",
+   description: `Caffè Nero, 1997 yılında Gerry Ford tarafından Londra'da kurulan ve dünya çapında faaliyet gösteren bir kahve zinciridir. Marka, Avrupa'nın en büyük bağımsız kahve zincirlerinden biridir ve özellikle İtalyan kahve kültürünü modern bir yaklaşımla sunmaktadır.
+
+Caffè Nero, "Siyah Kahve" anlamına gelen İtalyanca ismiyle, İtalyan espresso kültürünü dünya çapında yaymayı hedeflemektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her fincanda kaliteli bir kahve deneyimi sunmaktadır.
+
+Zincir, dünya çapında binlerce şubeye sahiptir ve özellikle Avrupa, Orta Doğu ve Asya pazarlarında güçlü bir varlık göstermektedir. Caffè Nero şubeleri, İtalyan tarzı dekorasyon ve atmosferiyle dikkat çekmekte ve müşterilere sıcak ve samimi bir ortam sunmaktadır.
+
+Caffè Nero, geniş bir menü sunmaktadır. Marka, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de müşterilerine kapsamlı bir deneyim sağlamaktadır.
+
+Marka, kalite ve tutarlılığa büyük önem vermektedir. Caffè Nero, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.`,
+   country: "Birleşik Krallık",
+   website: "https://www.caffenero.com/tr",
+   img: "/caffe-nero.png",
+   isBoycotted: "boykot",
+   boycottReason: `Caffè Nero, Birleşik Krallık (İngiltere) merkezli bir markadır. İngiltere hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık siyasi ve ekonomik destek nedeniyle, İngiliz ekonomisine doğrudan katkı sağlayan ve bu menşei taşıyan markalar boykot listesinde yer almaktadır.`,
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+   ],
+  },
+  {
+   name: "Kahve Dünyası",
+   slug: "kahve-dunyasi",
+   foundedYear: 2004,
+   founder: "Altınkılıç Ailesi",
+   owner: "Altınmarka Grubu",
+   description: `Kahve Dünyası, 2004 yılında Altınkılıç Ailesi tarafından kurulan ve Altınmarka Grubu'na bağlı olan Türkiye'nin önde gelen kahve zincirlerinden biridir. Marka, başlangıçtan itibaren hızlı bir büyüme kaydetmiş ve Türkiye genelinde yüzlerce şubeye ulaşmıştır.
+
+Kahve Dünyası, geniş bir ürün yelpazesi sunmaktadır. Marka, geleneksel Türk kahvesinden espresso bazlı içeceklere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir menü ile müşterilerine hizmet vermektedir. Ayrıca, pastane ürünleri, dondurma, çikolata ve diğer tatlı çeşitleriyle de kapsamlı bir deneyim sunmaktadır.
+
+Marka, modern ve şık şube tasarımlarıyla dikkat çekmektedir. Kahve Dünyası şubeleri, sıcak ve samimi atmosferleriyle müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Her şube, kaliteli hizmet ve tutarlı lezzet garantisi sunmaktadır.
+
+Kahve Dünyası, özellikle şehirli ve modern tüketicilere hitap etmektedir. Marka, sosyal medya ve dijital pazarlama stratejileriyle güçlü bir varlık göstermekte ve özellikle genç nesil arasında popülerdir. Ayrıca, özel etkinlikler, kahve atölyeleri ve kültürel aktivitelerle de müşterilerine değer katmaktadır.
+
+Ancak, Kahve Dünyası markası, Altınmarka Grubu'na bağlı yerli bir marka olmasına rağmen, İsrail ile ilişkilendirilen Hamursuz Bayramı kutlaması ve İsrail politikalarına dair destek algısı nedeniyle boykot çağrılarıyla karşılaşmaktadır. Bu nedenle, marka boykot listesinde yer almaktadır.`,
+   country: "Türkiye",
+   website: "https://www.kahvedunyasi.com/",
+   img: "/kahve-dunyasi.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Kahve Dünyası markası, Altınmarka Grubu'na bağlı yerli bir marka olmasına rağmen, İsrail ile ilişkilendirilen Hamursuz Bayramı kutlaması ve İsrail politikalarına dair destek algısı nedeniyle boykot kapsamına alınmıştır. Altınmarka Grubu'nun İsrail ile olan ilişkileri ve bu kutlamalara verdiği destek, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Kahve Dünyası'nın ürünlerinin satın alınması önerilmemektedir. Kahve Dünyası markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero"],
+  },
+  {
+   name: "Starbucks",
+   slug: "starbucks",
+   foundedYear: 1971,
+   founder: "Jerry Baldwin, Zev Siegl, Gordon Bowker",
+   owner: "Starbucks Corporation",
+   description: `Starbucks, 1971 yılında Jerry Baldwin, Zev Siegl ve Gordon Bowker tarafından Amerika Birleşik Devletleri'nin Seattle kentinde kurulan ve dünyanın en büyük kahve zincirlerinden biridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında on binlerce şubeye ulaşmıştır.
+
+Starbucks, ikinci dalga kahve hareketinin öncülerinden biridir ve specialty coffee (özel kahve) kültürünü dünya çapında yaygınlaştırmıştır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve geniş bir menü ile müşterilerine hizmet vermektedir. Starbucks, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+
+Marka, sadece kahve değil, aynı zamanda bir yaşam tarzı markası olarak konumlandırılmıştır. Starbucks şubeleri, "üçüncü mekan" konseptiyle müşterilere ev ve işyeri dışında rahat bir ortam sunmaktadır. Her şube, modern ve şık tasarımlarıyla dikkat çekmekte ve müşterilere sıcak bir atmosfer sağlamaktadır.
+
+Starbucks, dünya çapında binlerce şubeye sahiptir ve farklı ülkelerde faaliyet göstermektedir. Marka, her ülkede yerel pazara uyum sağlamakta ve kültürel farklılıklara saygı göstermektedir. Türkiye'de de aktif olarak faaliyet gösteren marka, yerel ihtiyaçlara uyum sağlamakta ve Türk kahve kültürüne saygı göstermektedir.
+
+Marka, sosyal sorumluluk projelerine de önem vermektedir. Starbucks, kahve üreticilerini desteklemekte, sürdürülebilir kahve üretimini teşvik etmekte ve çevre dostu uygulamalar geliştirmektedir. Ayrıca, eğitim, sağlık ve toplumsal kalkınma projelerine de katkıda bulunmaktadır.
+
+Ancak, Starbucks markası, küresel operasyonları süresince İsrail'e yönelik destek açıklamaları ve İsrail yanlısı yardımlarla anılmakta, sendikalaşma sürecindeki açıklamaları sebebiyle boykot edilmektedir. Şirketin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Starbucks ürünlerinin satın alınması önerilmemektedir.`,
+   country: "ABD",
+   website: "https://www.starbucks.com.tr/",
+   img: "/starbucks.jpg",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Starbucks markası, küresel operasyonları süresince İsrail'e yönelik destek açıklamaları ve İsrail yanlısı yardımlarla anılmaktadır. Şirketin İsrail'deki faaliyetleri, İsrail'e verdiği destekler ve sendikalaşma sürecindeki açıklamaları nedeniyle boykot kapsamına alınmıştır. Starbucks'ın İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Starbucks'ın ürünlerinin satın alınması önerilmemektedir. Starbucks markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Tchibo",
+   slug: "tchibo",
+   foundedYear: 1949,
+   founder: "Carl Tchilinghiryan ve Max Herz",
+   owner: "Tchibo GmbH (Herz Ailesi)",
+   description: `Tchibo, 1949 yılında Carl Tchilinghiryan ve Max Herz tarafından Almanya'nın Hamburg kentinde kurulan ve dünyanın en büyük kahve ve genel tüketim ürünleri şirketlerinden biridir. Marka, başlangıçta sadece kahve satışı yaparken, zamanla geniş bir ürün yelpazesi sunan bir perakende zinciri haline gelmiştir.
+
+Tchibo, özellikle kahve kategorisinde güçlü bir konuma sahiptir. Marka, çeşitli kahve harmanları, hazır kahve ürünleri, kapsül kahve seçenekleri ve filtre kahve ürünleri sunmaktadır. Tchibo, özenle seçilmiş kahve çekirdeklerini kullanmakta ve gelişmiş kavurma teknikleri uygulamaktadır.
+
+Marka, sadece kahve değil, aynı zamanda genel tüketim ürünleri de satmaktadır. Tchibo, "Her Hafta Yeni Bir Dünya" sloganıyla haftalık olarak değişen ürün koleksiyonları sunmakta ve müşterilerine çeşitli kategorilerde ürünler sağlamaktadır. Bu yaklaşım, markanın ayırt edici özelliklerinden biridir.
+
+Tchibo, özellikle Almanya ve Avrupa pazarında güçlü bir konuma sahiptir. Marka, Almanya'nın en büyük kahve perakendecilerinden biridir ve binlerce şubeye sahiptir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
+
+Marka, kalite ve tutarlılığa büyük önem vermektedir. Tchibo, tüm ürünlerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+
+Ancak, Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları nedeniyle eleştirilmektedir. İsrail'deki faaliyetleri ve açıklamalarına tepki olarak boykot çağrılarına konu olmaktadır. Herz ailesinin İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Almanya",
+   website: "https://www.tchibo.com.tr/",
+   img: "/tchibo.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları ve faaliyetleri nedeniyle boykot kapsamına alınmıştır. Herz ailesinin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo'nun ürünlerinin satın alınması önerilmemektedir. Tchibo markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Nespresso",
+   slug: "nespresso-coffee",
+   foundedYear: 1986,
+   founder: "Nestle",
+   owner: "Nestle",
+   description: `Nespresso, 1986 yılında Nestle grubu tarafından kurulan ve dünyanın en prestijli kapsül kahve markalarından biridir. Marka, özellikle premium segmentte faaliyet göstermekte ve yüksek kaliteli kapsül kahve sistemleri sunmaktadır.
+
+Nespresso, kapsül kahve kategorisinde öncü konumdadır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her kapsülde tutarlı bir lezzet garantisi sunmaktadır. Nespresso, çeşitli kavurma profilleri ve harmanlar sunmakta ve farklı zevklere hitap eden geniş bir ürün yelpazesi sunmaktadır.
+
+Marka, sadece kapsül kahve değil, aynı zamanda özel kahve makineleri de üretmektedir. Nespresso makineleri, modern tasarımları ve kullanıcı dostu özellikleriyle dikkat çekmektedir. Her makine, mükemmel bir espresso deneyimi sunmak için özel olarak tasarlanmıştır.
+
+Nespresso, premium bir marka olarak konumlandırılmıştır. Marka, lüks ambalajlar, özel koleksiyonlar ve sınırlı üretim serileriyle dikkat çekmektedir. Nespresso, sadece bir kahve markası değil, aynı zamanda bir yaşam tarzı markası olarak da tanımlanmaktadır.
+
+Marka, sürdürülebilirlik konusunda da önemli adımlar atmaktadır. Nespresso, kullanılmış kapsülleri geri dönüştürmekte, sürdürülebilir kahve üretimini teşvik etmekte ve çevre dostu uygulamalar geliştirmektedir. Ayrıca, kahve üreticilerini desteklemek için çeşitli projeler yürütmektedir.
+
+Nespresso, dünya çapında milyonlarca tüketiciye ulaşmaktadır. Marka, özellikle Avrupa, Kuzey Amerika ve Asya pazarlarında güçlü bir konuma sahiptir. Türkiye'de de aktif olarak faaliyet gösteren marka, premium kahve arayan tüketicilere hitap etmektedir.
+
+Ancak, Nespresso markası, Nestle grubuna aittir ve Nestle'nin İsrail'deki Ar-Ge merkezleri ve iş birliği yaptığı yatırımlar nedeniyle marka boykot çağrılarında anılmaktadır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nespresso ürünlerinin satın alınması önerilmemektedir.`,
+   country: "İsviçre",
+   isBoycotted: "boykot",
+   website: "https://www.nespresso.com/tr/tr",
+   img: "/nespresso.png",
+   boycottReason:
+    "Nespresso markası, Nestle grubuna ait bir markadır. Nestle'nin İsrail'deki Ar-Ge merkezleri, yatırımları ve iş birlikleri nedeniyle, Nestle bünyesindeki tüm markalar boykot kapsamına alınmıştır. Nestle'nin İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Nestle'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Nespresso markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Costa Coffee",
+   slug: "costa-coffee",
+   foundedYear: 1971,
+   founder: "Sergio Costa ve Bruno Costa",
+   owner: "Coca-Cola Company",
+   description: `Costa Coffee, 1971 yılında Sergio Costa ve Bruno Costa kardeşler tarafından İngiltere'de kurulan ve dünyanın en büyük kahve zincirlerinden biridir. Marka, başlangıçta küçük bir aile işletmesi olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
+
+Costa Coffee, özellikle İtalyan espresso kültürünü İngiltere'ye getiren öncü markalardan biridir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her fincanda kaliteli bir kahve deneyimi sunmaktadır. Costa Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+
+Marka, 2019 yılında Coca-Cola Company tarafından satın alınmıştır. Bu satın alma, Costa Coffee'nin global genişlemesini hızlandırmış ve markanın dünya çapındaki varlığını güçlendirmiştir. Coca-Cola'nın güçlü altyapısı ve pazarlama gücü sayesinde Costa Coffee, yeni pazarlara açılmış ve büyümesini sürdürmüştür.
+
+Costa Coffee, dünya çapında binlerce şubeye sahiptir ve özellikle İngiltere, Avrupa, Asya ve Orta Doğu pazarlarında güçlü bir varlık göstermektedir. Marka, her ülkede yerel pazara uyum sağlamakta ve kültürel farklılıklara saygı göstermektedir. Türkiye'de de aktif olarak faaliyet gösteren marka, yerel ihtiyaçlara uyum sağlamaktadır.
+
+Costa Coffee şubeleri, modern ve şık tasarımlarıyla dikkat çekmektedir. Her şube, sıcak ve samimi atmosferiyle müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+
+Marka, kalite ve tutarlılığa büyük önem vermektedir. Costa Coffee, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+
+Ancak, Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet göstermektedir ve Coca-Cola'nın İsrail'deki yatırımları ve askeri birliklere sağladığı destek iddiaları nedeniyle marka boykot çağrılarıyla karşılaşmaktadır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Costa Coffee ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Birleşik Krallık",
+   website: "https://www.costa.co.uk/",
+   img: "/costa-coffee.jpg",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola'nın İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola'ya ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Costa Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Caribou Coffee",
+   slug: "caribou-coffee",
+   foundedYear: 1992,
+   founder: "John Puckett",
+   owner: "JAB Holdings",
+   description: `Caribou Coffee, 1992 yılında John Puckett tarafından Amerika Birleşik Devletleri'nin Minnesota eyaletinde kurulan ve dünyanın önde gelen kahve zincirlerinden biridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
+
+Caribou Coffee, özellikle premium kahve deneyimi sunmakta ve specialty coffee (özel kahve) kategorisinde faaliyet göstermektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve geniş bir menü ile müşterilerine hizmet vermektedir. Caribou Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+
+Marka, 2012 yılında JAB Holdings tarafından satın alınmıştır. JAB Holdings, dünyanın en büyük kahve şirketlerinden biridir ve Caribou Coffee'nin yanı sıra Peet's Coffee, Keurig Dr Pepper ve diğer önemli kahve markalarına da sahiptir. Bu satın alma, Caribou Coffee'nin global genişlemesini hızlandırmıştır.
+
+Caribou Coffee şubeleri, sıcak ve samimi atmosferleriyle dikkat çekmektedir. Her şube, rahat bir ortam sunmakta ve müşterilere hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+
+Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir. Caribou Coffee, Amerika Birleşik Devletleri ve Kanada'da binlerce şubeye sahiptir ve bu pazarlarda önemli bir pazar payına sahiptir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
+
+Caribou Coffee, kalite ve tutarlılığa büyük önem vermektedir. Marka, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+
+Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'deki projelere destek verdiği bildirilen bir zincirdir. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu bağlantılar sebebiyle boykot listelerine girmiştir ve Caribou Coffee ürünlerinin satın alınması önerilmemektedir.`,
+   country: "ABD",
+   website: "https://www.cariboucoffee.com.tr/",
+   img: "/caribou.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Caribou Coffee markası, JAB Holdings tarafından yönetilen bir kahve zinciridir. JAB Holdings'in İsrail'deki projelere verdiği destek iddiaları ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Caribou Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Kocatepe",
+   slug: "kocatepe-coffee",
+   foundedYear: 1919,
+   founder: "Madam Marysia",
+   owner: "Tuncay Ailesi",
+   description: `Kocatepe 1949 Kahve Evi, Türkiye'nin ilk kahve zinciri olma özelliğini taşıyan ve köklü bir geçmişe sahip olan önemli bir Türk kahve markasıdır. Marka, 1919 yılında Madam Marysia tarafından Ankara'nın Kocatepe Mahallesi'nde kurulmuş ve o zamandan beri Türk kahve kültürünün önemli bir parçası olmuştur.
+
+Kocatepe markası, 1949 yılında Nurettin Tuncay ile birlikte market raflarında yerini almış ve Türkiye'de paketlenmiş kahve satışının öncülerinden biri olmuştur. Bu dönem, Türk kahve endüstrisinde önemli bir dönüm noktasıdır ve Kocatepe, bu değişimin öncüsü olmuştur.
+
+1996 yılında Haluk Tuncay önderliğinde marka, Türkiye'nin ilk kahve evi konseptlerinden biri olarak yeniden yapılanmıştır. Bu yeniden yapılanma, sadece kahve satışı değil, aynı zamanda kahve içme deneyimi sunan bir konsept yaratmıştır. Kocatepe Kahve Evi, müşterilere sıcak bir ortamda kaliteli kahve deneyimi sunmayı hedeflemektedir.
+
+Kocatepe, geleneksel Türk kahvesi kültürünü modern bir yaklaşımla sunmaktadır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel kavurma tekniklerini uygulamakta ve her fincanda otantik bir Türk kahvesi deneyimi sunmaktadır. Ayrıca, modern kahve çeşitleri ve pastane ürünleriyle de müşterilerine geniş bir seçenek sunmaktadır.
+
+Marka, Türkiye genelinde şubeleri bulunan bir zincir haline gelmiştir. Kocatepe Kahve Evi şubeleri, sıcak ve samimi atmosferleriyle dikkat çekmekte ve müşterilere rahat bir ortam sunmaktadır. Her şube, geleneksel Türk kahve kültürünü yaşatmakta ve bu kültürel mirası gelecek nesillere aktarmayı hedeflemektedir.
+
+Kocatepe, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren ve Türkiye'nin kültürel mirasının önemli bir parçası olan marka, İsrail bağlantısı bulunmayan köklü bir Türk markasıdır.`,
+   country: "Türkiye",
+   website: "https://www.kocatepekahveevi.com.tr/",
+   img: "/kocatepe.png",
+   isBoycotted: "boykot-degil",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Illy",
+   slug: "illy",
+   foundedYear: 1933,
+   founder: "Francesco Illy",
+   owner: "Illycaffè S.p.A.",
+   description: `Illy, 1933 yılında Francesco Illy tarafından İtalya'nın Trieste kentinde kurulan ve dünyanın en prestijli kahve markalarından biridir. Marka, özellikle premium espresso kategorisinde faaliyet göstermekte ve yüksek kaliteli kahve çekirdekleri kullanarak üretim yapmaktadır. Illy, İtalyan kahve kültürünün önemli bir temsilcisi olarak kabul edilmektedir.
+
+Illy, özellikle espresso kategorisinde uzmanlaşmıştır ve dünya çapında milyonlarca tüketiciye ulaşmaktadır. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her pakette tutarlı bir lezzet garantisi sunmaktadır. Illy, sadece kahve çekirdekleri değil, aynı zamanda hazır kahve ürünleri ve kapsül kahve seçenekleri de sunmaktadır.
+
+Marka, dünya çapında özellikle restoranlar, kafeler ve otellerde yaygın olarak kullanılmaktadır. Illy, premium segmentte faaliyet göstermekte ve yüksek kaliteli kahve deneyimi arayan tüketicilere hitap etmektedir. Marka, özellikle Avrupa, Kuzey Amerika ve Asya pazarlarında güçlü bir konuma sahiptir.
+
+Illy, sürdürülebilir kahve üretimi konusunda da önemli adımlar atmaktadır. Marka, kahve üreticilerini desteklemekte, sürdürülebilir tarım uygulamalarını teşvik etmekte ve çevre dostu ambalajlama çözümleri geliştirmektedir. Ayrıca, kahve kültürünü yaymak için çeşitli eğitim programları ve etkinlikler düzenlemektedir.
+
+Ancak, Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünlerinin İsrail tesislerinde üretilip pazarlanması nedeniyle eleştirilmektedir. Coca-Cola'nın İsrail'deki yatırımları ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Illy ürünlerinin satın alınması önerilmemektedir.`,
+   country: "İtalya",
+   website: "https://illy.barista.com.tr/",
+   img: "/illy.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünlerinin İsrail tesislerinde üretilip pazarlanması nedeniyle boykot kapsamına alınmıştır. Illy'nin Coca-Cola ile olan iş birliği ve İsrail'deki üretim/pazarlama faaliyetleri, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Coca-Cola'nın İsrail'deki yatırımları ve İsrail'e verdiği destekler de bu boykotun nedenleri arasındadır. Bu nedenle, Illy'nin ürünlerinin satın alınması önerilmemektedir. Illy markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Pret A Manger",
+   slug: "pret-a-manger",
+   foundedYear: 1983,
+   founder: "Julian Metcalfe ve Sinclair Beecham",
+   owner: "JAB Holdings",
+   description: `Pret A Manger, 1983 yılında Julian Metcalfe ve Sinclair Beecham tarafından İngiltere'de kurulan ve dünya çapında faaliyet gösteren bir gıda ve kahve zinciridir. Marka, başlangıçta küçük bir sandviç dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
+
+Pret A Manger, özellikle taze ve doğal ürünler sunmasıyla tanınmaktadır. Marka, günlük olarak taze hazırlanan sandviçler, salatalar, çorbalar ve kahve ürünleri sunmaktadır. Pret A Manger, "hazır yemek" anlamına gelen Fransızca ismiyle, müşterilerine hızlı ama kaliteli yemek seçenekleri sunmayı hedeflemektedir.
+
+Zincir, özellikle şehir merkezlerinde ve iş yerlerinin yakınlarında konumlanmış şubeleriyle dikkat çekmektedir. Pret A Manger şubeleri, modern ve şık tasarımlarıyla müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Her şube, günlük olarak taze hazırlanan ürünlerle müşterilerine hizmet vermektedir.
+
+Marka, kahve kategorisinde de aktif olarak faaliyet göstermektedir. Pret A Manger, özenle seçilmiş kahve çekirdeklerini kullanmakta, espresso bazlı içeceklerden filtre kahvelere kadar geniş bir menü sunmaktadır. Kahve, markanın önemli gelir kaynaklarından biridir ve müşterilerin günlük rutinlerinin önemli bir parçası haline gelmiştir.
+
+Pret A Manger, 2018 yılında JAB Holdings tarafından satın alınmıştır. JAB Holdings, dünyanın en büyük kahve şirketlerinden biridir ve Caribou Coffee, Peet's Coffee, Keurig Dr Pepper ve diğer önemli kahve markalarına da sahiptir. Bu satın alma, Pret A Manger'in global genişlemesini hızlandırmıştır.
+
+Ancak, Pret A Manger markası, JAB Holdings'e aittir ve şirketin sahipleri Reimann ailesinin siyonist yatırımlarla anılması nedeniyle marka boykot edilmektedir. Reimann ailesinin İsrail'deki yatırımları ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Pret A Manger ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Birleşik Krallık",
+   website: "https://www.pret.com/en-US",
+   img: "/pret.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Pret A Manger markası, JAB Holdings'e ait bir markadır. JAB Holdings'in sahipleri Reimann ailesinin siyonist yatırımlarla anılması ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. Reimann ailesinin İsrail'deki yatırımları ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Pret A Manger markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Venado Coffee",
+   slug: "venado-coffee",
+   foundedYear: null,
+   founder: "Yıldız Holding",
+   owner: "Yıldız Holding",
+   description: `Venado Coffee, Yıldız Holding bünyesinde faaliyet gösteren ve Türkiye'de önemli bir konuma sahip olan kahve markalarından biridir. Marka, Yıldız Holding'in güçlü altyapısı ve deneyimi sayesinde hızlı bir büyüme kaydetmiş ve Türkiye pazarında aktif olarak faaliyet göstermektedir.
+
+Venado Coffee, geniş bir ürün yelpazesi sunmaktadır. Marka, geleneksel Türk kahvesinden espresso bazlı içeceklere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir menü ile müşterilerine hizmet vermektedir. Ayrıca, kahve çekirdekleri, filtre kahve ve hazır kahve ürünleri de sunmaktadır.
+
+Marka, özellikle premium segmentte faaliyet göstermektedir. Venado Coffee, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her pakette tutarlı bir lezzet garantisi sunmaktadır. Marka, kaliteli ve güvenilir ürünler sunmayı hedeflemekte ve tüketici memnuniyetini ön planda tutmaktadır.
+
+Venado Coffee, Türkiye pazarında hem perakende satış noktalarında hem de online platformlarda müşterilerine ulaşmaktadır. Marka, özellikle kaliteli kahve arayan tüketiciler arasında popülerlik kazanmaktadır ve geniş bir müşteri kitlesine hitap etmektedir.
+
+Yıldız Holding, Türkiye'nin en büyük holdinglerinden biridir ve birçok sektörde faaliyet göstermektedir. Venado Coffee, bu güçlü altyapı sayesinde kaliteli ürünler ve hizmetler sunmaktadır. Ancak, Venado Coffee markası, Yıldız Holding bünyesinde yer almasına rağmen şirket yönetiminin İsrail'e yönelik övgüleri ve iş birlikleri nedeniyle boykot çağrılarına konu olmuştur.
+
+Yıldız Holding'in İsrail'deki yatırımları ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Şirket yönetiminin İsrail'e dair övgüleri ve iş birliği iddiaları, markanın boykot listelerinde yer almasına neden olmaktadır. Bu nedenle, Venado Coffee ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Türkiye",
+   website: "https://venado.com.tr/",
+   img: "/venado.png",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Venado Coffee markası, Yıldız Holding bünyesinde faaliyet gösteren bir markadır. Yıldız Holding yönetiminin İsrail'e dair övgüleri ve iş birliği iddiaları nedeniyle, Yıldız Holding'e bağlı tüm şirketler ve markalar boykot kapsamına alınmıştır. Yıldız Holding'in İsrail'deki yatırımları, iş ortaklıkları ve yönetimin İsrail'e dair açıklamaları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Yıldız Holding'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Venado Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Coffy",
+   slug: "coffy",
+   foundedYear: null,
+   founder: "Pizza Restoranları A.Ş.",
+   owner: "Pizza Restoranları A.Ş.",
+   description: `Coffy, Domino's Pizza Türkiye operasyonlarını yürüten Pizza Restoranları A.Ş. bünyesinde faaliyet gösteren ve Türkiye'de önemli bir konuma sahip olan kahve zinciridir. Marka, pizza zincirinin yanında kahve kategorisinde de faaliyet göstermekte ve müşterilerine geniş bir ürün yelpazesi sunmaktadır.
+
+Coffy, özellikle hızlı servis restoranları konseptinde faaliyet göstermektedir. Marka, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir menü ile müşterilerine hizmet vermektedir. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+
+Marka, özellikle şehir merkezlerinde ve alışveriş merkezlerinde konumlanmış şubeleriyle dikkat çekmektedir. Coffy şubeleri, modern ve şık tasarımlarıyla müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Her şube, kaliteli hizmet ve tutarlı lezzet garantisi sunmaktadır.
+
+Coffy, özellikle genç ve modern tüketicilere hitap etmektedir. Marka, sosyal medya ve dijital pazarlama stratejileriyle güçlü bir varlık göstermekte ve özellikle şehirli tüketiciler arasında popülerdir. Ayrıca, özel etkinlikler ve kampanyalarla da müşterilerine değer katmaktadır.
+
+Pizza Restoranları A.Ş., Domino's Pizza Türkiye operasyonlarını yürüten şirkettir ve Coffy markası bu şirket bünyesinde faaliyet göstermektedir. Şirket, Türkiye genelinde geniş bir şube ağına sahiptir ve hem pizza hem de kahve kategorisinde müşterilerine hizmet vermektedir.
+
+Ancak, Coffy markası, Pizza Restoranları A.Ş.'ye bağlıdır ve şirket hisselerinin İsrail destekçisi kuruluşlara ait olduğu iddiaları nedeniyle marka boykot edilmektedir. Domino's Pizza Türkiye hisselerinin İsrail destekçileriyle ilişkilendirilmesi, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coffy ürünlerinin satın alınması önerilmemektedir.`,
+   country: "Türkiye",
+   website: "https://coffy.com.tr/",
+   img: "/coffy.jpeg",
+   isBoycotted: "boykot",
+   boycottReason:
+    "Coffy markası, Domino's Pizza Türkiye operasyonlarını yürüten Pizza Restoranları A.Ş. bünyesinde faaliyet gösteren bir kahve zinciridir. Pizza Restoranları A.Ş.'nin hisselerinin İsrail destekçisi kuruluşlara ait olduğu iddiaları nedeniyle, şirket bünyesindeki tüm markalar boykot kapsamına alınmıştır. Domino's Pizza Türkiye hisselerinin İsrail destekçileriyle ilişkilendirilmesi, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Pizza Restoranları A.Ş.'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Coffy markası da bu kapsamda boykot listesinde yer almaktadır.",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
+  {
+   name: "Gua Coffee",
+   slug: "gua-coffee",
+   foundedYear: 2021,
+   founder: "Bilinmiyor",
+   owner: "Bilinmiyor",
+   description: `Gua Coffee, 2021 yılında Türkiye'de kurulan modern bir kahve markasıdır. Marka, kaliteli kahve çekirdekleri ve özel harmanları ile Türkiye kahve pazarında yerini almıştır. Gua Coffee, hem online platform hem de fiziksel satış noktaları aracılığıyla müşterilerine hizmet vermektedir.
+
+Marka, çeşitli kahve türleri ve harmanları sunarak farklı zevklere hitap etmektedir. Gua Coffee, modern kahve kültürünü Türkiye'ye getirmeyi hedefleyen genç bir marka olarak öne çıkmaktadır. Marka, özellikle specialty coffee (özel kahve) segmentinde faaliyet göstermekte ve kaliteli kahve deneyimi sunmayı amaçlamaktadır.
+
+Gua Coffee, Türkiye merkezli bir marka olarak yerli kahve üretimini desteklemekte ve Türk kahve kültürüne modern bir yaklaşım getirmektedir. Marka, hem geleneksel Türk kahvesi hem de modern espresso bazlı içecekler sunarak geniş bir müşteri kitlesine hitap etmektedir.
+
+Marka, boykot dışıdır. Tamamen yerli sermaye ile faaliyet gösteren Gua Coffee, Türkiye'nin yerli kahve markaları arasında yer almaktadır ve İsrail bağlantısı bulunmamaktadır.`,
+   country: "Türkiye",
+   img: "/gua.png",
+   isBoycotted: "boykot-degil",
+   website: "https://guacoffeecompany.com/",
+   alternative_products: [
+    "espressolab",
+    "kocatepe",
+    "gloria-jeans",
+    "caffe-nero",
+   ],
+  },
   {
    name: "Mcdonald's",
    slug: "mcdonalds",

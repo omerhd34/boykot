@@ -14,6 +14,7 @@ import {
  FiGrid,
 } from "react-icons/fi";
 import BoykotLogo from "./BoykotLogo.jsx";
+import axios from "@/lib/axios";
 
 export default function Header() {
  const router = useRouter();
@@ -29,6 +30,8 @@ export default function Header() {
  });
  const searchContainerRef = useRef(null);
  const searchTimeoutRef = useRef(null);
+ const categoryButtonRef = useRef(null);
+ const categoryMenuRef = useRef(null);
 
 
  async function handleSearchSubmit(event) {
@@ -47,15 +50,9 @@ export default function Header() {
   setSearchError("");
 
   try {
-   const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`, {
-    cache: "no-store",
+   const { data } = await axios.get("/api/search", {
+    params: { q: query },
    });
-
-   if (!response.ok) {
-    throw new Error("Arama başarısız.");
-   }
-
-   const data = await response.json();
 
    if (data.error) {
     throw new Error(data.error);
@@ -150,15 +147,9 @@ export default function Header() {
   setSearchError("");
 
   try {
-   const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`, {
-    cache: "no-store",
+   const { data } = await axios.get("/api/search", {
+    params: { q: query },
    });
-
-   if (!response.ok) {
-    throw new Error("Arama başarısız.");
-   }
-
-   const data = await response.json();
 
    if (data.error) {
     throw new Error(data.error);
@@ -206,6 +197,24 @@ export default function Header() {
   }
   return undefined;
  }, [resultsOpen]);
+
+ useEffect(() => {
+  function handleCategoryMenuClickOutside(event) {
+   if (
+    categoryButtonRef.current?.contains(event.target) ||
+    categoryMenuRef.current?.contains(event.target)
+   ) {
+    return;
+   }
+   setCategoryMenuOpen(false);
+  }
+
+  if (categoryMenuOpen) {
+   document.addEventListener("mousedown", handleCategoryMenuClickOutside);
+   return () => document.removeEventListener("mousedown", handleCategoryMenuClickOutside);
+  }
+  return undefined;
+ }, [categoryMenuOpen]);
 
  useEffect(() => {
   return () => {
@@ -358,6 +367,7 @@ export default function Header() {
      </div>
 
      <button
+      ref={categoryButtonRef}
       type="button"
       onClick={toggleCategoryMenu}
       className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 h-[50px] text-sm font-medium text-slate-600 transition hover:border-orange-200 hover:bg-orange-50 hover:text-orange-600 shadow-sm"
@@ -522,7 +532,8 @@ export default function Header() {
    )}
 
    <div
-    className={`fixed inset-x-0 top-[184px] z-30 border-b border-slate-200 bg-white shadow-sm transition-all duration-500 ease-in-out ${categoryMenuOpen ? 'visible opacity-100' : 'invisible opacity-0 pointer-events-none'
+    ref={categoryMenuRef}
+    className={`fixed inset-x-0 top-[180px] z-30 border-b border-slate-200 bg-white shadow-sm transition-all duration-500 ease-in-out ${categoryMenuOpen ? 'visible opacity-100' : 'invisible opacity-0 pointer-events-none'
      }`}
    >
     <div

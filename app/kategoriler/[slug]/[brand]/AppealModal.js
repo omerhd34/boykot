@@ -9,6 +9,7 @@ import {
  IoPersonOutline,
  IoDocumentTextOutline,
 } from "react-icons/io5";
+import axios from "@/lib/axios";
 
 export default function AppealModal({ isOpen, onClose, brand }) {
  const [formData, setFormData] = useState({
@@ -37,23 +38,15 @@ export default function AppealModal({ isOpen, onClose, brand }) {
   setErrorMessage("");
 
   try {
-   const response = await fetch("/api/appeals", {
-    method: "POST",
-    headers: {
-     "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-     brandId: brand.id,
-     brandName: brand.name,
-     categorySlug: brand.category.slug,
-     brandSlug: brand.slug,
-     name: formData.name,
-     email: formData.email,
-     message: formData.message,
-    }),
+   const { data } = await axios.post("/api/appeals", {
+    brandId: brand.id,
+    brandName: brand.name,
+    categorySlug: brand.category.slug,
+    brandSlug: brand.slug,
+    name: formData.name,
+    email: formData.email,
+    message: formData.message,
    });
-
-   const data = await response.json();
 
    if (data.success) {
     setSubmitStatus("success");
@@ -72,7 +65,7 @@ export default function AppealModal({ isOpen, onClose, brand }) {
   } catch (error) {
    console.error("Appeal submission error:", error);
    setSubmitStatus("error");
-   setErrorMessage("Bir hata oluştu. Lütfen tekrar deneyiniz.");
+   setErrorMessage(error.response?.data?.message || "Bir hata oluştu. Lütfen tekrar deneyiniz.");
   } finally {
    setIsSubmitting(false);
   }
