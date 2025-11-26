@@ -5,6 +5,50 @@ const kisiselBakimCategory = {
  description: "Kişisel bakım ve hijyen ürünleri markaları.",
  brands: [
   {
+   name: "Signal",
+   slug: "signal",
+   foundedYear: 1961,
+   founder: "",
+   owner: "Unilever",
+   country: "Birleşik Krallık",
+   alternative_products: [],
+   img: "/signal.png",
+   isBoycotted: "boykot",
+   website: "https://www.signalturkiye.com/home.html",
+   evidences: ["https://www.just-food.com/news/israel-unilever-takes-control-of-strauss-ice-cream/",],
+   boycottReason: `Signal'in boykot edilmesinin temel nedeni, markanın sahibi olan küresel gıda devi Unilever'in İsrail ile olan güçlü ticari ve ekonomik bağlarıdır. Unilever, İsrail'in en büyük gıda şirketlerinden biri olan Strauss Group'un dondurma iştiraki Strauss Ice Cream'in ana hissedarıdır. Strauss Group, İsrail ordusuna (IDF) ve özellikle Golani Tugayı'na sağladığı gıda ve lojistik destekle bilinmektedir.
+
+Ayrıca Unilever, alt markası Ben & Jerry's'in "işgal altındaki Filistin topraklarında satış yapmama" kararını görmezden gelerek, ürünlerin dağıtım haklarını yerel bir İsrailli şirkete devretmiş ve İsrail pazarındaki varlığını sürdürme konusundaki ısrarını kanıtlamıştır. Bu ticari ve politik duruş nedeniyle, Unilever'in bir iştiraki olan Signal markası da boykot listesinde yer almaktadır.`,
+   description: `Signal, Unilever şirketine ait diş macunu markalarından biridir. Signal, dünya genelinde 80 yıldır üretilen ve ağız bakım alışkanlıklarını geliştirmeyi amaçlayan Unilever'in ağız ve diş bakım markasıdır.
+
+Signal diş macunu Unilever tarafından 1961 yılında tanıtıldı. Macunu meşhur kırmızı ve beyaz çizgileri tanıttı. 1977 yılında florürlü diş macunu, 1986 yılında anti-tartar formüllü ve 1999 yılında antibakteriyel çeşitleri tanıtıldı.
+
+Bir sıra ülkelerde Asya ve Latin Amerika'da Signal'in yerine Pepsodent'in satışı yapılıyor, Brezilya'da Closeup, İtalya ve Avusturya'da Mentadent, Çin'de Zhong Hua, Yunanistan'da Aim ismi ile satılıyor.
+
+Signal, Unilever'in "Her gün daha iyi bir gelecek yaratma" vazifesiyle, Türkiye'de ağız bakım alışkanlıkları için bilgilendirme çalışmalarına yapıyor.
+
+Ürün yelpazesi diş macunu, diş fırçası ve ağız bakım suyunu içerir.`,
+  },
+  {
+   name: "Sleepy",
+   slug: "sleepy",
+   foundedYear: 2004,
+   founder: "Mehmet Ali Eroslu",
+   owner: "Eroslu Şirketi",
+   description: `Sleepy, 2004 yılında Mehmet Ali Eroslu tarafından Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir bebek bakım ürünleri ve bez markasıdır. Marka, bugün Eroslu Şirketi adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
+
+Sleepy, özellikle bebek bezi ve ıslak mendil ürünleri ile tanınır ve bebek sağlığına odaklanır. Sleepy, Türkiye genelinde süpermarketler, e-ticaret siteleri ve mağazalar aracılığıyla ürünlerini tüketicilere ulaştırır. Marka, konfor ve güvenlik açısından aileler tarafından tercih edilmektedir.
+
+Sleepy, sadece bebek bezi değil, aynı zamanda ıslak mendil, bebek şampuanı ve diğer bebek bakım ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
+
+Sleepy, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, bebek sahipleri arasında popülerdir.`,
+   country: "Türkiye",
+   website: "https://www.sleepy.com.tr/",
+   img: "/sleepy.png",
+   isBoycotted: "boykot-degil",
+   boycottReason: `Sleepy markası, Türkiye merkezli bir firmadır ve Mehmet Ali Eroslu tarafından kurulmuştur. Temizlik ve kişisel bakım ürünleri üretmektedir. Yerli bir markadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Sleepy markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
+  },
+  {
    name: "Vaseline",
    slug: "vaseline",
    country: "ABD",
@@ -72,7 +116,6 @@ Rexona, 1908 yılında Avustralya'da Dr. Alice Sheffer tarafından yaratılmış
 
 Günümüzde Rexona, kadın ve erkekler için aerosol, sprey, stick, roll-on ve krem ürünleri sunmaktadır. Sloganı: "Seni asla yarı yolda bırakmaz!" (It will never let you down!).`,
   },
-
   {
    name: "Dove",
    slug: "dove",
@@ -175,7 +218,6 @@ Clear, kepek önleme ve saç bakımı alanında faaliyet göstermektedir ve Unil
    name: "Mon Amour",
    slug: "mon-amour",
    foundedYear: 2012,
-
    founder: "Şok Marketler",
    owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
    country: "Türkiye",
@@ -193,7 +235,6 @@ Clear, kepek önleme ve saç bakımı alanında faaliyet göstermektedir ve Unil
    name: "ADAM",
    slug: "adam",
    foundedYear: 2012,
-
    founder: "Şok Marketler",
    owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
    country: "Türkiye",
@@ -207,15 +248,10 @@ Clear, kepek önleme ve saç bakımı alanında faaliyet göstermektedir ve Unil
 Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
    evidences: [""],
   },
-
-
-
-
   {
    name: "Colgate",
    slug: "colgate",
    foundedYear: 1873,
-
    founder: "William Colgate",
    owner: "Colgate-Palmolive",
    country: "ABD",
@@ -233,7 +269,6 @@ Clear, kepek önleme ve saç bakımı alanında faaliyet göstermektedir ve Unil
    name: "Difaş",
    slug: "difas",
    foundedYear: 1966,
-
    founder: "Yerel Girişim",
    owner: "Difaş Fırça Sanayi ve Ticaret A.Ş.",
    country: "Türkiye",
@@ -251,7 +286,6 @@ Kurumsal yapısını TSE, ISO 9001 Kalite Yönetim Sistemi gibi belgelerle güç
    name: "Misswell",
    slug: "misswell",
    foundedYear: null,
-
    founder: "Abdullah Eroğlu",
    owner: "Abdullah Eroğlu",
    description: `Misswell, Türkiye'nin yeni nesil dinamik girişim ve networking platformu olarak faaliyet göstermektedir. Platform, yerli üretimlere odaklanmakta ve yerel girişimcileri desteklemeyi hedeflemektedir. Misswell, sadece bir kahve markası değil, aynı zamanda bir girişimcilik ekosistemi olarak konumlandırılmıştır.
@@ -272,7 +306,6 @@ Misswell, boykot dışıdır. Yerli üretime odaklanan platform, Türkiye'nin ye
    name: "Eyüp Sabri Tuncer",
    slug: "eyup-sabri-tuncer",
    foundedYear: 1923,
-
    founder: "Eyüp Sabri Tuncer",
    owner: "Eyüp Sabri Tuncer Kozmetik San. A.Ş.",
    country: "Türkiye",

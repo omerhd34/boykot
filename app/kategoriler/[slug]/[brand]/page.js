@@ -164,33 +164,32 @@ export default async function BrandDetailPage({ params }) {
       )}
       {brand.boycottReason && (
        <div
-        className={`space-y-3 rounded-2xl border-2 px-6 py-5 shadow-sm ${brand.isBoycotted === "boykot"
-         ? "border-red-200 bg-red-50"
-         : "border-amber-200 bg-amber-50"
-         }`}
+        className={`space-y-3 rounded-2xl border-2 px-6 py-5 shadow-sm 
+         ${brand.isBoycotted === "boykot" && "border-red-200 bg-red-50"}
+         ${brand.isBoycotted === "boykot-degil" && "border-emerald-200 bg-emerald-50"}
+         ${brand.isBoycotted === "onerilmiyor" && "border-amber-200 bg-amber-50"}
+         `}
        >
         <div className="flex items-center gap-2">
-         {brand.isBoycotted === "boykot" ? (
-          <IoWarningOutline className="h-5 w-5 text-red-600" />
-         ) : (
-          <IoAlertCircleOutline className="h-5 w-5 text-amber-600" />
-         )}
-         <h2
-          className={`text-sm font-bold uppercase tracking-wide ${brand.isBoycotted === "boykot"
-           ? "text-red-600"
-           : "text-amber-600"
-           }`}
+         {brand.isBoycotted === "boykot" && <IoWarningOutline className="h-5 w-5 text-red-600" />}
+         {brand.isBoycotted === "boykot-degil" && <IoShieldCheckmarkOutline className="h-5 w-5 text-emerald-600" />}
+         {brand.isBoycotted === "onerilmiyor" && <IoAlertCircleOutline className="h-5 w-5 text-amber-600" />}
+         <h2 className={`text-sm font-bold uppercase tracking-wide 
+           ${brand.isBoycotted === "boykot" && "text-red-600"}
+           ${brand.isBoycotted === "boykot-degil" && "text-emerald-600"}
+           ${brand.isBoycotted === "onerilmiyor" && "text-amber-600"}`}
          >
-          {brand.isBoycotted === "boykot"
-           ? "Boykot Gerekçesi"
-           : "Neden Önerilmiyor?"}
+          {brand.isBoycotted === "boykot-degil" && "Boykot Olmamasının Nedeni"}
+          {brand.isBoycotted === "boykot" && "Boykot Gerekçesi"}
+          {brand.isBoycotted === "onerilmiyor" && "Neden Önerilmiyor?"}
          </h2>
         </div>
         <div
-         className={`text-sm leading-relaxed whitespace-pre-wrap ${brand.isBoycotted === "boykot"
-          ? "text-red-700"
-          : "text-amber-700"
-          }`}
+         className={`text-sm leading-relaxed whitespace-pre-wrap 
+           ${brand.isBoycotted === "boykot" && "text-red-700"}
+           ${brand.isBoycotted === "boykot-degil" && "text-emerald-700"}
+           ${brand.isBoycotted === "onerilmiyor" && "text-amber-700"}
+         `}
          dangerouslySetInnerHTML={{
           __html: brand.boycottReason
            .replace(/\n/g, "<br />")
@@ -481,8 +480,8 @@ export default async function BrandDetailPage({ params }) {
         </div>
        )}
      </aside>
-    </div>
-   </div>
-  </section>
+    </div >
+   </div >
+  </section >
  );
 }

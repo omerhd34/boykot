@@ -41,6 +41,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
  const [activeSubCategoryFilter, setActiveSubCategoryFilter] = useState("all");
  const [isCountryDropdownOpen, setIsCountryDropdownOpen] = useState(false);
  const [isSubCategoryDropdownOpen, setIsSubCategoryDropdownOpen] = useState(false);
+ const [carouselApi, setCarouselApi] = useState(null);
  const countryDropdownRef = useRef(null);
  const subCategoryDropdownRef = useRef(null);
 
@@ -202,6 +203,13 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
    }
   }
  }, [brands, activeCountryFilter, activeSubCategoryFilter, activeFilter, searchParams, router, pathname]);
+
+ // Filtreleme değiştiğinde carousel'ı başa al
+ useEffect(() => {
+  if (carouselApi) {
+   carouselApi.scrollTo(0);
+  }
+ }, [activeFilter, activeCountryFilter, activeSubCategoryFilter, carouselApi]);
 
  const selectedCountry = useMemo(() => {
   return availableCountries.find((c) => c.id === activeCountryFilter) || availableCountries[0];
@@ -386,6 +394,7 @@ export default function CategoryBrandList({ brands = [], subCategories = [], sho
      opts={{
       align: "start",
      }}
+     setApi={setCarouselApi}
      className="relative w-full"
     >
      <CarouselContent className="-ml-5">

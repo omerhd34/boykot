@@ -8,12 +8,13 @@ const giyimTekstilCategory = {
  slug: "giyim-tekstil",
  iconKey: "shirt",
  description: "Giyim, tekstil üreticileri ve perakende markaları.",
+ ctgry: ["E-ticaret", "Moda Perakendeci", "Spor Giyim", "Şirket", "Giyim", "Giyim ve Kozmetik"],
  brands: [
   {
    name: "Boyner",
    slug: "boyner",
    foundedYear: 1952,
-   ctgry: "E-ticaret",
+   ctgry: "Giyim",
    founder: "Boyner Ailesi",
    owner: "Cem Boyner",
    country: "Türkiye",
@@ -27,85 +28,10 @@ Holdingin kökenleri, 1952 yılında Altınyıldız Mensucat ve Konfeksiyon Fabr
 
 Boyner Grup, Türkiye'nin önde gelen mağaza ve moda perakendesi gruplarından biridir. Bünyesinde 6 grup şirketi, 250'den fazla mağaza, e-ticaret siteleri ve mobil uygulamalar bulundurur. Grup, 8.000'i aşkın çalışanıyla geniş bir operasyonel ağa sahiptir.`,
   },
-/*   {
-   name: "Modanisa",
-   slug: "",
-   foundedYear: 2008,
-   ctgry: "E-ticaret",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-  },
   {
-   name: "LC Waikiki",
-   slug: "",
-   foundedYear: 2008,
-   ctgry: "E-ticaret",
-   founder: "",
-   owner: "", // https://boykotdedektifi.org/b/lc-waikiki-67
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-  },
-  {
-   name: "Koton",
-   slug: "",
-   foundedYear: 2008,
-   ctgry: "E-ticaret",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-  },
-  {
-   name: "E-Bebek",
-   slug: "",
-   foundedYear: 2008,
-   ctgry: "E-ticaret",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-  },
-  {
-   name: "Sefamerve / Lidyana",
-   slug: "",
-   foundedYear: 2008,
-   ctgry: "E-ticaret",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-  },
- */  {
    name: "Edited",
    slug: "edited",
-   ctgry: "Perakende İstihbaratı",
+   ctgry: "Moda Perakendeci",
    foundedYear: 2009,
    founder: "Geoff Watts, Julia Fowler",
    owner: "Wavecrest Growth Partners, Beringea UK, Hermes GPE",
@@ -127,7 +53,7 @@ EDITED, Güney Afrika, Avustralya, Çin, Rusya, İtalya, Almanya, Güney Kore, B
   {
    name: "Adidas",
    slug: "adidas",
-   ctgry: "Spor Giyim ve Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 1949,
    founder: "Adolf Dassler",
    owner: "Adidas AG",
@@ -151,7 +77,7 @@ Bu nedenle, Adidas ürünlerinin satın alınması önerilmemektedir. İsrail'e 
   {
    name: "Adidas Group",
    slug: "adidas-group",
-   ctgry: "Spor Giyim Holding",
+   ctgry: "Şirket",
    foundedYear: 1949,
    founder: "Adolf Dassler",
    owner: "Adidas AG",
@@ -175,7 +101,7 @@ Bu nedenle, Adidas Group ürünlerinin satın alınması önerilmemektedir. İsr
   {
    name: "Asics",
    slug: "asics",
-   ctgry: "Spor Giyim ve Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 1949,
    founder: "Kihachiro Onitsuka",
    owner: "ASICS Corporation",
@@ -197,7 +123,7 @@ ASICS, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımla
   {
    name: "American Eagle Outfitters",
    slug: "american-eagle-outfitters",
-   ctgry: "Genç Moda ve Casual Giyim",
+   ctgry: "Giyim",
    foundedYear: 1977,
    founder: "Jerry Silverman, Mark Silverman",
    owner: "American Eagle Outfitters, Inc.",
@@ -209,7 +135,7 @@ Marka, özellikle genç tüketicilere hitap eden casual giyim, jean pantolonlar,
 
 American Eagle, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve trend odaklı yaklaşımıyla, şehirli ve moda bilincine sahip genç tüketicilere hitap etmektedir.`,
    country: "ABD",
-   website: "https://www.americaneagle.com/",
+   website: "https://www.ae.com/intl/en",
    img: "/american-eagle-outfitters.png",
    isBoycotted: "boykot",
    boycottReason: `American Eagle Outfitters markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Marka, New York Times meydanında bulunan reklam panosuna İsrail bayrağını koyarak İsrail'e olan desteğini açıkça göstermiştir. Bu eylem, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemek anlamına gelmektedir.
@@ -219,7 +145,7 @@ American Eagle, dünya genelinde hem fiziksel mağazalar hem de online satış k
   {
    name: "Banana Republic",
    slug: "banana-republic",
-   ctgry: "Premium Hazır Giyim",
+   ctgry: "Giyim",
    foundedYear: 1978,
    founder: "Mel Ziegler, Patricia Ziegler",
    owner: "Gap Inc.",
@@ -239,7 +165,7 @@ Banana Republic, dünya genelinde hem fiziksel mağazalar hem de online satış 
   {
    name: "Calvin Klein",
    slug: "calvin-klein",
-   ctgry: "Lüks İç Giyim ve Moda",
+   ctgry: "Giyim",
    foundedYear: 1968,
    founder: "Calvin Klein",
    owner: "PVH Corp.",
@@ -258,12 +184,11 @@ Calvin Klein, dünya genelinde hem fiziksel mağazalar hem de online satış kan
 
 Bu yatırım şirketleri, İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlere yatırım yapmaktadır. Bu nedenle, Calvin Klein ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Calvin Klein, boykot listesinde yer almaktadır.`,
   },
-
   {
    name: "Caterpillar(CAT)",
    slug: "caterpillar",
    foundedYear: 1925,
-   ctgry: "İş Güvenliği ve Outdoor Giyim",
+   ctgry: "Giyim",
    founder: "Benjamin Holt, C.L. Best",
    owner: "Caterpillar Inc.",
    description: `Caterpillar, 1925 yılında Amerika Birleşik Devletleri'nde Benjamin Holt ve C.L. Best tarafından kurulan ve dünya çapında tanınan bir endüstriyel ekipman ve giyim markasıdır. Marka, bugün Caterpillar Inc. adıyla faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -284,7 +209,7 @@ Bu nedenle, Caterpillar ürünlerinin satın alınması önerilmemektedir. İsra
   {
    name: "Céline",
    slug: "celine",
-   ctgry: "Lüks Moda",
+   ctgry: "Giyim",
    foundedYear: 1945,
    founder: "Céline Vipiana",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
@@ -306,7 +231,7 @@ Bu nedenle, Celine ürünlerinin satın alınması önerilmemektedir. İsrail'e 
   {
    name: "Chanel",
    slug: "chanel",
-   ctgry: "Lüks Moda ve Kozmetik",
+   ctgry: "Giyim",
    foundedYear: 1910,
    founder: "Coco Chanel (Gabrielle Bonheur Chanel)",
    owner: "Alain Wertheimer, Gerard Wertheimer",
@@ -330,7 +255,7 @@ Bu nedenle, Chanel ürünlerinin satın alınması önerilmemektedir. İsrail'e 
   {
    name: "Champion",
    slug: "champion",
-   ctgry: "Spor ve Casual Giyim",
+   ctgry: "Giyim",
    foundedYear: 1919,
    founder: "Abraham Feinbloom, William Feinbloom",
    owner: "Hanesbrands Inc.",
@@ -342,7 +267,7 @@ Marka, ikonik "C" logosu ve klasik tasarımlarıyla dünya çapında tanınmakta
 
 Champion, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, spor ve casual giyim tutkunları arasında popülerdir.`,
    country: "ABD",
-   website: "https://www.champion.com.tr",
+   website: "https://www.championturkiye.com/",
    img: "/champion.png",
    isBoycotted: "boykot",
    boycottReason: `Champion markası, çatı kuruluşu olan Sara Lee'nin birçok sektörde hizmet veren köklü bir Yahudi şirketi olması nedeniyle boykot kapsamına alınmıştır. Şirketin konu ile alakalı açık bir beyanı bulunmasa da hem bir Yahudi medya sayfasında tüm Yahudilerin desteklemesi gereken markalar arasında bulunuyor hem de birçok farklı boykot listesinde adı geçiyor.
@@ -352,7 +277,7 @@ Sara Lee, İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikalar
   {
    name: "Columbia",
    slug: "columbia",
-   ctgry: "Outdoor Giyim ve Spor",
+   ctgry: "Giyim",
    foundedYear: 1938,
    founder: "Paul Lamfrom",
    owner: "Columbia Sportswear Company",
@@ -372,7 +297,7 @@ Columbia, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
   {
    name: "Converse",
    slug: "converse",
-   ctgry: "Spor ve Sokak Modası",
+   ctgry: "Giyim",
    foundedYear: 1908,
    founder: "Marquis Mills Converse",
    owner: "Nike, Inc.",
@@ -394,7 +319,7 @@ Bu yatırım şirketleri, İsrail'e ekonomik destek sağlayan ve Filistin'e yön
   {
    name: "Crocs",
    slug: "crocs",
-   ctgry: "Konfor Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 2002,
    founder: "George Boedecker, Scott Seamans, Lyndon Hanson",
    owner: "Crocs, Inc.",
@@ -413,7 +338,7 @@ Crocs, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
   {
    name: "Coach",
    slug: "coach",
-   ctgry: "Lüks Deri Ürünleri ve Aksesuar",
+   ctgry: "Giyim",
    foundedYear: 1941,
    founder: "Lillian Cahn, Miles Cahn",
    owner: "Tapestry, Inc.",
@@ -432,7 +357,7 @@ Coach, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
   {
    name: "Decathlon",
    slug: "decathlon",
-   ctgry: "Spor Ekipmanları ve Giyim",
+   ctgry: "Giyim",
    foundedYear: 1976,
    founder: "Michel Leclercq",
    owner: "Decathlon S.A.",
@@ -454,7 +379,7 @@ Boykot çağrısı kısa sürede Türkiye gündeminde ilk sıralara tırmandı. 
   {
    name: "Dior",
    slug: "dior",
-   ctgry: "Lüks Haute Couture",
+   ctgry: "Giyim",
    foundedYear: 1946,
    founder: "Christian Dior",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
@@ -476,7 +401,7 @@ Bu tercih, İsrail'in Filistin topraklarındaki işgalini ve politikalarını de
   {
    name: "Diesel fragrances",
    slug: "diesel-fragrances",
-   ctgry: "Lisanslı Parfüm ve Moda",
+   ctgry: "Giyim",
    foundedYear: 1978,
    founder: "Renzo Rosso",
    owner: "OTB Group, L'Oréal (parfüm lisansı)",
@@ -498,7 +423,7 @@ L'Oréal'in İsrail ile olan bu ilişkisi, İsrail'in Filistin topraklarındaki 
   {
    name: "Ecco",
    slug: "ecco",
-   ctgry: "Deri Ayakkabı ve Konfor Ürünleri",
+   ctgry: "Giyim",
    foundedYear: 1963,
    founder: "Karl Toosbuy",
    owner: "ECCO Sko A/S",
@@ -517,7 +442,7 @@ Ecco, modern tasarım anlayışı ve kaliteli ürünleriyle, genç ve yetişkin 
   {
    name: "Fendi",
    slug: "fendi",
-   ctgry: "Moda",
+   ctgry: "Giyim",
    foundedYear: 1925,
    founder: "Lüks Moda ve Deri Ürünleri",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
@@ -541,7 +466,7 @@ Bu nedenle, Fendi ürünlerinin satın alınması önerilmemektedir. İsrail'e e
   {
    name: "Fila",
    slug: "fila",
-   ctgry: "Spor Giyim ve Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 1911,
    founder: "Brothers Fila (Ettore Fila, Giansevero Fila)",
    owner: "Fila Holdings Corp.",
@@ -563,7 +488,7 @@ Maccabi Tel Aviv FC, İsrail'in en büyük futbol kulüplerinden biridir ve İsr
   {
    name: "Fenerium",
    slug: "fenerium",
-   ctgry: "Spor Kulübü Lisanslı Ürünleri",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Fenerbahçe Spor Kulübü",
    owner: "Fenerbahçe Spor Kulübü",
@@ -585,7 +510,7 @@ Adidas sponsorluklu spor ürünleri boykot edilmesi tavsiye edilmektedir. Bu ned
   {
    name: "Gap",
    slug: "gap",
-   ctgry: "Casual Giyim",
+   ctgry: "Giyim",
    foundedYear: 1969,
    founder: "Doris Fisher, Donald Fisher",
    owner: "Gap Inc.",
@@ -607,7 +532,7 @@ Bu nedenle, Gap ürünlerinin satın alınması önerilmemektedir. İsrail'e des
   {
    name: "Geox",
    slug: "geox",
-   ctgry: "Konfor ve Teknolojik Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 1995,
    founder: "Mario Moretti Polegato",
    owner: "Geox S.p.A.",
@@ -626,7 +551,7 @@ Geox, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
   {
    name: "Givenchy",
    slug: "givenchy",
-   ctgry: "Lüks Haute Couture ve Kozmetik",
+   ctgry: "Giyim",
    foundedYear: 1952,
    founder: "Hubert de Givenchy",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
@@ -648,7 +573,7 @@ Grup firması Tiffany, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü
   {
    name: "GS Store",
    slug: "gs-store",
-   ctgry: "Spor Kulübü Lisanslı Ürünleri",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Galatasaray Spor Kulübü",
    owner: "Galatasaray Spor Kulübü",
@@ -670,7 +595,7 @@ Puma sponsorluklu spor ürünleri boykot edilmesi tavsiye edilmektedir. Bu neden
   {
    name: "Giorgio Armani",
    slug: "giorgio-armani",
-   ctgry: "Lüks Moda ve Hazır Giyim",
+   ctgry: "Giyim",
    foundedYear: 1975,
    founder: "Giorgio Armani",
    owner: "Giorgio Armani S.p.A.",
@@ -692,7 +617,7 @@ L'Oréal'in İsrail ile olan bu ilişkisi, İsrail'in Filistin topraklarındaki 
   {
    name: "Gottex",
    slug: "gottex",
-   ctgry: "Plaj Giyim",
+   ctgry: "Giyim",
    foundedYear: 1956,
    founder: "Leah Gottlieb",
    owner: "Gottex Industries Ltd.",
@@ -714,7 +639,7 @@ Bu nedenle, Gottex ürünlerinin satın alınması önerilmemektedir. İsrail'e 
   {
    name: "Gucci",
    slug: "gucci",
-   ctgry: "Lüks Moda ve Aksesuar",
+   ctgry: "Giyim",
    foundedYear: 1921,
    founder: "Guccio Gucci",
    owner: "Kering",
@@ -734,7 +659,7 @@ Gucci, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
   {
    name: "Guess",
    slug: "guess",
-   ctgry: "Amerikan Premium ve Günlük Giyim",
+   ctgry: "Giyim",
    foundedYear: 1981,
    founder:
     "Maurice Marciano, Paul Marciano, Georges Marciano, Armand Marciano",
@@ -754,7 +679,7 @@ Guess, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları
   {
    name: "H&M",
    slug: "h-m",
-   ctgry: "Hızlı Moda ve Hazır Giyim",
+   ctgry: "Giyim",
    foundedYear: 1947,
    founder: "Erling Persson",
    owner: "Hennes & Mauritz AB",
@@ -778,7 +703,7 @@ Bu nedenle, H&M ürünlerinin satın alınması önerilmemektedir. İsrail'e des
   {
    name: "Hugo Boss",
    slug: "hugo-boss",
-   ctgry: "Lüks ve Premium Giyim",
+   ctgry: "Giyim",
    foundedYear: 1924,
    founder: "Hugo Boss",
    owner: "Hugo Boss AG",
@@ -798,7 +723,7 @@ Hugo Boss, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
   {
    name: "Honigman",
    slug: "honigman",
-   ctgry: "Hazır Giyim",
+   ctgry: "Giyim",
    foundedYear: 1947,
    founder: "Bilinmiyor",
    owner: "Bilinmiyor",
@@ -820,7 +745,7 @@ Bu nedenle, Honigman ürünlerinin satın alınması önerilmemektedir. İsrail'
   {
    name: "Imannoor",
    slug: "imannoor",
-   ctgry: "Lüks Tesettür Giyim ve Şal",
+   ctgry: "Giyim",
    foundedYear: 2010,
    founder: "Çolakoğlu Metalurji",
    owner: "Çolakoğlu Metalurji",
@@ -840,7 +765,7 @@ Bu ticari ilişki, İsrail'in Filistin topraklarındaki işgalini ve politikalar
   {
    name: "Lacoste",
    slug: "lacoste",
-   ctgry: "Premium Spor ve Casual Giyim",
+   ctgry: "Giyim",
    foundedYear: 1933,
    founder: "René Lacoste, André Gillier",
    owner: "Maus Frères",
@@ -862,7 +787,7 @@ Bu nedenle, Lacoste ürünlerinin satın alınması önerilmemektedir. İsrail'e
   {
    name: "Levi's",
    slug: "levis",
-   ctgry: "Jean ve Casual Giyim",
+   ctgry: "Giyim",
    foundedYear: 1853,
    founder: "Levi Strauss",
    owner: "Levi Strauss & Co.",
@@ -884,7 +809,7 @@ Bu açıklama, İsrail'in Filistin topraklarındaki işgalini ve politikaların�
   {
    name: "Louis Vuitton",
    slug: "louis-vuitton",
-   ctgry: "Lüks Moda ve Deri Ürünleri",
+   ctgry: "Giyim",
    foundedYear: 1854,
    founder: "Louis Vuitton",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
@@ -904,29 +829,9 @@ Louis Vuitton, dünya genelinde hem fiziksel mağazalar hem de online satış ka
 LVMH Grup, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle, İsrail'e 75 milyon dolarlık bir bağışta bulunmuştur. Bu bağış, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Louis Vuitton ürünlerinin satın alınması önerilmemektedir. İsrail'e ekonomik destek sağlayan ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Louis Vuitton, boykot listesinde yer almaktadır.`,
   },
   {
-   name: "Linens",
-   slug: "linens",
-   ctgry: "Ev Tekstili ve Dekorasyon",
-   foundedYear: 2000,
-   founder: "Bilinmiyor",
-   owner: "Linens A.Ş.",
-   description: `Linens, 2000 yılında Türkiye'de kurulan ve ev tekstili ürünleri alanında faaliyet gösteren bir perakende markasıdır. Marka, bugün Linens A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Linens, özellikle nevresim takımları, yastık, battaniye, havlu ve dekoratif ev ürünleri sunar. Linens, şık ve modern tasarımlarıyla ev dekorasyonuna katkı sağlar. Türkiye genelinde mağazaları ve çevrim içi satış kanalları aracılığıyla ürünlerini müşterilere ulaştırmaktadır.
-
-Marka, özellikle ev tekstili alanında geniş bir ürün yelpazesi sunmaktadır. Linens, sadece nevresim takımları değil, aynı zamanda yastık, battaniye, havlu ve dekoratif ev ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Linens, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, ev dekorasyonu tutkunları arasında popülerdir.`,
-   country: "Türkiye",
-   website: "https://www.linens.com.tr/",
-   img: "/linens.webp",
-   isBoycotted: "boykot",
-   boycottReason: `Linens markası, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Marka, "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Linens'in İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair bilgiler mevcuttur. Bu nedenle, Linens ürünlerinin satın alınması önerilmemektedir.`,
-  },
-  {
    name: "LVMH - Bernard Arnaults Company",
    slug: "lvmh-bernard-arnaults-company",
-   ctgry: "Dünya Lüks Ürünler Konglomeratı",
+   ctgry: "Şirket",
    foundedYear: 1987,
    founder: "Bernard Arnault",
    owner: "Bernard Arnault",
@@ -948,7 +853,7 @@ LVMH Grup, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle
   {
    name: "Le Petit 100",
    slug: "le-petit-100",
-   ctgry: "Çocuk Ürünleri ve Etkinlik Mekânı",
+   ctgry: "Giyim",
    foundedYear: 2015,
    founder: "Bilinmiyor",
    owner: "Le Petit 100 A.Ş.",
@@ -970,6 +875,7 @@ Siyonist destek veren bazı markaların kaynakça linklerini paylaşmışlardır
   {
    name: "Mango",
    slug: "mango",
+   ctgry: "Giyim",
    foundedYear: 1984,
    founder: "Isak Andic",
    owner: "Mango Fashion Group",
@@ -993,7 +899,7 @@ Bu nedenle, Mango ürünlerinin satın alınması önerilmemektedir. İsrail'e d
   {
    name: "Massimo Dutti",
    slug: "massimo-dutti",
-   ctgry: "Hızlı Moda Holding",
+   ctgry: "Giyim",
    foundedYear: 1985,
    founder: "Armando Lasauca",
    owner: "Inditex Group",
@@ -1015,7 +921,7 @@ Yapılan bu yeni koleksiyon paylaşımı Gazze'ye göndermeler içermesi sebebiy
   {
    name: "Merrell",
    slug: "merrell",
-   ctgry: "Outdoor ve Doğa Sporları Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 1981,
    founder: "Randy Merrell",
    owner: "Wolverine World Wide, Inc.",
@@ -1040,7 +946,7 @@ Bu yardımlar ve ortaklıklar, İsrail'in Filistin topraklarındaki işgalini ve
    name: "Marks & Spencer",
    slug: "marks-and-spencer",
    foundedYear: 1884,
-   ctgry: "Departman Mağazacılığı",
+   ctgry: "Giyim",
    founder: "Michael Marks, Thomas Spencer",
    owner: "Marks & Spencer Group plc",
    description: `Marks & Spencer (M&S), 1884 yılında İngiltere'nin Londra kentinde Michael Marks ve Thomas Spencer tarafından kurulan ve dünya çapında tanınan bir perakende markasıdır. Marka, bugün Marks & Spencer Group plc adıyla halka açık bir şirket olarak faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1063,7 +969,7 @@ Bu nedenle, Marks & Spencer ürünlerinin satın alınması önerilmemektedir. �
   {
    name: "Nautica",
    slug: "nautica",
-   ctgry: "Giyim ve Aksesuar",
+   ctgry: "Giyim",
    foundedYear: 1983,
    founder: "David Chu",
    owner: "Authentic Brands Group (Sparc Group)",
@@ -1085,7 +991,7 @@ Bu bağlantılar, İsrail'in Filistin topraklarındaki işgalini ve politikalar�
   {
    name: "New Balance",
    slug: "new-balance",
-   ctgry: "Spor Ayakkabı ve Giyim",
+   ctgry: "Giyim",
    foundedYear: 1906,
    founder: "William J. Riley",
    owner: "New Balance Athletics, Inc.",
@@ -1107,7 +1013,7 @@ Bu açıklama, İsrail'in Filistin topraklarındaki işgalini ve politikaların�
   {
    name: "Nike",
    slug: "nike",
-   ctgry: "Spor Ayakkabı ve Giyim",
+   ctgry: "Giyim",
    foundedYear: 1964,
    founder: "Bill Bowerman, Phil Knight",
    owner: "Nike, Inc.",
@@ -1129,7 +1035,7 @@ Nike, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
   {
    name: "Naot",
    slug: "naot",
-   ctgry: "Ayakkabı",
+   ctgry: "Giyim",
    foundedYear: 1942,
    founder: "Bilinmiyor",
    owner: "Naot Shoes Ltd.",
@@ -1153,6 +1059,7 @@ Naot Shoes'un fabrikaları, Gush Etzion kolonisinin güçlendirilmesi ve meşrul
   {
    name: "Next",
    slug: "next",
+   ctgry: "Giyim",
    foundedYear: 1982,
    founder: "George Davies",
    owner: "Next plc",
@@ -1172,6 +1079,7 @@ Next, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
   {
    name: "Puma",
    slug: "puma",
+   ctgry: "Giyim",
    foundedYear: 1948,
    founder: "Rudolf Dassler",
    owner: "Puma SE",
@@ -1196,6 +1104,7 @@ Filistinli 200'den fazla spor kulübü Puma'ya sponsorluk anlaşmasını sonland
    name: "Pull and Bear",
    slug: "pull-and-bear",
    foundedYear: 1991,
+   ctgry: "Giyim",
    founder: "Inditex Group",
    owner: "Inditex Group",
    description: `Pull and Bear, 1991 yılında İspanya'da Inditex Grubu tarafından kurulan ve dünya çapında tanınan bir genç giyim markasıdır. Marka, bugün Inditex Grubu bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1217,6 +1126,7 @@ Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğ
    name: "Pierre Cardin",
    slug: "pierre-cardin",
    foundedYear: 1950,
+   ctgry: "Giyim",
    founder: "Pierre Cardin",
    owner: "Pierre Cardin SA",
    description: `Pierre Cardin, 1950 yılında Fransa'da Pierre Cardin tarafından kurulan ve dünya çapında tanınan bir lüks moda markasıdır. Marka, bugün Pierre Cardin SA adıyla faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1232,30 +1142,10 @@ Pierre Cardin, dünya genelinde hem fiziksel mağazalar hem de online satış ka
    isBoycotted: "boykot-degil",
   },
   {
-   name: "Pierre Cardin Home",
-   slug: "pierre-cardin-home",
-   foundedYear: 1950,
-   founder: "Pierre Cardin",
-   owner: "Zorlu Holding A.Ş.",
-   description: `Pierre Cardin Home, 1950 yılında Fransa'da Pierre Cardin tarafından kurulan ve dünya ünlü tasarımcı Pierre Cardin'in ev tekstili ve dekorasyon ürünlerini sunan bir markasıdır. Marka, bugün Zorlu Holding A.Ş. bünyesinde faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Pierre Cardin Home, lüks ve modern ev yaşamını ön plana çıkaran koleksiyonlarla, nevresim takımları, yastık, havlu, banyo ve mutfak aksesuarları üretir. Tasarımlarında sofistike çizgiler ve kaliteli malzeme kullanımı ön plandadır. Pierre Cardin Home, ev dekorasyonunu şıklık ve konforla birleştirir. Marka, Türkiye'de ve global pazarda mağazalar ile online satış kanalları aracılığıyla tüketicilere ulaşmaktadır.
-
-Lüks yaşam tarzını günlük hayata taşıyan ürünleriyle prestijli bir marka olarak konumlanır. Pierre Cardin Home, sadece ev tekstili değil, aynı zamanda dekorasyon ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Pierre Cardin Home, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, ev dekorasyonu tutkunları arasında popülerdir.`,
-   country: "Fransa",
-   website: "https://www.pierrecardinhome.com.tr/",
-   img: "/pierre-cardin.webp",
-   isBoycotted: "boykot",
-   boycottReason: `Pierre Cardin Home markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Pierre Cardin Home, Zorlu Holding A.Ş.'nin sahip olduğu ev tekstili firmasıdır. Zorlu Holding boykot olduğundan dolayı Pierre Cardin Home da boykot listesinde bulunmaktadır.
-
-Zorlu Holding'in İsrail'e destek verdiği bilinmektedir. Bu nedenle, Pierre Cardin Home ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Pierre Cardin Home, boykot listesinde yer almaktadır.`,
-  },
-  {
    name: "Polo",
    slug: "polo",
    foundedYear: 1967,
+   ctgry: "Giyim",
    founder: "Ralph Lauren",
    owner: "Ralph Lauren Corporation",
    description: `Polo, 1967 yılında Amerika Birleşik Devletleri'nde Ralph Lauren tarafından kurulan ve dünya çapında tanınan bir hazır giyim markasıdır. Marka, bugün Ralph Lauren Corporation bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1274,6 +1164,7 @@ Polo, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    name: "Prada",
    slug: "prada",
    foundedYear: 1913,
+   ctgry: "Giyim",
    founder: "Mario Prada",
    owner: "Prada S.p.A.",
    description: `Prada, 1913 yılında İtalya'nın Milano kentinde Mario Prada tarafından kurulan ve dünya çapında tanınan lüks bir moda markasıdır. Marka, bugün Prada S.p.A. adıyla halka açık bir şirket olarak faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1296,6 +1187,7 @@ Bu nedenle, Prada ürünlerinin satın alınması önerilmemektedir. İsrail'e d
   {
    name: "Reebok",
    slug: "reebok",
+   ctgry: "Giyim",
    foundedYear: 1895,
    founder: "Joseph William Foster",
    owner: "Authentic Brands Group",
@@ -1320,6 +1212,7 @@ Bu nedenle, Reebok ürünlerinin satın alınması önerilmemektedir. İsrail'e 
    name: "Ralph Lauren",
    slug: "ralph-lauren",
    foundedYear: 1967,
+   ctgry: "Giyim",
    founder: "Ralph Lauren",
    owner: "Ralph Lauren Corporation",
    description: `Ralph Lauren, 1967 yılında Amerika Birleşik Devletleri'nde Ralph Lauren tarafından kurulan ve dünya çapında tanınan lüks ve hazır giyim markasıdır. Marka, bugün Ralph Lauren Corporation bünyesinde halka açık bir şirket olarak faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1341,6 +1234,7 @@ Bu nedenle, Ralph Lauren ürünlerinin satın alınması önerilmemektedir. İsr
    name: "Skechers",
    slug: "skechers",
    foundedYear: 1992,
+   ctgry: "Giyim",
    founder: "Robert Greenberg",
    owner: "Skechers U.S.A., Inc.",
    description: `Skechers, 1992 yılında Amerika Birleşik Devletleri'nin Manhattan Beach, Kaliforniya kentinde Robert Greenberg tarafından kurulan ve dünya çapında tanınan bir ayakkabı markasıdır. Marka, bugün Skechers U.S.A., Inc. adıyla halka açık bir şirket olarak faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1360,6 +1254,7 @@ Skechers, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
    name: "SuperStep",
    slug: "superstep",
    foundedYear: 2012,
+   ctgry: "Giyim",
    founder: "Eren Perakende",
    owner: "Eren Perakende",
    description: `SuperStep, 2012 yılında Türkiye'de Eren Perakende tarafından kurulan ve Türkiye genelinde faaliyet gösteren bir çok-markalı ayakkabı ve spor giyim perakende zinciridir. Marka, bugün Eren Perakende bünyesinde faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1379,6 +1274,7 @@ SuperStep, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
    name: "Source Sandals",
    slug: "source-sandals",
    foundedYear: 1989,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Source Vagabond Systems Ltd.",
    description: `Source Sandals, 1989 yılında İsrail'de kurulan ve özellikle outdoor ve doğa aktiviteleri için konforlu sandaletler üreten bir markadır. Marka, bugün Source Vagabond Systems Ltd. adıyla faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1399,6 +1295,7 @@ Source Sandals, dünya genelinde hem fiziksel mağazalar hem de online satış k
    name: "Salomon",
    slug: "salomon",
    foundedYear: 1947,
+   ctgry: "Giyim",
    founder: "François Salomon, Georges Salomon",
    owner: "Amer Sports Corporation",
    description: `Salomon, 1947 yılında Fransa'nın Annecy kentinde François ve Georges Salomon kardeşler tarafından kurulan ve dünya çapında tanınan bir spor markasıdır. Marka, bugün Amer Sports Corporation bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1418,6 +1315,7 @@ Salomon, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "Stradivarius",
    slug: "stradivarius",
    foundedYear: 1994,
+   ctgry: "Giyim",
    founder: "Inditex Group",
    owner: "Inditex Group",
    description: `Stradivarius, 1994 yılında İspanya'da Inditex Grubu tarafından kurulan ve dünya çapında tanınan bir hazır giyim markasıdır. Marka, bugün Inditex Grubu bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1439,6 +1337,7 @@ Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğ
    name: "Tommy Hilfiger",
    slug: "tommy-hilfiger",
    foundedYear: 1985,
+   ctgry: "Giyim",
    founder: "Tommy Hilfiger (Thomas Jacob Hilfiger)",
    owner: "PVH Corp.",
    description: `Tommy Hilfiger, 1985 yılında Amerika Birleşik Devletleri'nde Tommy Hilfiger (Thomas Jacob Hilfiger) tarafından kurulan ve dünya çapında tanınan bir hazır giyim markasıdır. Marka, bugün PVH Corp. bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1460,6 +1359,7 @@ PVH Corp.'un İsrail'e destek verdiği bilinmektedir. Bu nedenle, Tommy Hilfiger
    name: "The North Face",
    slug: "the-north-face",
    foundedYear: 1968,
+   ctgry: "Giyim",
    founder: "Douglas Tompkins, Susie Tompkins",
    owner: "VF Corporation",
    description: `The North Face, 1968 yılında Amerika Birleşik Devletleri'nin San Francisco, Kaliforniya kentinde Douglas ve Susie Tompkins tarafından kurulan ve dünya çapında tanınan bir outdoor giyim ve ekipman markasıdır. Marka, bugün VF Corporation bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1483,6 +1383,7 @@ Bu nedenle, The North Face ürünlerinin satın alınması önerilmemektedir. İ
    name: "Timberland",
    slug: "timberland",
    foundedYear: 1952,
+   ctgry: "Giyim",
    founder: "Nathan Swartz",
    owner: "VF Corporation",
    description: `Timberland, 1952 yılında Amerika Birleşik Devletleri'nin New Hampshire eyaletinde Nathan Swartz tarafından kurulan ve dünya çapında tanınan bir ayakkabı ve outdoor giyim markasıdır. Marka, bugün VF Corporation bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1501,32 +1402,10 @@ Timberland, dünya genelinde hem fiziksel mağazalar hem de online satış kanal
 VF Corporation, 1997 yılında İsrailli bir özel şirket olarak kurulan bir yan kuruluş olan VF Israel (Apparel) Ltd.'nin de sahibidir. Bu durum, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir. Bu nedenle, Timberland ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Timberland, boykot listesinde yer almaktadır.`,
   },
   {
-   name: "Taç",
-   slug: "tac",
-   foundedYear: 2000,
-   founder: "Zorlu Holding",
-   owner: "Zorlu Holding A.Ş.",
-   description: `Taç, 2000 yılında Türkiye'de Zorlu Holding tarafından kurulan ve Türkiye genelinde faaliyet gösteren bir ev tekstili markasıdır. Marka, bugün Zorlu Holding A.Ş. bünyesinde faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Taç, özellikle nevresim takımları, yastık, havlu, battaniye ve dekoratif ev ürünleri ile tanınır ve modern ev dekorasyonuna katkı sağlar. Taç, Türkiye genelinde mağazalar ve online satış kanalları aracılığıyla faaliyet gösterir. Hem günlük kullanım hem de hediye amaçlı ürünler sunan marka, geniş ürün yelpazesi ve kaliteli tasarımları ile tercih edilmektedir.
-
-Taç, sadece ev tekstili değil, aynı zamanda dekoratif ev ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Taç, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, ev dekorasyonu tutkunları arasında popülerdir.`,
-   country: "Türkiye",
-   website: "https://www.tac.com.tr/",
-   img: "/tac.webp",
-   isBoycotted: "boykot",
-   boycottReason: `Taç markası, İsrail'e destek verdiği için boykot kapsamına alınmıştır. Zorlu Holding A.Ş.'nin sahip olduğu ev tekstili firmasıdır. Zorlu Enerji Grubu'nun İsrail'de 3 santrali olup, biri Zorlu Enerji Grubu'nun yüzde 42.15 oranında ortak olduğu Ramat Negev Kojenerasyon Santrali. Diğeri Ashdod Kojenerasyon Grubun birlikte sahip oldukları Dorad Enerji Doğalgaz Çevrim Santrali.
-
-Zorlu Holding İsrail elektriğinin önemli bir kısmını karşılamasının yanı sıra, doğrudan İsrail ordusunun enerji ihtiyacını karşılayan Dorad Enerji Grubunun da %25 oranında ortağına sahip olmakla beraber, Dorad Energy Ağustos 2024 itibari ile İsrail ordusu IDF ile sözleşme yenilemiştir. Bu durum, İsrail'in Filistin topraklarındaki işgalini ve politikalarını desteklemektedir.
-
-Bu nedenle, Taç ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Taç, boykot listesinde yer almaktadır.`,
-  },
-  {
    name: "Tory Burch",
    slug: "tory-burch",
    foundedYear: 2004,
+   ctgry: "Giyim",
    founder: "Tory Burch",
    owner: "Tory Burch LLC",
    description: `Tory Burch, 2004 yılında Amerika Birleşik Devletleri'nin New York kentinde Tory Burch tarafından kurulan ve dünya çapında tanınan bir lüks moda markasıdır. Marka, bugün Tory Burch LLC adıyla faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1547,6 +1426,7 @@ Luxottica şirketinin İsrail'e destek verdiği bilinmektedir. Bu nedenle, Tory 
   {
    name: "Tiffany & Co.",
    slug: "tiffany-and-co",
+   ctgry: "Giyim",
    foundedYear: 1837,
    founder: "Charles Lewis Tiffany, John B. Young",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
@@ -1569,6 +1449,7 @@ Tiffany, 2023 yılında İsrail'in kuruluşunun 75. yıl dönümü vesilesiyle, 
    name: "Under Armour",
    slug: "under-armour",
    foundedYear: 1996,
+   ctgry: "Giyim",
    founder: "Kevin Plank",
    owner: "Under Armour, Inc.",
    description: `Under Armour, 1996 yılında Amerika Birleşik Devletleri'nin Baltimore, Maryland kentinde Kevin Plank tarafından kurulan ve dünya çapında tanınan bir spor giyim ve aksesuar markasıdır. Marka, bugün Under Armour, Inc. adıyla halka açık bir şirket olarak faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1588,6 +1469,7 @@ Under Armour, dünya genelinde hem fiziksel mağazalar hem de online satış kan
    name: "Vans",
    slug: "vans",
    foundedYear: 1966,
+   ctgry: "Giyim",
    founder: "Paul Van Doren, James Van Doren, Gordon Lee",
    owner: "VF Corporation",
    description: `Vans, 1966 yılında Amerika Birleşik Devletleri'nin Kaliforniya eyaletinde Paul Van Doren, James Van Doren ve Gordon Lee tarafından kurulan ve dünya çapında tanınan bir ayakkabı ve giyim markasıdır. Marka, bugün VF Corporation bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1609,6 +1491,7 @@ Bu nedenle, Vans ürünlerinin satın alınması önerilmemektedir. İsrail'e de
    name: "Versace",
    slug: "versace",
    foundedYear: 1978,
+   ctgry: "Giyim",
    founder: "Gianni Versace",
    owner: "Capri Holdings Limited",
    description: `Versace, 1978 yılında İtalya'nın Milano kentinde Gianni Versace tarafından kurulan ve dünya çapında tanınan lüks bir moda markasıdır. Marka, bugün Capri Holdings Limited bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1630,6 +1513,7 @@ Capri Holdings'in İsrail'e destek verdiği bilinmektedir. Bu nedenle, Versace �
    name: "Dockers",
    slug: "dockers",
    foundedYear: 1986,
+   ctgry: "Giyim",
    founder: "Levi Strauss & Co.",
    owner: "Levi Strauss & Co.",
    description: `Dockers, 1986 yılında Amerika Birleşik Devletleri'nde Levi Strauss & Co. tarafından kurulan ve dünya çapında tanınan bir hazır giyim markasıdır. Marka, bugün Levi Strauss & Co. bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1648,28 +1532,10 @@ Dockers, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
 Bu gruplar, Levi Strauss'un İsrail'deki varlığını ve ekonomik katkısını, İsrail'in Filistin topraklarındaki politikalarıyla ilişkilendirmiştir. Bu nedenle, Dockers ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Dockers, boykot listesinde yer almaktadır.`,
   },
   {
-   name: "Karaca",
-   slug: "karaca",
-   foundedYear: 1973,
-   founder: "Mehmet Karaca",
-   owner: "Karaca A.Ş.",
-   description: `Karaca, 1973 yılında Türkiye'de Mehmet Karaca tarafından kurulan ve Türkiye genelinde faaliyet gösteren bir ev tekstili, mutfak ve dekorasyon markasıdır. Marka, bugün Karaca A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Karaca, özellikle çatal-bıçak setleri, mutfak eşyaları, nevresim ve ev aksesuarları ile tanınır. Karaca, Türkiye genelinde mağazalar ve online satış kanalları aracılığıyla faaliyet gösterir. Hem modern hem de klasik tasarımlarıyla ev yaşamına şıklık katmayı hedefler.
-
-Karaca, sadece ev tekstili değil, aynı zamanda mutfak eşyaları ve dekorasyon ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Karaca, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, ev dekorasyonu tutkunları arasında popülerdir.`,
-   country: "Türkiye",
-   website: "https://www.karaca.com.tr/",
-   img: "/karaca.jpg",
-   isBoycotted: "boykot-degil",
-   boycottReason: `Karaca markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Karaca markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
-  },
-  {
    name: "Deichmann",
    slug: "deichmann",
    foundedYear: 1913,
+   ctgry: "Giyim",
    founder: "Heinrich Deichmann",
    owner: "Deichmann SE",
    description: `Deichmann, 1913 yılında Almanya'nın Essen kentinde Heinrich Deichmann tarafından kurulan ve dünya çapında tanınan bir ayakkabı perakende markasıdır. Marka, bugün Deichmann SE adıyla faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1689,6 +1555,7 @@ Deichmann, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
    name: "Jack & Jones",
    slug: "jack-and-jones",
    foundedYear: 1990,
+   ctgry: "Giyim",
    founder: "Bestseller A/S",
    owner: "Bestseller A/S",
    description: `Jack & Jones, 1990 yılında Danimarka'da Bestseller A/S tarafından kurulan ve dünya çapında tanınan bir erkek giyim markasıdır. Marka, bugün Bestseller A/S bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1707,6 +1574,7 @@ Jack & Jones, dünya genelinde hem fiziksel mağazalar hem de online satış kan
    name: "Flo",
    slug: "flo",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Flo A.Ş.",
    description: `Flo, 2000 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ayakkabı ve aksesuar perakende markasıdır. Marka, bugün Flo A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1726,6 +1594,7 @@ Flo, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları
    name: "Defacto",
    slug: "defacto",
    foundedYear: 2003,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Defacto A.Ş.",
    description: `Defacto, 2003 yılında Türkiye'de kurulan ve Türkiye ve dünya genelinde faaliyet gösteren bir hazır giyim markasıdır. Marka, bugün Defacto A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1747,6 +1616,7 @@ Defacto, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
    foundedYear: 1934,
    founder: "Vitali Hakko",
    owner: "Vakko Holding",
+   ctgry: "Giyim",
    description: `Vakko, 1934 yılında Türkiye'nin İstanbul kentinde Vitali Hakko tarafından kurulan ve Türkiye genelinde faaliyet gösteren bir lüks moda markasıdır. Marka, bugün Vakko Holding bünyesinde faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
 Vakko, özellikle hazır giyim, çanta, ayakkabı, aksesuar ve ev tekstili ürünleri ile tanınır. Vakko, klasik ve zarif tasarımları ile Türk modasında prestijli bir konuma sahiptir. Vakko, Türkiye genelinde mağazalar ve online satış kanalları aracılığıyla faaliyet göstermektedir. Marka, şıklık ve kaliteyi ön planda tutan ürünleri ile hem kadın hem erkek kullanıcılar tarafından tercih edilmektedir.
@@ -1768,6 +1638,7 @@ Vakko'nun İsrail'e doğrudan ya da dolaylı bir destek verdiğine dair somut bi
    name: "Lescon",
    slug: "lescon",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Lescon A.Ş.",
    description: `Lescon, 2000 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir spor giyim ve ayakkabı markasıdır. Marka, bugün Lescon A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1787,6 +1658,7 @@ Lescon, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
    name: "Gant",
    slug: "gant",
    foundedYear: 1949,
+   ctgry: "Giyim",
    founder: "Bernard Gantmacher",
    owner: "PVH Corp.",
    description: `Gant, 1949 yılında Amerika Birleşik Devletleri'nde Bernard Gantmacher tarafından kurulan ve dünya çapında tanınan bir hazır giyim markasıdır. Marka, bugün PVH Corp. bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1806,6 +1678,7 @@ Gant, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    name: "Camper",
    slug: "camper",
    foundedYear: 1975,
+   ctgry: "Giyim",
    founder: "Lorenzo Fluxà",
    owner: "Camper S.L.",
    description: `Camper, 1975 yılında İspanya'nın Mallorca adasında Lorenzo Fluxà tarafından kurulan ve dünya çapında tanınan bir ayakkabı markasıdır. Marka, bugün Camper S.L. adıyla faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
@@ -1825,6 +1698,7 @@ Camper, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
    name: "Greyder",
    slug: "greyder",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Greyder A.Ş.",
    description: `Greyder, 2000 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ayakkabı markasıdır. Marka, bugün Greyder A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1845,6 +1719,7 @@ Greyder, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
    slug: "manuka",
    foundedYear: 2010,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner: "Manuka A.Ş.",
    description: `Manuka, 2010 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir doğal kozmetik ve kişisel bakım markasıdır. Marka, bugün Manuka A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -1863,6 +1738,7 @@ Manuka, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
    name: "Avva",
    slug: "avva",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Avva A.Ş.",
    description: `Avva, 2000 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek giyim markasıdır. Marka, bugün Avva A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1882,6 +1758,7 @@ Avva, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
    name: "Tudors",
    slug: "tudors",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Tudors A.Ş.",
    description: `Tudors, 2000 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek ayakkabı ve aksesuar markasıdır. Marka, bugün Tudors A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1901,6 +1778,7 @@ Tudors, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
    name: "Armine",
    slug: "armine",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Armine A.Ş.",
    description: `Armine, 2000 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir tesettür giyim markasıdır. Marka, bugün Armine A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1921,6 +1799,7 @@ Armine, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
    slug: "oysho",
    foundedYear: 2001,
    founder: "Inditex Group",
+   ctgry: "Giyim",
    owner: "Inditex Group",
    description: `Oysho, 2001 yılında İspanya'da Inditex Grubu tarafından kurulan ve dünya çapında tanınan bir kadın giyim markasıdır. Marka, bugün Inditex Grubu bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
 
@@ -1942,6 +1821,7 @@ Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğ
    slug: "ninewest",
    foundedYear: 1978,
    founder: "Vince Camuto, Jerome Swartz",
+   ctgry: "Giyim",
    owner: "Authentic Brands Group",
    description: `Nine West, 1978 yılında Amerika Birleşik Devletleri'nde Vince Camuto ve Jerome Swartz tarafından kurulan ve dünya çapında tanınan bir ayakkabı ve aksesuar markasıdır. Marka, bugün Authentic Brands Group bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
 
@@ -1960,6 +1840,7 @@ Nine West, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
    slug: "lefties",
    foundedYear: 1993,
    founder: "Inditex Group",
+   ctgry: "Giyim",
    owner: "Inditex Group",
    description: `Lefties, 1993 yılında İspanya'da Inditex Grubu tarafından kurulan ve dünya çapında tanınan bir hazır giyim markasıdır. Marka, bugün Inditex Grubu bünyesinde faaliyet göstermekte ve dünya çapında milyonlarca müşteriye hizmet vermektedir.
 
@@ -1980,6 +1861,7 @@ Zara, yeni koleksiyonu için sosyal medya hesaplarından paylaştıkları fotoğ
    name: "Dagi",
    slug: "dagi",
    foundedYear: 1985,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Dagi A.Ş.",
    description: `Dagi, 1985 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir iç giyim, pijama ve mayo markasıdır. Marka, bugün Dagi A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -1996,47 +1878,10 @@ Dagi, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
    boycottReason: `Dagi markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Dagi markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
   },
   {
-   name: "Sleepy",
-   slug: "sleepy",
-   foundedYear: 2004,
-   founder: "Mehmet Ali Eroslu",
-   owner: "Eroslu Şirketi",
-   description: `Sleepy, 2004 yılında Mehmet Ali Eroslu tarafından Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir bebek bakım ürünleri ve bez markasıdır. Marka, bugün Eroslu Şirketi adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Sleepy, özellikle bebek bezi ve ıslak mendil ürünleri ile tanınır ve bebek sağlığına odaklanır. Sleepy, Türkiye genelinde süpermarketler, e-ticaret siteleri ve mağazalar aracılığıyla ürünlerini tüketicilere ulaştırır. Marka, konfor ve güvenlik açısından aileler tarafından tercih edilmektedir.
-
-Sleepy, sadece bebek bezi değil, aynı zamanda ıslak mendil, bebek şampuanı ve diğer bebek bakım ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Sleepy, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, bebek sahipleri arasında popülerdir.`,
-   country: "Türkiye",
-   website: "https://www.sleepy.com.tr/",
-   img: "/sleepy.png",
-   isBoycotted: "boykot-degil",
-   boycottReason: `Sleepy markası, Türkiye merkezli bir firmadır ve Mehmet Ali Eroslu tarafından kurulmuştur. Temizlik ve kişisel bakım ürünleri üretmektedir. Yerli bir markadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Sleepy markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
-  },
-  {
-   name: "Madame Coco",
-   slug: "madame-coco",
-   foundedYear: 2000,
-   founder: "Bilgi bulunamadı",
-   owner: "Madame Coco A.Ş.",
-   description: `Madame Coco, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ev tekstili ile dekorasyon ürünleri sunan perakende markasıdır. Marka, bugün Madame Coco A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Madame Coco, özellikle nevresim takımları, havlu, banyo aksesuarları ve dekoratif ürünleri ile tanınır. Madame Coco, Türkiye genelinde mağazalar ve online satış kanalları aracılığıyla tüketicilere ulaşır. Hem günlük kullanım hem de hediye amaçlı ürünleri ile popüler bir markadır.
-
-Madame Coco, sadece ev tekstili değil, aynı zamanda dekorasyon ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Madame Coco, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, ev dekorasyonu ve tekstil ihtiyaçlarını karşılayan müşteriler arasında popülerdir.`,
-   country: "Türkiye",
-   website: "https://www.madamecoco.com/",
-   img: "/Madame-Coco.png",
-   isBoycotted: "boykot",
-   boycottReason: `Ev Tekstili Mağazası Madame Coco, İsrail Ordusuna bedava yiyecek dağıtan Burger King ile iş birliği yapmıştır. Bu iş birliği, İsrail'e destek veren bir şirketle ortaklık kurması nedeniyle boykot kapsamına alınmıştır. Bu nedenle, Madame Coco ürünlerinin satın alınması önerilmemektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle işbirliği yapan Madame Coco, boykot listesinde yer almaktadır.`,
-  },
-  {
    name: "Hummel",
    slug: "hummel",
    foundedYear: 1923,
+   ctgry: "Giyim",
    founder: "Albert Messmer, Ludwig Messmer",
    owner: "Hummel International A/S",
    description: `Hummel, 1923 yılında Albert Messmer ve Ludwig Messmer tarafından Danimarka'da kurulan ve dünya genelinde faaliyet gösteren bir spor giyim markasıdır. Marka, bugün Hummel International A/S adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2057,6 +1902,7 @@ Hummel, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar�
    slug: "jump",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner:
     "Genmar İç Ve Dış Ticaret A.Ş. (Simanto Nahmias, Ren Nahmias, Mark Nahmias)",
    description: `Jump, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir hazır giyim markasıdır. Marka, bugün Genmar İç Ve Dış Ticaret A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2077,6 +1923,7 @@ Jump, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
    slug: "cacharel",
    foundedYear: 1962,
    founder: "Jean Bousquet",
+   ctgry: "Giyim",
    owner: "L'Oréal Paris Company",
    description: `Cacharel, 1962 yılında Jean Bousquet tarafından Fransa'da kurulan ve dünya genelinde faaliyet gösteren bir moda markasıdır. Marka, bugün L'Oréal Paris Company bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2096,6 +1943,7 @@ Cacharel, dünya genelinde hem fiziksel mağazalar hem de online satış kanalla
    slug: "damat",
    foundedYear: 1950,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner: "Damat A.Ş.",
    description: `Damat, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek giyim markasıdır. Marka, bugün Damat A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2115,6 +1963,7 @@ Damat, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
    slug: "marco-polo",
    foundedYear: 1967,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner: "Marc O'Polo AG",
    description: `Marc'o Polo, 1967 yılında Almanya'da kurulan ve dünya genelinde faaliyet gösteren bir hazır giyim markasıdır. Marka, bugün Marc O'Polo AG adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2134,6 +1983,7 @@ Marc'o Polo, dünya genelinde hem fiziksel mağazalar hem de online satış kana
    slug: "elle",
    foundedYear: 1945,
    founder: "Hélène Gordon-Lazareff",
+   ctgry: "Giyim",
    owner: "Hearst Communications",
    description: `Elle, 1945 yılında Hélène Gordon-Lazareff tarafından Fransa'da kurulan ve dünya genelinde faaliyet gösteren bir moda markasıdır. Marka, bugün Hearst Communications bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2152,6 +2002,7 @@ Elle, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    slug: "gezer",
    foundedYear: 1970,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner: "Gezer A.Ş.",
    description: `Gezer, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ayakkabı üretimi yapan markadır. Marka, bugün Gezer A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2171,6 +2022,7 @@ Gezer, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
    slug: "oren-bayan",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner: "Ören Bayan A.Ş.",
    description: `Ören Bayan, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir tesettür giyim ürünleri sunan markadır. Marka, bugün Ören Bayan A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2190,6 +2042,7 @@ Gezer, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
    slug: "abdullah-kigili",
    foundedYear: 1983,
    founder: "Abdullah Kiğılı",
+   ctgry: "Giyim",
    owner: "Kiğılı A.Ş.",
    description: `Abdullah Kiğılı, 1983 yılında Abdullah Kiğılı tarafından Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek giyim markasıdır. Marka, bugün Kiğılı A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2209,6 +2062,7 @@ Abdullah Kiğılı, Türkiye genelinde hem fiziksel mağazalar hem de online sat
    slug: "kigili",
    foundedYear: 1983,
    founder: "Abdullah Kiğılı",
+   ctgry: "Giyim",
    owner: "Kiğılı A.Ş.",
    description: `Kiğılı, 1983 yılında Abdullah Kiğılı tarafından Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek giyim markasıdır. Marka, bugün Kiğılı A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2227,6 +2081,7 @@ Kiğılı, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
    name: "Altınyıldız",
    slug: "altinyildiz",
    foundedYear: 1950,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Altınyıldız A.Ş.",
    description: `Altınyıldız, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek giyim markasıdır. Marka, bugün Altınyıldız A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2246,6 +2101,7 @@ Altınyıldız, Türkiye genelinde hem fiziksel mağazalar hem de online satış
    name: "Kanz",
    slug: "kanz",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Kanz GmbH",
    description: `Kanz, Almanya'da kurulan ve dünya genelinde faaliyet gösteren bir çocuk giyim markasıdır. Marka, bugün Kanz GmbH adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2264,6 +2120,7 @@ Kanz, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    name: "Eastpak",
    slug: "eastpak",
    foundedYear: 1952,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "VF Corporation",
    description: `Eastpak, 1952 yılında ABD'de kurulan ve dünya genelinde faaliyet gösteren bir çanta ve aksesuar markasıdır. Marka, bugün VF Corporation bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2283,6 +2140,7 @@ Eastpak, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "Ted Baker",
    slug: "ted-baker",
    foundedYear: 1988,
+   ctgry: "Giyim",
    founder: "Ray Kelvin",
    owner: "Ted Baker plc",
    description: `Ted Baker, 1988 yılında Ray Kelvin tarafından İngiltere'de kurulan ve dünya genelinde faaliyet gösteren bir hazır giyim markasıdır. Marka, bugün Ted Baker plc adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2302,6 +2160,7 @@ Ted Baker, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
    name: "Condenast",
    slug: "condenast",
    foundedYear: 1909,
+   ctgry: "Giyim",
    founder: "Condé Montrose Nast",
    owner: "Advance Publications",
    description: `Conde Nast, 1909 yılında Condé Montrose Nast tarafından ABD'de kurulan ve dünya genelinde faaliyet gösteren bir medya ve yayıncılık şirketidir. Şirket, bugün Advance Publications bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2321,6 +2180,7 @@ Conde Nast, dünya genelinde hem fiziksel dergiler hem de online dijital içerik
    name: "Süvari",
    slug: "suvari",
    foundedYear: 1970,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Süvari A.Ş.",
    description: `Süvari, 1970 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir erkek giyim markasıdır. Marka, bugün Süvari A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2341,6 +2201,7 @@ Süvari, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
    slug: "adl-adil-isik",
    foundedYear: 1989,
    founder: "Adil Işık",
+   ctgry: "Giyim",
    owner: "ADL A.Ş.",
    description: `ADL, 1989 yılında Adil Işık tarafından Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir kadın giyim markasıdır. Marka, bugün ADL A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2359,6 +2220,7 @@ ADL, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları
    name: "DKNY",
    slug: "dkny",
    foundedYear: 1989,
+   ctgry: "Giyim",
    founder: "Donna Karan",
    owner: "LVMH (Moët Hennessy Louis Vuitton)",
    description: `DKNY, 1989 yılında Donna Karan tarafından ABD'de kurulan ve dünya genelinde faaliyet gösteren bir moda markasıdır. Marka, bugün LVMH (Moët Hennessy Louis Vuitton) bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2378,6 +2240,7 @@ DKNY, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    name: "B&G Store",
    slug: "b-g-store",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "B&G Store A.Ş.",
    description: `B&G Store, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ayakkabı, çanta ve aksesuar ürünleri sunan perakende markasıdır. Marka, bugün B&G Store A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2398,6 +2261,7 @@ B&G Store, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
    slug: "zalando",
    foundedYear: 2008,
    founder: "Robert Gentz, David Schneider",
+   ctgry: "Giyim",
    owner: "Zalando SE",
    description: `Zalando, 2008 yılında Robert Gentz ve David Schneider tarafından Almanya'da kurulan ve Avrupa genelinde faaliyet gösteren bir e-ticaret platformudur. Marka, bugün Zalando SE adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2417,6 +2281,7 @@ Zalando, Avrupa genelinde online satış kanalları aracılığıyla müşterile
    slug: "authenticbrands-group",
    foundedYear: 2010,
    founder: "Jamie Salter",
+   ctgry: "Giyim",
    owner: "Authentic Brands Group LLC",
    description: `Authentic Brands Group, 2010 yılında Jamie Salter tarafından ABD'de kurulan ve dünya genelinde faaliyet gösteren bir marka yönetim şirketidir. Şirket, bugün Authentic Brands Group LLC adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2436,6 +2301,7 @@ Authentic Brands Group, dünya genelinde hem fiziksel mağazalar hem de online s
    slug: "delta-galil",
    foundedYear: 1975,
    founder: "Bilgi bulunamadı",
+   ctgry: "Giyim",
    owner: "Delta Galil Industries Ltd.",
    description: `Delta Galil, 1975 yılında İsrail'de kurulan ve dünya genelinde faaliyet gösteren bir hazır giyim ve tekstil üretim şirketidir. Şirket, bugün Delta Galil Industries Ltd. adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
 
@@ -2453,6 +2319,7 @@ Delta Galil, dünya genelinde hem fiziksel mağazalar hem de online satış kana
   {
    name: "Asos",
    slug: "asos",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Nick Robertson, Quentin Griffiths",
    owner: "ASOS plc",
@@ -2472,6 +2339,7 @@ ASOS, dünya genelinde online satış kanalları aracılığıyla müşterilerin
   {
    name: "Levidor",
    slug: "levidor",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
    owner: "Levidor A.Ş.",
@@ -2491,6 +2359,7 @@ Levidor, Türkiye genelinde hem fiziksel bayilikler hem de online satış kanall
   {
    name: "Ay-Yıldız",
    slug: "ay-yildiz",
+   ctgry: "Giyim",
    foundedYear: 1970,
    founder: "Bilgi bulunamadı",
    owner: "Ay-Yıldız A.Ş.",
@@ -2510,6 +2379,7 @@ Ay-Yıldız, Türkiye genelinde hem fiziksel mağazalar hem de online satış ka
   {
    name: "Egoiste",
    slug: "egoiste",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
    owner: "Egoiste Studio",
@@ -2529,6 +2399,7 @@ Egoiste, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
   {
    name: "Valeron",
    slug: "valeron",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
    owner: "Zorlu Holding (Zorlu Tekstil Grubu)",
@@ -2548,6 +2419,7 @@ Valeron, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
   {
    name: "Spiellers",
    slug: "spiellers",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
    owner: "Mars Inc.",
@@ -2567,6 +2439,7 @@ Spiellers, dünya genelinde hem fiziksel mağazalar hem de online satış kanall
   {
    name: "Aydın Örme",
    slug: "aydin-orme",
+   ctgry: "Giyim",
    foundedYear: 1970,
    founder: "Bilgi bulunamadı",
    owner: "Aydın Örme A.Ş.",
@@ -2586,6 +2459,7 @@ Aydın Örme, Türkiye genelinde hem fiziksel mağazalar hem de online satış k
   {
    name: "LOFT",
    slug: "loft",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
    owner: "Eroğlu Holding",
@@ -2605,6 +2479,7 @@ LOFT, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar�
   {
    name: "NAKO İplik",
    slug: "nako-iplik",
+   ctgry: "Tekstil",
    foundedYear: 1970,
    founder: "Bilgi bulunamadı",
    owner: "NAKO İplik A.Ş.",
@@ -2624,6 +2499,7 @@ NAKO İplik, Türkiye genelinde hem fiziksel bayilikler hem de online satış ka
   {
    name: "Armağan Giyim",
    slug: "armagan-giyim",
+   ctgry: "Giyim",
    foundedYear: 1980,
    founder: "Bilgi bulunamadı",
    owner: "Armağan Giyim A.Ş.",
@@ -2643,6 +2519,7 @@ Armağan Giyim, Türkiye genelinde hem fiziksel mağazalar hem de online satış
   {
    name: "Lufian",
    slug: "lufian",
+   ctgry: "Giyim",
    foundedYear: 1980,
    founder: "Bilgi bulunamadı",
    owner: "Lufian A.Ş.",
@@ -2662,6 +2539,7 @@ Lufian, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
   {
    name: "Bonprix",
    slug: "bonprix",
+   ctgry: "Giyim",
    foundedYear: 1986,
    founder: "Bilgi bulunamadı",
    owner: "Bonprix GmbH",
@@ -2681,6 +2559,7 @@ Bonprix, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
   {
    name: "About You",
    slug: "about-you",
+   ctgry: "Moda Perakendeci",
    foundedYear: 2014,
    founder: "Tarek Müller, Sebastian Betz",
    owner: "About You Holding SE",
@@ -2699,8 +2578,9 @@ About You, Avrupa genelinde online satış kanalları aracılığıyla müşteri
   },
   {
    name: "Ackermann",
-   slug: "ackermann",
+   slug: "ackermann-giyim",
    foundedYear: 1950,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Koç Holding",
    description: `Ackermann, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ev tekstili markasıdır. Marka, bugün Koç Holding bünyesinde yer almakta ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2720,6 +2600,7 @@ Ackermann, Türkiye genelinde hem fiziksel mağazalar hem de online satış kana
    name: "Limango",
    slug: "limango",
    foundedYear: 2007,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Limango GmbH",
    description: `Limango, 2007 yılında Almanya'da kurulan ve Avrupa genelinde faaliyet gösteren bir online alışveriş platformudur. Marka, bugün Limango GmbH adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2736,27 +2617,9 @@ Limango, Avrupa genelinde online satış kanalları aracılığıyla müşterile
    boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Limango, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
   },
   {
-   name: "Lavinse",
-   slug: "lavinse",
-   foundedYear: 2000,
-   founder: "Bilgi bulunamadı",
-   owner: "Lavinse A.Ş.",
-   description: `Lavinse, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir ev tekstili ve dekorasyon ürünleri sunan markadır. Marka, bugün Lavinse A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Lavinse, özellikle ev tekstili ve dekorasyon ürünleri sunan bir markadır. Marka, modern tasarımlar ve kaliteli ürünleri ile öne çıkar. Lavinse, Türkiye genelinde mağazalar ve online satış kanalları aracılığıyla faaliyet göstermektedir. Marka, şık ve estetik ürünleri ile ev dekorasyonunda tercih edilmektedir.
-
-Lavinse, sadece ev tekstili değil, aynı zamanda dekorasyon ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Lavinse, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, şık ve estetik ev tekstili ve dekorasyon ürünleri arayan müşteriler arasında popülerdir.`,
-   country: "Türkiye",
-   website: "https://www.lavinse.com/",
-   img: "/lavinse.png",
-   isBoycotted: "boykot-degil",
-   boycottReason: `Lavinse markası, Türkiye merkezli bir firmadır ve İsrail'e destek verdiğine veya Filistin'e yönelik politikaları desteklediğine dair herhangi bir açıklama bulunmamaktadır. Bu nedenle, Lavinse markası boykot kapsamında değildir ve ürünlerinin satın alınması önerilmektedir.`,
-  },
-  {
    name: "Şüheda Eşarp",
    slug: "suheda-esarp",
+   ctgry: "Giyim",
    foundedYear: 2000,
    founder: "Bilgi bulunamadı",
    owner: "Şüheda Eşarp A.Ş.",
@@ -2777,6 +2640,7 @@ Lavinse, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanall
    name: "Victoria's Secret",
    slug: "victorias-secret",
    foundedYear: 1977,
+   ctgry: "Giyim ve Kozmetik",
    founder: "Roy Raymond",
    owner: "L Brands (Les Wexner)",
    description: `Victoria's Secret, 1977 yılında Roy Raymond tarafından ABD'nin Ohio eyaletinde kurulan ve dünya genelinde faaliyet gösteren bir iç giyim ve kadın giyim markasıdır. Marka, bugün L Brands bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2796,6 +2660,7 @@ Victoria's Secret, dünya genelinde hem fiziksel mağazalar hem de online satı�
    name: "Zara",
    slug: "zara",
    foundedYear: 1974,
+   ctgry: "Giyim",
    founder: "Amancio Ortega",
    owner: "Inditex Group",
    description: `Zara, 1974 yılında Amancio Ortega tarafından İspanya'da kurulan ve dünya genelinde faaliyet gösteren bir hazır giyim markasıdır. Marka, bugün Inditex Group bünyesinde yer almakta ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2815,6 +2680,7 @@ Zara, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    name: "Mavi",
    slug: "mavi",
    foundedYear: 1991,
+   ctgry: "Giyim",
    founder: "Ersin Akarlılar, Sait Akarlılar",
    owner: "Mavi Giyim Sanayi ve Ticaret A.Ş.",
    description: `Mavi, 1991 yılında Ersin Akarlılar ve Sait Akarlılar tarafından Türkiye'de kurulan ve dünya genelinde faaliyet gösteren bir giyim markasıdır. Marka, bugün Mavi Giyim Sanayi ve Ticaret A.Ş. adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2834,6 +2700,7 @@ Mavi, dünya genelinde hem fiziksel mağazalar hem de online satış kanalları 
    name: "Penti",
    slug: "penti",
    foundedYear: 1950,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Penti A.Ş.",
    description: `Penti, 1950 yılında Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir iç giyim, çorap ve mayo markasıdır. Marka, bugün Penti A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2853,6 +2720,7 @@ Penti, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "Lascana",
    slug: "lascana",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Lascana GmbH",
    description: `Lascana, Almanya'da kurulan ve Avrupa genelinde faaliyet gösteren bir kadın giyim markasıdır. Marka, bugün Lascana GmbH adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2872,6 +2740,7 @@ Lascana, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "Sakura Baby",
    slug: "sakura-baby",
    foundedYear: 2010,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Sakura Baby A.Ş.",
    description: `Sakura Baby, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir bebek giyim ve aksesuar ürünleri sunan markadır. Marka, bugün Sakura Baby A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2891,6 +2760,7 @@ Sakura Baby, Türkiye genelinde hem fiziksel mağazalar hem de online satış ka
    name: "Sheego AG",
    slug: "sheego-ag",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Sheego AG",
    description: `Sheego AG, Almanya'da kurulan ve Avrupa genelinde faaliyet gösteren bir kadın giyim markasıdır. Marka, bugün Sheego AG adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2910,6 +2780,7 @@ Sheego AG, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanall
    name: "Helline",
    slug: "helline",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Helline SAS",
    description: `Helline, Fransa'da kurulan ve Avrupa genelinde faaliyet gösteren bir kadın giyim ve aksesuar markasıdır. Marka, bugün Helline SAS adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2929,6 +2800,7 @@ Helline, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "FGH",
    slug: "fgh",
    foundedYear: 2000,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "FGH A.Ş.",
    description: `FGH, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir hazır giyim alanında faaliyet gösteren markadır. Marka, bugün FGH A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2948,6 +2820,7 @@ FGH, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalları
    name: "Li-Ning",
    slug: "li-ning",
    foundedYear: 1990,
+   ctgry: "Spor Giyim",
    founder: "Li Ning",
    owner: "Li-Ning Company Limited",
    description: `Li-Ning, 1990 yılında eski olimpik jimnastikçi Li Ning tarafından Çin'de kurulan ve dünya genelinde faaliyet gösteren bir spor giyim ve ayakkabı markasıdır. Marka, bugün Li-Ning Company Limited adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2967,6 +2840,7 @@ Li-Ning, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "Your Look For Less",
    slug: "your-look-for-less",
    foundedYear: 2010,
+   ctgry: "Moda Perakendeci",
    founder: "Bilgi bulunamadı",
    owner: "Your Look For Less Ltd.",
    description: `Your Look For Less, Birleşik Krallık'ta kurulan ve Avrupa genelinde faaliyet gösteren bir online moda perakendecisidir. Marka, bugün Your Look For Less Ltd. adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -2984,8 +2858,9 @@ Your Look For Less, Avrupa genelinde online satış kanalları aracılığıyla 
   },
   {
    name: "Swimwear365",
-   slug: "swimwear365",
+   slug: "swimwear365-freemans",
    foundedYear: 2010,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Swimwear365 Ltd.",
    description: `Swimwear365, Birleşik Krallık'ta kurulan ve Avrupa genelinde faaliyet gösteren bir mayo ve plaj giyim markasıdır. Marka, bugün Swimwear365 Ltd. adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -3005,6 +2880,7 @@ Swimwear365, Avrupa genelinde online satış kanalları aracılığıyla müşte
    name: "Chaussea",
    slug: "chaussea",
    foundedYear: 1994,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "Chaussea SAS",
    description: `Chaussea, 1994 yılında Fransa'da kurulan ve Avrupa genelinde faaliyet gösteren bir ayakkabı perakendecisi markasıdır. Marka, bugün Chaussea SAS adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -3024,6 +2900,7 @@ Chaussea, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanalla
    name: "GAU#5",
    slug: "gau5",
    foundedYear: 2010,
+   ctgry: "Giyim",
    founder: "Bilgi bulunamadı",
    owner: "GAU#5 A.Ş.",
    description: `GAU#5, Türkiye'de kurulan ve Türkiye genelinde faaliyet gösteren bir kadın ve erkek giyim üzerine faaliyet gösteren moda markasıdır. Marka, bugün GAU#5 A.Ş. adıyla faaliyet göstermekte ve Türkiye genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -3043,6 +2920,7 @@ GAU#5, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanallar
    name: "Wolford",
    slug: "wolford",
    foundedYear: 1950,
+   ctgry: "Giyim",
    founder: "Reinhold Wolf, Walter Palmers",
    owner: "Wolford AG",
    description: `Wolford, 1950 yılında Reinhold Wolf ve Walter Palmers tarafından Avusturya'da kurulan ve dünya genelinde faaliyet gösteren bir lüks moda markasıdır. Marka, bugün Wolford AG adıyla faaliyet göstermekte ve dünya genelinde milyonlarca müşteriye hizmet vermektedir.
@@ -3059,27 +2937,9 @@ Wolford, dünya genelinde hem fiziksel mağazalar hem de online satış kanallar
    boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Wolford, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
   },
   {
-   name: "Moda Vilona",
-   slug: "moda-vilona",
-   foundedYear: 2000,
-   founder: "Bilgi bulunamadı",
-   owner: "Moda Vilona SAS",
-   description: `Moda Vilona, Fransa'da kurulan ve Avrupa genelinde faaliyet gösteren bir kadın giyim ve aksesuar ürünleri sunan markadır. Marka, bugün Moda Vilona SAS adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
-
-Moda Vilona, özellikle kadın giyim ve aksesuar ürünleri sunan bir markadır. Marka, modern ve şık tasarımları ile öne çıkar ve Avrupa genelinde kadın kullanıcılar arasında popülerdir. Moda Vilona, Fransa ve çevresindeki ülkelerde mağazalar ve online satış kanalları aracılığıyla faaliyet göstermektedir. Marka, şehirli kadınlar için kaliteli ve trend odaklı moda ürünleri sunar.
-
-Moda Vilona, sadece kadın giyim değil, aynı zamanda aksesuar ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
-
-Moda Vilona, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, modern ve şık kadın giyim ve aksesuar ürünleri arayan şehirli kadınlar arasında popülerdir.`,
-   country: "Fransa",
-   website: "https://www.modavilona.fr/",
-   img: "/moda-vilona.png",
-   isBoycotted: "boykot",
-   boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Moda Vilona, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
-  },
-  {
    name: "Hotiç",
    slug: "hotic",
+   ctgry: "Giyim",
    foundedYear: 1978,
    founder: "Bilgi bulunamadı",
    owner: "Hotiç A.Ş.",
@@ -3139,3 +2999,79 @@ Akmoda, Türkiye genelinde hem fiziksel mağazalar hem de online satış kanalla
 };
 
 export default giyimTekstilCategory;
+/*   {
+    name: "Modanisa",
+    slug: "",
+    foundedYear: 2008,
+    ctgry: "E-ticaret",
+    founder: "",
+    owner: "",
+    country: "",
+    alternative_products: [],
+    img: "/.png",
+    isBoycotted: "boykot",
+    website: "",
+    description: ``,
+    boycottReason: ``,
+   },
+   {
+    name: "LC Waikiki",
+    slug: "",
+    foundedYear: 2008,
+    ctgry: "E-ticaret",
+    founder: "",
+    owner: "", // https://boykotdedektifi.org/b/lc-waikiki-67
+    country: "",
+    alternative_products: [],
+    img: "/.png",
+    isBoycotted: "boykot",
+    website: "",
+    description: ``,
+    boycottReason: ``,
+   },
+   {
+    name: "Koton",
+    slug: "",
+    foundedYear: 2008,
+    ctgry: "E-ticaret",
+    founder: "",
+    owner: "",
+    country: "",
+    alternative_products: [],
+    img: "/.png",
+    isBoycotted: "boykot",
+    website: "",
+    description: ``,
+    boycottReason: ``,
+   },
+   {
+    name: "E-Bebek",
+    slug: "",
+    foundedYear: 2008,
+    ctgry: "E-ticaret",
+    founder: "",
+    owner: "",
+    country: "",
+    alternative_products: [],
+    img: "/.png",
+    isBoycotted: "boykot",
+    website: "",
+    description: ``,
+    boycottReason: ``,
+   },
+   {
+    name: "Sefamerve / Lidyana",
+    slug: "",
+    foundedYear: 2008,
+    ctgry: "E-ticaret",
+    founder: "",
+    owner: "",
+    country: "",
+    alternative_products: [],
+    img: "/.png",
+    isBoycotted: "boykot",
+    website: "",
+    description: ``,
+    boycottReason: ``,
+   },
+  */

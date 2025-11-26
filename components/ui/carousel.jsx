@@ -150,6 +150,10 @@ function CarouselPrevious({
 }) {
  const { orientation, scrollPrev, canScrollPrev } = useCarousel()
 
+ if (!canScrollPrev) {
+  return null;
+ }
+
  return (
   <Button
    data-slot="carousel-previous"
@@ -158,7 +162,6 @@ function CarouselPrevious({
    className={cn("absolute size-8 rounded-full", orientation === "horizontal"
     ? "top-1/2 -left-12 -translate-y-1/2"
     : "-top-12 left-1/2 -translate-x-1/2 rotate-90", className)}
-   disabled={!canScrollPrev}
    onClick={scrollPrev}
    {...props}>
    <ArrowLeft />
@@ -175,6 +178,10 @@ function CarouselNext({
 }) {
  const { orientation, scrollNext, canScrollNext } = useCarousel()
 
+ if (!canScrollNext) {
+  return null;
+ }
+
  return (
   <Button
    data-slot="carousel-next"
@@ -183,7 +190,6 @@ function CarouselNext({
    className={cn("absolute size-8 rounded-full", orientation === "horizontal"
     ? "top-1/2 -right-12 -translate-y-1/2"
     : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90", className)}
-   disabled={!canScrollNext}
    onClick={scrollNext}
    {...props}>
    <ArrowRight />

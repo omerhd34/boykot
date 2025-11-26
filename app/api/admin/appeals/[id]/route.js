@@ -65,3 +65,41 @@ export async function PATCH(request, { params }) {
  }
 }
 
+export async function DELETE(request, { params }) {
+ try {
+  // Check authentication
+  const isAuthenticated = await checkAdminAuth();
+  if (!isAuthenticated) {
+   return NextResponse.json(
+    { success: false, message: "Yetkisiz erişim" },
+    { status: 401 }
+   );
+  }
+
+  const { id } = await params;
+
+  // Delete appeal
+  await prisma.appeal.delete({
+   where: { id },
+  });
+
+  return NextResponse.json({
+   success: true,
+   message: "İtiraz başarıyla silindi",
+  });
+ } catch (error) {
+  if (error.code === "P2025") {
+   return NextResponse.json(
+    { success: false, message: "İtiraz bulunamadı" },
+    { status: 404 }
+   );
+  }
+
+  console.error("Delete appeal error:", error);
+  return NextResponse.json(
+   { success: false, message: "İtiraz silinirken bir hata oluştu" },
+   { status: 500 }
+  );
+ }
+}
+

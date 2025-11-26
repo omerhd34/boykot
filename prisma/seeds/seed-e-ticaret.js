@@ -5,6 +5,26 @@ const eTicaretCategory = {
  description: "Çevrim içi perakende ve pazar yeri platformları.",
  brands: [
   // Fiskobirlik ve Naturalive ve Procsin marketi ekle.
+
+  {
+   name: "Moda Vilona",
+   slug: "moda-vilona",
+   foundedYear: 2000,
+   founder: "Bilgi bulunamadı",
+   owner: "Moda Vilona SAS",
+   description: `Moda Vilona, Fransa'da kurulan ve Avrupa genelinde faaliyet gösteren bir kadın giyim ve aksesuar ürünleri sunan markadır. Marka, bugün Moda Vilona SAS adıyla faaliyet göstermekte ve Avrupa genelinde milyonlarca müşteriye hizmet vermektedir.
+
+Moda Vilona, özellikle kadın giyim ve aksesuar ürünleri sunan bir markadır. Marka, modern ve şık tasarımları ile öne çıkar ve Avrupa genelinde kadın kullanıcılar arasında popülerdir. Moda Vilona, Fransa ve çevresindeki ülkelerde mağazalar ve online satış kanalları aracılığıyla faaliyet göstermektedir. Marka, şehirli kadınlar için kaliteli ve trend odaklı moda ürünleri sunar.
+
+Moda Vilona, sadece kadın giyim değil, aynı zamanda aksesuar ürünleri de sunmaktadır. Marka, sürdürülebilirlik ve çevre dostu üretim konusunda da önemli adımlar atmakta ve geri dönüştürülmüş malzemeler kullanarak ürünlerini üretmektedir.
+
+Moda Vilona, Avrupa genelinde hem fiziksel mağazalar hem de online satış kanalları aracılığıyla müşterilerine ulaşmaktadır. Marka, modern tasarım anlayışı ve kaliteli ürünleriyle, modern ve şık kadın giyim ve aksesuar ürünleri arayan şehirli kadınlar arasında popülerdir.`,
+   country: "Fransa",
+   website: "https://www.modavilona.fr/",
+   img: "/moda-vilona.png",
+   isBoycotted: "boykot",
+   boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu yüzden, marka "boykot hususunda" güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir. İsrail'e destek veren ve Filistin'e yönelik politikaları destekleyen şirketlerle bağlantıları olan Moda Vilona, boykot listesinde yer almaktadır. Yanlış, hatalı veya eksik bir metin olduğunu düşünüyorsanız öneri kısmından bizlere kolaylıkla bildirebilirsiniz.`,
+  },
   {
    name: "Nespresso",
    slug: "nespresso",

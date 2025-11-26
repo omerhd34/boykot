@@ -28,6 +28,7 @@ export default function AdminMessagesPage() {
  const [selectedMessage, setSelectedMessage] = useState(null);
  const [adminNotes, setAdminNotes] = useState("");
  const [updatingStatus, setUpdatingStatus] = useState(false);
+ const [notification, setNotification] = useState(null);
 
  useEffect(() => {
   checkAuth();
@@ -74,6 +75,11 @@ export default function AdminMessagesPage() {
   }
  };
 
+ const showNotification = (message, type = "success") => {
+  setNotification({ message, type });
+  setTimeout(() => setNotification(null), 3000);
+ };
+
  const handleLogout = async () => {
   try {
    await axios.post("/api/admin/logout");
@@ -97,13 +103,14 @@ export default function AdminMessagesPage() {
    if (data.success) {
     setSelectedMessage(null);
     setAdminNotes("");
+    showNotification("Mesaj durumu başarıyla güncellendi!");
     fetchMessages();
    } else {
-    alert(data.message || "Güncelleme başarısız");
+    showNotification(data.message || "Güncelleme başarısız", "error");
    }
   } catch (error) {
    console.error("Update status error:", error);
-   alert("Bir hata oluştu");
+   showNotification("Bir hata oluştu", "error");
   } finally {
    setUpdatingStatus(false);
   }
@@ -121,13 +128,14 @@ export default function AdminMessagesPage() {
    );
 
    if (data.success) {
+    showNotification("Mesaj başarıyla silindi!");
     fetchMessages();
    } else {
-    alert(data.message || "Silme işlemi başarısız");
+    showNotification(data.message || "Silme işlemi başarısız", "error");
    }
   } catch (error) {
    console.error("Delete message error:", error);
-   alert("Bir hata oluştu");
+   showNotification("Bir hata oluştu", "error");
   } finally {
    setUpdatingStatus(false);
   }
@@ -186,6 +194,11 @@ export default function AdminMessagesPage() {
 
  return (
   <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 py-8">
+   {notification && (
+    <div className={`fixed right-4 top-4 z-50 rounded-lg border px-4 py-3 shadow-lg ${notification.type === "success" ? "border-green-200 bg-green-50 text-green-800" : "border-red-200 bg-red-50 text-red-800"}`}>
+     <p className="text-sm font-medium">{notification.message}</p>
+    </div>
+   )}
    <div className="container mx-auto px-4">
     {/* Header */}
     <div className="mb-8 rounded-2xl border-2 border-slate-200 bg-white shadow-sm">
@@ -347,15 +360,15 @@ export default function AdminMessagesPage() {
                setSelectedMessage(message);
                setAdminNotes(message.adminNotes || "");
               }}
-              className="inline-flex items-center gap-2 rounded-lg border-2 border-blue-500 bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-600"
+              className="inline-flex w-32 items-center justify-center gap-2 rounded-lg border-2 border-blue-500 bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-600"
              >
               <IoMailOpenOutline className="h-4 w-4" />
-              Okundu İşaretle
+              Okundu
              </button>
              <button
               onClick={() => handleDeleteMessage(message.id)}
               disabled={updatingStatus}
-              className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
+              className="inline-flex w-32 items-center justify-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
              >
               <IoTrashOutline className="h-4 w-4" />
               Sil
@@ -367,15 +380,15 @@ export default function AdminMessagesPage() {
              <button
               onClick={() => handleStatusUpdate(message.id, "replied")}
               disabled={updatingStatus}
-              className="inline-flex items-center gap-2 rounded-lg border-2 border-emerald-500 bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600 disabled:cursor-not-allowed disabled:opacity-50"
+              className="inline-flex w-32 items-center justify-center gap-2 rounded-lg border-2 border-emerald-500 bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600 disabled:cursor-not-allowed disabled:opacity-50"
              >
               <IoCheckmarkCircleOutline className="h-4 w-4" />
-              Cevaplandı İşaretle
+              Cevaplandı
              </button>
              <button
               onClick={() => handleDeleteMessage(message.id)}
               disabled={updatingStatus}
-              className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
+              className="inline-flex w-32 items-center justify-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
              >
               <IoTrashOutline className="h-4 w-4" />
               Sil
@@ -386,7 +399,7 @@ export default function AdminMessagesPage() {
             <button
              onClick={() => handleDeleteMessage(message.id)}
              disabled={updatingStatus}
-             className="inline-flex items-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
+             className="inline-flex w-32 items-center justify-center gap-2 rounded-lg border-2 border-red-500 bg-red-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-50"
             >
              <IoTrashOutline className="h-4 w-4" />
              Sil
