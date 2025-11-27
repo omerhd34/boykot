@@ -9,6 +9,7 @@ const gidaYiyecekCategory = {
  // https://boykotdedektifi.org/b/borgir-1045
  // https://boykotdedektifi.org/b/yaprak-donercisi-2263
  // https://boykotdedektifi.org/b/pasa-doner-2282
+ // https://en.wikipedia.org/wiki/Krispy_Kreme
  // ! önemli : https://boykotdedektifi.org/b/restaurant-brands-international-476
  brands: [
   {

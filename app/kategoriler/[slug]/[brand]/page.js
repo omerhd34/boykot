@@ -258,16 +258,7 @@ export default async function BrandDetailPage({ params }) {
           Kurucu ve Sahibi
          </dt>
          <dd className="text-sm font-medium text-slate-900">
-          {ownerBrand ? (
-           <Link
-            href={`/kategoriler/${ownerBrand.categorySlug}/${ownerBrand.slug}`}
-            className="text-orange-600 hover:text-orange-700 hover:underline transition"
-           >
-            {brand.owner}
-           </Link>
-          ) : (
-           brand.owner
-          )}
+          {brand.owner}
          </dd>
         </div>
        ) : (
@@ -278,16 +269,7 @@ export default async function BrandDetailPage({ params }) {
             Kurucu
            </dt>
            <dd className="text-sm font-medium text-slate-900">
-            {founderBrand ? (
-             <Link
-              href={`/kategoriler/${founderBrand.categorySlug}/${founderBrand.slug}`}
-              className="text-orange-600 hover:text-orange-700 hover:underline transition"
-             >
-              {brand.founder}
-             </Link>
-            ) : (
-             brand.founder
-            )}
+            {brand.founder}
            </dd>
           </div>
          )}
@@ -297,16 +279,7 @@ export default async function BrandDetailPage({ params }) {
             Sahibi
            </dt>
            <dd className="text-sm font-medium text-slate-900">
-            {ownerBrand ? (
-             <Link
-              href={`/kategoriler/${ownerBrand.categorySlug}/${ownerBrand.slug}`}
-              className="text-orange-600 hover:text-orange-700 hover:underline transition"
-             >
-              {brand.owner}
-             </Link>
-            ) : (
-             brand.owner
-            )}
+            {brand.owner}
            </dd>
           </div>
          )}

@@ -8,20 +8,177 @@ const marketAlisverisiCategory = {
   "Sigara",
   "İçecek",
   "Yiyecek",
+  "Sakız & Şeker",
   "Temizlik",
   "Bebek & Çocuk",
   "Takviye Edici Gıda"
  ],
  brands: [
   /*
-https://boykotdedektifi.org/b/kan-tong-691
-https://boykotdedektifi.org/b/kevin-s-natural-foods-702
-https://boykotdedektifi.org/b/seeds-of-change-710
-
  TEMİZLİK MARKALARI
  https://boykotdedektifi.org/c/temizlik-13
  https://boykotdedektifi.org/b/dalan-573
 */
+
+  //! Bebek & Çocuk
+  {
+   name: "Arılac",
+   slug: "arilac",
+   foundedYear: 1945,
+   ctgry: "Bebek & Çocuk",
+   founder: "Arı Gıda",
+   owner: "Sultanlar Grup",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/arilac.png",
+   isBoycotted: "boykot-degil",
+   website: "https://arisiylabuyusun.com/",
+   description: `Arılac, 1945 yılında İstanbul'da kurulan Arı Gıda'nın köklü tecrübesiyle üretilen, Türkiye'nin ilk bebek maması markasıdır. Cumhuriyet döneminde yeni neslin sağlıklı beslenmesi ihtiyacından doğan marka, 1985 yılında Sultanlar Grup bünyesine katılarak gücüne güç katmıştır.
+
+Sürekli Ar-Ge çalışmalarıyla gelişen Arılac, 2020 yılında Türkiye'nin %100 yerli ilk "İnstant Tahıl Bazlı Bebek ve Çocuk Ek Gıdası"nı üreterek sektörde önemli bir ilke imza atmıştır. Gece ve Kahvaltı çeşitleri gibi yenilikçi ürünleriyle ebeveynlerin güvenilir yardımcısı olmaya devam etmektedir.`,
+   boycottReason: `Arılac, %100 yerli sermaye ile yönetilen Sultanlar Grup tarafından Türkiye'de üretilmektedir. Markanın İsrail, ABD veya Çin gibi boykot listelerinde yer alan ülkelerle veya bu ülkelerin ordularına destek veren kuruluşlarla herhangi bir sermaye ortaklığı, stratejik iş birliği veya dolaylı finansal bağı bulunmamaktadır. Tamamen yerel üretim gücüyle faaliyet gösteren, milli ekonomiye katkı sağlayan ve İsrail işgal politikalarına destek veren hiçbir yapıyla bağlantısı olmayan Arılac, güvenle tüketilebilecek yerli ve milli bir markadır.`,
+  },
+  //! Sakız
+  {
+   name: "",
+   slug: "",
+   foundedYear: 1111111111111111111111111111111,
+   ctgry: "Sakız & Şeker",
+   founder: "",
+   owner: "",
+   country: "",
+   alternative_products: [],
+   img: "/.png",
+   isBoycotted: "boykot",
+   website: "",
+   description: ``,
+   boycottReason: ``,
+   evidences: [""],
+  },
+  {
+   name: "",
+   slug: "",
+   foundedYear: 1111111111111111111111111111111,
+   ctgry: "",
+   founder: "",
+   owner: "",
+   country: "",
+   alternative_products: [],
+   img: "/.png",
+   isBoycotted: "boykot",
+   website: "",
+   description: ``,
+   boycottReason: ``,
+   evidences: [""],
+  },
+  {
+   name: "",
+   slug: "",
+   foundedYear: 1111111111111111111111111111111,
+   ctgry: "",
+   founder: "",
+   owner: "",
+   country: "",
+   alternative_products: [],
+   img: "/.png",
+   isBoycotted: "boykot",
+   website: "",
+   description: ``,
+   boycottReason: ``,
+   evidences: [""],
+  },
+  {
+   name: "",
+   slug: "",
+   foundedYear: 1111111111111111111111111111111,
+   ctgry: "",
+   founder: "",
+   owner: "",
+   country: "",
+   alternative_products: [],
+   img: "/.png",
+   isBoycotted: "boykot",
+   website: "",
+   description: ``,
+   boycottReason: ``,
+   evidences: [""],
+  },
+  {
+   name: "Arifoğlu",
+   slug: "arifoglu",
+   foundedYear: 1944,
+   ctgry: "Yiyecek",
+   founder: "Arifoğlu Ailesi",
+   owner: "Arifoğlu Baharat ve Gıda San. Ltd. Şti.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/arifoglu.png",
+   isBoycotted: "boykot-degil",
+   website: "https://www.arifoglu.com/",
+   description: `Arifoğlu, 1944 yılında Tarihi Mısır Çarşısı'nda herkesin güvenle tüketebileceği doğal lezzetleri sofralara sunmak amacıyla yola çıkmış köklü bir markadır. Küçük bir baharatçı dükkanından başlayarak bugün yüzlerce çeşit ürünü milyonlarca insana ulaştıran bir gıda devine dönüşmüştür.
+
+Markanın geniş ürün yelpazesi; baharat ve bitki çaylarından bitkisel yağlara, pekmezden organik ürünlere, arı ürünlerinden doğal kozmetiğe kadar uzanmaktadır. Geleneksel lezzetleri modern üretim teknikleriyle birleştiren Arifoğlu, İstanbul Avcılar ve Gaziantep Nurdağı'ndaki tesislerinde üretim faaliyetlerini sürdürmektedir.
+
+"Tarladan sofraya" güvencesiyle hareket eden firma, ürün temininden paketlemeye kadar her aşamada müşteri memnuniyetini esas alır. Türkiye'de ve dünyada yüzlerce satış noktasıyla hizmet veren marka, 1944'te yakılan hizmet ateşini bugün internet mağazacılığıyla da birleştirerek yenilikçi yüzünü tüketicilere sunmaktadır.`,
+   boycottReason: `Arifoğlu, %100 yerli sermaye ile yönetilen bir Türk markasıdır. Markanın İsrail, ABD veya Çin gibi boykot listelerinde yer alan ülkelerle herhangi bir sermaye ortaklığı, stratejik iş birliği veya siyasi desteği bulunmamaktadır. Tamamen yerel üretim gücüyle faaliyet gösteren ve İsrail işgal politikalarına destek veren hiçbir yapıyla bağlantısı olmayan Arifoğlu, güvenle tüketilebilecek yerli bir markadır.`,
+  },
+  {
+   name: "Yuva Maya",
+   slug: "yuvamaya",
+   foundedYear: 1992,
+   ctgry: "Yiyecek",
+   founder: "Lesaffre",
+   owner: "Lesaffre",
+   country: "Fransa",
+   alternative_products: [""],
+   img: "/yuvamaya.png",
+   isBoycotted: "boykot",
+   website: "https://www.yuvamaya.com.tr/",
+   description: `Yuva Maya, kökleri 1853 yılında Fransa'da bir aile şirketi olarak kurulan ve dünya maya endüstrisinin lideri olan Lesaffre grubunun Türkiye pazarındaki en bilinen markasıdır. Lesaffre, 165 yılı aşkın tecrübesiyle "dünyada üretilen her üç ekmekten birinde kullanılan mayayı" üretme iddiasına sahiptir.
+
+Türkiye'deki yolculuğuna 1992 yılında başlayan marka, Ceyhan, Amasya ve Lüleburgaz'daki fabrikalarında 600'den fazla çalışanıyla üretim yapmaktadır. Endüstriyel fırıncılar için geliştirdiği profesyonel çözümlerin yanı sıra, ev kullanıcıları için yaş maya (pres), kuru maya, instant maya ve ekşi maya gibi geniş bir ürün yelpazesi sunar. "Mayanın ustasından, mutfağın ustalarına" sloganıyla evde ekmek ve hamur işi yapımının güvenilir yardımcısı olmayı hedefler.
+
+Uluslararası Ar-Ge gücü ve kalite standartlarıyla üretilen Yuva Maya ürünleri, hamur işlerinin mükemmel kabarmasını ve lezzetini garanti altına almak için sürekli geliştirilmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
+  },
+  {
+   name: "Balkan",
+   slug: "balkan",
+   foundedYear: 1991,
+   ctgry: ["Yiyecek", "İçecek"],
+   founder: "Halil Durmaz",
+   owner: "Balkan Süt Ürünleri San. ve Tic. Ltd. Şti.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/balkan.png",
+   isBoycotted: "boykot-degil",
+   website: "https://balkansut.com.tr/",
+   description: `Balkan Süt Ürünleri, 1991 yılında "insan sağlığını temel alan" bir vizyonla sektöre adım atmış yerli bir markadır. Kuruluşunun ilk yıllarında sadece yoğurt üretimine odaklanarak uzmanlaşan firma, zamanla kaliteli hammadde temini ve hijyenik üretim anlayışıyla sektörde kendine sağlam bir yer edinmiştir.
+
+Markanın büyüme sürecindeki en önemli adım, 2005 yılında 20.000 metrekarelik arazi üzerine kurulan 15.000 metrekare kapalı alana sahip modern üretim tesisine geçişidir. Bu yatırımla birlikte ürün yelpazesini genişleten Balkan Süt; yoğurt ve ayranın yanı sıra süzme yoğurt, meyveli yoğurt, kaşar peyniri, beyaz peynir (kültürlü ve klasik), tulum, örgü, krem ve lor peyniri, tereyağı, UHT süt ve kaymak gibi birçok farklı kategoride üretim yapmaya başlamıştır.
+
+Müşteri memnuniyetini en üst seviyede tutmayı hedefleyen firma, tüm ürünlerini yasal prosedürlere uygun, hijyenik ve güvenli ambalajlarda tüketiciye sunmaktadır. "İnsan sağlığını hiçbir zaman tehlikeye atmadan üretim yapma" ilkesiyle hareket eden Balkan Süt, yerli sermayenin gücüyle büyümeye devam etmektedir.`,
+   boycottReason: `Balkan, %100 yerli sermaye ile yönetilen bir Türk markasıdır. Markanın İsrail, ABD veya Çin gibi boykot listelerinde yer alan ülkelerle herhangi bir sermaye ortaklığı, stratejik iş birliği veya siyasi desteği bulunmamaktadır. Tamamen yerel üretim gücüyle faaliyet gösteren ve İsrail işgal politikalarına destek veren hiçbir yapıyla bağlantısı olmayan Balkan, güvenle tüketilebilecek yerli bir markadır.`,
+  },
+  {
+   name: "Kaanlar",
+   slug: "kaanlar",
+   foundedYear: 1978,
+   ctgry: "Yiyecek",
+   founder: "Osman Kaan",
+   owner: "Kaanlar Gıda Sanayi ve Ticaret A.Ş.",
+   country: "Türkiye",
+   alternative_products: [],
+   img: "/kaanlar.png",
+   isBoycotted: "boykot-degil",
+   website: "https://kaanlar.com.tr/",
+   description: `Kaanlar, 1978 yılında Osman Kaan tarafından İstanbul Unkapanı'nda kurulan ve peynircilik sektöründe "geleneksel lezzetlerin modern temsilcisi" olmayı hedefleyen köklü bir aile şirketidir. Yolculuğuna Tekirdağ Malkara'da günlük 600 litre süt işleme kapasitesine sahip küçük bir mandıra ile başlayan firma, Türk damak tadına uygun kaliteli ve doğal ürünler üretme tutkusuyla büyümüştür.
+
+Zaman içinde yaptığı yatırımlarla üretim kapasitesini katlayarak artıran Kaanlar, 2011 yılında günlük 400 ton, 2012 yılında ise günlük 1200 ton süt işleme kapasitesine ulaşarak Türkiye'nin en büyük otomatik beyaz peynir üretim hatlarından birine sahip olmuştur. Modern tesislerinde hijyen ve kaliteye verdiği önemle sektörün öncü markaları arasında yerini almıştır.
+
+Büyüme stratejisini sadece kapasite artışıyla sınırlamayan şirket, köy merkezlerine kurduğu süt alım merkezleri ve Çanakkale'deki "Kaanlar Çiftlik" yatırımıyla hammadde kalitesini de güvence altına almıştır. Kullandığı sütün önemli bir kısmını kendi çiftliğinde üreterek "çiftlikten sofraya" güvenilir gıda zincirini tamamlayan sayılı markalardan biridir.`,
+   boycottReason: `Kaanlar, %100 yerli sermaye ile yönetilen bir Türk markasıdır. Markanın İsrail, ABD veya Çin gibi boykot listelerinde yer alan ülkelerle herhangi bir sermaye ortaklığı, stratejik iş birliği veya siyasi desteği bulunmamaktadır. Tamamen yerel üretim gücüyle faaliyet gösteren ve İsrail işgal politikalarına destek veren hiçbir yapıyla bağlantısı olmayan Kaanlar, güvenle tüketilebilecek yerli bir markadır.`,
+  },
   {
    name: "Pastavilla",
    slug: "pastavilla",
@@ -773,7 +930,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Nazar",
      slug: "nazar",
      foundedYear: 2000,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -788,7 +945,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Ocean Fresh",
      slug: "ocean-fresh",
      foundedYear: 2005,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -803,7 +960,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Fresh Smile",
      slug: "fresh-smile",
      foundedYear: 2005,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -818,7 +975,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Ocean Extra",
      slug: "ocean-extra",
      foundedYear: 2005,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -833,7 +990,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "O'FRESH",
      slug: "o-fresh",
      foundedYear: 2010,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -848,7 +1005,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Baybalon",
      slug: "baybalon",
      foundedYear: 1997,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -863,7 +1020,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "King Blast",
      slug: "king-blast",
      foundedYear: 2008,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -878,7 +1035,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Frogger",
      slug: "frogger",
      foundedYear: 2005,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -893,7 +1050,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Punto",
      slug: "punto",
      foundedYear: 2005,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -908,7 +1065,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Bay Balon Soft",
      slug: "baybalon-soft",
      foundedYear: 2000,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -923,7 +1080,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Ekşiyüz",
      slug: "eksiyuz",
      foundedYear: 2008,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -938,7 +1095,7 @@ Günümüzde aylık 2200 ton üretim kapasitesine ulaşan şirket; sakız, yumu�
      name: "Shock 2 Shock",
      slug: "shock-2-shock",
      foundedYear: 2010,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Saadet Gıda",
      owner: "Saadet Gıda",
      country: "Türkiye",
@@ -1817,7 +1974,7 @@ Tadım, 3. ve 4. nesil aile üyelerinin de dahil olduğu köklü bir şirket ola
    name: "Bebeto",
    slug: "bebeto",
    foundedYear: 1999,
-   ctgry: "Yiyecek",
+   ctgry: "Sakız & Şeker",
    founder: "Kervan Gıda",
    owner: "Kervan Gıda",
    country: "Türkiye",
@@ -2937,7 +3094,7 @@ Türkiye'nin en büyük ilk 1000 sanayi kuruluşu (İSO) arasında yer alan Ekic
 Şirket, İngiltere'de 7.500'den fazla çalışanı ve 1.000'in üzerinde çiftlikten oluşan tedarik ağıyla devasa bir operasyon yürütmektedir. İstatistiklere göre Birleşik Krallık'taki buzdolaplarının %97'sinde süt, %78'inde ise yoğurt ürünleriyle yer alarak pazarın tartışmasız liderlerinden biri konumundadır.
 
 Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kolda faaliyet gösteren marka; Müller Corner, Müller Rice, Müller Light ve FRijj gibi sevilen ürünlerin üreticisidir. Ayrıca Mondelez lisansı altında çeşitli soğuk tatlılar da üretmekte olup, "ulusun yüzüne bir gülümseme kondurmak" misyonuyla üretim yapmaktadır.`,
-   boycottReason: `Müller, Almanya merkezli bir markadır. Almanya hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık siyasi ve ekonomik destek nedeniyle, Alman ekonomisine doğrudan katkı sağlayan bu marka boykot listesinde değerlendirilmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    evidences: [""],
   },
   {
@@ -2945,8 +3102,8 @@ Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kol
    slug: "mis",
    foundedYear: 1976,
    ctgry: ["Yiyecek", "İçecek"],
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   founder: "Şok Market",
+   owner: "Şok Market",
    country: "Türkiye",
    alternative_products: [],
    img: "/mis.png",
@@ -2965,8 +3122,8 @@ Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kol
    slug: "bizim-vatan",
    foundedYear: 1951,
    ctgry: ["Yiyecek", "İçecek"],
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   founder: "Şok Market",
+   owner: "Şok Market",
    country: "Türkiye",
    alternative_products: [],
    img: "/bizim-vatan.png",
@@ -2985,8 +3142,8 @@ Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kol
    slug: "tornado",
    foundedYear: 2012,
    ctgry: ["Yiyecek", "İçecek"],
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
+   founder: "Şok Market",
+   owner: "Şok Market",
    country: "Türkiye",
    alternative_products: [],
    img: "/tornado.png",
@@ -3012,8 +3169,28 @@ Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kol
 
 
 
+  {
+   name: "Cargill",
+   slug: "cargill",
+   foundedYear: 1865,
+   ctgry: "Şirket",
+   founder: "William Wallace Cargill",
+   owner: "Cargill family (90%)",
+   country: "ABD",
+   alternative_products: [],
+   img: "/cargill.png",
+   isBoycotted: "boykot",
+   website: "https://www.cargill.com.tr/tr/anasayfa",
+   description: `Cargill, 1865 yılında William Wallace Cargill tarafından Amerika Birleşik Devletleri'nde kurulan ve bugün 70 ülkede 155.000'den fazla çalışanıyla faaliyet gösteren dünyanın en büyük özel şirketlerinden biridir. Gıda, tarım, finans ve endüstriyel ürünler alanlarında küresel bir dev olan şirket, tahıl ticaretinden et işlemeye, nişasta ve tatlandırıcı üretiminden bitkisel yağlara kadar geniş bir yelpazede hizmet vermektedir.
 
-
+Türkiye pazarında 1960 yılından beri varlık gösteren Cargill, özellikle mısır işleme tesisleri, nişasta bazlı şeker üretimi ve endüstriyel gıda hammaddeleri tedariki ile bilinir. Bursa Orhangazi'deki Mısır İşleme Tesisi ve diğer yatırımlarıyla Türkiye gıda sanayisinin en büyük hammadde tedarikçilerinden biri konumundadır.
+   
+Aile şirketi yapısını koruyarak büyüyen Cargill, küresel gıda tedarik zincirinin en kritik oyuncularından biri olarak, çiftçilerden gıda üreticilerine kadar geniş bir ekosistemi yönetmektedir.`,
+   boycottReason: `Cargill'in boykot edilmesinin temel nedeni, şirketin küresel politikaları ve İsrail ile olan dolaylı bağlantılarıdır. Şirketin faaliyet gösterdiği ülkelerde lobi çalışmaları yürüterek yerli sermayeye ve tohum üretimine kotalar uygulanmasına neden olduğu, böylece ülke pazarlarını ele geçirdiği iddia edilmektedir.
+   
+Türkiye özelinde ise, yerli tohum üretimini engelleyen GDO'lu ürünleri piyasaya sürdüğü, şeker kotalarından muaf tutularak yerli pancar üreticisini zor durumda bıraktığı ve elde ettiği kazancın bir kısmının İsrail devletinin finansmanına aktarıldığı yönündeki iddialar, şirketin boykot listesinde yer almasına sebep olmuştur.`,
+   evidences: ["https://www.facebook.com/photo/?fbid=885280994817355&set=pb.100069203359788.-2207520000&locale=zh_CN"],
+  },
   {
    name: "Arbella",
    slug: "arbella",
@@ -3031,7 +3208,7 @@ Müller Milk & Ingredients ve Müller Yogurt & Desserts olmak üzere iki ana kol
 Makarna ve irmik sektörünün önde gelen üreticilerinden olan Arbella, makarna üretim kapasitesi ve tesisleri ile üretim ve ihracat potansiyeli açısından dünyadaki ilk on büyük makarna şirketi arasında yer almaktadır. Yıllık 180 bin ton irmik ve 160 bin ton makarna üretim kapasitesine sahip olan Arbella Makarna Afrika ülkelerinden AB ülkelerine, Japonya'dan Kanada'ya kadar geniş bir coğrafyada yüze yakın ülkeye ihracat gerçekleştirmektedir.
 
 Gerek ürün çeşitliliği gerekse ambalaj teknolojileri ile Türkiye ve dünya tüketicisinin talep ve ihtiyaçlarına yönelik çalışmalarına aralıksız devam eden Arbella Makarna'nın ürün yelpazesinde 28 çeşit makarnaya ek olarak tam buğday makarası, glütensiz mısır makarası ve çocuklu aileler için vitamin ve mineralli, sebzeli çeşitleri bulunmaktadır. Tüketicisine Türkiye'de ilk kez üretilen ve piyasaya sürülen şirket gerçekleştirdiği ar-ge çalışmaları ile açından söz ettirmektedir. Türkiye'de bir ilk olan mercimekli makarna ve nohutlu makarnayı üretmiştir. Ambalaj teknolojisinde yaptığı yeniliklerle de tüketicisine kolaylıklar sunan Arbella Makarna Türkiye'nin ilk ac-kapa spaghettilerini ve dengeli beslenmeye katkı sunmak üzere porsiyonlara ayrılmış spaghettilerini üretmektedir.`,
-   boycottReason: `Arbella, Kanada merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
   },
   {
    name: "Mutlu Makarna",
@@ -3089,9 +3266,37 @@ Mars ailesi tarafından yönetilen şirket, küresel çapta bir üretim ağına 
    ],
    subBrands: [
     {
+     name: "Combos",
+     slug: "combos",
+     foundedYear: 1970,
+     ctgry: "Yiyecek",
+     founder: "Eagle Snacks (Anheuser-Busch)",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     img: "/combos.png",
+     isBoycotted: "boykot",
+     website: "https://www.combos.com/",
+     description: `Combos, 1970'lerin ortasında yaratılan ve silindirik kraker, pretzel (çubuk kraker) veya tortilla tüplerinin içinin çeşitli dolgularla doldurulmasıyla oluşan ikonik bir atıştırmalık markasıdır. Ürün, "İki atıştırmalık tek fiyata" mantığıyla hem çıtırlığı hem de dolgun lezzeti bir arada sunmayı hedefler.
+
+Başlangıçta Anheuser-Busch bira fabrikasının atıştırmalık kolu olan Eagle Snacks tarafından üretilen marka, 1996 yılında küresel gıda devi Mars Incorporated tarafından satın alınmıştır. Peynirli pretzel (Cheddar Cheese Pretzel) ve Pepperoni Pizza gibi klasikleşmiş çeşitleriyle Amerikan atıştırmalık kültüründe önemli bir yere sahiptir.
+
+Mars bünyesinde üretimine devam edilen Combos, "Hareket halindeki atıştırmalık" (On the go) konseptiyle özellikle yolculuklarda ve pratik tüketim anlarında tercih edilmektedir.`,
+     boycottReason: `Combos'un boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Combos boykot listesinde yer almaktadır.`,
+     evidences: ["https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
      name: "Kan Tong",
      slug: "kan-tong",
-     foundedYear: 111111,
+     foundedYear: 1975,
      ctgry: "Yiyecek",
      founder: "Mars, Incorporated",
      owner: "Mars, Incorporated",
@@ -3232,15 +3437,19 @@ Bu nedenlerle, COCOAVIA boykot listesinde yer almaktadır.`,
     {
      name: "DOLMIO",
      slug: "dolmio",
-     foundedYear: 111111111111911,
+     foundedYear: 1985,
      ctgry: "Yiyecek",
-     founder: "",
+     founder: "Mars, Incorporated",
      owner: "Mars, Incorporated",
      country: "ABD",
      img: "/dolmio.png",
      isBoycotted: "boykot",
      website: "https://www.dolmio.com.au/",
-     description: ``,
+     description: `DOLMIO, 1985 yılında MasterFoods (Mars Inc.) tarafından, başlangıçta "Alora" adıyla Avustralya ve İskoçya'da piyasaya sürülen bir makarna sosu markasıdır. 1989 yılında daha güçlü bir uluslararası kimlik oluşturmak amacıyla ismi DOLMIO olarak değiştirilmiştir. Marka, evde pratik bir şekilde İtalyan lezzetleri hazırlamak isteyen aileler için geliştirilmiştir.
+
+Ürün yelpazesinde; klasik Bolonez soslar, lazanya kitleri, makarna fırın sosları ve pestolar bulunmaktadır. "Dolmio Günü ne zaman?" (When's your Dolmio day?) sloganı ve reklamlarında kullanılan ikonik kukla ailesiyle (The Dolmio Puppets) dünya genelinde yüksek bir bilinirliğe sahiptir.
+     
+Mars Food bünyesinde üretilen DOLMIO, yapay renklendirici, aroma ve koruyucu içermeyen formülleriyle "gerçek yemek" deneyimi sunmayı hedefler. Pratik akşam yemeklerinin vazgeçilmezi olarak birçok ülkenin market raflarında yer almaktadır.`,
      boycottReason: `DOLMIO'nın boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
 
 Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
@@ -3256,15 +3465,19 @@ Bu nedenlerle, DOLMIO boykot listesinde yer almaktadır.`,
     {
      name: "MASTERFOODS",
      slug: "masterfoods",
-     foundedYear: 111111111111911,
+     foundedYear: 1945,
      ctgry: "Yiyecek",
-     founder: "",
+     founder: "Henry Lewis",
      owner: "Mars, Incorporated",
      country: "ABD",
      img: "/masterfoods.png",
      isBoycotted: "boykot",
      website: "https://www.masterfoods.com.au/",
-     description: ``,
+     description: `MasterFoods, 1945 yılında Henry Lewis tarafından Avustralya'da kurulan ve ülkenin mutfak kültürünü şekillendiren en köklü gıda markalarından biridir. Başlangıçta hardal, paprika ve safran gibi gurme ürünlerin ithalatıyla yola çıkan şirket, II. Dünya Savaşı sonrası değişen damak tadına uygun olarak yerel üretime geçmiş ve "Bread and Butter Cucumbers" (Salatalık Turşusu) gibi ikonik ürünlerini piyasaya sürmüştür.
+
+Marka, özellikle baharatlar, çeşniler, hardallar ve soslar konusundaki uzmanlığıyla tanınır. Avustralya ve Yeni Zelanda pazarında her evde bulunan MasterFoods, sos kullanımını kolaylaştıran pratik sıkılabilir şişe tasarımları ve geniş ürün yelpazesiyle pazar lideri konumundadır.
+     
+1967 yılında Mars ailesi tarafından satın alınan MasterFoods, bu tarihten itibaren küresel gıda devi Mars Incorporated bünyesine katılmıştır. Günümüzde Mars'ın gıda (Mars Food) bölümünün ana markalarından biri olarak faaliyet göstermekte ve "Yemeğe lezzet katma" misyonuyla üretim yapmaktadır.`,
      boycottReason: `MASTERFOODS'un boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
 
 Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
@@ -3281,11 +3494,11 @@ Bu nedenlerle, MASTERFOODS boykot listesinde yer almaktadır.`,
      name: "Eclipse",
      slug: "eclipse",
      foundedYear: 1999,
-     ctgry: "Yiyecek",
+     ctgry: "Sakız & Şeker",
      founder: "Wrigley Company (Mars)",
      owner: "Mars, Incorporated",
      country: "ABD",
-     alternative_products: ["falim", "vivident", "olips"],
+     alternative_products: [""],
      img: "/eclipse.png",
      isBoycotted: "boykot",
      website: "https://www.eclipsemints.com.au/",
@@ -3542,6 +3755,96 @@ Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahu
 Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
 
 Bu nedenlerle, Mars boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Orbit",
+     slug: "orbit",
+     foundedYear: 1944,
+     ctgry: "Sakız & Şeker",
+     founder: "Wrigley Company",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/orbit.png",
+     isBoycotted: "boykot",
+     website: "https://www.mars.com/",
+     description: `Orbit, ilk olarak 1944 yılında Wrigley Company tarafından II. Dünya Savaşı sırasında yaşanan hammadde sıkıntısı nedeniyle, şirketin ana markalarına (Juicy Fruit, Spearmint) alternatif bir "yedek marka" olarak piyasaya sürülmüştür. Savaş bittikten sonra üretimi durdurulan marka, 1976 yılında Almanya, İsviçre ve Hollanda pazarlarında şekersiz sakız olarak yeniden doğmuştur.
+
+Markanın asıl küresel yükselişi, 2001 yılında Amerika Birleşik Devletleri pazarında 14 parçalı ikonik paketleriyle yeniden lanse edilmesiyle başlamıştır. Diş sağlığını destekleyen ve ağızdaki pH dengesini koruyan formülüyle tanınan Orbit, "Temiz bir his" (Just Brushed Clean Feeling) sloganıyla pazarlanmaktadır.
+     
+Günümüzde Mars Incorporated (Wrigley) çatısı altında üretilen Orbit; Nane, Karpuz, Çilek gibi birçok aroma çeşidiyle dünyanın en çok satan şekersiz sakız markalarından biridir.`,
+     boycottReason: `Orbit'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Orbit boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Freedent",
+     slug: "freedent",
+     foundedYear: 1944,
+     ctgry: "Sakız & Şeker",
+     founder: "Wrigley Company",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/freedent.png",
+     isBoycotted: "boykot",
+     website: "https://www.mars.com/",
+     description: `Freedent, 1975 yılında Wrigley Company tarafından "diş işine (protez, dolgu vb.) yapışmayan sakız" olarak geliştirilen ve piyasaya sürülen inovatif bir üründür. 53 yıllık bir aradan sonra Wrigley'in ABD pazarında lanse ettiği ilk büyük yeni marka olma özelliğini taşır.
+
+Nane, Spearmint ve Winterfresh gibi çeşitleriyle sunulan Freedent, özellikle diş teli kullananlar veya protezleri olanlar için rahat bir çiğneme deneyimi sunmayı hedefler. Geleneksel sakızların aksine, minimal yapışma sağlayan özel bir sakız mayası formülüyle üretilmiştir.
+     
+Günümüzde Mars Incorporated çatısı altında bulunan marka, bazı pazarlarda (örneğin Fransa) şekersiz versiyonlarıyla popülerliğini korurken, Kanada gibi bazı ülkelerde yerini Excel White gibi markalara bırakmıştır.`,
+     boycottReason: `Freedent'in boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Freedent boykot listesinde yer almaktadır.`,
+     evidences: [
+      "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
+     ],
+    },
+    {
+     name: "Extra",
+     slug: "extra",
+     foundedYear: 1984,
+     ctgry: "Sakız & Şeker",
+     founder: "Wrigley Company",
+     owner: "Mars, Incorporated",
+     country: "ABD",
+     alternative_products: [""],
+     img: "/extra.png",
+     isBoycotted: "boykot",
+     website: "https://www.mars.com/",
+     description: `Extra, 1984 yılında Wrigley Company tarafından piyasaya sürülen ve şirketin ilk şekersiz ürünü olma özelliği taşıyan bir sakız markasıdır. Lansmanından kısa bir süre sonra Amerika Birleşik Devletleri'nin en popüler sakız markalarından biri haline gelmiştir.
+
+Başlangıçta sakarin kullanmadan geliştirilen ilk şekersiz sakız olan Extra, 1997 yılında NutraSweet markasının kullanılmadığı yeni bir aspartam formülüyle yeniden düzenlenmiştir. 2007 yılında Amerikan Diş Hekimleri Birliği'nin (ADA) kabul mührünü alan ilk çiğneme sakızlarından biri olarak diş dostu kimliğini pekiştirmiştir.
+
+Her ülkede farklı tatlar, logolar ve sloganlarla pazarlanan Extra, küresel bir marka kimliğine sahiptir. Meksika milli futbol takımına sponsorluk gibi yerel pazarlama stratejileriyle de bilinir. Günümüzde Mars Incorporated (Wrigley) bünyesinde üretilmeye devam etmektedir.`,
+     boycottReason: `Extra'nın boykot edilmesinin temel nedeni, markanın sahibi Mars Inc. firmasının İsrail ile yakın bağlantılarının bulunmasıdır.
+
+Mars ailesi, Amerikan toplumuna asimile olma çabalarına rağmen her zaman Yahudi miraslarına sadık kalmıştır. Mars ailesi yıllar boyunca Yahudi davalarına milyonlarca dolar bağışta bulunmuştur.
+
+Üst kuruluşu olan Mars Inc.'in sitesinde İsrail Ordusu'na olan sosyal desteği açıkça paylaşılmaktadır. Bu destek, Mars Inc.'in İsrail'in askeri faaliyetlerine ve politikalarına destek verdiğini göstermektedir.
+
+Mars Incorporated, İsrail'deki gıda teknolojisi çözümlerini desteklemek için Jerusalem Venture Partners ile ortaklık yapmaktadır. Bu ortaklık, Mars Inc.'in İsrail ekonomisine ve teknoloji sektörüne doğrudan katkıda bulunduğunu göstermektedir.
+
+Bu nedenlerle, Extra boykot listesinde yer almaktadır.`,
      evidences: [
       "https://www.foodmanufacturing.com/home/news/13251464/mars-incorporated-partners-with-jerusalem-venture-partners-to-foster-foodtech-solutions-in-israel",
      ],
@@ -3827,26 +4130,6 @@ Kool-Aid'in en unutulmaz simgesi, duvarları kırarak "Oh, Yeah!" sloganıyla sa
      evidences: ["https://www.ynetnews.com/business/article/3832858"],
     },
     {
-     name: "Maxwell House",
-     slug: "maxwell-house",
-     foundedYear: 1892,
-     ctgry: "İçecek",
-     founder: "Joel Owsley Cheek",
-     owner: "Kraft Heinz Company (Kuzey Amerika) & JDE Peet's (Global)",
-     country: "ABD",
-     alternative_products: [],
-     img: "/maxwell-house.png",
-     isBoycotted: "boykot",
-     website: "https://www.maxwellhousecoffee.com/",
-     description: `Maxwell House, 1892 yılında toptancı Joel Owsley Cheek tarafından Nashville, Tennessee'de geliştirilen ve ismini şehrin o dönemdeki en prestijli oteli Maxwell House Hotel'den alan köklü bir kahve markasıdır. Otelin müşterilerinin Cheek'in özel karışımını çok beğenmesi üzerine marka doğmuş ve 1980'lerin sonuna kadar yaklaşık 100 yıl boyunca Amerika Birleşik Devletleri'nin en çok satan kahve markası olma başarısını göstermiştir.
-
-Markanın efsanevi sloganı "Good to the last drop" (Son damlasına kadar iyi), rivayete göre 1907 yılında Başkan Theodore Roosevelt'in bu kahveyi içtikten sonra söylediği sözden gelmektedir. Bu slogan, markanın logosuna ve etiketlerine kadar işlenmiş bir kalite taahhüdü olarak kullanılmaktadır.
-
-Markanın mülkiyeti günümüzde ikiye ayrılmıştır: Kuzey Amerika operasyonları boykot listesindeki Kraft Heinz Company tarafından yönetilirken, dünyanın geri kalanındaki hakları JDE Peet's şirketine aittir. Hazır kahve, öğütülmüş filtre kahve ve kapsül çeşitleriyle Amerikan kahve kültürünün en önemli temsilcilerinden biridir.`,
-     boycottReason: `Maxwell House markasının boykot edilmesinin temel nedeni, markanın sahibi olan Kraft Heinz Company'nin İsrail ile olan ticari ve finansal bağlarıdır. Kraft Heinz, İsrail'deki operasyonlarını sürdürmekte ve şirketin en büyük hissedarı olan Berkshire Hathaway'in İsrail ekonomisine yaptığı yatırımlar nedeniyle küresel boykot listelerinde yer almaktadır. Maxwell House, bu şirketin bir iştiraki olduğu için aynı boykot kapsamına girmektedir.`,
-     evidences: ["https://www.ynetnews.com/business/article/3832858"],
-    },
-    {
      name: "Ore-Ida",
      slug: "ore-ida",
      foundedYear: 1952,
@@ -4058,7 +4341,7 @@ Caffè Nero, geniş bir menü sunmaktadır. Marka, espresso bazlı içeceklerden
    website: "https://www.caffenero.com/tr",
    img: "/caffe-nero.png",
    isBoycotted: "boykot",
-   boycottReason: `Caffè Nero, Birleşik Krallık (İngiltere) merkezli bir markadır. İngiltere hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık siyasi ve ekonomik destek nedeniyle, İngiliz ekonomisine doğrudan katkı sağlayan ve bu menşei taşıyan markalar boykot listesinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
   },
   {
@@ -4083,35 +4366,7 @@ Ancak, Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İ
    website: "https://www.tchibo.com.tr/",
    img: "/tchibo.png",
    isBoycotted: "boykot",
-   boycottReason:
-    "Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları ve faaliyetleri nedeniyle boykot kapsamına alınmıştır. Herz ailesinin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo'nun ürünlerinin satın alınması önerilmemektedir. Tchibo markası da bu kapsamda boykot listesinde yer almaktadır.",
-   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
-  },
-  {
-   name: "Caribou Coffee",
-   slug: "caribou",
-   foundedYear: 1992,
-   founder: "John Puckett",
-   owner: "JAB Holdings",
-   description: `Caribou Coffee, 1992 yılında John Puckett tarafından Amerika Birleşik Devletleri'nin Minnesota eyaletinde kurulan ve dünyanın önde gelen kahve zincirlerinden biridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
-
-Caribou Coffee, özellikle premium kahve deneyimi sunmakta ve specialty coffee (özel kahve) kategorisinde faaliyet göstermektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve geniş bir menü ile müşterilerine hizmet vermektedir. Caribou Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
-
-Marka, 2012 yılında JAB Holdings tarafından satın alınmıştır. JAB Holdings, dünyanın en büyük kahve şirketlerinden biridir ve Caribou Coffee'nin yanı sıra Peet's Coffee, Keurig Dr Pepper ve diğer önemli kahve markalarına da sahiptir. Bu satın alma, Caribou Coffee'nin global genişlemesini hızlandırmıştır.
-
-Caribou Coffee şubeleri, sıcak ve samimi atmosferleriyle dikkat çekmektedir. Her şube, rahat bir ortam sunmakta ve müşterilere hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
-
-Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir. Caribou Coffee, Amerika Birleşik Devletleri ve Kanada'da binlerce şubeye sahiptir ve bu pazarlarda önemli bir pazar payına sahiptir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
-
-Caribou Coffee, kalite ve tutarlılığa büyük önem vermektedir. Marka, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
-
-Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'deki projelere destek verdiği bildirilen bir zincirdir. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu bağlantılar sebebiyle boykot listelerine girmiştir ve Caribou Coffee ürünlerinin satın alınması önerilmemektedir.`,
-   country: "ABD",
-   website: "https://www.cariboucoffee.com.tr/",
-   img: "/caribou.png",
-   isBoycotted: "boykot",
-   boycottReason:
-    "Caribou Coffee markası, JAB Holdings tarafından yönetilen bir kahve zinciridir. JAB Holdings'in İsrail'deki projelere verdiği destek iddiaları ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Caribou Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+   boycottReason: "Tchibo markası, Almanya merkezli bir marka olup sahibi Herz ailesinin İsrail'e verdiği destek açıklamaları ve faaliyetleri nedeniyle boykot kapsamına alınmıştır. Herz ailesinin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tchibo'nun ürünlerinin satın alınması önerilmemektedir. Tchibo markası da bu kapsamda boykot listesinde yer almaktadır.",
    alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
   },
   {
@@ -4135,34 +4390,6 @@ Ancak, Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünl
    isBoycotted: "boykot",
    boycottReason:
     "Illy markası, Coca-Cola ile yaptığı stratejik iş birliği ve ürünlerinin İsrail tesislerinde üretilip pazarlanması nedeniyle boykot kapsamına alınmıştır. Illy'nin Coca-Cola ile olan iş birliği ve İsrail'deki üretim/pazarlama faaliyetleri, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Coca-Cola'nın İsrail'deki yatırımları ve İsrail'e verdiği destekler de bu boykotun nedenleri arasındadır. Bu nedenle, Illy'nin ürünlerinin satın alınması önerilmemektedir. Illy markası da bu kapsamda boykot listesinde yer almaktadır.",
-   alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
-  },
-  {
-   name: "Tassimo",
-   slug: "tassimo",
-   foundedYear: 2004,
-   ctgry: "İçecek",
-   founder: "Kraft Foods",
-   owner: "Jacobs Douwe Egberts",
-   description: `Tassimo, 2004 yılında Kraft Foods tarafından geliştirilen ve dünya çapında faaliyet gösteren bir kapsül kahve sistemidir. Marka, özellikle çeşitlilik ve esneklik açısından öne çıkmakta ve sadece kahve değil, aynı zamanda çay, sıcak çikolata ve diğer sıcak içecek seçenekleri de sunmaktadır.
-
-Tassimo, kapsül kahve kategorisinde önemli bir konuma sahiptir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her kapsülde tutarlı bir lezzet garantisi sunmaktadır. Tassimo, çeşitli kavurma profilleri ve harmanlar sunmakta ve farklı zevklere hitap eden geniş bir ürün yelpazesi sunmaktadır.
-
-Markanın en önemli özelliklerinden biri, Bosch tarafından geliştirilen özel Tassimo makineleridir. Bu makineler, her kapsülün üzerindeki barkodları okuyarak otomatik olarak doğru sıcaklık, basınç ve hazırlama süresini ayarlamaktadır. Bu teknoloji, mükemmel bir içecek deneyimi sunmak için özel olarak tasarlanmıştır.
-
-Tassimo makineleri, modern tasarımları ve kullanıcı dostu özellikleriyle dikkat çekmektedir. Her makine, kolay kullanım, hızlı hazırlama ve temizlik kolaylığı gibi özelliklerle donatılmıştır. Makineler, hem ev kullanımı hem de küçük ofisler için ideal boyutlarda üretilmektedir.
-
-Marka, sadece kahve değil, aynı zamanda çeşitli sıcak içecek seçenekleri sunmaktadır. Tassimo, espresso, cappuccino, latte, çay, sıcak çikolata ve diğer özel içecekler için kapsüller sunmaktadır. Bu yaklaşım, tüketicilere tek bir makine ile geniş bir içecek yelpazesi sunmaktadır.
-
-Tassimo, 2015 yılında Kraft Foods'un kahve bölümünün ayrılmasıyla Jacobs Douwe Egberts (JDE) çatısı altına geçmiştir. JDE, dünyanın en büyük kahve şirketlerinden biridir ve Tassimo'nun yanı sıra Jacobs, Douwe Egberts, Senseo ve diğer önemli kahve markalarına da sahiptir.
-
-Ancak, Tassimo markası, Jacobs Douwe Egberts çatısı altında faaliyet göstermektedir ve şirketin İsrail ile ikili ticari ilişkileri ve destekleri gerekçe gösterilerek boykot edilmektedir. JDE'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tassimo ürünlerinin satın alınması önerilmemektedir.`,
-   country: "Almanya",
-   website: "https://www.tassimo.com/",
-   img: "/tassimo.webp",
-   isBoycotted: "boykot",
-   boycottReason:
-    "Tassimo markası, Jacobs Douwe Egberts (JDE) çatısı altında faaliyet gösteren bir kapsül kahve markasıdır. Jacobs Douwe Egberts'in İsrail ile ikili ticari ilişkileri ve İsrail'e verdiği destekler nedeniyle, JDE bünyesindeki tüm markalar boykot kapsamına alınmıştır. JDE'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Jacobs Douwe Egberts'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Tassimo markası da bu kapsamda boykot listesinde yer almaktadır.",
    alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
   },
   {
@@ -4212,8 +4439,7 @@ Ancak, Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen
    website: "https://www.lavazza.com/en",
    img: "/Lavazza.png",
    isBoycotted: "boykot",
-   boycottReason:
-    "Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen destek ve İsrail yatırımları nedeniyle boykot kapsamına alınmıştır. Lavazza'nın İsrail'deki faaliyetleri, spor kulüplerine verdiği destekler ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Lavazza'nın ürünlerinin satın alınması önerilmemektedir. Lavazza markası da bu kapsamda boykot listesinde yer almaktadır.",
+   boycottReason: "Lavazza markası, İsrail'de faaliyet gösteren spor kulüplerine verilen destek ve İsrail yatırımları nedeniyle boykot kapsamına alınmıştır. Lavazza'nın İsrail'deki faaliyetleri, spor kulüplerine verdiği destekler ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Lavazza'nın ürünlerinin satın alınması önerilmemektedir. Lavazza markası da bu kapsamda boykot listesinde yer almaktadır.",
    alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
   },
   {
@@ -4241,7 +4467,7 @@ Sakarya / Hendek tesisinde noodle üretim hatları sayısı 4'e çıkarılmışt
 OBA Makarnacılık, sürdürülebilirlik stratejisine uyum sağlamaktadır.Noodle üretim tesisinde tüketilen elektriğin yarısı GES(Güneş Enerjisi Santrali) panellerinden sağlanmaktadır.Makarna üretiminde kullanılan elektriğin % 5'i, tesis çatısına kurulan toplam 4,5 MW'lık GES panellerinden karşılanmaktadır.Bu sayede 3.600 ton karbon emisyonu önlenmekte ve 71.000 ağaç kurtarılmaktadır.
 
 OBA Makarnacılık, mükemmeliyetçi yaklaşımlarıyla elde ettikleri yüksek tüketici memnuniyetinin bir tesadüf değil, başarı hikayelerinin özü olduğunu belirtmektedir.`,
-   boycottReason: `Oba Makarna, boykot listesinde yer almaktadır.Yıldız Holding Yönetim Kurulu Üyesi, Pladis ve GODIVA Yönetim Kurulu Başkanı Murat Ülker'in 19 Ekim'de yaptığı açıklamada, işgalci İsrail'in yıllardır Filistinlilere yaptığı zulmün çözülemediğini ve çözüm için yapılanların da yeterli görünmediğini söylemesi nedeniyle şirket boykot kapsamına alınmıştır.`,
+   boycottReason: `Oba Makarna, boykot listesinde yer almaktadır. Yıldız Holding Yönetim Kurulu Üyesi, Pladis ve GODIVA Yönetim Kurulu Başkanı Murat Ülker'in 19 Ekim'de yaptığı açıklamada, işgalci İsrail'in yıllardır Filistinlilere yaptığı zulmün çözülemediğini ve çözüm için yapılanların da yeterli görünmediğini söylemesi nedeniyle şirket boykot kapsamına alınmıştır.`,
    evidences: [""],
   },
   {
@@ -4681,8 +4907,12 @@ Bunge çatısı altında olmasına rağmen, Sezai Ömer Madra markası hala "pre
    img: "/air-wick.png",
    isBoycotted: "boykot",
    website: "https://www.airwick.com.tr/",
-   description: `Air Wick, Amerikalı mucit ve girişimci Guy Paschal Sherman (1901-1989) tarafından 1943 yılında yaratılan ve ev ortamlarında kullanılan ilk deodorantlardan biri olan bir oda spreyi markasıdır. 1943 yılında şirket Air Wick ismi ile ev ortamlarında kullanılan ilk deodorant satmaya başladı. 1953 yılında ürün Avrupa, Avustralya ve Kanada pazarlarına hızla açıldı. 1977 yılında Novartis tarafından alınan Air Wick, 1984 yılında 200 milyon dolar karşılığında Reckitt & Colman'a (sonraki ismi Reckitt Benckiser) satıldı. Air Wick, Portekiz, ABD ve Türkiye'de hizmet vermektedir.`,
-   boycottReason: `Air Wick bir oda spreyi markasıdır. 1984 yılında 200 milyon dolar karşılığında Reckitt markası tarafından satın alınmıştır. Markanın sahibi Reckitt şirketinin önemli miktardaki hisseleri, Siyonist Vanguard Group Inc. ve Blackrock Inv. Gruplarındadır. Ayrıca İsrailli Startuplara yatırımları mevcuttur. Bu nedenle boykot listemizdedir.`,
+   description: `Air Wick, 1943 yılında Amerikalı mucit Guy Paschal Sherman tarafından geliştirilen ve ev içi kullanım için tasarlanan ilk deodorantlardan (oda kokusu) biri olarak tarihe geçen köklü bir markadır. ABD'de başlayan serüveni, 1953'ten itibaren Avrupa, Kanada ve Avustralya pazarlarına açılarak küresel bir boyuta ulaşmıştır.
+
+Marka, tarihsel süreçte İsviçreli ilaç devi Ciba-Geigy (daha sonra Novartis) tarafından satın alınmış, ardından 1984 yılında İngiliz Reckitt & Colman (bugünkü Reckitt) bünyesine katılmıştır. Günümüzde elektrikli oda kokuları, otomatik spreyler ve kokulu mumlar gibi geniş bir ürün yelpazesiyle ev bakım kategorisinin lider markalarından biridir.`,
+   boycottReason: `Air Wick, Amerika Birleşik Devletleri'nde kurulmuş ve kökeni itibarıyla Amerikan endüstrisinin bir parçası olan bir markadır. ABD hükümetinin, İsrail'in Filistin'e yönelik işgal politikalarına ve askeri operasyonlarına sağladığı koşulsuz siyasi, askeri ve ekonomik destek nedeniyle; ABD menşeli markalar küresel boykot hareketlerinin ana hedefindedir.
+
+Ayrıca markanın çatı şirketi Reckitt'in önemli hissedarları arasında Vanguard Group Inc. ve Blackrock Inv. gibi Siyonist görüşlere sahip olduğu iddia edilen büyük yatırım fonları bulunmaktadır. Şirketin İsrail merkezli start-up'lara yaptığı yatırımlar ve İsrail ekonomisiyle olan dolaylı bağları, Air Wick markasının da boykot listesinde yer almasının temel sebeplerindendir.`,
    evidences: [
     "https://en.globes.co.il/en/article-reckitt-benckiser-seeks-investments-in-israeli-cos-1001262747",
    ],
@@ -4692,8 +4922,8 @@ Bunge çatısı altında olmasına rağmen, Sezai Ömer Madra markası hala "pre
    slug: "upfield",
    foundedYear: 2018,
    ctgry: "Şirket",
-   founder: "Kohlberg Kravis Roberts",
-   owner: "Kohlberg Kravis Roberts",
+   founder: "Kohlberg Kravis Roberts (KKR)",
+   owner: "Kohlberg Kravis Roberts (KKR)",
    country: "ABD",
    alternative_products: [],
    img: "/upfield.png",
@@ -4764,8 +4994,7 @@ Uzun yıllar Unilever bünyesinde kalan Becel, 2018 yılında gerçekleşen stra
    Merkezi İsviçre'nin Kilchberg kentinde bulunan şirket, sadece çikolata barlarıyla değil, ikonik "Lindor" dolgulu trüfleri ve Paskalya döneminin simgesi haline gelen "Gold Bunny" (Altın Tavşan) ile tanınır. Küresel bir büyüme stratejisi izleyen Lindt; 1990'larda Avusturyalı Hofbauer, İtalyan Caffarel ve Amerikan Ghirardelli gibi prestijli markaları bünyesine katarak dünyanın en büyük premium çikolata üreticilerinden biri haline gelmiştir.
    
    Lindt, üretim süreçlerinde "çekirdekten bara" (bean-to-bar) felsefesini benimseyerek kakao çekirdeklerinin seçiminden nihai ürüne kadar tüm aşamaları kendi kontrolünde tutar. Sektördeki bağımsız yapısını koruyan şirket, İsviçre çikolatasının dünyadaki en önemli temsilcilerinden biri olarak faaliyetlerine devam etmektedir.`,
-
-   boycottReason: `Lindt, İsviçre menşeli ithal bir markadır. Herhangi bir savaş suçu veya insan hakları ihlaliyle ilişkilendirilen siyasi bir boykot listesinde yer almamaktadır. Ancak, yerli üretimi ve ulusal ekonomiyi destekleme hassasiyeti taşıyan tüketiciler için, ithal ürün olması sebebiyle 'boykot' kategorisinde değerlendirilmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: [],
   },
   {
@@ -4785,7 +5014,9 @@ Uzun yıllar Unilever bünyesinde kalan Becel, 2018 yılında gerçekleşen stra
 Şirketin ürün yelpazesinde temel olarak öğün yerine geçen protein karışımları (shake), vitaminler, takviye edici gıdalar, sporcu beslenme ürünleri ve kişisel bakım malzemeleri bulunmaktadır. Geleneksel mağazacılık yerine doğrudan satış modelini benimseyen marka, ürünlerini bağımsız üyeleri aracılığıyla tüketicilere ulaştırmaktadır.
 
 New York Borsası'nda (NYSE) işlem gören halka açık bir şirket olan Herbalife, yasal merkezi Cayman Adaları'nda olsa da ana yönetim merkezi Los Angeles'tadır. Zaman zaman iş modeliyle (piramit sistem iddiaları ve 2016 FTC anlaşması gibi) ilgili tartışmalarla gündeme gelse de, küresel beslenme sektörünün en hacimli oyuncularından biri olarak varlığını sürdürmektedir.`,
-   boycottReason: `Herbalife, Amerika Birleşik Devletleri kökenli bir markadır. İsrail'in Gazze'de uyguladığı soykırımın en büyük silah tedarikçisi ve en büyük finansal destekçisi olan ABD'ye ait bir marka olması sebebiyle boykot listesindedir. ABD ekonomisine sağladığı katkı ve kökeni nedeniyle boykot edilmektedir.`,
+   boycottReason: `Herbalife, Amerika Birleşik Devletleri merkezli bir markadır ve tüm ticari faaliyetleri ABD ekonomisine doğrudan katkı sağlamaktadır. Şirketin ödediği vergiler ve yarattığı ekonomik değer, ABD'nin finansal gücünü destekleyen unsurlardan biridir.
+
+Amerika Birleşik Devletleri'nin, İsrail'in işgal politikalarına ve askeri operasyonlarına sağladığı koşulsuz siyasi, askeri ve ekonomik destek nedeniyle; ABD menşeli markalar küresel boykot hareketlerinin kapsamına girmektedir. Bu nedenle, Amerikan sermayeli Herbalife'da boykot listesinde yer almaktadır.`,
   },
   {
    name: "Yayla Agro",        //! BU KISIM TAMAMDIR.
@@ -4889,7 +5120,7 @@ Sermaye yapısı itibarıyla Borsa İstanbul'da (BIST: YYLGD) işlem gören halk
    foundedYear: 1950,
    ctgry: "Bebek & Çocuk",
    founder: "Dr. Heinz Lemke",
-   owner: "DMK Group (Deutsches Milchkontor)",
+   owner: "DMK Deutsches Milchkontor",
    country: "Almanya",
    alternative_products: [],
    img: "/humana.png",
@@ -4900,7 +5131,7 @@ Sermaye yapısı itibarıyla Borsa İstanbul'da (BIST: YYLGD) işlem gören halk
 Marka, Almanya'nın en büyük süt kooperatifi olan DMK Group (Deutsches Milchkontor) bünyesinde yer almaktadır. Bu güçlü yapı, Humana'nın "inekten biberona" kadar tüm üretim sürecini tam kontrol altında tutmasını sağlar. Sadece kendi kooperatifine bağlı çiftçilerden temin edilen, GDO'suz ve yüksek kaliteli sütleri kullanarak üretim yapan marka, Almanya'daki tesislerinde uluslararası gıda güvenliği standartlarına uygun olarak çalışmaktadır.
 
 Humana'nın geniş ürün yelpazesinde; yenidoğandan itibaren kullanılan formül sütler, gaz ve alerji gibi durumlar için özel tıbbi amaçlı mamalar, sütlü tahıllı kaşık mamaları ve emziren anneler için geliştirilmiş "Still-Tee" gibi bitki çayları bulunmaktadır. Türkiye pazarında da uzun yıllardır faaliyet gösteren marka, "Sevgiyle Büyü" sloganıyla ebeveynlere güvenilir beslenme çözümleri sunmaktadır.`,
-   boycottReason: `Humana, Almanya menşeli bir markadır ve mülkiyeti Almanya'nın en büyük süt endüstrisi devi DMK Group'a aittir. Almanya hükümetinin, İsrail'in Filistin'e yönelik politikalarına ve askeri operasyonlarına verdiği açık, koşulsuz siyasi ve lojistik destek nedeniyle, Alman ekonomisine doğrudan katkı sağlayan bu marka boykot listesinde değerlendirilmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    evidences: [""],
   },
   {
@@ -4938,393 +5169,10 @@ Humana'nın geniş ürün yelpazesinde; yenidoğandan itibaren kullanılan form�
 Şirketin kurumsal yapısı yıllar içinde önemli değişiklikler geçirmiştir. 2006 yılında Unilever tarafından Permira fonuna satılan Iglo, 2015 yılında Birleşik Krallık merkezli Nomad Foods tarafından 2.6 milyar Euro değerlemeyle satın alınmıştır. Bu satın alma ile birlikte Birds Eye ve Findus gibi diğer dev markalarla aynı çatı altında birleşerek Avrupa'nın en büyük dondurulmuş gıda operasyonunun bir parçası olmuştur.
 
 Günümüzde Nomad Foods Europe bünyesinde faaliyet gösteren Iglo; sebze, balık, tavuk ve hazır yemek kategorilerinde geniş bir ürün yelpazesi sunmaktadır. "Tazelikten ödün vermeden pratiklik" sunan marka, 15'ten fazla ülkede faaliyet göstermektedir.`,
-   boycottReason: `Iglo, Birleşik Krallık merkezli Nomad Foods şirketine aittir. Markanın İsrail ile doğrudan bir ticari veya siyasi bağına dair kanıt bulunmamaktadır. Ancak şirket, tamamen yabancı sermayeli (ABD ve İngiltere kökenli fonlar) bir yapıya sahip olduğu için, yerli üretimi desteklemek isteyen ve ithal ürünlere mesafeli duran tüketiciler için 'boykot' kategorisinde değerlendirilmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    evidences: [],
   },
-  {
-   name: "Amigo",
-   slug: "amigo",
-   foundedYear: 1983,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/amigo.png",
-   isBoycotted: "onerilmiyor",
-   website:
-    "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/amigo",
-   description: `Amigo, 1983 yılında Türkiye'nin ilk paketlenmiş kuruyemiş firmalarından biri olarak kurulmuştur. Amigo, 1995 yılında kurulan Şok Marketler Tic. A.Ş. adına çeşitli üreticiler tarafından üretilen atıştırmalık ürünlerin markasıdır.
 
-Günümüzde Şok Marketler'in güvencesiyle üretilen Amigo kuruyemişleri, zengin lezzet çeşitliliği ve yüksek kalite standartlarıyla öne çıkmakta, tüketicilere güvenilir ve sağlıklı bir alternatif sunmaktadır.
-
-Amigo, fıstık, ayçekirdeği, çiğ badem, kuru meyve, cips ve fıstık ezmesi gibi geniş bir ürün yelpazesiyle damak zevkine düşkün olanlar için ideal bir seçenektir. Amigo, Şok Marketler'in özel markası olarak faaliyet göstermektedir.
-
-Şok Marketler, Türkiye'nin en büyük perakende zincirlerinden biri olup 2011 yılında Ülker'in de sahibi olduğu Yıldız Holding bünyesine katılmıştır. Bu nedenle Amigo, Şok Marketler'e ait bir marka olarak Yıldız Holding çatısı altında faaliyet göstermektedir.`,
-   boycottReason: `Amigo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Karmen",
-   slug: "karmen",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/karmen.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/karmen",
-   description: `Karmen, Şok Marketler zincirinin çikolata, gofret ve kakaolu ürünler kategorisindeki tescilli markasıdır. Yıldız Holding (Ülker) bünyesindeki fabrikalarda veya holdingin kalite standartlarına uygun tesislerde üretilen Karmen ürünleri, uygun fiyatla yüksek lezzet sunmayı amaçlar.
-
-Ürün portföyünde; tablet çikolatalar, bütün fıstıklı ve fındıklı çeşitler, kakaolu fındık kreması, gofretler ve bayramlık ikramlık çikolatalar bulunmaktadır. Tüketiciler tarafından "fiyat/performans ürünü" olarak bilinen Karmen, Ülker'in çikolata üretimindeki uzmanlığının market markasına yansımış halidir.`,
-
-   boycottReason: `Karmen, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Experdent",
-   slug: "experdent",
-   foundedYear: 2012,
-   ctgry: "Kişesel Bakım",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/experdent.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/experdent",
-   description: `Experdent, Şok Marketler zincirinin ağız ve diş sağlığı kategorisindeki tescilli özel markasıdır (Private Label). Şok Marketler'in tüketicilere uygun fiyatlı ve kaliteli temel ihtiyaç ürünleri sunma stratejisi doğrultusunda geliştirilmiştir.
-
-Ürün portföyünde; diş çürüklerine karşı koruma sağlayan florürlü diş macunları, beyazlatıcı etkili macunlar, naneli ferahlatıcı çeşitler ve farklı sertlik derecelerine sahip diş fırçaları bulunmaktadır. Global ve pahalı ağız bakım markalarına ekonomik bir alternatif olarak konumlanan Experdent, günlük hijyen ihtiyacını bütçe dostu bir şekilde karşılamayı hedefler.`,
-   boycottReason: `Experdent, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Bisto",
-   slug: "bisto",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/bisto.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bisto",
-   description: `Bisto, Şok Marketler zincirinin unlu mamuller, kurabiye ve fırıncılık ürünleri kategorisindeki tescilli özel markasıdır. "Evinizin fırınından çıkmış gibi" hissi yaratmayı amaçlayan ürünleriyle, çay saatlerinin ekonomik ve lezzetli eşlikçisi olarak konumlanmıştır.
-
-Ürün portföyünde; tatlı ve tuzlu kurabiyeler, gevrekler, galetalar ve çeşitli hamur işi atıştırmalıklar bulunmaktadır. Yıldız Holding'in gıda üretimindeki tecrübesiyle üretilen/ürettirilen Bisto, uygun fiyatla kaliteyi buluşturmayı ve tüketicilere taze lezzetler sunmayı hedefler.`,
-   boycottReason: `Amigo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Altınküp",
-   slug: "altinkup",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/altinkup.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/altnkup",
-   description: `Altınküp, Şok Marketler zincirinin temel gıda kategorisinde yer alan, toz ve küp şeker ürünlerini tüketicilere sunan tescilli özel markasıdır (Private Label). %100 pancar şekerinden üretilen doğal içeriğiyle, çay saatlerinden tatlı yapımına kadar mutfakların en temel ihtiyacını karşılamayı hedefler.
-
-Ürün gamında; çabuk eriyen küp şekerler, kristal toz şeker ve esmer şeker gibi çeşitler bulunmaktadır. Şok Marketler'in "kaliteli ürünü uygun fiyata sunma" stratejisinin bir parçası olan Altınküp, Yıldız Holding'in gıda güvenliği standartlarına uygun tesislerde, el değmeden paketlenerek raflarda yerini almaktadır.`,
-   boycottReason: `Altınküp, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Beyaz Güvercin",
-   slug: "beyaz-guvercin",
-   foundedYear: 2012,
-   ctgry: "Temizlik",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/beyaz-guvercin.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/beyaz-guvercin",
-   description: `Beyaz Güvercin, Şok Marketler zincirinin kağıt ve hijyen ürünleri kategorisindeki tescilli özel markasıdır (Private Label). Tuvalet kağıdı, kağıt havlu, peçete ve ıslak mendil gibi günlük temizlik ihtiyaçlarını karşılamak üzere geliştirilmiştir.
-
-"Yumuşak doku, yüksek emicilik" vaadiyle üretilen Beyaz Güvercin ürünleri, global markaların kalitesini daha ekonomik fiyatlarla tüketiciye sunmayı hedefler. Şok Marketler'in en çok tercih edilen temel ihtiyaç markalarından biridir.`,
-   boycottReason: `Beyaz Güvercin, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Mintax",
-   slug: "mintax",
-   foundedYear: 1970,
-   ctgry: "Temizlik",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/mintax.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/mintax",
-   description: `Mintax, Şok Marketler'in temizlik ürünleri kategorisindeki en güçlü ve bilinen özel markasıdır (Private Label). "Temizlikte Mükemmel Sonuç" vaadiyle yola çıkan marka, bulaşık deterjanından çamaşır suyuna, yüzey temizleyicilerden yağ çözücülere kadar geniş bir ürün yelpazesi sunar.
-
-Ekonomik fiyatıyla dikkat çeken Mintax, performansıyla da tüketicilerin beğenisini kazanmış ve marketin en çok satan markalarından biri olmuştur. Etkili formülleriyle ev temizliğinin her alanında pratik çözümler sunmayı hedefler.`,
-   boycottReason: `Mintax, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Piyale",
-   slug: "piyale",
-   foundedYear: 1922,
-   ctgry: "Yiyecek",
-   founder: "Hasan Tahsin Piyale",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/piyale.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/piyale",
-   description: `Piyale, 1922 yılında Hasan Tahsin Piyale tarafından İzmir'de kurulan, Türkiye Cumhuriyeti ile yaşıt, ülkenin en köklü ve sembol gıda markalarından biridir. Yıllarca "Türkiye'nin Makarnası" sloganıyla hafızalara kazınan marka, günümüzde Şok Marketler zincirinin temel gıda ve pastacılık ürünleri kategorisindeki en güçlü özel markası (Private Label) olarak yaşamına devam etmektedir.
-
-Tarihsel mirasını koruyarak Şok Marketler güvencesiyle raflarda yer alan Piyale; makarnadan una, hazır çorbadan pudinge, kabartma tozundan kakaoya kadar mutfakların temel ihtiyaçlarını karşılayan geniş bir ürün yelpazesi sunar. Asırlık lezzet tecrübesini ekonomik fiyatlarla tüketiciye ulaştırmayı hedefler.`,
-
-   boycottReason: `Piyale, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Crown",
-   slug: "crown",
-   foundedYear: 2012,
-   ctgry: "İçecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/crown.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/crown",
-   description: `Crown, Şok Marketler zincirinin gazlı ve aromalı içecekler kategorisindeki tescilli markasıdır. Global içecek markalarına ekonomik ve kaliteli bir alternatif oluşturmak amacıyla geliştirilmiştir.
-
-Ürün portföyünde; kola, gazoz, portakallı gazlı içecek, buzlu çay (Ice Tea) ve limonata gibi serinletici çeşitler bulunmaktadır. Yıldız Holding'in içecek sektöründeki üretim gücü ve kalite standartlarıyla üretilen Crown, özellikle yaz aylarında ve yemeklerin yanında ferahlatıcı bir seçenek olarak tüketicilere sunulmaktadır.`,
-   boycottReason: `Crown, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Evin",
-   slug: "evin",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/evin.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/evin",
-   description: `Evin, Şok Marketler zincirinin sıvı yağ kategorisindeki temel markasıdır. Ayçiçek yağı ve mısır yağı gibi mutfakların en temel ihtiyaçlarını, Yıldız Holding'in (Besler Gıda) kalite güvencesiyle ve ekonomik fiyatlarla sunar. "Evinizin yağı" sloganıyla özdeşleşen marka, kızartmalardan hamur işlerine kadar çok amaçlı kullanım için formüle edilmiştir.`,
-   boycottReason: `Evin, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "İnci",
-   slug: "inci",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/inci.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/inci",
-   description: `İnci, Şok Marketler zincirinin dondurulmuş gıda ve pratik yemek çözümleri kategorisindeki tescilli markasıdır. Günlük hayatın koşturmacasında mutfakta zaman kazandıran, lezzetli ve pratik ürünleriyle bilinir.
-
-Geniş ürün yelpazesinde; parmak ve kroket patates çeşitleri, dondurulmuş sebzeler (bezelye, mısır), milföy hamuru, Kayseri mantısı, karışık pizza ve hamburger köftesi gibi ürünler yer almaktadır. Mevsiminde toplanan sebzelerin ve kaliteli malzemelerin dondurularak tazeliğinin korunduğu İnci ürünleri, ekonomik fiyatlarıyla tüketicilere sunulmaktadır.`,
-   boycottReason: `İnci, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Lio",
-   slug: "lio",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/lio.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/lio",
-   description: `Lio, Şok Marketler'in zeytinyağı ve zeytin bazlı ürünler kategorisindeki uzman markasıdır. Ege Bölgesi'nin zeytinlerinden elde edilen Sızma ve Riviera zeytinyağlarını, yüksek kalite ve uygun fiyat dengesiyle tüketicilere sunar.
-
-Marka, zeytinyağının yanı sıra salamura zeytin çeşitleriyle de raflarda yer almaktadır. Yıldız Holding'in gıda güvenliği standartlarına uygun olarak üretilen Lio, mutfaklarında zeytinyağı lezzetini ekonomik bir şekilde kullanmak isteyenlerin tercihidir.`,
-   boycottReason: `Lio, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Tempo",
-   slug: "tempo",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/tempo.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/tempo",
-   description: `Tempo, Şok Marketler zincirinin bisküvi, kraker ve atıştırmalık kategorisindeki tescilli özel markasıdır. "Yılların deneyimi ve kalite anlayışıyla" üretildiği belirtilen marka, tüketicilere ekonomik fiyatlarla lezzetli atıştırmalık alternatifleri sunmayı hedefler.
-
-Geniş bir ürün yelpazesine sahip olan Tempo; çıtır krakerlerden kremalı bisküvilere, tuzlu atıştırmalıklardan çay saati ikramlıklarına kadar her damak zevkine hitap eden seçenekler barındırır. Özenle seçilmiş malzemeler ve titiz üretim süreçleriyle hazırlanan ürünleri, gün içinde enerji toplamak veya keyifli anlar paylaşmak isteyenler için raflarda yerini almaktadır.
-   
-Yıldız Holding'in (Ülker grubu) bisküvi üretimindeki derin tecrübesini arkasına alan Tempo, market markalı (Private Label) ürünler arasında fiyat/performans dengesiyle öne çıkan ve Şok müşterileri tarafından sıkça tercih edilen bir markadır.`,
-   boycottReason: `Tempo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Peki",
-   slug: "peki",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/peki.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/peki",
-   description: `Peki, Şok Marketler zincirinin kek ve unlu tatlılar kategorisindeki tescilli özel markasıdır. "Peki dedirten lezzet" mottosuyla yola çıkan marka, özellikle çay saatleri ve ani tatlı krizleri için pratik çözümler sunar.
-
-Ürün portföyünde; baton kekler, mozaik pastalar, donutlar, kruvasanlar ve tek porsiyonluk dilim kekler yer almaktadır. Yumuşak dokusu ve taze lezzetiyle bilinen Peki ürünleri, ekonomik fiyatlarıyla pastane lezzetlerine alternatif olarak raflarda yerini almaktadır.`,
-   boycottReason: `Peki, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Taşkale",
-   slug: "taskale",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/taskale.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/taskale",
-   description: `Taşkale, geleneksel Türk tatlılarını ve kahvaltılık ürünlerini Şok Marketler güvencesiyle sunan bir markadır. Tahin, pekmez, helva çeşitleri (sade, kakaolu, fıstıklı) ve lokum gibi Anadolu'nun köklü lezzetlerini modern paketleme standartlarıyla tüketicilere ulaştırır.
-
-Özellikle kahvaltı sofralarının vazgeçilmezi olan tahin-pekmez ikilisi ve enerji deposu helvalarıyla bilinen Taşkale, geleneksel üretim yöntemlerine sadık kalarak, katkısız ve doğal lezzetler sunmayı hedefler.`,
-   boycottReason: `Taşkale, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Anadolu Mutfağı",
-   slug: "anadolu-mutfagi",
-   foundedYear: 2012,
-   ctgry: "Yiyecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/anadolu-mutfagi.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/anadolu-mutfagi",
-   description: `Anadolu Mutfağı, isminden de anlaşılacağı üzere Türkiye'nin bereketli topraklarından elde edilen bakliyat ve tahıl ürünlerini sofralara taşıyan Şok Marketler markasıdır. Pirinç (osmancık, baldo), mercimek, nohut, fasulye, bulgur ve mısır gibi temel gıda maddelerini kapsar.
-
-Yöresel mahsullerin özenle seçilip paketlendiği marka, Türk mutfağının tencere yemekleri için kaliteli ve ekonomik bir temel oluşturur. "Bereketli sofralar" vizyonuyla hareket eden marka, her evin ihtiyacı olan temel gıdaları ulaşılabilir fiyatlarla sunmaktadır.`,
-   boycottReason: `Anadolu Mutfağı, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Deren",
-   slug: "deren",
-   foundedYear: 2012,
-   ctgry: "İçecek",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/deren.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/deren",
-   description: `Deren, Şok Marketler zincirinin çay kategorisindeki uzman markasıdır. Karadeniz'in seçkin çay bahçelerinden toplanan yapraklarla harmanlanan siyah çaylarının yanı sıra, bitki ve meyve çayı çeşitleriyle de geniş bir ürün yelpazesine sahiptir.
-
-Dökme çay, demlik poşet ve bardak poşet seçenekleri sunan Deren, "Demi tam, keyfi tamam" anlayışıyla Türk çay kültürüne uygun, tavşan kanı ve aromatik bir çay deneyimi vaat eder. Ekonomik fiyatıyla tiryakilerin tercih ettiği markalardan biridir.`,
-   boycottReason: `Deren, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  {
-   name: "Bebeland",
-   slug: "bebeland",
-   foundedYear: 2012,
-   ctgry: "Bebek & Çocuk",
-   founder: "Şok Marketler",
-   owner: "Şok Marketler Tic. A.Ş. (Yıldız Holding)",
-   country: "Türkiye",
-   alternative_products: [],
-   img: "/bebeland.png",
-   isBoycotted: "onerilmiyor",
-   website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bebeland",
-   description: `Bebeland, Şok Marketler'in bebek bakım ürünleri kategorisindeki güvenilir markasıdır. Bebek bezleri, ıslak mendiller, bebek şampuanları ve bakım örtüleri gibi ürünlerle ebeveynlerin en büyük yardımcısı olmayı hedefler.
-
-Dermatolojik olarak test edilen ve bebeklerin hassas cilt yapısına uygun olarak geliştirilen Bebeland ürünleri, yüksek emicilik ve yumuşaklık standartlarını ekonomik fiyatlarla sunar. "Mutlu bebekler, huzurlu anneler" anlayışıyla üretilen marka, kaliteden ödün vermeden bütçe dostu çözümler sağlar.`,
-   boycottReason: `Bebeland, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
-
-Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
-   evidences: [""],
-  },
-  //burdayım
-  {
-   name: "",
-   slug: "",
-   foundedYear: 1111111111111111111111111111111,
-   ctgry: "",
-   founder: "",
-   owner: "",
-   country: "",
-   alternative_products: [],
-   img: "/.png",
-   isBoycotted: "boykot",
-   website: "",
-   description: ``,
-   boycottReason: ``,
-   evidences: [""],
-  },
   //! SİGARA MARKALARI
   {
    name: "Kent",
@@ -5744,7 +5592,9 @@ Tarihsel süreçte önce Sabancı Holding bünyesine katılan marka, daha sonra 
      website: "https://www.danone.com.tr/markalarimiz/sutlu-urunler/tikvesli",
      img: "/tikvesli.png",
      isBoycotted: "boykot",
-     boycottReason: `Tikveşli'nin sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Tikveşli markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Tikveşli her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Tikveşli markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      alternative_products: ["sutas", "pinar"],
     },
     {
@@ -5763,7 +5613,9 @@ Tarihsel süreçte önce Sabancı Holding bünyesine katılan marka, daha sonra 
      website: "https://www.activiaturkiye.com/activia-dunyasini-kesfet/",
      img: "/activia.png",
      isBoycotted: "boykot",
-     boycottReason: `Activia'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Activia markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Activia her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Activia markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Bonafont",
@@ -5785,7 +5637,9 @@ Bonafont, Meksika'nın en köklü ve saygın şişelenmiş su markalarından bir
      website: "https://bonafont.com.mx/",
      img: "/bonafont.png",
      isBoycotted: "boykot",
-     boycottReason: `Bonafont'un sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Bonafont markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Bonafont her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Bonafont markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Almimama",
@@ -5809,7 +5663,9 @@ Almimama, Danone'nin anne ve bebek sağlığına katkı sağlama misyonunun bir 
      website: "",
      img: "/almimama.png",
      isBoycotted: "boykot",
-     boycottReason: `Almimama'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Almimama markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Almimama her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Almimama markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Nutricia",
@@ -5839,7 +5695,9 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
      website: "https://www.nutricia.com.tr/",
      img: "/nutricia.png",
      isBoycotted: "boykot",
-     boycottReason: `Nutricia'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Nutricia markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Nutricia her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Nutricia markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      subBrands: [
       {
        name: "Fortimel",
@@ -5862,7 +5720,9 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
        website: "https://www.nutricia.com.tr/urun/detay/fortimel-energy",
        img: "/fortimel.png",
        isBoycotted: "boykot",
-       boycottReason: `Fortimel'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Fortimel markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Fortimel her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Fortimel markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
       {
        name: "Nutrison",
@@ -5887,15 +5747,16 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
        website: "https://www.nutricia.com.tr/urun/detay/nutrison",
        img: "/nutrison.png",
        isBoycotted: "boykot",
-       boycottReason: `Nutrison'un sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Nutrison markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Nutrison her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Nutrison markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
       {
        name: "Fortini",
        slug: "fortini",
        ctgry: "Bebek & Çocuk",
        foundedYear: null,
-       founder:
-        "Nutricia (Johannes van der Hagen ve Martinus van der Hagen)",
+       founder: "Nutricia (Johannes van der Hagen ve Martinus van der Hagen)",
        owner: "Danone (Nutricia üzerinden)",
        description: `Fortini, Nutricia'nın özel beslenme ve tıbbi beslenme ürünleri portföyünde yer alan bir bebek maması markasıdır. Nutricia, 1896 yılında Hollanda'da Dr. Johannes van der Hagen ve kardeşi Martinus van der Hagen tarafından kurulmuş, 125 yılı aşkın süredir özel beslenme alanında faaliyet gösteren bir şirkettir.
 
@@ -5913,7 +5774,9 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
         "https://www.nutricia.com.tr/urun/detay/fortini-multi-fibre",
        img: "/fortini.png",
        isBoycotted: "boykot",
-       boycottReason: `Fortini'nin sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Fortini markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Fortini her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Fortini markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
       {
        name: "Neocate",
@@ -5938,7 +5801,9 @@ Nutricia, günümüzde Danone'nin önemli bir sağlık markası olarak, araştı
        website: "https://www.nutricia.com.tr/urun/detay/neocate",
        img: "/neocate.png",
        isBoycotted: "boykot",
-       boycottReason: `Neocate'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Neocate markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Neocate her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Neocate markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
      ],
     },
@@ -5958,7 +5823,9 @@ Danone, tüm yaşam evrelerinde sağlık ve beslenme alanında dünya lideri ola
      website: "",
      img: "/gmpro.png",
      isBoycotted: "boykot",
-     boycottReason: `GMPro'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `GMPro markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. GMPro her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, GMPro markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Bledina",
@@ -5978,7 +5845,9 @@ Bledina, dünya genelinde birçok ülkede satılan ve anneler tarafından tercih
      website: "",
      img: "/bledina.png",
      isBoycotted: "boykot",
-     boycottReason: `Bledina'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Bledina markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Bledina her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Bledina markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "SGM Eksplor",
@@ -5996,7 +5865,9 @@ Danone, tüm yaşam evrelerinde sağlık ve beslenme alanında dünya lideri ola
      website: "",
      img: "/sgm-eksplor.png",
      isBoycotted: "boykot",
-     boycottReason: `SGM Eksplor'un sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `SGM Eksplor markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. SGM Eksplor her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, SGM Eksplor markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "International Delight",
@@ -6014,7 +5885,9 @@ International Delight, Kuzey Amerika pazarında popüler bir kahve kreması mark
      website: "https://www.internationaldelight.com/",
      img: "/international-delight.png",
      isBoycotted: "boykot",
-     boycottReason: `International Delight'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `International Delight markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. International Delight her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, International Delight markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "YoPRO",
@@ -6036,7 +5909,9 @@ Protein, kas kütlesinin korunmasına ve büyümesine katkıda bulunur. Magnezyu
      website: "https://www.yopro.com.au/",
      img: "/yopro.png",
      isBoycotted: "boykot",
-     boycottReason: `YoPRO'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `YoPRO markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. YoPRO her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, YoPRO markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Aqua",
@@ -6056,7 +5931,9 @@ AQUA, 50 yılı aşkın başarıyla Endonezya pazarında öncü bir konuma sahip
      website: "https://www.danone.com/brands/waters/aqua.html",
      img: "/aqua.png",
      isBoycotted: "boykot",
-     boycottReason: `AQUA'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Aqua markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Aqua her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Aqua markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Mizone",
@@ -6082,7 +5959,9 @@ Mizone, vitamin içeceği kategorisinde öncü bir markadır ve Asya-Pasifik bö
      website: "https://www.danone.com/brands/waters/mizone.html",
      img: "/mizone.png",
      isBoycotted: "boykot",
-     boycottReason: `Mizone'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Mizone markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Mizone her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Mizone markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Salus",
@@ -6102,7 +5981,9 @@ Salus, Uruguay'ın en köklü ve saygın doğal maden suyu markalarından biridi
      website: "https://www.danone.com/brands/waters/salus.html",
      img: "/salus.png",
      isBoycotted: "boykot",
-     boycottReason: `Salus'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Salus markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Salus her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Salus markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Żywiec Zdrój",
@@ -6126,7 +6007,9 @@ Salus, Uruguay'ın en köklü ve saygın doğal maden suyu markalarından biridi
      website: "https://www.danone.com/brands/waters/zywiec-zdroj.html",
      img: "/zywiec-zdroj.png",
      isBoycotted: "boykot",
-     boycottReason: `Żywiec Zdrój'un sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Żywiec Zdrój markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Żywiec Zdrój her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Żywiec Zdrój markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Actimel",
@@ -6144,7 +6027,9 @@ Actimel, Danone'nin önde gelen probiyotik içecek markalarından biridir ve dü
      website: "https://www.actimel.co.uk/",
      img: "/actimel.png",
      isBoycotted: "boykot",
-     boycottReason: `Actimel'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Actimel markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Actimel her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Actimel markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Badoit",
@@ -6166,7 +6051,9 @@ Badoit'in kimyasal analizi, litre başına yaklaşık 3 gram karbondioksit içer
      website: "https://www.badoit.fr/",
      img: "/badoit.png",
      isBoycotted: "boykot",
-     boycottReason: `Badoit'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Badoit markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Badoit her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Badoit markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Danino",
@@ -6188,7 +6075,9 @@ Danino, Fransız bir üründür ve Danone tarafından dünya çapında dağıtı
      website: "",
      img: "/danino.png",
      isBoycotted: "boykot",
-     boycottReason: `Danino'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Danino markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Danino her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Danino markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Danette",
@@ -6214,7 +6103,9 @@ Danette, Danone'ye ait bir puding markasıdır ve dünya çapında satılmaktad�
      website: "",
      img: "/danette.png",
      isBoycotted: "boykot",
-     boycottReason: `Danette'nin sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Danette markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Danette her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Danette markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Danissimo",
@@ -6234,7 +6125,9 @@ Danissimo, meyveli yoğurt markalarından biri olarak Danone'nin portföyünde y
      website: "",
      img: "/danissimo.png",
      isBoycotted: "boykot",
-     boycottReason: `Danissimo'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Danissimo markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Danissimo her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Danissimo markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Évian",
@@ -6254,7 +6147,9 @@ Danissimo, meyveli yoğurt markalarından biri olarak Danone'nin portföyünde y
      website: "https://www.evian.com/en_int",
      img: "/evian.png",
      isBoycotted: "boykot",
-     boycottReason: `Évian'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Évian markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Évian her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Évian markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Alpro",
@@ -6284,7 +6179,9 @@ Alpro, bitki sütü ve süt ürünlerine alternatifler üretmektedir ve dünya �
      website: "https://www.alpro.com/tr",
      img: "/alpro.png",
      isBoycotted: "boykot",
-     boycottReason: `Alpro'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Alpro markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Alpro her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Alpro markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Cow & Gate",
@@ -6308,7 +6205,9 @@ Yerel çiftçilerden süt satın almışlar, "süt ayırıcı" kullanarak krema 
      website: "",
      img: "/cow-gate.png",
      isBoycotted: "boykot",
-     boycottReason: `Cow & Gate'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Cow & Gate markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Cow & Gate her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Cow & Gate markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Milupa",
@@ -6334,7 +6233,9 @@ Milupa, bebek gıdası üretiminde 80 yıldan fazla deneyime sahiptir. Günümü
      website: "https://www.milupa.de/",
      img: "/milupa.png",
      isBoycotted: "boykot",
-     boycottReason: `Milupa'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Milupa markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Milupa her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Milupa markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      subBrands: [
       {
        name: "Aptamil",
@@ -6354,7 +6255,9 @@ Aptamil, Danone'nin global bebek beslenmesi portföyünün bir parçası olarak,
        website: "https://us.aptamil.com/",
        img: "/aptamil.png",
        isBoycotted: "boykot",
-       boycottReason: `Aptamil'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Aptamil markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Aptamil her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Aptamil markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
       {
        name: "Bebelac",
@@ -6371,10 +6274,12 @@ Bebelac, bebeklerin sağlıklı büyüme ve gelişimini desteklemek için özel 
 
 Bebelac, Milupa'nın bebek formülü markaları (Bebelac, Aptamil, Milumil), çocuk hapları, hasta çocuklar için özel diyetler, çocuk çayları ve bebek bakım ürünleri içeren ürün portföyünün önemli bir bileşenidir.`,
        country: "Fransa",
-       website: "",
+       website: "https://www.milupa.de/",
        img: "/bebelac.png",
        isBoycotted: "boykot",
-       boycottReason: `Bebelac'ın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Bebelac markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Bebelac her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Bebelac markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
       {
        name: "Milumil",
@@ -6391,10 +6296,12 @@ Milumil, bebeklerin sağlıklı büyüme ve gelişimini desteklemek için özel 
 
 Milumil, Milupa'nın bebek formülü markaları (Bebelac, Aptamil, Milumil), çocuk hapları, hasta çocuklar için özel diyetler, çocuk çayları ve bebek bakım ürünleri içeren ürün portföyünün önemli bir bileşenidir.`,
        country: "Fransa",
-       website: "",
+       website: "https://www.milupa.de/",
        img: "/milumil.png",
        isBoycotted: "boykot",
-       boycottReason: `Milumil'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+       boycottReason: `Milumil markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Milumil her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Milumil markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
       },
      ],
     },
@@ -6424,7 +6331,9 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
      website: "https://silk.com/",
      img: "/silk.png",
      isBoycotted: "boykot",
-     boycottReason: `Silk'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Silk markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Silk her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Silk markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
     },
     {
      name: "Birşah",
@@ -6440,10 +6349,12 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
      website: "",
      description: `Birşah, özellikle A101 zincir marketlerinde satılan bir süt ve süt ürünleri markasıdır. Marka, genel olarak Fransız menşeli Danone şirketinin Türkiye operasyonlarını yürüten Danone Tikveşli Gıda tarafından üretilmektedir. Bazı Birşah ürünleri Balkan Süt Ürünleri A.Ş. tarafından da üretilebilmektedir.
   
-  Tüketiciler, Birşah markalı ürünleri satın alırken ürünün arka tarafında üretici firmanın kim olduğuna bakmalıdır. Ürünler genellikle "Danone Tikveşli Gıda" tarafından üretilmekle birlikte, "Balkan Süt Ürünleri A.Ş." tarafından üretilen ürünler de bulunabilmektedir.
+Tüketiciler, Birşah markalı ürünleri satın alırken ürünün arka tarafında üretici firmanın kim olduğuna bakmalıdır. Ürünler genellikle "Danone Tikveşli Gıda" tarafından üretilmekle birlikte, "Balkan Süt Ürünleri A.Ş." tarafından üretilen ürünler de bulunabilmektedir.
   
-  2025 yılında Tarım ve Orman Bakanlığı tarafından yapılan denetimlerde, Birşah marka sütlerin bazı partilerinde süt yerine tamamen su bulunduğu tespit edilmiş ve ilgili ürünlerin toplatılmasına karar verilmiştir. Danone, bu durumun üretim hattında yaklaşık bir dakika süren teknik bir aksaklıktan kaynaklandığını ve içilebilir suyun sehven paketlenmesiyle ilgili bir hata oluştuğunu açıklamıştır.`,
-     boycottReason: `Birşah'ın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+2025 yılında Tarım ve Orman Bakanlığı tarafından yapılan denetimlerde, Birşah marka sütlerin bazı partilerinde süt yerine tamamen su bulunduğu tespit edilmiş ve ilgili ürünlerin toplatılmasına karar verilmiştir. Danone, bu durumun üretim hattında yaklaşık bir dakika süren teknik bir aksaklıktan kaynaklandığını ve içilebilir suyun sehven paketlenmesiyle ilgili bir hata oluştuğunu açıklamıştır.`,
+     boycottReason: `Birşah markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Birşah her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Birşah markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      evidences: [
       "https://www.instagram.com/reel/C3KQPqlip1n/?igsh=ZjZnazcyOHphY2Nn",
       "https://www.gazetebirlik.com/yasam/birsah-sut-boykot-urunu-mu-kimin-israilin-mi-turk-mali-mi-neden-boykot-edildi-sahte-mi/264720",
@@ -6458,23 +6369,24 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
      owner: "Danone (%50,1)",
      description: `Sırma Su, Türkiye'nin önde gelen doğal kaynak suyu markalarından biridir. 1950 yılında kurulan marka, Türkiye'nin su sektöründeki köklü geçmişe sahip markalarından biri olarak öne çıkmaktadır. Sırma Su, doğal kaynak suyu, maden suyu, aromalı içecekler ve gazsız su kategorilerinde geniş bir ürün yelpazesi sunmaktadır.
   
-  Markanın en önemli özelliklerinden biri, ürünlerini özellikle Manisa Demirci bölgesindeki doğal kaynaklardan elde etmesidir. Bu bölge, zengin mineral içeriğine sahip doğal su kaynaklarıyla tanınmakta ve Sırma Su'nun kalitesinin temelini oluşturmaktadır. Marka, bu doğal kaynaklardan elde ettiği suyu modern teknoloji ve hijyen standartlarıyla işleyerek tüketicilere sunmaktadır.
+Markanın en önemli özelliklerinden biri, ürünlerini özellikle Manisa Demirci bölgesindeki doğal kaynaklardan elde etmesidir. Bu bölge, zengin mineral içeriğine sahip doğal su kaynaklarıyla tanınmakta ve Sırma Su'nun kalitesinin temelini oluşturmaktadır. Marka, bu doğal kaynaklardan elde ettiği suyu modern teknoloji ve hijyen standartlarıyla işleyerek tüketicilere sunmaktadır.
   
-  2013 yılında, Fransız gıda devi Danone, Sırma Su'nun %50,1 hissesini satın alarak markaya ortak olmuştur. Bu ortaklık, Türkiye su sektöründeki önemli yabancı yatırımlardan biri olarak değerlendirilmektedir. Bu ortaklıkla birlikte Sırma, Danone grubunun global tecrübesi, Ar-Ge kapasitesi ve dağıtım gücüyle daha geniş bir pazara ulaşmıştır. Danone'nin dünya çapındaki su markaları portföyündeki deneyimi, Sırma Su'nun kalite standartlarının yükseltilmesine ve ürün çeşitliliğinin artırılmasına katkı sağlamıştır.
+2013 yılında, Fransız gıda devi Danone, Sırma Su'nun %50,1 hissesini satın alarak markaya ortak olmuştur. Bu ortaklık, Türkiye su sektöründeki önemli yabancı yatırımlardan biri olarak değerlendirilmektedir. Bu ortaklıkla birlikte Sırma, Danone grubunun global tecrübesi, Ar-Ge kapasitesi ve dağıtım gücüyle daha geniş bir pazara ulaşmıştır. Danone'nin dünya çapındaki su markaları portföyündeki deneyimi, Sırma Su'nun kalite standartlarının yükseltilmesine ve ürün çeşitliliğinin artırılmasına katkı sağlamıştır.
   
-  Günümüzde Sırma, Türkiye'deki Danone Sırma Gıda ve İçecek Sanayi ve Ticaret A.Ş. çatısı altında faaliyet göstermekte ve hem iç hem dış pazarda güçlü konumunu sürdürmektedir. Marka, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmakta ve tüketicilerin günlük su ihtiyacını karşılamaktadır.
+Günümüzde Sırma, Türkiye'deki Danone Sırma Gıda ve İçecek Sanayi ve Ticaret A.Ş. çatısı altında faaliyet göstermekte ve hem iç hem dış pazarda güçlü konumunu sürdürmektedir. Marka, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmakta ve tüketicilerin günlük su ihtiyacını karşılamaktadır.
   
-  Sırma Su, farklı hacimlerde pet şişe ve damacana seçenekleriyle tüketicilere sunulmakta ve özellikle ev tipi kullanımda tercih edilmektedir. Marka, kalite, sağlık ve sürdürülebilirlik odaklı üretim anlayışıyla Türkiye su pazarında önemli bir konuma sahiptir.`,
+Sırma Su, farklı hacimlerde pet şişe ve damacana seçenekleriyle tüketicilere sunulmakta ve özellikle ev tipi kullanımda tercih edilmektedir. Marka, kalite, sağlık ve sürdürülebilirlik odaklı üretim anlayışıyla Türkiye su pazarında önemli bir konuma sahiptir.`,
      country: "Fransa & Türkiye",
      website: "https://www.sirma.com.tr",
      img: "/sirma.png",
      isBoycotted: "boykot",
-     boycottReason: `Sırma Su'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Sırma markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Sırma her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Sırma markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -6492,23 +6404,24 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
      owner: "Danone",
      description: `Hayat Su, Türkiye'nin en köklü ambalajlı su markalarından biridir. 1984 yılında kurulan marka, Türkiye'nin su sektöründeki öncü markalarından biri olarak öne çıkmaktadır. Hayat Su, doğal kaynak suyu, damacana su, küçük ambalajlı su ve bebek suyu kategorilerinde geniş bir ürün yelpazesi sunmaktadır.
   
-  Markanın en önemli özelliklerinden biri, sularını genellikle Sakarya – Hendek bölgesindeki doğal kaynaklardan temin etmesidir. Bu bölge, Türkiye'nin en kaliteli su kaynaklarından birine sahip olmasıyla tanınmakta ve Hayat Su'nun kalitesinin temelini oluşturmaktadır. Marka, bu doğal kaynaklardan elde ettiği suyu modern teknoloji ve hijyen standartlarıyla işleyerek tüketicilere sunmaktadır.
+Markanın en önemli özelliklerinden biri, sularını genellikle Sakarya – Hendek bölgesindeki doğal kaynaklardan temin etmesidir. Bu bölge, Türkiye'nin en kaliteli su kaynaklarından birine sahip olmasıyla tanınmakta ve Hayat Su'nun kalitesinin temelini oluşturmaktadır. Marka, bu doğal kaynaklardan elde ettiği suyu modern teknoloji ve hijyen standartlarıyla işleyerek tüketicilere sunmaktadır.
   
-  2007 yılında Fransız gıda devi Danone tarafından satın alınan Hayat Su, günümüzde Danone Türkiye bünyesinde faaliyet göstermektedir. Bu satın alma, Türkiye su sektöründeki en büyük yabancı yatırımlardan biri olarak değerlendirilmektedir. Danone'nin dünya çapındaki su markaları portföyündeki deneyimi ve Ar-Ge kapasitesi, Hayat Su'nun kalite standartlarının yükseltilmesine ve ürün çeşitliliğinin artırılmasına katkı sağlamıştır.
+2007 yılında Fransız gıda devi Danone tarafından satın alınan Hayat Su, günümüzde Danone Türkiye bünyesinde faaliyet göstermektedir. Bu satın alma, Türkiye su sektöründeki en büyük yabancı yatırımlardan biri olarak değerlendirilmektedir. Danone'nin dünya çapındaki su markaları portföyündeki deneyimi ve Ar-Ge kapasitesi, Hayat Su'nun kalite standartlarının yükseltilmesine ve ürün çeşitliliğinin artırılmasına katkı sağlamıştır.
   
-  Hayat Su, kalite, sağlık ve sürdürülebilirlik odaklı üretim anlayışıyla Türkiye su pazarında önemli bir konuma sahiptir. Marka, hem ev tipi kullanımda hem de kurumsal pazarda Türkiye'nin en çok tercih edilen su markalarından biri olmayı sürdürmektedir. Özellikle damacana su segmentinde güçlü bir pazar payına sahip olan Hayat Su, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmaktadır.
+Hayat Su, kalite, sağlık ve sürdürülebilirlik odaklı üretim anlayışıyla Türkiye su pazarında önemli bir konuma sahiptir. Marka, hem ev tipi kullanımda hem de kurumsal pazarda Türkiye'nin en çok tercih edilen su markalarından biri olmayı sürdürmektedir. Özellikle damacana su segmentinde güçlü bir pazar payına sahip olan Hayat Su, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmaktadır.
   
-  Marka, farklı hacimlerde pet şişe ve damacana seçenekleriyle tüketicilere sunulmakta ve özellikle aileler ve kurumsal müşteriler arasında tercih edilmektedir. Hayat Su'nun bebek suyu kategorisindeki ürünleri, özel olarak bebeklerin ihtiyaçlarına göre formüle edilmiş ve hijyen standartları en üst seviyede tutulmuştur.`,
+Marka, farklı hacimlerde pet şişe ve damacana seçenekleriyle tüketicilere sunulmakta ve özellikle aileler ve kurumsal müşteriler arasında tercih edilmektedir. Hayat Su'nun bebek suyu kategorisindeki ürünleri, özel olarak bebeklerin ihtiyaçlarına göre formüle edilmiş ve hijyen standartları en üst seviyede tutulmuştur.`,
      country: "Fransa",
      website: "https://www.hayatsu.com.tr/",
      img: "/hayat.png",
      isBoycotted: "boykot",
-     boycottReason: `Hayat Su'nun sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Hayat markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Hayat her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Hayat markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -6526,18 +6439,20 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
      owner: "Danone",
      description: `Akmina Maden Suyu, Türkiye'de Danone Hayat İçecek tarafından üretilen ve doğal mineralli su segmentinde hizmet veren bir markadır. Marka, Türkiye'nin maden suyu pazarında önemli bir konuma sahiptir ve tüketicilere doğal mineralli suyun ferahlatıcı tadını sunmaktadır.
   
-  Akmina'nın ürünleri, Bolu ve çevresindeki kaynaklardan elde edilen doğal sular kullanılarak şişelenmektedir. Bu bölge, zengin mineral içeriğine sahip doğal su kaynaklarıyla tanınmakta ve Akmina'nın kalitesinin temelini oluşturmaktadır. Marka, bu doğal kaynaklardan elde ettiği suyu modern teknoloji ve hijyen standartlarıyla işleyerek tüketicilere sunmaktadır.
+Akmina'nın ürünleri, Bolu ve çevresindeki kaynaklardan elde edilen doğal sular kullanılarak şişelenmektedir. Bu bölge, zengin mineral içeriğine sahip doğal su kaynaklarıyla tanınmakta ve Akmina'nın kalitesinin temelini oluşturmaktadır. Marka, bu doğal kaynaklardan elde ettiği suyu modern teknoloji ve hijyen standartlarıyla işleyerek tüketicilere sunmaktadır.
   
-  Akmina, hem sade hem de gazlı seçenekleriyle geniş bir tüketici kitlesine hitap etmektedir. Marka, özellikle sağlık bilincine sahip tüketiciler arasında popülerlik kazanmaktadır. Doğal mineralli suyun sağlığa faydaları ve ferahlatıcı özellikleri, Akmina'nın pazarlama stratejisinin temelini oluşturmaktadır.
+Akmina, hem sade hem de gazlı seçenekleriyle geniş bir tüketici kitlesine hitap etmektedir. Marka, özellikle sağlık bilincine sahip tüketiciler arasında popülerlik kazanmaktadır. Doğal mineralli suyun sağlığa faydaları ve ferahlatıcı özellikleri, Akmina'nın pazarlama stratejisinin temelini oluşturmaktadır.
   
-  Marka, Danone'nin Türkiye'deki su ve içecek portföyünün önemli bir parçasıdır. Danone, uluslararası bir gıda ve içecek şirketi olarak, dünya genelinde birçok ülkede faaliyet göstermekte ve farklı içecek kategorilerinde çeşitli markalara sahiptir. Akmina, bu küresel deneyim ve kalite standartlarıyla Türkiye pazarında tüketicilere güvenilir ve kaliteli bir mineralli su alternatifi sunmaktadır.
+Marka, Danone'nin Türkiye'deki su ve içecek portföyünün önemli bir parçasıdır. Danone, uluslararası bir gıda ve içecek şirketi olarak, dünya genelinde birçok ülkede faaliyet göstermekte ve farklı içecek kategorilerinde çeşitli markalara sahiptir. Akmina, bu küresel deneyim ve kalite standartlarıyla Türkiye pazarında tüketicilere güvenilir ve kaliteli bir mineralli su alternatifi sunmaktadır.
   
-  Akmina, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmakta ve tüketicilerin günlük içecek ihtiyacını karşılamaktadır. Marka, özellikle yemek masalarında ve günlük tüketimde tercih edilmektedir.`,
+Akmina, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmakta ve tüketicilerin günlük içecek ihtiyacını karşılamaktadır. Marka, özellikle yemek masalarında ve günlük tüketimde tercih edilmektedir.`,
      country: "Fransa",
      website: "",
      img: "/akmina.png",
      isBoycotted: "boykot",
-     boycottReason: `Akmina'nın sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Akmina markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Akmina her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Akmina markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      alternative_products: ["kizilay", "beypazari", "sarikiz", "ozkaynak"],
     },
     {
@@ -6560,7 +6475,9 @@ Silk, bitki sütü ürünleri kategorisinde öncü bir markadır ve Kuzey Amerik
      website: "https://www.volvic.com/",
      img: "/volvic.png",
      isBoycotted: "boykot",
-     boycottReason: `Volvic'in sahibi Danone boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Danone) gidiniz.`,
+     boycottReason: `Volvic markasının boykot edilmesinin temel nedeni, markanın mülkiyetinin Fransız gıda devi Groupe Danone'ye ait olmasıdır. Danone, İsrail'in en büyük gıda konglomeratlarından biri olan Strauss Group'un süt ürünleri iştiraki Strauss Dairies'in %20 hissesine sahiptir. Strauss Group'un, İsrail askeri birimlerine (IDF) gıda ve lojistik destek sağladığı bilinmektedir. Volvic her ne kadar yerel bir marka geçmişine sahip olsa da, elde ettiği gelirle ana şirketi Danone'nin bu stratejik ortaklıklarını ve İsrail ekonomisindeki varlığını finanse etmektedir.
+
+Buna ek olarak Danone, İsrail merkezli gıda teknolojisi girişimi Wilk'e (yapay anne sütü ve hücre bazlı süt üreticisi) yaklaşık 12.5 milyon NIS (Yeni İsrail Şekeli) tutarında bir yatırım turuna liderlik etmiştir. Şirketin İsrail'deki start-up ekosistemine yaptığı bu doğrudan yatırımlar ve işgal altındaki topraklarda faaliyet gösteren şirketlerle olan güçlü ticari bağları, Volvic markasının da bu ekonomik zincirin bir parçası olarak boykot listesine girmesine neden olmuştur.`,
      alternative_products: [
       "kizilay",
       "beypazari",
@@ -7760,7 +7677,7 @@ Besler Gıda tesislerinde üretilen Bizim Yağ, profesyonel pastane lezzetlerini
          name: "Oneo",
          slug: "oneo",
          foundedYear: 2013,
-         ctgry: "Yiyecek",
+         ctgry: "Sakız & Şeker",
          founder: "Ülker",
          owner: "Yıldız Holding",
          country: "Türkiye",
@@ -7956,7 +7873,7 @@ Jacob's, köklü bir geçmişe sahip olup, özellikle İrlanda ve Birleşik Kral
      slug: "adapazari-seker",
      foundedYear: 1952,
      ctgry: "Şirket",
-     founder: "",
+     founder: "Şok Market",
      owner: "Yıldız Holding",
      country: "Türkiye",
      isBoycotted: "onerilmiyor",
@@ -7979,7 +7896,7 @@ Başlangıçta fabrikanın şeker pancarı işleme kapasitesi günlük 1.600 ton
      slug: "donuk-firincilik-urunleri",
      foundedYear: 2014,
      ctgry: "Yiyecek",
-     founder: "",
+     founder: "Şok Market",
      owner: "Yıldız Holding",
      country: "Türkiye",
      isBoycotted: "onerilmiyor",
@@ -7994,6 +7911,371 @@ DFU'nun misyonu, gelişimin işlerinin ayrılmaz bir parçası olduğunu kabul e
 
 DFU'nun kalite politikası, vizyonuyla uyumlu olarak en taze, en sağlıklı ve en yüksek kaliteli ürünleri sunmak, bunları kolay erişilebilir hale getirmek ve geniş bir tüketici zevk yelpazesine hitap etmektir. Şirket, yıllık olarak yenilenen BRC ve Helal Sertifikalarına sahiptir ve çeşitli kalite programları aracılığıyla en yüksek standartlarda hizmet sunmaya kararlıdır.`,
      boycottReason: `Donuk Fırıncılık Ürünleri, Yıldız Holding bünyesinde üretilen bir markadır. Yıldız Holding'in bazı uluslararası ticari ilişkileri ve sermaye yapısı konusundaki hassasiyetler nedeniyle, bu marka da 'önerilmeyen' statüsündedir.`,
+    },
+    {
+     name: "Amigo",
+     slug: "amigo",
+     foundedYear: 1983,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/amigo.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/amigo",
+     description: `Amigo, 1983 yılında Türkiye'nin ilk paketlenmiş kuruyemiş firmalarından biri olarak kurulmuştur. Amigo, 1995 yılında kurulan Şok Marketler Tic. A.Ş. adına çeşitli üreticiler tarafından üretilen atıştırmalık ürünlerin markasıdır.
+    
+Günümüzde Şok Marketler'in güvencesiyle üretilen Amigo kuruyemişleri, zengin lezzet çeşitliliği ve yüksek kalite standartlarıyla öne çıkmakta, tüketicilere güvenilir ve sağlıklı bir alternatif sunmaktadır.
+    
+Amigo, fıstık, ayçekirdeği, çiğ badem, kuru meyve, cips ve fıstık ezmesi gibi geniş bir ürün yelpazesiyle damak zevkine düşkün olanlar için ideal bir seçenektir. Amigo, Şok Marketler'in özel markası olarak faaliyet göstermektedir.
+    
+Şok Marketler, Türkiye'nin en büyük perakende zincirlerinden biri olup 2011 yılında Ülker'in de sahibi olduğu Yıldız Holding bünyesine katılmıştır. Bu nedenle Amigo, Şok Marketler'e ait bir marka olarak Yıldız Holding çatısı altında faaliyet göstermektedir.`,
+     boycottReason: `Amigo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Karmen",
+     slug: "karmen",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/karmen.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/karmen",
+     description: `Karmen, Şok Marketler zincirinin çikolata, gofret ve kakaolu ürünler kategorisindeki tescilli markasıdır. Yıldız Holding (Ülker) bünyesindeki fabrikalarda veya holdingin kalite standartlarına uygun tesislerde üretilen Karmen ürünleri, uygun fiyatla yüksek lezzet sunmayı amaçlar.
+    
+Ürün portföyünde; tablet çikolatalar, bütün fıstıklı ve fındıklı çeşitler, kakaolu fındık kreması, gofretler ve bayramlık ikramlık çikolatalar bulunmaktadır. Tüketiciler tarafından "fiyat/performans ürünü" olarak bilinen Karmen, Ülker'in çikolata üretimindeki uzmanlığının market markasına yansımış halidir.`,
+
+     boycottReason: `Karmen, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Experdent",
+     slug: "experdent",
+     foundedYear: 2012,
+     ctgry: "Kişesel Bakım",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/experdent.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/experdent",
+     description: `Experdent, Şok Marketler zincirinin ağız ve diş sağlığı kategorisindeki tescilli özel markasıdır (Private Label). Şok Marketler'in tüketicilere uygun fiyatlı ve kaliteli temel ihtiyaç ürünleri sunma stratejisi doğrultusunda geliştirilmiştir.
+    
+Ürün portföyünde; diş çürüklerine karşı koruma sağlayan florürlü diş macunları, beyazlatıcı etkili macunlar, naneli ferahlatıcı çeşitler ve farklı sertlik derecelerine sahip diş fırçaları bulunmaktadır. Global ve pahalı ağız bakım markalarına ekonomik bir alternatif olarak konumlanan Experdent, günlük hijyen ihtiyacını bütçe dostu bir şekilde karşılamayı hedefler.`,
+     boycottReason: `Experdent, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Bisto",
+     slug: "bisto",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/bisto.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bisto",
+     description: `Bisto, Şok Marketler zincirinin unlu mamuller, kurabiye ve fırıncılık ürünleri kategorisindeki tescilli özel markasıdır. "Evinizin fırınından çıkmış gibi" hissi yaratmayı amaçlayan ürünleriyle, çay saatlerinin ekonomik ve lezzetli eşlikçisi olarak konumlanmıştır.
+    
+Ürün portföyünde; tatlı ve tuzlu kurabiyeler, gevrekler, galetalar ve çeşitli hamur işi atıştırmalıklar bulunmaktadır. Yıldız Holding'in gıda üretimindeki tecrübesiyle üretilen/ürettirilen Bisto, uygun fiyatla kaliteyi buluşturmayı ve tüketicilere taze lezzetler sunmayı hedefler.`,
+     boycottReason: `Amigo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Altınküp",
+     slug: "altinkup",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/altinkup.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/altnkup",
+     description: `Altınküp, Şok Marketler zincirinin temel gıda kategorisinde yer alan, toz ve küp şeker ürünlerini tüketicilere sunan tescilli özel markasıdır (Private Label). %100 pancar şekerinden üretilen doğal içeriğiyle, çay saatlerinden tatlı yapımına kadar mutfakların en temel ihtiyacını karşılamayı hedefler.
+    
+Ürün gamında; çabuk eriyen küp şekerler, kristal toz şeker ve esmer şeker gibi çeşitler bulunmaktadır. Şok Marketler'in "kaliteli ürünü uygun fiyata sunma" stratejisinin bir parçası olan Altınküp, Yıldız Holding'in gıda güvenliği standartlarına uygun tesislerde, el değmeden paketlenerek raflarda yerini almaktadır.`,
+     boycottReason: `Altınküp, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Beyaz Güvercin",
+     slug: "beyaz-guvercin",
+     foundedYear: 2012,
+     ctgry: "Temizlik",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/beyaz-guvercin.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/beyaz-guvercin",
+     description: `Beyaz Güvercin, Şok Marketler zincirinin kağıt ve hijyen ürünleri kategorisindeki tescilli özel markasıdır (Private Label). Tuvalet kağıdı, kağıt havlu, peçete ve ıslak mendil gibi günlük temizlik ihtiyaçlarını karşılamak üzere geliştirilmiştir.
+    
+"Yumuşak doku, yüksek emicilik" vaadiyle üretilen Beyaz Güvercin ürünleri, global markaların kalitesini daha ekonomik fiyatlarla tüketiciye sunmayı hedefler. Şok Marketler'in en çok tercih edilen temel ihtiyaç markalarından biridir.`,
+     boycottReason: `Beyaz Güvercin, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Mintax",
+     slug: "mintax",
+     foundedYear: 1970,
+     ctgry: "Temizlik",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/mintax.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/mintax",
+     description: `Mintax, Şok Marketler'in temizlik ürünleri kategorisindeki en güçlü ve bilinen özel markasıdır (Private Label). "Temizlikte Mükemmel Sonuç" vaadiyle yola çıkan marka, bulaşık deterjanından çamaşır suyuna, yüzey temizleyicilerden yağ çözücülere kadar geniş bir ürün yelpazesi sunar.
+    
+Ekonomik fiyatıyla dikkat çeken Mintax, performansıyla da tüketicilerin beğenisini kazanmış ve marketin en çok satan markalarından biri olmuştur. Etkili formülleriyle ev temizliğinin her alanında pratik çözümler sunmayı hedefler.`,
+     boycottReason: `Mintax, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Piyale",
+     slug: "piyale",
+     foundedYear: 1922,
+     ctgry: "Yiyecek",
+     founder: "Hasan Tahsin Piyale",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/piyale.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/piyale",
+     description: `Piyale, 1922 yılında Hasan Tahsin Piyale tarafından İzmir'de kurulan, Türkiye Cumhuriyeti ile yaşıt, ülkenin en köklü ve sembol gıda markalarından biridir. Yıllarca "Türkiye'nin Makarnası" sloganıyla hafızalara kazınan marka, günümüzde Şok Marketler zincirinin temel gıda ve pastacılık ürünleri kategorisindeki en güçlü özel markası (Private Label) olarak yaşamına devam etmektedir.
+    
+Tarihsel mirasını koruyarak Şok Marketler güvencesiyle raflarda yer alan Piyale; makarnadan una, hazır çorbadan pudinge, kabartma tozundan kakaoya kadar mutfakların temel ihtiyaçlarını karşılayan geniş bir ürün yelpazesi sunar. Asırlık lezzet tecrübesini ekonomik fiyatlarla tüketiciye ulaştırmayı hedefler.`,
+     boycottReason: `Piyale, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Crown",
+     slug: "crown",
+     foundedYear: 2012,
+     ctgry: "İçecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/crown.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/crown",
+     description: `Crown, Şok Marketler zincirinin gazlı ve aromalı içecekler kategorisindeki tescilli markasıdır. Global içecek markalarına ekonomik ve kaliteli bir alternatif oluşturmak amacıyla geliştirilmiştir.
+    
+Ürün portföyünde; kola, gazoz, portakallı gazlı içecek, buzlu çay (Ice Tea) ve limonata gibi serinletici çeşitler bulunmaktadır. Yıldız Holding'in içecek sektöründeki üretim gücü ve kalite standartlarıyla üretilen Crown, özellikle yaz aylarında ve yemeklerin yanında ferahlatıcı bir seçenek olarak tüketicilere sunulmaktadır.`,
+     boycottReason: `Crown, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Evin",
+     slug: "evin",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/evin.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/evin",
+     description: `Evin, Şok Marketler zincirinin sıvı yağ kategorisindeki temel markasıdır. Ayçiçek yağı ve mısır yağı gibi mutfakların en temel ihtiyaçlarını, Yıldız Holding'in (Besler Gıda) kalite güvencesiyle ve ekonomik fiyatlarla sunar. "Evinizin yağı" sloganıyla özdeşleşen marka, kızartmalardan hamur işlerine kadar çok amaçlı kullanım için formüle edilmiştir.`,
+     boycottReason: `Evin, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "İnci",
+     slug: "inci",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/inci.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/inci",
+     description: `İnci, Şok Marketler zincirinin dondurulmuş gıda ve pratik yemek çözümleri kategorisindeki tescilli markasıdır. Günlük hayatın koşturmacasında mutfakta zaman kazandıran, lezzetli ve pratik ürünleriyle bilinir.
+    
+Geniş ürün yelpazesinde; parmak ve kroket patates çeşitleri, dondurulmuş sebzeler (bezelye, mısır), milföy hamuru, Kayseri mantısı, karışık pizza ve hamburger köftesi gibi ürünler yer almaktadır. Mevsiminde toplanan sebzelerin ve kaliteli malzemelerin dondurularak tazeliğinin korunduğu İnci ürünleri, ekonomik fiyatlarıyla tüketicilere sunulmaktadır.`,
+     boycottReason: `İnci, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Lio",
+     slug: "lio",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/lio.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/lio",
+     description: `Lio, Şok Marketler'in zeytinyağı ve zeytin bazlı ürünler kategorisindeki uzman markasıdır. Ege Bölgesi'nin zeytinlerinden elde edilen Sızma ve Riviera zeytinyağlarını, yüksek kalite ve uygun fiyat dengesiyle tüketicilere sunar.
+    
+Marka, zeytinyağının yanı sıra salamura zeytin çeşitleriyle de raflarda yer almaktadır. Yıldız Holding'in gıda güvenliği standartlarına uygun olarak üretilen Lio, mutfaklarında zeytinyağı lezzetini ekonomik bir şekilde kullanmak isteyenlerin tercihidir.`,
+     boycottReason: `Lio, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Tempo",
+     slug: "tempo",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/tempo.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/tempo",
+     description: `Tempo, Şok Marketler zincirinin bisküvi, kraker ve atıştırmalık kategorisindeki tescilli özel markasıdır. "Yılların deneyimi ve kalite anlayışıyla" üretildiği belirtilen marka, tüketicilere ekonomik fiyatlarla lezzetli atıştırmalık alternatifleri sunmayı hedefler.
+    
+Geniş bir ürün yelpazesine sahip olan Tempo; çıtır krakerlerden kremalı bisküvilere, tuzlu atıştırmalıklardan çay saati ikramlıklarına kadar her damak zevkine hitap eden seçenekler barındırır. Özenle seçilmiş malzemeler ve titiz üretim süreçleriyle hazırlanan ürünleri, gün içinde enerji toplamak veya keyifli anlar paylaşmak isteyenler için raflarda yerini almaktadır.
+       
+Yıldız Holding'in (Ülker grubu) bisküvi üretimindeki derin tecrübesini arkasına alan Tempo, market markalı (Private Label) ürünler arasında fiyat/performans dengesiyle öne çıkan ve Şok müşterileri tarafından sıkça tercih edilen bir markadır.`,
+     boycottReason: `Tempo, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Peki",
+     slug: "peki",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Şok Market",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/peki.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/peki",
+     description: `Peki, Şok Marketler zincirinin kek ve unlu tatlılar kategorisindeki tescilli özel markasıdır. "Peki dedirten lezzet" mottosuyla yola çıkan marka, özellikle çay saatleri ve ani tatlı krizleri için pratik çözümler sunar.
+    
+Ürün portföyünde; baton kekler, mozaik pastalar, donutlar, kruvasanlar ve tek porsiyonluk dilim kekler yer almaktadır. Yumuşak dokusu ve taze lezzetiyle bilinen Peki ürünleri, ekonomik fiyatlarıyla pastane lezzetlerine alternatif olarak raflarda yerini almaktadır.`,
+     boycottReason: `Peki, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Taşkale",
+     slug: "taskale",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/taskale.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/taskale",
+     description: `Taşkale, geleneksel Türk tatlılarını ve kahvaltılık ürünlerini Şok Marketler güvencesiyle sunan bir markadır. Tahin, pekmez, helva çeşitleri (sade, kakaolu, fıstıklı) ve lokum gibi Anadolu'nun köklü lezzetlerini modern paketleme standartlarıyla tüketicilere ulaştırır.
+    
+Özellikle kahvaltı sofralarının vazgeçilmezi olan tahin-pekmez ikilisi ve enerji deposu helvalarıyla bilinen Taşkale, geleneksel üretim yöntemlerine sadık kalarak, katkısız ve doğal lezzetler sunmayı hedefler.`,
+     boycottReason: `Taşkale, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Anadolu Mutfağı",
+     slug: "anadolu-mutfagi",
+     foundedYear: 2012,
+     ctgry: "Yiyecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/anadolu-mutfagi.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/anadolu-mutfagi",
+     description: `Anadolu Mutfağı, isminden de anlaşılacağı üzere Türkiye'nin bereketli topraklarından elde edilen bakliyat ve tahıl ürünlerini sofralara taşıyan Şok Marketler markasıdır. Pirinç (osmancık, baldo), mercimek, nohut, fasulye, bulgur ve mısır gibi temel gıda maddelerini kapsar.
+    
+  Yöresel mahsullerin özenle seçilip paketlendiği marka, Türk mutfağının tencere yemekleri için kaliteli ve ekonomik bir temel oluşturur. "Bereketli sofralar" vizyonuyla hareket eden marka, her evin ihtiyacı olan temel gıdaları ulaşılabilir fiyatlarla sunmaktadır.`,
+     boycottReason: `Anadolu Mutfağı, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+  Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Deren",
+     slug: "deren",
+     foundedYear: 2012,
+     ctgry: "İçecek",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/deren.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/deren",
+     description: `Deren, Şok Marketler zincirinin çay kategorisindeki uzman markasıdır. Karadeniz'in seçkin çay bahçelerinden toplanan yapraklarla harmanlanan siyah çaylarının yanı sıra, bitki ve meyve çayı çeşitleriyle de geniş bir ürün yelpazesine sahiptir.
+    
+Dökme çay, demlik poşet ve bardak poşet seçenekleri sunan Deren, "Demi tam, keyfi tamam" anlayışıyla Türk çay kültürüne uygun, tavşan kanı ve aromatik bir çay deneyimi vaat eder. Ekonomik fiyatıyla tiryakilerin tercih ettiği markalardan biridir.`,
+     boycottReason: `Deren, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
+    },
+    {
+     name: "Bebeland",
+     slug: "bebeland",
+     foundedYear: 2012,
+     ctgry: "Bebek & Çocuk",
+     founder: "Şok Market",
+     owner: "Yıldız Holding (Şok Market)",
+     country: "Türkiye",
+     alternative_products: [],
+     img: "/bebeland.png",
+     isBoycotted: "onerilmiyor",
+     website: "https://kurumsal.sokmarket.com.tr/markalar/soka-ozel-urunler/bebeland",
+     description: `Bebeland, Şok Marketler'in bebek bakım ürünleri kategorisindeki güvenilir markasıdır. Bebek bezleri, ıslak mendiller, bebek şampuanları ve bakım örtüleri gibi ürünlerle ebeveynlerin en büyük yardımcısı olmayı hedefler.
+    
+Dermatolojik olarak test edilen ve bebeklerin hassas cilt yapısına uygun olarak geliştirilen Bebeland ürünleri, yüksek emicilik ve yumuşaklık standartlarını ekonomik fiyatlarla sunar. "Mutlu bebekler, huzurlu anneler" anlayışıyla üretilen marka, kaliteden ödün vermeden bütçe dostu çözümler sağlar.`,
+     boycottReason: `Bebeland, Şok Marketler'in özel markasıdır ve dolayısıyla Yıldız Holding şemsiyesi altındadır. Holding, yerli bir sermaye grubu olmasına rağmen, global pazardaki büyüme stratejileri kapsamında kurduğu bazı uluslararası ortaklıklar ve sermaye hareketleri nedeniyle kamuoyunda tartışmalara konu olmaktadır.
+    
+Özellikle Yıldız Holding'in, küresel boykot listelerinde yer alan bazı markalarla (örneğin Starbucks) olan dolaylı ticari bağları ve yatırımları, hassasiyet sahibi tüketiciler tarafından eleştirilmektedir. Bu ticari ilişkiler ağı nedeniyle marka, tam kapsamlı bir boykot listesinde yer almasa da, alternatiflerin değerlendirilmesi adına 'önerilmeyen' statüsünde sınıflandırılmaktadır.`,
+     evidences: [""],
     },
    ],
   },
@@ -9046,7 +9328,7 @@ Marka maskotu olarak bir ayıcık seçilmiştir. 1983'ten beri tüm ürün promo
    name: "Vivident",
    slug: "vivident",
    foundedYear: 2001,
-   ctgry: "Yiyecek",
+   ctgry: "Sakız & Şeker",
    founder: "Van Melle NV (Hollanda) ve Perfetti S.p.A (İtalya)",
    owner: "Perfetti Van Melle",
    country: "Hollanda & İtalya",
@@ -9208,7 +9490,9 @@ Kent Gıda, 2018 yılı itibarıyla 1.139 çalışanı bulunan bir şirkettir. �
 Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
 
 Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Kent Gıda, sahibi olan Mondelez International'ın İsrail ile olan ilişkileri nedeniyle boykot listesinde yer almaktadır.`,
-     evidences: [""],
+     evidences: [
+      "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+     ],
      subBrands: [
       {
        name: "7Days",
@@ -9229,6 +9513,9 @@ Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merke
 Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
 Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle 7Days markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Oreo",
@@ -9244,20 +9531,20 @@ Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merke
   
 Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesidir. İlk "Oreo Biscuit", 1912 yılında Manhattan, Chelsea'deki 9. Cadde'de (15. ve 16. Caddeler arası) bulunan National Biscuit Company (şimdi Nabisco) fabrikasında üretilmiştir. Bugün, 9. Cadde'deki aynı blok "Oreo Way" olarak bilinmektedir.
   
-  Oreo adı ilk kez 14 Mart 1912'de tescil edilmiştir. Oreo, 1908'de Sunshine şirketi tarafından piyasaya sürülen Hydrox kurabiyesinin taklidi olarak başlatılmıştır. Kurabiyenin orijinal tasarımı kenarda çelenk ve merkezde "OREO" yazısını içermekteydi.
+Oreo adı ilk kez 14 Mart 1912'de tescil edilmiştir. Oreo, 1908'de Sunshine şirketi tarafından piyasaya sürülen Hydrox kurabiyesinin taklidi olarak başlatılmıştır. Kurabiyenin orijinal tasarımı kenarda çelenk ve merkezde "OREO" yazısını içermekteydi.
   
-  ABD'de açık cam novelti kutularda 453 gramlık kutu başına 25 cent karşılığında satılmıştır. İlk Oreo, 6 Mart 1912'de Hoboken, New Jersey'de satılmıştır. Modern Oreo kreması, Nabisco'nun baş gıda bilimcisi Sam Porcello tarafından geliştirilmiştir.
+ABD'de açık cam novelti kutularda 453 gramlık kutu başına 25 cent karşılığında satılmıştır. İlk Oreo, 6 Mart 1912'de Hoboken, New Jersey'de satılmıştır. Modern Oreo kreması, Nabisco'nun baş gıda bilimcisi Sam Porcello tarafından geliştirilmiştir.
   
-  Oreo adının kökeni hakkında çeşitli teoriler vardır. Fransızca "Or" (altın, muhtemelen erken paketlemeye atıfta bulunarak) ve Yunanca "Oreo" (güzel, iyi yapılmış, hoş anlamında) kelimelerinin türevlerinden gelmiş olabilir. Diğer teoriler, adın kısa ve telaffuz edilmesi kolay olduğu için seçildiğini öne sürmektedir.`,
+Oreo adının kökeni hakkında çeşitli teoriler vardır. Fransızca "Or" (altın, muhtemelen erken paketlemeye atıfta bulunarak) ve Yunanca "Oreo" (güzel, iyi yapılmış, hoş anlamında) kelimelerinin türevlerinden gelmiş olabilir. Diğer teoriler, adın kısa ve telaffuz edilmesi kolay olduğu için seçildiğini öne sürmektedir.`,
        boycottReason: `Oreo'nun boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Oreo, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
-  Mondelez International Inc., 10 Kasım 2020 tarihinde İsrail merkezli, özel teknoloji geliştiren erken aşama bir şirket olan Torr FoodTech'e tohum yatırımı yapacağını duyurmuştur. Mondelez, "gerçek, basit bileşenleri bir araya getirerek çok dokulu, duyusal deneyimler sunuyor" ifadesini kullanmıştır.
+Mondelez International Inc., 10 Kasım 2020 tarihinde İsrail merkezli, özel teknoloji geliştiren erken aşama bir şirket olan Torr FoodTech'e tohum yatırımı yapacağını duyurmuştur. Mondelez, "gerçek, basit bileşenleri bir araya getirerek çok dokulu, duyusal deneyimler sunuyor" ifadesini kullanmıştır.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Oreo, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Oreo, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.
   
-  Ayrıca, Oreo bisküvileri helal değildir ve bu durum bazı tüketiciler için ek bir boykot nedeni oluşturmaktadır. Mondelez International'ın İsrail'deki yatırımları ve AR-GE faaliyetleri, boykot kararını destekleyen temel faktörlerdir.`,
+Ayrıca, Oreo bisküvileri helal değildir ve bu durum bazı tüketiciler için ek bir boykot nedeni oluşturmaktadır. Mondelez International'ın İsrail'deki yatırımları ve AR-GE faaliyetleri, boykot kararını destekleyen temel faktörlerdir.`,
        evidences: [
         "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
         "https://www.gzt.com/jurnalist/oreo-biskuvileri-helal-degil-yetkililer-dogruladi-3495398",
@@ -9267,7 +9554,7 @@ Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesid
        name: "Falım",
        slug: "falim",
        country: "ABD",
-       ctgry: "Yiyecek",
+       ctgry: "Sakız & Şeker",
        founder: "Mondelez International",
        owner: "Mondelez International",
        alternative_products: [],
@@ -9276,16 +9563,16 @@ Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesid
        website: "",
        description: `Falım, ABD merkezli Mondelez International şirketinin alt markasıdır. Falım, Türkiye pazarında satılan bir sakız markasıdır ve Mondelez International'ın global sakız portföyünde yer almaktadır. Türkiye'deki üreticisi Kent Gıda'dır.
   
-  Mondelez International, 2012 yılında Kraft Foods'un bölünmesinin ardından, çikolata, kraker, bisküvi, sakız ve şekerleme ürünlerinden sorumlu bölümlerin birleştirilmesiyle kurulmuştur. Falım, Mondelez International'ın Türkiye pazarındaki önemli markalarından biridir.
+Mondelez International, 2012 yılında Kraft Foods'un bölünmesinin ardından, çikolata, kraker, bisküvi, sakız ve şekerleme ürünlerinden sorumlu bölümlerin birleştirilmesiyle kurulmuştur. Falım, Mondelez International'ın Türkiye pazarındaki önemli markalarından biridir.
   
-  Falım, Türkiye'de özellikle sakız kategorisinde tanınan bir markadır ve Mondelez International'ın diğer sakız markaları arasında First, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi markalarla birlikte yer almaktadır.`,
+Falım, Türkiye'de özellikle sakız kategorisinde tanınan bir markadır ve Mondelez International'ın diğer sakız markaları arasında First, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi markalarla birlikte yer almaktadır.`,
        boycottReason: `Falım'ın boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Falım, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Falım, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Falım, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.
   
-  Falım markası, özellikle sosyal medyada ve bazı internet platformlarında First, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi diğer Mondelez markalarıyla birlikte boykot çağrıları içinde anılmaktadır. Mondelez International'ın İsrail'deki yatırımları ve AR-GE faaliyetleri, boykot kararını destekleyen temel faktörlerdir.`,
+Falım markası, özellikle sosyal medyada ve bazı internet platformlarında First, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi diğer Mondelez markalarıyla birlikte boykot çağrıları içinde anılmaktadır. Mondelez International'ın İsrail'deki yatırımları ve AR-GE faaliyetleri, boykot kararını destekleyen temel faktörlerdir.`,
        evidences: [
         "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
        ],
@@ -9294,7 +9581,7 @@ Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesid
        name: "First",
        slug: "first",
        country: "ABD",
-       ctgry: "Yiyecek",
+       ctgry: "Sakız & Şeker",
        founder: "Mondelez International",
        owner: "Mondelez International",
        alternative_products: [],
@@ -9303,16 +9590,16 @@ Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesid
        website: "",
        description: `First Sakız, ABD merkezli Mondelez International şirketinin portföyünde yer alan şekersiz sakız markalarından biridir. First Sakız, 1996 yılında Türkiye sakız pazarına girmiş ve kısa sürede popüler hale gelmiştir. Türkiye'deki üreticisi Kent Gıda'dır.
   
-  2012 yılında Kraft Foods'un bölünmesinin ardından, çikolata, kraker, bisküvi, sakız ve şekerleme ürünlerinden sorumlu bölümler Mondelez International çatısı altında birleştirilmiştir. Bu birleşmenin ardından First Sakız, Mondelez'in küresel markalarından biri haline gelmiştir.
+2012 yılında Kraft Foods'un bölünmesinin ardından, çikolata, kraker, bisküvi, sakız ve şekerleme ürünlerinden sorumlu bölümler Mondelez International çatısı altında birleştirilmiştir. Bu birleşmenin ardından First Sakız, Mondelez'in küresel markalarından biri haline gelmiştir.
   
-  First Sakız, Türkiye pazarında özellikle şekersiz sakız kategorisinde önemli bir konuma sahiptir. Mondelez International'ın diğer sakız markaları arasında Falım, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi markalar bulunmaktadır.`,
+First Sakız, Türkiye pazarında özellikle şekersiz sakız kategorisinde önemli bir konuma sahiptir. Mondelez International'ın diğer sakız markaları arasında Falım, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi markalar bulunmaktadır.`,
        boycottReason: `First Sakız'ın boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. First Sakız, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
     
-    First Sakız doğrudan bir İsrail ürünü olmasa da, Mondelez International'ın İsrail merkezli start-up şirketlere yaptığı yatırımlar, markanın dolaylı olarak İsrail ekonomisini desteklediği eleştirilerine neden olmuştur. Mondelez International, "The Kitchen Hub" ve "Torr FoodTech" gibi İsrail merkezli start-up'lara yatırım yapmaktadır.
+First Sakız doğrudan bir İsrail ürünü olmasa da, Mondelez International'ın İsrail merkezli start-up şirketlere yaptığı yatırımlar, markanın dolaylı olarak İsrail ekonomisini desteklediği eleştirilerine neden olmuştur. Mondelez International, "The Kitchen Hub" ve "Torr FoodTech" gibi İsrail merkezli start-up'lara yatırım yapmaktadır.
     
-    Mondelez International, İsrail'deki operasyonel faaliyetleri ve AR-GE yatırımlarıyla bu ilişkiyi güçlendirmektedir. Şirket, İsrail'deki gıda girişimlerine yaptığı yatırımlar nedeniyle, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından boykot edilmektedir.
+Mondelez International, İsrail'deki operasyonel faaliyetleri ve AR-GE yatırımlarıyla bu ilişkiyi güçlendirmektedir. Şirket, İsrail'deki gıda girişimlerine yaptığı yatırımlar nedeniyle, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından boykot edilmektedir.
     
-    Bu nedenle, bazı tüketiciler First Sakız'ı boykot listelerine dahil etmektedir. Özellikle sosyal medyada ve bazı internet platformlarında First Sakız, Falım, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi Mondelez markalarıyla birlikte boykot çağrıları içinde anılmaktadır.`,
+Bu nedenle, bazı tüketiciler First Sakız'ı boykot listelerine dahil etmektedir. Özellikle sosyal medyada ve bazı internet platformlarında First Sakız, Falım, Bubblicious, Tofita, Şıpsevdi ve Tipitip gibi Mondelez markalarıyla birlikte boykot çağrıları içinde anılmaktadır.`,
        evidences: [
         "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
        ],
@@ -9325,11 +9612,15 @@ Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesid
        founder: "Philippe Suchard",
        owner: "Mondelez International",
        country: "ABD",
-       alternative_products: [],
+       alternative_products: ["eti"],
        img: "/milka.png",
        isBoycotted: "boykot",
        website: "https://www.milka.com/de/",
-       description: `Milka, 1901 yılında İsviçre'de Philippe Suchard tarafından kurulmuş sütlü çikolata markasıdır. İlk üretimi Neuchâtel, İsviçre'de başlamış, daha sonra Almanya'nın Lörrach kentinde üretime devam etmiştir. Milka, çikolata tarihinde bir dönüm noktası olarak kabul edilen ilk sütlü çikolata barını üretmiştir. Marka adı, Almanca "milch" (süt) ve "kakao" kelimelerinin birleşiminden türetilmiştir. Milka, ilk üretiminden itibaren mor paketleme kullanmakta ve paketinde mor inek ve Alpler'in doğal manzarasını göstermektedir. Mor renk, Milka'ya özel olarak Avrupa'da marka olarak tescil edilmiş tek renktir. 1990-2012 yılları arasında Kraft Foods Inc. bünyesinde, 2012'den itibaren ise Mondelez International bünyesinde faaliyet göstermektedir. Milka, dünya çapında en çok satan sütlü çikolata markalarından biridir ve Noel ve Paskalya gibi özel günler için özel ürünler üretmektedir. Türkiye'deki üreticisi Kent Gıda'dır.`,
+       description: `Milka, 1901 yılında İsviçreli çikolata öncüsü Philippe Suchard tarafından kurulan, dünyanın en tanınmış ve köklü sütlü çikolata markalarından biridir. Markanın ismi, ürünün iki temel bileşeni olan Almanca 'Milch' (süt) ve 'Kakao' kelimelerinin ilk hecelerinin birleştirilmesiyle türetilmiştir. İsviçre Alpleri'nin taze sütüyle hazırlanan özel formülü, markanın bir asrı aşkın süredir koruduğu yumuşak lezzetinin ve "Alplerden gelen lezzet" sloganının temelini oluşturmaktadır.
+
+Markayı rakiplerinden ayıran en belirgin özellik, kuruluşundan bu yana kullanılan kendine has lila rengi ambalajıdır. Bu renk, marka kimliğiyle o kadar bütünleşmiştir ki, Avrupa'da ticari marka olarak tescil edilebilen nadir renklerden biri olmuştur. Ambalajlarda yer alan ve Alpler'in doğallığını simgeleyen meşhur 'Milka İneği', reklamcılık tarihinin en ikonik maskotlarından biri haline gelmiş ve tüketicilerin zihninde markanın sembolü olarak yer etmiştir.
+       
+1990-2012 yılları arasında Kraft Foods bünyesinde büyüyen marka, günümüzde global atıştırmalık devi Mondelez International'ın çatısı altında faaliyet göstermektedir. Sadece tablet çikolatalarıyla değil; bisküvili ürünleri, gofretleri ve özel gün serileriyle geniş bir ürün yelpazesine sahiptir. Türkiye pazarında ise Kent Gıda güvencesiyle üretilip dağıtılan Milka, hem global standartları hem de yerel ağız tadına uygun çeşitliliği ile pazarın lider markalarından biri konumundadır.`,
        boycottReason: `Milka, Mondelez International'ın alt markasıdır. Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır. Bu nedenle Milka, Mondelez'in İsrail ile olan ticari ilişkileri nedeniyle boykot listesinde yer almaktadır.`,
        evidences: [
         "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
@@ -9349,57 +9640,67 @@ Oreo, 1912'de piyasaya sürülmesinden bu yana ABD'nin en çok satan kurabiyesid
        website: "",
        description: `Bubblicious, başlangıçta Warner-Lambert'in American Chicle Division'ı tarafından üretilmiş ve günümüzde Mondelez International'ın Cadbury Adams bölümünün bir parçasıdır. Bubblicious, 1977 yılında Bubble Yum'un satışlarına yanıt olarak piyasaya sürülmüştür. Türkiye'deki üreticisi Kent Gıda'dır.
   
-  Marka başlangıçta tanıtım konusunda zorluk yaşamış, ancak 1978 yılında "Ultimate Bubble" reklam kampanyasıyla satışlar başlamıştır. Bubblicious daha sonra uluslararası pazarlara genişlemiştir. Markanın 28 farklı çeşidi bulunmaktadır.
+Marka başlangıçta tanıtım konusunda zorluk yaşamış, ancak 1978 yılında "Ultimate Bubble" reklam kampanyasıyla satışlar başlamıştır. Bubblicious daha sonra uluslararası pazarlara genişlemiştir. Markanın 28 farklı çeşidi bulunmaktadır.
   
-  Bubblicious'un çeşitli aromaları arasında pamuk şekeri, Paradise Punch, Sour Cherry ve Choco Choco Chip bulunmaktadır. Ayrıca sıvı dolu merkeze sahip Bubblicious Bursts çeşidi de mevcuttur. Orijinal "Lightning Limonata" aroması 2000 yılında durdurulmuş, ancak 2005 yılında basketbol oyuncusu LeBron James ile yapılan ortaklık sonucunda yeniden piyasaya sürülmüştür. Yeniden piyasaya sürülen versiyon, ahududu aroması içeren bir değişiklikle sunulmuştur.`,
+Bubblicious'un çeşitli aromaları arasında pamuk şekeri, Paradise Punch, Sour Cherry ve Choco Choco Chip bulunmaktadır. Ayrıca sıvı dolu merkeze sahip Bubblicious Bursts çeşidi de mevcuttur. Orijinal "Lightning Limonata" aroması 2000 yılında durdurulmuş, ancak 2005 yılında basketbol oyuncusu LeBron James ile yapılan ortaklık sonucunda yeniden piyasaya sürülmüştür. Yeniden piyasaya sürülen versiyon, ahududu aroması içeren bir değişiklikle sunulmuştur.`,
        boycottReason: `Bubblicious markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Bubblicious, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Bubblicious markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Bubblicious markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Jelibon",
        slug: "jelibon",
-       foundedYear: 1111111111,
-       ctgry: "Yiyecek",
-       founder: "Mondelez International",
+       foundedYear: 1987,
+       ctgry: "Sakız & Şeker",
+       founder: "Kent Gıda",
        owner: "Mondelez International",
        country: "ABD",
        alternative_products: [],
        img: "/jelibon.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Jelibon, Mondelez International'ın portföyünde yer alan bir şekerleme markasıdır. Mondelez International, dünya çapında tanınan bir gıda ve içecek şirketi olup, çikolata, bisküvi, sakız ve şekerleme ürünleri üretmektedir.
-  
-  Jelibon, Türkiye pazarında popüler bir şekerleme markasıdır ve Mondelez International'ın diğer şekerleme markalarıyla birlikte pazarda yer almaktadır. Marka, çeşitli meyve aromalı jelibon ürünleri sunmaktadır. Türkiye'deki üreticisi Kent Gıda'dır.`,
+       description: `Jelibon, 1987 yılında Kent Gıda tarafından Türkiye pazarına sunulan ve ülkenin ilk jöleli şeker markası olma özelliğini taşıyan ikonik bir üründür. Pazara girdiği günden itibaren kendine has yumuşak dokusu ve meyve sulu içeriğiyle büyük bir ilgi görmüş, kategorisinin öncüsü konumuna yerleşmiştir.
+
+Marka, Türk kültürü ve tüketim alışkanlıkları içinde o kadar güçlü bir yer edinmiştir ki, zamanla jenerik bir marka haline gelmiştir. Türkiye'de üretilen veya satılan hemen hemen tüm jöleli şekerler, halk arasında marka ayrımı yapılmaksızın 'Jelibon' olarak adlandırılmaktadır; bu da markanın ne kadar köklü olduğunun bir göstergesidir.
+       
+Günümüzde dünyanın en büyük atıştırmalık şirketlerinden biri olan Mondelez International'ın portföyünde yer alan Jelibon, üretim kalitesini ve çeşitliliğini korumaya devam etmektedir. Kent Gıda'nın tecrübesi ve Mondelez'in global gücüyle üretilen marka, farklı meyve aromaları ve eğlenceli şekilleriyle nesillerdir tüketilmeye devam etmektedir.`,
        boycottReason: `Jelibon markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Jelibon, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Jelibon markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-       evidences: [""],
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Jelibon markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Olips",
        slug: "olips",
-       foundedYear: 1111111111,
-       ctgry: "Yiyecek",
-       founder: "Mondelez International",
+       foundedYear: 1980,
+       ctgry: "Sakız & Şeker",
+       founder: "Kent Gıda",
        owner: "Mondelez International",
        country: "ABD",
        alternative_products: [],
        img: "/olips.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Olips, Mondelez International'ın portföyünde yer alan ağızda eriyen şeker markasıdır. Mondelez International, dünya çapında tanınan bir gıda ve içecek şirketi olup, çikolata, bisküvi, sakız ve şekerleme ürünleri üretmektedir.
+       description: `Olips, 1980 yılında Kent Gıda tarafından üretilmeye başlanan ve "Ferahlığın adı" sloganıyla özdeşleşmiş, Türkiye'nin ilk ve en popüler mentollü şeker markasıdır. Keskin nane ferahlığı sunan klasik "Extra Strong" versiyonunun yanı sıra limonlu ve portakallı çeşitleriyle de bilinir.
   
-  Olips, Türkiye pazarında popüler bir şekerleme markasıdır ve Mondelez International'ın diğer şekerleme markalarıyla birlikte pazarda yer almaktadır. Marka, ağızda eriyen özelliği ile bilinen çeşitli aromalı şeker ürünleri sunmaktadır. Türkiye'deki üreticisi Kent Gıda'dır.`,
+Yıllar içinde ambalajı ve çeşitleri yenilense de, Olips her zaman "nefes açan şeker" kategorisinin lideri olmuştur. Markanın mülkiyeti günümüzde Amerikan gıda devi Mondelez International'a aittir.`,
        boycottReason: `Olips markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Olips, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
   Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
   Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Olips markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Toblerone",
@@ -9420,60 +9721,66 @@ Jean Tobler, 1855'e kadar St. Gallen, Dresden ve Paris'te mesleğini öğrendikt
 Toblerone, üçgen şekli ve karakteristik bal-badem nugası karışımı ile dünya çapında tanınan bir çikolata markasıdır. Marka, İsviçre'nin çikolata geleneğini yansıtan kaliteli ürünleri ile bilinmektedir.`,
        boycottReason: `Toblerone markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Toblerone, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Toblerone markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-       evidences: [""],
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Toblerone markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Topitop",
        slug: "topitop",
-       foundedYear: 1111111111,
-       ctgry: "Yiyecek",
-       founder: "",
+       foundedYear: 1988,
+       ctgry: "Sakız & Şeker",
+       founder: "Kent Gıda",
        owner: "Mondelez International",
        country: "ABD",
        alternative_products: [],
        img: "/topitop.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Topitop, Mondelez International'a ait olan bir şekerleme markasıdır. Marka, Türkiye pazarında popüler bir şekerleme ürünü olarak bilinmektedir.
+       description: `Topitop, 1988 yılında Kent Gıda tarafından Türkiye'de piyasaya sürülen ve çocukluğumuzun vazgeçilmezlerinden biri olan efsanevi saplı şeker markasıdır. Çilek-Kola ve Portakal-Çilek gibi klasikleşmiş ikili lezzet kombinasyonlarıyla bilinir. 
   
-  Topitop, çeşitli şekerleme ürünleri sunmakta ve Türkiye'deki tüketicilere hitap etmektedir. Marka, Türkiye'deki üreticisi Kent Gıda tarafından üretilmekte ve pazarlanmaktadır. Kent Gıda, Mondelez International'ın Türkiye'deki operasyonlarını yürüten bir alt markasıdır.
-  
-  Mondelez International, dünya çapında tanınan bir gıda ve içecek şirketi olup, çikolata, bisküvi, sakız ve şekerleme ürünleri üretmektedir. Topitop markası, Mondelez International'ın küresel portföyünde yer alan önemli şekerleme markalarından biridir.`,
+Marka, Kent Gıda'nın Mondelez International'a satılmasıyla birlikte küresel gıda devinin portföyüne katılmıştır. Günümüzde hala Türkiye'nin en bilinen ve sevilen lolipop markalarından biri olarak raflarda yer almaktadır.`,
        boycottReason: `Topitop markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Topitop, Mondelez International'a ait bir şekerleme markasıdır ve Türkiye'deki üreticisi Kent Gıda'dır.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Topitop markası, sahibi olan Mondelez International'ın İsrail ile olan ilişkileri nedeniyle boykot listesinde yer almaktadır.`,
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Topitop markası, sahibi olan Mondelez International'ın İsrail ile olan ilişkileri nedeniyle boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Missbon",
        slug: "missbon",
        country: "ABD",
-       foundedYear: 1111111111,
-       ctgry: "Yiyecek",
+       foundedYear: 1988,
+       ctgry: "Sakız & Şeker",
        founder: "Mondelez International",
        owner: "Mondelez International",
        alternative_products: [],
        img: "/missbon.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Missbon, Mondelez International'ın portföyünde yer alan bir şekerleme markasıdır. Mondelez International, dünya çapında tanınan bir gıda ve içecek şirketi olup, çikolata, bisküvi, sakız ve şekerleme ürünleri üretmektedir.
-  
-  Missbon, Türkiye pazarında popüler bir şekerleme markasıdır ve Mondelez International'ın diğer şekerleme markalarıyla birlikte pazarda yer almaktadır. Türkiye'deki üreticisi Kent Gıda'dır.`,
+       description: `Missbon, 1988 yılında Türkiye'nin köklü şekerleme üreticisi Kent Gıda tarafından piyasaya sürülen ve "içi yumuşak dolgulu, dışı sert" yapısıyla bilinen ikonik bir bonbon şeker markasıdır. Çilek, portakal, limon, vişne gibi klasik meyve aromalarının yanı sıra kahve ve sütlü çeşitleriyle de tüketicilerin beğenisini kazanmıştır.
+
+Kent Gıda'nın 2002 yılında Cadbury Schweppes tarafından, daha sonra ise Cadbury'nin 2010 yılında Kraft Foods (şimdiki adıyla Mondelēz International) tarafından satın alınmasıyla marka, küresel gıda devi Mondelēz'in portföyüne katılmıştır. Günümüzde Mondelēz International çatısı altında üretimine devam edilmektedir.`,
        boycottReason: `Missbon markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Missbon, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
   
-  Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
+Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
   
-  Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Missbon markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Missbon markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Tofita",
        slug: "tofita",
-       foundedYear: 1111111111,
-       ctgry: "Yiyecek",
+       foundedYear: 1994,
+       ctgry: "Sakız & Şeker",
        founder: "Mondelez International",
        owner: "Mondelez International",
        country: "ABD",
@@ -9481,29 +9788,31 @@ Toblerone, üçgen şekli ve karakteristik bal-badem nugası karışımı ile d�
        img: "/tofita.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Tofita, Mondelez International'ın portföyünde yer alan bir sakız markasıdır. Mondelez International, dünya çapında tanınan bir gıda ve içecek şirketi olup, çikolata, bisküvi, sakız ve şekerleme ürünleri üretmektedir.
+       description: `Tofita, 1994 yılında Kent Gıda tarafından Türkiye pazarında satışa sunulan ve "yumuşak şeker" (toffee) kategorisinin en bilinen markalarından biridir. Çilek, vişne, portakal ve böğürtlen gibi yoğun meyve aromaları ve çiğnenebilir yumuşak dokusuyla özellikle 90'lı ve 2000'li yılların en popüler atıştırmalıkları arasında yer almıştır.
 
-Tofita, Türkiye pazarında popüler bir sakız markasıdır ve Mondelez International'ın diğer sakız markaları arasında Falım, First, Bubblicious, Şıpsevdi ve Tipitip gibi markalarla birlikte yer almaktadır. Türkiye'deki üreticisi Kent Gıda'dır.`,
+Marka, Kent Gıda'nın önce Cadbury, ardından Mondelez International bünyesine geçmesiyle birlikte küresel bir portföyün parçası olmuştur. Sakız değil, şekerleme grubunda yer alan Tofita, uzun ince paket yapısı ve yoğun lezzetiyle tanınır.`,
        boycottReason: `Tofita markasının boykot edilmesinin temel nedeni, markanın sahibi Mondelez International'ın İsrail ile olan ticari ve ekonomik bağlarıdır. Tofita, Mondelez International'ın alt markasıdır ve Mondelez'in İsrail ile olan ilişkileri nedeniyle boykot listesindedir.
 
 Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
 
 Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Tofita markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-       evidences: [""],
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Tipitip",
        slug: "tipitip",
        foundedYear: 1974,
-       ctgry: "Yiyecek",
-       founder: "Kent Gıda Sanayii",
+       ctgry: "Sakız & Şeker",
+       founder: "Kent Gıda",
        owner: "Mondelez International",
        country: "ABD",
        alternative_products: [],
        img: "/tipitip.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Tipitip, 1974 yılından beri Kent Gıda Sanayii tarafından üretilen karikatürlü bazuka sakız markasıdır. Tipitip, Türkiye'deki ilk büyük sakız ve karikatür karakteri olarak bilinmektedir.
+       description: `Tipitip, 1974 yılından beri Kent Gıda tarafından üretilen karikatürlü bazuka sakız markasıdır. Tipitip, Türkiye'deki ilk büyük sakız ve karikatür karakteri olarak bilinmektedir.
 
 Tipitip'in ana karakteri, uzun burunlu, büyük gözlüklü, papyon kravatlı (daha sonra kravat) ve yuvarlak şapkalı sevimli, neşeli ama sakar bir aile çocuğudur. Karakter, her dokunduğu şeyi berbat eden bir yapıya sahiptir. Tipitip karakteri, karikatürist Bülent Arabacıoğlu tarafından yaratılmıştır.
 
@@ -9515,13 +9824,15 @@ Tipitip'in maceralarında yeni karakterler de eklenmiştir: eşi Tipitoş, oğlu
 Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
 
 Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Tipitip markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-       evidences: [""],
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Şıpsevdi",
        slug: "sipsevdi",
        foundedYear: 1970,
-       ctgry: "Yiyecek",
+       ctgry: "Sakız & Şeker",
        founder: "Kent Gıda",
        owner: "Mondelez International",
        country: "ABD",
@@ -9539,7 +9850,9 @@ Avrupa pazarında "Love is..." adıyla pazarlanan marka, diğer dillerde de eşd
 Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
 
 Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Şıpsevdi markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-       evidences: [""],
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Madlen",
@@ -9561,7 +9874,9 @@ Madlen, Türkiye pazarında popüler bir çikolata markasıdır ve Mondelez Inte
 Çatı kuruluş Mondelez, The Kitchen Hub ve Torr isimli iki İsrailli gıda girişimine yatırımda bulunmuştur. Mondelez, İsrail'de ekonomik ilişkilerini hem operasyonel olarak hem de AR-GE yatırımları ile pekiştirmektedir. Nitekim bahsi geçen girişimleri kuranlar arasında Mondelez'in eski çalışanları da bulunmaktadır.
 
 Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merkezli gıda girişimlerine yaptığı yatırımlar, Filistin halkına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından kabul edilemez bulunmaktadır. Bu nedenle Madlen markası, hem politik hassasiyetler hem de etik tüketim bilinci açısından boykot listesinde yer almaktadır.`,
-       evidences: [""],
+       evidences: [
+        "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+       ],
       },
       {
        name: "Tofy",
@@ -9610,6 +9925,24 @@ Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merke
      ],
     },
     {
+     name: "Tang",
+     slug: "tang",
+     ctgry: "İçecek",
+     foundedYear: 1957,
+     country: "ABD",
+     owner: "Mondelez International",
+     description: `Tang, 1957 yılında General Foods gıdabilimcisi William A. Mitchell tarafından formüle edilmiş ve ilk olarak 1959 yılında toz haline getirilmiş meyve aromalı bir içecek karışımıdır. Uzay programlarında kullanılmasıyla da popülerlik kazanmıştır.
+       Marka, başlangıçtaki sahibi General Foods'un ardından el değiştirmiştir. Tang markası şu anda, Kraft Foods şirketinden ayrılan Kuzey Amerika şirketi Mondelēz International'a aittir. Mondelēz International'ın alt markası olan Tang, dünya çapında birçok ülkede toz formunda meyve aromalı içecek karışımı olarak tüketicilere sunulmaktadır.`,
+     country: "ABD",
+     website: "",
+     img: "/tang.png",
+     isBoycotted: "boykot",
+     boycottReason: `Tang'ın boykot edilmesinin temel nedeni, markanın çatı kuruluşu olan Mondelēz International şirketinin İsrail ile olan ticari ve ekonomik ilişkileridir. Mondelēz, İsrail'deki gıda girişimlerine yatırımlar yaparak buradaki ekonomik ilişkilerini hem operasyonel hem de Ar-Ge (Araştırma ve Geliştirme) yatırımlarıyla pekiştirmektedir.
+       Mondelēz'in, özellikle İsrail'de The Kitchen Hub ve Torr isimli iki gıda girişimine yatırım yapması, bu boykot çağrılarına neden olmuştur. Hatta bahsedilen girişimleri kuran kişiler arasında Mondelēz'in eski çalışanlarının bulunması da, şirketin İsrail ekonomisine olan yakınlığını gösteren faktörlerdendir. Tüketiciler, Mondelēz International'ın bu yatırımları nedeniyle Tang markasını boykot listelerine dahil etmektedir.`,
+     alternative_products: ["nazo", "juss", "dimes"],
+    },
+
+    {
      name: "Jacobs",
      slug: "jacobs",
      ctgry: "İçecek",
@@ -9631,9 +9964,55 @@ Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merke
      website: "https://www.jacobscoffee.com.tr/",
      img: "/jacobs.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Jacobs markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Jacobs markası da bu kapsamda boykot listesinde yer almaktadır.",
+     boycottReason: "Jacobs markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Jacobs markası da bu kapsamda boykot listesinde yer almaktadır.",
      alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+     evidences: [
+      "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+     ],
+    },
+    {
+     name: "Cadbury",
+     slug: "cadbury",
+     ctgry: "Yiyecek",
+     foundedYear: 1824,
+     founder: "John Cadbury",
+     owner: "Mondelez International",
+     country: "ABD",
+     website: "https://www.cadbury.co.uk/",
+     img: "/cadbury.png",
+     isBoycotted: "boykot",
+     description: `Cadbury, 1824 yılında İngiltere'nin Birmingham kentinde John Cadbury tarafından kurulan, dünyanın en köklü ve ikonik çikolata markalarından biridir. Bir Quaker (Dostlar Derneği üyesi) olan John Cadbury, alkol tüketimine alternatif olarak çay, kahve ve içilebilir çikolata satarak işe başlamıştır. Markanın sosyal sorumluluk vizyonu, çalışanları için inşa edilen örnek "Bournville" köyü ile tarihe geçmiştir.
+
+Markanın en büyük atılımı, 1905 yılında "bir buçuk bardak süt" sloganıyla tanıtılan ve rakiplerine göre daha yüksek süt oranına sahip olan "Dairy Milk" çikolatasının piyasaya sürülmesidir. Bu ürün, kısa sürede İngiltere'nin en çok satan çikolatası olmuş ve markayı küresel bir dev haline getirmiştir.
+
+2010 yılında Amerikan gıda devi Kraft Foods (günümüzde Mondelēz International) tarafından satın alınan Cadbury, İngiliz mirasını korusa da mülkiyeti ABD merkezli bir şirkete geçmiştir. Kraliçe Victoria'dan aldığı Kraliyet Emri (Royal Warrant) ile kaliteyi simgeleyen marka, günümüzde 50'den fazla ülkede faaliyet göstermektedir.`,
+     boycottReason: "Cadbury markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Cadbury markası da bu kapsamda boykot listesinde yer almaktadır.",
+     alternative_products: [""],
+     evidences: [
+      "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+     ],
+    },
+    {
+     name: "Trident",
+     slug: "trident",
+     ctgry: "Sakız & Şeker",
+     foundedYear: 1960,
+     founder: "American Chicle Company",
+     owner: "Mondelez International",
+     country: "ABD",
+     website: "https://www.tridentgum.com/",
+     img: "/trident.png",
+     isBoycotted: "boykot",
+     description: `Trident, 1960 yılında geliştirilen ve 1964 yılında "Dişlerinize uygun iyi tat" sloganıyla piyasaya sürülen dünyanın ilk patentli şekersiz sakızıdır. İsmini, diş çürüklerini önlemeye yardımcı olan üç enzimi (tri) simgeleyen ve aynı zamanda Yunan deniz tanrısı Poseidon'un üç dişli mızrağını andıran "Trident" kelimesinden almıştır.
+
+Sakızın en önemli özelliği, içeriğinde şeker yerine ksilitol kullanılmasıdır. Bu sayede plak asitlerini nötralize ederek diş sağlığını destekler ve diş hekimleri tarafından tavsiye edilen bir ürün haline gelmiştir. Başlangıçta dikdörtgen tabletler halinde sunulan Trident, zamanla farklı ambalaj ve aroma çeşitleriyle ürün gamını genişletmiştir.
+     
+Marka, tarihsel süreçte Warner-Lambert, Pfizer ve Cadbury gibi devlerin bünyesinde yer almış, son olarak 2010 yılında Mondelēz International (eski Kraft Foods) çatısı altına girmiştir. Birçok ülkede Stimorol veya Dirol gibi farklı isimlerle de bilinir.`,
+     boycottReason: "Trident markası, Mondelez International çatısı altında faaliyet gösteren bir markadır. Mondelez International, İsrail'deki yatırımları, iş ortaklıkları ve ekonomik ilişkileri nedeniyle boykot kapsamına alınmıştır. Mondelez International'ın İsrail'deki faaliyetleri ve iş ortaklıkları, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Mondelez International'a ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Trident markası da bu kapsamda boykot listesinde yer almaktadır.",
+     alternative_products: [""],
+     evidences: [
+      "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-snackfutures-makes-seed-investment",
+     ],
     },
    ],
   },
@@ -9643,18 +10022,18 @@ Mondelez International'ın İsrail ile olan bu yakın ilişkisi ve İsrail merke
    foundedYear: 1968,
    ctgry: "Yiyecek",
    founder: "Vural Görener ve Ortakları",
-   owner: "BRF S.A. (Brezilya) ve Katar Yatırım Otoritesi (TBQ Foods GmbH)",
-   country: "Brezilya & Katar",
+   owner: "TBQ Food GmbH: %91,71 ve Halka açık: %8,29",
+   country: "Katar",
    alternative_products: [""],
    img: "/banvit.png",
-   isBoycotted: "boykot",
+   isBoycotted: "boykot-degil",
    website: "https://www.banvit.com/",
-   description: `Banvit (Bandırma Vitaminli Yem Sanayi ve Ticaret A.Ş.), 1968 yılında Balıkesir Bandırma'da bir yem üreticisi olarak kurulan ve zamanla Türkiye'nin en büyük beyaz et üreticilerinden birine dönüşen köklü bir markadır. Yem üretiminin yanı sıra, entegre tesislerinde piliç eti, hindi eti ve işlenmiş et ürünleri (sucuk, sosis, salam, döner vb.) üreterek gıda sektöründe lider konuma yükselmiştir.
+   description: `Banvit (Bandırma Vitaminli Yem Sanayi ve Ticaret A.Ş.), 1968 yılında Bandırma'da kurulmuş ve Türkiye'nin köklü beyaz et üreticilerinden biri olarak öne çıkan bir markadır. Başlangıçta yem üretimi ile faaliyet gösteren şirket, zaman içinde entegre tesislerde piliç ve hindi eti üretimi ile işlenmiş et ürünleri (sucuk, sosis, salam, döner vb.) alanına genişlemiştir. Bu sayede Banvit, Türkiye’nin gıda sektöründe önemli bir oyuncusu haline gelmiştir.
 
-Şirketin tarihinde önemli bir dönüm noktası, 2017 yılında gerçekleşen hisse devridir. Banvit'in çoğunluk hisseleri, dünyanın en büyük gıda şirketlerinden biri olan Brezilya merkezli **BRF S.A.** ile **Katar Yatırım Otoritesi**'nin ortak girişimi olan TBQ Foods GmbH'ye satılmıştır. Bu satışla birlikte Banvit, global bir gıda devinin parçası haline gelmiştir.
+2017 yılında Banvit’in çoğunluk hisseleri, Katar merkezli TBQ Food GmbH’ye devredilmiştir. Bu devirle birlikte Banvit, tamamen yabancı bir yatırımcı grubunun mülkiyetine geçmiş olup Türkiye’de üretim ve dağıtım faaliyetlerini sürdürmeye devam etmektedir. Şirket, entegre üretim tesisleri ve yüksek üretim kapasitesi ile hem iç pazarda hem de ihracat alanında güçlü bir performans sergilemektedir.
 
-Günümüzde Balıkesir Bandırma merkezli olarak faaliyetlerine devam eden şirket, binlerce çalışanı ve yüksek üretim kapasitesiyle Türkiye pazarının önemli oyuncularından biridir. Sürdürülebilirlik projelerine verdiği önem ve kalite odaklı üretim anlayışıyla bilinir.`,
-   boycottReason: `Banvit, Brezilya ve Katar merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
+Günümüzde Banvit, kalite odaklı üretim anlayışı ve sürdürülebilirlik projelerine verdiği önem ile tanınmaktadır. Katar menşeli olmasına rağmen ürünleri Türkiye’de yaygın şekilde bulunmakta ve binlerce çalışanı ile ülke ekonomisine katkı sağlamaya devam etmektedir. Banvit, güvenilir gıda üretimi ve geniş ürün portföyü ile tüketiciler tarafından tercih edilen bir marka olmaya devam etmektedir.`,
+   boycottReason: `Banvit markası, Katar menşeli olup, İsrail'e destek veya Çin menşeli olmakla ilgili herhangi bir durum tespit edilmemiştir. Marka, boykot listelerinde yer almamaktadır ve güvenle tercih edilebilecek bir içecek alternatifi olarak değerlendirilmektedir.`,
   },
   //! İÇECEK MARKALARI
   {
@@ -9682,18 +10061,7 @@ Boykotun gerekçesi, Abant Su'nun sahibi Burhanettin Kaya'nın otellerinde, İsr
 Ramazan Bayramı, Müslümanlar için özel bir öneme sahip olan dini bir bayramdır. Bu bayramın ilk gününde, İsrail vatandaşı ve İsrail ordusu için askerlik yapmış bir sanatçının sahneye çıkarılması, Müslüman tüketicilerin hassasiyetlerini yaralamıştır. Bu gelişme, tüketiciler arasında markaya yönelik tepki ve boykot çağrılarını artırmıştır.
 
 Bu nedenle, Filistin davasına destek vermek isteyen ve İsrail'in işgalci politikalarına karşı duran tüketiciler, Abant Su markasını boykot etmeyi bir sorumluluk olarak görmektedir. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
-   alternative_products: [
-    "hamidiye",
-    "sirmakes",
-    "beysu",
-    "sultan",
-    "buzdagi",
-    "kizilay",
-    "ozkaynak",
-    "ceysu",
-    "sarikiz",
-    "beypazari",
-   ],
+   alternative_products: ["hamidiye", "sirmakes", "beysu", "sultan", "buzdagi", "kizilay", "ozkaynak", "ceysu", "sarikiz", "beypazari"],
   },
   {
    name: "Saka",
@@ -9711,19 +10079,8 @@ Saka Su, özellikle maden suyu segmentinde güçlü bir konuma sahiptir ve tüke
    website: "https://www.sakasu.com.tr/",
    img: "/saka.png",
    isBoycotted: "boykot",
-   boycottReason: `Saka, Japonya merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
-   alternative_products: [
-    "hamidiye",
-    "sirmakes",
-    "beysu",
-    "sultan",
-    "buzdagi",
-    "kizilay",
-    "ozkaynak",
-    "ceysu",
-    "sarikiz",
-    "beypazari",
-   ],
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
+   alternative_products: ["hamidiye", "sirmakes", "beysu", "sultan", "buzdagi", "kizilay", "ozkaynak", "ceysu", "sarikiz", "beypazari"],
   },
   {
    name: "Lactalis",
@@ -9732,22 +10089,18 @@ Saka Su, özellikle maden suyu segmentinde güçlü bir konuma sahiptir ve tüke
    foundedYear: 1933,
    founder: "André Besnier",
    owner: "Besnier ailesi",
-   description: `Lactalis, Besnier ailesi tarafından sahip olunan ve Laval, Mayenne, Fransa'da yerleşik çok uluslu bir süt ürünleri şirketidir. Şirketin eski adı Besnier SA idi. Dünyanın en büyük süt ürünleri grubudur ve Fransa'nın Danone şirketinin arkasında bulunan en büyük ikinci gıda ürünleri grubudur. Lactalis, 1933 yılında André Besnier tarafından küçük bir peynir üretim şirketi olarak kurulmuş, 1968 yılında Président markası Camembert'i piyasaya sürmüştür. Şirket, Parmalat, Président, Kraft Natural Cheese, Siggi's Dairy, Skånemejerier, Rachel's Organic ve Stonyfield Farm gibi markalara sahiptir.`,
+   description: `Lactalis, 1933 yılında André Besnier tarafından Fransa'nın Mayenne bölgesindeki Laval kentinde küçük bir peynir üretim işletmesi olarak kurulan ve bugün dünya çapında faaliyet gösteren dev bir süt ürünleri konglomeratıdır. Besnier ailesi tarafından sahip olunan ve yönetilen şirket, neredeyse bir asırlık geçmişi boyunca sürekli büyüme ve agresif satın alma stratejileriyle küçük bir yerel işletmeden küresel bir güce dönüşmüştür. 1968 yılında piyasaya sürdüğü Président markası Camembert peyniri, şirketin uluslararası başarısının temel taşlarından biri olmuş ve Fransız peynir kültürünün dünya çapında tanınmasına önemli katkı sağlamıştır. Bugün Lactalis, dünyanın en büyük süt ürünleri grubu unvanını taşımakta ve Fransa'nın gıda sektöründeki en önemli oyuncularından biri olarak Danone'un hemen arkasından gelmektedir.
+
+   Şirket, dünya genelinde 94 ülkede faaliyet göstermekte, 250'den fazla üretim tesisine sahip olmakta ve 85 binden fazla çalışanı istihdam etmektedir. Lactalis'in devasa portföyünde Président, Galbani, Parmalat, Siggi's Dairy, Skånemejerier, Rachel's Organic, Stonyfield Farm, Société, Roquefort Société ve Kraft Natural Cheese (belirli bölgelerde) gibi dünya çapında tanınan yüzlerce marka bulunmaktadır. Peynir, süt, tereyağı, yoğurt, krema ve diğer süt bazlı ürünlerde geniş bir yelpaze sunan şirket, hem tüketici markaları hem de endüstriyel müşterilere yönelik B2B çözümleriyle çok çeşitli segmentlerde faaliyet göstermektedir. Lactalis, özellikle peynir kategorisinde küresel pazar liderliğini elinde bulundurmakta ve Avrupa, Amerika, Asya ve Afrika'da güçlü bir dağıtım ağına sahiptir.`,
    country: "Fransa",
    website: "https://www.lactalis.com/en/le-groupe-lactalis/",
    img: "/lactalis.png",
    isBoycotted: "boykot",
-   boycottReason: `Lactalis'in boykot edilmesinin temel nedenleri şunlardır:
+   boycottReason: `Lactalis'in boykot edilmesinin birincil nedeni, Fransa merkezli çok uluslu bir yabancı sermaye şirketi olmasıdır. Besnier ailesi tarafından sahip olunan ve Laval, Mayenne, Fransa'da merkezlenen bu dev süt ürünleri konglomeratı, yerli bir marka olmadığı için Türkiye ekonomisine doğrudan katkı sağlamamakta ve elde ettiği karları yurt dışına transfer etmektedir. Yerli üretimi desteklemek, ulusal istihdamı korumak ve ekonomik bağımsızlığımızı güçlendirmek amacıyla, yabancı sermayeli markaların ürünleri yerine %100 Türk sermayeli yerli süt ve süt ürünleri markalarının tercih edilmesi büyük önem taşımaktadır.
 
-1. Yabancı Ülke Merkezli Olması: Lactalis, Besnier ailesi tarafından sahip olunan ve Laval, Mayenne, Fransa'da yerleşik çok uluslu bir süt ürünleri şirketidir. Bu marka yabancı bir ülke merkezli olduğu için boykot edilmektedir. Yerli malı değildir ve Türkiye ekonomisine doğrudan katkı sağlamamaktadır.
+Ayrıca, Groupe Lactalis'in küresel çapta yürüttüğü ticari faaliyetler, İsrail ekonomisi ile ilişkilendirilen yatırımları ve ticari bağları içermektedir. Dünyanın en büyük süt ürünleri grubu olarak izlediği küresel yatırım stratejisi kapsamında İsrail ekonomisine katkıda bulunan şirket, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından büyük tepkiyle karşılanmaktadır. Bu ticari duruş nedeniyle Lactalis, bağlı olduğu holdingin politikaları yüzünden etik açıdan sorumlu tüketiciler tarafından boykot edilmektedir.
 
-2. İsrail ile Ticari İlişkileri: Groupe Lactalis'in küresel çapta yürüttüğü ticari faaliyetler, İsrail ekonomisi ile ilişkilendirilen yatırımları içermektedir. Şirketin İsrail ile olan ticari bağları, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir. Bu durum, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran tüketiciler tarafından büyük tepkiyle karşılanmaktadır.
-
-3. Küresel Yatırım Stratejisi: Lactalis, dünyanın en büyük süt ürünleri grubu olarak küresel bir yatırım stratejisi izlemektedir. Şirketin bu stratejisi, İsrail ekonomisi ile ilişkilendirilen yatırımları da içermektedir. Bu ticari duruş nedeniyle Lactalis, bağlı olduğu holdingin politikaları yüzünden boykot edilmektedir.
-
-4. Türkiye Pazarındaki Etkisi: Lactalis, 2015 yılında Ak Gıda'yı satın alarak Türkiye süt ve süt ürünleri pazarına girmiştir. Bu satın alma, Lactalis'in küresel genişleme stratejisinin bir parçasıdır. Ancak, şirketin İsrail ile olan ticari bağları nedeniyle, Filistin davasına destek vermek isteyen ve İsrail'in işgalci politikalarına karşı duran tüketiciler, Lactalis'i boykot etmeyi bir sorumluluk olarak görmektedir.
-
-Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere yönelmek daha uygun olacaktır.`,
+Lactalis, 2015 yılında Ak Gıda'yı satın alarak Türkiye süt ve süt ürünleri pazarına girmiş ve bu satın alma şirketin küresel genişleme stratejisinin önemli bir parçası olmuştur. Ancak, şirketin hem yabancı sermayeli olması hem de İsrail ile olan ticari bağları nedeniyle, yerli üretimi desteklemek ve Filistin davasına destek vermek isteyen bilinçli tüketiciler, Lactalis markasını boykot etmeyi bir sorumluluk olarak görmektedir. Tüketicilerin yerli ve milli süt ürünleri alternatiflerine yönelmesi, hem ekonomik egemenliğimize katkı sağlayacak hem de etik değerlerimize uygun bir tüketim anlayışını destekleyecektir.`,
    subBrands: [
     {
      name: "Ak Gıda",
@@ -9756,7 +10109,9 @@ Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere
      ctgry: "Şirket",
      founder: "Ülker Grubu",
      owner: "Groupe Lactalis",
-     description: `Ak Gıda, 1996 yılında kurulan ve Türkiye'de süt ve süt ürünleri sektörünün en büyük işletmelerinden biridir. Başlangıçta Ülker Ailesi (Yıldız Holding) tarafından kurulan şirket, Türkiye'nin ilk UHT sütünü ve ilk meyveli yoğurdunu üretmesiyle tanınır. 2015 yılında şirketin çoğunluk hissesi, dünya süt endüstrisi lideri olan Fransız Groupe Lactalis tarafından satın alınmıştır. Günümüzde 6 üretim tesisi ve günlük 5 bin ton süt işleme kapasitesiyle İçim, Président ve Masterini gibi markaların üretimini gerçekleştirmektedir.`,
+     description: `Ak Gıda, 1996 yılında Yıldız Holding bünyesinde Ülker Ailesi tarafından kurulan ve Türkiye'nin süt ve süt ürünleri sektöründe öncü konumda olan en büyük işletmelerinden biridir. Şirket, kuruluşundan itibaren yenilikçi yaklaşımıyla Türkiye gıda endüstrisinde önemli dönüm noktalarına imza atmıştır. Türkiye'nin ilk UHT (Ultra Yüksek Sıcaklık) sütünü üreten firma olma unvanını taşıyan Ak Gıda, aynı zamanda ülkede ilk meyveli yoğurdu da piyasaya sürerek tüketici alışkanlıklarını değiştirmiş ve modern süt ürünleri tüketiminin yaygınlaşmasına öncülük etmiştir. Yıllar içinde sürekli büyüyen ve teknolojik yatırımlarını artıran şirket, Türk süt sektörünün modernleşmesinde ve uluslararası standartlara ulaşmasında kilit rol oynamıştır. 2015 yılında şirketin %90'lık çoğunluk hissesi, dünya süt endüstrisinin en büyük ve köklü oyuncularından biri olan Fransız Groupe Lactalis tarafından satın alınmış ve bu satın alma Türk süt sektöründe büyük bir değişimi temsil etmiştir.
+
+Günümüzde Ak Gıda, Türkiye genelinde stratejik olarak konumlandırılmış 6 modern üretim tesisine ve günlük 5 bin ton süt işleme kapasitesine sahip devasa bir üretim altyapısıyla faaliyet göstermektedir. Şirket, İçim markası altında süt, yoğurt, ayran, tereyağı ve peynir gibi geniş bir süt ürünleri yelpazesi üretirken, aynı zamanda Lactalis'in küresel premium markası Président'in Türkiye üretimini de gerçekleştirmektedir. Bunun yanı sıra dondurma kategorisinde faaliyet gösteren Algida'nın (Unilever) bazı ürünlerinin üretimini de üstlenen Ak Gıda, binlerce çiftçiyle doğrudan çalışmakta ve Türkiye'nin farklı bölgelerinden toplanan sütleri en yüksek hijyen ve kalite standartlarında işlemektedir. Modern teknolojik altyapısı, geniş ürün portföyü ve yaygın dağıtım ağıyla Türkiye süt endüstrisinin en önemli üretim merkezlerinden biri olma konumunu sürdürmektedir.`,
      country: "Fransa",
      website: "https://www.bim.com.tr ",
      img: "/ak-gida.png",
@@ -9767,57 +10122,52 @@ Bu nedenlerle Lactalis markası boykot edilmektedir. Yerli alternatif ürünlere
        name: "İçim",
        slug: "icim",
        ctgry: ["Yiyecek", "İçecek"],
-       founder: "Ülker Grubu",
+       foundedYear: 1996,
+       founder: "Ülker Grubu (Yıldız Holding)",
        owner: "Groupe Lactalis",
-       description: `İçim, Türkiye'nin önde gelen gıda şirketlerinden Ak Gıda tarafından üretilen köklü bir süt ve süt ürünleri markasıdır. Markanın geniş bir ürün yelpazesi bulunmaktadır; bu yelpaze UHT süt, yoğurt, ayran, peynir ve tereyağı gibi temel süt ürünlerini kapsar.
-    
-İçim markasının kuruluş hikayesi, Ülker Grubu'nun süt ve süt ürünleri sektörüne girmesiyle başlamıştır. Ak Gıda, üretim kapasitesi ve hızlı büyümesiyle tanınan bir şirkettir. İçim markasının üreticisi olan Ak Gıda, uzun yıllar boyunca Ülker Grubu'na bağlı kalmış, ancak daha sonra önemli bir yabancı yatırımcıya satılmıştır.
-    
-İçim markasının günümüzdeki sahibi, Avrupa'nın en büyük gıda şirketlerinden biri olan Fransa merkezli Groupe Lactalis'tir. Lactalis, Ak Gıda'yı satın alarak Türkiye süt ve süt ürünleri pazarına girmiştir. Bu satın alma, Lactalis'in küresel genişleme stratejisinin bir parçasıdır ve şirketin Türkiye pazarındaki varlığını güçlendirmiştir.
-    
-İçim markası, Türkiye genelinde marketler, süpermarketler ve çeşitli satış noktalarında yaygın olarak bulunmaktadır. Marka, kalite ve güvenilirlik odaklı üretim anlayışıyla Türkiye süt ürünleri pazarında önemli bir konuma sahiptir.`,
+       description: `İçim, Türkiye'nin en köklü ve tanınmış süt ve süt ürünleri markalarından biri olup, Ak Gıda tarafından üretilmektedir. 1996 yılında Yıldız Holding bünyesinde kurulan marka, Türkiye'de modern süt ürünleri tüketiminin öncülerinden biri olma özelliğini taşımaktadır. İçim, Türkiye'nin ilk UHT (Ultra Yüksek Sıcaklık) sütünü piyasaya sürerek uzun ömürlü süt tüketimini yaygınlaştırmış ve tüketici alışkanlıklarında önemli bir değişime öncülük etmiştir. Yıllar içinde sürekli genişleyen ürün portföyüyle UHT süt, yoğurt, ayran, peynir, tereyağı, krema, kaşar ve süzme peynir gibi geniş bir süt ürünleri yelpazesi sunmaktadır. Marka, kaliteli ve güvenilir üretim anlayışıyla Türk tüketicilerin mutfaklarında ve sofralarında önemli bir yer edinmiştir.
+     
+Markanın kuruluş hikayesi, Ülker Grubu'nun süt ve süt ürünleri sektörüne stratejik bir girişimiyle başlamıştır. Uzun yıllar Yıldız Holding bünyesinde başarıyla faaliyet gösteren Ak Gıda ve İçim markası, 2015 yılında Avrupa'nın ve dünyanın en büyük süt ürünleri konglomeratlarından biri olan Fransa merkezli Groupe Lactalis'e satılmıştır. Bu satın alma, Lactalis'in küresel genişleme stratejisinin önemli bir parçası olmuş ve şirketin Türkiye pazarındaki varlığını güçlendirmiştir. Günümüzde İçim markası, Türkiye genelinde marketler, süpermarketler, zincir mağazalar ve binlerce satış noktasında yaygın olarak bulunmakta ve kalite odaklı üretim anlayışıyla Türkiye süt ürünleri pazarında lider konumunu sürdürmektedir. Modern üretim tesisleri, geniş çiftçi ağı ve yaygın dağıtım kanallarıyla milyonlarca tüketiciye ulaşan marka, Türk gıda endüstrisinin önemli oyuncularından biri olmaya devam etmektedir.`,
        country: "Fransa",
        website: "https://www.icim.com.tr/",
        img: "/icim.png",
        isBoycotted: "boykot",
-       boycottReason: `İçim markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
+       boycottReason: `Bu markanın boykot edilmesinin birincil nedeni, 2015 yılından bu yana ana şirketi olan Fransa merkezli Groupe Lactalis'in kontrolü altında olmasıdır. Başlangıçta Türk sermayesi ile kurulan marka, yabancı bir konglomeratın eline geçmiş ve elde edilen karlar artık yurt dışına transfer edilmeye başlanmıştır. Bu durum, Türkiye ekonomisinden sürekli değer çıkışı anlamına gelmekte, yerli üretimin desteklenmesi ve ulusal sermayenin korunması hedeflerine ters düşmektedir. Ayrıca, çatı şirket Groupe Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından şirket boykot edilmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, bu marka yerine Sütaş, Pınar gibi %100 yerli sermayeli alternatif süt ve süt ürünleri markalarının tercih edilmesi önerilmektedir.`,
        alternative_products: ["sutas", "pinar"],
       },
       {
        name: "Président",
        slug: "president",
-       foundedYear: 1933,
+       foundedYear: 1968,
        ctgry: ["Yiyecek", "İçecek"],
-       founder: "André Besnier",
+       founder: "André Besnier (Groupe Lactalis)",
        owner: "Groupe Lactalis",
-       description: `Président'in hikayesi, 19 Ekim 1933 tarihinde Fransa'nın Laval kasabasında André Besnier'in küçük bir mandırada üretime başlamasıyla filizlenmiştir. Sadece 34 litre süt ve 17 adet Camembert peyniri ile başlayan bu mütevazı girişim, zamanla büyüyerek dünyanın en prestijli peynir markalarından biri haline gelmiştir. Groupe Lactalis'in amiral gemisi konumunda olan marka, 90 yılı aşkın tecrübesiyle Fransız peynir ustalığını küresel bir standarta dönüştürmüştür.
-
-       Dünya genelinde 140'tan fazla ülkede sofralarda yer alan Président, sadece Camembert ve Brie gibi özel peynirleriyle değil, tereyağı ve kremalarıyla da gastronomi dünyasının vazgeçilmezlerinden biridir. Marka, "Peyniri dünyaya sevdiren lezzet" mottosuyla, sütün en kaliteli halini usta dokunuşlarla işleyerek tüketicilere sunmaktadır.
-       
-       2019 yılı itibarıyla Türkiye pazarında yerli üretime başlayan Président, Ak Gıda'nın modern tesislerinde Türk damak tadına uygun ürünler geliştirmektedir. Lezzetini peynirin tam kalbinden alan marka; taze peynir, kaşar peyniri, labne, tereyağı ve gurme çeşitleriyle Türkiye'deki kahvaltı ve yemek kültürüne Fransız uzmanlığını taşımakta, yerel üretim gücüyle global kaliteyi birleştirmektedir.`,
+       description: `Président, 1968 yılında Fransa'nın Laval kasabasında Groupe Lactalis tarafından piyasaya sürülen ve bugün dünya çapında prestijli peynir markalarının başında gelen ikonik bir Fransız markasıdır. Markanın temelleri, 1933 yılında André Besnier'in küçük bir mandırada sadece 34 litre süt ve 17 adet Camembert peyniri ile başlattığı mütevazı girişime dayanmaktadır. Bu küçük başlangıç, zamanla büyüyerek Groupe Lactalis'in küresel amiral gemisi konumundaki markasına dönüşmüştür. 50 yılı aşkın tecrübesiyle Fransız peynir ustalığını, zanaatkârlığını ve geleneğini dünya çapında bir standarda dönüştüren Président, "Peyniri dünyaya sevdiren lezzet" mottosuyla hareket etmektedir.
+     
+Dünya genelinde 140'tan fazla ülkede sofralarda yer alan Président, sadece geleneksel Fransız Camembert ve Brie gibi özel ve sofistike peynirleriyle değil, aynı zamanda premium tereyağı, krema ve çeşitli peynir türleriyle de gastronomi dünyasının vazgeçilmez markalarından biridir. Marka, sütün en kaliteli halini usta peynir ustalarının dokunuşlarıyla işleyerek tüketicilere benzersiz bir lezzet deneyimi sunmaktadır. 2019 yılında Türkiye pazarında yerli üretime başlayan Président, Ak Gıda'nın modern ve yüksek teknolojili tesislerinde Türk damak tadına uygun özel ürünler geliştirmekte ve üretmektedir. Lezzetini peynirin tam kalbinden alan marka; taze peynir, kaşar peyniri, labne, tereyağı ve gurme peynir çeşitleriyle Türkiye'deki zengin kahvaltı ve yemek kültürüne Fransız peynir uzmanlığını taşımakta, yerel üretim gücüyle global kalite standartlarını birleştirmektedir.`,
        country: "Fransa",
        website: "https://www.presidentpeynir.com.tr/",
        img: "/president.png",
        isBoycotted: "boykot",
-       boycottReason: `Président, Groupe Lactalis'in ana markasıdır. Markanın sahibi olan Fransız şirketin İsrail ile olan ticari ilişkileri ve küresel sermaye hareketleri nedeniyle boykot listesinde yer almaktadır.`,
+       boycottReason: `Bu marka, Fransa merkezli Groupe Lactalis'in en prestijli ve amiral gemisi konumundaki markasıdır. Ana şirket olan Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir. Ayrıca, yabancı sermayeli olması nedeniyle elde edilen karların yurt dışına transfer edilmesi, Türkiye ekonomisinden değer çıkışı anlamına gelmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, bu marka yerine Sütaş, Pınar gibi %100 yerli sermayeli alternatif peynir ve süt ürünleri markalarının tercih edilmesi önerilmektedir.`,
+       alternative_products: ["sutas", "pinar"],
       },
       {
        name: "Masterini",
        slug: "masterini",
        foundedYear: 2019,
        ctgry: "Yiyecek",
-       founder: "Ak Gıda (Lactalis)",
+       founder: "Ak Gıda (Groupe Lactalis)",
        owner: "Groupe Lactalis",
-       description: `Masterini Professional, Grup Lactalis’in Türkiye şirketi olan Ak Gıda tarafından, ev dışı tüketim (EDT) kanalına özel olarak geliştirilmiş uzman bir markadır. Otel, restoran, kafe (HoReCa) ve pastane gibi işletmelerdeki profesyonel şeflerin ihtiyaçlarını karşılamak üzere tasarlanan marka, mutfakta yüksek performans ve standart lezzet garantisi sunmayı hedefler. "Profesyonellerin Yeni Tercihi" sloganıyla yola çıkan Masterini, usta aşçıların güvenilir iş ortağı olarak konumlanmıştır.
-
-Markanın geniş ürün portföyünde; pasta ve tatlı şefleri için özel olarak formüle edilmiş bitkisel krem şantiler, sıcak yemeklerde kesilme yapmayan bitkisel sıvı kremalar ve yemeklere lezzet katan çeşitli soslar bulunmaktadır. Ayrıca ketçap ve mayonez gibi tamamlayıcı ürünleriyle de profesyonel mutfakların operasyonel yükünü hafifleten pratik çözümler sunmaktadır.
-       
-Dünyanın lider gıda markalarından Président, Galbani ve Parmalat’ı bünyesinde bulunduran Grup Lactalis’in uluslararası tecrübesinden güç alan Masterini, bu global bilgi birikimini yerel şeflerin beklentileriyle birleştirmektedir. Her uygulamada aynı yüksek kaliteyi ve kıvamı tutturmak isteyen şefler için özel reçetelerle üretilen ürünler, Türkiye'nin dört bir yanındaki profesyonel mutfaklarda kullanılmaktadır.`,
+       description: `Masterini Professional, Groupe Lactalis'in Türkiye şirketi olan Ak Gıda tarafından 2019 yılında, ev dışı tüketim (EDT) ve profesyonel mutfak kanalına özel olarak geliştirilmiş uzman bir markadır. Otel, restoran, kafe (HoReCa), pastane, kurumsal mutfaklar ve catering gibi profesyonel işletmelerdeki şeflerin ve aşçıların özel ihtiyaçlarını karşılamak üzere tasarlanan marka, mutfakta yüksek performans, tutarlı kalite ve standart lezzet garantisi sunmayı hedeflemektedir. "Profesyonellerin Yeni Tercihi" sloganıyla yola çıkan Masterini, usta aşçıların güvenilir iş ortağı ve pratik çözüm sağlayıcısı olarak profesyonel mutfak dünyasında konumlanmıştır.
+     
+Markanın geniş ve çeşitli ürün portföyünde; pasta ve tatlı şefleri için özel olarak formüle edilmiş bitkisel krem şantiler, sıcak yemeklerde kesilme yapmayan ve stabil kalan bitkisel sıvı kremalar, yemeklere lezzet ve zenginlik katan çeşitli soslar, ketçap, mayonez ve hardal gibi tamamlayıcı ürünler bulunmaktadır. Bu ürünler, profesyonel mutfakların operasyonel yükünü hafifletirken, tutarlı sonuçlar elde edilmesini sağlayan pratik ve güvenilir çözümler sunmaktadır. Dünyanın lider gıda markalarından Président, Galbani ve Parmalat'ı bünyesinde bulunduran Groupe Lactalis'in küresel uluslararası tecrübesi ve bilgi birikiminden güç alan Masterini, bu global expertise'i Türk şeflerin beklentileri ve yerel mutfak kültürüyle birleştirmektedir. Her uygulamada aynı yüksek kaliteyi ve kıvamı tutturmak isteyen profesyonel şefler için özel reçetelerle üretilen ürünler, Türkiye'nin dört bir yanındaki profesyonel mutfaklarda, restoranlarda ve otellerde yaygın olarak kullanılmaktadır.`,
        website: "https://masterini.com.tr/",
        country: "Fransa",
        img: "/masterini.png",
        isBoycotted: "boykot",
-       boycottReason: `Masterini, Fransız Groupe Lactalis'in Türkiye'deki şirketi Ak Gıda tarafından üretilmektedir. Çatı şirketin (Lactalis) İsrail ekonomisine olan katkıları ve ticari bağları sebebiyle, profesyonel kullanıma yönelik olan bu marka da boykot kapsamındadır.`,
+       boycottReason: `Bu marka, Fransa merkezli Groupe Lactalis'in Türkiye'deki şirketi Ak Gıda tarafından üretilmektedir. Ana şirket olan Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir. Ayrıca, yabancı sermayeli olması nedeniyle elde edilen karların yurt dışına transfer edilmesi, Türkiye ekonomisinden değer çıkışı anlamına gelmektedir. Profesyonel kullanıma yönelik olan bu marka da boykot kapsamında değerlendirilmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, yerli sermayeli alternatif profesyonel gıda ürünlerinin tercih edilmesi önerilmektedir.`,
+       alternative_products: ["sutas", "pinar"],
       },
       {
        name: "Pauls",
@@ -9826,67 +10176,68 @@ Dünyanın lider gıda markalarından Président, Galbani ve Parmalat’ı büny
        foundedYear: 1933,
        founder: "Pauls Ice Cream & Milk Ltd",
        owner: "Groupe Lactalis",
-       description: `Pauls, 1933 yılında Avustralya'nın Brisbane kentinde kurulan ve kıtanın en ikonik süt ve süt ürünleri markalarından biri haline gelen köklü bir kuruluştur. "Olağanüstü süt ürünleri" (Extraordinary Dairy) mottosuyla yola çıkan marka, nesillerdir Avustralyalı ailelerin kahvaltı sofralarının ve buzdolaplarının vazgeçilmezi olmuştur.
- 
- Geniş ürün yelpazesiyle dikkat çeken Pauls, sadece taze süt çeşitleriyle değil; özellikle Avustralya mutfak kültüründe önemli bir yeri olan vanilyalı muhallebileri (custard), yoğurtları, kremaları ve aromalı sütlü içecekleriyle tanınır. Kaliteli yerel sütleri işleyerek hem besleyici hem de lezzetli ürünler sunmayı hedefler.
- 
- Tarihsel süreçte Queensland United Foods (QUF) ve ardından İtalyan Parmalat bünyesinde faaliyet gösteren marka, son olarak küresel süt endüstrisi devi Fransız Groupe Lactalis tarafından satın alınmıştır. Günümüzde Lactalis Australia çatısı altında üretim yapan Pauls, Avustralya mirasını Fransız sermayesi ve global dağıtım gücüyle birleştirmektedir.`,
+       description: `Pauls, 1933 yılında Avustralya'nın Brisbane kentinde Pauls Ice Cream & Milk Ltd adıyla kurulan ve 90 yılı aşkın geçmişiyle Avustralya kıtasının en köklü ve ikonik süt ve süt ürünleri markalarından biri haline gelen prestijli bir kuruluştur. "Olağanüstü süt ürünleri" (Extraordinary Dairy) mottosuyla yola çıkan marka, nesillerdir Avustralyalı ailelerin kahvaltı sofralarının, buzdolaplarının ve günlük yaşamlarının vazgeçilmez bir parçası olmuştur. Avustralya süt endüstrisinin gelişiminde öncü rol oynayan Pauls, kaliteli yerel süt üretimi ve işleme konusunda uzun yıllara dayanan tecrübesiyle tanınmaktadır.
+     
+Geniş ve çeşitli ürün yelpazesiyle dikkat çeken Pauls, sadece taze süt çeşitleriyle değil; özellikle Avustralya mutfak kültüründe önemli bir yeri olan vanilyalı muhallebileri (custard), yoğurtları, kremaları, peynir çeşitleri ve aromalı sütlü içecekleriyle tanınır ve sevilir. Kaliteli yerel Avustralya sütlerini en yüksek hijyen ve kalite standartlarında işleyerek hem besleyici hem de lezzetli ürünler sunmayı hedeflemektedir. Tarihsel süreçte Queensland United Foods (QUF) bünyesinde faaliyet gösteren marka, daha sonra İtalyan süt devi Parmalat tarafından satın alınmış ve son olarak küresel süt endüstrisi devi Fransa merkezli Groupe Lactalis'in kontrolüne geçmiştir. Günümüzde Lactalis Australia çatısı altında üretim yapan Pauls, Avustralya mirasını, yerel değerlerini ve tüketici sadakatini Fransız sermayesi ve global dağıtım gücüyle birleştirerek faaliyetlerini sürdürmektedir.`,
        country: "Fransa",
        website: "https://www.pauls.com.au/",
        img: "/pauls.png",
        isBoycotted: "boykot",
-       boycottReason: `Pauls markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
+       boycottReason: `Bu markanın boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in kontrolü altında olmasıdır. Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir. Ayrıca, yabancı sermayeli bir yapı olması nedeniyle elde edilen karların yurt dışına transfer edilmesi, yerel ekonomilerden değer çıkışı anlamına gelmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, yerli ve milli süt ürünleri alternatiflerinin tercih edilmesi önerilmektedir.`,
+       alternative_products: ["sutas", "pinar"],
       },
       {
        name: "Ice Break",
        slug: "ice-break",
        ctgry: "İçecek",
        foundedYear: 1997,
-       founder: "Pauls",
+       founder: "Pauls (Queensland United Foods)",
        owner: "Groupe Lactalis",
-       description: `Ice Break, 1990'ların sonunda Avustralya'nın köklü süt markası Pauls (QUF) tarafından lanse edilen ve "gerçek kahve" (Real Coffee) sloganıyla ünlenen ikonik bir soğuk kahve markasıdır. Avustralya'nın "Iced Coffee" kültürünün en önemli temsilcilerinden biri olan marka, ekstra kafeinli ve güçlü kahve tadıyla bilinir. Sabahları güne zinde başlamak isteyenler için "The only thing you need to break the morning barrier" (Sabah engelini aşmak için ihtiyacınız olan tek şey) mottosuyla pazarlanmaktadır.
+       description: `Ice Break, 1997 yılında Avustralya'nın köklü süt markası Pauls (Queensland United Foods) tarafından piyasaya sürülen ve "gerçek kahve" (Real Coffee) sloganıyla ünlenen ikonik bir soğuk kahve (iced coffee) markasıdır. Avustralya'nın güçlü ve yaygın "Iced Coffee" kültürünün en önemli ve popüler temsilcilerinden biri olan marka, özellikle ekstra kafeinli formülü, yoğun kahve tadı ve güçlü aromasıyla bilinmekte ve sevilmektedir. Sabahları güne enerjik ve zinde başlamak isteyenler için tasarlanan Ice Break, "The only thing you need to break the morning barrier" (Sabah engelini aşmak için ihtiyacınız olan tek şey) mottosuyla pazarlanmakta ve özellikle genç yetişkinler, öğrenciler ve aktif yaşam tarzına sahip tüketiciler arasında büyük bir hayran kitlesine sahiptir.
      
-     Marka, kökeni itibarıyla Avustralyalı olsa da, Pauls markasının önce İtalyan Parmalat'a, ardından da Fransız süt endüstrisi devi Lactalis'e satılmasıyla el değiştirmiştir. Günümüzde Lactalis Australia çatısı altında üretimine devam eden Ice Break; Regular, Extra Shot ve şekersiz gibi farklı çeşitleriyle soğuk kahve pazarında önemli bir paya sahiptir.`,
+Marka, kökeni ve kuruluşu itibarıyla tamamen Avustralyalı olmasına rağmen, ana markası Pauls'un önce İtalyan süt devi Parmalat'a, ardından da Fransa merkezli küresel süt endüstrisi devi Groupe Lactalis'e satılmasıyla birlikte el değiştirmiş ve yabancı sermaye kontrolüne geçmiştir. Günümüzde Lactalis Australia çatısı altında üretimine devam eden Ice Break; Regular (klasik), Extra Shot (ekstra kafeinli), Strong (güçlü), No Sugar Added (şekersiz) ve çeşitli lezzet varyantlarıyla Avustralya'nın soğuk kahve pazarında önemli bir paya ve güçlü bir marka sadakatine sahiptir. Özellikle sıcak Avustralya ikliminde pratik, serinletici ve enerji veren bir içecek olarak tercih edilen Ice Break, süpermarketler, benzin istasyonları ve marketlerde yaygın olarak bulunmaktadır.`,
        country: "Fransa",
        website: "https://lactalis.com.au/product/ice-break/",
        img: "/ice-break.png",
        isBoycotted: "boykot",
-       boycottReason: `Ice Break markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis'in İsrail ile olan ticari ilişkileri, şirketin İsrail ekonomisine katkıda bulunması anlamına gelmektedir.`,
+       boycottReason: `Bu markanın boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in kontrolü altında olmasıdır. Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir. Ayrıca, başlangıçta Avustralyalı olan bu markanın yabancı sermayeli bir yapının kontrolüne geçmesi nedeniyle elde edilen karların yurt dışına transfer edilmesi, yerel ekonomilerden değer çıkışı anlamına gelmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, yerli ve milli içecek alternatiflerinin tercih edilmesi önerilmektedir.`,
+       alternative_products: ["sutas", "pinar"],
       },
+      {
+       name: "Dostino",
+       slug: "dostino",
+       ctgry: "Yiyecek",
+       foundedYear: 2020,
+       founder: "Ak Gıda (Groupe Lactalis)",
+       owner: "Groupe Lactalis",
+       description: `Dostino, Groupe Lactalis'in Türkiye şirketi olan Ak Gıda tarafından özel olarak BİM mağazaları için geliştirilmiş ve 2020 yılında piyasaya sürülmüş ekonomik segment bir peynir markasıdır. Marka, özellikle fiyat odaklı tüketicilere hitap etmek ve geniş kitlelere ulaşmak amacıyla tasarlanmış olup, BİM'in özel marka (private label) stratejisinin önemli bir parçasını oluşturmaktadır. "Dostino" ismi, Türkçe "dost" kelimesiyle İtalyanca "-ino" ekinin birleşiminden oluşmakta ve tüketiciye yakın, samimi ve güvenilir bir marka imajı çizmeyi hedeflemektedir.
+     
+Ürün portföyünde taze kaşar peyniri, dilimli kaşar, beyaz peynir ve eritme peynir çeşitleri bulunan Dostino, uygun fiyat avantajıyla orta ve orta-alt gelir grubu ailelerin kahvaltı sofralarında ve günlük beslenme ihtiyaçlarında tercih edilmektedir. Ak Gıda'nın modern üretim tesislerinde Lactalis'in küresel kalite standartlarına uygun olarak üretilen marka, sadece BİM marketleri kanalıyla satışa sunulmakta ve yaygın BİM mağaza ağı sayesinde Türkiye genelinde geniş bir tüketici kitlesine ulaşmaktadır. Ekonomik fiyatlandırma stratejisi ve sürekli raf varlığıyla düzenli tüketim alışkanlıklarına hitap eden Dostino, bütçe dostu bir peynir alternatifi olarak konumlanmaktadır.`,
+       country: "Fransa",
+       website: "https://www.bim.com.tr",
+       img: "/dostino.png",
+       isBoycotted: "boykot",
+       boycottReason: `Bu marka, Fransa merkezli Groupe Lactalis'in Türkiye'deki şirketi Ak Gıda tarafından üretilmektedir. Ana şirket olan Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir. Ayrıca, yabancı sermayeli olması nedeniyle elde edilen karların yurt dışına transfer edilmesi, Türkiye ekonomisinden değer çıkışı anlamına gelmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, Sütaş, Pınar gibi %100 yerli sermayeli alternatif peynir ve süt ürünleri markalarının tercih edilmesi önerilmektedir.`,
+       alternative_products: ["sutas", "pinar"],
+      },
+      {
+       name: "Dost",
+       slug: "dost",
+       ctgry: "İçecek",
+       foundedYear: 2008,
+       founder: "Ak Gıda (Ülker Grubu döneminde)",
+       owner: "Groupe Lactalis",
+       description: `Dost, Ak Gıda tarafından 2008 yılında ekonomik segment süt ürünleri kategorisinde piyasaya sürülen ve özellikle BİM marketleri için geliştirilmiş bir süt markasıdır. Marka, başlangıçta Ak Gıda'nın Ülker Grubu (Yıldız Holding) bünyesinde olduğu dönemde kurulmuş olup, 2015 yılında Ak Gıda'nın Fransa merkezli Groupe Lactalis'e satılmasıyla birlikte yabancı sermaye kontrolüne geçmiştir. "Dost" ismi, Türk tüketicilerle samimi, yakın ve güvenilir bir bağ kurmayı hedefleyen yerel bir isimlendirme stratejisini yansıtmaktadır.
+     
+Ürün portföyünde UHT süt (uzun ömürlü süt), yoğurt, ayran ve süt bazlı içecekler bulunan Dost, uygun fiyat avantajıyla orta ve orta-alt gelir grubu ailelerin günlük süt ve süt ürünleri ihtiyaçlarını karşılamayı hedeflemektedir. Ak Gıda'nın modern ve yüksek teknolojili üretim tesislerinde Lactalis'in küresel kalite standartlarına uygun olarak üretilen marka, öncelikli olarak BİM marketleri kanalıyla satışa sunulmakta ve BİM'in Türkiye genelindeki yaygın mağaza ağı sayesinde geniş bir tüketici kitlesine ulaşmaktadır. Ekonomik fiyatlandırma stratejisi, sürekli raf varlığı ve temel süt ürünleri çeşitleriyle düzenli tüketim alışkanlıklarına hitap eden Dost, bütçe dostu bir süt ürünleri alternatifi olarak pazarda konumlanmaktadır.`,
+       country: "Fransa",
+       website: "https://www.bim.com.tr",
+       img: "/dost.png",
+       isBoycotted: "boykot",
+       boycottReason: `Bu marka, Fransa merkezli Groupe Lactalis'in Türkiye'deki şirketi Ak Gıda tarafından üretilmektedir. Ana şirket olan Lactalis'in İsrail pazarındaki aktif ticari varlığı, yapılan yatırımlar ve İsrail ekonomisine sağladığı dolaylı katkılar nedeniyle, Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir. Ayrıca, başlangıçta Türk sermayesi ile kurulan bu markanın 2015 yılında yabancı sermayeli bir yapının kontrolüne geçmesi nedeniyle elde edilen karların yurt dışına transfer edilmesi, Türkiye ekonomisinden değer çıkışı anlamına gelmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, Sütaş, Pınar gibi %100 yerli sermayeli alternatif süt ürünleri markalarının tercih edilmesi önerilmektedir.`,
+       alternative_products: ["sutas", "pinar"],
+      }
      ],
-    },
-    {
-     name: "Dostino",
-     slug: "dostino",
-     ctgry: "Yiyecek",
-     owner: "Groupe Lactalis",
-     description: `Dostino, Türkiye'nin önde gelen perakende zincirlerinden BİM'in özel markalarından biridir. Groupe Lactalis tarafından üretilen bu marka, süt ve süt ürünleri kategorisinde yer almaktadır.`,
-     country: "Fransa",
-     website: "https://www.bim.com.tr ",
-     img: "/dostino.png",
-     isBoycotted: "boykot",
-     boycottReason: `Dostino markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Groupe Lactalis, 2015 yılından bu yana Ak Gıda'yı bünyesinde bulunduran Fransız şirketidir ve bu şirketin İsrail ile olan ticari ilişkileri nedeniyle boykot edilmektedir.`,
-     alternative_products: ["sutas", "pinar"],
-    },
-    {
-     name: "Dost",
-     slug: "dost",
-     ctgry: "İçecek",
-     founder: "Ülker Grubu",
-     owner: "Groupe Lactalis",
-     description: `Dost markası, Türkiye merkezli bir süt ve süt ürünleri markasıdır. Marka, pastörize süt, yoğurt, ayran, tereyağı ve peynir gibi geniş bir ürün yelpazesi sunar. 
-  
-  Dost markası, Türkiye'nin önde gelen perakende zincirlerinden BİM'in özel markalarından biridir. Bu nedenle ürünleri yalnızca BİM mağazalarında satılmaktadır. Marka, özellikle uygun fiyatlı süt ürünleri arayan tüketiciler için popüler bir seçenektir.
-  
-  Dost markası, başlangıçta Ülker Grubu tarafından üretilen bu marka, sonradan BİM market zinciri tarafından satın alınmıştır. Ancak, 2015 yılında Ülker Grubu, Ak Gıda'yı Fransız şirketi Groupe Lactalis'e satmıştır. Dolayısıyla, şu anda Dost Süt'ün üretimi Groupe Lactalis tarafından yapılmaktadır. Groupe Lactalis dünya çapında bir süt ürünleri devi olup, Türkiye'de Ak Gıda'nın yanı sıra birçok ünlü markanın da sahibidir.
-  
-  Dost markası, özellikle BİM müşterileri arasında popülerlik kazanmaktadır ve Türkiye genelinde yaygın olarak bulunmaktadır. Marka, kalite ve uygun fiyat dengesiyle Türkiye süt ürünleri pazarında önemli bir konuma sahiptir.`,
-     country: "Fransa",
-     website: "https://www.bim.com.tr ",
-     img: "/dost.png",
-     isBoycotted: "boykot",
-     boycottReason: `Dost markasının boykot edilmesinin temel nedeni, ana şirketi olan Fransa merkezli Groupe Lactalis'in İsrail ile olan ticari bağlarıdır. Ak Gıda, 2015 yılından bu yana Fransız şirketi Groupe Lactalis'e aittir ve bu şirketin İsrail ile olan ticari ilişkileri nedeniyle boykot edilmektedir.`,
-     alternative_products: ["sutas", "pinar"],
     },
    ],
   },
@@ -9922,19 +10273,16 @@ Ancak, Red Bull'un İsrail'de faaliyetlerini sürdürmesi, bölgede yaşanan ins
    slug: "cola-turka",
    ctgry: "İçecek",
    foundedYear: 2003,
-   founder: "Ülker Grubu",
+   founder: "Ülker Grubu (Yıldız Holding)",
    owner: "DyDo Drinco",
-   description: `Cola Turka, 2003 yılında Ülker Grubu tarafından "Türkiye'nin kolası" sloganıyla piyasaya sürülen ve küresel markalara karşı yerli bir alternatif oluşturma vizyonuyla doğan bir markadır. Çıkış yaptığı dönemde milli duygulara hitap eden reklam kampanyalarıyla büyük bir pazar payı elde etmiştir.
+   description: `Cola Turka, 2003 yılında Ülker Grubu (Yıldız Holding) tarafından "Türkiye'nin kolası" ve "Amerikan tadı değil, bizim tadımız" sloganlarıyla piyasaya sürülen ve küresel kola devlerine karşı yerli bir alternatif oluşturma vizyonuyla doğan milliyetçi bir markadır. Çıkış yaptığı dönemde milli duygulara, Türk kimliğine ve yerli ürün desteğine hitap eden etkileyici ve akılda kalıcı reklam kampanyalarıyla (özellikle Chevy Chase'li reklamlarla) büyük bir medya yankısı uyandırmış ve kısa sürede önemli bir pazar payı elde etmiştir. Marka, Türk tüketicilerin yabancı markalara karşı yerli bir kolayı destekleme isteğini başarıyla kanalize etmiş ve 2000'li yılların ortalarında kola pazarında güçlü bir alternatif konumuna yükselmiştir.
 
-Ancak, 2016 yılında Yıldız Holding'in (Ülker) içecek grubunu yeniden yapılandırması sonucunda, Cola Turka markasının hakları Japon içecek devi DyDo Drinco'ya satılmıştır. Bu satışla birlikte markanın mülkiyeti ve yönetimi Japon sermayesine geçmiştir.
-   
-Günümüzde Japon şirketi DyDo Drinco çatısı altında üretilen ve pazarlanan Cola Turka, Türkiye'de üretilmeye devam etse de teknik olarak yabancı sermayeli bir üründür.`,
+Ancak, 2016 yılında Yıldız Holding'in içecek grubunu yeniden yapılandırması ve portföy stratejisini gözden geçirmesi sonucunda, Cola Turka markasının hakları ve mülkiyeti Japon içecek devi DyDo Drinco Inc.'e satılmıştır. Bu satışla birlikte markanın sahipliği, yönetimi ve stratejik kontrolü tamamen Japon sermayesine geçmiş ve "yerli" kimliğini kaybetmiştir. Günümüzde Japonya merkezli DyDo Drinco çatısı altında üretilen ve pazarlanan Cola Turka, Türkiye'deki tesislerde üretilmeye devam etse de teknik olarak yabancı sermayeli bir ürün konumundadır. Marka, halen Türkiye pazarında satışa sunulmakta ancak elde edilen karlar Japon ana şirkete transfer edilmektedir. Bu durum, başlangıçtaki "milli marka" kimliğiyle çelişen bir paradoks yaratmaktadır.`,
    country: "Japonya",
    website: "https://www.dydodrinco.com.tr/en/our-brandsr/cola-turka-icecek.html",
    img: "/cola-turka.png",
    isBoycotted: "boykot",
-   boycottReason: `Cola Turka, Japonya merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
-
+   boycottReason: `Bu markanın boykot edilmesinin temel nedeni, 2016 yılından bu yana Japonya merkezli yabancı sermayeli DyDo Drinco şirketine ait olmasıdır. Başlangıçta "Türkiye'nin kolası" sloganıyla yerli bir alternatif olarak piyasaya sürülen marka, yabancı bir konglomeratın kontrolüne geçmiş ve elde ettiği karlar artık yurt dışına transfer edilmektedir. Bu durum, Türkiye ekonomisinden sürekli değer çıkışı anlamına gelmekte, yerli üretimin desteklenmesi ve ulusal sermayenin korunması hedeflerine ters düşmektedir. Yerli üretimi desteklemek, ulusal ekonomiyi güçlendirmek ve ekonomik bağımsızlığımızı artırmak adına, yabancı sermayeli ürünler yerine %100 Türk sermayeli yerli kola ve meşrubat alternatiflerinin tercih edilmesi önerilmektedir. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
   },
   {
    name: "Çamlıca",
@@ -9943,38 +10291,15 @@ Günümüzde Japon şirketi DyDo Drinco çatısı altında üretilen ve pazarlan
    foundedYear: 1946,
    founder: "Ekrem ve Nazif Erkli Kardeşler",
    owner: "DyDo Drinco",
+   description: `Çamlıca Gazoz, temelleri 1946 yılında Ekrem ve Nazif Erkli kardeşler tarafından İstanbul'da atılan, Türkiye'nin en nostaljik, köklü ve sevilen gazoz markalarından biridir. İsmini İstanbul'un ünlü ve tarihi Çamlıca Tepesi'nden alan marka, 70 yılı aşkın geçmişiyle Türk halkının kolektif hafızasında özel bir yere sahiptir ve nesiller boyu Türk ailelerinin sofra, piknik ve özel günlerinin vazgeçilmez içeceği olmuştur. Yıllarca Ülker Grubu (Yıldız Holding) bünyesinde "Bizim gazozumuz" ve "Türkiye'nin gazozudur" sloganlarıyla üretilen ve pazarlanan Çamlıca, milli duygulara hitap eden kimliğiyle Türk tüketicilerin gönlünde taht kurmuştur.
+ 
+Geleneksel limonata aromasının yanı sıra portakal, çilekli limonata, elma ve vişne gibi çeşitli meyve aromalı gazoz çeşitleriyle geniş bir ürün yelpazesi sunan marka, hem cam şişe hem de PET ambalajlarda tüketicilerle buluşmaktadır. Özellikle yaz aylarında serinletici bir içecek olarak ve nostaljik tadıyla tercih edilen Çamlıca, Türk gazoz kültürünün sembol isimlerinden biri olma özelliğini taşımaktadır. Ancak, 2016 yılında Yıldız Holding'in içecek grubunu yeniden yapılandırması ve portföy stratejisini gözden geçirmesi sonucunda, Çamlıca markasının hakları ve mülkiyeti Japon içecek devi DyDo Drinco Inc.'e satılmıştır. Bu satışla birlikte markanın sahipliği, yönetimi ve stratejik kontrolü tamamen Japon sermayesine geçmiş ve "yerli milli marka" kimliğini kaybetmiştir. Günümüzde Japonya merkezli DyDo Drinco çatısı altında üretilen ve pazarlanan Çamlıca, Türkiye'deki tesislerde üretilmeye devam etse de teknik olarak yabancı sermayeli bir ürün konumundadır ve elde edilen karlar Japon ana şirkete transfer edilmektedir.`,
    country: "Japonya",
    website: "https://www.dydodrinco.com.tr/tr/markalarimiz/camlica.html",
    img: "/camlica.png",
    isBoycotted: "boykot",
-   description: `Çamlıca Gazoz, temelleri 1946 yılında Ekrem ve Nazif Erkli kardeşler tarafından atılan, Türkiye'nin en nostaljik ve sevilen gazoz markalarından biridir. İsmini İstanbul'un ünlü Çamlıca tepesinden alan marka, yıllarca Ülker grubu bünyesinde "Bizim gazozumuz" sloganıyla sofraların vazgeçilmezi olmuştur.
-
-Ancak, 2016 yılında Yıldız Holding'in (Ülker) içecek grubunu yeniden yapılandırması sonucunda, Çamlıca markasının hakları Japon içecek devi DyDo Drinco'ya satılmıştır. Bu satışla birlikte markanın mülkiyeti ve yönetimi Japon sermayesine geçmiştir.
-   
-Günümüzde Japon şirketi DyDo Drinco çatısı altında üretilen ve pazarlanan Çamlıca, Türkiye'de üretilmeye devam etse de teknik olarak yabancı sermayeli bir üründür.`,
-   boycottReason: `Çamlıca, Japonya merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
-  },
-  {
-   name: "Dr. Pepper",
-   slug: "pepper",
-   ctgry: "İçecek",
-   foundedYear: 1885,
-   country: "ABD",
-   owner: "Keurig Dr Pepper",
-   description: `Dr Pepper, ABD kökenli, kendine özgü aromasıyla bilinen gazoz markasıdır. Marka, 1885 yılında Waco, Teksas'ta eczacı Charles Alderton tarafından geliştirilmiştir. Dr Pepper, ilk piyasaya sürüldüğünde diğer gazozlardan farklı olarak 23 ayrı meyve ve bitki aromasıyla formüle edilmiş ve bu eşsiz karışım sayesinde hızla popülerlik kazanmıştır.
-     1970’lerden itibaren Dr Pepper, Cadbury Schweppes ve daha sonra Keurig Dr Pepper şirketlerinin portföyüne dahil olmuş, günümüzde ABD’de Keurig Dr Pepper tarafından üretilip dağıtılmaktadır. Markanın uluslararası dağıtımı, bölgelere göre değişiklik gösterebilmektedir.`,
-   country: "ABD",
-   website: "https://drpepper.store/",
-   img: "/pepper.png",
-   isBoycotted: "boykot",
-   boycottReason: `Günümüzde ABD'de Keurig Dr Pepper tarafından üretilip dağıtılan Dr Pepper, bazı çevreler tarafından, sahipleri Reimann ailesinin Alfred Landecker Vakfı aracılığıyla İsrail'e destek sağlaması nedeniyle boykot edilmektedir.`,
-   alternative_products: [
-    "cola-turka",
-    "camlica",
-    "uludag",
-    "zafer-gazoz",
-    "dirilis",
-   ],
+   boycottReason: `Bu markanın boykot edilmesinin temel nedeni, 2016 yılından bu yana Japonya merkezli yabancı sermayeli DyDo Drinco şirketine ait olmasıdır. Başlangıçta Türk girişimciler tarafından kurulan ve uzun yıllar Türk sermayesi altında "Türkiye'nin gazozudur" sloganıyla üretilen bu nostaljik marka, yabancı bir konglomeratın kontrolüne geçmiş ve elde ettiği karlar artık yurt dışına transfer edilmektedir. Bu durum, Türkiye ekonomisinden sürekli değer çıkışı anlamına gelmekte, yerli üretimin desteklenmesi ve ulusal sermayenin korunması hedeflerine ters düşmektedir. Yerli üretimi desteklemek, ulusal ekonomiyi güçlendirmek ve ekonomik bağımsızlığımızı artırmak adına, yabancı sermayeli ürünler yerine %100 Türk sermayeli yerli gazoz ve meşrubat alternatiflerinin tercih edilmesi önerilmektedir. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+   alternative_products: ["kristal", "uludag"],
   },
   {
    name: "PepsiCo",
@@ -10015,8 +10340,10 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
      img: "/frito-lay.png",
      isBoycotted: "boykot",
      website: "https://www.fritolay.com.tr/",
-     description: `Frito-Lay, 1930'ların başında The Frito Company ve H.W. Lay & Company'nin birleşmesiyle kurulmuş, 1961 yılında Frito-Lay, Inc. adını almıştır. 1964 yılında PepsiCo ile birleşerek PepsiCo, Inc.'in temel alt şirketlerinden biri haline gelmiştir. Mısır, patates cipsi ve benzeri atıştırmalık gıdalar üreten ve pazarlayan şirket, ABD'de pazarın %40'ına, dünya genelinde ise %30'una sahiptir. Frito-Lay, PepsiCo'nun toplam satışlarının %31'ini oluşturmaktadır. Lay's, Ruffles, Doritos, Cheetos, Fritos, Tostitos, Sun Chips gibi dünya çapında tanınan birçok markaya sahiptir.`,
-     boycottReason: `Frito-Lay, PepsiCo'nun alt şirketi olduğu için boykot listesindedir. PepsiCo, İsrail merkezli SodaStream markasının tamamına ve İsrail merkezli Sabra markasının %50'sine sahiptir. SodaStream, İsrail'deki yasadışı yerleşimlerde fabrikalar açarak yasadışı işgali kolaylaştırmakla suçlanmaktadır. Sabra markasının dominant hissedarı Strauss Group, İsrail askeri birimlerine destek ve malzeme tedariki sağlamaktadır. Bu nedenlerle Frito-Lay ve tüm alt markaları boykot edilmektedir.`,
+     description: `Frito-Lay, 1930'ların başında iki ayrı şirket olan The Frito Company (Charles Elmar Doolin tarafından 1932'de kuruldu) ve H.W. Lay & Company (Herman W. Lay tarafından 1932'de kuruldu) olarak başlayan ve 1961 yılında bu iki öncü atıştırmalık şirketinin birleşmesiyle Frito-Lay, Inc. adını alan dev bir atıştırmalık gıda konglomeratıdır. 1964 yılında Pepsi-Cola şirketi ile birleşerek bugünkü PepsiCo, Inc.'i oluşturmuş ve PepsiCo'nun en büyük ve en karlı alt şirketlerinden biri haline gelmiştir. Mısır cipsi, patates cipsi, tortilla cipsi ve benzeri çeşitli atıştırmalık gıdalar üreten ve pazarlayan şirket, Amerika Birleşik Devletleri'nde atıştırmalık pazarının yaklaşık %40'ına, dünya genelinde ise %30'una sahip olarak küresel pazar liderliğini elinde bulundurmaktadır.
+
+Frito-Lay, PepsiCo'nun toplam satışlarının %31'ini oluşturmakta ve şirketin en stratejik iş kollarından birini temsil etmektedir. Lay's, Ruffles, Doritos, Cheetos, Fritos, Tostitos, Sun Chips, Miss Vickie's ve çok sayıda bölgesel marka gibi dünya çapında tanınan ve milyarlarca dolarlık satış hacmine sahip onlarca ikonik markayı bünyesinde barındırmaktadır. Şirket, 200'den fazla ülkede faaliyet göstermekte, küresel ölçekte binlerce üretim tesisi işletmekte ve yüz binlerce kişiye istihdam sağlamaktadır. Frito-Lay'in başarısı, güçlü marka portföyü, yaygın dağıtım ağı, sürekli inovasyon ve agresif pazarlama stratejilerine dayanmaktadır.`,
+     boycottReason: `Bu şirket, Amerikan kökenli PepsiCo'nun en büyük alt şirketi olduğu için boykot listesinde yer almaktadır. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli ev tipi gazlı içecek cihazı üreticisi SodaStream'i 3,2 milyar dolar gibi devasa bir meblağ karşılığında satın almış ve böylece İsrail ekonomisine doğrudan ve somut bir katkı sağlamıştır. SodaStream, İsrail'in Batı Şeria'daki uluslararası hukukta yasadışı kabul edilen yerleşimlerinde üretim tesisleri açarak, işgalin normalleşmesine ve meşrulaştırılmasına katkıda bulunmakla uzun yıllardır eleştirilmektedir. Ayrıca PepsiCo, humus ve diğer Orta Doğu gıdaları üreten Sabra markasının %50 hissesine sahiptir ve Sabra'nın diğer dominant hissedarı olan İsrailli Strauss Group, İsrail Savunma Kuvvetleri'nin çeşitli askeri birimlerine aktif olarak maddi destek, erzak ve malzeme tedariki sağlamaktadır. Bu nedenlerle Frito-Lay ve bünyesindeki tüm alt markalar, Filistin davasına destek veren ve İsrail'in işgal politikalarına karşı duran bilinçli tüketiciler tarafından boykot edilmektedir.`,
      evidences: [
       "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
      ],
@@ -10028,16 +10355,14 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        foundedYear: 1987,
        founder: "Vickie ve Bill Kerr",
        owner: "PepsiCo (Frito-Lay)",
-       description: `Miss Vickie's, 1987 yılında Kanada'nın Ontario eyaletindeki New Lowell kasabasında, patates çiftçisi Vickie ve Bill Kerr tarafından yaratılan premium bir cips markasıdır. Markanın hikayesi, Vickie Kerr'in annesinden kalan eski bir tarifi kullanarak, çocuklarına daha sağlıklı ve katkısız atıştırmalıklar sunma isteğiyle başlamıştır. İlk kez 1987'deki 14. Geleneksel Alliston Patates Festivali'nde görücüye çıkan cipsler, festivalde büyük ilgi görerek tamamen tükenmiş ve kısa sürede Kanada genelinde popülerlik kazanmıştır.
- 
- Markayı diğerlerinden ayıran en önemli özellik, "Kettle Cooked" (kazanda pişirme) tekniğidir. Patatesler kabuklarıyla birlikte kalın dilimlenir ve küçük partiler halinde yavaşça kızartılır; bu da onlara karakteristik sertliğini ve ekstra kıtırlığını verir. Orijinal tarifinde lezzet vermesi için fıstık yağı kullanılmış olsa da, günümüzde üretimde bu içerik değiştirilmiştir ancak ev yapımı tadı korunmuştur.
- 
- Hızla büyüyen ve Kanada pazarının %1'ini ele geçiren marka, 1 Şubat 1993 tarihinde Frito-Lay (Hostess) tarafından satın alınmıştır. Bu satışla birlikte PepsiCo bünyesine katılan Miss Vickie's, günümüzde Kuzey Amerika ve Avrupa başta olmak üzere dünya genelinde gurme cips kategorisinin öncüsü olarak raflarda yer almaktadır.`,
+       description: `Miss Vickie's, 1987 yılında Kanada'nın Ontario eyaletindeki New Lowell kasabasında, patates çiftçisi Vickie ve Bill Kerr çifti tarafından yaratılan ve "el yapımı" patates cipsi geleneğini yeniden canlandıran premium bir cips markasıdır. Markanın doğuş hikayesi, Vickie Kerr'in annesinden kalan eski bir geleneksel patates cipsi tarifini kullanarak, çocuklarına daha sağlıklı, doğal ve katkısız atıştırmalıklar sunma içten arzusuyla başlamıştır. İlk kez 1987'deki 14. Geleneksel Alliston Patates Festivali'nde görücüye çıkan el yapımı cipsler, festivalde katılımcılar arasında büyük bir hayranlık ve ilgi görerek çok kısa sürede tamamen tükenmiş ve kısa süre içinde Kanada genelinde hızla yayılan bir popülerlik kazanmıştır.
+
+Markayı diğer sıradan seri üretim cipslerden köklü şekilde ayıran en önemli ve ayırt edici özellik, "Kettle Cooked" (kazanda pişirme/kazanda kızartma) tekniğidir. Bu geleneksel yöntemde patatesler kabuklarıyla birlikte kalın ve özenle dilimlenir, küçük partiler halinde (batch cooking) yavaşça ve dikkatle kızartılır; bu özel işlem onlara karakteristik sertliğini, ekstra kıtırlığını ve evde yapılmış gibi otantik lezzetini verir. Orijinal tarifinde lezzet ve kalite vermesi için doğal fıstık yağı kullanılmış olsa da, günümüzde ticari üretimde bu içerik farklı yağlarla değiştirilmiştir, ancak ev yapımı tadı ve el emeği kalitesi titizlikle korunmuştur. Hızla büyüyen ve Kanada atıştırmalık pazarının önemli bir payını ele geçiren marka, 1 Şubat 1993 tarihinde Amerikan atıştırmalık devi Frito-Lay (o zamanlar Kanada'da Hostess markası altında faaliyet gösteriyordu) tarafından satın alınmıştır. Bu satışla birlikte PepsiCo bünyesine katılan Miss Vickie's, günümüzde Kuzey Amerika (ABD ve Kanada) ve Avrupa başta olmak üzere dünya genelinde premium ve gurme cips kategorisinin öncüsü ve lider markalarından biri olarak raflarda önemli bir yer tutmaktadır.`,
        country: "ABD",
        website: "https://www.missvickies.ca/",
        img: "/miss-vickies.png",
        isBoycotted: "boykot",
-       boycottReason: `Miss Vickie's markası, PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Markanın sahibi PepsiCo'nun, SodaStream'i satın alması ve Sabra markasındaki ortaklığı yoluyla İsrail ekonomisine ve işgal politikalarına verdiği destek nedeniyle, PepsiCo çatısı altındaki tüm markalar gibi Miss Vickie's de boykot listesinde yer almaktadır.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Miss Vickie's de, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        alternative_products: [""],
        evidences: [
         "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
@@ -10048,14 +10373,16 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        slug: "cerezza",
        country: "ABD",
        foundedYear: null,
-       founder: "Frito-Lay",
-       owner: "Frito-Lay",
+       founder: "Frito-Lay Türkiye",
+       owner: "Frito-Lay (PepsiCo)",
        country: "ABD",
        img: "/cerezza.png",
        isBoycotted: "boykot",
        website: "",
-       description: `Çerezza, Frito-Lay'in Türkiye pazarı için ürettiği tuzlu atıştırmalık markasıdır. PepsiCo'nun Frito-Lay şirketi bünyesinde faaliyet gösteren marka, Türkiye'deki tüketicilere yönelik ürünler sunmaktadır.`,
-       boycottReason: `Çerezza, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
+       description: `Çerezza, Frito-Lay'in özel olarak Türkiye pazarı için geliştirdiği ve 2010'lu yılların başında piyasaya sürdüğü yerel bir tuzlu atıştırmalık markasıdır. PepsiCo'nun Frito-Lay şirketi bünyesinde faaliyet gösteren marka, Türkiye'deki tüketicilerin yerel damak zevklerine, kültürel tercihlerine ve beklentilerine yönelik özel olarak tasarlanmış ürünler sunmaktadır. Çerezza, Türk mutfak kültürüne özgü baharatlar, lezzetler ve tariflerden ilham alarak geliştirilen çeşitli cips, krakerler ve tuzlu atıştırmalıklar üretmektedir.
+
+Marka, Frito-Lay'in global expertise ve üretim kalitesini Türk lezzet anlayışıyla birleştirerek, yerel pazarda Doritos, Lay's ve Cheetos gibi küresel markaların yanında alternatif bir ürün yelpazesi sunmaktadır. Çerezza ürünleri, Türkiye genelindeki marketlerde, süpermarketlerde ve perakende satış noktalarında yaygın olarak bulunmakta ve özellikle fiyat-performans dengesi arayan tüketicilere hitap etmektedir. Yerel üretim tesislerinde üretilen marka, Frito-Lay'in Türkiye'deki pazar payını artırma ve farklı tüketici segmentlerine ulaşma stratejisinin önemli bir parçasını oluşturmaktadır.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Çerezza da, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [
         "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
        ],
@@ -10066,13 +10393,15 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        country: "ABD",
        foundedYear: 1932,
        founder: "Herman W. Lay",
-       owner: "Frito-Lay",
+       owner: "Frito-Lay (PepsiCo)",
        country: "ABD",
        img: "/lays.png",
        isBoycotted: "boykot",
        website: "https://www.lays.com.tr/",
-       description: `Lay's, 1932 yılında Herman W. Lay tarafından kurulmuş patates cipsi markasıdır. Farklı ülkelerde farklı isimlerle bilinmektedir: Birleşik Krallık ve İrlanda'da "Walkers", Mısır'da "Chipsy", Vietnam'da "Poca", İsrail'de "Tapuchips", Meksika'da "Sabritas". 1965'ten itibaren PepsiCo'nun Frito-Lay şirketi bünyesinde pazarlanmaktadır. Lay's, dünya çapında en çok satan patates cipsi markalarından biridir ve Klasik, Baharat çeşnili, Mevsim Yeşilliği-Yoğurtlu, Zeytinyağlı gibi çeşitli lezzetlerde üretilmektedir.`,
-       boycottReason: `Lay's, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
+       description: `Lay's, 1932 yılında Herman W. Lay tarafından Nashville, Tennessee'de küçük bir atıştırmalık dağıtım işi olarak kurulan ve bugün dünyanın en çok satan, en tanınan ve en ikonik patates cipsi markası olan efsanevi bir Amerikan markasıdır. Herman Lay, Büyük Buhran döneminde otomobiliyle güney eyaletlerinde cips satarak işe başlamış ve kısa sürede bölgenin önde gelen atıştırmalık dağıtıcısı haline gelmiştir. 1961 yılında The Frito Company ile birleşerek Frito-Lay'i oluşturmuş, 1965 yılında ise Pepsi-Cola ile birleşerek PepsiCo'nun kurucu markalarından biri olmuştur.
+
+Lay's, 200'den fazla ülkede satışı yapılan ve yıllık milyarlarca dolarlık ciro elde eden küresel bir dev markadır. Farklı ülkelerde farklı yerel isimlerle bilinmektedir: Birleşik Krallık ve İrlanda'da "Walkers", Mısır'da "Chipsy", Vietnam'da "Poca", İsrail'de "Tapuchips", Meksika'da "Sabritas" gibi. Marka, her bölgenin yerel damak zevklerine uygun yüzlerce farklı lezzet çeşidi üretmektedir. Türkiye'de Klasik Tuzlu, Acı Baharatlı, Mevsim Yeşilliği-Yoğurtlu, Zeytinyağlı, BBQ, Ranch gibi çok çeşitli lezzetlerde üretilmekte ve "Betcha can't eat just one" (Bir tanesini yiyip duramazsın) gibi akılda kalıcı sloganlarla pazarlanmaktadır. Lay's, patates cipsi kategorisinde dünya pazar liderliğini elinde bulundurmaktadır.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Lay's de, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [
         "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
        ],
@@ -10082,14 +10411,16 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        slug: "doritos",
        country: "ABD",
        foundedYear: 1966,
-       founder: "Frito-Lay",
-       owner: "Frito-Lay",
+       founder: "Arch West (Frito-Lay)",
+       owner: "Frito-Lay (PepsiCo)",
        country: "ABD",
        img: "/doritos.png",
        isBoycotted: "boykot",
        website: "https://www.doritos.com.tr/",
-       description: `Doritos, Frito-Lay tarafından üretilen ve PepsiCo'nun tam sahibi olduğu tortilla cipsi markasıdır. 1966 yılında ABD'de piyasaya sürülmüş ve ulusal olarak satılan ilk tortilla cipsi olmuştur. Marka adı, İspanyolca "doradito" (kızarmış ve altın renkli) kelimesinden türetilmiştir. Doritos'un kökeni Disneyland'taki Casa de Fritos restoranına dayanmaktadır. Fazla tortillaları değerlendirmek için oluşturulan cipsler, hızla popüler olmuş ve Frito-Lay'in dikkatini çekmiştir. İlk lezzeti "Toasted Corn" olan Doritos, 1967'de "taco", 1972'de "Nacho Cheese" lezzetini piyasaya sürmüştür. 1990'larda "Spicy Nacho" ve "Cool Ranch" gibi popüler lezzetler eklenmiştir.`,
-       boycottReason: `Doritos, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
+       description: `Doritos, Frito-Lay tarafından 1966 yılında ABD'de piyasaya sürülen ve ulusal düzeyde satılan ilk tortilla cipsi olarak atıştırmalık endüstrisinde devrim yaratan ikonik bir Amerikan markasıdır. PepsiCo'nun tam sahipliğinde olan marka, dünya çapında en çok satan ve en tanınan tortilla cipsi markası konumundadır. Marka adı, İspanyolca "doradito" (kızarmış, altın renkli ve lezzetli küçük şey) kelimesinden türetilmiştir ve Meksika mutfak geleneğine saygı duruşu niteliğindedir.
+
+Doritos'un kökeni, 1960'ların başında Disneyland'taki Casa de Fritos adlı Meksika restoranına dayanmaktadır. Restoranda taco üretiminden arta kalan fazla tortillaları değerlendirmek için üretilen kızarmış üçgen tortilla parçaları, müşteriler arasında hızla popüler olmuş ve Frito-Lay'in pazarlama yöneticisi Arch West'in dikkatini çekmiştir. İlk lezzeti "Toasted Corn" (Kavrulmuş Mısır) olan Doritos, 1967'de "Taco" aroması, 1972'de efsanevi "Nacho Cheese" (Nacho Peyniri) lezzetini piyasaya sürmüş ve bu lezzet markanın en ikonik ve en çok satan varyantı haline gelmiştir. 1990'larda "Spicy Nacho", "Cool Ranch" ve "Salsa Verde" gibi cesur ve yenilikçi lezzetler ürün yelpazesine eklenmiştir. Doritos, agresif pazarlama kampanyaları, Super Bowl reklamları ve gençlik kültürüyle güçlü bağlantılarıyla bilinmektedir.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Doritos da, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [
         "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
        ],
@@ -10099,14 +10430,16 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        slug: "cheetos",
        country: "ABD",
        foundedYear: 1948,
-       founder: "Frito-Lay",
-       owner: "Frito-Lay",
+       founder: "Charles Elmer Doolin (Frito Company)",
+       owner: "Frito-Lay (PepsiCo)",
        country: "ABD",
        img: "/cheetos.png",
        isBoycotted: "boykot",
        website: "https://www.cheetos.com.tr/",
-       description: `Cheetos, 1948 yılında Chee-tos adıyla kurulmuş, birçok ülkede satılan cips markasıdır. Maskotu Chester olan marka, Türkiye'de Frito-Lay tarafından üretilmektedir. 1998 yılında adı Cheetos olarak değiştirilmiştir. Frito-Lay'in Türkiye'de sattığı diğer markalar arasında Doritos, Lay's ve Ruffles bulunmaktadır. Cheetos, kampanyaları sayesinde Türkiye'de en çok satan cips markalarından biri haline gelmiştir.`,
-       boycottReason: `Cheetos, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
+       description: `Cheetos, 1948 yılında Frito Company'nin kurucusu Charles Elmer Doolin tarafından "Chee-tos" adıyla geliştirilen ve başlangıçta peynir aromalı mısır cipsi olarak piyasaya sürülen, bugün dünya genelinde birçok ülkede satılan son derece popüler bir atıştırmalık markasıdır. 1998 yılında markanın adı resmi olarak "Cheetos" şeklinde yeniden markalandırılmıştır. Cheetos'un en belirgin ve tanımlayıcı özelliği, parmakları turuncu renge boyayan karakteristik peynir tozu kaplamasıdır ve bu özellik markanın ikonik kimliğinin bir parçası haline gelmiştir.
+
+Markanın maskotu olan "Chester Cheetah" (Chester Çita), 1986 yılında tanıtılmış ve Cheetos'u havalı, eğlenceli ve asi bir marka olarak konumlandırmada kritik rol oynamıştır. Chester, güneş gözlüklü, rahat tavırlı ve karizmatik karakteriyle özellikle çocuklar ve genç yetişkinler arasında sevilen bir karakter haline gelmiştir. Cheetos, Crunchy (Gevrek), Puffs (Yumuşak), Flamin' Hot (Acı), Jalapeno gibi çok sayıda farklı doku ve lezzet varyantıyla üretilmektedir. Özellikle "Flamin' Hot Cheetos" varyantı, 1990'larda piyasaya sürülmüş ve kült bir statü kazanarak ayrı bir hayran kitlesi oluşturmuştur. Frito-Lay'in Türkiye'de sattığı önde gelen markalardan biri olan Cheetos, başarılı pazarlama kampanyaları sayesinde Türkiye'de en çok satan atıştırmalık markalarından biri haline gelmiştir.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Cheetos da, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [
         "https://bdsmovement.net/news/%25E2%2580%259Csodastream-still-subject-boycott%25E2%2580%259D",
        ],
@@ -10117,13 +10450,15 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        country: "ABD",
        foundedYear: 1948,
        founder: "Bernhardt Stahmer",
-       owner: "Frito-Lay",
+       owner: "Frito-Lay (PepsiCo)",
        country: "ABD",
        img: "/ruffles.png",
        isBoycotted: "boykot",
        website: "https://www.ruffles.com.tr/",
-       description: `Ruffles, PepsiCo'nun Frito-Lay şirketinin sahibi olduğu bir cips markasıdır. 1958 yılında Frito-Lay tarafından hakları alınmıştır. Tırtıklı patates cipsi üretir. Sloganı "Ruffles'la hayatı enlerde yaşadır" şeklindedir. Birleşik Krallık'ta McCoy's adıyla üretilir. Türkiye'de de satılmaktadır. Frito-Lay'in Türkiye'de sattığı diğer markalar arasında Doritos, Lay's ve Cheetos bulunmaktadır.`,
-       boycottReason: `Ruffles, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
+       description: `Ruffles, PepsiCo'nun Frito-Lay şirketinin sahibi olduğu ve karakteristik tırtıklı (ridged) dokusuyla tanınan popüler bir patates cipsi markasıdır. Marka, ilk olarak 1948 yılında Bernhardt Stahmer tarafından geliştirilmiş ve 1961 yılında Frito-Lay tarafından satın alınarak şirketin güçlü marka portföyüne katılmıştır. Ruffles'ın ayırt edici tırtıklı yapısı, sadece görsel bir özellik değil, aynı zamanda fonksiyonel bir avantajdır: bu dalgalı yapı, cipslerin daha dayanıklı olmasını sağlar ve dip soslarıyla (salsa, guacamole, sour cream gibi) kullanıldığında daha fazla sos tutmasına olanak tanır.
+
+Marka, "Ruffles have ridges" (Ruffles'ın tırtıkları vardır) ve Türkiye'de "Ruffles'la hayatı enlerde yaşadır" gibi akılda kalıcı sloganlarla pazarlanmaktadır. Ruffles, klasik tuzlu, ekşi krema-soğan, cheddar peyniri, barbekü gibi çok çeşitli lezzet seçenekleriyle sunulmaktadır. İlginç bir detay olarak, Birleşik Krallık'ta benzer konsept McCoy's markası adı altında üretilmekte ve pazarlanmaktadır. Türkiye'de de yaygın olarak satılan Ruffles, Frito-Lay'in Türkiye portföyündeki diğer güçlü markalar olan Doritos, Lay's ve Cheetos ile birlikte pazar payını genişletmektedir. Ruffles, özellikle partilerde, sosyal etkinliklerde ve dip soslarıyla birlikte tüketilmeyi seven tüketiciler arasında tercih edilmektedir.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Ruffles da, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [""],
       },
       {
@@ -10131,14 +10466,14 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
        slug: "rocco",
        country: "ABD",
        foundedYear: null,
-       founder: "Frito-Lay",
-       owner: "Frito-Lay",
+       founder: "Frito-Lay Türkiye",
+       owner: "Frito-Lay (PepsiCo)",
        country: "ABD",
        img: "/rocco.png",
        isBoycotted: "boykot",
        website: "",
        description: `Rocco, Frito-Lay'in tatlı atıştırmalık markasıdır. PepsiCo'nun Frito-Lay şirketi bünyesinde faaliyet gösteren marka, Türkiye pazarında da yer almaktadır.`,
-       boycottReason: `Rocco, Frito-Lay'in alt markası olduğu için boykot listesindedir. Frito-Lay, PepsiCo'nun alt şirketidir ve PepsiCo'nun İsrail ile olan ticari ilişkileri (SodaStream ve Sabra markalarına sahip olması) nedeniyle boykot edilmektedir.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Ruffles da, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [""],
       },
       {
@@ -10157,9 +10492,10 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
  Marka, sadece lezzetiyle değil, ambalaj inovasyonuyla da tanınır. Çekirdekleri tekrar kapatılabilir (resealable) paketlerde sunan ilk şirketlerden biri olarak, ürünün tazeliğini korumayı ve tüketicilere pratik bir kullanım sağlamayı hedeflemiştir. Çatlak Biber (Cracked Pepper), Flamin' Hot ve Limon gibi cesur aroma çeşitleriyle çekirdek severlerin favorisi haline gelmiştir.
  
  Kanada kökenli bir başarı hikayesi olan Spitz, daha sonra küresel gıda devi PepsiCo'nun atıştırmalık birimi Frito-Lay tarafından satın alınmıştır. Günümüzde Frito-Lay çatısı altında, Kuzey Amerika başta olmak üzere geniş bir pazarda faaliyet göstermektedir.`,
-       boycottReason: `Spitz markası, PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Markanın sahibi PepsiCo'nun, SodaStream'i satın alması ve Sabra markasındaki ortaklığı yoluyla İsrail ekonomisine ve işgal politikalarına verdiği destek nedeniyle, PepsiCo çatısı altındaki tüm markalar gibi Spitz de boykot listesinde yer almaktadır.`,
+       boycottReason: `Bu marka, Amerikan kökenli PepsiCo'nun bir iştiraki olan Frito-Lay tarafından üretilmektedir. Ana şirket PepsiCo'nun İsrail ile olan güçlü ve doğrudan ticari bağları, bu boykotun temel nedenidir. PepsiCo, 2018 yılında İsrail merkezli SodaStream'i 3,2 milyar dolara satın almış ve İsrail ekonomisine doğrudan katkı sağlamıştır. SodaStream, İsrail'in yasadışı yerleşimlerinde fabrikalar açarak işgalin normalleşmesine katkıda bulunmaktadır. Ayrıca PepsiCo, Sabra markasının %50 hissesine sahiptir ve Sabra'nın ortağı Strauss Group, İsrail ordusuna aktif destek sağlamaktadır. Bu nedenlerle PepsiCo çatısı altındaki tüm markalar gibi Ruffles da, Filistin davasına destek veren bilinçli tüketiciler tarafından boykot edilmektedir.`,
        evidences: [""],
-      },],
+      },
+     ],
     },
     {
      name: "Pepsi",
@@ -10168,7 +10504,9 @@ Bu ticari ve ekonomik bağlantılar nedeniyle, Filistin davasına destek vermek 
      country: "ABD",
      founder: "Caleb Bradham",
      owner: "PepsiCo",
-     description: `Pepsi, PepsiCo'nun amiral gemisi ürünü olan kola markasıdır. 1893 yılında eczacı Caleb Bradham tarafından "Brad's Drink" adıyla icat edilmiş, 1898 yılında ise Pepsi-Cola adıyla tescillenmiştir. Pepsi, Coca-Cola'nın en büyük rakibi olarak dünya çapında tanınmaktadır ve 200'den fazla ülkede satılmaktadır.`,
+     description: `Pepsi, 1893 yılında Kuzey Carolina'da eczacı Caleb Bradham tarafından, kendi eczanesinde müşterilerine sunduğu sindirime yardımcı ve enerji verici bir içecek olarak "Brad's Drink" adıyla yaratılmıştır. 1898 yılında, içeriğindeki pepsin enzimi ve kola fındığına atıfta bulunularak adı "Pepsi-Cola" olarak değiştirilmiş ve tescil edilmiştir. Yıllar içinde geçirdiği değişimler ve "Yeni Neslin Seçimi" gibi unutulmaz pazarlama kampanyalarıyla marka kimliğini güçlendiren Pepsi, sadece bir içecek olmanın ötesine geçerek popüler kültürün ve gençlik enerjisinin bir simgesi haline gelmiştir.
+
+Günümüzde PepsiCo'nun amiral gemisi olan marka, dünyanın en büyük yiyecek ve içecek şirketlerinden birinin itici gücüdür. 200'den fazla ülkede tüketilen Pepsi, ezeli rakibi Coca-Cola ile girdiği rekabetle sektörün gelişimine öncülük etmiştir. Klasik lezzetinin yanı sıra Pepsi Max (Zero Sugar), Diet Pepsi ve çeşitli aromalı versiyonlarıyla ürün yelpazesini sürekli genişleten marka; müzik, spor ve eğlence dünyasıyla kurduğu güçlü sponsorluk bağlarıyla global pazardaki devasa etkisini sürdürmektedir.`,
      country: "ABD",
      website: "https://www.pepsi.com.tr/",
      img: "/pepsi.jpg",
@@ -10179,8 +10517,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Pepsi, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10195,7 +10531,9 @@ Pepsi, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail 
      country: "ABD",
      founder: "PepsiCo",
      owner: "PepsiCo",
-     description: `Sting, enerji içeceği kategorisinde faaliyet gösteren popüler bir markadır. Marka, özellikle gençler ve yoğun tempolu yaşam tarzına sahip kişiler arasında yaygın olarak tüketilmektedir. Türkiye'de de farklı aromalarla satışta bulunan Sting, enerjiyi artırıcı içeriğiyle tercih edilen bir içecek seçeneğidir.`,
+     description: `Sting, enerji içeceği pazarında küresel olarak bilinen ve özellikle genç tüketici kitlesi tarafından yoğun ilgi gören bir markadır. Yüksek kafein, taurin ve B vitamini içeriği sayesinde kısa sürede enerji artışı sağlamayı hedefleyen ürün, dinçlik ve odaklanma gerektiren anlarda tercih edilmektedir. PepsiCo tarafından geliştirilen Sting, farklı meyve aromaları ve dikkat çekici ambalaj tasarımlarıyla pazarda güçlü bir konuma sahiptir.
+
+Türkiye’de de yaygın şekilde satılan Sting, tat çeşitliliği ve uygun fiyatıyla enerji içeceği kullanıcıları arasında popüler bir seçenek haline gelmiştir. Marka, özellikle yoğun tempoda çalışan bireyler, öğrenciler ve sporcular tarafından tercih edilmekte; reklam kampanyaları ve geniş dağıtım ağı ile pazar bilinirliğini her geçen gün artırmaktadır.`,
      country: "ABD",
      website: "https://stingenergy.com/",
      img: "/sting.png",
@@ -10206,8 +10544,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Sting, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10222,7 +10558,9 @@ Sting, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail 
      country: "ABD",
      founder: "Charles Leiper Grigg",
      owner: "PepsiCo",
-     description: `7UP, dünyaca ünlü limonlu gazoz markalarından biridir. Marka, 1929 yılında geliştirilmiştir. 7UP'ın orijinal formülünde lityum sitrat maddesi bulunmaktaydı; ancak bu madde 1948 yılında ABD'de yasaklanınca formülden çıkarılmıştır. Markanın sahipliği bölgelere göre farklılık göstermektedir: ABD dışındaki ülkelerde üretim ve dağıtım hakları PepsiCo'ya aittir. Türkiye, Avrupa ve birçok ülkede 7UP, PepsiCo tarafından üretilip pazarlanmaktadır.`,
+     description: `7UP, limonlu gazoz kategorisinin en köklü ve en bilinen markalarından biridir. İlk olarak 1929 yılında Amerikalı girişimci Charles Leiper Grigg tarafından geliştirilmiş ve piyasaya sürülmüştür. Markanın orijinal formülü, dönemin birçok içeceğinde olduğu gibi lityum sitrat maddesini içeriyordu; bu madde ruh hâlini dengeleyici etkisinden dolayı içeceğe eklense de 1948 yılında ABD’de yasaklanmasının ardından tamamen formülden çıkarılmıştır. Yıllar içinde yenilenen formül, 7UP’u ferahlatıcı tadı ve sade içeriğiyle dünya çapında popüler bir markaya dönüştürmüştür.
+
+Bugün 7UP’ın marka sahipliği bölgelere göre farklılık göstermektedir. ABD’de ayrı bir marka yapısına sahip olsa da dünyanın büyük bölümünde, özellikle Avrupa, Asya ve Orta Doğu ülkelerinde üretim ve pazarlama hakları PepsiCo tarafından yürütülmektedir. Türkiye’de de PepsiCo bünyesinde üretilen 7UP, limonlu gazoz pazarında güçlü bir konumda olup, ferahlık odaklı kampanyaları ve geniş dağıtım ağıyla geniş bir kitleye hitap etmektedir.`,
      country: "ABD",
      website: "https://www.7up.com/en",
      img: "/7up.png",
@@ -10233,8 +10571,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 7UP, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10249,7 +10585,9 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
      foundedYear: 1959,
      founder: "Yerel Girişimciler",
      owner: "PepsiCo",
-     description: `Mirinda, dünyaca ünlü meyve aromalı bir gazoz markasıdır. İlk kez 1959 yılında İspanya'da geliştirilen marka, kısa sürede Avrupa ve Latin Amerika'da büyük bir popülerlik kazanmıştır. Türkiye'de "Yedigün" ismiyle satılan bu içeceğin, dünya genelindeki orijinal adı Mirinda'dır. 1970 yılında PepsiCo tarafından satın alınan Mirinda, şirketin küresel içecek portföyündeki en önemli markalardan biri haline gelmiştir.`,
+     description: `Yedigün, dünya genelinde en çok bilinen meyve aromalı gazoz markalarından biri olarak öne çıkmaktadır. İlk kez 1959 yılında İspanya’da üretilen Yedigün, özellikle portakal aromasıyla kısa sürede geniş bir tüketici kitlesi edinmiştir. Avrupa ve Latin Amerika’da hızla popülerlik kazanan marka, zamanla farklı meyve aromalarıyla çeşitlenmiş ve küresel içecek pazarında güçlü bir yer edinmiştir. Türkiye’de ise aynı segmentteki yerel marka olan “Yedigün” adıyla bilinir; ancak Yedigün’ün konumlandırması ve ürün tipleri Yedigün’ün uluslararası çizgisiyle büyük oranda paralellik göstermektedir.
+
+1970 yılında PepsiCo tarafından satın alınan Yedigün, şirketin küresel ürün portföyünün en önemli içecek markalarından biri haline gelmiştir. Yedigün ise Türkiye pazarına özel geliştirilmiş olup, PepsiCo’nun yerel üretim ve dağıtım stratejisinin bir parçası olarak konumlandırılmıştır. Her iki marka da özellikle gençler ve meyve aromalı gazoz tercih eden tüketiciler tarafından yoğun şekilde rağbet görmekte, geniş aroma seçenekleri ve agresif pazarlama stratejileri sayesinde içecek pazarında güçlü konumunu sürdürmektedir.`,
      country: "ABD",
      website: "https://www.pepsi.ps/products/mirinda",
      img: "/yedigun.png",
@@ -10260,8 +10598,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Yedigün & Mirinda, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10276,7 +10612,9 @@ Yedigün & Mirinda, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo
      country: "ABD",
      founder: "Barney and Ally Hartman",
      owner: "PepsiCo",
-     description: `Mountain Dew, yüksek kafein içeriği ve kendine özgü limon-lime aromasıyla bilinen ABD kökenli bir gazoz markasıdır. Marka, 1940'larda Tennessee'de geliştirilmiş ve başlangıçta ev yapımı bir içecek olarak satışa sunulmuştur. Mountain Dew, özellikle enerji verici özellikleri ve canlı tadıyla hızla popülerlik kazanmış, günümüzde PepsiCo tarafından üretilip dünya çapında dağıtılmaktadır.`,
+     description: `Mountain Dew, yüksek kafein oranı ve kendine özgü limon-lime aromasıyla dünyanın en bilinen gazoz markalarından biridir. İlk olarak 1940’lı yıllarda Tennessee’de Barney ve Ally Hartman kardeşler tarafından geliştirilmiş olan içecek, başlangıçta yerel üreticilere yönelik bir karışım olarak tasarlanmıştı. Zaman içinde formül geliştirilmiş, daha yoğun aroma ve daha yüksek enerji hissi veren yapısıyla özellikle genç tüketiciler arasında popülerlik kazanmıştır.
+
+1950’lerin sonlarında hakları genişletilen Mountain Dew, 1964 yılında PepsiCo tarafından satın alınarak küresel ölçekte bir markaya dönüştürülmüştür. Bugün birçok ülkede farklı tat seçenekleri, sınırlı üretim özel serileri ve yüksek enerjili varyasyonlarıyla satışa sunulmaktadır. Markanın dinamik ve ekstrem sporlarla özdeşleşen pazarlama stratejisi, Mountain Dew'i özellikle genç kitle arasında enerjik ve cesur bir marka kimliğiyle öne çıkarmaktadır.`,
      country: "ABD",
      website: "https://www.mountaindew.com/products",
      img: "/mountain-dew.png",
@@ -10287,8 +10625,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Mountain Dew, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10303,7 +10639,9 @@ Mountain Dew, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun �
      foundedYear: 1977,
      founder: "Dettmeyer GmbH",
      owner: "PepsiCo",
-     description: `Punica, 1977 yılında Dettmeyer GmbH tarafından yaratılan ve Alman karbonatlı meşrubat olarak satılan bir markadır. Marka, yıllar içinde farklı şirketlerin eline geçmiştir; 1984'te Procter & Gamble tarafından, 2005'te ise PepsiCo tarafından satın alınmıştır. Marka, 2021 yılı Ağustos ayına kadar PepsiCo'ya ait kalmıştır.`,
+     description: `Punica, 1977 yılında Alman içecek üreticisi Dettmeyer GmbH tarafından piyasaya sunulan, meyve aromalı içeceklere odaklanan bir markadır. Başlangıçta karbonatlı bir meşrubat olarak geliştirilen Punica, zamanla gazsız meyve suyu karışımlarıyla da genişlemiş ve özellikle Almanya'da aileler ile genç tüketiciler arasında popülerlik kazanmıştır. Markanın ambalaj tasarımları, yoğun meyve aroması vurgusu ve eğlenceli pazarlama dili, Punica’yı 1980 ve 1990’lı yıllarda Almanya’nın bilinen içecek markalarından biri haline getirmiştir.
+
+Markanın sahipliği yıllar içinde el değiştirmiştir: 1984'te Procter & Gamble tarafından satın alınan Punica, ürün gamını genişleterek uluslararası pazarlarda da bilinirlik elde etmiştir. 2005 yılında PepsiCo tarafından devralınan marka, 2021 yılı Ağustos ayına kadar PepsiCo portföyünde kalmıştır. Bu süre boyunca Punica, daha doğal içerik odaklı, çocuklara yönelik ve meyve ağırlıklı ürün çeşitliliğini artırmış; Almanya pazarındaki konumunu da büyük ölçüde korumuştur.`,
      country: "ABD",
      img: "/punica.png",
      isBoycotted: "boykot",
@@ -10313,8 +10651,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Punica, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10329,7 +10665,9 @@ Punica, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail
      foundedYear: 1967,
      founder: "Tamek Holding",
      owner: "PepsiCo",
-     description: `Fruko, Türkiye'de 1967 yılında Tamek Holding tarafından kurulan bir gazoz markasıdır. 2002 Mart ayında 100 milyon dolara PepsiCo'ya devredilmiş ve markanın alt markası haline gelmiştir. Fruko, Türkiye'de gazoz ve meyveli gazlı içecekleri ile tanınır ve "On yüz bin milyon baloncuk" sloganıyla tüketicilere sunulmuştur. Türkiye'de Fruko, 6 fabrika ve dört depo ile üretim ve dağıtımını sürdürmektedir.`,
+     description: `Fruko, Türkiye’de 1967 yılında Tamek Holding tarafından kurulan ve kısa sürede ülkenin en bilinen gazoz markalarından biri haline gelen köklü bir içecek markasıdır. Özellikle portakal, limon ve çeşitli meyve aromalı gazlı içecekleriyle geniş bir tüketici kitlesine ulaşmış; "On yüz bin milyon baloncuk" sloganı ile akıllarda yer etmiştir. Türkiye’de gazoz kültürünün önemli temsilcilerinden biri olarak kabul edilen Fruko, yıllarca yerel üretim gücü ve yaygın dağıtım ağıyla güçlü bir marka algısı oluşturmuştur.
+
+2002 yılının Mart ayında Fruko, yaklaşık 100 milyon dolarlık anlaşma ile PepsiCo’ya devredilmiş ve markanın PepsiCo portföyünde yer alan yerel içecek markalarından biri olmuştur. Devir sonrası marka modern pazarlama stratejileri, yeni ambalaj tasarımları ve ürün çeşitliliğiyle büyümeye devam etmiştir. Günümüzde Fruko, Türkiye genelinde PepsiCo’nun sahip olduğu 6 fabrika ve 4 depo aracılığıyla üretilmekte ve dağıtılmakta olup, yerli kökenli bir markanın küresel bir şirket çatısı altında sürdürülen başarılı örneklerinden biri olarak varlığını korumaktadır.`,
      country: "ABD",
      website: "https://www.fruko.com.tr/",
      img: "/fruko.png",
@@ -10340,8 +10678,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Fruko, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10356,7 +10692,9 @@ Fruko, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail 
      country: "ABD",
      founder: "Russell Weiner",
      owner: "PepsiCo",
-     description: `Rockstar, 2001 yılında Russell Weiner tarafından kurulmuş bir enerji içeceği markasıdır. Marka, Red Bull'un 240 ml'lik kutularının aksine 470 ml'lik kutu boyutunu kullanarak pazara dikkat çekmiştir. Rockstar, 2020 yılında PepsiCo tarafından 3.85 milyar dolar karşılığında satın alınmıştır. Marka, uluslararası alanda PepsiCo'ya aittir.`,
+     description: `Rockstar, 2001 yılında Russell Weiner tarafından kurulan ve kısa sürede enerji içeceği pazarında önemli bir konuma ulaşan yenilikçi bir markadır. Enerji içecekleri arasında farklılaşmak için standart 240 ml’lik kutular yerine 470 ml’lik büyük boy kutularla piyasaya giriş yapan Rockstar, özellikle sporcular, uzun saatler çalışan bireyler ve aktif yaşam tarzına sahip gençler arasında popülerlik kazanmıştır. Kafein, B vitamini kompleksleri ve bitkisel ekstraktlar içeren formülü, markayı yüksek enerji ihtiyacı olan tüketiciler için dikkat çekici bir seçenek haline getirmiştir.
+
+Marka, 2020 yılında PepsiCo tarafından 3.85 milyar dolara satın alınarak küresel içecek devi çatısı altına girmiştir. Bu satın alım ile birlikte Rockstar, dünya çapında çok daha geniş bir dağıtım ağına kavuşmuş ve uluslararası pazarlardaki varlığını güçlendirmiştir. Günümüzde Rockstar; klasik, şekersiz, meyve aromalı ve spor odaklı birçok farklı varyantıyla pek çok ülkede satışa sunulmakta olup, PepsiCo'nun küresel enerji içeceği portföyünün önemli bir parçası olarak konumlanmaktadır.`,
      country: "ABD",
      website: "https://www.rockstarenergy.com/",
      img: "/rockstar.png",
@@ -10367,8 +10705,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Rockstar, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10383,7 +10719,9 @@ Rockstar, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsra
      country: "ABD",
      founder: "Anthony T. Rossi",
      owner: "PepsiCo",
-     description: `Tropicana, meyve suyu ve meyve bazlı içecekler kategorisinde dünya çapında bilinen bir markadır. 1947 yılında ABD'de kurulan marka, özellikle portakal suyu başta olmak üzere çeşitli meyve sularıyla tüketiciye sunulmaktadır. Tropicana, 1998 yılında PepsiCo tarafından satın alınmıştır. PepsiCo'nun geniş dağıtım ağı sayesinde Tropicana ürünleri dünya genelinde ve Türkiye'de yaygın şekilde bulunabilmektedir.`,
+     description: `Tropicana, meyve suyu ve meyve bazlı içecek kategorisinde dünyanın en tanınmış markalarından biridir. 1947 yılında Anthony T. Rossi tarafından Florida’da kurulan marka, taze meyveleri işleyerek doğal ve yüksek kaliteli meyve suyu üretme vizyonuyla yola çıkmıştır. Tropicana özellikle portakal suyu ile ün kazanmış; taze sıkım tarzı ürünleri ve soğuk sıkım teknolojisine yaptığı yatırımlar sayesinde kısa sürede geniş bir tüketici kitlesi edinmiştir. Marka, yıllar içinde elma, üzüm, ananas ve çeşitli tropikal meyveler gibi çok sayıda farklı ürün çeşidiyle portföyünü genişletmiştir.
+
+1998 yılında PepsiCo tarafından satın alınan Tropicana, bu birleşmenin ardından küresel bir dağıtım ağına kavuşarak dünya genelinde daha güçlü bir marka haline gelmiştir. PepsiCo’nun üretim, lojistik ve pazarlama gücü sayesinde Tropicana ürünleri bugün yüzlerce ülkede satılmaktadır. Türkiye’de de yaygın olarak bulunan marka, doğal meyve suyu kategorisinde güvenilir, premium ve köklü bir içecek markası olarak konumunu korumaktadır.`,
      country: "ABD",
      website: "https://tropicana.com.tr/",
      img: "/tropicana.png",
@@ -10394,8 +10732,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Tropicana, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10410,7 +10746,9 @@ Tropicana, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsr
      country: "ABD",
      founder: "Bill Moses",
      owner: "PepsiCo",
-     description: `KeVita, organik mayalı (fermente) probiyotik içecekler, kombucha ve sirkeli tonikler konusunda uzmanlaşmış bir Amerikan markasıdır. 2009 yılında kurulmuştur ve kendisini sağlıklı yaşam ve yenilikçi sağlık yaklaşımlarını desteklemeye adamıştır. Marka, sağlıklı içecek pazarında hızla büyümüş ve 2016 yılında küresel gıda ve içecek devi PepsiCo tarafından satın alınmıştır.`,
+     description: `KeVita, probiyotik içecekler, kombucha çeşitleri ve fermente tonikler üzerine uzmanlaşmış yenilikçi bir Amerikan markasıdır. 2009 yılında Bill Moses tarafından kurulan marka, sağlıklı yaşamı destekleyen fermente içeceklerin gittikçe büyüyen popülaritesinden yararlanarak kısa sürede geniş bir tüketici kitlesine ulaşmıştır. Organik içerikler, düşük şeker oranı, canlı probiyotik kültürler ve doğal fermantasyon teknikleri KeVita’nın ürünlerinin temelini oluşturur. Bu yaklaşım, markayı hem sağlık odaklı tüketiciler hem de fonksiyonel içecek kategorisine ilgi duyan kitleler için cazip hale getirmiştir.
+
+Sağlıklı içecek pazarında hızlı bir büyüme yakalayan KeVita, 2016 yılında PepsiCo tarafından satın alınarak küresel içecek devi bünyesine katılmıştır. Bu satın alım sonrası KeVita, daha geniş bir dağıtım ağına ve uluslararası pazarlara erişim imkânı bulmuş; kombucha ve probiyotik içecek segmentindeki varlığını güçlendirmiştir. Günümüzde KeVita, doğal içerik odaklı ürünleriyle sağlıklı yaşam ve fonksiyonel içecek kategorisinde lider markalardan biri olarak konumlanmaktadır.`,
      country: "ABD",
      website: "https://kevita.com/",
      img: "/kevita.png",
@@ -10421,8 +10759,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 KeVita, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10437,10 +10773,11 @@ KeVita, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail
      foundedYear: 1969,
      founder: "Yerel Girişimciler",
      owner: "PepsiCo",
-     description: `Schwip Schwap, 1969 yılında Güney Almanya'da üretilmeye başlanmış, kafein içeren popüler bir meşrubat markasıdır. Bu içecek, kola ve portakal suyu karışımından oluşur ve Almanya ile İsviçre pazarları için özel olarak üretilmiştir. Schwip Schwap markası, küresel gıda ve içecek devi PepsiCo'ya ait tescilli bir markadır. Almanya'daki Neu-Isenburg tesislerinde PepsiCo tarafından üretilmektedir.`,
+     description: `Schwip Schwap, 1969 yılında Güney Almanya’da üretilmeye başlayan ve kola ile portakal aromalı gazozun birleşiminden oluşan özgün bir meşrubat markasıdır. Kafein içeren bu benzersiz karışım, özellikle Almanya ve İsviçre pazarında büyük bir popülerlik kazanmış ve zamanla bölgenin kültürel içeceklerinden biri haline gelmiştir. Tadı, geleneksel kola içeceğine ferahlatıcı bir meyve dokunuşu ekleyerek farklı bir içim deneyimi sunar. Bu nedenle Schwip Schwap, yıllardır özellikle gençler ve kola–portakal karışımı seven tüketiciler tarafından ilgiyle tercih edilmektedir.
+
+Marka, yıllar içinde tat profili, ambalaj tasarımı ve ürün çeşitleri açısından modernleştirilmiş olup PepsiCo’nun yenilikçi içecek stratejisinin bir parçası haline gelmiştir. Kuruluşundan itibaren yerel bir ürün olarak konumlanan Schwip Schwap, günümüzde PepsiCo’nun Almanya’daki Neu-Isenburg tesislerinde üretilmeye devam etmektedir. Bölgesel bir marka olmasına rağmen güçlü sadık tüketici kitlesi, kendine özgü lezzeti ve uzun yıllardır değişmeyen karakteriyle Alman içecek pazarının sevilen markaları arasında yer almaktadır.`,
      country: "ABD",
-     website:
-      "https://design.pepsico.com/design-dialogue/schwip-schwap-gets-modern-redesign",
+     website: "https://design.pepsico.com/design-dialogue/schwip-schwap-gets-modern-redesign",
      img: "/schwip-schwap.png",
      isBoycotted: "boykot",
      boycottReason: `Schwip Schwap'ın boykot edilmesinin temel nedeni, markanın sahibi PepsiCo'nun İsrail ile olan güçlü ticari ve ekonomik bağlarıdır. PepsiCo, İsrail merkezli SodaStream markasının tamamını 3,2 milyar dolara satın almış ve Sabra markasının %50 hissesine sahiptir.
@@ -10449,8 +10786,6 @@ SodaStream, İsrail'in gayrimeşru yerleşimlerinde fabrikalar açarak yasadış
 
 Schwip Schwap, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun İsrail ile olan bağlantıları nedeniyle boykot listesinde yer almaktadır. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -10467,67 +10802,16 @@ Schwip Schwap, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun 
    foundedYear: 1924,
    founder: "Eduard Schopf",
    owner: "Maxingvest Holding (Herz Ailesi)",
-   description: `Eduscho, 1924 yılında Bremen'de kurulan köklü bir Alman kahve markasıdır. Almanya ve Avusturya gibi ülkelerde yaygın olarak bilinen marka, özellikle kaliteli kahve ürünleriyle tanınmaktadır. 1997 yılında büyük kahve perakendecisi Tchibo tarafından satın alınarak, bu şirketin çatısı altına girmiştir. Günümüzde Eduscho, Tchibo'nun globaldeki kahve operasyonlarının bir parçası olarak, Herz Ailesi'nin sahip olduğu Maxingvest Holding bünyesinde faaliyetlerini sürdürmektedir. `,
+   description: `Eduscho, 1924 yılında Bremen’de Eduard Schopf tarafından kurulan ve Almanya’nın en köklü kahve markalarından biri olarak öne çıkan bir markadır. Marka, özellikle yüksek kaliteli çekirdek kahve, filtre kahve ve espresso ürünleriyle tanınmakta ve Almanya ile Avusturya başta olmak üzere birçok Avrupa ülkesinde yaygın olarak tüketilmektedir. Eduscho, kahve tutkunları arasında zengin aroması, dengeli kavrulmuş kahve profili ve sürekli yenilenen ürün çeşitliliği ile güçlü bir marka bilinirliğine sahiptir.
+
+1997 yılında Tchibo tarafından satın alınarak bu büyük kahve perakendecisinin çatısı altına giren Eduscho, günümüzde Maxingvest Holding bünyesinde, Herz Ailesi’nin sahip olduğu global kahve operasyonlarının bir parçası olarak faaliyet göstermektedir. Marka, uzun geçmişi ve yüksek kalite standartlarıyla pazarda kendine sağlam bir yer edinirken, tüketicilere hem günlük kahve keyfi hem de premium kahve deneyimi sunmaya devam etmektedir.`,
    country: "Almanya",
    website: "https://www.eduscho.com/tr/tr",
    img: "/eduscho.png",
    isBoycotted: "boykot",
    boycottReason: `Eduscho markası, sahibi olduğu Tchibo markasıyla birlikte boykot çağrılarıyla karşı karşıyadır. Bu çağrıların temel nedeni, Tchibo'nun ana sahiplerinden olan Herz Ailesi'nin dolaylı yollardan İsrail'i desteklediği iddiasıdır.
-     Özellikle Herz Ailesi'nin sahip olduğu bir diğer büyük şirket olan Beiersdorf'un İsrail yanlısı açıklamaları, Eduscho ve bağlı olduğu Tchibo grubunu bu bağlamda eleştirilerin ve boykot hedeflerinin odağı haline getirmiştir. Tüketiciler, bu ticari bağlantılar nedeniyle Eduscho ürünlerini boykot ederek tepkilerini göstermektedirler.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "Tang",
-   slug: "tang",
-   ctgry: "İçecek",
-   foundedYear: 1957,
-   country: "ABD",
-   owner: "Mondelēz International",
-   description: `Tang, 1957 yılında General Foods gıdabilimcisi William A. Mitchell tarafından formüle edilmiş ve ilk olarak 1959 yılında toz haline getirilmiş meyve aromalı bir içecek karışımıdır. Uzay programlarında kullanılmasıyla da popülerlik kazanmıştır.
-     Marka, başlangıçtaki sahibi General Foods'un ardından el değiştirmiştir. Tang markası şu anda, Kraft Foods şirketinden ayrılan Kuzey Amerika şirketi Mondelēz International'a aittir. Mondelēz International'ın alt markası olan Tang, dünya çapında birçok ülkede toz formunda meyve aromalı içecek karışımı olarak tüketicilere sunulmaktadır.`,
-   country: "ABD",
-   website: "",
-   img: "/tang.png",
-   isBoycotted: "boykot",
-   boycottReason: `Tang'ın boykot edilmesinin temel nedeni, markanın çatı kuruluşu olan Mondelēz International şirketinin İsrail ile olan ticari ve ekonomik ilişkileridir. Mondelēz, İsrail'deki gıda girişimlerine yatırımlar yaparak buradaki ekonomik ilişkilerini hem operasyonel hem de Ar-Ge (Araştırma ve Geliştirme) yatırımlarıyla pekiştirmektedir.
-     Mondelēz'in, özellikle İsrail'de The Kitchen Hub ve Torr isimli iki gıda girişimine yatırım yapması, bu boykot çağrılarına neden olmuştur. Hatta bahsedilen girişimleri kuran kişiler arasında Mondelēz'in eski çalışanlarının bulunması da, şirketin İsrail ekonomisine olan yakınlığını gösteren faktörlerdendir. Tüketiciler, Mondelēz International'ın bu yatırımları nedeniyle Tang markasını boykot listelerine dahil etmektedir.`,
-   alternative_products: ["nazo", "juss", "dimes"],
-  },
-  {
-   name: "Lór",
-   slug: "lor",
-   ctgry: "İçecek",
-   foundedYear: 1992,
-   founder: "JDE Peet's NV",
-   owner: "JDE Peet's NV",
-   description: `L'Or, espresso kapsülleri, kafeinsiz kahve, kahve kapsülü, kahve pod makineleri, kara cuma kahve makinesi, lungo kahve kapsülleri ve ristretto kahve kapsülleri gibi çeşitli kahve ürünleri sunan uluslararası bir kahve markasıdır.
-     Marka, JDE Peet's NV bünyesindeki Koninklijke Douwe Egberts B.V. tarafından üretilmektedir. L'Or'un çatı kuruluşu JDE Peet's NV'nin ortaklık yapısı karmaşıktır:
-     •	Hisselerin yüzde 60,5'i Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir.
-     •	Hisselerin yüzde 22,9'u ise Amerika merkezli Mondelēz International Inc.'e aittir.
-     Bu sahiplik yapısı nedeniyle L'Or, Hollanda, Lüksemburg ve ABD ile bağlantılı global bir markadır.`,
-   country: "Hollanda",
-   website: "https://www.lorespresso.com/en_gb",
-   img: "/lor.png",
-   isBoycotted: "boykot",
-   boycottReason: `L'Or markası, boykot listelerine dahil edilmiş ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Boykotun temelinde, markanın ait olduğu çatı kuruluşun ve hissedarların siyasi veya ticari duruşlarına yönelik olumsuz açıklamalar ya da destekler olduğu iddiaları yer almaktadır.
-     L'Or'un sahibi olan JDE Peet's NV ve onun büyük hissedarları Mondelēz International ve JAB Holding Company gibi uluslararası şirketlerin, özellikle Mondelēz'in İsrail'deki ticari yatırımları (Jacobs markasının boykot nedeni de bu bağlantıydı), L'Or'un da boykot hedefi haline gelmesine neden olmuştur. Bu nedenle, marka "boykot hususunda güvenilir olarak kabul edilmemekte" ve tüketicilerin tepkilerini göstermek için boykot edilmektedir.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "Senseo's",
-   slug: "senseos",
-   ctgry: "İçecek",
-   foundedYear: 2001,
-   country: "ABD",
-   owner: "JDE Peet's NV",
-   description: `Senseo's, özellikle kahve kapsülleri ve kahve makineleri pazarına odaklanan bir kahve markasıdır. Marka, pratik ve tek servislik kahve çözümleriyle tanınır.
-     Senseo's, tıpkı Jacobs markası gibi, Jacobs Douwe Egberts (JDE) Peet's NV bünyesinde faaliyet göstermektedir. Bu marka, Hollanda, Lüksemburg ve ABD merkezli büyük holdinglerin hissedarlığında olan global bir kahve grubunun parçasıdır. JDE Peet's NV'nin büyük hissedarları arasında Lüksemburg merkezli JAB Holding Company ve azınlık hissedarı olan Mondelēz International bulunmaktadır.`,
-   country: "ABD",
-   website: "https://www.senseo.us/",
-   img: "/senseos.png",
-   isBoycotted: "boykot",
-   boycottReason: `Senseo's markasının boykot edilme nedeni, markanın ait olduğu JDE Peet's NV grubunun sahiplik yapısı ve ticari ilişkileridir.
-     Markanın azınlık hissedarı olan Mondelēz International şirketinin, İsrail'deki gıda girişimlerine yaptığı yatırımlar nedeniyle boykot ediliyor olması, onun hissedarı olduğu Senseo's markasını da dolaylı olarak boykot hedefine sürüklemektedir. Bu durumdan dolayı marka, boykot listelerine dahil edilmiş ve tüketicilerin boykotu gerektiren olumsuz açıklamalar veya destekler söz konusudur. Tüketicilere, Mondelēz International'ın ticari bağlantıları sebebiyle bu markayı tercih etmemeleri önerilmektedir.`,
+
+Özellikle Herz Ailesi'nin sahip olduğu bir diğer büyük şirket olan Beiersdorf'un İsrail yanlısı açıklamaları, Eduscho ve bağlı olduğu Tchibo grubunu bu bağlamda eleştirilerin ve boykot hedeflerinin odağı haline getirmiştir. Tüketiciler, bu ticari bağlantılar nedeniyle Eduscho ürünlerini boykot ederek tepkilerini göstermektedirler.`,
    alternative_products: ["dogus", "ofcay", "caykur"],
   },
   {
@@ -10537,14 +10821,14 @@ Schwip Schwap, PepsiCo'nun alt markası olduğu için, ana şirketi PepsiCo'nun 
    foundedYear: 1919,
    founder: "Josef Rauch",
    owner: "Rauch Fruchtsäfte GmbH",
-   description: `Rauch, Avrupa merkezli, köklü bir meyve suyu markasıdır. Marka, çeşitli meyve suyu, nektar ve içecekleriyle tanınmaktadır. Kaliteli ve yenilikçi içecekler sunma hedefiyle hem ulusal hem de uluslararası pazarlarda önemli bir oyuncudur.
-     Rauch, geniş ürün yelpazesi ve farklı meyve lezzetleri ile tüketicilere hitap etmekte ve içecek sektöründe güçlü bir konuma sahiptir.`,
+   description: `Rauch, 1919 yılında Josef Rauch tarafından kurulan ve Avrupa merkezli köklü bir meyve suyu markasıdır. Marka, taze meyve suyu, nektar ve çeşitli içecek çeşitleri ile tanınmakta ve özellikle kaliteli içerik ve doğal lezzet anlayışıyla dikkat çekmektedir. Rauch, yenilikçi üretim teknikleri ve modern paketleme çözümleri sayesinde hem ulusal hem de uluslararası pazarlarda güçlü bir marka olarak konumlanmıştır. Tüketicilere geniş meyve yelpazesi ve çeşitli tat deneyimleri sunarak farklı yaş gruplarına hitap etmektedir.
+
+Marka, meyve suyu sektöründe uzun yıllardır süregelen deneyimi ve kalite odaklı yaklaşımı ile güçlü bir itibar kazanmıştır. Rauch ürünleri, doğal aromaları ve vitamin açısından zengin içerikleriyle hem günlük tüketim hem de özel anlarda tercih edilen bir marka haline gelmiştir. Avrupa pazarındaki liderliği ve uluslararası pazarlara açılma stratejisi, Rauch’u meyve suyu segmentinin önemli oyuncularından biri yapmaktadır.`,
    country: "Avusturya",
    website: "https://www.rauch.cc/",
    img: "/rauch.png",
    isBoycotted: "boykot",
-   boycottReason: `Rauch markası, boykot listelerine dahil edilmiş ve tüketiciler tarafından tercih edilmemesi önerilmektedir. Boykotun temelinde, markanın ticari duruşu, sahiplik yapısı veya uluslararası ilişkileri üzerinden İsrail'e destek sağladığına yönelik olumsuz açıklamalar ya da iddialar yer almaktadır.
-     Bu iddialar nedeniyle Rauch, "Boykot Hususunda" güvenilir bir marka olarak kabul edilmemekte ve tüketicilere, bu tür desteklerle ilişkilendirilen markalardan kaçınmaları tavsiye edilmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
   },
   {
@@ -10561,63 +10845,8 @@ BLU, klasik tadının yanı sıra Mojito ve Day gibi farklı lezzet seçenekleri
    website: "https://bluenergydrink.com/",
    img: "/blu-energy-drink.png",
    isBoycotted: "boykot",
-   boycottReason: `Blu Energy Drink, Bulgaristan merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: ["dirilis"],
-  },
-  {
-   name: "Maxwell House",
-   slug: "maxwell",
-   ctgry: "İçecek",
-   foundedYear: 1892,
-   founder: "Joel Owsley Cheek",
-   owner: "Kraft Heinz (Kuzey Amerika), JDE Peet's NV (Diğer)",
-   description: `Maxwell House, 1892 yılında Joel Owsley Cheek tarafından tanıtılan bir Amerikan kahve markasıdır. Marka, adını ilk büyük müşterisi olan Nashville, Tennessee'deki Maxwell House Oteli'nden almıştır.
-Ürünleri:
-       •	Öğütülmüş kahve (Ground Coffee).
-       •	Çeşitli harmanlar (Breakfast Blend - Mild, Medium, Dark gibi).
-Maxwell House, Kuzey Amerika'da Kraft Heinz'a, dünyanın geri kalanında ise JDE Peet's'e aittir. Şirketin sloganı "Son damlasına kadar iyi" ("Good to the last drop") olup, bu slogan genellikle logosuna ve etiketlerine basılıdır.`,
-   country: "ABD",
-   website: "https://themaxwell.house/",
-   img: "/maxwell.png",
-   isBoycotted: "boykot",
-   boycottReason: `Maxwell House, Kuzey Amerika dışında JDE Peet's'e, Kuzey Amerika'da ise Kraft Heinz'e ait olduğu için, her iki çatı şirketin ticari bağlantıları nedeniyle boykot listelerinde yer almaktadır.
-Boykot çağrılarının temel nedenleri:
-      1.	JDE Peet's Bağlantısı: Dünyanın geri kalanında sahibi olan JDE Peet's NV'nin hisseleri, İsrail'deki gıda girişimlerine yatırım yapan Mondelez International'a (%22,9) ve ticari bağları olduğu iddia edilen JAB Holding Company S.à r.l.'ye (%60,5) aittir.
-
-      2.	Kraft Heinz Bağlantısı: Kuzey Amerika'daki sahibi olan Kraft Heinz'ın da İsrail ile ticari ve ekonomik bağlantıları olduğu gerekçesiyle boykot  edilmektedir.
-Bu çifte ticari ve siyasi duruş nedeniyle Maxwell House markası, bağlı olduğu holdinglerin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "RC Cola",
-   slug: "rc-cola",
-   ctgry: "İçecek",
-   foundedYear: 1905,
-   founder: "Claude A. Hatcher",
-   owner: "Keurig Dr Pepper (ABD), Cott Corporation (Uluslararası)",
-   description: `RC Cola (Royal Crown Cola), 1905 yılında Claude A. Hatcher tarafından Amerika Birleşik Devletleri'nin Columbus, Georgia şehrinde geliştirilen, kola aromalı bir meşrubattır.
-     Tarihsel Bilgiler:
-         •	RC Cola, 1950'lerde alüminyum kutuda meşrubat satan ilk şirket olmuştur.
-         •	Marka, 1950'lerde Diet Rite Cola'yı piyasaya süren ve kafeinsiz kola olan RC 100'ü tanıtan ilk büyük şirketlerdendir.
-     Gcountry: "ABD",
-         •	RC Cola, günümüzde ABD'de Keurig Dr Pepper tarafından, uluslararası alanda ise Cott şirketi tarafından pazarlanmaktadır.
-         •	Royal Crown operasyonları, 2008 yılından sonra Dr Pepper Snapple Group'a (DPSG) katlanmış, DPSG ise 2018'de Keurig Green Mountain ile birleşerek RC Cola markasının şu anki sahipleri olan Keurig Dr Pepper olarak birleşmiştir.
-     `,
-   country: "ABD",
-   website: "https://rccolainternational.com/",
-   img: "/rc-cola.png",
-   isBoycotted: "boykot",
-   boycottReason: `RC Cola'nın boykot edilmesinin nedeni, markanın sahibi olan Amerika merkezli büyük şirket Keurig Dr Pepper'ın (KDP) ve uluslararası distribütörü Cott Corporation'ın (şimdiki adıyla Cott Corporation/Keurig Dr Pepper) ticari faaliyetleri ile ilişkilendirilmesidir.
-     Boykot çağrılarının temel nedeni:
-         •	Keurig Dr Pepper Bağlantısı: RC Cola'nın ana şirketi olan Keurig Dr Pepper'ın (KDP), İsrail ile doğrudan veya dolaylı ticari ve ekonomik bağları olduğu iddia edilmektedir. Boykot listeleri, KDP'nin küresel bir içecek devi olması ve ticari politikaları nedeniyle markanın tercih edilmemesi yönünde çağrı yapmaktadır.
-     Bu ticari ve siyasi duruş nedeniyle RC Cola markası, bağlı olduğu büyük şirketin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: [
-    "cola-turka",
-    "camlica",
-    "uludag",
-    "zafer-gazoz",
-    "dirilis",
-   ],
   },
   {
    name: "Orangina",
@@ -10626,25 +10855,15 @@ Bu çifte ticari ve siyasi duruş nedeniyle Maxwell House markası, bağlı oldu
    foundedYear: 1935,
    founder: "Agustín Trigo Miralles, Léon Beton",
    owner: "Suntory Holdings",
-   description: `Orangina, 1930'ların başında İspanyol eczacı Agustín Trigo Miralles tarafından Naranjina adıyla icat edilmiş, hafif gazlı bir narenciye içeceğidir. İçecek, karbonatlı su, %12 narenciye suyu ve %2 portakal posasının birleşimidir.
-     Tarihsel Bilgiler ve Sahiplik:
-         •	Orijinal formülü 1935'te Cezayir'de yaşayan Fransız bir iş adamı olan Léon Beton'a satılmıştır.
-         •	Marka, 1984 yılında Pernod Ricard grubuna katılmış, 2000 yılında ise Cadbury Schweppes tarafından satın alınmıştır.
-         •	2006'da Cadbury, içecek bölümünü satma kararı almış, ancak ne Coca-Cola ne de PepsiCo onu satın almamıştır.
-         •	Marka, günümüzde Japonya merkezli Suntory Holdings'e aittir.
-     Markanın Üretim ve Dağıtım Ağındaki Bilgiler:
-         •	Asya bölgesinde dağıtıcılar arasında İsrail'deki FM Global MediChem Ltd de bulunmaktadır.
-         •	Dünyanın geri kalanında Suntory (Orangina Schweppes) markanın sahibi ve dağıtımının lisans altında olduğu ülkeler Japonya, Birleşik Krallık, Fransa, İsviçre ve İtalya'dır.`,
+   description: `Orangina, 1930'ların başında İspanyol eczacı Agustín Trigo Miralles tarafından Naranjina adıyla icat edilen, hafif gazlı narenciye aromalı bir içecektir. Ürünün içeriği karbonatlı su, %12 narenciye suyu ve %2 portakal posasından oluşur. Hafif köpüklü yapısı ve doğal meyve aroması ile kısa sürede Avrupa ve dünya pazarlarında popülerlik kazanmıştır.
+ 
+ Orijinal formül 1935 yılında Cezayir'de yaşayan Fransız iş adamı Léon Beton'a satılmış, marka daha sonra 1984 yılında Pernod Ricard grubuna katılmış ve 2000 yılında Cadbury Schweppes tarafından satın alınmıştır. 2006 yılında Cadbury içecek bölümünü satmış ve markanın kontrolü Japonya merkezli Suntory Holdings’e geçmiştir. Günümüzde Japonya, Birleşik Krallık, Fransa, İsviçre ve İtalya gibi ülkelerde lisanslı olarak dağıtılmaktadır.`,
    country: "İtalya",
    website: "https://orangina.co.uk/",
    img: "/orangina.png",
    isBoycotted: "boykot",
-   boycottReason: `Bu markanın boykot edilmesinin temel nedeni, ana şirketi olan Suntory Holdings'in uluslararası dağıtım ağında İsrail'e ait bir distribütörün bulunmasıdır.
-     Boykot çağrılarının temel nedenleri:
-         •	İsrail Distribütörü: Orangina'nın sahibi Suntory Holdings, Asya bölgesindeki distribütörleri arasında İsrail merkezli FM Global MediChem Ltd'ye yer vermektedir.
-        •	Ekonomik İlişki: Bu ticari ilişki, boykot hareketlerini destekleyenler tarafından İsrail ekonomisine destek olarak görülmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Orangina markası, bağlı olduğu holdingin politikaları ve İsrail'deki ticari faaliyetleri yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
+   alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"]
   },
   {
    name: "Spezi",
@@ -10653,62 +10872,17 @@ Bu çifte ticari ve siyasi duruş nedeniyle Maxwell House markası, bağlı oldu
    foundedYear: 1956,
    founder: "Brauerei S. Riegele",
    owner: "Brauerei S. Riegele, Paulaner Brauerei Gruppe",
-   description: `Spezi, Almanya'da 1950'lerden bu yana popülerliğini koruyan, kola ve portakallı meşrubatın karıştırılmasıyla hazırlanan bir gazlı içecek markasıdır. Markanın adı, Almanca'da "özel" anlamına gelen bir kelimeden gelmektedir ve genellikle "Cola-Mix-Getränk" olarak adlandırılır. Spezi, hem "Spezi Original" hem de "Spezi e:nergy" gibi çeşitlerle pazarda yer almaktadır. Markanın ticari hakları Almanya'da tescilli olup, üretimi Brauerei S. Riegele ve Paulaner Brauerei Gruppe gibi yerel şirketler tarafından lisans altında yapılmaktadır.`,
+   description: `Spezi, Almanya'da 1950'lerden bu yana popülerliğini koruyan, kola ve portakallı meşrubatın karıştırılmasıyla hazırlanan bir gazlı içecek markasıdır. Markanın adı, Almanca'da "özel" anlamına gelen bir kelimeden gelmektedir ve genellikle "Cola-Mix-Getränk" olarak adlandırılır. Spezi, hem "Spezi Original" hem de "Spezi energy" gibi çeşitlerle pazarda yer almaktadır. Markanın ticari hakları Almanya'da tescilli olup, üretimi Brauerei S. Riegele ve Paulaner Brauerei Gruppe gibi yerel şirketler tarafından lisans altında yapılmaktadır.`,
    country: "Almanya",
    website: "https://www.spezi.com/",
    img: "/spezi.png",
    isBoycotted: "boykot",
-   boycottReason: `Spezi'nin boykot listelerinde yer almasının gerekçesi, markanın ana lisans sahiplerinden biri olan Paulaner Brauerei Gruppe'nin ticari ve hissedarlık yapısından kaynaklandığı iddia edilmektedir.
-     Boykot çağrılarının temel nedenleri: 
-         •	Ticari Bağlantılar: Spezi, her ne kadar yerel bir marka olarak görünse de, bazı boykot kaynakları markanın lisans ve dağıtım ağının, İsrail ile ticari bağları olduğu iddia edilen küresel şirketlerle dolaylı yoldan ilişkili olabileceği gerekçesiyle boykot edilmesi çağrısı yapmaktadır.
-         •	Küresel Denge: Ayrıca, kola ve gazlı içecekler pazarında, İsrail'e destek verdiği gerekçesiyle boykot edilen Coca-Cola ve PepsiCo gibi devlerin ürünlerine karşı yerel bir alternatif olmaktan ziyade, bazı kaynaklar Spezi'nin de genel boykot listelerine dahil edilmesi gerektiğini savunmaktadır.
-     Bu ticari ve siyasi duruş nedeniyle Spezi markası, boykot listelerinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: [
-    "cola-turka",
-    "camlica",
     "uludag",
     "zafer-gazoz",
     "dirilis",
    ],
-  },
-  {
-   name: "Pickwick",
-   slug: "pickwick",
-   ctgry: "İçecek",
-   foundedYear: 1753,
-   founder: "Yerel Hollanda Girişimciler",
-   owner: "JDE Peet's NV",
-   description: `Pickwick, kökeni 1753 yılına dayanan, Hollanda merkezli köklü bir çay markasıdır. Marka adını, Charles Dickens'ın The Pickwick Papers adlı romanından almıştır. Pickwick, geniş bir yelpazede siyah çay, yeşil çay, meyve ve bitki çayları sunmaktadır. Markanın arkasındaki şirket, küresel kahve ve çay devi olan JDE Peet's NV holdingidir. Pickwick, JDE Peet's'in önemli çay markalarından biridir ve Jacobs, Douwe Egberts, Moccona ve Peet's Coffee gibi markalarla aynı çatı altında yer almaktadır.`,
-   country: "Hollanda",
-   website: "https://www.pickwicktea.com/",
-   img: "/pickwick.png",
-   isBoycotted: "boykot",
-   boycottReason: `Pickwick markasının boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Pickwick'in ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail ekonomisi ile güçlü bağlarını pekiştirmiştir.
-         2.	JAB Holding Bağlantısı: JDE Peet's NV'nin hisselerinin %60,5'i ise Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Pickwick markası, bağlı olduğu holdinglerin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
-  },
-  {
-   name: "Kenco Coffee",
-   slug: "kenco",
-   ctgry: "İçecek",
-   foundedYear: 1923,
-   founder: "Kenya Coffee Company",
-   owner: "JDE Peet's NV",
-   description: `Kenco, Birleşik Krallık'ta (UK) oldukça popüler olan ve 1923 yılında kurulan köklü bir kahve markasıdır. Markanın adı, Kenya Coffee'nin kısaltması olarak ortaya çıkmıştır ve başlangıçta kahvelerini Kenya'dan tedarik etmeye odaklanmıştır. Kenco, geniş bir ürün yelpazesi sunmaktadır; bunlar arasında klasik hazır kahve, öğütülmüş kahve, kahve makinesi kapsülleri ve sürdürülebilirlik sertifikalı (örneğin Rainforest Alliance) ürünler yer alır.
-     Kenco markası, uluslararası kahve ve çay devi olan JDE Peet's NV holdingine aittir. Kenco, JDE Peet's'in önemli bir markası olup, Jacobs, Douwe Egberts, Moccona, Peet's Coffee ve Pilão gibi markalarla aynı çatı altında yer almaktadır.`,
-   country: "Birleşik Krallık",
-   website: "https://www.kenco.co.uk/",
-   img: "/kenco.png",
-   isBoycotted: "boykot",
-   boycottReason: `Kenco Coffee'nin boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Kenco'nun ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail eko-nomisi ile güçlü bağlarını pekiştirmiştir.
-         2.	JAB Holding Bağlantısı: JDE Peet's NV'nin hisselerinin %60,5'i ise Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Kenco markası, bağlı olduğu holdinglerin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
   },
   {
    name: "Eckes Granini",
@@ -10717,22 +10891,14 @@ Bu çifte ticari ve siyasi duruş nedeniyle Maxwell House markası, bağlı oldu
    foundedYear: 1857,
    founder: "Peter Eckes",
    owner: "Eckes-Granini Group GmbH",
-   description: `Eckes-Granini Group GmbH, meyve suları, meyve nektarları ve meyveli içecekler konusunda uzmanlaşmış, uluslararası alanda faaliyet gösteren bir Alman şirketidir. Av-rupa'nın önde gelen meyve suyu ve meyve bazlı içecek üreticilerinden biridir. Şirketin portföyünde birçok tanınmış yerel ve uluslararası marka bulunmaktadır.
-     Başlıca markaları şunlardır:
-         •	Granini: Uluslararası pazarda güçlü bir varlığa sahip ana markalarından biridir.
-         •	Joker: Fransa'da popüler olan bir meyve suyu markası.
-         •	hohes C: Almanya'nın en çok satan meyve suyu markalarından biridir.
-         •	Elmenhorster, Pago, God Morgon ve Yo gibi diğer yerel markalar.
-     Şirket, meyve suyu pazarında çeşitliliği ve kalitesiyle tanınmaktadır.`,
    country: "Almanya",
+   description: `Eckes-Granini Group GmbH, meyve suları, meyve nektarları ve meyveli içecekler konusunda uzmanlaşmış, uluslararası alanda faaliyet gösteren köklü bir Alman şirketidir. Avrupa'nın önde gelen meyve suyu üreticilerinden biri olarak, markanın portföyünde hem yerel hem de uluslararası birçok tanınmış ürün bulunmaktadır. Başlıca markaları arasında Granini, Joker, hohes C, Elmenhorster, Pago, God Morgon ve Yo gibi markalar yer almaktadır.
+
+Şirket, geniş ürün yelpazesi ve kaliteli içerikleriyle meyve suyu pazarında güçlü bir konuma sahiptir. Granini, özellikle uluslararası pazarlarda yüksek bilinirliğe sahip ana markası olarak öne çıkarken, Joker ve hohes C gibi markalarla da yerel pazarlarda etkili bir varlık göstermektedir. Eckes-Granini, yenilikçi üretim yöntemleri ve tüketici odaklı yaklaşımı ile sektörde uzun yıllardır saygın bir isim olarak bilinmektedir.`,
    website: "https://www.eckes-granini.com/",
    img: "/eckes.png",
    isBoycotted: "boykot",
-   boycottReason: `Eckes-Granini Group'un boykot edilmesinin temel nedeni, İsrail ile olan ticari ve ekonomik bağlantılarıdır.
-     Boykot çağrılarının temel nedenleri:
-         1.	İsrail'deki Operasyonlar: Eckes-Granini, 2010 yılında meyve suyu şirketi Gan Shmuel Group ile bir ortaklık kurarak Granini markasının İsrail'de dağıtımına başlamıştır. Gan Shmuel Group, İsrail'in en büyük meyve suyu ve doğal ürünler üreticilerinden biridir.
-         2.	Gan Shmuel Group ile İşbirliği: Şirket, İsrail'deki bu yerel ortak aracılığıyla İsrail ekonomisine ve ticari faaliyetlerine dolaylı olarak destek sağlamaktadır. Bu durum, boykot hareketlerini destekleyenler tarafından markanın İsrail ile ticari ilişkisi olduğu gerekçesiyle hedef alınmasına neden olmuştur.
-     Bu ticari ve siyasi duruş nedeniyle Eckes-Granini Group'a ait tüm markalar, boykot listelerinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
   },
   {
@@ -10742,167 +10908,18 @@ Bu çifte ticari ve siyasi duruş nedeniyle Maxwell House markası, bağlı oldu
    foundedYear: null,
    founder: "Flötzinger",
    owner: "Flötzinger",
-   description: `Flötzinger Cola Mix, kola ve portakallı meşrubatın karışımından oluşan gazlı bir içecektir. Ürün, kofeinli portakallı gazoz ile kola içermekte olup, %3 oranında meyve içeriğine sahiptir. Bu tür Cola Mix içecekler, özellikle Almanya gibi bazı Avrupa ülkelerinde yaygın olarak tüketilmektedir. Flötzinger markası, bölgesel veya yerel bir üreticiye ait olsa da, küresel boykot hareketleri kapsamında incelenmektedir`,
+   description: `Flötzinger Cola Mix, kola ve portakallı gazoz karışımıyla hazırlanan, hafif gazlı ve aromatik bir içecektir. Kofeinli portakallı gazoz ve kola karışımının dengeli aroması, içeceğe kendine özgü bir tat profili kazandırmaktadır. İçeriğinde yaklaşık %3 oranında meyve bulunmakta olup, bu sayede hem ferahlatıcı hem de hafif bir tat deneyimi sunmaktadır.
+
+Almanya ve bazı Avrupa ülkelerinde özellikle yaz aylarında tercih edilen bu içecek, hem gençler hem de yetişkinler arasında popülerdir. Flötzinger markası, bölgesel üretimi ve kalite odaklı yaklaşımı ile tanınmakta olup, içecek kategorisinde uzun yıllardır bilinirliğini korumaktadır. Bu ürün, çeşitli etkinlikler ve sosyal ortamlarda keyifle tüketilebilecek pratik bir seçenek olarak öne çıkmaktadır.`,
    country: "Avrupa",
    img: "/cola-mix.png",
    isBoycotted: "boykot",
-   boycottReason: `Flötzinger markasının boykot edilmesinin temel nedeni, bazı boykot hareketlerinin markayı destekleyen veya ona tedarik sağlayan şirketlerin ticari bağlantıları üzerinden boykot listelerine dahil etmesidir.
-Boykot çağrılarının temel nedenleri:
-    •	Dolaylı Ticari Bağlantılar: Flötzinger'in yerel bir üretici olmasına rağmen, üretim, dolum veya dağıtım aşamalarında kullanılan hammaddelerin ve hizmetlerin, İsrail ile ticari ilişkileri olduğu iddia edilen küresel şirketler tarafından sağlanması nedeniyle hedef alındığı iddia edilmektedir.
-    •	Küresel Boykot Kapsamı: Boykot listelerini oluşturan bazı aktivistler, sadece büyük holdingleri değil, aynı zamanda bu holdinglerin tedarik zincirindeki veya lojistik ağındaki yerel iş ortaklarını da boykot kapsamına almaktadır.
-Bu gerekçelerle Flötzinger Cola Mix markası, boykot listelerinde yer alması yönünde çağrılara konu olmaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: [
-    "cola-turka",
-    "camlica",
     "uludag",
     "zafer-gazoz",
     "dirilis",
    ],
-  },
-  {
-   name: "JDE Jacobs",
-   slug: "jde-jacobs",
-   ctgry: "İçecek",
-   foundedYear: 1895,
-   founder: "Johann Jacobs",
-   owner: "JDE Peet's NV",
-   description: `Jacobs, kökeni Almanya'da 1895 yılına kadar uzanan köklü bir kahve markasıdır. İlk olarak Johann Jacobs tarafından kurulan marka, daha sonra Avrupa'da Jacobs Douwe Egberts (JDE) tarafından pazarlanmıştır.
-
-Jacobs, şu anda Monarch, Millicano, Velour ve Gold gibi alt markalarıyla geniş bir ürün yelpazesi sunmaktadır. Ürün gamında kahve çekirdeği, öğütülmüş kahve, kurutulmuş hazır kahve ve kahve makineleri için kahve kapsülleri gibi çeşitli kahve formatları bulunmaktadır. Jacobs markası, kahve sektöründe dünya çapında faaliyet gösteren büyük grupların bünyesinde yer almaktadır.`,
-   country: "Hollanda",
-   website: "https://www.jacobscoffee.com.tr/",
-   img: "/jde-jacobs.png",
-   isBoycotted: "boykot",
-   boycottReason: `Jacobs'un boykot edilmesinin temel nedeni, markanın ait olduğu çatı kuruluş olan Mondelēz International şirketinin İsrail ile olan ticari ve finansal ilişkileridir. Mondelēz International, Jacobs'un alt markasıdır ve İsrail'deki gıda sektörüne önemli yatırımlar yapmıştır.
-     Boykot çağrılarına yol açan Mondelēz yatırımları şunlardır:
-         1.	İsrail'deki Girişimler: Mondelēz, İsrail'de faaliyet gösteren The Kitchen Hub ve Torr isimli iki gıda girişimine yatırımda bulunmuştur.
-         2.	Ekonomik İlişkiler: Şirket, İsrail'deki ekonomik ilişkilerini hem operasyonel faaliyetler hem de Ar-Ge (Araştırma ve Geliştirme) yatırımları ile pekiştirmektedir. Hatta bu girişimleri kuranlar arasında Mondelēz'in eski çalışanlarının bulunması, şirketin İsrail ekonomisine olan yakınlığını göstermektedir.
-     Tüketiciler, Mondelēz International'ın bu yatırımları sebebiyle, bünyesindeki Jacobs markası dahil tüm ürünleri boykot ederek tepki göstermektedirler.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "Pilao",
-   slug: "pilao",
-   ctgry: "İçecek",
-   foundedYear: 1978,
-   founder: "Yerel Brezilya Girişimciler",
-   owner: "JDE Peet's NV",
-   description: `Pilão, Brezilya'nın önde gelen kahve markalarından biridir. Marka, 1978'deki kuruluşundan bu yana "Brezilya'nın sert kahvesi" olarak kabul edilmektedir ve günlük rutinlerin vazgeçilmez bir parçası haline gelmiştir.
-     Ürün yelpazesi:
-         •	Geleneksel kavrulmuş ve öğütülmüş kahve.
-         •	Pratik hazır kahve (Pilão Solúvel).
-         •	Kahve kapsülleri (espresso ve ekstrem çeşitleri) gibi farklı seçenekler sunar.
-     Pilão markası, JDE Peet's NV holdingine aittir.`,
-   country: "Hollanda",
-   website: "https://www.pilao.com.br/",
-   img: "/pilao.png",
-   isBoycotted: "boykot",
-   boycottReason: `Pilão, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ticari faaliyetleri nedeniyle boykot edilmektedir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Pilão'nun ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir.
-         2.	İsrail Yatırımları: Mondelez, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail'deki ekonomik ilişkilerini pekiştirmiştir.
-     Bu dolaylı ticari ve siyasi duruş nedeniyle bu marka, boykot listelerine dahil edilmiştir.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "Peets Coffee",
-   slug: "peets",
-   ctgry: "İçecek",
-   foundedYear: 1966,
-   founder: "Alfred Peet",
-   owner: "JDE Peet's NV",
-   description: `Peet's Coffee, Amerika merkezli, kahve çekirdeklerinin özenle kavrulmasına odaklanan ve taze, yüksek kaliteli kahve sunan bir markadır. Markanın ürün yelpazesi; öğütülmüş kahve (örneğin Big Bang Medium Roast) ve diğer kahve ürünlerini içerir.
-     Peet's Coffee, küresel kahve ve çay devi olan JDE Peet's NV holdingine aittir. JDE Peet's NV, Jacobs, Tassimo ve Pilão gibi markaların da ana şirketidir.`,
-   country: "Hollanda",
-   website: "https://www.jdepeets.com/",
-   img: "/peets.png",
-   isBoycotted: "boykot",
-   boycottReason: `Peet's Coffee'nin boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ticari faaliyetleridir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Peet's Coffee'nin ana şirketi olan JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir.
-         2.	İsrail Yatırımları: Mondelez International, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail ekonomisi ile güçlü bağlarını pekiştirmiştir.
-         3.	JAB Holding Bağlantısı: JDE Peet's NV'nin hisselerinin %60,5'i ise Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Peet's Coffee markası, boykot listelerine dahil edilmiş olup, tüketicilerin bu markayı tercih etmemeleri önerilmektedir.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "Moccona",
-   slug: "moccona",
-   ctgry: "İçecek",
-   foundedYear: 1753,
-   founder: "Douwe Egberts",
-   owner: "JDE Peet's NV",
-   description: `Moccona, Douwe Egberts tarafından üretilen, köklü bir hazır kahve markasıdır. Markanın tarihi 1753 yılına kadar uzanmaktadır ve genellikle Classic Medium Roast (Klasik Orta Kavrulmuş) gibi çeşitli kavurma seçenekleri sunan cam kavanozlarda satılır.
-     Moccona, küresel kahve ve çay devi olan JDE Peet's NV holdinginin bir alt markasıdır. Jacobs, Peet's Coffee ve Pilão gibi markalar da aynı holdinge aittir.`,
-   country: "Hollanda",
-   website: "https://www.moccona.com.au/",
-   img: "/moccona.png",
-   isBoycotted: "boykot",
-   boycottReason: `Moccona'nın boykot edilmesinin temel nedeni, sahibi olan JDE Peet's NV holdinginin hissedarlık yapısında yer alan Mondelez International'ın ticari faaliyetleridir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Moccona'nın ana şirketi olan JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir.
-         2.	İsrail Yatırımları: Mondelez International, İsrail'deki gıda girişimlerinden olan The Kitchen Hub ve Torr firmalarına yatırım yaparak İsrail ekonomisi ile güçlü bağlarını pekiştirmiştir.
-         3.	JAB Holding Bağlantısı: JDE Peet's NV'nin hisselerinin %60,5'i ise Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Moccona markası, ana şirketin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
-   name: "Stumptown Coffee",
-   slug: "stumptown",
-   ctgry: "İçecek",
-   foundedYear: 1999,
-   country: "ABD",
-   owner: "JAB Holding Company",
-   description: `Stumptown Coffee Roasters, Amerika'da kurulmuş, özenle kavrulmuş kahveleriyle tanınan bir kahve markasıdır. Marka, genellikle kahve çekirdeklerinin menşeine ve kalitesine odaklanır; örneğin sunduğu ürünler arasında "Suke Quto Organic Coffee" gibi Etiyopya'dan tek bir kaynaktan gelen (Single Origin) organik kahveler bulunmaktadır.
-     Stumptown Coffee, başlangıçta bağımsız bir kahve kavurma şirketi olsa da, daha sonra büyük küresel içecek holdingi olan JAB Holding Company S.à r.l. tarafından satın alınmıştır.`,
-   country: "ABD",
-   website: "https://www.stumptowncoffee.com/",
-   img: "/stumptown.png",
-   isBoycotted: "boykot",
-   boycottReason: `Bu markanın boykot edilmesinin temel nedeni, ana şirketi olan JAB Holding Company S.à r.l.'nin ticari ve hissedarlık bağlantılarıdır.
-     Boykot çağrılarının temel nedenleri:
-         1.	JAB Holding Bağlantısı: Stumptown Coffee, Lüksemburg merkezli JAB Holding Company S.à r.l.'nin sahibi olduğu markalar arasındadır.
-         2.	JDE Peet's Hissedarlığı: JAB Holding, aynı zamanda Jacobs, Pilão ve Peet's Coffee gibi markaları da bünyesinde bulunduran JDE Peet's NV'nin hisselerinin %60,5'ine sahiptir. Bu holdingin İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Stumptown Coffee markası, bağlı olduğu büyük holdingin politikaları yüzünden boykot listelerine dahil edilmiştir.`,
-  },
-  {
-   name: "Gevalia",
-   slug: "gevalia",
-   ctgry: "İçecek",
-   foundedYear: 1853,
-   founder: "Victor Theodor Engwall",
-   owner: "JDE Peet's NV",
-   description: `Gevalia, 150 yılı aşkın bir geçmişe sahip premium kaliteli kahve çekirdekleri sunan bir kahve markasıdır. Marka, yumuşak ve kadifemsi tatlardan cesur ve sağlam profile kadar çeşitli lezzetler sunar.
-     Gevalia, Jacobs Douwe Egberts (JDE) şirketine ait markalar arasındadır. JDE, 2015 yılında Hollanda şirketi Douwe Egberts ile Mondelez International'ın kahve bölümünün birleşmesiyle kurulmuştur. Jacobs, Tassimo, Moccona, Senseo, L'OR, Douwe Egberts, Kenco ve Pilão gibi markalar da bu şirkete aittir.
-     Ürün yelpazesi, kahve kapsülleri (K-Cup Pods) ve klasik kahve harmanları (Signature Blend) gibi birçok çeşidi içerir.`,
-   country: "Hollanda",
-   img: "/gevalia.png",
-   isBoycotted: "boykot",
-   boycottReason: `Gevalia'nın boykot edilmesinin temel nedeni, ana şirketi olan JDE Peet's NV'nin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Gevalia'nın ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerine yatırım yaptığı ve ekonomik ilişkilerini pekiştirdiği için boykot edilmektedir.
-         2.	JAB Holding Bağlantısı: JDE Peet's NV'nin hisselerinin %60,5'i ise Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Gevalia markası, bağlı olduğu holdinglerin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-  },
-  {
-   name: "Douwe Egberts",
-   slug: "douwe-egberts",
-   ctgry: "İçecek",
-   foundedYear: 1753,
-   founder: "Douwe Egberts",
-   owner: "JDE Peet's NV",
-   description: `Douwe Egberts, 1753 yılında Hollanda'nın Joure şehrinde kurulmuş olan tarihi bir kahve ve çay markasıdır. Marka, 250 yılı aşkın bir süre boyunca kahve ve çay üreticiliğinde öncü bir rol oynamıştır. 
-     Douwe Egberts, günümüzde Jacobs Douwe Egberts (JDE) şirketine aittir. JDE, 2015 yılında Hollanda şirketi Douwe Egberts ile Mondelez International'ın kahve bölümünün birleşmesiyle kurulmuştur. Jacobs, Tassimo, Moccona, Senseo, L'OR, Gevalia, Kenco ve Pilão gibi markalar da bu şirkete aittir. Douwe Egberts, özellikle Avrupa'da ve Hollanda'da kahve kategorisinde lider konumdadır.`,
-   country: "Hollanda",
-   website: "https://www.jacobsdouweegberts.com/",
-   img: "/douwe-egberts.png",
-   isBoycotted: "boykot",
-   boycottReason: `Douwe Egberts'in boykot edilmesinin temel nedeni, ana şirketi olan JDE Peet's NV'nin hissedarlık yapısında yer alan Mondelez International'ın ve JAB Holding Company S.à r.l.'nin ticari faaliyetleridir.
-     Boykot çağrılarının temel nedenleri:
-         1.	Mondelez Hissedarlığı: Douwe Egberts'in ana şirketi JDE Peet's NV'nin hisselerinin %22,9'u Amerika merkezli Mondelez International'a aittir. Mondelez, İsrail'deki gıda girişimlerine yatırım yaptığı ve ekonomik ilişkilerini pekiştirdiği için boykot edilmektedir.
-         2.	JAB Holding Bağlantısı: JDE Peet's NV'nin hisselerinin %60,5'i ise Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruş nedeniyle Douwe Egberts markası, bağlı olduğu holdinglerin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
   },
   {
    name: "Boxd Water",
@@ -10910,24 +10927,23 @@ Jacobs, şu anda Monarch, Millicano, Velour ve Gold gibi alt markalarıyla geni�
    ctgry: "İçecek",
    foundedYear: 2009,
    founder: "Benjamin Gott",
+   owner: "Nyrad, LLC",
    country: "ABD",
-   description: `Boxd Water (tam adı Boxed Water Is Better), 2009 yılında Amerika Birleşik Devletleri'nde (ABD) kurulmuş bir su markasıdır. Marka, geleneksel plastik şişelere alternatif, sürdürülebilir bir paketleme çözümü sunarak piyasaya girmiştir. Temel olarak, çevresel etkiyi azaltma ve daha sorumlu bir tüketim şekli sunma misyonuyla hareket etmektedir.
-     Markanın ana ayırt edici özelliği, suyunun %92'ye kadar bitki bazlı malzemelerden yapılmış karton kutularda sunulmasıdır. Bu karton kutular, yenilenebilir kaynaklardan elde edilmiştir ve markanın iddiasına göre plastik ve alüminyum şişelere kıyasla daha sürdürülebilir bir paketleme seçeneğidir. Boxed Water, bu yenilikçi paketleme yaklaşımıyla kendini piyasadaki en sürdürülebilir su markalarından biri olarak konumlandırmaktadır.
-     Boxed Water, büyük küresel içecek holdinglerinin aksine bağımsız bir yapıya sahiptir. Şirketin çoğunluk hissesi, 2025 Şubat'ında Nyrad, LLC adlı özel yatırımcı grubuna satılmıştır. Marka, çevresel sorumluluğu yalnızca paketlemesiyle sınırlı tutmayıp, bugüne kadar ulusal ormanlara 1,5 milyondan fazla ağaç dikilmesi gibi sosyal ve çevresel projelere de destek olmuştur.`,
-   country: "ABD",
+   description: `Boxd Water (tam adı Boxed Water Is Better), 2009 yılında Amerika Birleşik Devletleri'nde kurulmuş bir su markasıdır. Marka, geleneksel plastik şişelere alternatif, sürdürülebilir bir paketleme çözümü sunarak piyasaya girmiştir. Temel olarak, çevresel etkiyi azaltma ve daha sorumlu bir tüketim şekli sunma misyonuyla hareket etmektedir.
+
+Markanın ana ayırt edici özelliği, suyunun %92'ye kadar bitki bazlı malzemelerden yapılmış karton kutularda sunulmasıdır. Bu karton kutular, yenilenebilir kaynaklardan elde edilmiştir ve markanın iddiasına göre plastik ve alüminyum şişelere kıyasla daha sürdürülebilir bir paketleme seçeneğidir. Boxed Water, bu yenilikçi paketleme yaklaşımıyla kendini piyasadaki en sürdürülebilir su markalarından biri olarak konumlandırmaktadır.
+
+Boxed Water, büyük küresel içecek holdinglerinin aksine bağımsız bir yapıya sahiptir. Şirketin çoğunluk hissesi, 2025 Şubat'ında Nyrad, LLC adlı özel yatırımcı grubuna satılmıştır. Marka, çevresel sorumluluğu yalnızca paketlemesiyle sınırlı tutmayıp, bugüne kadar ulusal ormanlara 1,5 milyondan fazla ağaç dikilmesi gibi sosyal ve çevresel projelere de destek olmuştur.`,
    website: "https://boxdh2o.co.uk/",
    img: "/boxd-water.png",
    isBoycotted: "boykot",
-   boycottReason: `Boxd Water markası, genel olarak İsrail ile ticari bağı olan küresel markaların boykot listelerinde yer almamaktadır. Ancak marka, bazı çevresel veya siyasi eleştirilere maruz kalmıştır.
-         •	Küresel Boykot Listelerinde Durumu: Boxd Water, The Coca-Cola Company veya PepsiCo gibi İsrail'de doğrudan faaliyeti veya önemli yatırımı olan küresel holdinglere ait değildir. Bu nedenle, ana akım İsrail-Filistin çatışmasıyla ilgili boykot çağrılarının birincil hedefi değildir.
-         •	"Yeşil Yıkama" Eleştirisi: Marka, yerel aktivist çevreler tarafından "yeşil yıkama" (greenwashing) yapmakla eleştirilmiştir. Eleştirmenler, suyun ticarileştirilmesini ve suyun kartonda dahi olsa nakliyesi için harcanan enerjiyi sorgulamakta ve musluk suyu kullanımını desteklemektedir.
-         •	Siyasi İlişkilendirme (ABD): Markanın kurucularının ve erken yatırımcılarının, Michigan'daki tartışmalı su politikalarını destekleyen siyasi figürlerle ilişkilendirilmesi de markaya yönelik yerel düzeyde boykot ve eleştirilere neden olmuştur.
-     Özetle, Boxd Water, büyük uluslararası boykot listelerinin hedefi olmasa da, yerel düzeyde siyasi ve çevresel gerekçelerle eleştiri ve boykot çağrılarına konu olmuştur.`,
+   boycottReason: `Boxd Water, Amerika Birleşik Devletleri merkezli bir markadır ve tüm ticari faaliyetleri ABD ekonomisine doğrudan katkı sağlamaktadır. Şirketin ödediği vergiler ve yarattığı ekonomik değer, ABD'nin finansal gücünü destekleyen unsurlardan biridir.
+
+Amerika Birleşik Devletleri'nin, İsrail'in işgal politikalarına ve askeri operasyonlarına sağladığı koşulsuz siyasi, askeri ve ekonomik destek nedeniyle; ABD menşeli markalar küresel boykot hareketlerinin kapsamına girmektedir. Bu nedenle, Amerikan sermayeli Boxd Water'da boykot listesinde yer almaktadır.`,
    alternative_products: [
     "hamidiye",
     "beysu",
     "sultan",
-
     "buzdagi",
     "kizilay",
     "ozkaynak",
@@ -10937,43 +10953,24 @@ Jacobs, şu anda Monarch, Millicano, Velour ve Gold gibi alt markalarıyla geni�
    ],
   },
   {
-   name: "Onko Kaffee",
-   slug: "onko",
-   ctgry: "İçecek",
-   foundedYear: null,
-   founder: "JDE Peet's NV",
-   owner: "JDE Peet's NV",
-   description: `Onko Kaffee, özellikle Almanya pazarında bilinen ve geniş bir kitleye hitap eden bir kahve markasıdır. Marka, geleneksel kavrulmuş ve çekilmiş kahve çeşitlerinin yanı sıra, farklı kahve karışımlarını ve formatlarını sunar.
-     Onko markası, Douwe Egberts (D.E.) ve Jacobs gibi markaların da sahibi olan JDE Peet's N.V. bünyesinde yer alan bir markadır. Bu durum, Onko'nun uluslararası bir kahve devinin küresel tedarik ve dağıtım ağına bağlı olduğu anlamına gelmektedir.`,
-   country: "Hollanda",
-   website: "",
-   img: "/onko.png",
-   isBoycotted: "boykot",
-   boycottReason: `Onko Kaffee markası, bağlı olduğu ana şirket nedeniyle boykot listesinde yer alıyor!
-     Onko Kaffee'nin boykot edilmesinin temel nedeni, markanın sahibi olan JDE Peet's N.V. holdinginin hissedarlık yapısında yer alan ve İsrail ile ticari bağları olduğu iddia edilen küresel gruplardır.
-     Boykot çağrılarının temel nedenleri:
-         •	Mondelez Hissedarlığı: Onko'nun çatı kuruluşu JDE Peet's, 2015 yılında Mondelez International'ın kahve bölümü ile birleşerek kurulmuştur. Mondelez, İsrail'deki gıda girişimlerine yaptığı yatırımlar nedeniyle boykot listelerinde yer almaktadır.
-         •	JAB Holding Bağlantısı: JDE Peet's N.V.'nin hisselerinin büyük bir kısmı, Lüksemburg merkezli JAB Holding Company S.à r.l.'ye aittir, bu holdingin de İsrail ile ticari bağları olduğu iddia edilmektedir.
-     Bu ticari ve siyasi duruşlar nedeniyle Onko Kaffee markası, Douwe Egberts ve Jacobs gibi diğer kardeş markalarıyla birlikte, bağlı olduğu holdinglerin politikaları yüzünden boykot listelerinde yer almaktadır.`,
-   alternative_products: ["dogus", "ofcay", "caykur"],
-  },
-  {
    name: "Reign",
    slug: "reign",
    ctgry: "İçecek",
    foundedYear: 2019,
-   founder: "Monster Beverage Corporation",
    country: "ABD",
+   founder: "Monster Beverage Corporation",
+   owner: "Monster Beverage Corporation",
    description: `Reign Total Body Fuel, 2019 yılında Amerika Birleşik Devletleri'nde piyasaya sürülen bir enerji içeceği markasıdır. Marka, kendini yüksek performanslı bir içecek olarak konumlandırarak, esas olarak sporcuları, fitness meraklılarını ve yoğun bir yaşam tarzına sahip tüketicileri hedeflemektedir. Reign, egzersiz öncesi veya sırasında enerji ve odaklanma sağlamayı amaçlayan bir formülle pazarlanmaktadır.
-     Ürün, genellikle yüksek miktarda kafein, BCAA (Dallı Zincirli Amino Asitler), koenzim Q10 ve elektrolitler içerir. Reign, formülünde şekere yer vermeyerek, kalori ve şeker konusunda bilinçli tüketicilerin ilgisini çekmeyi amaçlamıştır. Piyasaya sürülmesinden kısa bir süre sonra, Kuzey Amerika ve Avrupa da dahil olmak üzere geniş bir pazarda erişilebilir hale gelmiştir.
-     Reign markası, dünya çapındaki en büyük enerji içeceği üreticilerinden biri olan Monster Beverage Corporation şirketine aittir. Monster Beverage Corporation, küresel enerji içeceği pazarında Red Bull'un ardından ikinci sırada yer almakta ve Reign, şirketin sporcu ve fitness segmentindeki önemli markalarından biri olarak kabul edilmektedir.`,
+
+Ürün, genellikle yüksek miktarda kafein, BCAA (Dallı Zincirli Amino Asitler), koenzim Q10 ve elektrolitler içerir. Reign, formülünde şekere yer vermeyerek, kalori ve şeker konusunda bilinçli tüketicilerin ilgisini çekmeyi amaçlamıştır. Piyasaya sürülmesinden kısa bir süre sonra, Kuzey Amerika ve Avrupa da dahil olmak üzere geniş bir pazarda erişilebilir hale gelmiştir.
+
+Reign markası, dünya çapındaki en büyük enerji içeceği üreticilerinden biri olan Monster Beverage Corporation şirketine aittir. Monster Beverage Corporation, küresel enerji içeceği pazarında Red Bull'un ardından ikinci sırada yer almakta ve Reign, şirketin sporcu ve fitness segmentindeki önemli markalarından biri olarak kabul edilmektedir.`,
    website: "https://reignbodyfuel.com/en-us/",
    img: "/reign.png",
    isBoycotted: "boykot",
-   boycottReason: `Reign'in boykot edilmesinin temel nedeni, markanın sahibi olan Monster Beverage Corporation'ın ticari yapısında yer alan ve İsrail ile ticari ve ekonomik bağları güçlü olan küresel holdinglerdir.
-         •	Coca-Cola Bağlantısı: Monster Beverage Corporation'ın en büyük azınlık hissedarı The Coca-Cola Company'dir. Coca-Cola, 2015 yılında Monster'a önemli bir yatırım yaparak şirketin yaklaşık %16.7'lik hissesini satın almıştır.
-         •	Coca-Cola'nın İsrail Faaliyetleri: Boykot hareketleri, Coca-Cola'nın Monster'ın büyük hissedarı olmasını gerekçe göstererek, Coca-Cola'nın İsrail'de yasa dışı kabul edilen Atarot yerleşim yerinde bir fabrika işletmesi gibi nedenlerle boykot edilmesini savunmaktadır. Reign, Monster'a bağlı bir marka olduğu için, dolaylı yoldan bu kurumsal yapı ve ticari ilişkiler nedeniyle boykot çağrılarının hedefi haline gelmektedir.
-     Bu ticari ve siyasi bağlantılar sebebiyle Reign markası, ana şirketi Monster Beverage Corporation üzerinden küresel boykot çağrılarının hedefi haline gelmiştir.`,
+   boycottReason: `Reign, Amerika Birleşik Devletleri merkezli bir markadır ve tüm ticari faaliyetleri ABD ekonomisine doğrudan katkı sağlamaktadır. Şirketin ödediği vergiler ve yarattığı ekonomik değer, ABD'nin finansal gücünü destekleyen unsurlardan biridir.
+
+   Amerika Birleşik Devletleri'nin, İsrail'in işgal politikalarına ve askeri operasyonlarına sağladığı koşulsuz siyasi, askeri ve ekonomik destek nedeniyle; ABD menşeli markalar küresel boykot hareketlerinin kapsamına girmektedir. Bu nedenle, Amerikan sermayeli Reign'da boykot listesinde yer almaktadır.`,
    alternative_products: ["dirilis"],
   },
   {
@@ -10984,33 +10981,35 @@ Jacobs, şu anda Monarch, Millicano, Velour ve Gold gibi alt markalarıyla geni�
    founder: "Delica AG (Migros Group)",
    owner: "Migros Group (Delica AG)",
    description: `Cremesso, İsviçre merkezli bir kahve kapsülü ve kahve makinesi sistemleri markasıdır. Marka, kendini yüksek kaliteli kahve çekirdeklerini en modern kapsül teknolojisiyle birleştirerek evde veya ofiste mükemmel kahve deneyimi sunmaya adamıştır. Ürün gamı, farklı yoğunluk ve aromalara sahip çok çeşitli kahve kapsüllerini içermektedir.
-     Cremesso markası, İsviçre'nin önde gelen perakende ve gıda gruplarından biri olan Migros Group'a ait olan Delica AG şirketi tarafından üretilmektedir. Delica AG, 60 yılı aşkın kahve işleme deneyimine sahip, İsviçre'nin Basel yakınlarındaki Birsfelden'de kavurma ve paketleme yapan bir şirkettir. Bu sahiplik yapısı, Cremesso'nun büyük uluslararası holdingler yerine, köklü bir İsviçre perakende grubunun kontrolünde olduğunu göstermektedir.`,
+
+Cremesso markası, İsviçre'nin önde gelen perakende ve gıda gruplarından biri olan Migros Group'a ait olan Delica AG şirketi tarafından üretilmektedir. Delica AG, 60 yılı aşkın kahve işleme deneyimine sahip, İsviçre'nin Basel yakınlarındaki Birsfelden'de kavurma ve paketleme yapan bir şirkettir. Bu sahiplik yapısı, Cremesso'nun büyük uluslararası holdingler yerine, köklü bir İsviçre perakende grubunun kontrolünde olduğunu göstermektedir.`,
    country: "İsviçre",
    website: "https://www.cremesso.com/en/coffee",
    img: "/cremesso.png",
    isBoycotted: "boykot",
-   boycottReason: `Cremesso markası, İsrail ile ticari ve ekonomik bağları olduğu iddia edilen küresel şirketlerin listelerinde yer almamaktadır, ancak ana şirketinin dolaylı bağları incelenmektedir.
-     Cremesso'nun doğrudan bir boykot gerekçesi (İsrail'de fabrika, büyük yatırım veya siyasi destek beyanı gibi) bulunmamaktadır. Markanın sahibi Delica AG, küresel boykot listelerinin hedefi olan The Coca-Cola Company, PepsiCo veya Nestle gibi holdinglere ait değildir.
-     Ancak bazı boykot kaynakları, Delica AG'nin ait olduğu Migros Group'un, global tedarik zincirleri ve uluslararası ticari faaliyetleri nedeniyle İsrail ile dolaylı ticari bağlarının olabileceği ihtimalini sorgulamaktadır. Bu sorgulamalar, genellikle yerel düzeyde alternatif arayan tüketiciler arasında geçerli olabilmektedir.
-     Özetle, Cremesso, büyük küresel boykot listelerinin ana hedefi olan markalar arasında değildir. Boykot çağrıları, markanın değil, ana şirketin (Migros Group/Delica AG) genel ticari faaliyetleri üzerinden dolaylı olarak değerlendirilebilmektedir.`,
+   boycottReason: `Cremesso markası, Migros Group'un bir yan kuruluşu olan Delica AG tarafından kontrol edilmektedir. Delica AG'nin bağlı olduğu Migros İsviçre, uluslararası kamuoyunda İsrail yanlısı politikalarıyla eleştirilmektedir. Bu bağlamda, Türk piyanist Fazıl Say’ın İsrail’in Gazze’deki eylemlerini eleştiren konserlerinin iptal edilmesi gibi olaylar, şirketin politik duruşunun kamuoyunda tartışmalı algılanmasına yol açmıştır. Bu durum, markanın da dolaylı olarak bu politikalarla ilişkilendirilmesine sebep olmaktadır.
+
+Tüketiciler, sahiplik yapısı ve şirketin uluslararası politik bağlantılarını göz önünde bulundurarak Cremesso ürünlerini boykot etme yönünde bilinçli bir yaklaşım benimseyebilmektedir. Dolayısıyla, Cremesso markası, bağlı olduğu ana şirketin politik tutumu nedeniyle boykot listelerinde yer almaktadır.`,
    alternative_products: ["dogus", "ofcay", "caykur"],
+   evidences: ["https://www.france24.com/en/live-news/20231021-turkish-pianist-s-concerts-in-switzerland-cancelled-over-israel-criticism"],
   },
   {
    name: "Rad Rain",
    slug: "rad-rain",
    ctgry: "İçecek",
-   foundedYear: null,
+   foundedYear: 1905,
    country: "ABD",
    owner: "RC Cola International",
-   description: `Rad Rain Energy, enerji içeceği kategorisinde yer alan bir markadır. Görsellerden anlaşıldığı kadarıyla, marka canlı kırmızı renk ve mavi alev desenleriyle dinamik bir ambalaj tasarımına sahiptir, bu da genç ve aktif bir tüketici kitlesini hedeflediğini göstermektedir.
-     Ancak, mevcut bilgi kaynakları ve elinizdeki görsellerde Rad Rain Energy markasının sahibinin kim olduğu, ne zaman kurulduğu veya hangi büyük holdinge (Coca-Cola, PepsiCo, Monster vb.) bağlı olduğu gibi detaylı kurumsal bilgiler yer almamaktadır. Bu durum, markanın büyük küresel devlere ait olmayan, daha yerel veya yeni bir marka olabileceğini düşündürmektedir.`,
+   description: `Rad Rain, kola aromalı gazlı içecekler kategorisinde yer alan bir Amerikan markasıdır. Canlandırıcı tadı ve hafif asidik aromasıyla öne çıkan içecek, özellikle genç tüketiciler ve gazlı içecek severler tarafından tercih edilmektedir. Rad Rain, farklı tat ve ambalaj seçenekleriyle çeşitli pazar segmentlerine hitap etmektedir.
+
+Marka, yenilikçi lezzet kombinasyonları ve tazeleyici içecek deneyimi sunma yaklaşımıyla tanınmaktadır. Rad Rain, Amerika Birleşik Devletleri'nde üretim ve dağıtım faaliyetlerini sürdürerek, bölgesel pazarlarda güçlü bir varlık göstermektedir. Ürün, çeşitli sosyal etkinlikler ve günlük tüketim için ideal bir seçenek olarak öne çıkmaktadır.`,
    country: "ABD",
    website: "https://rccolainternational.com/products/rad-rain",
    img: "/rad-rain.png",
    isBoycotted: "boykot",
-   boycottReason: `Rad Rain Energy markası hakkında, mevcut kaynaklarda herhangi bir küresel boykot listesinde yer aldığına veya İsrail/Filistin, Rusya veya benzeri bir siyasi/sosyal konuyla doğrudan ilişkilendirildiğine dair kesin bir bilgi bulunmamaktadır.
-     Markanın herhangi bir boykotun hedefi olup olmadığı, ancak marka sahibi şirketin kimliği ve ticari faaliyetleri belirlendiğinde netleştirilebilir. Eğer bu marka, daha önceki sorularda bahsedilen The Coca-Cola Company, PepsiCo veya Monster Beverage Corporation gibi küresel holdinglerden birine ait bir alt marka ise, ana şirketin boykot gerekçeleri dolaylı olarak bu markayı da etkileyebilir.
-     Özetle, Rad Rain Energy hakkında kesin bir boykot gerekçesi sunulabilmesi için, markanın sahibi olan şirketin kimliği ve küresel ticari duruşu hakkında daha fazla bilgiye ihtiyaç vardır.`,
+   boycottReason: `Rad Rain, Amerika Birleşik Devletleri merkezli bir markadır ve tüm ticari faaliyetleri ABD ekonomisine doğrudan katkı sağlamaktadır. Şirketin ödediği vergiler ve yarattığı ekonomik değer, ABD'nin finansal gücünü destekleyen unsurlardan biridir.
+
+Amerika Birleşik Devletleri'nin, İsrail'in işgal politikalarına ve askeri operasyonlarına sağladığı koşulsuz siyasi, askeri ve ekonomik destek nedeniyle; ABD menşeli markalar küresel boykot hareketlerinin kapsamına girmektedir. Bu nedenle, Amerikan sermayeli Rad Rain'de boykot listesinde yer almaktadır.`,
    alternative_products: ["dirilis"],
   },
   {
@@ -11027,12 +11026,11 @@ Mevcut bilgi kaynaklarında Al Fajr markasının sahibinin kim olduğu, hangi b�
    website: "https://www.alfajarwater.org/",
    img: "/al-fajr.png",
    isBoycotted: "boykot",
-   boycottReason: `Al Fajr, Kuzey Afrika & Orta Doğu merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: [
     "hamidiye",
     "beysu",
     "sultan",
-
     "buzdagi",
     "kizilay",
     "ozkaynak",
@@ -11040,24 +11038,6 @@ Mevcut bilgi kaynaklarında Al Fajr markasının sahibinin kim olduğu, hangi b�
     "sarikiz",
     "beypazari",
    ],
-  },
-  {
-   name: "Breaka",
-   slug: "breaka",
-   ctgry: "İçecek",
-   foundedYear: 1970,
-   founder: "Lion Dairy & Drinks",
-   owner: "Mengniu Dairy Company Limited",
-   description: `Breaka, özellikle Avustralya pazarında, özellikle de Queensland'de (QLD) popüler olan aromalı süt markasıdır. Marka, genellikle çikolata, çilek ve muz gibi çeşitli tatlarda karton kutu veya şişelerde aromalı süt ürünleri sunmaktadır. Ambalajında "Made in QLD" (Queensland'de üretilmiştir) ibaresi yer almaktadır.
-
-Breaka'nın mülkiyeti zaman içinde değişiklik göstermiştir. Marka, günümüzde Avustralya'da büyük bir perakende ve gıda üretimi devi olan Lion Dairy & Drinks şirketine aittir. Lion Dairy & Drinks, 2021 yılında Çin merkezli Mengniu Dairy Company Limited şirketine satılmıştır. Bu satış, markanın yerel üretimini sürdürmesine rağmen, küresel bir holdingin parçası haline geldiği anlamına gelmektedir.`,
-   country: "Çin",
-   website: "https://lactalis.com.au/481/",
-   img: "/breaka.png",
-   isBoycotted: "boykot",
-   boycottReason:
-    "Doğu Türkistan'da yaşananlar sebebiyle Çin'e ait global markaların tamamı boykot listesindedir. Baojun, Çin menşeli bir marka olduğu için boykot kapsamına alınmıştır.",
-   alternative_products: ["sutas", "pinar", "vio", "sek"],
   },
   {
    name: "Curtis",
@@ -11071,28 +11051,28 @@ Breaka'nın mülkiyeti zaman içinde değişiklik göstermiştir. Marka, günüm
    website: "https://curtistea.com/",
    img: "/curtis.png",
    isBoycotted: "boykot",
-   boycottReason: `Curtis, Rusya merkezli yabancı bir sermaye ürünüdür. Yerli üretimi desteklemek ve ulusal ekonomiyi güçlendirmek adına, yabancı menşeli ürünler yerine yerli alternatiflerin tercih edilmesi ve daha çok yerli ürün kullanılması önerilmektedir. Bu sebeple boykot listesinde yer almaktadır.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
   },
   {
-   name: "El Primero",
-   slug: "el-primero",
+   name: "Naked Juice",
+   slug: "naked-juice",
    ctgry: "İçecek",
    foundedYear: 1983,
    founder: "Jimmy Rosenberg",
    owner: "PAI Partners",
-   description: `Naked Juice, Amerika Birleşik Devletleri merkezli bir meyve suyu ve smoothie markasıdır. Ürünleri, genellikle smoothie'ler, protein smoothie'leri ve meyve suları gibi 20'den fazla çeşidi içerir. Marka, ürünlerinin yüksek düzeyde antioksidan ve esansiyel vitaminler ve mineraller içerdiği iddiasıyla piyasada yer almaktadır.
-
-Naked Juice, 2007 yılında dünyanın en büyük gıda ve içecek şirketlerinden biri olan PepsiCo tarafından satın alındı. PepsiCo'nun distribütör ağı sayesinde ABD'nin 50 eyaleti ile Kanada ve Birleşik Krallık dahil birçok ülkede yaygın bir şekilde satılmaya başlandı. Ancak, 2021 yılında PepsiCo, markayı özelleştirilmiş sermaye şirketi olan PAI Partners'a sattı ve şu anda Naked Juice'un sahibi PAI Partners'tır. Markanın merkezi Monrovia, Kaliforniya'dadır.`,
    country: "Fransa",
    website: "https://www.nakedsmoothie.com",
    img: "/el-primero.png",
    isBoycotted: "boykot",
-   boycottReason: `Bu marka, boykot listelerine dahil edilmiştir ve boykot edilmesini gerektiren olumsuz açıklamalar ya da destekler söz konusudur. Bu nedenle marka, boykot açısından güvenli olarak kabul edilmemekte ve tüketiciler tarafından tercih edilmemesi önerilmektedir.`,
+   description: `Naked Juice, 1983 yılında Jimmy Rosenberg tarafından Santa Monica'da kurulan ve "katkısız meyve suyu" felsefesiyle yola çıkan bir markadır. İlave şeker ve koruyucu içermeyen smoothie'leriyle tanınır.
+
+Marka, 2007 yılında PepsiCo tarafından satın alınmış olsa da, 2021 yılında gerçekleşen büyük bir satış anlaşmasıyla Fransa merkezli özel sermaye şirketi PAI Partners'a devredilmiştir. Bu satışla birlikte markanın yönetimi ve mülkiyeti PAI Partners bünyesine geçmiştir. Günümüzde premium meyve suyu kategorisinde faaliyetlerine devam etmektedir.`,
+   boycottReason: `Marka, yabancı bir şirketin mülkiyetinde olduğu için boykot listelerine dahil edilmiştir. Yerli üretimi desteklemek isteyen tüketiciler tarafından, yabancı menşeli markaların tercih edilmemesi yönünde bilinçli bir yaklaşım benimsenmektedir. Bu nedenle marka, bağlı olduğu yabancı şirket nedeniyle boykot kapsamında değerlendirilmektedir.`,
    alternative_products: ["juss", "dimes", "tamek", "meysu", "fruit-pocket"],
   },
   {
-   name: "Coca Cola Company",
+   name: "Coca Cola Company",  //! Tamamdır!!!
    slug: "coca-cola-company",
    ctgry: "Şirket",
    foundedYear: 1886,
@@ -11102,7 +11082,7 @@ Naked Juice, 2007 yılında dünyanın en büyük gıda ve içecek şirketlerind
 
 Coca-Cola'nın kuruluş hikayesi, eczacı John Stith Pemberton'un bir şurup formülü geliştirmesiyle başlamıştır. İlk başta "Pemberton's French Wine Coca" adıyla satılan içecek, daha sonra Coca-Cola adını almış ve dünya çapında tanınan bir marka haline gelmiştir. Asa Griggs Candler'in şirketi satın alması ve pazarlama stratejileri, Coca-Cola'nın küresel bir başarı hikayesi olmasını sağlamıştır.
 
-Coca-Cola Company, bugün gazlı içecekler, meyve suları, spor ve enerji içecekleri gibi geniş bir ürün yelpazesine sahiptir. Şirketin en bilinen markası Coca-Cola olmakla birlikte, Fanta, Sprite, Minute Maid, Powerade ve Dasani gibi birçok popüler markayı da portföyünde bulundurur. Coca-Cola, dünya çapında 200'den fazla ülkede satılmakta ve günlük olarak milyarlarca içecek tüketilmektedir.
+Coca-Cola Company, bugün gazlı içecekler, meyve suları, spor ve enerji içecekleri gibi geniş bir ürün yelpazesine sahiptir. Şirketin en bilinen markası Coca-Cola olmakla birlikte, Fanta, Sprite, Minute Maid(Cappy), Powerade ve Dasani gibi birçok popüler markayı da portföyünde bulundurur. Coca-Cola, dünya çapında 200'den fazla ülkede satılmakta ve günlük olarak milyarlarca içecek tüketilmektedir.
 
 Şirket, sadece içecek üretimiyle sınırlı kalmayıp, spor sponsorlukları, müzik etkinlikleri ve sosyal sorumluluk projeleriyle de aktif olarak yer almaktadır. Coca-Cola, dünya çapında tanınan bir marka olarak, küresel içecek pazarında lider konumda bulunmaktadır.`,
    country: "ABD",
@@ -11117,8 +11097,6 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
 
 Çalınan Filistin topraklarında faaliyet göstermeyi durdurana kadar Coca-Cola Company, tercih edilmemesi gereken bir marka olarak değerlendirilmektedir. Alternatif ürünlere yönelmek daha sağlıklı olacaktır.`,
    alternative_products: [
-    "cola-turka",
-    "camlica",
     "uludag",
     "zafer-gazoz",
     "dirilis",
@@ -11138,23 +11116,22 @@ Coca-Cola Company'nin İsrail'deki faaliyetleri, şirketin İsrail ekonomisine d
      owner: "Coca-Cola Company",
      description: `Costa Coffee, 1971 yılında Sergio Costa ve Bruno Costa kardeşler tarafından İngiltere'de kurulan ve dünyanın en büyük kahve zincirlerinden biridir. Marka, başlangıçta küçük bir aile işletmesi olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
   
-  Costa Coffee, özellikle İtalyan espresso kültürünü İngiltere'ye getiren öncü markalardan biridir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her fincanda kaliteli bir kahve deneyimi sunmaktadır. Costa Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+Costa Coffee, özellikle İtalyan espresso kültürünü İngiltere'ye getiren öncü markalardan biridir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, geleneksel İtalyan kavurma tekniklerini uygulamakta ve her fincanda kaliteli bir kahve deneyimi sunmaktadır. Costa Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
   
-  Marka, 2019 yılında Coca-Cola Company tarafından satın alınmıştır. Bu satın alma, Costa Coffee'nin global genişlemesini hızlandırmış ve markanın dünya çapındaki varlığını güçlendirmiştir. Coca-Cola'nın güçlü altyapısı ve pazarlama gücü sayesinde Costa Coffee, yeni pazarlara açılmış ve büyümesini sürdürmüştür.
+Marka, 2019 yılında Coca-Cola Company tarafından satın alınmıştır. Bu satın alma, Costa Coffee'nin global genişlemesini hızlandırmış ve markanın dünya çapındaki varlığını güçlendirmiştir. Coca-Cola'nın güçlü altyapısı ve pazarlama gücü sayesinde Costa Coffee, yeni pazarlara açılmış ve büyümesini sürdürmüştür.
   
-  Costa Coffee, dünya çapında binlerce şubeye sahiptir ve özellikle İngiltere, Avrupa, Asya ve Orta Doğu pazarlarında güçlü bir varlık göstermektedir. Marka, her ülkede yerel pazara uyum sağlamakta ve kültürel farklılıklara saygı göstermektedir. Türkiye'de de aktif olarak faaliyet gösteren marka, yerel ihtiyaçlara uyum sağlamaktadır.
+Costa Coffee, dünya çapında binlerce şubeye sahiptir ve özellikle İngiltere, Avrupa, Asya ve Orta Doğu pazarlarında güçlü bir varlık göstermektedir. Marka, her ülkede yerel pazara uyum sağlamakta ve kültürel farklılıklara saygı göstermektedir. Türkiye'de de aktif olarak faaliyet gösteren marka, yerel ihtiyaçlara uyum sağlamaktadır.
   
-  Costa Coffee şubeleri, modern ve şık tasarımlarıyla dikkat çekmektedir. Her şube, sıcak ve samimi atmosferiyle müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+Costa Coffee şubeleri, modern ve şık tasarımlarıyla dikkat çekmektedir. Her şube, sıcak ve samimi atmosferiyle müşterilere rahat bir ortam sunmakta ve hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
   
-  Marka, kalite ve tutarlılığa büyük önem vermektedir. Costa Coffee, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+Marka, kalite ve tutarlılığa büyük önem vermektedir. Costa Coffee, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
   
-  Ancak, Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet göstermektedir ve Coca-Cola'nın İsrail'deki yatırımları ve askeri birliklere sağladığı destek iddiaları nedeniyle marka boykot çağrılarıyla karşılaşmaktadır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Costa Coffee ürünlerinin satın alınması önerilmemektedir.`,
+Ancak, Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet göstermektedir ve Coca-Cola'nın İsrail'deki yatırımları ve askeri birliklere sağladığı destek iddiaları nedeniyle marka boykot çağrılarıyla karşılaşmaktadır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Costa Coffee ürünlerinin satın alınması önerilmemektedir.`,
      country: "Birleşik Krallık",
      website: "https://www.costa.co.uk/",
      img: "/costa-coffee.jpg",
      isBoycotted: "boykot",
-     boycottReason:
-      "Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola'nın İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola'nın İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola'ya ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Costa Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+     boycottReason: `Costa Coffee markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Costa Coffee markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
     },
     {
@@ -11175,11 +11152,8 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      website: "https://www.coca-cola.com/us/en/brands/fuze-iced-tea",
      img: "/fuse-tea.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Fuse Tea'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Fuse Tea markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Fuse Tea markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11192,22 +11166,14 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      country: "ABD",
      founder: "John Stith Pemberton",
      owner: "Coca-Cola Company",
-     description: `Coca-Cola Company, ilk olarak 1886 yılında John Pemberton tarafından Atlanta, Georgia'da icat edilen ve günümüzde dünyanın en tanınmış gazlı içecek markası olan kola aromalı bir meşrubattır. Marka, The Coca-Cola Company'nin amiral gemisi ürünüdür ve dünya çapında 200'den fazla ülkede satılmaktadır. Şirketin portföyünde Coca-Cola Classic, Coca-Cola Zero Sugar, Diet Coke (Coca-Cola Light) gibi ana ürünlerin yanı sıra, yüzlerce farklı içecek markası bulunmaktadır. Şirket, küresel içecek pazarında en büyük oyunculardan biri olarak kabul edilir.`,
+     description: `Coca-Cola, 1886 yılında eczacı Dr. John Stith Pemberton tarafından Atlanta, Georgia'da icat edilen ve dünyanın en ikonik lezzetlerinden biri haline gelen gazlı bir içecektir. Başlangıçta yerel bir eczanede satışa sunulan bu içecek, Asa Griggs Candler'ın vizyoner pazarlama stratejileri sayesinde kısa sürede küresel bir fenomene dönüşmüştür. Bugün 200'den fazla ülkede tüketilen Coca-Cola, sadece bir içecek değil, aynı zamanda kırmızı-beyaz logosu ve kendine has kontur şişesiyle popüler kültürün en güçlü sembollerinden biri olarak kabul edilmektedir.
+
+The Coca-Cola Company'nin amiral gemisi olan marka, değişen tüketici alışkanlıklarına uyum sağlayarak ürün yelpazesini genişletmiştir. Orijinal lezzetin yanı sıra Coca-Cola Zero Sugar ve Coca-Cola Light (Diet Coke) gibi şekersiz ve düşük kalorili alternatifleriyle de milyonlarca tüketiciye ulaşmaktadır. Gizli formülü ve yıllardır sürdürdüğü etkili reklam kampanyalarıyla bilinen marka, küresel alkolsüz içecek pazarının tartışmasız lideri ve en değerli markalarından biri konumundadır.`,
      website: "https://www.coca-cola.com/tr/tr",
      img: "/coca-cola.png",
      isBoycotted: "boykot",
-     boycottReason: `Coca-Cola markası, boykot listelerinin en üst sıralarında yer almaktadır! 
-         Coca-Cola'nın boykot edilmesinin temel ve en yaygın bilinen nedeni, İsrail ile olan güçlü ticari ve ekonomik bağlarıdır.
-         •	Ekonomik Yatırım ve Faaliyetler: The Coca-Cola Company, İsrail'de 1968 yılından beri faaliyet göstermekte ve ülkenin ekonomisine önemli katkılarda bulunmaktadır. Şirket, İsrail'deki Coca-Cola Israel (The Central Bottling Com-pany) aracılığıyla üretim, dağıtım ve satış yapmaktadır.
-         •	Siyasi Destek İddiaları: Marka, İsrail'deki yerleşim birimlerinde faaliyet göstermesi ve çeşitli İsrail kurumlarına yaptığı iddia edilen destekler nedeniyle boykot hareketlerinin doğrudan hedefi olmuştur.
-         Bu güçlü ticari ve siyasi duruşlar sebebiyle The Coca-Cola Company'nin sahibi olduğu tüm markalar, küresel boykot çağrılarının hedefi haline gelmiştir.`,
-     alternative_products: [
-      "cola-turka",
-      "camlica",
-      "uludag",
-      "zafer-gazoz",
-      "dirilis",
-     ],
+     boycottReason: `Coca Cola markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Coca Cola markası da bu kapsamda boykot listesinde yer almaktadır.`,
+     alternative_products: ["uludag", "zafer-gazoz", "dirilis"],
     },
     {
      name: "Cappy",
@@ -11216,13 +11182,13 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      foundedYear: 1969,
      country: "ABD",
      owner: "Coca-Cola Company",
-     description: `Cappy, meyve suyu ve meyve bazlı içecekler kategorisinde faaliyet gösteren uluslararası bir markadır. Marka, 1969 yılında Macaristan'da kuruldu ve günümüzde The Coca-Cola Company bünyesinde dünya genelinde pazarlanmaktadır. Türkiye'de Cappy, portakal, elma, karışık meyve gibi çeşitli aromalarla tüketicilere sunulmaktadır.
-         Cappy, Coca-Cola Company'ye bağlı bir marka olduğu için uluslararası bir yapıya sahiptir. Türkiye'deki üretim ve dağıtım faaliyetleri şirketin kalite standartlarına uygun şekilde yürütülmektedir.`,
+     description: `Cappy, 1969 yılında Orta Avrupa'da piyasaya sürülen ve zamanla dünyanın en büyük içecek şirketi The Coca-Cola Company'nin global meyve suyu markası haline gelen köklü bir isimdir. "Doğadan gelen lezzet" anlayışıyla üretim yapan marka, %100 meyve suları, nektarlar ve meyveli içecekler kategorisinde dünyanın birçok ülkesinde faaliyet göstermektedir. Coca-Cola'nın geniş dağıtım ağı sayesinde küresel bir erişime sahiptir.
+
+Türkiye pazarında da uzun yıllardır lider markalardan biri olan Cappy; şeftali, vişne, kayısı ve karışık meyve gibi klasik lezzetlerin yanı sıra, gerçek meyve parçacıkları içeren "Cappy Pulpy" ve geleneksel "Ramazan Şerbeti" gibi yenilikçi ürünleriyle tanınır. "Meyveye doya doya Cappy" sloganıyla özdeşleşen marka, her yaştan tüketiciye hitap eden geniş ürün yelpazesini Coca-Cola'nın kalite standartlarıyla üretmektedir.`,
      website: "https://www.coca-cola.com/tr/tr/brands/cappy",
      img: "/cappy.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Cappy'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Cappy markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Cappy markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -11232,23 +11198,39 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      ],
     },
     {
+     name: "Minute Maid",
+     slug: "minute-maid",
+     ctgry: "İçecek",
+     foundedYear: 1945,
+     country: "ABD",
+     owner: "Coca-Cola Company",
+     website: "https://www.coca-cola.com/us/en/brands/minute-maid",
+     img: "/minute-maid.png",
+     isBoycotted: "boykot",
+     description: `Minute Maid, 1945 yılında kurulan ve meyve suyu endüstrisinde devrim yaratan donmuş portakal suyu konsantresiyle tanınan köklü bir markadır. Başlangıçta Amerikan ordusu için taze tadını koruyan bir portakal suyu tozu geliştirme amacıyla yola çıkan şirket, daha sonra tüketici pazarına yönelmiş ve "dakikalar içinde hazırlanan" (made in a minute) anlamına gelen ismini almıştır.
+
+1960 yılında The Coca-Cola Company tarafından satın alınan Minute Maid, şirketin gazlı içecekler dışındaki ilk büyük yatırımı olmuştur. Bu birleşme sayesinde küresel bir dağıtım ağına kavuşan marka, sadece portakal suyuyla sınırlı kalmayıp; limonata, karışık meyve suları, punchlar ve düşük kalorili içeceklerle ürün yelpazesini genişletmiştir.
+
+Günümüzde 100'den fazla ülkede satılan Minute Maid, dünyanın en büyük meyve suyu ve nektar markalarından biridir. Kaliteli meyve içeriği ve ailelerin güvenle tükettiği bir kahvaltı klasiği imajıyla, Coca-Cola'nın "gazsız içecekler" portföyünün amiral gemisi olarak faaliyet göstermektedir.`,
+     boycottReason: `Minute Maid markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Minute Maid markası da bu kapsamda boykot listesinde yer almaktadır.`,
+     alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
+    },
+    {
      name: "Schweppes",
      slug: "schweppes",
      ctgry: "İçecek",
      foundedYear: 1783,
      founder: "Jacob Schweppe",
      owner: "Coca-Cola Company",
-     description: `Schweppes, gazlı içecekler ve maden suyu kategorisinde dünya çapında bilinen köklü bir markadır. 1783 yılında İsviçreli kimyager Jacob Schweppe tarafından kurulan marka, özellikle tonik su, soda ve aromalı gazlı içecekleriyle tanınmakta-dır. Türkiye'de Schweppes, tonik, soda ve gazlı aromalı içecek çeşitleriyle tüketiciler tarafından yaygın olarak tercih edilmektedir.
-         Türkiye'de Schweppes markası, The Coca Cola Company tarafından sahiplenilmiş ve dağıtılmaktadır. `,
+     description: `Schweppes, gazlı içecekler ve maden suyu kategorisinde dünya çapında bilinen köklü bir markadır. 1783 yılında İsviçreli kimyager Jacob Schweppe tarafından kurulan marka, özellikle tonik su, soda ve aromalı gazlı içecekleriyle tanınmaktadır.
+
+Türkiye'de Schweppes, tonik, soda ve gazlı aromalı içecek çeşitleriyle tüketiciler tarafından yaygın olarak tercih edilmektedir. Türkiye'de Schweppes markası, The Coca Cola Company tarafından sahiplenilmiş ve dağıtılmaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/tr/tr/brands/schweppes ",
      img: "/schweppes.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Schweppes'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Schweppes markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Schweppes markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11261,16 +11243,15 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      foundedYear: 1940,
      founder: "Max Keith (Coca-Cola Deutschland)",
      owner: "Coca-Cola Company",
-     description: `Fanta, The Coca-Cola Company'ye ait, dünya çapında tanınan meyve aromalı gazlı içecek markasıdır. Markanın ilginç bir tarihi vardır; İkinci Dünya Savaşı sırasında Almanya'da, Coca-Cola'nın malzeme sıkıntısı çekmesi üzerine yerel alternatif olarak 1940 yılında icat edilmiştir. Orijinal peynir altı suyu ve elma posası gibi atıklardan üretilen ilk formülüyle başlayan yolculuğu, zamanla global bir başarı hikayesine dönüşmüştür.`,
+     description: `Fanta, 1940 yılında İkinci Dünya Savaşı sırasında Nazi Almanyası'na uygulanan ticaret ambargosu nedeniyle Coca-Cola şurubunun ülkeye girememesi üzerine geliştirilmiş bir markadır. Coca-Cola Deutschland'ın başındaki Max Keith, eldeki sınırlı malzemelerle (peynir altı suyu ve elma posası gibi) yeni bir içecek yaratmış ve ismini çalışanların hayal gücünü kullanmalarını isteyerek Almanca "Fantasie" kelimesinden türetmiştir. Savaş sonrası Coca-Cola Company tarafından küresel bir markaya dönüştürülmüştür.
+
+Günümüzde 190'dan fazla ülkede satılan Fanta, dünyanın en büyük çoklu meyve aromalı gazlı içecek markasıdır. En bilinen çeşidi Fanta Portakal olsa da, dünya genelinde 100'den fazla farklı meyve aromalı (limon, üzüm, çilek, egzotik vb.) çeşidi bulunmaktadır. Canlı renkleri, eğlenceli marka kimliği ve gençlere hitap eden pazarlama stratejisiyle Coca-Cola'nın en güçlü ikinci markası konumundadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/tr/tr/brands/fanta",
      img: "/fanta.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Fanta'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Fanta markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Fanta markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11283,15 +11264,14 @@ Coca-Cola, PepsiCo'nun SoBe markasına rakip olmak için meyve suyu karışımla
      country: "ABD",
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Sprite, Coca-Cola Company'ye ait bir gazlı içecek markasıdır. İlk olarak 1961 yılında piyasaya sürülmüş olup, limon-lime aromalı ve renksiz bir gazlı içecek olarak bilinir. Dünya genelinde özellikle genç tüketici kitlesi arasında popülerdir ve Coca-Cola'nın global portföyünde önemli bir marka olarak yer alır. Sprite, Coca-Cola Company'nin sahibi olduğu diğer markalar gibi, Berkshire Hathaway Holding'in portföyünde bulunan bir markadır.`,
      website: "https://www.coca-cola.com/tr/tr/brands/sprite",
      img: "/sprite.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Sprite'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Sprite, 1961 yılında The Coca-Cola Company tarafından, limon ve misket limonu (lime) aromalı gazoz kategorisindeki rekabete güçlü bir yanıt olarak piyasaya sürülmüş ikonik bir markadır. Şeffaf rengi, kafeinsiz içeriği ve keskin, ferahlatıcı lezzetiyle tanınan içecek, kısa sürede kategorisinin lideri konumuna yükselmiştir.
+
+Özellikle gençlik kültürü, müzik ve spor (özellikle basketbol) ile kurduğu güçlü bağlarla bilinen Sprite, "Susuzluğunu Dinle" (Obey Your Thirst) gibi sloganlarıyla hafızalara kazınmıştır. Coca-Cola şirketinin en büyük markalarından biri olan Sprite, günümüzde şekersiz (Zero) seçenekleri ve farklı aroma varyasyonlarıyla 190'dan fazla ülkede tüketilmektedir.`,
+     boycottReason: `Sprite markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Sprite markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11313,8 +11293,7 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      website: "https://www.coca-cola.com/tr/tr/brands/damla",
      img: "/damla.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Damla'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Damla markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Damla markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -11324,34 +11303,19 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      ],
     },
     {
-     name: "Minute Maid",
-     slug: "minute-maid",
-     ctgry: "İçecek",
-     foundedYear: 1945,
-     country: "ABD",
-     owner: "Coca-Cola Company",
-     description: `Minute Maid, meyve suları ve meyve suyu bazlı içecekler alanında uzmanlaşmış, köklü bir markadır. Markanın ürün yelpazesi çok geniştir ve orijinal portakal suyu, limonata, meyveli içecekler, düşük şekerli ve sıfır şekerli çeşitler dahil ol-mak üzere birçok farklı ürün formatını içerir.
-        Minute Maid markası, uluslararası içecek devi olan The Coca-Cola Company'ye aittir ve Coca-Cola'nın küresel portföyünün önemli bir parçasıdır.`,
-     website: "https://www.coca-cola.com/us/en/brands/minute-maid",
-     img: "/minute-maid.png",
-     isBoycotted: "boykot",
-     boycottReason:
-      "Minute Maid'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
-     alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
-    },
-    {
      name: "Fusetea",
      slug: "fusetea",
      ctgry: "İçecek",
      country: "ABD",
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Fusetea, The Coca-Cola Company'nin meyve aromalı buzlu çay markasıdır. Siyah çay ekstraktı ile meyve tatlarını bir araya getiren marka, Türkiye'de karpuz, mango-ananas, şeftali ve limon olmak üzere çeşitli aromalarla tüketicilere sunulmaktadır. Fusetea, doğal çay özleri ve meyve suyu konsantreleri içerir, koruyucu ve renklendirici içermez. Çaydan gelen kafein içerir (32-54 mg/L arasında). Marka, ferahlatıcı ve doğal içeriğiyle öne çıkan buzlu çay seçenekleri sunmaktadır. Fusetea, Coca-Cola'nın geniş içecek portföyünün bir parçası olarak dünya çapında birçok farklı pazarda tüketicilere sunulmaktadır.`,
+     description: `Fusetea, The Coca-Cola Company tarafından üretilen ve gerçek çay ekstraktı ile meyve aromalarını birleştiren küresel bir buzlu çay markasıdır. Nestlé ile olan ortaklığın sona ermesinin ardından piyasaya sürülen marka, Türkiye pazarında şeftali, limon, karpuz ve mango-ananas gibi zengin aroma seçenekleriyle soğuk çay severlerin beğenisine sunulmaktadır.
+
+Ürünlerinde koruyucu ve renklendirici kullanmamaya özen gösteren Fusetea, sürdürülebilir kaynaklardan elde edilen çay yapraklarını kullanır. Doğal çay özleri ve meyve suyunun dengeli uyumuyla formüle edilen içecek, Coca-Cola'nın geniş dağıtım ağı sayesinde her an ulaşılabilir ferahlatıcı bir alternatif olarak tüketilmektedir.`,
      website: "https://www.coca-cola.com/tr/tr/brands/fusetea",
      img: "/fusetea.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Fusetea'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Fusetea markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Fusetea markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["dirilis", "uludag"],
     },
     {
@@ -11362,12 +11326,12 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      country: "ABD",
      owner: "Coca-Cola Company",
      description: `Powerade, 1988 yılından bu yana The Coca-Cola Company tarafından üretilen ve pazarlanan bir spor içeceğidir. Marka, özellikle PepsiCo'nun Gatorade markasıyla rekabet etmek amacıyla piyasaya sürülmüştür.
-         Powerade, temel olarak antrenman sırasında veya sonrasında kaybedilen sıvıyı ve enerjiyi yerine koymak için tasarlanmıştır. İçeriğinde genellikle su, elektrolitler, karbonhidratlar ve diğer besin maddeleri bulunur. Powerade, 2000 yılında resmi Olimpiyat spor içeceği olmuştur. Ürün yelpazesi Powerade Zero gibi düşük kalorili seçenekleri de içerir.`,
+
+Powerade, temel olarak antrenman sırasında veya sonrasında kaybedilen sıvıyı ve enerjiyi yerine koymak için tasarlanmıştır. İçeriğinde genellikle su, elektrolitler, karbonhidratlar ve diğer besin maddeleri bulunur. Powerade, 2000 yılında resmi Olimpiyat spor içeceği olmuştur. Ürün yelpazesi Powerade Zero gibi düşük kalorili seçenekleri de içerir.`,
      website: "https://www.coca-cola.com/tr/tr/brands/powerade",
      img: "/powerade.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Powerade'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Powerade markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Powerade markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["dirilis"],
     },
     {
@@ -11378,12 +11342,12 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      country: "ABD",
      owner: "Monster Beverage Corporation (Coca-Cola %16.7 hisse)",
      description: `Monster Energy, enerji içeceği kategorisinde faaliyet gösteren ve dünya çapında bilinen bir markadır. Marka, ABD merkezli Monster Beverage Corporation tarafından üretilmekte ve farklı aromalar ile boyutlarda ürünler sunmaktadır. Sporcular ve genç yetişkinler arasında oldukça popüler olan Monster Energy, Türkiye'de de çeşitli distribütörler aracılığıyla tüketiciye ulaşmaktadır.
-         2015 yılında The Coca Cola Company, Monster Beverage Corporation ile stratejik bir ortaklık kurarak şirkette yaklaşık %16 hisse aldı. Bu ortaklık sayesinde Coca Cola, Monster ürünlerinin global dağıtımında destek sağlamakta ve bazı pa-zarlama faaliyetlerinde iş birliği yapmaktadır. `,
+
+2015 yılında The Coca Cola Company, Monster Beverage Corporation ile stratejik bir ortaklık kurarak şirkette yaklaşık %16 hisse aldı. Bu ortaklık sayesinde Coca Cola, Monster ürünlerinin global dağıtımında destek sağlamakta ve bazı pa-zarlama faaliyetlerinde iş birliği yapmaktadır. `,
      website: "https://www.monsterenergy.com/tr-tr/",
      img: "/monster-energy.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Monster Energy'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Monster Energy markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Monster Energy markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["dirilis"],
     },
     {
@@ -11391,17 +11355,17 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      slug: "hawai-tropical",
      ctgry: "İçecek",
      country: "ABD",
-     founder: "Coca-Cola Company",
+     foundedYear: 1991,
+     founder: "Simón",
      owner: "Coca-Cola Company",
-     description: `Hawai Tropical, tropikal meyve aromalı bir içecek markasıdır. Marka, genellikle Fas, Fransa gibi pazarlarda satılmaktadır ve The Coca-Cola Company'nin portföyünde yer alan bölgesel markalardan biridir.`,
+     description: `Hawai Tropical, özellikle Fas, İspanya ve Tunus gibi Akdeniz ülkelerinde ikonik hale gelmiş, ananas ve hindistan cevizi ağırlıklı tropikal meyve aromalı gazlı bir içecektir. "Gerçek tropikal lezzet" sloganıyla bilinen içecek, egzotik tadı ve ferahlatıcı yapısıyla sıcak iklimlerde tüketicilerin favorisi olmuştur.
+
+Kökeni İspanya'ya dayanan ancak Coca-Cola Company tarafından satın alındıktan sonra küresel dağıtım ağına giren Hawai, şirketin bölgesel lezzetler portföyünün en güçlü üyelerinden biridir. Altın sarısı rengi ve yoğun meyve aromasıyla, klasik gazlı içeceklerden farklı bir deneyim sunmayı hedefler.`,
      website: "https://www.coca-cola.com/ma/fr/brands/hawai",
      img: "/hawai-tropical.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Hawai Tropical'ın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Hawai Tropical markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Hawai Tropical markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11414,13 +11378,13 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      foundedYear: 1973,
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Mezzo Mix, 1973 yılında Almanya'da tanıtılan bir içecek markasıdır. Marka, portakallı gazlı içecek ve kolanın karıştırılmasıyla oluşan popüler bir içecek türüdür.
-         Mezzo Mix, Amerikalı çok uluslu şirket The Coca-Cola Company'nin bir ürünüdür. Resmi olarak yalnızca Almanya, İsviçre ve Avusturya'da satılmakta ve üretilmektedir.`,
+     description: `Mezzo Mix, The Coca-Cola Company tarafından 1973 yılında Almanya pazarına özel olarak geliştirilen ve "Cola Küsst Orange" (Kola Portakalı Öpüyor) sloganıyla efsaneleşen bir gazlı içecektir. Klasik kola lezzetini ferahlatıcı portakal aromasıyla birleştiren bu ürün, Almanya'da çok popüler olan ve genel olarak "Spezi" adıyla bilinen kola-portakal karışımı kategorisinin en bilinen ticari örneklerinden biridir.
+
+Resmi olarak yalnızca Almanya, Avusturya ve İsviçre gibi Almanca konuşulan ülkelerde üretilip satılmasına rağmen, turistler ve gurbetçiler sayesinde uluslararası bir üne kavuşmuştur. Coca-Cola'nın yerel damak tatlarına uyum sağlama stratejisinin başarılı bir ürünü olan Mezzo Mix, şekersiz varyasyonları ve kendine has tadıyla bölgesel pazarın vazgeçilmez içecekleri arasında yer almaktadır.`,
      country: "ABD",
      img: "/mezzo-mix.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Mezzo Mix'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Mezzo Mix markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Mezzo Mix markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -11437,13 +11401,12 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      founder: "Coca-Cola Company",
      country: "ABD",
      description: `Tropico, meyve suyu ve tropikal aromalı içecekler kategorisinde yer alan bir markadır. 
-         Bu marka, The Coca-Cola Company'nin global içecek portföyünün bir parçası olarak faaliyet göstermektedir. Ürünleri ferahlatıcı tropikal meyve aromalarının karışımından oluşur.
-         `,
+
+Bu marka, The Coca-Cola Company'nin global içecek portföyünün bir parçası olarak faaliyet göstermektedir. Ürünleri ferahlatıcı tropikal meyve aromalarının karışımından oluşur.`,
      website: "https://www.coca-cola.com/be/fr/brands/tropico",
      img: "/tropico.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Tropico'nun sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Tropico markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Tropico markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -11459,19 +11422,17 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      foundedYear: null,
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Arwa, The Coca-Cola Company'nin sahip olduğu bir şişelenmiş su markasıdır. Marka, Orta Doğu ve Kuzey Afrika pazarlarında yaygın olarak bilinir ve bu bölgelerdeki tüketicilere hitap etmektedir. Arwa suyu, düşük sodyum içeriği ve dengeli mineral yapısı ile pazarlanmaktadır.
-         Arwa markası, küresel içecek devi olan Coca-Cola'nın yerel su pazarlarındaki varlığını temsil eder.`,
-     country: "ABD",
+     description: `Arwa, The Coca-Cola Company'nin portföyünde yer alan ve ağırlıklı olarak Orta Doğu pazarında, özellikle Birleşik Arap Emirlikleri ve Körfez ülkelerinde yaygın olan şişelenmiş su markasıdır. Adını "yumuşaklık", "zarafet" ve "susuzluğu gideren" gibi anlamlara gelen kelimelerden alan marka, bölgenin iklim koşullarında tüketicilere uluslararası kalite standartlarında, güvenilir ve saflaştırılmış içme suyu sunmayı amaçlamaktadır.
+
+Düşük sodyum oranı ve dengeli mineral yapısıyla pürüzsüz ve yumuşak bir içim deneyimi vaat eden Arwa, Coca-Cola'nın gelişmiş arıtma ve şişeleme teknolojileriyle üretilmektedir. Marka, sıkı kalite kontrol süreçlerinden geçirilerek pazara sunulur ve The Coca-Cola Company'nin küresel su kategorisindeki stratejik markalarından biri olarak bölgedeki varlığını sürdürmektedir.`, country: "ABD",
      website: "https://www.coca-cola.com/xf/en/brands/arwa ",
      img: "/arwa.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Arwa'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Arwa markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Arwa markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11488,19 +11449,17 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      founder: "Yerel İtalyan Girişimciler",
      owner: "Coca-Cola Company",
      description: `Lurisia, İtalya merkezli bir maden suyu ve içecek markasıdır. Marka, özellikle yüksek kaliteli doğal maden suları ve geleneksel İtalyan tariflerine dayanan gazlı içecek (bibite) ve aperitivo ürünleriyle tanınmaktadır. Lurisia, İtalya'nın yerel mirasına dayalı olarak saf ve doğal içerikler sunmayı amaçlar.
-         Lurisia markası, uluslararası içecek devi olan The Coca-Cola Company'nin portföyünde yer almaktadır ve Coca-Cola tarafından İtalya pazarında ve uluslararası alanda dağıtılmaktadır.
-         `,
+
+Lurisia markası, uluslararası içecek devi olan The Coca-Cola Company'nin portföyünde yer almaktadır ve Coca-Cola tarafından İtalya pazarında ve uluslararası alanda dağıtılmaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/it/it/brands/Lurisia",
      img: "/lurisia.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Lurisia'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Lurisia markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Lurisia markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11517,18 +11476,17 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      founder: "Yerel İsviçre Girişimciler",
      owner: "Coca-Cola Company",
      description: `Valser, İsviçre'de Valais kantonunda bulunan kaynaklardan elde edilen doğal maden suyu markasıdır. Marka, yüksek rakımlı dağ kaynaklarından gelmesi ve saflığı ile bilinir. Ürün ambalajında genellikle İsviçre menşei ve kaynak bilgileri be-lirtilmektedir.
-         Valser, uluslararası içecek devi olan The Coca-Cola Company'nin İsviçre ve çevresindeki pazarlardaki su portföyünün bir parçasıdır.`,
+
+Valser, uluslararası içecek devi olan The Coca-Cola Company'nin İsviçre ve çevresindeki pazarlardaki su portföyünün bir parçasıdır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/ch/de/brands/valser",
      img: "/valser-water.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Valser Water'ın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Valser Water markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Valser Water markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11544,20 +11502,18 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      foundedYear: null,
      founder: "Yerel İtalyan Girişimciler",
      owner: "Coca-Cola Company",
-     description: `Lilia, İtalya merkezli bir şişelenmiş doğal su markasıdır. Marka, genellikle sade ve doğal mineral suyu segmentinde yer almakta olup, İtalyan tüketicilerine hitap etmektedir.
-         Lilia, uluslararası içecek devi olan The Coca-Cola Company'nin İtalya pazarındaki su portföyünün bir parçasıdır. Marka, Coca-Cola tarafından dağıtılmaktadır.
-         `,
+     description: `Lilia, İtalya'nın güneyindeki volkanik Vulture bölgesinin zengin kaynaklarından elde edilen doğal bir maden suyudur. Dengeli mineral yapısı ve kendine has yumuşak içimiyle bilinen marka, İtalyan su pazarının köklü isimlerinden biridir. Yerel bir değer olarak başladığı yolculuğuna, The Coca-Cola Company'nin geniş portföyüne dahil olduktan sonra uluslararası kalite standartları ve güçlü bir dağıtım ağıyla devam etmektedir.
+
+Özellikle "Genç Su" sloganıyla dinamik bir imaj çizen Lilia, hem doğal kaynak suyu hem de hafif gazlı seçenekleriyle tüketicilere sunulmaktadır. Kaynağından el değmeden şişelenen bu su, Coca-Cola HBC İtalya tarafından yönetilen modern tesislerde, hijyen ve sürdürülebilirlik ilkelerine sadık kalınarak üretilip sofralardaki yerini almaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/it/it/brands/lilia",
      img: "/lilia.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Lilia'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Lilia markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Lilia markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11570,26 +11526,21 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      name: "Glacéau Smartwater",
      slug: "glaceau-smartwater",
      ctgry: "İçecek",
-     foundedYear: 1996, //! düzenle.
+     foundedYear: 1996,
      founder: "J. Darius Bikoff (Energy Brands)",
      owner: "Coca-Cola Company",
-     description: `Glacéau Smartwater, The Coca-Cola Company'nin bir iştiraki olan Energy Brands'e ait şişelenmiş su markasıdır. Marka, 1996 yılında piyasaya sürülmüştür.
-         Markayı benzersiz kılan özellikler şunlardır:
-         •etim süreci, doğanın hidrolojik döngüsünü taklit ederek suyu buharla damıtır.
-         •	Elektrolit Ekleme: Damıtılmış suya, belirgin, berrak bir tat yaratmak için potasyum, kalsiyum ve magnezyum gibi iyonize mineraller (elektrolitler) eklenir.
-         •	Ürün Yelpazesi: Marka, sade suyun yanı sıra gazlı su (Sparkling) ve çeşitli pH seviyelerine sahip farklı ürünler sunar.
-         Marka, 2007 yılında The Coca-Cola Company tarafından 4.1 milyar dolar nakit karşılığında satın alınmıştır.`,
+     description: `Glacéau Smartwater, 1996 yılında J. Darius Bikoff tarafından kurulan Energy Brands (Glacéau) şirketi altında "bulutlardan ilham alınarak" geliştirilen premium bir şişelenmiş su markasıdır. Başlangıçta sağlıklı yaşam trendlerine hitap eden niş bir ürün olarak ortaya çıkan marka, 2007 yılında The Coca-Cola Company tarafından 4.1 milyar dolarlık rekor bir anlaşmayla satın alınarak şirketin küresel su portföyünün en değerli parçalarından biri haline gelmiştir. Jennifer Aniston gibi ünlülerle yapılan reklam kampanyalarıyla da tanınan marka, "akıllı su" konseptiyle sektörde kendine özgü bir yer edinmiştir.
+
+Smartwater'ın en belirgin özelliği, doğadaki su döngüsünü taklit eden buhar damıtma (vapor distillation) teknolojisiyle üretilmesidir. Su önce buharlaştırılıp saf hale getirilir, ardından tat dengesini ve o karakteristik pürüzsüz içimi sağlamak amacıyla kalsiyum, magnezyum ve potasyum gibi elektrolitler eklenir. Bu özel işlem sayesinde elde edilen saf ve nötr pH dengeli su, şık ve minimalist şişe tasarımıyla premium su kategorisinde dünya genelinde geniş bir tüketici kitlesine sunulmaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/us/en/brands/smartwater",
      img: "/glaceau-smartwater.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Glacéau Smartwater'ın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Glacéau Smartwater markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Glacéau Smartwater markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11605,20 +11556,18 @@ Damla bir ABD markası değildir. Ürün Türkiye'de üretilmekte ve dağıtılm
      foundedYear: 1852,
      founder: "Georg Kreuzberg",
      owner: "Coca-Cola Company",
-     description: `Apollinaris, 1852 yılından bu yana varlığını sürdüren köklü bir Alman maden suyu markasıdır. Almanya'da bulunan Bad Neuenahr-Ahrweiler yakınlarındaki bir kaynaktan elde edilen doğal maden suyu ile tanınır. Marka, tarihi ve kalitesiyle Almanya'nın önde gelen maden suyu markalarından biri haline gelmiştir.
+     description: `Apollinaris, 1852 yılında Georg Kreuzberg tarafından Almanya'nın Bad Neuenahr-Ahrweiler bölgesindeki üzüm bağlarında tesadüfen keşfedilen, tarihi ve prestijiyle tanınan doğal bir maden suyudur. "Sofraların Kraliçesi" (The Queen of Table Waters) unvanıyla da bilinen marka, kaynağındaki volkanik katmanlardan aldığı zengin mineral yapısı ve doğal karbonasyonuyla öne çıkar. Yüzyılı aşkın süredir Avrupa kültüründe önemli bir yere sahip olan Apollinaris, kalitesi ve ikonik cam şişesiyle klasik Alman maden suyu geleneğini temsil etmektedir.
 
-Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin Almanya ve çevresindeki pazarlardaki su portföyünün bir parçasıdır.`,
+Marka, 2006 yılında küresel içecek devi The Coca-Cola Company tarafından tamamen satın alınarak şirketin premium su segmentindeki en değerli varlıklarından biri haline gelmiştir. Coca-Cola'nın geniş dağıtım ağına entegre edilen Apollinaris, özellikle lüks restoranlarda ve gastronomi sektöründe yemeklere eşlik eden prestijli bir içecek olarak konumlandırılır. Tarihi mirasını koruyarak Coca-Cola çatısı altında hem Almanya pazarında hem de uluslararası arenada faaliyetlerini sürdürmektedir.`,
      country: "ABD",
      website: "https://www.coca-cola.com/de/de/brands/apollinaris",
      img: "/apollinaris.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Apollinaris'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Apollinaris markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Apollinaris markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11634,20 +11583,18 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: null,
      founder: "Yerel Belçika Girişimciler",
      owner: "Coca-Cola Company",
-     description: `Chaudfontaine, Belçika'nın Valon Bölgesi'ndeki Liège yakınlarında bulunan kaynaklardan elde edilen doğal mineral su markasıdır. Marka, suyunu "60 YIL DOĞAL FİLTRASYON" süreciyle elde ettiğini belirtmekte ve genellikle sade (Still) ve ha-fif gazlı (Sparkling) çeşitleriyle bilinmektedir.
-         Chaudfontaine, uluslararası içecek devi olan The Coca-Cola Company'nin Belçika ve çevre pazarlardaki su portföyünün önemli bir parçasıdır.
-         `,
+     description: `Chaudfontaine, Belçika'nın Ardenler bölgesindeki vadinin derinliklerinden gelen ve benzersiz jeolojik yapısı sayesinde 60 yıl süren doğal bir yolculukla yeryüzüne ulaşan premium bir doğal maden suyudur. Yağmur sularının yerin 1600 metre altına kadar inip kaya katmanları arasında filtrelenmesiyle elde edilen bu su, yolculuğu sırasında zengin mineralleri bünyesine katar ve kaynağında 37 derece sıcaklıkla termal bir su olarak yeryüzüne çıkar. Bu uzun ve doğal süreç, suyun kirlilikten korunmasını ve kendine has yumuşak içimini kazanmasını sağlar.
+
+2003 yılında The Coca-Cola Company tarafından satın alınan marka, şirketin Avrupa pazarındaki sürdürülebilirlik ve kalite odaklı su portföyünün en önemli parçalarından biridir. Doğallığını korumak amacıyla kaynağında el değmeden şişelenen Chaudfontaine, sade, hafif gazlı ve yoğun gazlı seçenekleriyle tüketicilere sunulmaktadır. Belçika gastronomisinde de saygın bir yere sahip olan marka, Coca-Cola'nın geniş dağıtım ağıyla Benelux ülkeleri ve Fransa başta olmak üzere çeşitli pazarlarda yer almaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/be/fr/brands/chaudfontaine",
      img: "/chaudfontaine.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Chaudfontaine'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Chaudfontaine markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Chaudfontaine markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11663,19 +11610,18 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: null,
      founder: "Yerel Avusturya Girişimciler",
      owner: "Coca-Cola Company",
-     description: `Römerquelle, Avusturya menşeli doğal maden suyu markasıdır. Marka, reklamlarında "Her Yeni Anı Canlandırır" gibi sloganlar kullanmakta ve Avusturya'nın yerel kaynaklarından elde edilen doğal mineral su ile bilinmektedir. Ürünleri ge-nellikle sade ve gazlı (Prickelnd) çeşitleriyle piyasaya sürülmektedir.
-         Römerquelle, uluslararası içecek devi olan The Coca-Cola Company'nin Avusturya ve çevre pazarlardaki su portföyünün bir parçasıdır.`,
+     description: `Römerquelle, isminin kökeni Roma dönemine dayanan ve "Roma Kaynağı" anlamına gelen, Avusturya'nın en köklü ve prestijli maden suyu markalarından biridir. Burgenland eyaletindeki Edelstal beldesinde bulunan kaynaklardan çıkarılan bu su, yüzyıllardır bilinen ferahlatıcı etkisi ve zengin mineral yapısıyla ün kazanmıştır. Avusturya pazarında "duyuları canlandıran" premium bir marka olarak konumlanan Römerquelle, kaynağındaki saflığı koruyarak şişelenmekte ve dengeli magnezyum-kalsiyum oranıyla sağlıklı yaşamı destekleyen bir içecek olarak tercih edilmektedir.
+
+2003 yılında The Coca-Cola Company ve Coca-Cola HBC tarafından satın alınan marka, bu birleşmeyle birlikte dağıtım ağını genişleterek Avusturya ve Orta Avrupa pazarındaki liderliğini pekiştirmiştir. Coca-Cola'nın sürdürülebilirlik vizyonu çerçevesinde çevre dostu üretim ve "Yeşil Şişe" sertifikalı ambalajlarla sunulan Römerquelle, klasik gazlı (Prickelnd) ve gazsız varyasyonlarının yanı sıra, bitki ve meyve özleriyle zenginleştirilmiş "Emotion" serisiyle de tüketicilere geniş bir lezzet yelpazesi sunmaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/at/de/brands/romerquelle",
      img: "/romerquelle.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Römerquelle'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Römerquelle markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Römerquelle markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11691,27 +11637,23 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: null,
      founder: "Coca-Cola Company",
      country: "ABD",
-     description: `Bonaqua, uluslararası içecek devi The Coca-Cola Company'ye ait bir şişelenmiş su markasıdır. Marka, sade su ("Bonaqua Silver") ve limon aromalı gibi farklı çeşitlerde ("Bon Viva" serisi gibi) su ürünleri sunmaktadır.
-         Bonaqua, Coca-Cola'nın geniş portföyünün bir parçası olarak birçok ülkede tüketicilere sunulmaktadır.
-         `,
+     description: `Bonaqua, The Coca-Cola Company tarafından üretilen ve ismini Latince "bon" (iyi) ve "aqua" (su) kelimelerinin birleşiminden alan uluslararası bir su markasıdır. Dünyanın pek çok farklı bölgesinde satışa sunulan marka, yerel pazarın ihtiyaçlarına ve su kaynaklarına göre farklılaşan bir üretim stratejisi izler. Kimi ülkelerde ters osmoz yöntemiyle saflaştırılıp minerallerle zenginleştirilen sofra suyu olarak, kimi bölgelerde ise doğrudan doğal kaynaklardan elde edilen kaynak suyu olarak tüketicilere sunulmaktadır.
+
+Kalite standartları ve gıda güvenliği konusundaki hassasiyetiyle bilinen Bonaqua, Coca-Cola'nın global su portföyünün önemli bir parçasını oluşturur. Marka, sadece sade su seçenekleriyle değil, aynı zamanda limon, elma veya çilek gibi hafif meyve aromalı gazlı ve gazsız varyasyonlarıyla da raflarda yer alır. Çevre dostu hafif şişe tasarımları ve sürdürülebilirlik odaklı ambalajlama yenilikleriyle sektörde kendine yer edinen Bonaqua, güvenilir bir su markası olarak geniş bir dağıtım ağına sahiptir.`,
      website: "https://www.coca-cola.com/mv/en/brands/bonaqua ",
      img: "/bonaqua.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Bonaqua'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Bonaqua markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Bonaqua markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
       "ceysu",
       "sarikiz",
       "beypazari",
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11725,20 +11667,17 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
      country: "ABD",
-     description: `Kinley, The Coca-Cola Company'nin sahip olduğu ve uluslararası alanda geniş bir yelpazede su ve tonik gibi gazlı içecekler sunan bir markadır. Markanın ürün portföyü genellikle iki ana kategoriye ayrılır:
-         1.	Şişelenmiş Su: Genellikle "10 adımlı saflaştırma süreci" gibi ifadelerle pazarlanan ve güvenilirliği vurgulanan içme suyu.
-         2.	Yetişkin Gazlı İçecekler: Kinley Ginger Ale, Kinley Tonic Water, Kinley Signature Tonic Water, Kinley Pink Aromatic Berry ve Kinley Bitter Lemon gibi mikser ve gazlı içecekler. Bu ürünler genellikle alkolsüzdür ve kokteyllerle veya tek başına tüketim için tasarlanmıştır.
-         Kinley, Coca-Cola'nın global içecek portföyünün bir parçasıdır.`,
+     description: `Kinley, The Coca-Cola Company tarafından yönetilen ve faaliyet gösterdiği coğrafyaya göre iki farklı kimlikle tanınan uluslararası bir içecek markasıdır. Özellikle Hindistan ve Asya pazarında, çok aşamalı saflaştırma süreçleri ve ters osmoz teknolojisiyle üretilen güvenilir bir ambalajlı içme suyu markası olarak pazar lideri konumundadır. Bu bölgelerde "güven" ve "saflık" temalarıyla özdeşleşen marka, tüketicilerin temiz suya erişim ihtiyacını uluslararası kalite standartlarıyla karşılamaktadır.
+
+Avrupa ve diğer batı pazarlarında ise Kinley, ağırlıklı olarak karbonatlı karışım içecekleri (mikserler) kategorisinde faaliyet göstermektedir. Tonik, Soda, Ginger Ale (Zencefilli Gazoz) ve Bitter Lemon gibi çeşitleriyle bilinen bu seri, hem tek başına ferahlatıcı bir içecek olarak hem de kokteyllerde tamamlayıcı olarak tercih edilmektedir. Coca-Cola'nın geniş dağıtım ağı sayesinde global ölçekte erişilebilir olan Kinley, farklı damak tatlarına ve bölgesel ihtiyaçlara uyum sağlayan esnek ürün portföyüyle sektördeki yerini korumaktadır.`,
      website: "https://www.coca-cola.com/in/en/brands/kinley",
      img: "/kinley.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Kinley'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Kinley markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Kinley markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11754,13 +11693,13 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 2000,
      owner: "Coca-Cola Company",
      country: "ABD",
-     description: `Vitamin Water, The Coca-Cola Company'nin sahip olduğu popüler bir vitaminli su markasıdır. Marka, çeşitli meyve aromaları ile tatlandırılmış su bazlı içecekler sunar ve ürünlerinde vitaminler ile minerallerin eklendiğini belirtir. Marka, normal şekerli ve sıfır şekerli ("vitaminwater zero sugar") çeşitleriyle geniş bir tüketici kitlesine hitap etmektedir.
-         Vitamin Water, Coca-Cola'nın küresel içecek portföyünün önemli bir parçasıdır ve özellikle Kuzey Amerika ve Avrupa gibi pazarlarda güçlü bir varlığa sahiptir.`,
+     description: `Vitamin Water, 2000'li yılların başında New York merkezli Glacéau şirketi tarafından geliştirilen ve su tüketimini renkli, eğlenceli bir deneyime dönüştüren öncü bir fonksiyonel içecek markasıdır. 2007 yılında The Coca-Cola Company tarafından 4.1 milyar dolarlık stratejik bir yatırımla satın alınan marka, "besin değeri artırılmış su" kategorisinin yaratıcılarından biri olarak kabul edilir. İkonik minimalist şişe tasarımı ve etiketlerindeki esprili metinlerle dikkat çeken Vitaminwater, sıradan su içme alışkanlığına canlı renkler ve egzotik meyve aromaları katarak özellikle genç ve şehirli tüketici kitlesi arasında bir yaşam tarzı sembolü haline gelmiştir.
+
+Ürün yelpazesi, enerji, odaklanma veya yenilenme gibi farklı ihtiyaçlara yönelik olarak formüle edilmiş "Power-C", "Focus" ve "XXX" gibi çeşitli varyasyonlardan oluşur; her biri özel vitamin kombinasyonları ve elektrolitlerle zenginleştirilmiştir. Orijinal formüllerinin yanı sıra, değişen tüketici tercihlerine ve sağlıklı yaşam trendlerine uyum sağlamak amacıyla geliştirilen "Zero Sugar" serisiyle de geniş bir kitleye hitap etmektedir. Coca-Cola'nın küresel dağıtım ağı sayesinde dünya genelinde erişilebilir olan marka, gün boyu hem sıvı hem de mikro besin ihtiyacını lezzetli bir şekilde karşılamak isteyenlerin popüler tercihlerinden biridir.`,
      website: "https://www.coca-cola.com/us/en/brands/vitaminwater",
      img: "/vitamin-water.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Vitamin Water'ın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Vitamin Water markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Vitamin Water markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["sutas", "pinar", "vio", "sek"],
     },
     {
@@ -11770,13 +11709,13 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: null,
      country: "ABD",
      owner: "Coca-Cola Company",
-     description: `Adez, bitki bazlı içecekler (Plant-Based Drinks) kategorisinde yer alan bir markadır. Marka, genellikle badem, yulaf, soya ve pirinç gibi bileşenlerden elde edilen, laktozsuz ve vegan tüketicilere yönelik içecekler sunmaktadır.
-         Adez markası, uluslararası içecek devi olan The Coca-Cola Company'nin portföyünde yer almaktadır ve Avrupa'da ve diğer pazarlarda dağıtılmaktadır.`,
+     description: `Adez (Latin Amerika pazarında bilinen adıyla AdeS), kökleri 1988 yılında Arjantin'e dayanan ve ismini İspanyolca "Alimentos de Soja" (Soya Gıdaları) ifadesinden alan öncü bir bitkisel içecek markasıdır. 2017 yılında The Coca-Cola Company tarafından Unilever'den satın alınarak şirketin küresel portföyüne katılan marka, Coca-Cola'nın sadece gazlı içecek değil, her kategoride ürün sunan "Tam İçecek Şirketi" olma stratejisinin kritik bir parçasıdır. Soya, badem, yulaf, pirinç ve hindistan cevizi gibi bitkisel kaynakları meyve özleri ve vitaminlerle harmanlayarak, süt ürünlerine alternatif arayanlara lezzetli ve besleyici seçenekler sunar.
+
+Özellikle vegan beslenenler, laktoz intoleransı olanlar veya bitkisel bazlı beslenmeye ilgi duyan tüketiciler için geliştirilen Adez, ilave şeker içermeyen varyasyonları ve zenginleştirilmiş vitamin/mineral içeriğiyle sağlıklı yaşam trendlerine hitap etmektedir. Avrupa pazarında yenilikçi ve çevre dostu "PlantBottle" (kısmen bitkisel materyallerden üretilen şişe) teknolojisiyle sunulan ürünler, hem kahvaltılık gevreklerle hem de tek başına tüketim için ideal, pürüzsüz ve dolgun bir içim deneyimi vaat etmektedir.`,
      website: "https://www.coca-cola.com/cz/cs/brands/adez ",
      img: "/adez.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Adez'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Adez markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Adez markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
     },
     {
@@ -11785,15 +11724,15 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      ctgry: "İçecek",
      foundedYear: 1998,
      founder: "Seth Goldman & Barry Nalebuff",
+     owner: "Coca-Cola Company",
      country: "ABD",
-     description: `Honest Tea (Honest olarak da bilinir), organik buzlu çaylar ve bitkisel içecekler kategorisinde yer alan bir markadır. Marka, ürünlerinde koruyucu madde kullanmadığını ve organik yeşil çay gibi doğal içeriklere odaklandığını vurgulamaktadır.
-         Honest Tea, uluslararası içecek devi olan The Coca-Cola Company'nin portföyünde yer almaktadır.
-         `,
+     description: `Honest Tea, 1998 yılında Seth Goldman ve Barry Nalebuff tarafından, o dönemde piyasada hakim olan aşırı şekerli içeceklere sağlıklı ve doğal bir alternatif sunmak amacıyla Maryland'de kurulan öncü bir organik içecek markasıdır. "Dürüstlük" ilkesini marka kimliğinin merkezine koyan şirket, USDA Organik ve Adil Ticaret (Fair Trade) sertifikalı, gerçek çay yapraklarından demlenen ve "sadece tadımlık" miktarda şeker içeren formülleriyle tanınır. Yapay tatlandırıcı ve koruyucu içermeyen şeffaf içerik politikası sayesinde, sağlıklı yaşamı benimseyen tüketiciler arasında kısa sürede kült bir statüye ulaşmıştır.
+
+2011 yılında The Coca-Cola Company tarafından tamamen satın alınan Honest, şirketin büyüyen sağlıklı içecek kategorisindeki en stratejik varlıklarından biri haline gelmiştir. Coca-Cola'nın devasa dağıtım ağıyla birleşen marka, sadece buzlu çaylarla sınırlı kalmayıp "Honest Kids" gibi organik meyve suyu serileri ve bitkisel çaylarla ürün yelpazesini genişletmiştir. Sürdürülebilir tarım uygulamalarına verdiği destek ve etik kaynak kullanımıyla bilinen marka, Coca-Cola portföyü içinde çevreye duyarlı ve premium bir seçenek olarak varlığını sürdürmektedir.`,
      website: "https://www.coca-cola.com/in/en/brands/honesttea",
      img: "/honest.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Honest'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Honest Tea markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Honest Tea markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
     },
     {
@@ -11803,13 +11742,13 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1998,
      owner: "The Coca-Cola Company (%90+ hisse)",
      country: "ABD",
-     description: `Innocent Drinks, 1998 yılında üç Cambridge Üniversitesi mezunu tarafından Londra, Birleşik Krallık'ta kurulmuş bir şirkettir. Şirket, süpermarketler, kafeler ve çeşitli satış noktalarında satılan smoothie ve meyve suları üretimiyle tanınır.
-         Marka, smoothie ve meyve sularının yanı sıra, bazı içeceklerinde havuç ve zencefil gibi malzemeler de kullanmaktadır. Şirketin %90'ın üzerindeki hissesi The Coca-Cola Company'ye aittir.`,
+     description: `Innocent Drinks, 1999 yılında üç üniversite arkadaşının Londra'daki bir caz festivalinde açtıkları stantla başlayan ilginç ve samimi bir kuruluş hikayesine sahiptir. "İşlerimizi bırakıp smoothie yapmalı mıyız?" sorusunun yazılı olduğu pankartın altına koydukları "Evet" ve "Hayır" kutularından, tüketicilerin boş şişeleri "Evet" kutusuna doldurmasıyla kurulan marka, kısa sürede %100 doğal meyve ve sebzelerden üretilen smoothie'leriyle Avrupa'da bir fenomen haline gelmiştir. Hiçbir koruyucu, konsantre veya ilave şeker içermeyen ürünleri, "doğal ve masum" kalma felsefesiyle üretilmekte olup, sürdürülebilirlik projeleri ve yardım kampanyalarıyla da bilinirler.
+
+Başlangıçta bağımsız ve etik odaklı bir girişim olan Innocent, 2009 yılında The Coca-Cola Company'nin azınlık hissesi satın almasıyla başlayan ortaklık sürecinin ardından, 2013 yılı itibarıyla neredeyse tamamen (%90 üzeri hisse) Coca-Cola bünyesine katılmıştır. Bugün Avrupa'nın en büyük smoothie ve meyve suyu markalarından biri olan şirket, Coca-Cola'nın küresel dağıtım gücünü arkasına alarak ürün gamını taze sıkılmış meyve suları, vitamin shot'ları ve bitkisel süt alternatiflerine kadar genişletmiştir. Bir B Corp (fayda odaklı şirket) sertifikasına sahip olan marka, global bir devin çatısı altında olsa da kendine has eğlenceli dilini ve üretim standartlarını korumaya çalışmaktadır.`,
      website: "https://www.innocentdrinks.co.uk/",
      img: "/innocent.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Innocent'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Innocent Drinks markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Innocent Drinks markası da bu kapsamda boykot listesinde yer almaktadır.`,
     },
     {
      name: "Burn",
@@ -11818,12 +11757,13 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      country: "ABD",
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Burn, The Coca-Cola Company'nin sahip olduğu bir enerji içeceği markasıdır. 2000'li yılların başında piyasaya sürülen marka, özellikle genç yetişkinler ve aktif yaşam tarzına sahip tüketiciler arasında popülerdir. Burn, enerji içecekleri pazarında Red Bull ve Monster gibi markalarla rekabet etmektedir. Ürün yelpazesinde orijinal Burn Energy Drink'in yanı sıra çeşitli aromalar ve varyantlar bulunmaktadır. Türkiye'de de yaygın olarak satılan Burn, Coca-Cola'nın enerji içeceği portföyünün önemli bir parçasıdır.`,
+     description: `Burn, The Coca-Cola Company tarafından 2000'li yılların başında hızla büyüyen enerji içeceği pazarına güçlü bir giriş yapmak amacıyla geliştirilen ve ikonik alev logosuyla tanınan global bir markadır. İçeriğindeki yüksek kafein, taurin, inositol ve B grubu vitaminleri ile formüle edilen içecek, "içindeki ateşi yak" mottosuyla fiziksel ve zihinsel performansı desteklemeyi hedefler. Kendine has kırmızı rengi, hafif yakıcı ve meyvemsi aroma profiliyle rakiplerinden ayrışan Burn, özellikle yoğun tempo gerektiren durumlarda enerji seviyesini artırmak isteyen tüketiciler için güçlü bir alternatif olarak tasarlanmıştır.
+
+Gençlik kültürü, elektronik müzik ve gece hayatı ile özdeşleşen bir marka kimliğine sahip olan Burn, dünya genelinde büyük müzik festivallerine ve DJ organizasyonlarına verdiği destekle bilinir. Türkiye pazarında da oldukça yaygın bir dağıtım ağına sahip olan marka, klasik lezzetinin yanı sıra Mango, Şeftali (Gold Spark), Vişne (Sour Twist) gibi farklı meyve aromalı ve şekersiz varyasyonlarıyla ürün yelpazesini genişletmiştir. Coca-Cola sisteminin gücüyle dağıtılan Burn, enerji içeceği kategorisinde dinamizmi ve tutkuyu temsil eden önemli oyunculardan biri olmayı sürdürmektedir.`,
      website: "https://www.coca-cola.com/tr/tr/brands/burn",
      img: "/burn.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Burn'un sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Burn markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Burn markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["juss", "uludag"],
     },
     {
@@ -11833,13 +11773,14 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1970,
      founder: "Yerel Türk Girişimciler",
      owner: "Coca-Cola İçecek A.Ş. (CCI)",
-     description: `Doğadan, Türkiye'nin önde gelen çay markalarından biridir ve 1970'li yıllardan bu yana faaliyet göstermektedir. Marka, siyah çay, yeşil çay, bitki çayları ve meyve çayları gibi geniş bir ürün yelpazesi sunmaktadır. Doğadan, Türk tüketicilerin çay kültürüne hitap eden ve kaliteli çay ürünleri sunan yerli bir marka olarak bilinmektedir. 2018 yılında, Coca-Cola İçecek A.Ş. (CCI), Doğadan markasının sahibi olan Doğadan Gıda Ürünleri San. ve Tic. A.Ş.'nin %100 hissesini satın almıştır. Bu satın alma ile Doğadan, Coca-Cola'nın Türkiye portföyüne dahil olmuştur.`,
+     description: `Doğadan, temelleri 1975 yılında atılan ve Türkiye'yi ilk kez poşet bitki çayı konseptiyle tanıştıran, ülkenin en köklü ve güvenilir sıcak içecek markalarından biridir. Eczacı Nevzat Karpuzcu'nun bitkilerin şifalı dünyasını modern tüketim alışkanlıklarıyla buluşturma vizyonuyla kurulan marka, siyah çaydan yeşil çaya, ıhlamur ve adaçayı gibi geleneksel lezzetlerden özel harmanlara kadar uzanan geniş ürün yelpazesiyle bilinir. "Doğanın iyiliği" sloganıyla hareket eden şirket, bitkilerin en verimli hallerini analiz ederek inovatif ambalaj çözümleri ve "Büyülü Bohça" gibi yenilikçi ürünlerle Türk çay pazarında kalite standartlarını belirleyen öncü bir rol oynamaktadır.
+
+2007 yılında The Coca-Cola Company bünyesine katılan Doğadan, bu stratejik satın almayla birlikte yerel üretim gücünü global bir şirketin vizyonu ve dağıtım ağıyla birleştirmiştir. Coca-Cola sisteminin kalite, gıda güvenliği ve sürdürülebilirlik ilkeleri doğrultusunda üretim yapan marka, Ankara'daki modern tesislerinde en son teknolojiyi kullanarak faaliyetlerini sürdürmektedir. Yerel bir değer olarak başladığı yolculuğuna bugün uluslararası bir devin çatısı altında devam eden Doğadan, Türkiye'nin bitki ve meyve çayı kategorisindeki liderliğini korurken, Coca-Cola'nın portföy çeşitliliğine önemli bir katkı sağlamaktadır.`,
      country: "ABD",
      website: "https://www.dogadan.com.tr/",
      img: "/dogadan.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Doğadan'ın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Doğadan markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Doğadan markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
     },
     {
@@ -11849,34 +11790,36 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1983,
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Aquarius, The Coca-Cola Company'nin sahip olduğu bir spor içeceği markasıdır. İlk olarak 1983 yılında Japonya'da piyasaya sürülen marka, sporcuların ve aktif bireylerin egzersiz sırasında kaybettikleri sıvı, elektrolit ve enerjiyi yerine koymak için tasarlanmıştır. Aquarius, düşük kalorili ve çeşitli meyve aromalarıyla sunulur. Marka, özellikle Asya, Avrupa ve Latin Amerika pazarlarında güçlü bir varlığa sahiptir. Türkiye'de de satılan Aquarius, Powerade ile birlikte Coca-Cola'nın spor içeceği portföyünün önemli bir parçasıdır.`,
+     description: `Aquarius, The Coca-Cola Company tarafından 1983 yılında ilk kez Japonya pazarında tanıtılan ve özellikle aktif yaşam tarzını benimseyen tüketicilere yönelik geliştirilen öncü bir izotonik spor içeceğidir. Vücudun su dengesini korumasına yardımcı olmak amacıyla formüle edilen içecek, terleme yoluyla kaybedilen sıvı ve elektrolitleri (sodyum, potasyum gibi) hızla geri kazandırmayı hedefler. Hafif ve ferahlatıcı yapısıyla, sadece profesyonel sporcular için değil, günlük hayatta fiziksel efor sarf eden herkes için ideal bir hidrasyon kaynağı olarak konumlandırılmıştır.
+
+Asya ve Avrupa pazarlarında birçok kez Olimpiyat Oyunları'nın resmi içeceği olmasıyla tanınan marka, Powerade'den farklı olarak daha çok "günlük aktif yaşam" içeceği olarak pazarlanır. Limon, portakal ve greyfurt gibi çeşitli meyve aromalarıyla sunulan Aquarius, düşük kalorili seçenekleri ve vitamin ilaveli versiyonlarıyla da dikkat çeker. Türkiye de dahil olmak üzere küresel pazarda Coca-Cola'nın fonksiyonel içecek kategorisindeki en güçlü markalarından biri olarak raflarda yerini almaktadır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/jp/ja/brands/aquarius",
      img: "/aquarius.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Aquarius'un sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Aquarius markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Aquarius markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["dirilis", "uludag"],
     },
     {
      name: "Dasani",
      slug: "dasani",
      ctgry: "İçecek",
+     foundedYear: 1999,
      country: "ABD",
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Dasani, The Coca-Cola Company'nin sahip olduğu bir şişelenmiş su markasıdır. İlk olarak 1999 yılında Amerika Birleşik Devletleri'nde piyasaya sürülen Dasani, saflaştırılmış su üzerine odaklanmaktadır. Marka, suyuna tat vermek için mineraller eklemektedir. Dasani, dünya genelinde birçok ülkede satılmakta ve Coca-Cola'nın su portföyünde önemli bir yer tutmaktadır. ABD pazarında en popüler şişelenmiş su markalarından biri olan Dasani, sade su, aromalı su ve gazlı su çeşitleri sunmaktadır.`,
+     description: `Dasani, 1999 yılında The Coca-Cola Company tarafından Amerika Birleşik Devletleri'nde piyasaya sürülen ve kısa sürede Kuzey Amerika'nın en çok satan su markalarından biri haline gelen işlenmiş (purified) su markasıdır. Doğal kaynak suyu yerine, yerel su kaynaklarının ters osmoz (reverse osmosis) teknolojisiyle moleküler düzeyde filtrelenmesi ve ardından o karakteristik taze tadı yakalamak için magnezyum sülfat, potasyum klorür ve tuz gibi minerallerle zenginleştirilmesi yöntemiyle üretilir. Bu özel işlem, coğrafi konumdan bağımsız olarak her şişede standart bir tat ve kalite sunmayı garanti eder.
+
+Sürdürülebilirlik konusundaki çalışmalarıyla da bilinen Dasani, bitkisel materyaller içeren "PlantBottle" teknolojisini kullanan ilk markalardan biridir ve ambalaj atıklarını azaltmaya yönelik inovasyonlara öncülük etmektedir. Klasik sade suyunun yanı sıra, değişen tüketici tercihlerine yanıt vermek amacıyla doğal meyve aromalı ve gazlı (sparkling) varyasyonları da ürün gamına eklenmiştir. Coca-Cola'nın küresel su stratejisinin temel taşlarından biri olan marka, pratik ve güvenilir bir su kaynağı olarak geniş bir dağıtım ağına sahiptir.`,
      country: "ABD",
      website: "https://www.coca-cola.com/us/en/brands/dasani",
      img: "/dasani.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Dasani'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Dasani markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Dasani markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -11892,13 +11835,14 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: null,
      founder: "Coca-Cola İçecek A.Ş.",
      owner: "Coca-Cola İçecek A.Ş.",
-     description: `Ayran Turka, Coca-Cola İçecek A.Ş. tarafından Türkiye pazarı için üretilen bir ayran markasıdır. Geleneksel Türk içeceği ayranın modern ve pratik bir versiyonunu sunmaktadır. Ayran Turka, hijyenik koşullarda üretilen ve Türk damak tadına uygun olarak hazırlanan bir üründür. Coca-Cola'nın Türkiye'deki yerel portföyünde yer alan marka, marketler ve süpermarketlerde yaygın olarak bulunmaktadır. Ayran Turka, Coca-Cola'nın yerel kültüre ve tüketici tercihlerine uyum sağlama stratejisinin bir örneğidir.`,
      country: "ABD",
      website: "https://www.coca-cola.com/tr/tr",
      img: "/ayran-turka.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Ayran Turka'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Ayran Turka, Coca-Cola İçecek A.Ş. tarafından Türkiye pazarının vazgeçilmez bir parçası olan geleneksel ayran kültürüne hitap etmek amacıyla sunulan yerel bir markadır. Küresel bir devin yüksek üretim ve hijyen standartlarını yerel damak tadıyla buluşturan bu ürün, Türk mutfağının en sevilen eşlikçilerinden biri olan ayranı, modern şişeleme teknolojileriyle ve tam kıvamında bir lezzet profiliyle tüketicilere sunmaktadır.
+
+Coca-Cola'nın "glocalization" (küresel düşünüp yerel hareket etme) stratejisinin somut bir örneği olan Ayran Turka, hem yemeklerin yanında hem de tek başına ferahlatıcı bir içecek olarak konumlandırılmıştır. Geniş dağıtım ağı sayesinde marketlerden restoranlara kadar kolayca erişilebilen marka, standartize edilmiş kalitesi ve pratik ambalajıyla, geleneksel lezzeti modern şehir yaşamının temposuna uyarlayan güvenilir bir alternatif olarak öne çıkmaktadır.`,
+     boycottReason: `Ayran Turka markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Ayran Turka markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: ["sutas", "pinar", "vio", "sek"],
     },
     {
@@ -11906,14 +11850,16 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      slug: "simply",
      ctgry: "İçecek",
      country: "ABD",
+     foundedYear: 2001,
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Simply, The Coca-Cola Company'nin sahip olduğu bir meyve suyu markasıdır. Marka, "basit" ve "doğal" içerikler vurgusuyla, koruyucu maddeler veya yapay aromalar içermeyen meyve suları sunmaktadır. Simply ürün yelpazesi portakal suyu, limonata, elma suyu ve meyve karışımlarını içermektedir. Marka, özellikle Amerika Birleşik Devletleri'nde popülerdir ve Coca-Cola'nın premium meyve suyu segmentindeki önemli bir oyuncusudur. Simply, sağlıklı ve doğal içecek arayan tüketicilere hitap etmektedir.`,
      website: "https://www.coca-cola.com/us/en/brands/simply",
      img: "/simply.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Simply'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Simply, The Coca-Cola Company bünyesinde yer alan ve "doğallığın en basit hali" felsefesiyle 2001 yılında piyasaya sürülen, Kuzey Amerika pazarının lider premium meyve suyu markasıdır. Konsantreden üretilmeyen (Not From Concentrate) ve hiçbir koruyucu katkı maddesi veya yapay aroma içermeyen ürünleriyle tanınan marka, ikonik şeffaf karaf şişe tasarımıyla tüketicilere ürünün tazeliğini ve doğal rengini doğrudan görme imkanı sunar.
+
+Portakal suyundan limonataya, elma suyundan smoothie karışımlarına kadar geniş bir ürün yelpazesi sunan Simply, meyvelerin lezzetini ve besin değerini korumak için gelişmiş işleme teknolojileri kullanmaktadır. Mevsimsel değişikliklerden etkilenmeden yılın her dönemi tutarlı bir tat profili sunmayı başaran marka, sağlıklı yaşamı benimseyen ve sofralarında işlenmemiş, saf meyve suyu lezzeti arayan tüketicilerin öncelikli tercihlerinden biridir.`,
+     boycottReason: `Simply markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Simply markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -11926,18 +11872,18 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      name: "Barq's",
      slug: "barqs",
      ctgry: "İçecek",
+     foundedYear: 1898,
      country: "ABD",
      founder: "Edward Barq",
      owner: "Coca-Cola Company",
-     description: `Barq's, The Coca-Cola Company'nin sahip olduğu bir root beer (kök bira) markasıdır. 1898 yılında Edward Barq tarafından Louisiana'da kurulan marka, güçlü aroması ve hafif kafein içeriğiyle bilinmektedir. Barq's, Amerika Birleşik Devletleri ve Kanada'da popüler olan geleneksel bir gazlı içecektir. Root beer, genellikle karamelize şeker, vanilya ve çeşitli kök ve bitki özlerinden yapılan tatlı ve aromatik bir içecektir. Barq's, 1995 yılında Coca-Cola tarafından satın alınmıştır ve şirketin çeşitli gazlı içecek portföyünün bir parçası olarak sunulmaktadır.`,
      website: "https://www.coca-cola.com/us/en/brands/barqs",
      img: "/barqs.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Barq's'un sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Barq's, 1898 yılında Edward Barq tarafından Biloxi, Mississippi'de yaratılan ve "It's Good" sloganıyla hafızalara kazınan, Amerikan içecek kültürünün ikonik kök birası (root beer) markasıdır. Rakiplerinden en belirgin farkı, formülünde bulunan kafein sayesinde damağa vuran o karakteristik keskinliği ve "ısırma" (bite) hissidir. Sarsaparilla kökü, vanilya ve çeşitli baharatların karmaşık ve zengin harmanıyla üretilen içecek, Güney Amerika'nın geleneksel tatlarını modern bir formda sunar.
+
+1995 yılında The Coca-Cola Company tarafından satın alınarak ulusal çapta dağıtılmaya başlanan Barq's, kendine has sadık bir hayran kitlesine sahiptir. Özellikle vanilyalı dondurma ile yapılan "Root Beer Float" tatlısının vazgeçilmez bir eşlikçisi olarak bilinen marka, Coca-Cola'nın geniş ürün yelpazesi içinde nostaljik değeri ve cesur aroma profiliyle öne çıkan, kategorisinin en güçlü oyuncularından biridir.`,
+     boycottReason: `Barq's markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Barq's markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11947,18 +11893,18 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      name: "Fresca",
      slug: "fresca",
      ctgry: "İçecek",
+     foundedYear: 1966,
      country: "ABD",
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Fresca, The Coca-Cola Company'nin sahip olduğu greyfurt aromalı bir gazlı içecek markasıdır. İlk olarak 1966 yılında Amerika Birleşik Devletleri'nde piyasaya sürülen Fresca, şekersiz ve düşük kalorili bir içecek olarak konumlandırılmıştır. Marka, ferahlatıcı ve hafif tada sahip olmasıyla bilinir ve özellikle sıcak havalarda tercih edilmektedir. Fresca, yıllar içinde çeşitli lezzet varyantlarıyla genişletilmiş ve Latin Amerika gibi uluslararası pazarlarda da popülerlik kazanmıştır. Coca-Cola'nın düşük kalorili gazlı içecek seçenekleri arasında önemli bir yere sahiptir.`,
      website: "https://www.coca-cola.com/us/en/brands/fresca",
      img: "/fresca.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Fresca'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Fresca, The Coca-Cola Company tarafından 1966 yılında piyasaya sürülen, kendine has greyfurt aromasıyla tanınan, şekersiz ve kalorisiz bir gazlı içecek markasıdır. Dönemin diyet içeceklerinden farklı olarak, sadece kalori hassasiyeti olanlara değil, sofistike ve yetişkin damak tadına sahip tüketicilere hitap edecek şekilde tasarlanmıştır. "Fresca" (İspanyolca'da "taze") isminin hakkını veren ferahlatıcı narenciye lezzeti, onu sıradan gazlı içeceklerden ayıran en önemli özelliktir.
+
+Sadece tek başına bir içecek olarak değil, aynı zamanda kokteyllerde (özellikle Paloma gibi karışımlarda) mikser olarak da büyük bir popülariteye sahip olan Fresca, yıllar içinde şeftali ve kiraz gibi narenciye bazlı yeni varyasyonlarla zenginleşmiştir. Coca-Cola portföyünün "gizli hazinesi" olarak nitelendirilen marka, sıfır şeker kategorisinde lezzetten ödün vermeyen yapısıyla kült bir statüye ulaşmıştır.`,
+     boycottReason: `Fresca markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Fresca markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11969,17 +11915,17 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      slug: "mello-yello",
      ctgry: "İçecek",
      country: "ABD",
+     foundedYear: 1979,
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Mello Yello, The Coca-Cola Company'nin sahip olduğu sitrus aromalı bir gazlı içecek markasıdır. İlk olarak 1979 yılında Amerika Birleşik Devletleri'nde piyasaya sürülen marka, PepsiCo'nun Mountain Dew markasıyla rekabet etmek için geliştirilmiştir. Mello Yello, parlak sarı rengi ve tatlı, sitrus tadıyla bilinir ve kafein içermektedir. Marka, özellikle güney ABD eyaletlerinde popülerdir ve NASCAR gibi otomotiv sporlarıyla ilişkilendirilmiştir. Mello Yello, Coca-Cola'nın sitrus aromalı gazlı içecek segmentinde önemli bir markadır.`,
      website: "https://www.coca-cola.com/us/en/brands/mello-yello",
      img: "/mello-yello.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Mello Yello'nun sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Mello Yello, The Coca-Cola Company tarafından 1979 yılında, PepsiCo'nun Mountain Dew markasının artan popülaritesine stratejik bir yanıt olarak piyasaya sürülen, yüksek kafeinli ve narenciye aromalı bir gazlı içecektir. Pürüzsüz içimi ve canlandırıcı etkisiyle bilinen marka, "dünyanın en hızlı meşrubatı" gibi iddialı sloganlarla lanse edilmiş ve özellikle heyecan arayan genç kitleyi hedeflemiştir. Karakteristik parlak sarı rengi ve limon-portakal ağırlıklı tat profiliyle, narenciye bazlı gazlı içecek kategorisinde kendine sağlam bir yer edinmiştir.
+
+Marka kimliği, Amerikan motor sporları kültürüyle, özellikle de NHRA ve NASCAR yarışlarıyla kurduğu uzun soluklu sponsorluk ilişkileriyle özdeşleşmiştir. Tom Cruise'un "Days of Thunder" filmindeki unutulmaz görünümüyle popüler kültürde de iz bırakan Mello Yello, zaman içinde ambalaj tasarımını yenilese de o klasik "yumuşak narenciye" lezzetini korumuştur. Coca-Cola'nın portföyünde, enerji ve dinamizmi temsil eden köklü markalardan biri olarak varlığını sürdürmektedir.`,
+     boycottReason: `Mello Yello markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Mello Yello markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -11989,18 +11935,18 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      name: "Pibb Xtra",
      slug: "pibb-xtra",
      ctgry: "İçecek",
+     foundedYear: 1972,
      country: "ABD",
      founder: "Coca-Cola Company",
      owner: "Coca-Cola Company",
-     description: `Pibb Xtra (eski adıyla Mr. Pibb), The Coca-Cola Company'nin sahip olduğu kiraz aromalı bir gazlı içecek markasıdır. İlk olarak 1972 yılında Mr. Pibb adıyla piyasaya sürülen marka, Dr Pepper ile rekabet etmek için geliştirilmiştir. 2001 yılında formülü değiştirilmiş ve adı Pibb Xtra olarak güncellenmiştir. Marka, kiraz ve baharatlı aromaların birleşimiyle tanınır ve özellikle Amerika Birleşik Devletleri'nde satılmaktadır. Pibb Xtra, Coca-Cola'nın niş gazlı içecek portföyünün bir parçasıdır.`,
      website: "https://www.coca-cola.com/us/en/brands/pibb-xtra",
      img: "/pibb-xtra.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Pibb Xtra'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Pibb Xtra, kökeni 1972 yılında The Coca-Cola Company tarafından "Mr. Pibb" adıyla piyasaya sürülen içeceğe dayanan, "baharatlı kiraz" (spicy cherry) aromalı özgün bir gazlı içecektir. Rakibi Dr Pepper'a doğrudan bir alternatif olarak geliştirilen bu ürün, meyvemsi tatlılığı ve aromatik baharat notalarını dengeleyen formülüyle sadık bir hayran kitlesi oluşturmuştur. Başlangıçta sadece belirli bölgelerde sunulan içecek, zamanla Amerikan fast-food kültürünün tanınan lezzetlerinden biri haline gelmiştir.
+
+2001 yılında marka stratejisinde köklü bir değişikliğe gidilerek ismi "Pibb Xtra" olarak güncellenmiş ve formülü "daha cesur" (extra bold) bir lezzet deneyimi sunacak şekilde yenilenmiştir. Bu yeniden markalama süreciyle daha modern ve enerjik bir imaj kazanan Pibb Xtra, market raflarından ziyade sinema ve restoranlardaki içecek otomatlarında (fountain machine) yaygın olarak bulunmasıyla bilinir. Coca-Cola'nın "lezzet odaklı" gazlı içecek portföyünün kült statüsündeki üyelerinden biridir.`,
+     boycottReason: `Pibb Xtra markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Pibb Xtra markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -12012,18 +11958,19 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      ctgry: "İçecek",
      country: "ABD",
      founder: "Mark Rampolla",
+     foundedYear: 2004,
      owner: "Coca-Cola Company",
-     description: `Zico, The Coca-Cola Company'nin sahip olduğu bir hindistan cevizi suyu markasıdır. 2004 yılında kurulmuş olan marka, doğal hindistan cevizi suyunu popülerleştirme misyonuyla başlamıştır. Zico, elektrolitler, potasyum ve doğal içerikler içeren sağlıklı bir içecek alternatifi olarak pazarlanmaktadır. Coca-Cola, 2013 yılında Zico'nun çoğunluk hissesini satın almıştır. Ancak, pazar performansı nedeniyle Coca-Cola, 2021 yılında Zico markasını ABD pazarından çekme kararı almıştır. Marka, bazı uluslararası pazarlarda hala bulunabilmektedir.`,
      website: "https://zico.com/",
      img: "/zico.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Zico'nun sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Zico, 2004 yılında Mark Rampolla tarafından Orta Amerika seyahati sırasında keşfedilen taze hindistan cevizi suyunun potansiyelini global pazara taşıma vizyonuyla kurulan bir markadır. "Doğanın Spor İçeceği" olarak konumlandırılan Zico, ilave şeker veya yapay tatlandırıcı içermeyen, potasyum ve magnezyum gibi doğal elektrolitler bakımından zengin yapısıyla sağlıklı yaşam tutkunlarının vazgeçilmezi haline gelmiştir. Hindistan cevizlerinin en taze olduğu Tayland ve diğer tropikal bölgelerden elde edilen sularla üretilen marka, hidrasyon ihtiyacını doğal yollarla karşılamayı hedefler.
+
+The Coca-Cola Company'nin "Venturing and Emerging Brands" (Girişim ve Gelişen Markalar) birimi tarafından potansiyeli fark edilerek aşamalı olarak satın alınan Zico, şirketin gazlı içeceklerden uzaklaşarak sağlıklı alternatiflere yönelme stratejisinin en önemli sembollerinden biri olmuştur. Coca-Cola'nın dağıtım gücüyle dünya genelinde yoga stüdyolarından süpermarket raflarına kadar geniş bir alana yayılan marka, çikolatalı ve meyveli varyasyonlarıyla da hindistan cevizi suyu kategorisinin büyümesine öncülük etmiştir.`,
+     boycottReason: `Zico markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Zico markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "hamidiye",
       "beysu",
       "sultan",
-
       "buzdagi",
       "kizilay",
       "ozkaynak",
@@ -12039,13 +11986,14 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1966,
      founder: "Yerel Güney Afrika Girişimciler",
      owner: "Coca-Cola Company",
-     description: `Appletiser, Güney Afrika menşeli gazlı elma suyu markasıdır. 1966 yılında Güney Afrika'da kurulan marka, %100 elma suyundan yapılan karbonatlandırılmış bir içecektir. Appletiser, yapay tatlandırıcı veya koruyucu madde içermemesiyle tanınır ve premium bir gazlı meyve suyu olarak konumlandırılmıştır. Marka, 2007 yılında Coca-Cola tarafından satın alınmıştır. Appletiser, Birleşik Krallık, Avustralya ve Orta Doğu gibi birçok uluslararası pazarda satılmaktadır ve Coca-Cola'nın premium içecek portföyünün bir parçasıdır.`,
      country: "ABD",
      website: "https://www.appletiser.com/",
      img: "/appletiser.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Appletiser'ın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Appletiser, 1966 yılında Edmond Lombardi tarafından Güney Afrika'nın ünlü elma yetiştiriciliği bölgesi Elgin Vadisi'nde yaratılan ve "meyve sularının şampanyası" olarak anılan premium bir gazlı içecektir. %100 saf elma suyunun hafifçe karbonatlandırılmasıyla elde edilen bu özel içecek, hiçbir ilave şeker, koruyucu madde veya renklendirici içermez. Zarif yeşil cam şişesi ve sofistike tadıyla, özellikle özel davetlerde ve yemeklerde alkolsüz, şık bir kutlama içeceği alternatifi olarak dünya çapında ün kazanmıştır.
+
+The Coca-Cola Company'nin küresel portföyüne katılmasıyla birlikte dağıtım ağını genişleten Appletiser, sadece Güney Afrika'nın değil, İngiltere'den Avustralya'ya kadar pek çok pazarın lüks meşrubat kategorisinde lider konuma gelmiştir. Marka, zaman içinde kırmızı üzüm ve beyaz üzüm (Grapetiser) gibi çeşitleri de ürün gamına ekleyerek, "Anı Taçlandır" (Crown the Moment) sloganıyla tüketicilere kaliteli ve doğal bir içim deneyimi sunmaya devam etmektedir.`,
+     boycottReason: `Appletiser markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Appletiser markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -12061,13 +12009,14 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1980,
      founder: "Yerel Suudi Arabistan Girişimciler",
      owner: "Coca-Cola Company",
-     description: `Rani, Orta Doğu pazarında popüler olan bir meyve suyu ve nektarı markasıdır. 1980'li yıllarda Suudi Arabistan'da kurulan marka, çeşitli tropikal ve yerel meyve aromalı içecekler sunmaktadır. Rani, özellikle Körfez ülkeleri ve Orta Doğu bölgesinde güçlü bir varlığa sahiptir. Marka, 2005 yılında Coca-Cola tarafından satın alınmıştır. Rani, mango, guava, ananas ve karışık meyve gibi çeşitli lezzetler sunarak bölgenin damak tadına hitap etmektedir. Coca-Cola'nın bölgesel meyve suyu portföyünün önemli bir parçasıdır.`,
      country: "ABD",
      website: "https://www.coca-cola.com/mea/en/brands/rani",
      img: "/rani.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Rani'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Rani, 1982 yılında Orta Doğu pazarında bir yenilik olarak ortaya çıkan ve özellikle içinde gerçek meyve parçacıkları bulunduran "Rani Float" serisiyle efsaneleşen bir meyve suyu markasıdır. Tüketicilere içeceği içerken aynı zamanda meyve yeme deneyimi de sunan bu özgün dokusu, markayı Körfez ülkeleri başta olmak üzere Orta Doğu, Kuzey Afrika ve Güney Asya bölgelerinde pazar lideri konumuna taşımıştır. Şeftali, portakal, mango ve ananas gibi zengin meyve çeşitliliği, bölgenin damak tadına özel olarak geliştirilmiştir.
+
+Markanın sahibi olan Aujan Industries ile The Coca-Cola Company arasında kurulan stratejik ortaklık (Rani Refreshments) sayesinde Rani, yerel bir başarı hikayesinden global bir güce dönüşmüştür. Bu ortaklık, Coca-Cola'nın teknik uzmanlığı ve dağıtım ağıyla Rani'nin yerel pazar bilgisini birleştirerek markayı 50'den fazla ülkede milyonlarca tüketiciyle buluşturmaktadır. Rani, bugün Coca-Cola sisteminin meyve suyu kategorisindeki en güçlü bölgesel varlıklarından biridir.`,
+     boycottReason: `Rani markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Rani markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -12083,13 +12032,14 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1950,
      founder: "Yerel Meksika Girişimciler",
      owner: "Coca-Cola Company",
-     description: `Del Valle, Latin Amerika'da popüler olan bir meyve suyu ve nektar markasıdır. 1950'li yıllarda Meksika'da kurulan marka, çeşitli tropikal ve yerel meyve aromalarıyla geniş bir ürün yelpazesi sunmaktadır. Del Valle, özellikle Meksika, Brezilya ve diğer Latin Amerika ülkelerinde güçlü bir pazar payına sahiptir. Coca-Cola, 2007 yılında Del Valle markasını satın almıştır. Marka, portakal, elma, mango, şeftali ve karışık meyve gibi çeşitli lezzetlerde meyve suları ve nektarlar üretmektedir. Coca-Cola'nın Latin Amerika pazarındaki en önemli meyve suyu markalarından biridir.`,
      country: "ABD",
      website: "https://www.coca-cola.com/mx/es/brands/del-valle",
      img: "/del-valle.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Del Valle'nin sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Del Valle, kökleri 1947 yılına dayanan ve Meksika'da "Jugos del Valle" adıyla kurulan, Latin Amerika'nın en ikonik ve güvenilir meyve suyu markalarından biridir. Bölgenin bereketli topraklarında yetişen meyveleri, besleyici ve lezzetli içeceklere dönüştürme vizyonuyla yola çıkan marka, yıllar içinde sadece Meksika'da değil, Brezilya'dan Kolombiya'ya kadar tüm kıtada kahvaltı sofralarının vazgeçilmezi haline gelmiştir. Mango, guava, şeftali ve portakal gibi yerel damak tadına uygun zengin meyve nektarlarıyla tanınan Del Valle, nesiller boyu süren bir kalite algısına sahiptir.
+
+2007 yılında The Coca-Cola Company ve Latin Amerika'daki şişeleme ortağı Coca-Cola FEMSA tarafından stratejik bir hamleyle satın alınan marka, Coca-Cola'nın küresel portföyünde "milyar dolarlık marka" statüsüne ulaşan ender isimlerden biridir. Bu satın alma, markanın yerel ruhunu koruyarak üretim kapasitesini ve dağıtım ağını devasa boyutlara taşımasını sağlamıştır. Bugün Del Valle, modern beslenme trendlerine uygun olarak yenilenen formülleri ve sürdürülebilir tarım uygulamalarına verdiği destekle, Coca-Cola'nın meyve suyu kategorisindeki amiral gemisi olarak faaliyetlerini sürdürmektedir.`,
+     boycottReason: `Del Valle markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Del Valle markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
       "juss",
       "dimes",
@@ -12105,16 +12055,15 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1977,
      founder: "Ramesh Chauhan",
      owner: "Coca-Cola Company",
-     description: `Thums Up, Hindistan'da en popüler kola markalarından biridir. 1977 yılında Hindistan'da kurulan marka, güçlü aroması ve tatlı tadıyla bilinir. Thums Up, "Hindistan'ın Tadı" sloganıyla pazarlanmaktadır. Coca-Cola, 1993 yılında Thums Up markasını satın almıştır ve markayı Hindistan pazarında başarılı bir şekilde sürdürmüştür. Thums Up, Hindistan'da Coca-Cola'dan bile daha popüler bir kola markasıdır ve Coca-Cola'nın yerel pazarlara uyum sağlama stratejisinin önemli bir örneğidir.`,
      country: "ABD",
      website: "https://www.coca-cola.com/in/en/brands/thums-up",
      img: "/thums-up.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Thums Up'un sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     description: `Thums Up, 1977 yılında Coca-Cola'nın Hindistan pazarından çekilmek zorunda kalmasının ardından oluşan boşluğu doldurmak için yerel girişimciler tarafından yaratılan efsanevi bir kola markasıdır. Standart kolalara kıyasla daha yoğun karbonasyonu, daha baharatlı ve keskin tadıyla bilinen içecek, "Taste the Thunder" (Gök gürültüsünü tat) sloganıyla erkeksi ve maceracı bir imaj çizerek kısa sürede Hindistan'ın milli içeceği konumuna yükselmiştir. Hint damak tadının baharatlı lezzetlere olan yatkınlığına mükemmel uyum sağlayan bu formül, markayı rakiplerinden ayıran en belirgin özelliktir.
+
+1993 yılında Coca-Cola'nın Hindistan pazarına geri dönmesiyle birlikte stratejik olarak satın alınan Thums Up, genellikle global markaların yerel markaları yutup yok ettiği senaryoların aksine, popülaritesini koruyarak büyümeye devam etmiştir. Coca-Cola Company, bu markanın gücünü fark ederek onu ana markası Coca-Cola'nın yanında ayrı bir kulvarda konumlandırmış ve desteklemiştir. Bugün hala Hindistan pazarında Coca-Cola'dan daha yüksek pazar payına sahip olan Thums Up, şirketin yerel kültüre uyum başarısının en büyük kanıtı olarak kabul edilmektedir.`,
+     boycottReason: `Thums Up markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Thums Up markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -12127,16 +12076,15 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1935,
      founder: "José Robinson Lindley",
      owner: "The Coca-Cola Company (%50 hisse)",
-     description: `Inca Kola, Peru'nun ulusal gazlı içeceği olarak kabul edilen ve ülkede Coca-Cola'dan bile daha popüler olan bir markadır. 1935 yılında Peru'da kurulan marka, parlak sarı rengi ve tatlı, meyvemsi tadıyla bilinir. Inca Kola, Peru kültürünün önemli bir parçasıdır ve ülkede güçlü bir marka sadakatine sahiptir. Coca-Cola, 1999 yılında Inca Kola'nın %50 hissesini satın almış ve markayı Peru pazarında başarılı bir şekilde sürdürmüştür. Inca Kola, Coca-Cola'nın yerel markaları koruma stratejisinin en iyi örneklerinden biridir.`,
+     description: `Inca Kola, 1935 yılında İngiliz göçmen José Robinson Lindley tarafından Lima'da yaratılan ve Peru'nun kültürel kimliğiyle özdeşleşmiş efsanevi bir gazlı içecektir. "Altın Kola" olarak da bilinen içecek, parlak sarı rengini ve kendine has aromasını yerel bir bitki olan "Limon Otu"ndan (Lemon Verbena/Hierba Luisa) alır. Bubblegum veya krem soda'yı andıran tatlı lezzetiyle Peru mutfağının (özellikle Chifa yemeklerinin) ayrılmaz bir parçası olan Inca Kola, ulusal gurur kaynağı olarak kabul edilir.
+
+Global pazarda nadir görülen bir başarı hikayesine sahip olan marka, kendi ülkesinde Coca-Cola'yı satış rakamlarında geride bırakan tek yerel gazlı içecek olma özelliğini taşır. Bu rekabeti satın alma yoluyla çözmeyi tercih eden The Coca-Cola Company, 1999 yılında markanın hisselerinin %50'sini satın alarak stratejik bir ortaklığa gitmiştir. Bu sayede Inca Kola, yerel ruhunu ve üretim haklarını korurken Coca-Cola'nın dağıtım ağıyla uluslararası pazarlara açılma fırsatı bulmuştur.`,
      country: "ABD",
      website: "https://www.coca-cola.com/pe/es/brands/inca-kola",
      img: "/inca-kola.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Inca Kola'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Inca Kola markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Inca Kola markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -12149,16 +12097,15 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1971,
      founder: "Ramesh Chauhan",
      owner: "Coca-Cola Company",
-     description: `Limca, Hindistan'da popüler olan limon aromalı bir gazlı içecek markasıdır. 1971 yılında Hindistan'da piyasaya sürülen marka, ferahlatıcı limon tadı ve berrak rengiyle bilinir. Limca, "Fresh Ho Jaao" (Tazelenin) sloganıyla pazarlanmaktadır. Coca-Cola, 1993 yılında Limca markasını satın almıştır ve markayı Hindistan pazarında başarılı bir şekilde sürdürmüştür. Limca, Hindistan'da en çok satılan limon aromalı gazlı içeceklerden biridir ve Coca-Cola'nın yerel portföyünde önemli bir yer tutar.`,
+     description: `Limca, 1971 yılında Hindistan'da piyasaya sürülen ve bulanık (cloudy) limon-misket limonu aromasıyla sıcak iklimin vazgeçilmez serinleticisi haline gelen köklü bir gazlı içecek markasıdır. Sprite veya 7Up gibi şeffaf gazozlardan farklı olarak daha keskin ve ferahlatıcı bir "yapay kireç" tadına sahip olan Limca, susuzluğu giderme konusundaki iddiasıyla bilinir. Marka, yıllar boyunca yayınladığı reklam kampanyaları ve canlı, enerjik imajıyla Hindistan popüler kültüründe önemli bir yer edinmiştir.
+
+1993 yılında The Coca-Cola Company'nin Hindistan pazarına dönüşüyle birlikte, Thums Up ve Maaza ile birlikte satın alınan stratejik markalardan biri olan Limca, şirketin yerel portföyündeki gücünü korumaktadır. Coca-Cola çatısı altında olmasına rağmen kendi özgün kimliğini ve tüketici kitlesini muhafaza eden marka, "Limca Rekorlar Kitabı" gibi kültürel sponsorluklarıyla da tanınmakta ve Hindistan'ın en çok tüketilen limonlu gazlı içeceklerinden biri olmayı sürdürmektedir.`,
      country: "ABD",
      website: "https://www.coca-cola.com/in/en/brands/limca",
      img: "/limca.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Limca'nın sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Limca markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Limca markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
@@ -12171,19 +12118,363 @@ Apollinaris markası, uluslararası içecek devi olan The Coca-Cola Company'nin 
      foundedYear: 1950,
      country: "ABD",
      owner: "Coca-Cola Company",
-     description: `Lift, Coca-Cola şirketine ait sitrus aromalı gazlı içecek markasıdır. İlk olarak 1950'li yıllarda Avustralya'da piyasaya sürülen marka, özellikle limon aromalı ferahlatıcı meyveli gazoz kategorisinde konumlanmaktadır. Lift, Avustralya, Yeni Zelanda ve Pasifik adaları başta olmak üzere belirli pazarlarda satışa sunulmaktadır. 
-         Marka, hafif ve ferahlatıcı tadı ile Coca-Cola'nın geniş ürün portföyü içinde alternatif bir seçenek sunmaktadır. Genellikle sarı renkli ambalajı ile tanınan Lift, sitrus severlere hitap eden bir gazoz markasıdır.`,
+     description: `Lift, The Coca-Cola Company tarafından üretilen ve özellikle Avustralya, Yeni Zelanda, Latin Amerika ve Almanya gibi pazarlarda güçlü bir geçmişe sahip olan meyve aromalı gazlı içecek markasıdır. Genellikle limon aromasıyla özdeşleşmiş olsa da, bölgesel farklılıklara göre elma, greyfurt ve şeftali gibi çeşitleri de bulunmaktadır. Lift, Sprite gibi markalardan farklı olarak, daha olgun damak tatlarına hitap eden, meyve suyunun doğal asiditesini hissettiren daha keskin ve tok bir içim deneyimi sunar.
+
+İçeriğinde genellikle gerçek meyve suyu konsantresi barındıran Lift, bu özelliğiyle "sadece şekerli gazoz" algısından sıyrılarak daha premium bir meyveli soda alternatifi olarak konumlanmıştır. Özellikle Avustralya pazarında uzun yıllar "tek limonlu içecek" olarak hüküm süren marka, kokteyllerde mikser olarak da sıkça tercih edilmektedir. Coca-Cola'nın küresel stratejileri doğrultusunda bazı pazarlarda "Fanta" çatısı altına alınsa veya isim değiştirse de, Lift markası tüketicilerin zihninde ferahlatıcı limon tadıyla yer etmiştir.`,
      website: "https://www.coca-cola.com/nz/en/brands/lift",
      img: "/lift.png",
      isBoycotted: "boykot",
-     boycottReason:
-      "Lift'in sahibi Coca-Cola boykot olduğu için bu marka da boykottur. Boykot nedenini öğrenmek istiyorsanız üst marka ismine (Coca-Cola) gidiniz.",
+     boycottReason: `Lift markası, Coca-Cola Company bünyesinde faaliyet gösteren bir markadır. Coca-Cola Company'nin İsrail'deki yatırımları, askeri birliklere sağladığı destek iddiaları ve İsrail'e verdiği destekler nedeniyle, Coca-Cola Company bünyesindeki tüm markalar boykot kapsamına alınmıştır. Coca-Cola Company'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Coca-Cola Company'ye ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Lift markası da bu kapsamda boykot listesinde yer almaktadır.`,
      alternative_products: [
-      "cola-turka",
-      "camlica",
       "uludag",
       "zafer-gazoz",
       "dirilis",
+     ],
+    },
+    {
+     name: "JAB Holding Company",
+     slug: "jab-holding-company",
+     ctgry: "Şirket",
+     foundedYear: 1828,
+     founder: "Ludwig Reimann ve Johann Benckiser",
+     owner: "Reimann Ailesi (%90+)",
+     description: `JAB Holding Company, 1828 yılında Almanya'da Johann Adam Benckiser tarafından bir kimya şirketi olarak temelleri atılan, ancak zamanla Ludwig Reimann'ın katılımıyla küresel bir tüketim malları devine dönüşen devasa bir konglomerattır. Merkezi Lüksemburg'da bulunan şirket, Reimann ailesinin özel yatırım aracı olarak faaliyet göstermekte ve dünya genelinde çok sayıda sektörde varlık göstermektedir. Şirketin %90'dan fazlası Reimann ailesi tarafından kontrol edilmektedir.
+   
+Yıllar içinde agresif satın alma stratejileriyle büyüyen holding; kahve, lüks moda, hayvan sağlığı, kozmetik ve fast food gibi farklı sektörlerde devasa bir portföye sahiptir. JDE Peet's (Jacobs, Douwe Egberts), Keurig Dr Pepper, Krispy Kreme, Panera Bread, Pret A Manger, Caribou Coffee, Einstein Bros. Bagels ve Coty gibi dünya çapında tanınan yüzlerce markanın çoğunluk hissesine sahiptir. Özellikle 2010'lu yıllarda Mondelēz International'ın kahve birimini satın alarak dünyanın en büyük kahve imparatorluklarından birini kurmuş ve küresel kahve pazarında dominant bir konuma gelmiştir.
+   
+Şirket, finansal gücünün yanı sıra tarihsel geçmişiyle de sık sık gündeme gelmiştir. 2019 yılında Reimann ailesi, bağımsız bir tarihçi komisyonu tarafından hazırlanan rapor sonrasında atalarının Nazi rejimiyle olan bağlantılarını ve II. Dünya Savaşı sırasında zorla işçi çalıştırma uygulamalarını kamuoyu önünde kabul etmiştir. Aile, bu karanlık geçmişle yüzleşmek ve toplumsal sorumluluk almak adına Holokost kurbanlarını anan projelere ve araştırma kurumlarına on milyonlarca avroluk büyük bağışlar yapmış ve tarihsel hesap verme sürecine destek vermiştir.`,
+     country: "Almanya",
+     website: "https://www.jabholco.com/",
+     img: "/jab-holding-company.png",
+     isBoycotted: "boykot",
+     boycottReason: `Bu holding, Almanya kökenli ve Lüksemburg merkezli devasa bir yabancı sermaye grubudur. Türkiye'nin ekonomik bağımsızlığını güçlendirmek, yerli üretimi desteklemek, yerel istihdamı korumak ve ulusal sermayenin ülke içinde kalmasını sağlamak amacıyla, bu tür büyük çok uluslu konglomeratların ürünleri yerine yerli ve milli alternatiflerin tercih edilmesi önerilmektedir. Yabancı sermaye yapıları, elde ettikleri karları yurt dışına transfer ederek ulusal ekonomiden değer çıkarmakta, yerli üreticilerin pazar payını daraltmakta ve ekonomik bağımlılığı artırmaktadır. Tüketici tercihlerinin yerli markalara yönelmesi, hem ekonomik egemenliğe katkı sağlayacak hem de yerel üretim kapasitesinin güçlenmesine destek olacaktır.`,
+     alternative_products: [],
+     subBrands: [
+      {
+       name: "Dr. Pepper",
+       slug: "pepper",
+       ctgry: "İçecek",
+       foundedYear: 1885,
+       founder: "Charles Alderton",
+       owner: "Keurig Dr Pepper (JAB Holding (%27))",
+       description: `Dr Pepper, 1885 yılında Waco, Teksas'ta eczacı Charles Alderton tarafından geliştirilen ve Amerika Birleşik Devletleri'nin en eski ve en ikonik gazoz markalarından biri olan köklü bir içecek markasıdır. Marka, ilk piyasaya sürüldüğünde diğer geleneksel gazozlardan (kola ve kök bira gibi) köklü bir şekilde farklı olarak 23 ayrı meyve ve bitki aromasının gizli ve özel karışımıyla formüle edilmiş ve bu eşsiz, gizemli ve taklit edilemez lezzet profili sayesinde hızla popülerlik kazanmıştır. Dr Pepper'ın kendine özgü aroması, tatlı ve hafif baharatlı karmaşık tadıyla tanımlanır ve bu özgünlük markayı Amerikan gazoz kültürünün ayırt edici sembollerinden biri haline getirmiştir.
+     
+  19. yüzyılın sonlarından bu yana varlığını sürdüren Dr Pepper, 20. yüzyıl boyunca çeşitli şirketler tarafından üretilmiş ve dağıtılmıştır. 1970'lerden itibaren Cadbury Schweppes bünyesine katılan marka, daha sonra 2008 yılında Cadbury Schweppes'in içecek bölümünün ayrılmasıyla Dr Pepper Snapple Group adıyla bağımsız bir şirket haline gelmiştir. 2018 yılında ise Keurig Green Mountain ile birleşerek Keurig Dr Pepper şirketini oluşturmuştur. Günümüzde ABD'de ve dünya genelinde Keurig Dr Pepper tarafından üretilip dağıtılan Dr Pepper, Almanya kökenli JAB Holding'in kontrol ettiği Keurig Dr Pepper'ın en önemli ve karlı markalarından biridir. Markanın uluslararası dağıtımı ve lisanslama anlaşmaları bölgelere göre değişiklik göstermekte olup, bazı ülkelerde Coca-Cola veya PepsiCo gibi yerel bottler'lar aracılığıyla da satışa sunulmaktadır. Dr Pepper Diet, Dr Pepper Cherry, Dr Pepper Zero Sugar gibi çeşitli varyantlarıyla geniş bir tüketici kitlesine hitap etmektedir.`,
+       country: "ABD",
+       website: "https://drpepper.store/",
+       img: "/pepper.png",
+       isBoycotted: "boykot",
+       boycottReason: `Bu markanın boykot edilmesinin birincil nedeni, ana şirketi olan Keurig Dr Pepper'ın Almanya kökenli JAB Holding tarafından kontrol edilmesidir. JAB Holding'in sahipleri olan Reimann ailesi, Alfred Landecker Vakfı aracılığıyla İsrail'e çeşitli yatırımlar ve destekler sağlamaktadır. Bu vakıf, İsrail'deki akademik kurumlar, araştırma projeleri ve çeşitli sosyal girişimlere finansal destek vermekte ve dolaylı olarak İsrail ekonomisine katkıda bulunmaktadır. Filistin davasına destek veren ve İsrail'in işgalci politikalarına karşı duran bilinçli tüketiciler, bu bağlantılar nedeniyle markayı boykot etmektedir. Ayrıca, yabancı sermayeli bir ürün olması nedeniyle elde edilen karların yurt dışına transfer edilmesi, ulusal ekonomilerden değer çıkışı anlamına gelmektedir. Hem yerli üretimi desteklemek hem de etik değerlerimize uygun bir tüketim anlayışı benimsemek adına, yerli ve milli gazoz ve meşrubat alternatiflerinin tercih edilmesi önerilmektedir.`,
+       alternative_products: ["kristal", "uludag", "zafer-gazoz", "dirilis"],
+       evidences: ["https://www.alfredlandecker.org/en/article/the-story-of-the-alfred-landecker-foundation"],
+       subBrands: [
+        {
+         name: "RC Cola",
+         slug: "rc-cola",
+         ctgry: "İçecek",
+         foundedYear: 1905,
+         founder: "Claude A. Hatcher",
+         owner: "Keurig Dr Pepper (ABD), Cott Corporation (Uluslararası)",
+         description: `RC Cola (Royal Crown Cola), 1905 yılında Claude A. Hatcher tarafından Amerika Birleşik Devletleri'nin Columbus, Georgia şehrinde geliştirilen, kola aromalı klasik bir meşrubattır. RC Cola, 1950'lerde alüminyum kutuda meşrubat satan ilk şirketlerden biri olmuş ve Diet Rite Cola ile kafeinsiz RC 100 gibi yenilikçi ürünleri piyasaya sunmuştur. 
+      
+  Günümüzde RC Cola, ABD’de Keurig Dr Pepper tarafından, uluslararası alanda ise Cott Corporation tarafından pazarlanmaktadır. 2008 yılında Royal Crown operasyonları Dr Pepper Snapple Group’a dahil edilmiş, 2018’de ise DPSG Keurig Green Mountain ile birleşerek markanın günümüzdeki sahibi olan Keurig Dr Pepper oluşmuştur. RC Cola, hem tarihsel önemi hem de kendine özgü tadıyla kola pazarında tanınan ve tercih edilen bir markadır.`,
+         country: "ABD",
+         website: "https://rccolainternational.com/",
+         img: "/rc-cola.png",
+         isBoycotted: "boykot",
+         boycottReason: `RC Cola, sahip olduğu büyük şirketler nedeniyle boykot listelerinde yer almaktadır. Markanın sahibi olan Keurig Dr Pepper (ABD) ve uluslararası distribütörü Cott Corporation'ın İsrail ile doğrudan veya dolaylı ticari ve ekonomik bağları olduğu iddia edilmektedir. 
+      
+      Bu bağlantılar, bazı tüketiciler tarafından markanın tercih edilmemesi gerektiği şeklinde yorumlanmakta ve boykot çağrılarına yol açmaktadır. RC Cola, bağlı olduğu şirketlerin politik ve ticari duruşları nedeniyle boykot listelerinde yer almakta olup, alternatif ürünler tercih edenler tarafından genellikle göz ardı edilmektedir.`,
+         alternative_products: [
+          "uludag",
+          "zafer-gazoz",
+          "dirilis",
+         ],
+        },
+       ],
+      },
+      {
+       name: "JDE Peet's NV",
+       slug: "jde-peets-nv",
+       ctgry: "Şirket",
+       foundedYear: 2015,
+       founder: "JAB Holding (Birleşmeyi yöneten ana şirket)",
+       owner: "JAB Holding Şirketi (%68)",
+       description: `JDE Peet's NV, merkezi Amsterdam'da bulunan ve kökleri 1753 yılına dayanan Hollandalı Douwe Egberts markasına uzanan, dünyanın en büyük kahve ve çay şirketlerinden biridir. Şirket, 2015 yılında Mondelēz International'ın küresel kahve bölümü ile Douwe Egberts Master Blenders'ın birleşmesiyle kurulmuş, 2019 yılında ise Amerika'nın köklü specialty coffee markası Peet's Coffee ile birleşerek bugünkü dev yapısına kavuşmuştur. Bu birleşme sonrasında şirket adını JDE Peet's olarak değiştirmiş ve küresel kahve endüstrisinde Nestlé'den sonra ikinci sıraya yükselmiştir.
+   
+Dünyanın dört bir yanında 140'tan fazla ülkede faaliyet gösteren JDE Peet's, portföyünde Jacobs, Douwe Egberts, L'OR, Senseo, Tassimo, Moccona, Kenco, Pickwick, Peet's Coffee, Gevalia ve Pilão gibi 50'den fazla ikonik markayı barındırmaktadır. Şirket, kahve ve çay ürünlerinin yanı sıra sıcak çikolata ve diğer sıcak içecek çözümleri de sunmaktadır. Ürün yelpazesi filtre kahve, çekirdek kahve, instant kahve, kapsül kahve ve çay çeşitlerini kapsamaktadır.
+   
+2020 yılında Euronext Amsterdam borsasında halka arz edilen şirketin %68'lik çoğunluk hissesi Alman yatırım grubu JAB Holding'e aittir. 2024 yılında Mondelēz International, şirketteki kalan azınlık hisselerini de JAB Holding'e satarak ortaklıktan tamamen çekilmiş ve böylece JAB Holding'in kontrolü daha da güçlenmiştir. Şirket, yıllık 3 milyar avro üzerinde gelir elde etmekte ve 20 binden fazla çalışanı bulunmaktadır.`,
+       country: "Almanya",
+       website: "https://www.jdepeets.com/",
+       img: "/jde-peet.png",
+       isBoycotted: "boykot",
+       boycottReason: `Bu şirket, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+       alternative_products: [],
+       subBrands: [
+        {
+         name: "Maxwell House",
+         slug: "maxwell-house",
+         foundedYear: 1892,
+         ctgry: "İçecek",
+         founder: "Joel Owsley Cheek",
+         owner: "JDE Peet's (Diğer) & Kraft Heinz Company (Kuzey Amerika)",
+         country: "Almanya",
+         img: "/maxwell-house.png",
+         isBoycotted: "boykot",
+         website: "https://www.maxwellhousecoffee.com/",
+         description: `Maxwell House, 1892 yılında Joel Owsley Cheek tarafından kurulan ve Amerika'nın en köklü kahve markalarından biri olarak bilinen bir markadır. Adını ilk büyük müşterisi olan Nashville, Tennessee’deki Maxwell House Oteli’nden alan marka, kısa sürede Amerikan kahve kültürünün simgelerinden biri haline gelmiştir. Maxwell House ürün yelpazesi, öğütülmüş kahve (Ground Coffee) ve çeşitli harmanlar (Breakfast Blend - Mild, Medium, Dark) gibi seçeneklerle kahve tutkunlarına sunulmaktadır.
+      
+Marka, Kuzey Amerika’da Kraft Heinz, dünyanın geri kalanında ise JDE Peet's NV tarafından yönetilmektedir. Maxwell House’un ünlü sloganı "Good to the last drop" ("Son damlasına kadar iyi") genellikle logolarda ve paket etiketlerinde yer almakta olup, kalite ve güvenilirlik algısını pekiştirmektedir. Günümüzde Maxwell House, hem ev kullanıcıları hem de kafe ve restoran işletmeleri tarafından tercih edilen köklü bir kahve markasıdır.
+         
+Maxwell House, global kahve pazarında uzun yıllardır faaliyet göstermesine rağmen, sahip olduğu çatı şirketlerin bazı ticari bağlantıları nedeniyle boykot çağrılarıyla karşı karşıyadır. Bu durum, markanın uluslararası tüketici bilinci açısından dikkat edilmesi gereken bir unsur olarak öne çıkmaktadır.`,
+         boycottReason: `Maxwell House, sahip olduğu çatı şirketler nedeniyle boykot listelerinde yer almaktadır. Dünyanın geri kalanında markanın sahibi olan JDE Peet's NV'nin hisselerinin bir kısmı, İsrail'deki gıda girişimlerine yatırım yapan Mondelez International ve ticari bağları olduğu iddia edilen JAB Holding Company S.à r.l.'ye aittir. Bu durum, markanın dolaylı yoldan İsrail ile ilişkili şirketlerle bağlantılı olduğunu göstermektedir.
+    
+Kuzey Amerika’daki sahibi Kraft Heinz da İsrail ile olan ticari ve ekonomik bağlantıları nedeniyle eleştirilmektedir. Bu iki çatı şirketin politik ve ticari duruşları, Maxwell House markasının boykot listelerinde yer almasına yol açmaktadır. Tüketiciler, bu bağlamda markayı boykot ederek tepkilerini göstermektedirler.`,
+         alternative_products: [""],
+         evidences: ["https://www.ynetnews.com/business/article/3832858"],
+        },
+        {
+         name: "Tassimo",
+         slug: "tassimo",
+         foundedYear: 2004,
+         ctgry: "İçecek",
+         founder: "Kraft Foods",
+         owner: "JDE Peet's (Diğer) & Kraft Heinz Company (Kuzey Amerika)",
+         description: `Tassimo, 2004 yılında Kraft Foods tarafından geliştirilen ve dünya çapında faaliyet gösteren bir kapsül kahve sistemidir. Marka, özellikle çeşitlilik ve esneklik açısından öne çıkmakta ve sadece kahve değil, aynı zamanda çay, sıcak çikolata ve diğer sıcak içecek seçenekleri de sunmaktadır.
+      
+Tassimo, kapsül kahve kategorisinde önemli bir konuma sahiptir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, gelişmiş kavurma teknikleri uygulamakta ve her kapsülde tutarlı bir lezzet garantisi sunmaktadır. Tassimo, çeşitli kavurma profilleri ve harmanlar sunmakta ve farklı zevklere hitap eden geniş bir ürün yelpazesi sunmaktadır.
+      
+Markanın en önemli özelliklerinden biri, Bosch tarafından geliştirilen özel Tassimo makineleridir. Bu makineler, her kapsülün üzerindeki barkodları okuyarak otomatik olarak doğru sıcaklık, basınç ve hazırlama süresini ayarlamaktadır. Bu teknoloji, mükemmel bir içecek deneyimi sunmak için özel olarak tasarlanmıştır.
+      
+Tassimo makineleri, modern tasarımları ve kullanıcı dostu özellikleriyle dikkat çekmektedir. Her makine, kolay kullanım, hızlı hazırlama ve temizlik kolaylığı gibi özelliklerle donatılmıştır. Makineler, hem ev kullanımı hem de küçük ofisler için ideal boyutlarda üretilmektedir.
+      
+Marka, sadece kahve değil, aynı zamanda çeşitli sıcak içecek seçenekleri sunmaktadır. Tassimo, espresso, cappuccino, latte, çay, sıcak çikolata ve diğer özel içecekler için kapsüller sunmaktadır. Bu yaklaşım, tüketicilere tek bir makine ile geniş bir içecek yelpazesi sunmaktadır.
+      
+Tassimo, 2015 yılında Kraft Foods'un kahve bölümünün ayrılmasıyla Jacobs Douwe Egberts (JDE) çatısı altına geçmiştir. JDE, dünyanın en büyük kahve şirketlerinden biridir ve Tassimo'nun yanı sıra Jacobs, Douwe Egberts, Senseo ve diğer önemli kahve markalarına da sahiptir.
+      
+Ancak, Tassimo markası, Jacobs Douwe Egberts çatısı altında faaliyet göstermektedir ve şirketin İsrail ile ikili ticari ilişkileri ve destekleri gerekçe gösterilerek boykot edilmektedir. JDE'nin İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, Tassimo ürünlerinin satın alınması önerilmemektedir.`,
+         country: "Almanya",
+         website: "https://www.tassimo.com/",
+         img: "/tassimo.webp",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+        },
+        {
+         name: "Onko Kaffee",
+         slug: "onko",
+         ctgry: "İçecek",
+         foundedYear: 1954,
+         founder: "Hermann Onko",
+         owner: "JDE Peet's NV",
+         description: `Onko Kaffee, 1954 yılında Almanya'da kurulan ve "uyumlu kahve" (der harmonische Kaffee) sloganıyla Alman kahve kültüründe kendine sağlam bir yer edinen klasik ve geleneksel bir Alman kahve markasıdır. Kurucusu Hermann Onko'nun vizyonuyla, özellikle hassas mideye sahip, yumuşak içimli ve düşük asiditeli kahve arayan tüketiciler için özel olarak harmanlanmış ve formüle edilmiştir. Marka, yıllar içinde kalitesinden ve özgün karakterinden ödün vermeden geleneksel lezzetini korumayı başarmış ve Alman tüketiciler arasında güvenilir bir isim haline gelmiştir.
+   
+  Marka, Jacobs Douwe Egberts (JDE) bünyesine katıldıktan sonra da özgün kimliğini ve pazar konumunu sürdürmüş, Almanya pazarındaki sadık müşteri kitlesine hitap etmeye devam etmiştir. Filtre kahve severler için dengeli, yumuşak ve uyumlu bir içim deneyimi sunan Onko, JDE Peet's grubunun yerel markalar portföyünün önemli bir parçası olarak varlığını sürdürmektedir. Özellikle orta ve ileri yaş tüketiciler arasında nostaljik değeri olan ve geleneksel Alman kahve kültürünü temsil eden markalardan biridir.`,
+         country: "Almanya",
+         website: "",
+         img: "/onko.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur", "mehmet-efendi"],
+        },
+        {
+         name: "Douwe Egberts",
+         slug: "douwe-egberts",
+         ctgry: "İçecek",
+         foundedYear: 1753,
+         founder: "Egbert Douwes",
+         owner: "JDE Peet's NV",
+         description: `Douwe Egberts, 1753 yılında Hollanda'nın Joure kasabasında Egbert Douwes ve eşi Akke Thijsses tarafından kurulan küçük bir bakkal dükkanıyla temelleri atılan, dünyanın en eski ve en köklü kahve markalarından biridir. 270 yılı aşkın tecrübesiyle Hollanda kahve kültürünün mimarı ve öncüsü sayılan marka, ikonik "kırmızı mühür" (rode zegel) logosuyla kalite, güven ve geleneği temsil etmektedir. Hollanda Kraliyet Ailesi'nin resmi kahve tedarikçisi unvanını da taşıyan marka, bu prestijli statüsünü yüzyıllar boyunca sürdürmüştür.
+   
+  Zamanla küresel bir dev markaya dönüşen Douwe Egberts, zengin aromalı filtre kahveleri, özenle seçilmiş çekirdek kahveleri ve Senseo gibi yenilikçi kahve sistemleriyle tanınmaktadır. Marka, geleneksel Hollanda usulü yumuşak ve dengeli kavurma tekniğiyle dünya genelinde ayırt edici bir lezzet profili sunmaktadır. JDE Peet's şirketinin ismindeki "DE" kısaltmasını oluşturan ve grubun en köklü, en prestijli varlığı olan Douwe Egberts, dünya genelinde milyonlarca kahveseverin sabah ritüelinin vazgeçilmez parçasıdır. Özellikle Avrupa pazarında güçlü bir pazar payına sahip olan marka, sürdürülebilir kahve üretimi ve sorumlu tedarik zinciri konusunda da öncü projeler yürütmektedir.`,
+         country: "Almanya",
+         website: "https://www.jacobsdouweegberts.com/",
+         img: "/douwe-egberts.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur", "mehmet-efendi"],
+        },
+        {
+         name: "Gevalia",
+         slug: "gevalia",
+         ctgry: "İçecek",
+         foundedYear: 1853,
+         founder: "Victor Theodor Engwall",
+         owner: "JDE Peet's NV",
+         description: `Gevalia, 1853 yılında İsveç'in Gävle kentinde Victor Theodor Engwall tarafından kurulan ve İsveç Kraliyet Sarayı'nın resmi kahve tedarikçisi unvanına sahip prestijli bir İskandinav kahve markasıdır. Marka adı, kuruluş yeri olan Gävle kentinin Latince isminden (Gevalium) türetilmiştir. 170 yılı aşkın geçmişiyle İsveç kahve geleneğini yansıtan ve bu geleneği dünya çapında temsil eden öncü markalardan biridir.
+   
+  İsveç kahve kültürünün temel özelliklerini taşıyan Gevalia, özellikle yumuşak, dengeli ve rafine lezzet profiline sahip premium kalite harmanlarıyla tanınmaktadır. Marka, İskandinavya'nın ünlü "fika" (kahve molası) kültürünün vazgeçilmez parçası haline gelmiş ve bu kültürel geleneği global pazara taşımıştır. Özenle seçilmiş Arabica çekirdekleri ve özel kavurma teknikleriyle hazırlanan kahveleri, hem geleneksel filtre kahve hem de modern kapsül ve instant formatlarda sunulmaktadır. Özellikle Kuzey Amerika ve Avrupa pazarlarında güçlü bir premium marka konumlandırmasına sahip olan Gevalia, kaliteli ve sofistike kahve deneyimi arayan tüketicilerin tercihidir.`,
+         country: "Almanya",
+         img: "/gevalia.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur", "mehmet-efendi"],
+        },
+        {
+         name: "JDE Jacobs",
+         slug: "jde-jacobs",
+         ctgry: "İçecek",
+         foundedYear: 1895,
+         founder: "Johann Jacobs",
+         owner: "JDE Peet's NV",
+         description: `Jacobs, 1895 yılında Bremen, Almanya'da Johann Jacobs tarafından kurulan ve "Jacobs Krönung" harmanıyla dünya çapında tanınan, Alman kahve kültürünün en ikonik markalarından biridir. Kurucusu Johann Jacobs, kahve ticaretine küçük bir dükkânda başlamış ve kalite odaklı vizyonuyla markayı kısa sürede Avrupa'nın önde gelen kahve isimlerinden biri haline getirmiştir. "Wunderbar" (harika/mükemmel) sloganıyla tanınan marka, nesiller boyu Alman evlerinin vazgeçilmez kahvesi olmuştur.
+   
+  Alman kahve kültürünün sembol isimlerinden biri olan Jacobs, özenle seçilmiş yüksek kalite çekirdekler ve titizlikle geliştirilmiş özel kavurma teknikleriyle bilinmektedir. Özellikle "Jacobs Krönung" (Jacobs Taç) harmanı, dengeli aroması, yumuşak içimi ve uzun yıllardır değişmeyen karakteristik lezzetiyle milyonlarca tüketicinin favorisidir. Marka, filtre kahveden instant kahveye, çekirdek kahveden kapsül sistemlerine kadar geniş bir ürün yelpazesi sunmaktadır. JDE Peet's bünyesinde global bir marka haline gelmesine rağmen, Alman kimliğini ve geleneksel değerlerini korumaya özen göstermektedir. Avrupa genelinde, özellikle Almanya, Avusturya ve Orta Avrupa ülkelerinde pazar lideri konumundadır.`,
+         country: "Almanya",
+         website: "https://www.jacobscoffee.com.tr/",
+         img: "/jde-jacobs.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        },
+        {
+         name: "Pilao",
+         slug: "pilao",
+         ctgry: "İçecek",
+         foundedYear: 1978,
+         founder: "Yerel Brezilya Girişimciler",
+         owner: "JDE Peet's NV",
+         description: `Pilão, 1978 yılında Brezilya'da kurulan ve geleneksel Brezilya kahve kültürünü otantik bir şekilde yansıtan yerel kökenli bir markadır. Portekizce'de "havan" anlamına gelen Pilão ismi, geleneksel kahve hazırlama yöntemlerine ve Brezilya'nın köklü kahve mirası geleneğine atıfta bulunmaktadır. Marka, Brezilya'nın zengin kahve topraklarından elde edilen yüksek kaliteli çekirdeklerle hazırlanan güçlü, yoğun ve karakteristik harmanlarıyla tanınmaktadır.
+   
+  Özellikle Latin Amerika pazarında güçlü bir konuma sahip olan Pilão, geleneksel Brezilya usulü koyu kavrulmuş kahve (cafézinho) kültürünün önemli temsilcilerinden biridir. Marka, yoğun aroması, güçlü tadı ve uzun süren lezzet profiliyle Brezilya tüketicilerinin günlük hayatının vazgeçilmez parçası haline gelmiştir. Filtre kahve ve geleneksel demlik kahve formatlarında sunulan ürünleriyle, özellikle orta ve alt gelir gruplarına hitap eden erişilebilir premium segment bir markadır. JDE Peet's tarafından satın alındıktan sonra da yerel kimliğini ve otantik Brezilya karakterini korumaya devam etmektedir.`,
+         country: "Almanya",
+         website: "https://www.pilao.com.br/",
+         img: "/pilao.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        },
+        {
+         name: "Peets Coffee",
+         slug: "peets",
+         ctgry: "İçecek",
+         foundedYear: 1966,
+         founder: "Alfred Peet",
+         owner: "JDE Peet's NV",
+         description: `Peet's Coffee, 1966 yılında Kaliforniya, Berkeley'de Alfred Peet tarafından kurulan ve modern Amerikan "specialty coffee" (özel kahve) hareketinin öncüsü ve kurucusu olarak kabul edilen efsanevi bir kahve markasıdır. Hollandalı göçmen Alfred Peet, Avrupa'dan getirdiği kalite standartlarını ve koyu kavurma geleneğini Amerika'ya tanıtan ilk isimlerden biri olmuş ve Amerikan kahve kültürünü kökten değiştirmiştir. İlginç bir tarihsel not olarak, Starbucks'ın kurucuları Jerry Baldwin, Gordon Bowker ve Zev Siegl, Peet's Coffee'den ilham almış ve ilk yıllarında Peet's'ten çekirdek satın almışlardır.
+   
+  Koyu kavrulmuş (dark roast) taze çekirdekleri, zengin ve yoğun aroması, kompleks lezzet profili ve el emeği özenle hazırlanan harmanlarıyla tanınan Peet's Coffee, "craft coffee" (zanaatkâr kahve) konseptinin öncülerindendir. Marka, özellikle West Coast specialty coffee kültürünün vazgeçilmez parçası haline gelmiş ve kahve tutkunları arasında kült bir statüye erişmiştir. Arabica çekirdek seçimi, küçük lot kavrumları ve single-origin (tek köken) kahveleriyle premium segment müşterilere hitap etmektedir. JDE Peet's şirketinin ismindeki "Peet's" kısaltması, bu markaya verilen önemi ve prestiji göstermektedir. Marka, Amerika genelinde kahve dükkanları zinciri, online satış ve market kanallarıyla geniş bir dağıtım ağına sahiptir.`,
+         country: "Almanya",
+         website: "https://www.jdepeets.com/",
+         img: "/peets.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        },
+        {
+         name: "Moccona",
+         slug: "moccona",
+         ctgry: "İçecek",
+         foundedYear: 1753,
+         founder: "Douwe Egberts",
+         owner: "JDE Peet's NV",
+         description: `Moccona, Douwe Egberts kökenli olup özellikle Avustralya, Yeni Zelanda ve Asya-Pasifik pazarlarında son derece güçlü bir pazar konumuna ve marka sadakatine sahip olan prestijli bir kahve markasıdır. Marka adı, Yemen'in ünlü kahve limanı Mocha ile İtalyanca "iyi" anlamına gelen "buona" kelimelerinin birleşiminden türetilmiştir. 1960'lı yıllardan bu yana özellikle Avustralya'da kahve kültürünün şekillenmesinde önemli rol oynamış ve "Avustralya'nın sevdiği kahve" sloganıyla tanınmıştır.
+       
+  Freeze-dried (dondurarak kurutulmuş) instant kahve teknolojisinin öncülerinden olan Moccona, bu ileri üretim tekniğiyle taze kahvenin aromasını ve lezzetini instant formatta en iyi şekilde koruyan markalardan biri olarak kabul edilmektedir. Pratik kullanım ve kaliteli lezzet dengesini mükemmel şekilde sunan marka, hem instant kahve hem de çekirdek kahve kategorilerinde geniş bir ürün yelpazesine sahiptir. Classic Medium Roast, Classic Dark Roast, Indulgence (premium segment) ve Continental Gold gibi farklı harmanlarıyla çeşitli damak zevklerine hitap etmektedir. Özellikle Avustralya ve Yeni Zelanda'da pazar lideri konumundadır ve bu bölgelerde kahve denilince akla gelen ilk markalardan biridir.`,
+         country: "Almanya",
+         website: "https://www.moccona.com.au/",
+         img: "/moccona.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        },
+        {
+         name: "L'OR",
+         slug: "lor",
+         ctgry: "İçecek",
+         foundedYear: 1992,
+         founder: "JDE Peet's NV",
+         owner: "JDE Peet's NV",
+         description: `L'OR, 1992 yılında premium kahve kapsülü segmentinde lüks ve sofistike bir alternatif olarak konumlandırılan yüksek kalite kahve markasıdır. Fransızca "altın" anlamına gelen ismiyle, marka kimliğinde premium konumlandırma, kalite ve mükemmellik vurgusu taşımaktadır. Altın renkli ambalaj tasarımı ve şık, modern estetik anlayışıyla görsel olarak da lüks segment bir kahve deneyimi sunmayı hedeflemektedir.
+       
+  Yüksek kaliteli Arabica harmanları, özel seçilmiş tek köken (single-origin) kahveler ve master blender'lar tarafından titizlikle hazırlanmış espresso harmanlarıyla öne çıkan L'OR, özellikle Nespresso uyumlu kapsülleriyle tanınmaktadır. Marka, alüminyum kapsül teknolojisi kullanarak kahvenin aromasını ve tazeliğini maksimum düzeyde korumayı başarmaktadır. L'OR Espresso, L'OR Barista ve L'OR Sublime gibi farklı ürün serileriyle espresso, lungo, ristretto ve diğer kahve çeşitlerinde geniş bir yelpaze sunmaktadır. Ayrıca yoğunluk skalası (1-10 arası) ile tüketicilerin kendi damak zevklerine uygun kahveyi seçmelerini kolaylaştırmaktadır. Premium fiyatlandırma stratejisiyle üst-orta ve üst gelir grubu tüketicilere hitap eden marka, özellikle Avrupa pazarında güçlü bir konuma sahiptir.`,
+         country: "Almanya",
+         website: "https://www.lorespresso.com/en_gb",
+         img: "/lor.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        },
+        {
+         name: "Senseo",
+         slug: "senseos",
+         ctgry: "İçecek",
+         foundedYear: 2001,
+         founder: "Philips ve Douwe Egberts",
+         owner: "JDE Peet's NV",
+         description: `Senseo, 2001 yılında Hollandalı elektronik devi Philips ve kahve devi Douwe Egberts'in stratejik ortak girişimiyle (joint venture) geliştirilen yenilikçi kahve ped sistemi ve markasıdır. Sistem, kahve hazırlama sürecini radikal bir şekilde basitleştirmeyi hedefleyerek "tek tuşla taze kahve" konseptini pazara sunmuş ve özellikle pratiklik arayan tüketiciler arasında büyük başarı kazanmıştır. Philips'in teknoloji ve cihaz uzmanlığı ile Douwe Egberts'in kahve bilgisinin birleştiği bu proje, kahve endüstrisinde bir dönüm noktası olmuştur.
+       
+  Özel olarak tasarlanmış yumuşak kahve pedleri (coffee pods) ve basınçlı su sistemi kullanan Senseo makineleri, 30-60 saniye gibi çok kısa sürede kremsi bir kahve hazırlama imkanı sunmaktadır. Crema plus teknolojisi sayesinde, evde barista kalitesinde kremalı kahve deneyimi yaşatmayı vaat etmektedir. Sistem, özellikle Avrupa pazarında, Hollanda, Belçika, Almanya ve Fransa gibi ülkelerde büyük popülerlik kazanmıştır. Senseo kahve pedleri, Original, Dark Roast, Mild, Decaf ve çeşitli aromalı kahve seçenekleriyle geniş bir ürün yelpazesi sunmaktadır. Kullanım kolaylığı, hızlı hazırlık süresi ve uygun fiyatlandırma stratejisiyle özellikle evlerde ve küçük ofislerde yaygın olarak tercih edilmektedir.`,
+         country: "Almanya",
+         website: "https://www.senseo.us/",
+         img: "/senseos.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        },
+        {
+         name: "Pickwick",
+         slug: "pickwick",
+         ctgry: "İçecek",
+         foundedYear: 1753,
+         founder: "Yerel Hollanda Girişimciler",
+         owner: "JDE Peet's NV",
+         description: `Pickwick, Douwe Egberts kökenli olup Hollanda'nın en eski, en köklü ve en sevilen çay markalarından biridir. 18. yüzyıldan bu yana Hollanda çay kültürünün şekillenmesinde önemli rol oynamış ve nesiller boyu Hollandalı tüketicilerin günlük hayatının vazgeçilmez parçası olmuştur. Marka adı, Charles Dickens'ın ünlü romanı "The Pickwick Papers"dan ilham alınarak seçilmiş ve bu edebiyat bağlantısı markanın kültürel kimliğine derinlik kazandırmıştır.
+       
+  Geniş çay çeşitleri portföyü ve özellikle poşet çay formatındaki inovasyon ve kalitesiyle tanınan Pickwick, siyah çay, yeşil çay, beyaz çay, meyve çayları ve bitki çayları (herbal tea) gibi zengin bir ürün yelpazesi sunmaktadır. Marka, özellikle meyve çayları ve aromalı çay koleksiyonlarıyla bilinmekte ve her damak zevkine hitap eden onlarca farklı varyant sunmaktadır. Pickwick Slow Tea serisi, premium segment tea lover'lar için özel olarak tasarlanmış, geniş yapraklı ve özenle seçilmiş çay harmanlarını içermektedir. Özellikle Benelüks ülkelerinde (Hollanda, Belçika, Lüksemburg) pazar lideri konumunda olan marka, yüksek kalite standartları ve uygun fiyatlandırma stratejisiyle geniş bir tüketici kitlesine ulaşmaktadır.`,
+         country: "Almanya",
+         website: "https://www.pickwicktea.com/",
+         img: "/pickwick.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["didi", "dogus", "ofcay", "caykur", "teatone"],
+        },
+        {
+         name: "Kenco Coffee",
+         slug: "kenco",
+         ctgry: "İçecek",
+         foundedYear: 1923,
+         founder: "Kenya Coffee Company",
+         owner: "JDE Peet's NV",
+         description: `Kenco, 1923 yılında Kenya Coffee Company adıyla kurulan ve İngiltere pazarında lider konumda olan köklü bir kahve markasıdır. Marka adı, Kenya Coffee'nin kısaltmasından türetilmiştir. Zengin Afrika kökenli kahve harmanlarıyla tanınan ve özellikle Kenya yüksek yaylalarından gelen kaliteli Arabica çekirdekleriyle hazırlanan ürünleriyle bilinmektedir. Neredeyse bir asırlık geçmişiyle İngiliz kahve kültürünün önemli bir parçası haline gelmiş ve İngiliz evlerinin vazgeçilmez kahvelerinden biri olmuştur.
+       
+  Instant kahve ve filtre kahve çeşitleriyle İngiliz tüketicilere hitap eden Kenco, Really Rich, Smooth, Decaf ve Millicano gibi farklı ürün serileriyle geniş bir portföye sahiptir. Özellikle instant kahve kategorisinde İngiltere'nin en çok tercih edilen markalarından biridir. Marka, sürdürülebilir kahve üretimi konusunda da öncü projeler yürütmekte ve Rainforest Alliance sertifikalı kahve çekirdekleri kullanımıyla çevre ve sosyal sorumluluk konusunda hassasiyet göstermektedir. JDE Peet's bünyesine katıldıktan sonra da İngiliz kimliğini ve yerel pazar liderliğini korumaya devam etmektedir.`,
+         country: "Almanya",
+         website: "https://www.kenco.co.uk/",
+         img: "/kenco.png",
+         isBoycotted: "boykot",
+         boycottReason: `Bu ürün, Almanya kökenli JAB Holding'e ait çok uluslu bir yabancı sermaye yapısının parçasıdır. Türkiye'deki yerel üreticilerin pazar payını sistematik olarak daraltmakta, elde ettiği karları yurt dışına transfer etmekte ve ülke ekonomisinden sürekli değer çıkarmaktadır. Ulusal ekonominin güçlenmesi, yerli istihdamın korunması ve ekonomik bağımsızlığın sağlanması adına, bu tür devasa yabancı sermaye yapılarının ürünleri yerine sermayesi %100 ülke içinde kalan yerli kahve ve çay markalarının tercih edilmesi büyük önem taşımaktadır. Tüketicilerin bilinçli tercihleriyle yerli üretime yönelmesi, hem ulusal sermayenin güçlenmesine hem de yerel üretim kapasitesinin artmasına doğrudan katkı sağlayacaktır.`,
+         alternative_products: ["dogus", "ofcay", "caykur"],
+        }
+       ],
+      },
+      {
+       name: "Caribou Coffee",
+       slug: "caribou",
+       foundedYear: 1992,
+       founder: "John Puckett",
+       owner: "JAB Holdings",
+       description: `Caribou Coffee, 1992 yılında John Puckett tarafından Amerika Birleşik Devletleri'nin Minnesota eyaletinde kurulan ve dünyanın önde gelen kahve zincirlerinden biridir. Marka, başlangıçta küçük bir kahve dükkanı olarak faaliyet gösterirken, hızlı bir büyüme kaydederek dünya çapında binlerce şubeye ulaşmıştır.
+    
+    Caribou Coffee, özellikle premium kahve deneyimi sunmakta ve specialty coffee (özel kahve) kategorisinde faaliyet göstermektedir. Marka, özenle seçilmiş kahve çekirdeklerini kullanmakta, farklı kavurma profilleri sunmakta ve geniş bir menü ile müşterilerine hizmet vermektedir. Caribou Coffee, espresso bazlı içeceklerden filtre kahvelere, soğuk kahve çeşitlerinden özel harmanlara kadar geniş bir yelpazede ürün sunmaktadır.
+    
+    Marka, 2012 yılında JAB Holdings tarafından satın alınmıştır. JAB Holdings, dünyanın en büyük kahve şirketlerinden biridir ve Caribou Coffee'nin yanı sıra Peet's Coffee, Keurig Dr Pepper ve diğer önemli kahve markalarına da sahiptir. Bu satın alma, Caribou Coffee'nin global genişlemesini hızlandırmıştır.
+    
+    Caribou Coffee şubeleri, sıcak ve samimi atmosferleriyle dikkat çekmektedir. Her şube, rahat bir ortam sunmakta ve müşterilere hem bireysel hem de grup kullanımına uygun alanlar sağlamaktadır. Ayrıca, pastane ürünleri, sandviçler ve hafif yemek seçenekleriyle de kapsamlı bir deneyim sunmaktadır.
+    
+    Marka, özellikle Kuzey Amerika pazarında güçlü bir konuma sahiptir. Caribou Coffee, Amerika Birleşik Devletleri ve Kanada'da binlerce şubeye sahiptir ve bu pazarlarda önemli bir pazar payına sahiptir. Ayrıca, dünya çapında birçok ülkede de aktif olarak faaliyet göstermektedir.
+    
+    Caribou Coffee, kalite ve tutarlılığa büyük önem vermektedir. Marka, tüm şubelerinde aynı kalite standartlarını uygulamakta ve müşterilere her zaman aynı lezzet garantisini sunmaktadır. Bu yaklaşım, markanın güvenilirliğini ve popülerliğini artırmaktadır.
+    
+    Ancak, Caribou Coffee markası, JAB Holdings tarafından yönetilen ve İsrail'deki projelere destek verdiği bildirilen bir zincirdir. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu bağlantılar sebebiyle boykot listelerine girmiştir ve Caribou Coffee ürünlerinin satın alınması önerilmemektedir.`,
+       country: "ABD",
+       website: "https://www.cariboucoffee.com.tr/",
+       img: "/caribou.png",
+       isBoycotted: "boykot",
+       boycottReason: "Caribou Coffee markası, JAB Holdings tarafından yönetilen bir kahve zinciridir. JAB Holdings'in İsrail'deki projelere verdiği destek iddiaları ve İsrail'e verdiği destekler nedeniyle, JAB Holdings bünyesindeki tüm markalar boykot kapsamına alınmıştır. JAB Holdings'in İsrail'deki faaliyetleri ve İsrail'e verdiği destekler, İsrail'in Filistin topraklarındaki işgal politikalarına dolaylı olarak destek sağlamaktadır. Bu nedenle, JAB Holdings'e ait tüm markaların ürünlerinin satın alınması önerilmemektedir. Caribou Coffee markası da bu kapsamda boykot listesinde yer almaktadır.",
+       alternative_products: ["cafex", "mahmood", "obsesso", "gold-cup", "artukbey-kahve", "osso", "misswell", "kurukahveci-mehmet-efendi", "kocatepe"],
+      },
      ],
     },
    ],
